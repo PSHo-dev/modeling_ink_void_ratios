@@ -1,0 +1,152 @@
+{
+  "source_summary": "Chinese blue-green ink landscape with layered rocky mountains, pine-covered ridges, misty water, small dwellings, bridges, foreground trees, and a few tiny figures. Calligraphy and red seals are present but excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_blue_green_mountain",
+      "description": "Isolate the large central mountain mass rising behind the midground: rounded peaks, overlapping rocky slopes, dark tree-dot clusters along the ridges, and pale blue-green mineral washes. Exclude all overprinted red seal marks and nearby calligraphy from the extraction.",
+      "bbox": [
+        0.32,
+        0.23,
+        0.46,
+        0.32
+      ],
+      "role": "dominant central mountain",
+      "must_preserve": [
+        "arched contour lines and layered ridge outlines",
+        "hemp-fiber texture strokes on the rock faces",
+        "blue-green wash with gray ink modulation",
+        "dense black foliage dots along crests and saddles",
+        "soft pale mist gaps at the lower mountain edges"
+      ]
+    },
+    {
+      "name": "left_craggy_hill_cluster",
+      "description": "Isolate the left midground rocky hill group with jagged gray-blue peaks, a small distant blue peak behind, dark shrub patches, and layered sloping rocks. Avoid the red seals on the far left and any unrelated foreground buildings.",
+      "bbox": [
+        0.1,
+        0.36,
+        0.27,
+        0.23
+      ],
+      "role": "left midground hills",
+      "must_preserve": [
+        "angular rock outlines and fissure strokes",
+        "cool blue-gray wash on the distant peak",
+        "dark ink tree clusters perched on ridge tops",
+        "broken dry-brush texture on the crags",
+        "pale mist separation between distant and nearer hills"
+      ]
+    },
+    {
+      "name": "right_vertical_ravine_hills",
+      "description": "Isolate the right midground hills: two vertical rocky ridges framing a ravine, with dark dotted pines and shrubs on the crests and a pale open valley below. Exclude nearby red seal impressions on the right edge.",
+      "bbox": [
+        0.67,
+        0.35,
+        0.27,
+        0.27
+      ],
+      "role": "right rocky ravine",
+      "must_preserve": [
+        "upright contour strokes defining steep rock faces",
+        "black foliage-dot clusters on the ridge tops",
+        "blue-green and gray wash variations",
+        "narrow pale ravine opening between the ridges",
+        "dry-brush rock texture at the lower slopes"
+      ]
+    },
+    {
+      "name": "midground_misty_water_basin",
+      "description": "Isolate the pale horizontal water or mist basin running across the middle of the painting, bordered by rocky banks and low shrub lines. Include the faint rippling ink lines and soft banks, but exclude adjacent mountain masses as much as possible.",
+      "bbox": [
+        0.3,
+        0.52,
+        0.58,
+        0.17
+      ],
+      "role": "misty water surface",
+      "must_preserve": [
+        "very light ink ripple lines",
+        "soft irregular mist edges",
+        "low rocky shoreline strokes",
+        "small dark shrub accents along the banks",
+        "subtle blue-gray wash transitions"
+      ]
+    },
+    {
+      "name": "left_hillside_pavilion_group",
+      "description": "Isolate the small pavilion and dwelling cluster on the left hillside, including tiled roofs nestled among rocks and pines, with the adjacent path and shrubs. Exclude the large red seal above and unrelated mountain mass behind.",
+      "bbox": [
+        0.0,
+        0.58,
+        0.29,
+        0.19
+      ],
+      "role": "village pavilion cluster",
+      "must_preserve": [
+        "thin roof eave linework and tiled roof geometry",
+        "small tan wall accents beneath roofs",
+        "dark pine and shrub dots around the buildings",
+        "rock ledges supporting the structures",
+        "layered ink outlines of the hillside path"
+      ]
+    },
+    {
+      "name": "foreground_left_pine_figures",
+      "description": "Isolate the lower-left foreground grove with tall pines, layered rocks, a small bridge or railing segment, and the tiny dark scholar figures walking near the base. Keep only the grove, figures, and immediate rocky ground.",
+      "bbox": [
+        0.01,
+        0.72,
+        0.33,
+        0.22
+      ],
+      "role": "foreground pine grove with figures",
+      "must_preserve": [
+        "needle-like pine clusters and branching trunks",
+        "tiny dark standing figures at the foot of the slope",
+        "low bridge or railing linework",
+        "foreground rock texture and contour strokes",
+        "blue-green wash on shaded stones"
+      ]
+    },
+    {
+      "name": "central_foreground_tree_island",
+      "description": "Isolate the central foreground island-like mound with several upright trees, dense leafy crowns, exposed trunks, shrubs, and surrounding low rocks. Exclude neighboring houses and distant hills.",
+      "bbox": [
+        0.35,
+        0.69,
+        0.3,
+        0.24
+      ],
+      "role": "foreground tree and rock island",
+      "must_preserve": [
+        "individual tree trunks and forked branches",
+        "dense black and gray leaf clusters",
+        "rounded shrub-dot textures",
+        "low rock outlines at the base",
+        "subtle blue-green wash around roots and stones"
+      ]
+    },
+    {
+      "name": "lower_right_bridge_garden",
+      "description": "Isolate the lower-right garden scene with a small roofed structure, a narrow bridge or walkway, bare willow-like branches, pink flowering tree accents, low rocks, and surrounding shrubs.",
+      "bbox": [
+        0.61,
+        0.76,
+        0.36,
+        0.16
+      ],
+      "role": "garden bridge and pavilion",
+      "must_preserve": [
+        "fine bridge and railing linework",
+        "small sloped roof geometry",
+        "pink blossom wash accents",
+        "bare curving willow branches",
+        "dark shrub masses and low rock contours"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 05 Nelson Atkins.jpg",
+  "created_at": "2026-09-03T20:29:51.386423+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

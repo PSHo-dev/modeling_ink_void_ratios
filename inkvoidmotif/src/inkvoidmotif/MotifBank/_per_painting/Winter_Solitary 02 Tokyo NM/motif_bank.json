@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 02 Tokyo NM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:09:22.067585+00:00",
+  "motifs": [
+    {
+      "name": "distant_low_mountain_ridge",
+      "description": "Isolate the thin, far background ridge of low mountains and shoreline running across the upper-left to upper-middle horizon, excluding the denser settlement details at far right.",
+      "bbox": [
+        0.0,
+        0.158,
+        0.72,
+        0.055
+      ],
+      "role": "distant mountain and horizon",
+      "must_preserve": [
+        "delicate wavering contour lines of the low hills",
+        "pale ink wash inside the ridge forms",
+        "thin horizontal shoreline strokes",
+        "subtle layered silhouettes suggesting recession through mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_low_mountain_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "far_right_shore_settlement",
+      "description": "Isolate the compact far-right shoreline cluster with low hills, small dark tree marks, roof-like strokes, bank contours, and bridge-like arcs along the distant shore.",
+      "bbox": [
+        0.57,
+        0.16,
+        0.43,
+        0.085
+      ],
+      "role": "distant village shoreline",
+      "must_preserve": [
+        "tiny clustered dot-and-line tree marks",
+        "angular roof and bank geometry",
+        "arched bridge-like strokes near the right edge",
+        "overlapping pale hill washes behind the shore",
+        "fine broken ink lines indicating paths and embankments"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_far_right_shore_settlement.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_left_clifftop_tree",
+      "description": "Isolate the wind-bent tree and leafy clifftop projection in the upper-left foreground, including the leaning trunk, sparse crown, dark rock lip, and surrounding foliage washes.",
+      "bbox": [
+        0.0,
+        0.245,
+        0.34,
+        0.25
+      ],
+      "role": "foreground tree and cliff ledge",
+      "must_preserve": [
+        "leaning trunk contour with abrupt bends",
+        "spattered leaf clusters in light and dark ink",
+        "dark horizontal rock ledge beneath the foliage",
+        "ragged dry-brush edges of the canopy",
+        "pale wash suggesting cliff mass behind the tree"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_left_clifftop_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pale_cliff_face",
+      "description": "Isolate the tall pale cliff face descending from the upper-left ledge into the center, including its vertical wash, dark side contours, rootlike branches, and attached shrubs, but excluding the seal at far left.",
+      "bbox": [
+        0.18,
+        0.31,
+        0.27,
+        0.35
+      ],
+      "role": "foreground cliff face and rock wash",
+      "must_preserve": [
+        "soft vertical ink wash on the pale cliff surface",
+        "dark irregular contour line along the cliff edge",
+        "rootlike branch tracery crossing the ledge",
+        "small shrubs rendered with dry broken strokes",
+        "misty, uneven transition between rock and open water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_pale_cliff_face.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_gnarled_pine_mass",
+      "description": "Isolate the dense central mass of gnarled pine branches and rocky texture spreading diagonally across the middle foreground, separate from the far-right bough and lower-left base.",
+      "bbox": [
+        0.13,
+        0.49,
+        0.45,
+        0.31
+      ],
+      "role": "foreground pine and rock mass",
+      "must_preserve": [
+        "thick black twisting branch lines",
+        "short angular pine-needle clusters",
+        "dry-brush rock creases and cracks",
+        "layered gray-brown wash under the branches",
+        "ragged negative spaces between limbs and foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_gnarled_pine_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_cliff_base",
+      "description": "Isolate the lower-left rooted cliff base with heavy dark ink, exposed trunk-like rock forms, tangled roots, and scrub at the foot of the large foreground structure.",
+      "bbox": [
+        0.0,
+        0.69,
+        0.32,
+        0.3
+      ],
+      "role": "foreground rock base and roots",
+      "must_preserve": [
+        "bold saturated black root and trunk strokes",
+        "vertical rock-face wash with darker pooling at the base",
+        "jagged dry-brush cracks",
+        "small wiry shrubs along the lower edge",
+        "irregular silhouette of the cliff foot"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_cliff_base.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_overhanging_pine_bough",
+      "description": "Isolate the large horizontal pine bough extending from the central crag toward the right, with clustered needles, angular twigs, and dark knotted branch joints.",
+      "bbox": [
+        0.45,
+        0.54,
+        0.4,
+        0.25
+      ],
+      "role": "overhanging pine branch",
+      "must_preserve": [
+        "sweeping horizontal branch structure",
+        "dense black pine-needle tufts",
+        "angular twig network at the tips",
+        "knotted dark ink accents along the limb",
+        "light wash patches behind and within the foliage masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_overhanging_pine_bough.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "fishing_boat_with_fisherman",
+      "description": "Isolate the small boat at lower right with the seated fisherman or scholar figure, canopy or bundled cargo, mast-like vertical pole, curved hull, and trailing line on the water.",
+      "bbox": [
+        0.5,
+        0.795,
+        0.42,
+        0.115
+      ],
+      "role": "boat and figure",
+      "must_preserve": [
+        "curved narrow hull outline",
+        "seated figure with straw-hat-like head and robe strokes",
+        "small cargo or canopy texture in the boat",
+        "single vertical pole or mast line",
+        "fine trailing fishing line and sparse water strokes around the bow and stern"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_fishing_boat_with_fisherman.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

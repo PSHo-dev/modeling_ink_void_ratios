@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 11 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:18:28.003910+00:00",
+  "motifs": [
+    {
+      "name": "distant_hills_shoreline",
+      "description": "Isolate the low horizontal band of distant mountains and shoreline across the left and middle distance, including the pale waterline that tapers toward the right.",
+      "bbox": [
+        0,
+        0.345,
+        0.82,
+        0.055
+      ],
+      "role": "distant mountain and shoreline",
+      "must_preserve": [
+        "soft gray ink wash forming layered low hills",
+        "dry-brush horizontal shoreline strokes",
+        "small dark angular peaks at far left",
+        "thin receding waterline toward the right",
+        "subtle tonal gradation separating land from blank water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_hills_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_cliff_pines",
+      "description": "Isolate the upper portion of the steep right-hand cliff with clustered dark pine-like foliage along its rim and face.",
+      "bbox": [
+        0.808,
+        0.138,
+        0.192,
+        0.235
+      ],
+      "role": "upper cliff and pine foliage",
+      "must_preserve": [
+        "vertical rocky cliff contour at the right edge",
+        "angular ink texture strokes on the rock face",
+        "dense stippled dark foliage along the upper ridge",
+        "dry-brush gray wash inside rock planes",
+        "irregular broken edge where cliff meets the blank sky"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_right_cliff_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "flowering_branch_canopy",
+      "description": "Isolate the spreading canopy of the flowering tree, including the left sweeping branch, upper central branching, and rightward twig network with red-orange blossoms.",
+      "bbox": [
+        0.18,
+        0.335,
+        0.74,
+        0.22
+      ],
+      "role": "flowering tree canopy",
+      "must_preserve": [
+        "fine branching black ink linework",
+        "small red-orange blossom dots and clusters",
+        "pale leaf washes around some blossoms",
+        "asymmetrical leftward sweeping branch silhouette",
+        "delicate twig endings and sparse open spacing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_flowering_branch_canopy.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_shore",
+      "description": "Isolate the large foreground rock mass on the lower right, including its boulders, ledges, root base, and dark shrub clusters, but not the boat.",
+      "bbox": [
+        0.285,
+        0.61,
+        0.715,
+        0.3
+      ],
+      "role": "foreground rocks and shore",
+      "must_preserve": [
+        "large pale gray boulder faces with dry-brush texture",
+        "dark ink cracks and angular rock contours",
+        "dense black shrub clusters around the tree base",
+        "stepped ledges descending toward the water",
+        "small detached stones at the water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_rocky_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "skiff_two_figures",
+      "description": "Isolate the narrow skiff at lower left with two seated figures, including the long hull, slight bow and stern lift, and tiny colored head accents.",
+      "bbox": [
+        0.105,
+        0.783,
+        0.35,
+        0.04
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "thin elongated boat hull drawn in dark ink",
+        "upturned pointed ends of the skiff",
+        "two small seated human figures",
+        "tiny reddish head or cap accents",
+        "simple oar or body-line gestures inside the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_skiff_two_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "calm_lower_water",
+      "description": "Isolate the quiet lower water surface around the boat and foreground shore, including horizontal washes, ripples, reflections, and small stones, while excluding solid rock masses and the skiff if used separately.",
+      "bbox": [
+        0.065,
+        0.815,
+        0.88,
+        0.12
+      ],
+      "role": "water surface and ripples",
+      "must_preserve": [
+        "pale horizontal gray wash bands",
+        "thin ink ripple lines near the shore",
+        "soft reflection-like strokes below the boat area",
+        "small scattered stone marks in the lower water",
+        "subtle fading edges that dissolve into blank paper"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_calm_lower_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

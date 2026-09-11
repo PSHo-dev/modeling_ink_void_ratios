@@ -1,0 +1,94 @@
+{
+  "source": "../../../../../../Input_Images/Spring 14 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:48:19.057563+00:00",
+  "motifs": [
+    {
+      "name": "left_monumental_mountain",
+      "description": "Isolate the large craggy mountain mass at the far upper left, including its steep rounded ridges, dark contour strokes, pale mineral washes, clustered evergreen texture on the slopes, and the tiny red-accent building tucked near the upper ridge. Exclude the lower village roofs and lakeshore structures.",
+      "bbox": [
+        0.0,
+        0.0,
+        0.18,
+        0.35
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "bold layered contour linework on the mountain folds",
+        "dry-brush wrinkle texture and ink wash gradients",
+        "dark tree-dot clusters along the ridges",
+        "small red architectural accent near the upper slope",
+        "soft misty transition at the lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_monumental_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_shore_village_bridge",
+      "description": "Isolate the waterside village and arched bridge on the left shore below the mountain: low tiled-roof houses, a pale bridge crossing a narrow inlet, clustered trees, rocky banks, and horizontal water lines around the settlement.",
+      "bbox": [
+        0.0,
+        0.26,
+        0.23,
+        0.6
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "angular grey roof geometry",
+        "fine house wall linework",
+        "arched bridge profile and supports",
+        "tree trunks and dotted foliage around the buildings",
+        "rocky shoreline strokes and thin water ripples"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_shore_village_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midleft_willow_shore_figure",
+      "description": "Isolate the mid-left low shoreline with rounded willow-like trees, sandy bank, scattered rocks, a small red-robed figure or rider on the path, and nearby low huts partly hidden by foliage.",
+      "bbox": [
+        0.17,
+        0.38,
+        0.24,
+        0.31
+      ],
+      "role": "shoreline with figure",
+      "must_preserve": [
+        "rounded willow foliage washes",
+        "fine drooping branch lines",
+        "small red figure accent on the path",
+        "low hut roof lines behind trees",
+        "broken rock strokes and thin horizontal water marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midleft_willow_shore_figure.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mountain_waterfall_grove",
+      "description": "Isolate the great mountain mass on the right with its sweeping vertical folds, pale waterfall or misty cleft, wooded lower slopes, and small buildings nestled below the cliff. Do not include the red seals or calligraphy on the far right margin.",
+      "bbox": [
+        0.69,
+        0.0,
+        0.23,
+        0.63
+      ],
+      "role": "mountain and waterfall backdrop",
+      "must_preserve": [
+        "broad arcing mountain contour strokes",
+        "dry-brush texture on rounded ridges",
+        "pale waterfall or mist streak descending the cliff",
+        "dark clustered foliage at the mountain base",
+        "small roof forms nestled under the rock face"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_mountain_waterfall_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

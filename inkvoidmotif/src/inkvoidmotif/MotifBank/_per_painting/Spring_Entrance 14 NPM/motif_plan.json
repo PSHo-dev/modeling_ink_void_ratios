@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with layered spring mountains, misty water, small architectural clusters, bridges, rocky shores, and foreground pines rendered in ink linework with pale ochre and green washes. Calligraphy, seals, borders, and paper texture are excluded from motif selection.",
+  "motifs": [
+    {
+      "name": "central_spring_mountain",
+      "description": "The large central mountain mass rising behind the lake, including its rounded summit, layered ridges, gullies, scrubby tree bands, dark conifer dots, and pale ochre-green washes. Isolate the mountain form and attached wooded slopes, excluding the calligraphy at upper left and seals at upper right.",
+      "bbox": [
+        0.235,
+        0.065,
+        0.395,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "rounded summit silhouette with broken ink contour lines",
+        "layered cun-style rock texture and dry-brush striations",
+        "dark dotted conifer clusters along ridgelines",
+        "pale ochre and green wash transitions",
+        "small mist-softened gaps between ridges"
+      ]
+    },
+    {
+      "name": "right_misty_peaks",
+      "description": "The distant mountain chain on the upper right, with pale peaks emerging from white mist and a low dark ridge line crossing the water. Isolate the atmospheric peaks and cloud-water edges without including the red seals.",
+      "bbox": [
+        0.61,
+        0.125,
+        0.36,
+        0.18
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "soft gray-green wash peaks",
+        "faded mist edges around mountain bases",
+        "low dark ink ridge silhouettes",
+        "subtle layered distance recession",
+        "open white cloud-water spaces"
+      ]
+    },
+    {
+      "name": "midground_lakeside_hamlet",
+      "description": "Small buildings and pavilions nestled among trees on the central-to-right midground shore, including rooflines, groves, footpaths, nearby low hills, and small waterside details. Exclude the larger foreground pine grove.",
+      "bbox": [
+        0.43,
+        0.205,
+        0.4,
+        0.225
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny angular roof geometry",
+        "fine vertical tree trunks and dotted foliage",
+        "thin shoreline and path linework",
+        "rocky hill texture around the houses",
+        "light ochre washes on banks and slopes"
+      ]
+    },
+    {
+      "name": "central_lake_mist_surface",
+      "description": "The broad open lake and mist field occupying the middle-left of the painting, with horizontal water washes, faint shorelines, and blank atmospheric space between foreground and distant hills. Isolate only the water and mist surface, avoiding surrounding cliffs and buildings as much as possible.",
+      "bbox": [
+        0.02,
+        0.245,
+        0.51,
+        0.275
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "horizontal pale ink wash bands",
+        "soft disappearing shoreline strokes",
+        "large reserved blank water areas",
+        "misty transitions into distant banks",
+        "subtle ochre staining along water edges"
+      ]
+    },
+    {
+      "name": "left_cliff_lone_pine",
+      "description": "The left mid-foreground rocky promontory with a single leaning pine growing from its top edge, including the cliff face, dark moss dots, root-like lines, and pine needles. Exclude the nearby hut to the right.",
+      "bbox": [
+        0.0,
+        0.365,
+        0.19,
+        0.245
+      ],
+      "role": "foreground rock and pine",
+      "must_preserve": [
+        "leaning pine trunk and spreading needle clusters",
+        "jagged cliff outline",
+        "dark moss-dot texture down the rock face",
+        "dry-brush rock wrinkles",
+        "pale ochre wash on the stone ledges"
+      ]
+    },
+    {
+      "name": "rock_sheltered_hut",
+      "description": "A small hut or pavilion tucked between boulders in the lower-middle left, with a simple pitched roof, posts, enclosing rocks, bamboo-like stalks, and nearby shrubs. Keep the architecture and immediate rocky shelter only.",
+      "bbox": [
+        0.175,
+        0.515,
+        0.235,
+        0.18
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin angular roof outline",
+        "short vertical support posts",
+        "surrounding rounded boulder contours",
+        "slender bamboo or reed strokes behind the hut",
+        "small dark foliage dots and pale ground wash"
+      ]
+    },
+    {
+      "name": "arched_bridge_stream",
+      "description": "The low arched bridge crossing a narrow stream in the lower center, including bridge railings, support posts, stream banks, nearby rocks, and sparse grasses. Exclude the tall foreground pines to the right except where their edges overlap minimally.",
+      "bbox": [
+        0.36,
+        0.705,
+        0.265,
+        0.13
+      ],
+      "role": "bridge and stream",
+      "must_preserve": [
+        "curved bridge deck and fine rail lines",
+        "vertical bridge supports reflected in water",
+        "ink-outlined stream banks",
+        "small rounded rocks at both ends",
+        "delicate grass and shrub strokes along the water"
+      ]
+    },
+    {
+      "name": "right_foreground_pine_grove",
+      "description": "The prominent right foreground grove of tall pines growing on steep textured hillsides, including the pale trunks, branching structure, dense needle clusters, surrounding moss-dotted slopes, and adjacent rock faces. Isolate the tree grove and supporting hillside, avoiding the lower red seal.",
+      "bbox": [
+        0.485,
+        0.495,
+        0.395,
+        0.365
+      ],
+      "role": "foreground pines and hillside",
+      "must_preserve": [
+        "tall pale pine trunks with dark contour lines",
+        "radiating needle clusters on layered branches",
+        "dense moss-dot patterns on the slopes",
+        "steep rock face texture and contour strokes",
+        "ochre-green washes separating hills, trunks, and foliage"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 14 NPM.jpg",
+  "created_at": "2026-07-16T23:26:54.599076+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

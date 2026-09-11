@@ -1,0 +1,144 @@
+{
+  "source_summary": "Vertical Chinese landscape with layered ink-and-color mountains, misty water flats, a small boat, pine groves, pavilion, bridge, rocky foreground, and distant blue-green hills. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_mass",
+      "description": "Isolate the tall upper-left mountain formation with rounded vertical peaks, pale green-gray washes, dark moss-dot ridgelines, and soft mist at the base; exclude nearby red seals and empty sky.",
+      "bbox": [
+        0.105,
+        0.118,
+        0.485,
+        0.235
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "arched contour linework running down the cliff faces",
+        "granular dark moss dots along upper ridges and foothills",
+        "soft green-gray wash texture",
+        "mist-softened lower edges where the mountain meets the water plain"
+      ]
+    },
+    {
+      "name": "distant_right_blue_hills",
+      "description": "Isolate the far right low mountain range across the water, including the pale blue-green triangular peaks and faint horizontal shoreline washes; exclude red seals at the far right.",
+      "bbox": [
+        0.555,
+        0.228,
+        0.365,
+        0.07
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "thin pale ridge outlines",
+        "blue-green color accents on the main right peak",
+        "faint layered wash suggesting receding distance",
+        "soft horizontal mist transitions at the base"
+      ]
+    },
+    {
+      "name": "misty_water_flats",
+      "description": "Isolate the central river and sandbar surface with horizontal ink-wash bands, small vegetated islands, and mist gaps between upper mountains and lower cliffs.",
+      "bbox": [
+        0.11,
+        0.29,
+        0.77,
+        0.155
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "long horizontal gray wash strokes",
+        "broken dotted vegetation patches on sandbars",
+        "blank mist openings separating landforms",
+        "subtle shoreline curves and soft fading edges"
+      ]
+    },
+    {
+      "name": "mid_left_cliff_fir_grove",
+      "description": "Isolate the mid-left rocky cliff ledge topped with a dense stand of straight fir-like trees and shrub textures; include the sloping rock face below but not the boat or central water.",
+      "bbox": [
+        0.0,
+        0.435,
+        0.455,
+        0.145
+      ],
+      "role": "middle-ground cliff and trees",
+      "must_preserve": [
+        "vertical dark tree trunks and fine needle marks",
+        "dense stippled shrub band along the ridge",
+        "rounded cliff contour lines and pale mineral washes",
+        "dark shadow accents at the cliff base"
+      ]
+    },
+    {
+      "name": "river_boat_with_figures",
+      "description": "Isolate the small boat on the central water with low roofed cabin, plank deck, and tiny blue-accented figures; keep only the boat, its occupants, and immediate faint water marks.",
+      "bbox": [
+        0.315,
+        0.442,
+        0.275,
+        0.04
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "woven dark roof texture on the cabin",
+        "straight deck and hull linework",
+        "tiny standing and seated scholar/boatman figures",
+        "small blue-green color accents on clothing and cabin details"
+      ]
+    },
+    {
+      "name": "central_windswept_pines",
+      "description": "Isolate the large middle pine group with sweeping horizontal branches, clustered needle tufts, pale trunks, and rocky support forms; avoid the pavilion below and bridge to the right.",
+      "bbox": [
+        0.0,
+        0.515,
+        0.83,
+        0.255
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "radiating pine needle clusters at branch tips",
+        "sinuous branching structure crossing the center",
+        "pale textured trunks with dark bark spots",
+        "rock contours and sparse grass strokes directly supporting the trees"
+      ]
+    },
+    {
+      "name": "lower_left_pavilion_group",
+      "description": "Isolate the small pavilion and terrace tucked among trees in the lower-left valley, including its roof, posts, railings, lattice windows, and immediate bank vegetation.",
+      "bbox": [
+        0.105,
+        0.742,
+        0.27,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angular tiled roof geometry",
+        "fine post, railing, and lattice window linework",
+        "tiny blue-green interior figure/accent",
+        "surrounding grasses and tree trunks framing the building"
+      ]
+    },
+    {
+      "name": "lower_right_bridge_stream",
+      "description": "Isolate the small rustic bridge crossing the lower-right stream with adjacent grassy banks and rounded rocks; exclude the large right hillside and nearby calligraphy.",
+      "bbox": [
+        0.61,
+        0.8,
+        0.305,
+        0.075
+      ],
+      "role": "bridge and stream",
+      "must_preserve": [
+        "thin bridge planks and support lines",
+        "curving stream-edge wash",
+        "short grass strokes along both banks",
+        "small rounded rock forms beside the crossing"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 10 NPM.jpg",
+  "created_at": "2026-06-25T00:20:09.611391+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

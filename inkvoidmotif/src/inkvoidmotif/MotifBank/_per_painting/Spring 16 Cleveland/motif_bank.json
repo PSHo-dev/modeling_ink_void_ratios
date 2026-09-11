@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Spring 16 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:50:13.362288+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_mist_cliff",
+      "description": "Isolate the pale upper-left cliff mass emerging from mist, with jagged crest, vertical rock faces, sparse dark vegetation dots, and soft wash fading into the central void.",
+      "bbox": [
+        0.0,
+        0.095,
+        0.285,
+        0.31
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "broken ink contour lines along the cliff rim",
+        "pale ochre wash on the rock planes",
+        "vertical fissure strokes and faint interior texture",
+        "scattered dark shrub dots on ridges",
+        "soft mist-dissolved lower and right edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_mist_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_canyon_peaks",
+      "description": "Isolate the high right-side mountain and canyon group, including the flat-topped peak, descending ravine walls, layered shoulders, and dark dotted ridge vegetation, excluding the nearby inscription area.",
+      "bbox": [
+        0.45,
+        0.095,
+        0.445,
+        0.34
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "steep angular cliff outlines",
+        "warm ochre wash and lighter exposed planes",
+        "threadlike vertical crack lines",
+        "black moss dots along ridgelines and ledges",
+        "stepped ravine geometry and mist-softened gaps"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_right_canyon_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pavilion_cluster",
+      "description": "Isolate the small multi-roof pavilion compound tucked in the central ravine, with tiered roofs partially hidden by bare trees and surrounding rock ledges.",
+      "bbox": [
+        0.315,
+        0.338,
+        0.235,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked roof geometry with upturned eaves",
+        "fine parallel roof-line strokes",
+        "pale wall forms behind the trees",
+        "leafless branch silhouettes crossing the buildings",
+        "adjacent ledge contours that anchor the compound"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_pavilion_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_mountain_path_and_bare_trees",
+      "description": "Isolate the horizontal mid-level rocky path and ledge system spanning the central mountainside, with twisting bare trees, dark ridge dots, and ochre rock shelves.",
+      "bbox": [
+        0.22,
+        0.385,
+        0.56,
+        0.16
+      ],
+      "role": "hillside path",
+      "must_preserve": [
+        "sinuous ledge contour lines",
+        "dark stippled moss marks along the path edge",
+        "gnarled leafless tree branches",
+        "layered ochre washes on the shelves",
+        "fine rock fissures and broken ink texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_mountain_path_and_bare_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_pine_grove",
+      "description": "Isolate the dense foreground pine grove rising from rocky ledges on the lower right and center, with multiple trunks, clustered needle canopies, and ochre-highlighted bark.",
+      "bbox": [
+        0.285,
+        0.535,
+        0.6,
+        0.33
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "dark radiating pine-needle clusters",
+        "twisting trunks with patterned bark lines",
+        "overlapping branch structure",
+        "warm brown and ochre trunk accents",
+        "rock bases interwoven with roots and shrubs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_rocky_promontory_path",
+      "description": "Isolate the lower foreground rocky promontory and winding path beneath the pines, including rounded boulders, cliff edges, and small dark moss accents.",
+      "bbox": [
+        0.245,
+        0.815,
+        0.745,
+        0.145
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded boulder contours",
+        "broken ink texture and crack lines",
+        "ochre path wash following the ledge",
+        "dark moss dots on rock crests",
+        "stepped cliff edge and layered stone planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_rocky_promontory_path.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

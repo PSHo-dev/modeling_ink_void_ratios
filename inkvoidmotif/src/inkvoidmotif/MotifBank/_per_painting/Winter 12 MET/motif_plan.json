@@ -1,0 +1,151 @@
+{
+  "source_summary": "Horizontal ink-and-light-color Chinese landscape with misty pale mountains, rocky terraces, leafless trees, pine groves, a pavilion cluster, bridges, and layered cliffs. Calligraphy, seal, borders, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "misty_left_peak_cluster",
+      "description": "Isolate the pale distant mountain range on the left half: several soft triangular peaks rising through gray-green mist behind the foreground rocks, including the tall central-left peak and smaller adjacent peaks, but excluding the inscription and seal above.",
+      "bbox": [
+        0.0,
+        0.21,
+        0.39,
+        0.36
+      ],
+      "role": "distant mountain backdrop",
+      "must_preserve": [
+        "faint gray ink outlines along peak ridges",
+        "soft pale interior washes with nearly unpainted summit faces",
+        "misty gray-green atmospheric wash around the bases",
+        "subtle overlapping silhouettes of the smaller rear peaks"
+      ]
+    },
+    {
+      "name": "left_rocky_bank_with_shrubs",
+      "description": "Isolate the left foreground rocky embankment with layered stone ledges, rounded boulders, and small dark shrubs perched on the bank beneath the distant peaks.",
+      "bbox": [
+        0.0,
+        0.43,
+        0.34,
+        0.31
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "horizontal ledge linework across the bank",
+        "dry-brush rock texture and mottled gray wash",
+        "small clustered shrub strokes on the upper ledge",
+        "rounded boulder contours at the lower edge",
+        "soft transition into surrounding mist"
+      ]
+    },
+    {
+      "name": "central_leafless_trees_boulders",
+      "description": "Isolate the central foreground group of bare trees growing among rounded rocks: dark forked trunks, fine branch networks, and clustered boulders at their base.",
+      "bbox": [
+        0.27,
+        0.45,
+        0.23,
+        0.39
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "dark ink trunks with tapering forked branches",
+        "fine twig linework spreading left and right",
+        "rounded boulder outlines and dry-brush shading",
+        "gray wash texture in the rock masses",
+        "contrast between black tree silhouettes and pale stones"
+      ]
+    },
+    {
+      "name": "middle_cliff_bamboo_terrace",
+      "description": "Isolate the middle elevated rocky terrace near the center-right, with flat cliff-top ledges, layered rock faces, sparse bamboo and leafless tree stems along the rim.",
+      "bbox": [
+        0.4,
+        0.25,
+        0.31,
+        0.28
+      ],
+      "role": "middle-ground cliff terrace with vegetation",
+      "must_preserve": [
+        "flat horizontal terrace contour",
+        "broken dry-brush cliff-face strokes",
+        "thin vertical bamboo stems and twig clusters",
+        "dark ink accents along the ledge edge",
+        "pale wash on the terrace top and mottled rock shadows"
+      ]
+    },
+    {
+      "name": "upper_right_mountain_massif",
+      "description": "Isolate the large upper-right mountain massif: overlapping steep pale peaks with dark textured ridgelines and vertical creases, excluding the lower pavilion and pine grove.",
+      "bbox": [
+        0.54,
+        0.05,
+        0.35,
+        0.42
+      ],
+      "role": "dominant background mountains",
+      "must_preserve": [
+        "dark dotted ridge texture near the summits",
+        "long vertical dry-brush striations down the slopes",
+        "overlapping peak geometry",
+        "pale unpainted mountain faces",
+        "soft gray wash around the mountain edges"
+      ]
+    },
+    {
+      "name": "pine_sheltered_pavilion_cluster",
+      "description": "Isolate the small pavilion and house cluster nestled among tall pines in the lower right middle ground, including the multi-tier sloping roofs and surrounding straight pine trunks.",
+      "bbox": [
+        0.62,
+        0.48,
+        0.22,
+        0.15
+      ],
+      "role": "village pavilion group",
+      "must_preserve": [
+        "angular sloping roof geometry",
+        "thin architectural linework for walls and eaves",
+        "tall vertical pine trunks around the buildings",
+        "short stacked pine-needle strokes with blue-green accents",
+        "pale ground ledge beneath the structures"
+      ]
+    },
+    {
+      "name": "stone_bridge_over_gorge",
+      "description": "Isolate the small arched stone bridge and narrow gorge below the middle-right terrace, including the curved bridge line, path-like ledge, and rock walls around it.",
+      "bbox": [
+        0.5,
+        0.54,
+        0.17,
+        0.2
+      ],
+      "role": "bridge and ravine passage",
+      "must_preserve": [
+        "delicate arched bridge contour",
+        "thin path lines leading toward the bridge",
+        "vertical rock wall strokes beneath the ledge",
+        "dry-brush shading in the gorge",
+        "small dark ink accents defining the bridge opening"
+      ]
+    },
+    {
+      "name": "right_foreground_willow_rocks",
+      "description": "Isolate the lower-right foreground riverbank-like mass with drooping willow branches, tangled dark brush, rounded rocks, and the pale sloping bank beneath.",
+      "bbox": [
+        0.57,
+        0.68,
+        0.42,
+        0.27
+      ],
+      "role": "foreground willow, shrubs, and rocks",
+      "must_preserve": [
+        "arching willow limbs with many drooping branchlets",
+        "dense dark tangled brush strokes",
+        "rounded boulders with gray wash shading",
+        "pale bank contour sweeping across the bottom",
+        "blue-green wash accents on the nearby evergreen strokes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 12 MET.jpg",
+  "created_at": "2026-06-25T00:22:42.114568+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

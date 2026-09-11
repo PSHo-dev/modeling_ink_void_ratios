@@ -1,0 +1,152 @@
+{
+  "source": "../../../../../../Input_Images/Spring 29 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:39:34.295001+00:00",
+  "motifs": [
+    {
+      "name": "blue_distant_mountain",
+      "description": "Isolate the upper-left blue mountain mass with its flattened peak, dark indigo crown, and soft descending wash edges; exclude calligraphy and the separate foreground flower bank.",
+      "bbox": [
+        0,
+        0.175,
+        0.665,
+        0.18
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "dark blue ridge silhouette",
+        "granular mineral-wash texture",
+        "soft feathered lower mist edge",
+        "subtle tonal transition from dark peak to pale foot"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_blue_distant_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_reed_shoreline",
+      "description": "Isolate the low band of distant blue-gray shoreline or reeds across the left-middle water area, formed by short broken brush dabs and soft smudges.",
+      "bbox": [
+        0,
+        0.375,
+        0.355,
+        0.055
+      ],
+      "role": "distant shoreline",
+      "must_preserve": [
+        "broken horizontal reed strokes",
+        "pale blue-gray wash",
+        "ragged clustered brush tips",
+        "misty gaps between strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_distant_reed_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "pale_lake_horizon_lines",
+      "description": "Isolate the faint gray horizontal lake and far-bank lines behind the boats, including thin wavering strokes and pale washes; exclude the sailboats, flowers, calligraphy, and seals.",
+      "bbox": [
+        0.63,
+        0.38,
+        0.31,
+        0.13
+      ],
+      "role": "water",
+      "must_preserve": [
+        "delicate gray horizontal linework",
+        "subtle wavering water contours",
+        "light wash haze",
+        "thin receding shoreline marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_pale_lake_horizon_lines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "paired_brown_sailboats",
+      "description": "Isolate the two small brown sailboats near the center-right, including their triangular hull-and-sail silhouettes and thin upright masts; exclude surrounding foliage and water lines where possible.",
+      "bbox": [
+        0.51,
+        0.435,
+        0.16,
+        0.18
+      ],
+      "role": "boats",
+      "must_preserve": [
+        "warm brown wash",
+        "angular sail geometry",
+        "thin vertical mast strokes",
+        "soft bleeding edges at hulls"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_paired_brown_sailboats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_blossom_thicket",
+      "description": "Isolate the dense flowering thicket at the right edge, with dark green-black foliage masses, red blossoms, yellow-green accents, and soft overlapping washes; exclude calligraphy and lower seal.",
+      "bbox": [
+        0.68,
+        0.385,
+        0.32,
+        0.255
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "saturated red flower blooms",
+        "dark ink-green foliage pools",
+        "yellow and blue-green color accents",
+        "soft wet edges and clustered dabs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_blossom_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_dark_flower_bank",
+      "description": "Isolate the central diagonal embankment of mixed dark foliage and blossoms, including black pine-like strokes, blue-green washes, and red-pink flower clusters.",
+      "bbox": [
+        0.18,
+        0.555,
+        0.585,
+        0.27
+      ],
+      "role": "foreground embankment",
+      "must_preserve": [
+        "diagonal compositional sweep",
+        "black dry-brush foliage strokes",
+        "red and pink flower dabs",
+        "blue-green layered wash texture",
+        "soft color bleeding between clusters"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_central_dark_flower_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_blossom_bank",
+      "description": "Isolate the lower-left continuation of the blossoming bank, with pale pink flowers, muted green leaves, yellow accents, and scattered dark brush marks along the diagonal slope.",
+      "bbox": [
+        0,
+        0.675,
+        0.315,
+        0.225
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "pale pink blossom clusters",
+        "muted green leaf washes",
+        "small yellow color accents",
+        "irregular wet-on-paper edges",
+        "dark anchoring brush dabs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_left_blossom_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source_summary": "Misty ink landscape with tall distant peaks above a river-and-village foreground. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "faint_left_background_peak",
+      "description": "Isolate the pale, mist-softened vertical mountain silhouette behind the main peak on the upper left, including only its translucent ink wash and blurred summit contour.",
+      "bbox": [
+        0.17,
+        0.14,
+        0.18,
+        0.26
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "very light gray wash",
+        "soft feathered mountain edge",
+        "nearly blank mist-filled interior",
+        "subtle darker base fading into surrounding haze"
+      ]
+    },
+    {
+      "name": "dark_central_misty_peak",
+      "description": "Isolate the dominant dark central peak with a rounded summit, steep sides, and diagonal pale mist band cutting across its face.",
+      "bbox": [
+        0.25,
+        0.2,
+        0.34,
+        0.28
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "dense charcoal ink crown",
+        "dry-brush stippled texture along both ridges",
+        "diagonal reserve of pale mist across the slope",
+        "graduated wash fading at the lower foot",
+        "ragged ink edges"
+      ]
+    },
+    {
+      "name": "right_overlapping_mountain_chain",
+      "description": "Isolate the overlapping smaller peaks and sloping ridges to the right of the central mountain, including the saddle, dark crests, and receding misty base.",
+      "bbox": [
+        0.45,
+        0.31,
+        0.45,
+        0.18
+      ],
+      "role": "distant mountain chain",
+      "must_preserve": [
+        "layered peak silhouettes",
+        "dark dry-brush crest marks",
+        "soft gray interior washes",
+        "mist-softened lower edges",
+        "rightward tapering ridge shape"
+      ]
+    },
+    {
+      "name": "left_riverside_hamlet_trees",
+      "description": "Isolate the left foreground riverside hamlet: two low houses with slanted roofs tucked among tall trees and bamboo-like trunks beside the shore.",
+      "bbox": [
+        0.0,
+        0.6,
+        0.31,
+        0.15
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "thin roof line geometry",
+        "small wall outlines",
+        "clustered vertical tree trunks",
+        "loose bamboo-like leaf strokes",
+        "dark ink mass at far-left foliage",
+        "pale shoreline wash beneath the buildings"
+      ]
+    },
+    {
+      "name": "middle_lake_tree_belt",
+      "description": "Isolate the midground lake edge with a horizontal belt of pale trees, small wooded clumps, low banks, and calm water openings behind the village.",
+      "bbox": [
+        0.2,
+        0.59,
+        0.62,
+        0.13
+      ],
+      "role": "midground water and trees",
+      "must_preserve": [
+        "soft horizontal water washes",
+        "pale receding tree silhouettes",
+        "thin vertical trunks",
+        "small dark foliage crowns",
+        "low island-like bank shapes",
+        "misty gaps between tree groups"
+      ]
+    },
+    {
+      "name": "narrow_stream_footbridge",
+      "description": "Isolate the small narrow footbridge spanning the stream in the lower middle-left, with tiny vertical supports and adjacent pale banks.",
+      "bbox": [
+        0.13,
+        0.72,
+        0.34,
+        0.05
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "single thin horizontal bridge line",
+        "tiny dark support strokes",
+        "small upright marks at the crossing",
+        "pale water reserve around the bridge",
+        "soft muddy bank washes"
+      ]
+    },
+    {
+      "name": "right_pine_grove_pavilion",
+      "description": "Isolate the right foreground grove and pavilion: dense dark pines leaning over a small roofed structure on the bank, with adjacent pale tree trunks and hillside wash.",
+      "bbox": [
+        0.43,
+        0.65,
+        0.48,
+        0.18
+      ],
+      "role": "foreground pavilion and pines",
+      "must_preserve": [
+        "dark layered pine-needle clusters",
+        "slanted clustered trunks",
+        "small pavilion roof triangle and wall lines",
+        "contrast between dark grove and pale background trees",
+        "soft gray hillside wash",
+        "dry-brush foliage edges"
+      ]
+    },
+    {
+      "name": "foreground_water_rocks_shore",
+      "description": "Isolate the lower foreground water surface and shoreline rocks below the right grove, including horizontal ripples, low gray banks, and rounded stones.",
+      "bbox": [
+        0.3,
+        0.8,
+        0.58,
+        0.1
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "thin horizontal ripple strokes",
+        "soft pale water wash",
+        "rounded ink-washed rocks",
+        "low shoreline contour",
+        "dry-brush bank texture",
+        "subtle dark accents at rock bases"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 12 NPM.jpg",
+  "created_at": "2026-09-03T20:10:17.750116+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

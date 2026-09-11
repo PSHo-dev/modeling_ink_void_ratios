@@ -1,0 +1,167 @@
+{
+  "source": "../../../../../../Input_Images/Winter 27 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:26:45.260753+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_layered_cliffs",
+      "description": "Isolate the large upper-left mountain mass with rounded peaks, arching cliff faces, dark blue-green washes, stippled rock edges, and the leafy overhanging brush canopy crossing the top ridge.",
+      "bbox": [
+        0.0,
+        0.07,
+        0.48,
+        0.36
+      ],
+      "role": "mountain backdrop",
+      "must_preserve": [
+        "rounded ochre peak silhouettes",
+        "blue-green mineral wash on shaded cliff faces",
+        "black ink contour lines along rock edges",
+        "dense stippled texture at cliff seams",
+        "fine twig-and-leaf linework across the upper ridge",
+        "horizontal ledge lines and pale mist openings within the rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_layered_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_needle_peak_pine_slope",
+      "description": "Isolate the narrow central rock pinnacle and adjoining sloped hill with a compact stand of vertical pines, including the pale cliff face and dark dotted texture along the ravine edge.",
+      "bbox": [
+        0.43,
+        0.25,
+        0.17,
+        0.31
+      ],
+      "role": "central mountain peak",
+      "must_preserve": [
+        "tall pale needle-like rock silhouette",
+        "dark ink outlines on both cliff edges",
+        "green-blue shaded ravine washes",
+        "small vertical pine trunks and needle clusters",
+        "stippled moss dots along the rock margins",
+        "soft transition into the lower slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_needle_peak_pine_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_ravine_pavilions",
+      "description": "Isolate the small pavilion cluster tucked in the central ravine, with layered roofs, tiny railings, surrounding dark trees, and the enclosing cliff walls immediately around it.",
+      "bbox": [
+        0.3,
+        0.37,
+        0.18,
+        0.12
+      ],
+      "role": "distant pavilion group",
+      "must_preserve": [
+        "miniature tiled roof geometry",
+        "stacked roof eaves and ridge lines",
+        "tiny wall and railing details",
+        "dark tree mass below the buildings",
+        "surrounding vertical cliff washes",
+        "fine ink outlines that separate architecture from rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_hidden_ravine_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_river_sandbars_boats",
+      "description": "Isolate the broad right-side river distance with pale horizontal sandbars, mist-like banks, long low shoreline contours, and the small sailing boats near the middle-right water.",
+      "bbox": [
+        0.55,
+        0.38,
+        0.44,
+        0.16
+      ],
+      "role": "distant water and boats",
+      "must_preserve": [
+        "thin horizontal ink lines marking sandbars",
+        "soft pale ochre riverbank shapes",
+        "misty negative-space water gaps",
+        "small boat hulls and triangular sails",
+        "delicate distant shoreline contours",
+        "subtle layered washes suggesting atmospheric depth"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_distant_river_sandbars_boats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_travelers_path",
+      "description": "Isolate the mid-right rocky riverside path with small traveler figures, a mounted rider or pack animal, attendants, low cliff edge, and surrounding water gaps.",
+      "bbox": [
+        0.66,
+        0.57,
+        0.31,
+        0.13
+      ],
+      "role": "figures on path",
+      "must_preserve": [
+        "tiny human figure linework",
+        "animal legs, head, and saddle/load details",
+        "thin path outline along the river edge",
+        "dark stippling on the low bank",
+        "small rocks and water cutouts around the path",
+        "scale contrast between figures and landscape"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_riverside_travelers_path.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_pavilion_complex",
+      "description": "Isolate the large lower-left multi-story pavilion compound built into the rocks, including curved tiled roofs, railings, columns, windows, decorative ridge ornaments, and the seated scholar visible inside the upper room.",
+      "bbox": [
+        0.07,
+        0.63,
+        0.39,
+        0.25
+      ],
+      "role": "foreground pavilion architecture",
+      "must_preserve": [
+        "layered sweeping roof geometry",
+        "rows of individual roof tiles",
+        "decorative roof-end ornaments",
+        "straight column and railing linework",
+        "window lattice patterns",
+        "interior seated scholar figure",
+        "warm red-brown architectural color accents",
+        "rock base and stair-like foundation immediately supporting the pavilion"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_pavilion_complex.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_tree_bamboo_rocks",
+      "description": "Isolate the lower-center gnarled tree and bamboo thicket over layered rocks, including twisting trunks, fine branch sprays, bamboo leaves, low shrubs, and shaded boulders.",
+      "bbox": [
+        0.32,
+        0.72,
+        0.43,
+        0.24
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "large twisting trunk contours",
+        "fine angular branch linework",
+        "clusters of narrow bamboo leaves",
+        "dense low shrub texture",
+        "rounded boulders with blue-green shadows",
+        "stippled rock edges and moss dots",
+        "interlaced roots crossing the foreground rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_twisted_tree_bamboo_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

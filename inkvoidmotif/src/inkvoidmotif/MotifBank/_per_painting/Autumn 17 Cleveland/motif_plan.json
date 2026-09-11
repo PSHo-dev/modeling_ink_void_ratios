@@ -1,0 +1,155 @@
+{
+  "source_summary": "Vertical ink landscape with inscriptions and seals above/around the painted scene; motif extraction excludes all calligraphy, seals, borders, and paper texture. The reusable painted elements are misty distant mountains, broad water washes, foreground rocks, trees, pavilion, bamboo/shrubs, and a small right-side boat or landing.",
+  "motifs": [
+    {
+      "name": "distant_central_mountain",
+      "description": "Isolate the main distant mountain massif across the upper middle: the high central peak, adjacent right ridges, pale side slopes, darker dotted tree line along the base, and soft foothill washes.",
+      "bbox": [
+        0.365,
+        0.335,
+        0.54,
+        0.115
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale ink contour lines on the peak",
+        "vertical and diagonal wrinkle strokes on slopes",
+        "soft grey wash transitions",
+        "dark clustered foliage dots at the mountain foot",
+        "mist-softened right ridge edges"
+      ]
+    },
+    {
+      "name": "distant_left_hill_range",
+      "description": "Isolate the lower left distant hills and shoreline: shallow layered peaks, low sloping ridges, faint horizontal shore bands, and the small dark tree-dot path rising toward the central foothills.",
+      "bbox": [
+        0.0,
+        0.345,
+        0.45,
+        0.095
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "thin wavering ridge outlines",
+        "light grey graded washes",
+        "horizontal waterline strokes below the hills",
+        "scattered black dots marking distant trees",
+        "misty separation between overlapping hill layers"
+      ]
+    },
+    {
+      "name": "middle_lake_wash",
+      "description": "Isolate the broad middle water surface beneath the mountains, keeping only the open horizontal ink washes and faint shoreline bands, without the foreground trees or buildings.",
+      "bbox": [
+        0.0,
+        0.415,
+        1.0,
+        0.14
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "long pale horizontal brushstrokes",
+        "soft uneven wash bands",
+        "subtle darker shore streaks near the mountain base",
+        "blank misty water gaps",
+        "feathered edges where water meets distant land"
+      ]
+    },
+    {
+      "name": "left_midground_islet",
+      "description": "Isolate the small dark islet on the left side of the lake: low rocks, clustered shrubs, and a few tiny upright twig-like strokes emerging from the water.",
+      "bbox": [
+        0.0,
+        0.455,
+        0.18,
+        0.065
+      ],
+      "role": "midground islet",
+      "must_preserve": [
+        "compact dark ink rock mass",
+        "rounded shrub-dot clusters",
+        "short sparse vertical twigs",
+        "soft water wash surrounding the islet",
+        "blurred lower reflection-like strokes"
+      ]
+    },
+    {
+      "name": "central_tall_tree_group",
+      "description": "Isolate the dominant foreground tree group: the tall central bare trunk with broken branches, dotted bark texture, the adjacent slender trunk, and the darker drooping-leaf tree beside it.",
+      "bbox": [
+        0.31,
+        0.525,
+        0.34,
+        0.38
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "jagged vertical trunk linework",
+        "dense black bark dots climbing the trunk",
+        "angular bare branches at the top",
+        "thin side branches with sparse leaf dots",
+        "drooping darker leaf clusters on the neighboring tree",
+        "dry-brush grey wash around trunks"
+      ]
+    },
+    {
+      "name": "left_foreground_rock_shrub",
+      "description": "Isolate the large left foreground rock and shrub cluster: rounded boulder forms, dark crevice wash, black moss dots, and leafy shrub stems rising from the rock.",
+      "bbox": [
+        0.0,
+        0.695,
+        0.31,
+        0.245
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "rounded rock contour lines",
+        "cracked interior rock texture",
+        "heavy black wash in the central crevice",
+        "moss-dot clusters along the base",
+        "leafy shrub silhouettes with clustered dark leaves",
+        "small dry-brush accents at the lower edge"
+      ]
+    },
+    {
+      "name": "waterside_pavilion",
+      "description": "Isolate the small waterside pavilion or cottage under the trees: slanted roof, rectangular wall panels, simple post structure, and the faint adjoining covered passage extending to the right.",
+      "bbox": [
+        0.285,
+        0.795,
+        0.37,
+        0.13
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin sloping roof geometry",
+        "pale rectangular wall outlines",
+        "upright support posts",
+        "light interior panel linework",
+        "faint receding roofline of the right-side passage",
+        "soft ink wash tying the building to the bank"
+      ]
+    },
+    {
+      "name": "right_bank_boat_reeds",
+      "description": "Isolate the pale right-side bank with sparse reeds and the small narrow boat or landing: light shrub texture, horizontal plank-like boat strokes, and the small dark bank accents near the water.",
+      "bbox": [
+        0.61,
+        0.805,
+        0.35,
+        0.115
+      ],
+      "role": "shoreline boat and reeds",
+      "must_preserve": [
+        "fine reed and shrub stippling",
+        "faint horizontal shoreline wash",
+        "narrow parallel boat or landing lines",
+        "small dark ink accents at the bank",
+        "misty open space around the forms"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 17 Cleveland.jpg",
+  "created_at": "2026-07-06T06:10:00.390221+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

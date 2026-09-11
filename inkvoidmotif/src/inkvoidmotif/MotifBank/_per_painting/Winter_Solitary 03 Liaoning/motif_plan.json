@@ -1,0 +1,151 @@
+{
+  "source_summary": "Winter-toned Chinese river landscape with pale snow mountains, distant low hills, a right-bank grove, quiet water and sandbars, foreground pines and reeds, plus a covered fishing boat with a seated fisherman. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "snow_mountain_mass",
+      "description": "Isolate the large pale snow-covered mountain mass in the upper right, including the rounded main summit, layered foothill slopes, ink-wash shadows, exposed rock strokes, and small dark conifer dots along ridges.",
+      "bbox": [
+        0.25,
+        0.05,
+        0.75,
+        0.35
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft beige-gray snow washes",
+        "rounded ridge contours",
+        "fine dry-brush rock texture",
+        "dark clustered tree dots on ridgelines",
+        "mist-softened lower slope edges"
+      ]
+    },
+    {
+      "name": "left_distant_hill_chain",
+      "description": "Isolate the low undulating distant hills stretching from the left edge toward center, behind the foreground trees and before the main mountain mass.",
+      "bbox": [
+        0.0,
+        0.25,
+        0.48,
+        0.14
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "pale wash gradations",
+        "soft horizon contours",
+        "overlapping hill silhouettes",
+        "misty transitions between ridges"
+      ]
+    },
+    {
+      "name": "right_bank_winter_grove",
+      "description": "Isolate the grove of bare winter trees on the right middle bank, with the low shoreline mound beneath it and sparse brush texture around the trunks.",
+      "bbox": [
+        0.74,
+        0.26,
+        0.26,
+        0.19
+      ],
+      "role": "riverbank grove",
+      "must_preserve": [
+        "thin vertical trunk linework",
+        "delicate leafless branch tips",
+        "light ink wash on the bank",
+        "small dark shrub accents",
+        "uneven shoreline contour"
+      ]
+    },
+    {
+      "name": "midstream_sandbars",
+      "description": "Isolate the pale horizontal sandbars and shallow-water edges in the middle-right river, including the thin ink outlines and soft washed islands.",
+      "bbox": [
+        0.52,
+        0.39,
+        0.43,
+        0.13
+      ],
+      "role": "water and sandbars",
+      "must_preserve": [
+        "long horizontal brush lines",
+        "pale sandbar washes",
+        "soft broken edges suggesting shallow water",
+        "subtle tonal separation from surrounding river"
+      ]
+    },
+    {
+      "name": "foreground_pine_bare_tree_cluster",
+      "description": "Isolate the large foreground tree cluster at left: twisting pine trunk and branches with blue-green needle clusters, adjacent bare white-branched trees, and dark vertical foliage accents along the base. Exclude the boat and figure visible behind it.",
+      "bbox": [
+        0.0,
+        0.29,
+        0.43,
+        0.68
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "gnarled trunk outlines",
+        "blue-green pine needle rosettes",
+        "white bare branch tracery",
+        "dry-brush bark texture",
+        "dark dotted foliage along lower trunks"
+      ]
+    },
+    {
+      "name": "foreground_reeds_shrubs",
+      "description": "Isolate the low reeds, grasses, and leafy shrubs at the lower left foreground near the water’s edge, separate from the main tree trunks and boat.",
+      "bbox": [
+        0.09,
+        0.77,
+        0.31,
+        0.23
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "thin reed blades",
+        "small drooping leaf clusters",
+        "pale gray-green wash accents",
+        "delicate overlapping plant stems"
+      ]
+    },
+    {
+      "name": "covered_fishing_boat",
+      "description": "Isolate the small wooden fishing boat in the lower center-left, including the curved hull, pointed prow, low woven canopy, and blue cloth or cover at the stern. Exclude the seated fisherman as a separate motif.",
+      "bbox": [
+        0.13,
+        0.53,
+        0.49,
+        0.25
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "curved hull outline",
+        "warm tan wood wash",
+        "woven canopy texture",
+        "angular prow geometry",
+        "blue color accent at the stern",
+        "thin interior plank lines"
+      ]
+    },
+    {
+      "name": "seated_fisherman_with_rod",
+      "description": "Isolate the seated fisherman on the boat, including straw rain cape, round hat, face and beard, folded white trousers, hands, and the short visible fishing rod or line segment projecting to the right. Exclude calligraphy and seals.",
+      "bbox": [
+        0.39,
+        0.51,
+        0.29,
+        0.26
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "straw cape fiber strokes",
+        "round hat outline and wash",
+        "small facial features and dark beard",
+        "folded white trouser shapes",
+        "dark green sleeve accent",
+        "fine fishing line segment"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 03 Liaoning.png",
+  "created_at": "2026-07-23T20:41:56.851077+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

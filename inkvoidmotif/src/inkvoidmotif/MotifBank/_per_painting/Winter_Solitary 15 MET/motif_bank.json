@@ -1,0 +1,116 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 15 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T06:05:59.168342+00:00",
+  "motifs": [
+    {
+      "name": "misty_twin_peaks",
+      "description": "Isolate the large pale mountain mass in the upper center-left: two soft, overlapping peaks rising out of gray mist, with broad diluted ink washes and faint contour modeling. Exclude the calligraphy on the far left and the darker stepped ridge on the right.",
+      "bbox": [
+        0.12,
+        0.11,
+        0.62,
+        0.32
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft feathered mist edges around both peaks",
+        "pale mineral-like wash texture",
+        "subtle gray contour lines on the slopes",
+        "near-blank reserved highlights suggesting snow or fog"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_twin_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_layered_ridge",
+      "description": "Isolate the descending ridge on the upper right, with rounded snow-covered forms, darker contour strokes, and a small dark vegetation band along the saddle. Keep only the ridge and its attached brushwork, not the central pale peak behind it.",
+      "bbox": [
+        0.58,
+        0.23,
+        0.37,
+        0.31
+      ],
+      "role": "mountain ridge",
+      "must_preserve": [
+        "stepped rounded ridge geometry",
+        "dark dry-brush contour lines",
+        "granular ink texture on the crest",
+        "small black shrub and tree-dot band near the saddle",
+        "soft wash transitions into surrounding mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_right_layered_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rock_arch_ravine",
+      "description": "Isolate the central vertical rock formation with a natural arch-like opening and ravine shadow. Include the pale boulder masses, dark vertical crevice, and trees rooted around the opening; avoid the small houses below except where branches overlap the rock.",
+      "bbox": [
+        0.3,
+        0.43,
+        0.39,
+        0.29
+      ],
+      "role": "foreground cliff and ravine",
+      "must_preserve": [
+        "arched negative space through the rock",
+        "dark vertical ink wash inside the ravine",
+        "rounded pale rock highlights",
+        "dry-brush cracks and stippled texture",
+        "thin winter branches crossing the lower rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_rock_arch_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_pavilion_grove",
+      "description": "Isolate the small pavilion/house group tucked among bare trees in the lower middle-left. Include the stacked roof forms, walls, path-like dark strokes, surrounding trunks, and nearby shrubs, without taking the large foreground boulder as the main subject.",
+      "bbox": [
+        0.13,
+        0.67,
+        0.35,
+        0.16
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "small tiered roof geometry",
+        "fine architectural linework",
+        "clustered bare tree trunks and branches",
+        "dark footpath or stream strokes leading inward",
+        "brown-gray color accents around the buildings",
+        "dense ink shrub texture framing the retreat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_hidden_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_misty_water",
+      "description": "Isolate the quiet lower-right water surface and shoreline: horizontal ink bands, pale mist strips, sparse overhanging branches, reeds, and faint warm color accents near the bank. Exclude the red seals at the bottom and the main foreground boulder to the left.",
+      "bbox": [
+        0.55,
+        0.65,
+        0.43,
+        0.29
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "long horizontal water and mist strokes",
+        "soft tonal gradations in the water",
+        "thin leafless branches extending over the bank",
+        "reed-like vertical strokes near the shore",
+        "subtle reddish-brown foliage accents",
+        "open negative space suggesting calm water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_misty_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

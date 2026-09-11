@@ -1,0 +1,142 @@
+{
+  "source": "../../../../../../Input_Images/Summer 05 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:34:05.377165+00:00",
+  "motifs": [
+    {
+      "name": "central_towering_cliff",
+      "description": "Isolate the dominant central mountain mass: a high rounded cliff with layered vertical rock folds, dark ink contour strokes, pale mineral-green and ochre washes, clusters of pines and shrubs growing from ledges, and soft mist fading around the lower right edge. Exclude nearby buildings and separate lower village areas.",
+      "bbox": [
+        0.23,
+        0.13,
+        0.45,
+        0.36
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "long fibrous cun-style rock texture",
+        "dark ridge outlines and crevice lines",
+        "pale green-brown wash transitions",
+        "small white mineral highlights on ledges",
+        "pine clusters and shrub dots embedded in the cliffs",
+        "soft misty lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_towering_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pine_mountain_pass",
+      "description": "Isolate the left-side mountain pass with sweeping pale slopes and a cluster of tall pines leaning across the ravine. Include the narrow trunks, horizontal pine boughs, needle clusters, and the curved washed hillside behind them.",
+      "bbox": [
+        0.0,
+        0.19,
+        0.34,
+        0.17
+      ],
+      "role": "pine ravine",
+      "must_preserve": [
+        "arched pine silhouettes",
+        "fine vertical trunks",
+        "dark needle clusters",
+        "pale sloping wash behind the trees",
+        "curving path-like hillside contour",
+        "soft mist boundary at the ravine"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_pine_mountain_pass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_peak_group",
+      "description": "Isolate the right-side distant and middle-distance peaks emerging from mist: narrow blue-green spires, pale cliff faces, darker textured rocky ridges, and low fog pooling between them. Exclude the central mountain and foreground bridge area.",
+      "bbox": [
+        0.68,
+        0.24,
+        0.32,
+        0.32
+      ],
+      "role": "distant mountains",
+      "must_preserve": [
+        "blue-green distant peak silhouettes",
+        "washed mist gaps between cliffs",
+        "thin ink outlines on ridge tops",
+        "vertical rock texture on nearer crags",
+        "soft fading bases into cloud",
+        "small white highlight flecks on rock ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_misty_peak_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_village_grove",
+      "description": "Isolate the middle-left grove and hidden village cluster on a slope: mixed deciduous trees, pale trunks, clustered small roofs or walls partly concealed by foliage, and the sloping terrain leading upward. Exclude the larger lower courtyards.",
+      "bbox": [
+        0.0,
+        0.35,
+        0.31,
+        0.16
+      ],
+      "role": "village grove",
+      "must_preserve": [
+        "fine branch linework",
+        "varied leaf-dot textures",
+        "small pale architectural hints behind trees",
+        "subtle red and green color accents",
+        "soft ground wash",
+        "overlapping tree trunks at different depths"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_left_village_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "bamboo_scholar_clearing",
+      "description": "Isolate the bamboo grove clearing in the middle right with scholars and attendants around a table. Include the dense vertical bamboo stems, dark leafy canopy, open pale ground, small seated and standing figures, and the simple table setting.",
+      "bbox": [
+        0.52,
+        0.48,
+        0.3,
+        0.15
+      ],
+      "role": "scholar gathering",
+      "must_preserve": [
+        "thin vertical bamboo stalks",
+        "dense dotted bamboo leaves",
+        "tiny figure robes with muted color accents",
+        "rectangular table geometry",
+        "open clearing shape",
+        "mist-softened grove edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_bamboo_scholar_clearing.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bridge_crossing",
+      "description": "Isolate the lower-right arched bridge scene with scholar figures crossing near trees and rocks. Include the rounded bridge arch, railing strokes, stream wash below, flanking trees, figures in muted robes, and rocky banks.",
+      "bbox": [
+        0.66,
+        0.78,
+        0.31,
+        0.14
+      ],
+      "role": "bridge and figures",
+      "must_preserve": [
+        "single rounded bridge arch",
+        "fine railing linework",
+        "small figures with red and pale robe accents",
+        "tree trunks framing the bridge",
+        "textured dark rock banks",
+        "light horizontal water strokes beneath"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_arched_bridge_crossing.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

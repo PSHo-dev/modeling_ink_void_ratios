@@ -1,0 +1,159 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 24 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:25:16.508556+00:00",
+  "motifs": [
+    {
+      "name": "central_towering_peak",
+      "description": "Isolate the dominant central mountain mass: a tall rounded peak with stacked cliff faces, winding ledges, pine clusters, and pale ink-wash modeling. Exclude the calligraphy above/right and the separate foreground trees below.",
+      "bbox": [
+        0.54,
+        0.12,
+        0.25,
+        0.33
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "soft contour linework defining layered rock faces",
+        "vertical and diagonal wash texture on the cliffs",
+        "small dark pine-needle clusters along ridges and ledges",
+        "subtle ocher-gray tonal transitions",
+        "mist-softened lower edge where the mountain dissolves into cloud"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_towering_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_mountain_chain",
+      "description": "Isolate the receding left-side mountain chain with tall vapor-softened peaks, lower ridges, and scattered pine dots on the slopes. Include the pale silhouettes and darker foreground ridges, but exclude seals on the far left margin.",
+      "bbox": [
+        0.0,
+        0.18,
+        0.49,
+        0.31
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "faint ink washes forming distant vertical peaks",
+        "thin contour strokes on nearer ridges",
+        "dark stippled pine clusters",
+        "soft mist gaps between overlapping mountains",
+        "subtle layered atmospheric recession"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_mountain_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cloud_sea",
+      "description": "Isolate the broad horizontal belt of mist and cloud forms across the middle of the painting, including scalloped vapor edges and layered pale washes around the mountain bases. Do not include solid cliffs or tree groups except where cloud contours pass in front of them.",
+      "bbox": [
+        0.0,
+        0.4,
+        0.9,
+        0.16
+      ],
+      "role": "mist and cloud bank",
+      "must_preserve": [
+        "rounded scalloped cloud outlines",
+        "transparent pale ink-wash layering",
+        "soft feathered mist edges",
+        "horizontal rhythm of vapor bands",
+        "gaps where mountains appear partially veiled"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_cloud_sea.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_tree_promontory",
+      "description": "Isolate the central rocky promontory with clustered trees: bare-branched deciduous trees, dark dense foliage, red-leaf accents, pale green shrubs, exposed roots, and layered rocks at the base. Exclude the surrounding cloud bank and distant mountains as much as possible.",
+      "bbox": [
+        0.29,
+        0.48,
+        0.52,
+        0.23
+      ],
+      "role": "wooded foreground promontory",
+      "must_preserve": [
+        "fine twig and branch linework",
+        "dark stippled foliage masses",
+        "red leaf or blossom accents",
+        "pale green shrub wash",
+        "layered rock contours and root-like strokes",
+        "small pine-dot texture on slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midground_tree_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_foreground_slope",
+      "description": "Isolate the sweeping right-side rocky hillside descending toward the center, with rounded cliff shelves, sparse pine clusters, boulders, and pale contour washes. Exclude the central tree promontory and distant mountain peaks.",
+      "bbox": [
+        0.72,
+        0.42,
+        0.28,
+        0.27
+      ],
+      "role": "foreground hillside and rocks",
+      "must_preserve": [
+        "long flowing rock contour lines",
+        "light ocher-gray wash texture",
+        "small dark pine-needle clusters along ridge edges",
+        "rounded boulder outlines near the lower slope",
+        "mist-softened upper boundary"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_foreground_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "river_boat_figures",
+      "description": "Isolate the small boat on the open water with seated scholar-like figures and a rower. Include the slender hull, oar, passengers, and faint water wash immediately around the boat, but exclude shore trees and seals.",
+      "bbox": [
+        0.37,
+        0.77,
+        0.26,
+        0.07
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "thin curved boat hull linework",
+        "tiny seated figure silhouettes and robes",
+        "rower posture and angled oar",
+        "subtle ink accents inside the boat",
+        "faint surrounding water wash without paper texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_river_boat_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_riverbank_grove",
+      "description": "Isolate the lower-left foreground riverbank with sloping rocks, a grove of bare-branched and leafy trees, red blossom accents, dark foliage clumps, and layered shore stones. Exclude the red seals along the far left margin and the boat above.",
+      "bbox": [
+        0.08,
+        0.81,
+        0.5,
+        0.16
+      ],
+      "role": "foreground riverbank grove",
+      "must_preserve": [
+        "fine branching tree linework",
+        "red leaf or blossom accents on upper branches",
+        "dark stippled foliage clusters",
+        "pale wash on willowy trees",
+        "layered rock and shoreline contour strokes",
+        "small pine-dot textures along the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_left_riverbank_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

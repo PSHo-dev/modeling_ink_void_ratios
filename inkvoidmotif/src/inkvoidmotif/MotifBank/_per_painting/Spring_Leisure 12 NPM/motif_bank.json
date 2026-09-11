@@ -1,0 +1,200 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 12 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:41:55.724126+00:00",
+  "motifs": [
+    {
+      "name": "central_textured_peak",
+      "description": "Isolate the tall central mountain peak rising from mist, including its pale grey wash body, darker ink texture strokes, and the short stacked horizontal tree/rock marks along both lower flanks.",
+      "bbox": [
+        0.39,
+        0.22,
+        0.36,
+        0.21
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft uneven grey wash on the peak face",
+        "dry-brush rock texture inside the summit",
+        "dark stepped horizontal strokes on both slopes",
+        "mist-softened lower edge and blank white openings near the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_textured_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_hills_and_rocks",
+      "description": "Isolate the low left background range and rocky islets emerging from mist, excluding nearby red seals and calligraphy.",
+      "bbox": [
+        0.03,
+        0.33,
+        0.41,
+        0.1
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "pale blue-grey distant hill silhouettes",
+        "soft fading mist edges",
+        "darker angular rock ridges in the lower middle",
+        "broken dry-brush strokes on the small rocky outcrop"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_hills_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_receding_hills_pine_knoll",
+      "description": "Isolate the right-side receding hills with the dark conical wooded knoll and pale background ridgelines, avoiding the red seals in the sky.",
+      "bbox": [
+        0.63,
+        0.25,
+        0.26,
+        0.14
+      ],
+      "role": "distant hillside",
+      "must_preserve": [
+        "thin pale contour lines of the rear hills",
+        "soft grey mountain washes",
+        "dense stacked dark brush marks forming the pine-covered knoll",
+        "misty blank separations between hill layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_receding_hills_pine_knoll.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "bird_flock_over_mist",
+      "description": "Isolate the small flock of dark birds flying across the open mist between the mountains and willow grove.",
+      "bbox": [
+        0.24,
+        0.43,
+        0.19,
+        0.04
+      ],
+      "role": "sky accent",
+      "must_preserve": [
+        "tiny dark ink silhouettes",
+        "varied wing angles",
+        "spacing between individual birds",
+        "minimal surrounding blank mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_bird_flock_over_mist.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_banked_grove",
+      "description": "Isolate the left foreground willow grove along the waterbank, including drooping leaf sprays, bending trunks, dotted bark accents, and the narrow grassy reed edge at their feet.",
+      "bbox": [
+        0.02,
+        0.48,
+        0.39,
+        0.22
+      ],
+      "role": "foreground willow grove",
+      "must_preserve": [
+        "long thin arcing willow leaf lines",
+        "pale washes on twisting trunks",
+        "black dotted bark and moss accents",
+        "short vertical reed strokes along the bank",
+        "light water ripples just below the bank where attached"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_willow_banked_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_willow_with_bare_branches",
+      "description": "Isolate the central willow group and adjacent bare-branched sapling, including the main leaning trunks, drooping leaf curtains, branch lattice, and grass tufts at the base; exclude the buffalo and rider if extracting precisely.",
+      "bbox": [
+        0.38,
+        0.42,
+        0.39,
+        0.3
+      ],
+      "role": "midground willow grove",
+      "must_preserve": [
+        "interlaced grey branch linework",
+        "fine drooping willow strands",
+        "pale textured trunk washes",
+        "black dotted bark marks along the trunks",
+        "small bare twig shapes rising between the willows",
+        "reed-like grass strokes at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_willow_with_bare_branches.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_trunks_cluster",
+      "description": "Isolate the large right-side willow and tree cluster entering from the edge, with multiple trunks, long hanging leaves, dark dotted bark, and ground grasses.",
+      "bbox": [
+        0.7,
+        0.33,
+        0.3,
+        0.44
+      ],
+      "role": "foreground tree cluster",
+      "must_preserve": [
+        "strong diagonal trunk structure",
+        "pale grey trunk washes and split bark texture",
+        "dense black dotted accents along bark and branches",
+        "long fine willow leaves sweeping downward",
+        "overlapping branch network",
+        "short dark grass strokes at the foot of the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_willow_trunks_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "ox_rider",
+      "description": "Isolate the water buffalo walking across the shallow bank with the small rider seated on its back, including the animal’s head, horns, legs, tail, shaggy body texture, and the rider’s hat and robe lines.",
+      "bbox": [
+        0.3,
+        0.65,
+        0.39,
+        0.18
+      ],
+      "role": "figure and animal",
+      "must_preserve": [
+        "rounded buffalo body contour",
+        "fine hair-like strokes across the buffalo hide",
+        "dark eye, muzzle, horns, and hoof accents",
+        "curved tail line",
+        "small seated rider posture",
+        "wide hat outline and robe folds",
+        "light ground contact lines beneath the feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_ox_rider.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_stream_and_grassy_banks",
+      "description": "Isolate the lower foreground stream with winding water lines, low sandbars, grassy banks, the small rounded rock mound, and reed tufts along the shore.",
+      "bbox": [
+        0.0,
+        0.84,
+        1.0,
+        0.13
+      ],
+      "role": "foreground water and banks",
+      "must_preserve": [
+        "thin parallel water ripple lines",
+        "curving shoreline contours",
+        "soft grey washes on sandbars",
+        "short vertical and slanted grass strokes",
+        "dark dotted accents on the rounded bank and rock mound",
+        "open blank water spaces between the ripples"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/09_foreground_stream_and_grassy_banks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

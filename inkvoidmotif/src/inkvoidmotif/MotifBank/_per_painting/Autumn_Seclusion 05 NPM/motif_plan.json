@@ -1,0 +1,152 @@
+{
+  "source_summary": "Horizontal Chinese landscape with pale ink-and-color mountains, misty water, rocky shores, sparse autumn trees, pavilions, a tall pine, and tiny scholar figures. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_chain",
+      "description": "Isolate the distant left mountain range: pale blue-gray background peaks and low ochre-green foothills running behind the water, with soft mist gaps and scattered dark texture dots along ridge lines.",
+      "bbox": [
+        0.0,
+        0.32,
+        0.315,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blue-gray wash peaks",
+        "faint ochre and green hillside washes",
+        "broken ink ridge contours",
+        "small dark cun and dot texture accents",
+        "mist-softened edges between peaks"
+      ]
+    },
+    {
+      "name": "central_craggy_ridge",
+      "description": "Isolate the central rocky mountain ridge above the lake, including layered ochre slopes, pale green wash, angular peak outlines, and clustered black texture marks, but exclude calligraphy above and lower pavilions below.",
+      "bbox": [
+        0.26,
+        0.27,
+        0.245,
+        0.235
+      ],
+      "role": "middle-distance mountain",
+      "must_preserve": [
+        "angular ink outlines of crags",
+        "dry-brush orange-brown contour strokes",
+        "light green mineral wash",
+        "black vertical texture dashes on cliff faces",
+        "irregular misty base fading downward"
+      ]
+    },
+    {
+      "name": "left_foreground_shore_trees",
+      "description": "Isolate the lower-left riverbank with bare deciduous trees, small shrubs, sloping earth bank, and sparse rock dots at the water edge.",
+      "bbox": [
+        0.0,
+        0.5,
+        0.205,
+        0.315
+      ],
+      "role": "foreground shore",
+      "must_preserve": [
+        "thin leafless tree branch linework",
+        "dark ink trunks and exposed roots",
+        "pale tan bank wash",
+        "small black rock and shrub dots",
+        "soft transition into blank water"
+      ]
+    },
+    {
+      "name": "central_lake_mist_surface",
+      "description": "Isolate the open lake and mist band in the center-left, including faint horizontal water strokes, pale reed patches, and low shoreline washes without nearby buildings.",
+      "bbox": [
+        0.165,
+        0.505,
+        0.3,
+        0.385
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "very light horizontal ink and ochre water lines",
+        "soft blank mist areas",
+        "faint blue-green reed clusters",
+        "low sandy shoreline strokes",
+        "delicate fading edges"
+      ]
+    },
+    {
+      "name": "lower_center_pavilion_promontory",
+      "description": "Isolate the small pavilion and adjacent waterside promontory near the lower center, with its sloped tiled roof, posts, surrounding bare trees, low hut roof, and rocky mound.",
+      "bbox": [
+        0.32,
+        0.635,
+        0.18,
+        0.27
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin ruled roof geometry and eaves",
+        "vertical support posts",
+        "pale wall washes",
+        "bare tree saplings beside the buildings",
+        "rocky promontory with ochre-green texture strokes"
+      ]
+    },
+    {
+      "name": "central_rocky_hill_tree_grove",
+      "description": "Isolate the large central hillside and tree grove rising behind the path: rounded rocky slope, leafless and lightly colored trees, shrubs, and the dark ledge near the top.",
+      "bbox": [
+        0.45,
+        0.39,
+        0.195,
+        0.52
+      ],
+      "role": "rocky hillside and grove",
+      "must_preserve": [
+        "layered dry-brush rock contours",
+        "pale ochre and green washes",
+        "black cliff-edge accents",
+        "fine branching tree linework",
+        "muted red and blue-green foliage touches"
+      ]
+    },
+    {
+      "name": "right_pavilion_flowering_grove",
+      "description": "Isolate the right-side pavilion compound and nearby flowering trees at the foot of the hill, including two stacked roof structures, pink foliage, path edge, and tiny scholar figures just to the left.",
+      "bbox": [
+        0.62,
+        0.575,
+        0.23,
+        0.34
+      ],
+      "role": "pavilion group with figures",
+      "must_preserve": [
+        "precise tiled roof lines and upturned eaves",
+        "pale red-orange building walls",
+        "pink flowering tree clusters",
+        "slender trunks and sparse branches",
+        "tiny dark-robed scholar figures and path linework"
+      ]
+    },
+    {
+      "name": "right_tall_pine_and_rear_hills",
+      "description": "Isolate the tall twisting pine on the right with its needle clusters, neighboring bare trees, and the pale rear hillside behind it, avoiding nearby seals and calligraphy.",
+      "bbox": [
+        0.775,
+        0.205,
+        0.195,
+        0.35
+      ],
+      "role": "pine and hillside",
+      "must_preserve": [
+        "sinuous ink pine trunk",
+        "blue-green needle clusters in layered tufts",
+        "fine bare tree branches around the pine",
+        "pale ochre hillside contours",
+        "dotted black rock texture along ridge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 05 NPM.jpg",
+  "created_at": "2026-09-03T19:29:03.007972+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

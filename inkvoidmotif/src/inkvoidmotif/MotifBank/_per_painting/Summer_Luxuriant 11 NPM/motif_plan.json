@@ -1,0 +1,152 @@
+{
+  "source_summary": "Horizontal Chinese landscape with broad blank sky, misty lake, distant low mountains, a rocky pine-covered massif at right, small pavilions on wooded shores, boats on open water, foreground willow groves, a tiny scholar figure, and pale wetland/rice-field textures in ink and light mineral washes.",
+  "motifs": [
+    {
+      "name": "distant_misty_mountain_chain",
+      "description": "Isolate the pale background mountain chain and low shoreline stretching from the far left across the center, including the soft receding peaks, faint horizontal waterline, and sparse dotted tree belt below the hills. Exclude the boats, central pavilions, and right rocky massif.",
+      "bbox": [
+        0.0,
+        0.22,
+        0.67,
+        0.17
+      ],
+      "role": "distant mountain and misted shoreline",
+      "must_preserve": [
+        "thin grey contour lines defining the low peaks",
+        "soft diluted ink washes fading into the blank sky",
+        "broken horizontal shoreline strokes",
+        "tiny green-grey tree dabs along the shore",
+        "misty gaps and feathered wash edges"
+      ]
+    },
+    {
+      "name": "left_lake_sailboats",
+      "description": "Isolate the small group of sailing boats on the open lake at left middle: one small boat at far left and two larger boats with upright masts and slanted sails toward center-left. Include only their immediate water ripples.",
+      "bbox": [
+        0.02,
+        0.36,
+        0.24,
+        0.08
+      ],
+      "role": "boats on water",
+      "must_preserve": [
+        "dark angular hull linework",
+        "slender vertical masts",
+        "triangular pale sail shapes with ink outlines",
+        "short broken water-ripple strokes around the boats",
+        "spacing between the separate boats"
+      ]
+    },
+    {
+      "name": "right_rocky_pine_mountain",
+      "description": "Isolate the large right-side rocky hill/mountain rising from the lakeside, with its rounded summit, exposed crag clusters, dark ridge pines, and textured slopes. Exclude the lower pavilions and foreground fields where possible.",
+      "bbox": [
+        0.53,
+        0.22,
+        0.45,
+        0.26
+      ],
+      "role": "dominant rocky mountain",
+      "must_preserve": [
+        "layered rock contours and angular crag outlines",
+        "dry-brush texture strokes on the slopes",
+        "dark pine-dot crown along the ridge",
+        "blue-green shrub washes on the lower slopes",
+        "soft mist transition at the mountain foot"
+      ]
+    },
+    {
+      "name": "central_lakeside_pavilions",
+      "description": "Isolate the central cluster of lakeside pavilions nestled against the small hill, with multiple tiled roofs, posts, and warm red-orange wall accents. Include the small surrounding tree and bank strokes directly attached to the buildings.",
+      "bbox": [
+        0.385,
+        0.365,
+        0.15,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked black roof eaves with upturned tips",
+        "fine architectural linework and vertical posts",
+        "muted red-orange pigment accents under the roofs",
+        "small dark ridge ornaments",
+        "nearby shrub dots and pale bank wash framing the buildings"
+      ]
+    },
+    {
+      "name": "midright_pine_grove_pavilion",
+      "description": "Isolate the mid-right waterside grove below the mountain: a band of upright pines and bare-branched trees, a small pavilion with dark roof and red wall, and adjacent horizontal embankment/water strokes. Exclude the main rocky mountain above and foreground willow trunks.",
+      "bbox": [
+        0.5,
+        0.39,
+        0.46,
+        0.17
+      ],
+      "role": "midground grove and pavilion",
+      "must_preserve": [
+        "repeated vertical pine trunks and dark needle clusters",
+        "pale blue-green foliage dabs",
+        "small pavilion roof geometry with dark ink eaves",
+        "thin horizontal water and field-divider lines",
+        "misty white openings between tree masses"
+      ]
+    },
+    {
+      "name": "foreground_willow_homestead",
+      "description": "Isolate the lower-left foreground homestead under dense willows: the small house compound with dark roofs and fence-like lines, surrounded by large drooping willow canopies, trunks, roots, rocks, and low shrubs. Exclude the lone scholar to the right.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.36,
+        0.35
+      ],
+      "role": "foreground village and willow grove",
+      "must_preserve": [
+        "heavy dark willow trunks and exposed root strokes",
+        "dense drooping leaf marks made of repeated short strokes",
+        "black roof and wall geometry of the small house",
+        "fence or railing linework beside the building",
+        "rocky foreground mounds with dry-brush texture and dark shrub dots"
+      ]
+    },
+    {
+      "name": "lone_scholar_with_staff",
+      "description": "Isolate the tiny walking scholar figure on the foreground path near lower center-left, including the peach robe, bent posture, dark head, legs, and slender walking staff. Include only the minimal ground strokes immediately under the figure.",
+      "bbox": [
+        0.36,
+        0.735,
+        0.035,
+        0.055
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "small peach-colored robe wash",
+        "fine black outline of body and limbs",
+        "slender diagonal walking staff",
+        "dark head and compact posture",
+        "tiny ground/path strokes at the feet"
+      ]
+    },
+    {
+      "name": "lower_right_wet_fields",
+      "description": "Isolate the lower-right open wet fields and low earthen banks, with pale sweeping wash bands, rows of short vertical marsh/rice strokes, scattered dark stones or earth clumps, and a curved shrub-dotted embankment at the upper edge. Avoid the large willow trunks as separate elements.",
+      "bbox": [
+        0.62,
+        0.71,
+        0.36,
+        0.25
+      ],
+      "role": "foreground wetland and field surface",
+      "must_preserve": [
+        "broad pale grey wash bands following the field slope",
+        "rows of tiny vertical grass or rice shoots",
+        "thin horizontal dike and waterline strokes",
+        "small dark stone or earth-clump accents",
+        "curved embankment with blue-green shrub dots"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 11 NPM.jpg",
+  "created_at": "2026-09-03T21:13:47.195835+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

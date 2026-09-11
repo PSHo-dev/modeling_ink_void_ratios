@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:51:52.478188+00:00",
+  "motifs": [
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the pale background mountain range in the center-left distance: broad rounded peak, sharper vertical peak, and low receding ridges emerging through mist behind the trees and pavilion.",
+      "bbox": [
+        0.18,
+        0.18,
+        0.43,
+        0.28
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "soft diluted ink wash silhouettes",
+        "blurred mist edges between peaks",
+        "subtle tonal layering of receding ridges",
+        "faint vertical rock washes on the sharper peak"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_distant_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_craggy_ridge",
+      "description": "Isolate the large rocky ridge and sloping hillside across the upper right, including the stratified cliff face, dark rock ledges, pale far ridge, and the belt of pines climbing the slope.",
+      "bbox": [
+        0.49,
+        0.13,
+        0.5,
+        0.44
+      ],
+      "role": "dominant rocky mountain slope",
+      "must_preserve": [
+        "layered horizontal rock texture strokes",
+        "dark oval and dash-shaped rock accents",
+        "pale grey-brown wash blocks",
+        "pine trunks and dotted needle clusters along the slope",
+        "soft distant ridge contour at the far right"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_right_craggy_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_hillside_pavilion",
+      "description": "Isolate the small two-tier pavilion on the central slope with its pointed roof, light reddish walls, and nearby enclosing pines and shrubs.",
+      "bbox": [
+        0.36,
+        0.37,
+        0.13,
+        0.19
+      ],
+      "role": "pavilion group on hillside",
+      "must_preserve": [
+        "fine angular roof geometry",
+        "thin ink eaves and ridge line",
+        "muted red-orange wall accents",
+        "surrounding dark pine foliage dots",
+        "delicate slope strokes beneath the building"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_hillside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_grove_rocks",
+      "description": "Isolate the left-middle grove with tall willows, a leafy deciduous tree, low shrubs, and the rocky bank beneath them, excluding the calligraphy area above.",
+      "bbox": [
+        0.06,
+        0.32,
+        0.27,
+        0.42
+      ],
+      "role": "left hillside grove and rocks",
+      "must_preserve": [
+        "drooping willow branch linework",
+        "rounded leaf clusters on the taller tree",
+        "pale trunks with darker ink outlines",
+        "broken rocky ledge strokes",
+        "green-grey wash accents in foliage and rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_willow_grove_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_hamlet_trees",
+      "description": "Isolate the lower-left village cluster tucked among dense trees: small roof forms, pale walls, fence-like lines, surrounding shrubs, and the adjacent foreground rock bank.",
+      "bbox": [
+        0.13,
+        0.55,
+        0.3,
+        0.3
+      ],
+      "role": "village cluster in foreground woods",
+      "must_preserve": [
+        "simple slanted roof geometry",
+        "thin wall and fence linework",
+        "dense dotted shrub texture",
+        "dark leaf clusters framing the buildings",
+        "layered foreground rock outlines and washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_left_hamlet_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_foreground_pine_promontory",
+      "description": "Isolate the central foreground promontory with tall straight pines/cypresses, bare trunks, dark needle masses, tangled roots, and stacked rocks at the water edge.",
+      "bbox": [
+        0.29,
+        0.48,
+        0.22,
+        0.43
+      ],
+      "role": "foreground pine and rock promontory",
+      "must_preserve": [
+        "vertical tree trunks and root lines",
+        "dark pointed pine-needle clusters",
+        "pale tan trunk wash",
+        "stacked angular rock texture",
+        "black accent stones at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_foreground_pine_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "awning_boat_with_seated_figure",
+      "description": "Isolate the small moored boat near the lower center-right, including the slanted awning, railings, hull, and the seated figure inside.",
+      "bbox": [
+        0.52,
+        0.69,
+        0.11,
+        0.18
+      ],
+      "role": "boat and figure on water",
+      "must_preserve": [
+        "thin straight awning supports",
+        "slatted roof/cover lines",
+        "delicate boat hull and railing strokes",
+        "small seated figure with muted red color accent",
+        "minimal water-edge strokes beneath the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_awning_boat_with_seated_figure.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_lower_willow_rock_bank",
+      "description": "Isolate the lower-right riverbank with drooping willows, dark pines, layered rocks, and the rounded shoreline enclosing the water bend.",
+      "bbox": [
+        0.72,
+        0.43,
+        0.25,
+        0.46
+      ],
+      "role": "right foreground riverbank with trees and rocks",
+      "must_preserve": [
+        "long drooping willow leaves",
+        "dark pine needle clusters",
+        "layered cliff and rock ledge strokes",
+        "pale green-grey washes on bank forms",
+        "curved shoreline and small rock accents at the water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_lower_willow_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

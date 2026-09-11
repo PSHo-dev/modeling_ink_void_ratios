@@ -1,0 +1,179 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 12 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:08:18.347874+00:00",
+  "motifs": [
+    {
+      "name": "misty_right_mountain",
+      "description": "Isolate the tall distant mountain mass on the upper right: steep layered peak, darker left escarpment, pale washed summit and foothill slopes fading into mist.",
+      "bbox": [
+        0.62,
+        0.1,
+        0.27,
+        0.3
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft grey-brown ink wash gradations",
+        "ragged silhouette of the upper peak",
+        "darker vertical cliff edge on the left side",
+        "blurred mist transitions at the lower slopes",
+        "subtle internal texture strokes and clouded tonal patches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_right_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_hills",
+      "description": "Isolate the pale middle-distance hills and small pointed ridge behind the pavilion, including the low layered silhouettes receding toward the right.",
+      "bbox": [
+        0.42,
+        0.29,
+        0.34,
+        0.2
+      ],
+      "role": "midground hills and mist",
+      "must_preserve": [
+        "very light ink washes",
+        "soft disappearing hill contours",
+        "small dark pointed hill near center",
+        "mist-softened edges",
+        "thin horizontal shoreline-like strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_mist_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_autumn_tree_grove",
+      "description": "Isolate the tall grove at the left of the pavilion: bare trunks, branching limbs, dark leafy clusters, and ochre autumn foliage overlapping the left side of the scene.",
+      "bbox": [
+        0.0,
+        0.24,
+        0.5,
+        0.48
+      ],
+      "role": "foreground trees and shrubs",
+      "must_preserve": [
+        "pale vertical trunks with dry-brush texture",
+        "fine branching linework",
+        "dark grey-green leaf masses",
+        "ochre-brown needle-like autumn leaf clusters",
+        "layered foliage depth around the pavilion side"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_autumn_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "thatched_pavilion",
+      "description": "Isolate the low thatched pavilion or hut in the middle-left: broad straw roof, rectangular wall plane, two barred window/door sections, and raised stone platform.",
+      "bbox": [
+        0.17,
+        0.44,
+        0.35,
+        0.18
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin roof outline and slightly sagging eaves",
+        "fine straw hatch marks along the roof edge",
+        "vertical lattice bars in the two openings",
+        "pale wall wash",
+        "stone base blocks and platform linework"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_thatched_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pine_group",
+      "description": "Isolate the large foreground pine cluster on the right: multiple trunks rising from a rocky base with sweeping branches and dense dark needle clusters.",
+      "bbox": [
+        0.45,
+        0.43,
+        0.52,
+        0.39
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "twisting brown-grey trunks",
+        "branching structure with angular bends",
+        "dense black-green pine needle dabs",
+        "tiered cloud-like pine crowns",
+        "visible gaps between branch layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_pine_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rocky_bank",
+      "description": "Isolate the rocky ground and bank beneath and around the right pine trunks, including the root mound, angular stones, and pale sloping earth forms.",
+      "bbox": [
+        0.66,
+        0.74,
+        0.3,
+        0.2
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "dark outlined rock faces",
+        "dry-brush cracks and shaded facets",
+        "tufts of grass at the pine roots",
+        "pale earth wash around the stones",
+        "irregular contour of the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bridge_scholars",
+      "description": "Isolate the lower-left arched stone bridge with the two small scholar figures standing on the path above it.",
+      "bbox": [
+        0.0,
+        0.8,
+        0.42,
+        0.15
+      ],
+      "role": "bridge and figures",
+      "must_preserve": [
+        "arched bridge curve",
+        "individual stone block pattern on the bridge",
+        "thin path line continuing across the bridge",
+        "two robed scholar silhouettes",
+        "muted orange robe accent and pale robe wash",
+        "small dark hats and minimal facial/hand linework"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_bridge_scholars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_water_inlet",
+      "description": "Isolate the small pale water inlet and low shoreforms in the right middle distance, with tiny dark marks suggesting banks or rocks amid mist.",
+      "bbox": [
+        0.79,
+        0.41,
+        0.18,
+        0.12
+      ],
+      "role": "water and distant shore",
+      "must_preserve": [
+        "soft horizontal water wash",
+        "misty white negative space",
+        "low grey shore contours",
+        "small dark rock or bank marks",
+        "subtle recession into surrounding haze"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_misty_water_inlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

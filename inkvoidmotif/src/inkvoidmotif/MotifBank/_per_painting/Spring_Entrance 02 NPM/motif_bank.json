@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 02 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:28:29.413863+00:00",
+  "motifs": [
+    {
+      "name": "upper_misty_cliff_peaks",
+      "description": "Isolate the distant upper mountain range: ghostly left spires, the dark central vertical cliff mass, and the jagged crag cluster to the upper right, including only the surrounding mist openings that define their silhouettes.",
+      "bbox": [
+        0.1,
+        0,
+        0.67,
+        0.39
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "jagged ink outlines of the crags",
+        "dry-brush rock texture and vertical fissures",
+        "dense dotted foliage on cliff tops and ledges",
+        "soft diluted wash fading into mist",
+        "irregular mist edges cutting through the mountain forms"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_misty_cliff_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_cliff_pines_pavilion",
+      "description": "Isolate the left middle rocky terrace with sweeping old pines, exposed roots, layered rocks, shrubs, and the small pavilion roof tucked among the branches.",
+      "bbox": [
+        0,
+        0.22,
+        0.49,
+        0.35
+      ],
+      "role": "pavilion group and hillside pines",
+      "must_preserve": [
+        "twisting pine trunks and exposed root lines",
+        "fine clustered pine needles on horizontal boughs",
+        "small pavilion roof geometry with curved eaves",
+        "stepped rock ledges and ink wash shadows",
+        "tiny shrubs and stippled vegetation around the terrace"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_cliff_pines_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_arch_bridge_figures",
+      "description": "Isolate the right-side arched bridge and rocky bank with small figures crossing or standing nearby, including bridge railings, steps, cliff edge, and adjacent dark water rocks.",
+      "bbox": [
+        0.72,
+        0.6,
+        0.27,
+        0.14
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "curved bridge span and railing posts",
+        "fine garment outlines on the small figures",
+        "angular rock ledges supporting the bridge",
+        "dark ink accents under the bank",
+        "short broken strokes suggesting steps and shoreline"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_arch_bridge_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_foreground_pine_promontory",
+      "description": "Isolate the dominant foreground rocky promontory with tall clustered pines, heavy trunks, interlacing roots, dark boulders, and layered pine crowns spreading left and right.",
+      "bbox": [
+        0.16,
+        0.51,
+        0.48,
+        0.4
+      ],
+      "role": "foreground pines and rocks",
+      "must_preserve": [
+        "bold twisting pine trunks with bark texture",
+        "dense needle dots and comb-like pine sprays",
+        "interlaced root systems gripping the rocks",
+        "dark layered boulder washes",
+        "branch structure and asymmetrical canopy silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_foreground_pine_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_travelers_animals",
+      "description": "Isolate the lower-left procession of travelers with pack animals on the path, including standing attendants, mounted or led animals, small dogs, and the nearby rocky ground strokes.",
+      "bbox": [
+        0,
+        0.79,
+        0.35,
+        0.12
+      ],
+      "role": "scholar figures and travelers",
+      "must_preserve": [
+        "delicate figure outlines and robe folds",
+        "animal heads, legs, saddles, and reins",
+        "small dog silhouettes near the path",
+        "gestural hand and staff details",
+        "light ground lines tying the group to the path"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_travelers_animals.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_river_boats",
+      "description": "Isolate the lower-right river boats with seated figures, a long moored boat, nearby small craft, bank grasses, and the calm water around them.",
+      "bbox": [
+        0.65,
+        0.8,
+        0.34,
+        0.13
+      ],
+      "role": "boats and riverside figures",
+      "must_preserve": [
+        "thin boat hull contours and pointed ends",
+        "seated figure linework and robe shapes",
+        "oar or pole strokes where visible",
+        "reed and grass marks along the bank",
+        "soft water wash surrounding the boats"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_river_boats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

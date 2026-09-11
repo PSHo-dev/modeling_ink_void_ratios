@@ -1,0 +1,152 @@
+{
+  "source_summary": "Horizontal Chinese landscape handscroll scene with broad water, green islands, willow groves, garden pavilions, footbridges, and small groups of figures gathered or walking along the shore.",
+  "motifs": [
+    {
+      "name": "upper_central_island_estate",
+      "description": "Isolate the distant upper-center green island with layered low banks, clustered dark trees, the small architectural estate partly hidden in foliage, and the leaning old willow at the right edge of the island.",
+      "bbox": [
+        0.26,
+        0,
+        0.535,
+        0.385
+      ],
+      "role": "distant island estate",
+      "must_preserve": [
+        "soft green mineral washes on the low island ridges",
+        "thin ink contour lines along the shore",
+        "dark stippled tree masses and dangling willow foliage",
+        "faint pavilion and wall geometry partly obscured by trees",
+        "leaning willow trunk with exposed roots and curved branch structure"
+      ]
+    },
+    {
+      "name": "upper_right_willow_causeway",
+      "description": "Isolate the distant upper-right bank with sparse willows, pale green ground, a narrow wooden causeway or footbridge projecting over the water, and small shore details.",
+      "bbox": [
+        0.795,
+        0,
+        0.205,
+        0.195
+      ],
+      "role": "distant shore with bridge",
+      "must_preserve": [
+        "delicate horizontal water and shore lines",
+        "small bridge posts and plank geometry",
+        "thin willow trunks with hanging dark leaf strokes",
+        "subtle green wash patches on the banks",
+        "tiny figures or marks on the shore if visible"
+      ]
+    },
+    {
+      "name": "left_weeping_willow",
+      "description": "Isolate the large left-side weeping willow mass, including the dark rounded canopy, long pendant fronds, twisting lower trunk, and adjacent green mound beneath it, without the nearby bridge figures as the main subject.",
+      "bbox": [
+        0,
+        0.025,
+        0.205,
+        0.565
+      ],
+      "role": "foreground willow tree",
+      "must_preserve": [
+        "dense ink-wash canopy with feathered edges",
+        "long vertical willow tendrils in fine brush lines",
+        "gnarled trunk and exposed root linework",
+        "small green shoreline wash at the base",
+        "tonal transition from dark crown to transparent hanging foliage"
+      ]
+    },
+    {
+      "name": "left_footbridge_walkers",
+      "description": "Isolate the small wooden footbridge at the left foreground with two walking figures, nearby fence posts, and the immediate green banks and water edge around the bridge.",
+      "bbox": [
+        0,
+        0.445,
+        0.13,
+        0.28
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "simple plank bridge and railing geometry",
+        "two small robed figures with blue and red color accents",
+        "thin ink outlines defining sleeves, legs, and hats or hair",
+        "short vertical fence posts near the bank",
+        "soft green shore patches and pale water contours around the bridge"
+      ]
+    },
+    {
+      "name": "central_pine_bamboo_grove",
+      "description": "Isolate the dense central grove of dark pines or bamboo-like trees rising from the lower bank, including clustered trunks, layered foliage clumps, and the darker foreground shrub texture.",
+      "bbox": [
+        0.125,
+        0.315,
+        0.26,
+        0.505
+      ],
+      "role": "central tree grove",
+      "must_preserve": [
+        "fine needle-like foliage strokes and stippled leaf clusters",
+        "overlapping dark ink washes creating depth",
+        "slender vertical trunks visible through foliage",
+        "irregular silhouette of the grove against open water",
+        "small foreground shrubs and textured earth strokes at the base"
+      ]
+    },
+    {
+      "name": "foreground_pavilion_garden",
+      "description": "Isolate the lower-center garden pavilion with a seated figure inside, tiled roof, posts, surrounding trees, small attendant figure, and the immediate foreground garden ground.",
+      "bbox": [
+        0.235,
+        0.62,
+        0.197,
+        0.375
+      ],
+      "role": "foreground pavilion group",
+      "must_preserve": [
+        "angular roof geometry with warm ocher-brown roof wash",
+        "thin post-and-wall linework of the pavilion",
+        "seated figure in pale pink clothing inside the structure",
+        "turquoise-green dotted tree leaves and curving branch forms",
+        "small red and muted color accents on figures and garden details"
+      ]
+    },
+    {
+      "name": "midground_festival_orchard",
+      "description": "Isolate the middle-lower group of figures among trees and flowering branches, including musicians or dancers, dense dark foliage, pink blossoms, and the winding tree trunks around them.",
+      "bbox": [
+        0.42,
+        0.505,
+        0.255,
+        0.495
+      ],
+      "role": "figures in orchard grove",
+      "must_preserve": [
+        "individual small figures with varied robes, gestures, and ink outlines",
+        "blue, tan, red, and muted garment color accents",
+        "pink flowering sprays on thin branches",
+        "dark rounded tree masses with layered wash texture",
+        "curving trunks and roots weaving through the group"
+      ]
+    },
+    {
+      "name": "right_willow_playing_children",
+      "description": "Isolate the right foreground bank with drooping willow-like foliage, several playful or walking figures, and the green shoreline at the lower-right edge.",
+      "bbox": [
+        0.67,
+        0.56,
+        0.33,
+        0.43
+      ],
+      "role": "right foreground figures and willow grove",
+      "must_preserve": [
+        "soft dark willow canopy with downward trailing brushwork",
+        "small figures in active poses with red, blue, tan, and white garments",
+        "thin ink linework defining heads, hands, sleeves, and legs",
+        "curved trunks partially hidden by foliage",
+        "green bank wash and sparse grass marks along the foreground edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 08 NPM.png",
+  "created_at": "2026-09-03T20:02:21.965572+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

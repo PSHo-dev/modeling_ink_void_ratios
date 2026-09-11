@@ -1,0 +1,149 @@
+{
+  "source_summary": "Sparse monochrome Chinese landscape dominated by broad mist and water washes, distant low mountains, a diagonal right-hand rocky shoreline, and foreground winter trees with small banks and stones. No calligraphy, seals, borders, or paper texture are treated as motifs.",
+  "motifs": [
+    {
+      "name": "upper_horizontal_mist_bands",
+      "description": "Long, pale horizontal mist and sky-wash bands occupying the open upper field, with subtle layered ink tonal shifts and soft horizontal edges.",
+      "bbox": [
+        0.02,
+        0.02,
+        0.93,
+        0.34
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "very faint horizontal wash lines",
+        "soft uneven mist edges",
+        "delicate tonal gradations from tan ground to gray ink",
+        "large open negative space without added objects"
+      ]
+    },
+    {
+      "name": "distant_midground_mountain_wash",
+      "description": "Low, dark, hazy mountain mass stretching across the middle distance, strongest on the right and fading leftward into mist, with rounded silhouettes and soft ink wash transitions.",
+      "bbox": [
+        0.39,
+        0.28,
+        0.57,
+        0.28
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "blurred mountain contour along the upper edge",
+        "layered gray-green ink wash",
+        "soft fading left edge",
+        "subtle darker horizontal base strokes"
+      ]
+    },
+    {
+      "name": "central_pale_river_channel",
+      "description": "Light winding river or mist-filled valley cutting upward through the center, bordered by darker banks and distant washes, forming a pale S-shaped negative-water passage.",
+      "bbox": [
+        0.43,
+        0.35,
+        0.31,
+        0.43
+      ],
+      "role": "water",
+      "must_preserve": [
+        "pale unpainted water/mist shape",
+        "irregular banks with feathered wash edges",
+        "gentle central bend",
+        "contrast against surrounding dark gray washes"
+      ]
+    },
+    {
+      "name": "right_stippled_rocky_slope",
+      "description": "Steep diagonal rocky slope on the right side, with pale rock face, dark stippled foliage clusters, dot-textured stones, and vertical striated brush marks.",
+      "bbox": [
+        0.7,
+        0.31,
+        0.29,
+        0.55
+      ],
+      "role": "rocky hillside",
+      "must_preserve": [
+        "diagonal pale landform silhouette",
+        "dense black stipple dots",
+        "dark shrub masses along the ridge",
+        "vertical rock texture strokes",
+        "uneven scalloped edge against mist"
+      ]
+    },
+    {
+      "name": "lower_right_bank_with_reeds",
+      "description": "Lower-right shoreline base where the diagonal slope meets the foreground, including dark rootlike strokes, small reeds, scattered dots, and soft shoreline wash.",
+      "bbox": [
+        0.55,
+        0.75,
+        0.35,
+        0.18
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "thin reed and twig strokes",
+        "dark clustered base marks",
+        "scattered pebble dots",
+        "soft horizontal waterline wash",
+        "uneven sandy bank edge"
+      ]
+    },
+    {
+      "name": "central_leafless_tree_cluster",
+      "description": "Cluster of bare winter trees in the lower center-left, with several dark trunks rising from the bank and angular branches extending outward.",
+      "bbox": [
+        0.26,
+        0.64,
+        0.2,
+        0.31
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark ink trunks with varied thickness",
+        "forking angular bare branches",
+        "short dry brush twig tips",
+        "overlapping stems at the base",
+        "surrounding dark shrub wash only where attached"
+      ]
+    },
+    {
+      "name": "left_foreground_grove_and_rocks",
+      "description": "Dark left foreground bank with a leaning bare tree, clustered shrubs, rocks, and heavy ink wash forming a shadowed corner.",
+      "bbox": [
+        0.08,
+        0.68,
+        0.24,
+        0.3
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "leaning trunk silhouette",
+        "dense dark shrub wash",
+        "rock outlines at the bottom edge",
+        "dry-brush grass strokes",
+        "irregular shoreline contour"
+      ]
+    },
+    {
+      "name": "small_riverside_hut_and_bank",
+      "description": "Tiny riverside hut or shelter near the lower middle, set into a narrow bank with small dark stones and adjacent low brush marks.",
+      "bbox": [
+        0.41,
+        0.83,
+        0.15,
+        0.09
+      ],
+      "role": "village detail",
+      "must_preserve": [
+        "small angular roof geometry",
+        "tiny wall shapes in pale reserve",
+        "thin dark contour lines",
+        "nearby dotted stones",
+        "low horizontal bank strokes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 06 BPM.jpg",
+  "created_at": "2026-09-03T22:12:12.133168+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

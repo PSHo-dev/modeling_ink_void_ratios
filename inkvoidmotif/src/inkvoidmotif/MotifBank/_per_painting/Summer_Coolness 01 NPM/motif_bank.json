@@ -1,0 +1,162 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 01 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:32:28.028105+00:00",
+  "motifs": [
+    {
+      "name": "distant_left_misty_peaks",
+      "description": "Isolate the pale distant mountain range on the left: clustered vertical peaks and low ridges emerging from mist, without nearby red seals or foreground bank details.",
+      "bbox": [
+        0.07,
+        0.32,
+        0.24,
+        0.24
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray ink washes fading into the paper",
+        "irregular pointed peak silhouettes",
+        "vertical diluted wash streaks on the taller spires",
+        "mist-softened base edges",
+        "subtle layered ridgelines behind the main peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_left_misty_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_and_low_hills",
+      "description": "Isolate the middle-distance water surface with low hills and islands across the center-left, including the faint shoreline bands and misty horizontal washes.",
+      "bbox": [
+        0.15,
+        0.48,
+        0.36,
+        0.28
+      ],
+      "role": "water and midground hills",
+      "must_preserve": [
+        "horizontal ink-wash bands suggesting water",
+        "soft low hill contours",
+        "small darker island and shoal accents",
+        "blurred mist transitions between water and land",
+        "thin broken shoreline strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_lake_and_low_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "wind_bent_pine_on_cliff",
+      "description": "Isolate the dominant pine tree growing from the central-right cliff: twisted trunk, leaning branches, radiating needle clusters, and the immediate craggy rock support.",
+      "bbox": [
+        0.4,
+        0.16,
+        0.36,
+        0.49
+      ],
+      "role": "pine and rocky cliff",
+      "must_preserve": [
+        "starburst pine needle clusters",
+        "dark angular branch linework",
+        "twisted trunk with dense black strokes",
+        "dry-brush rock texture on the cliff face",
+        "long drooping branch and hanging needle sprays",
+        "contrast between dark pine ink and pale cliff wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_wind_bent_pine_on_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_misty_cliffs",
+      "description": "Isolate the high pale cliffs in the upper right background, excluding the red seal and lower pavilion area; include the vertical rock faces and soft atmospheric washes.",
+      "bbox": [
+        0.7,
+        0.0,
+        0.29,
+        0.4
+      ],
+      "role": "background mountain cliffs",
+      "must_preserve": [
+        "tall vertical cliff silhouettes",
+        "layered gray wash planes",
+        "soft mist-softened edges",
+        "dark cap-like ink accents near the peaks",
+        "faint vertical texture strokes",
+        "small dark foliage mass along the far right edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_upper_right_misty_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_pavilion_scholar",
+      "description": "Isolate the small pavilion at lower right with its pitched roof, railings, posts, and the seated scholar figure inside, without adjacent calligraphy or seals.",
+      "bbox": [
+        0.765,
+        0.665,
+        0.145,
+        0.2
+      ],
+      "role": "pavilion with figure",
+      "must_preserve": [
+        "precise roof geometry and dark roof wash",
+        "thin railing and post linework",
+        "seated scholar silhouette inside the pavilion",
+        "rectangular architectural framing",
+        "dark surrounding shrub washes that anchor the structure",
+        "small ink accents under the eaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_right_pavilion_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rocky_stair_path",
+      "description": "Isolate the stone steps and rocky path leading toward the lower-right pavilion, including adjacent angular rocks but not the red seal or inscription on the far right.",
+      "bbox": [
+        0.8,
+        0.78,
+        0.15,
+        0.15
+      ],
+      "role": "foreground path and rocks",
+      "must_preserve": [
+        "stepped diagonal rhythm of the stair stones",
+        "dark angular rock outlines",
+        "layered gray washes on path edges",
+        "dry-brush texture in the foreground rocks",
+        "small black accents marking stone breaks",
+        "transition from steps into the darker rocky base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_rocky_stair_path.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_leafy_branch_screen",
+      "description": "Isolate the airy branching tree and leafy screen above and beside the pavilion, with small triangular leaf clusters and thin arching branches, excluding the nearby red seal.",
+      "bbox": [
+        0.705,
+        0.4,
+        0.205,
+        0.32
+      ],
+      "role": "trees and foliage screen",
+      "must_preserve": [
+        "thin curving branch linework",
+        "small triangular leaf clusters",
+        "varied spacing of sparse foliage",
+        "light ink wash behind the branches",
+        "delicate twigs crossing open mist",
+        "contrast between fine leaves and darker lower shrubs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_leafy_branch_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

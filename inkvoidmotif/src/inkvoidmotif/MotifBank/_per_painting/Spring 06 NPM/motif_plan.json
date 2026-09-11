@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall hanging-scroll Chinese landscape with layered blue-green ink mountains, pine-lined ridges, scattered roof structures, pale water/mist intervals, rocky shorelines, and lower foreground tree-and-rock groups. Calligraphy, seals, margins, and paper tone are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_massif",
+      "description": "Isolate the large jagged mountain mass in the upper left, including the angular peak, layered cliff faces, blue-green mineral washes, diagonal contour strokes, and sparse small trees on ledges. Exclude nearby seals and calligraphy.",
+      "bbox": [
+        0.055,
+        0.087,
+        0.335,
+        0.205
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "sharp faceted peak geometry",
+        "blue-green wash accents along ridges",
+        "dry-brush diagonal rock texture",
+        "dark ink contour lines",
+        "tiny ledge trees and scrub marks"
+      ]
+    },
+    {
+      "name": "pine_ridge_distant_peak",
+      "description": "Isolate the mid-upper sloping ridge running from center toward the right with a line of thin pines, low rounded hills, and the pale distant mountain behind it. Include the atmospheric empty wash around the distant peak but not the inscription above.",
+      "bbox": [
+        0.395,
+        0.165,
+        0.455,
+        0.105
+      ],
+      "role": "distant ridge and mountain",
+      "must_preserve": [
+        "pale distant mountain silhouette",
+        "thin vertical pine trunks",
+        "small dark pine crowns",
+        "soft misty wash transitions",
+        "sloping ridge contour lines"
+      ]
+    },
+    {
+      "name": "left_bank_hut_trees",
+      "description": "Isolate the left midground bank with the small low hut or wall-like structure, surrounding boulders, sparse leafless trees, and low shrubs at the base of the upper mountain. Avoid including the large central cliff mass.",
+      "bbox": [
+        0.02,
+        0.235,
+        0.34,
+        0.145
+      ],
+      "role": "village edge and foreground bank",
+      "must_preserve": [
+        "simple rectangular roof/wall geometry",
+        "fine bare tree branches",
+        "small rounded boulders",
+        "pale ground wash",
+        "short grass and shrub strokes"
+      ]
+    },
+    {
+      "name": "central_cliff_waterfall",
+      "description": "Isolate the tall central vertical cliff face with descending pale waterfall or ravine lines, striated rock planes, angular ledges, and small dark texture strokes. Include the base rocks directly attached to the cliff but exclude neighboring pavilion clusters.",
+      "bbox": [
+        0.305,
+        0.265,
+        0.335,
+        0.255
+      ],
+      "role": "central cliff and waterfall",
+      "must_preserve": [
+        "long vertical waterfall streaks",
+        "layered cliff planes",
+        "dry-brush rock hatching",
+        "blue-green mineral tint",
+        "dark ledge outlines and base rocks"
+      ]
+    },
+    {
+      "name": "right_slope_pavilion_cluster",
+      "description": "Isolate the mid-right cluster of small roofed buildings embedded in the rocky slope, with adjacent pines, terraces, and angular paths descending along the cliff. Keep only the visible buildings and immediate supporting rocks/trees.",
+      "bbox": [
+        0.61,
+        0.235,
+        0.33,
+        0.205
+      ],
+      "role": "pavilion group on hillside",
+      "must_preserve": [
+        "dark upturned roof ridges",
+        "stacked building geometry",
+        "thin pine trunks and needle clusters",
+        "stepped rocky terraces",
+        "ink outlines with pale green wash"
+      ]
+    },
+    {
+      "name": "middle_shoreline_grove",
+      "description": "Isolate the middle horizontal shoreline/island area with pale water around it, a low rounded bank, several tall slender trees, small rocks, and the right-hand cliff edge entering the scene.",
+      "bbox": [
+        0.39,
+        0.525,
+        0.56,
+        0.12
+      ],
+      "role": "water shore and tree grove",
+      "must_preserve": [
+        "soft horizontal waterline washes",
+        "rounded bank contour",
+        "slender tree trunks",
+        "loose pine foliage strokes",
+        "small shoreline rocks and mist gaps"
+      ]
+    },
+    {
+      "name": "lower_tree_grove",
+      "description": "Isolate the lower central grove of mixed trees rising from a rocky mound: a tall pine-like tree with horizontal foliage, drooping willow-like branches, smaller clustered trunks, and surrounding rocks. Exclude the separate hut on the right as much as possible.",
+      "bbox": [
+        0.315,
+        0.705,
+        0.37,
+        0.19
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "arching willow branch linework",
+        "tall pine trunk and flat needle masses",
+        "clustered pale trunks",
+        "dark ink foliage dabs",
+        "rock mound contours and root-like strokes"
+      ]
+    },
+    {
+      "name": "lower_right_hut_rocks",
+      "description": "Isolate the lower-right hut and rocky hillside cluster, including the small roof structure, slanted rock planes, vertical dark trees, and rounded foreground rocks. Avoid the central tree grove except where rocks touch the hut slope.",
+      "bbox": [
+        0.68,
+        0.79,
+        0.3,
+        0.17
+      ],
+      "role": "foreground pavilion and rocks",
+      "must_preserve": [
+        "angular hut roof geometry",
+        "dark roof-edge ink lines",
+        "layered sloping rock texture",
+        "thin vertical tree silhouettes",
+        "blue-green wash on rock planes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 06 NPM.jpg",
+  "created_at": "2026-07-03T22:16:03.135198+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

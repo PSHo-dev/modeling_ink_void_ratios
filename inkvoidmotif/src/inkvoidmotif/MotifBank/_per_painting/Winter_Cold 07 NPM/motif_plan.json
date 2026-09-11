@@ -1,0 +1,158 @@
+{
+  "source_summary": "Vertical monochrome Chinese landscape with layered mountains, river/lake spaces, rocky banks, pines, leafless trees, small pavilion compounds, and a low bridge. Motifs exclude calligraphy, seals, borders, and paper texture.",
+  "motifs": [
+    {
+      "name": "central_mountain_massif",
+      "description": "Isolate the large central upper mountain peak and its descending ridges, including the clustered dark tree marks on the summit and the ink-textured rock faces. Avoid the separate pale peaks to the left and right where possible.",
+      "bbox": [
+        0.24,
+        0.15,
+        0.36,
+        0.19
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "vertical ink strokes down the main cliff face",
+        "dry-brush ridge contours",
+        "small dotted tree clusters on the summit",
+        "dark pine marks on the mid-slope",
+        "soft pale wash transitions along the mountain shoulders"
+      ]
+    },
+    {
+      "name": "left_upper_lake_shore",
+      "description": "Isolate the quiet upper-left water inlet with low sandy banks, small rocks, reeds, and sparse shoreline trees. Do not include the central village buildings below or the main mountain above.",
+      "bbox": [
+        0.0,
+        0.26,
+        0.47,
+        0.2
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "flat pale water wash",
+        "thin horizontal shoreline strokes",
+        "tiny stippled reeds and grasses",
+        "small rounded rocks at the water edge",
+        "delicate bare branch linework"
+      ]
+    },
+    {
+      "name": "right_cliff_pine_pavilion",
+      "description": "Isolate the upper-right rocky cliff with a gnarled pine and the small pavilion tucked behind it. Include the adjoining shrub texture and roof geometry, but exclude the large central mountain and lower village.",
+      "bbox": [
+        0.62,
+        0.22,
+        0.35,
+        0.16
+      ],
+      "role": "pavilion on rocky hillside",
+      "must_preserve": [
+        "angular pavilion roof lines",
+        "dark window and wall strokes",
+        "gnarled pine trunk curve",
+        "clustered pine-needle dots",
+        "striated rock texture on the cliff face",
+        "small shrub stippling around the path"
+      ]
+    },
+    {
+      "name": "middle_village_grove",
+      "description": "Isolate the middle village cluster set among bare trees and shrubs beside the water, including the two visible roofed structures and surrounding low banks. Avoid the large right cliff and upper lake beyond.",
+      "bbox": [
+        0.25,
+        0.35,
+        0.38,
+        0.13
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "straight roof eaves and dark beam lines",
+        "small wall and window accents",
+        "thin leafless tree branches rising around the houses",
+        "dotted shrubs and hedge marks",
+        "curving ground contour lines",
+        "subtle warm tan wash on the buildings"
+      ]
+    },
+    {
+      "name": "right_bank_house_trees",
+      "description": "Isolate the mid-lower right riverside house compound with nearby leafless trees, sloped bank, shrubs, and small rocks. Exclude the water expanse to the left except for the immediate shoreline edge.",
+      "bbox": [
+        0.58,
+        0.53,
+        0.39,
+        0.15
+      ],
+      "role": "riverside dwelling",
+      "must_preserve": [
+        "rectangular house geometry with balcony-like dark railing strokes",
+        "sloped roof and wall outlines",
+        "tall leafless tree trunks and branching ink lines",
+        "stippled bushes along the bank",
+        "small rock clusters and path strokes",
+        "pale hillside wash behind the building"
+      ]
+    },
+    {
+      "name": "central_bridge_pines",
+      "description": "Isolate the low arched bridge crossing the narrow water channel, together with the two leaning pines beside it and the immediate bridge abutments. Avoid the larger left cliff and right rocky hillside as much as possible.",
+      "bbox": [
+        0.25,
+        0.69,
+        0.49,
+        0.11
+      ],
+      "role": "bridge with pines",
+      "must_preserve": [
+        "single curved bridge deck line",
+        "thin vertical bridge supports",
+        "leaning pine trunks",
+        "dense needle clusters rendered as dark stippled sprays",
+        "small grassy bank marks around the bridge feet",
+        "pale water wash beneath the span"
+      ]
+    },
+    {
+      "name": "left_foreground_cliff_pine",
+      "description": "Isolate the prominent left foreground cliff with the large old pine leaning over the water and the lower leafless trunks on the cliff face. Exclude the calligraphy and seal lower left.",
+      "bbox": [
+        0.0,
+        0.55,
+        0.29,
+        0.29
+      ],
+      "role": "foreground pine and cliff",
+      "must_preserve": [
+        "rugged vertical cliff contour strokes",
+        "twisted pine trunk and exposed branch structure",
+        "dense rounded pine-needle clusters",
+        "dry-brush rock creases",
+        "small shrubs at the cliff base",
+        "contrasting dark ink accents against pale rock wash"
+      ]
+    },
+    {
+      "name": "lower_foreground_bank_tree",
+      "description": "Isolate the lower foreground sloping bank with the large leafless tree spreading across the center, nearby boulders, shrubs, and shoreline contours. Do not include the signature or red seal at the far lower left.",
+      "bbox": [
+        0.17,
+        0.82,
+        0.4,
+        0.13
+      ],
+      "role": "foreground bank and bare tree",
+      "must_preserve": [
+        "forking bare branch linework",
+        "dark knotted trunk base",
+        "rounded boulder outlines and texture dots",
+        "stippled shrubs along the slope",
+        "curving shoreline and ground contour strokes",
+        "soft pale wash defining the bank edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 07 NPM.jpg",
+  "created_at": "2026-08-06T23:01:28.465060+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

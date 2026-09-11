@@ -1,0 +1,156 @@
+{
+  "source_summary": "Wide horizontal Chinese landscape with lake and distant hills, rocky foreground, arched bridge, cliff gate, thatched riverside pavilion with figures, overhanging pine foliage, and a dark right-hand cliff.",
+  "motifs": [
+    {
+      "name": "misty_distant_mountain_band",
+      "description": "Isolate the pale blue-gray distant mountain chain and low shoreline silhouettes across the upper middle distance, including soft washes and faint horizontal water haze beneath them.",
+      "bbox": [
+        0.28,
+        0.13,
+        0.32,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blue-gray wash",
+        "faint ink contour lines",
+        "uneven mist-softened ridge edges",
+        "thin horizontal water-haze strokes"
+      ]
+    },
+    {
+      "name": "left_foreground_rock_bank",
+      "description": "Isolate the dark and pale foreground rocks at the lower left, with the sloping bank and sparse shrubs, excluding nearby inscriptions and seals.",
+      "bbox": [
+        0.03,
+        0.64,
+        0.25,
+        0.32
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "dark ink rock masses",
+        "dry-brush texture",
+        "layered contour strokes",
+        "small shrub dots and tufts",
+        "pale shoreline outline"
+      ]
+    },
+    {
+      "name": "arched_footbridge_over_water",
+      "description": "Isolate the small arched wooden bridge spanning the narrow water channel, including its rail posts and the circular ripples below.",
+      "bbox": [
+        0.27,
+        0.72,
+        0.14,
+        0.18
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "curved bridge silhouette",
+        "thin railing linework",
+        "vertical support posts",
+        "delicate ink wash on bridge deck",
+        "water ripple rings below"
+      ]
+    },
+    {
+      "name": "central_cliff_gate_path",
+      "description": "Isolate the pale jagged cliff wall and narrow wooden gate or fence leading toward the pavilion compound, including the path edge and rock textures.",
+      "bbox": [
+        0.43,
+        0.43,
+        0.13,
+        0.56
+      ],
+      "role": "cliff and gate",
+      "must_preserve": [
+        "vertical pale rock faces",
+        "dark crevice outlines",
+        "dry-brush cliff texture",
+        "wooden gate slats",
+        "angled path perspective",
+        "small water-edge marks at the base"
+      ]
+    },
+    {
+      "name": "thatched_pavilion_study",
+      "description": "Isolate the main thatched pavilion with open study room, lattice panels, stone foundation, and seated scholar at a table inside.",
+      "bbox": [
+        0.53,
+        0.23,
+        0.34,
+        0.6
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "layered straw roof hatching",
+        "upturned roof geometry",
+        "rectangular wall bays",
+        "lattice window grids",
+        "stone foundation dots",
+        "seated scholar figure",
+        "desk and chair linework",
+        "subtle red and blue garment accents"
+      ]
+    },
+    {
+      "name": "right_garden_attendant",
+      "description": "Isolate the standing attendant or servant figure near the pavilion garden, holding a broom or rake beside low shrubs.",
+      "bbox": [
+        0.735,
+        0.7,
+        0.045,
+        0.18
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "slender standing posture",
+        "blue robe wash",
+        "small head and hair details",
+        "thin broom or rake strokes",
+        "minimal foot and sleeve linework"
+      ]
+    },
+    {
+      "name": "overhanging_pine_canopy",
+      "description": "Isolate the sweeping upper-right pine canopy with gnarled branches and dense needle clusters above the pavilion, avoiding seals and text.",
+      "bbox": [
+        0.61,
+        0.0,
+        0.27,
+        0.36
+      ],
+      "role": "pine canopy",
+      "must_preserve": [
+        "gnarled branch contours",
+        "dense radiating pine needles",
+        "dark clustered foliage",
+        "curving overhead composition",
+        "dry-brush bark texture"
+      ]
+    },
+    {
+      "name": "right_dark_cliff_face",
+      "description": "Isolate the massive dark rock cliff on the far right with pale streaks, angular facets, and adjoining root-like tree forms, excluding seals at the image edge.",
+      "bbox": [
+        0.86,
+        0.22,
+        0.11,
+        0.73
+      ],
+      "role": "rock cliff",
+      "must_preserve": [
+        "heavy black ink masses",
+        "pale diagonal striations",
+        "angular rock planes",
+        "dry-brush gray wash",
+        "dark-to-light edge transitions",
+        "irregular cliff silhouette"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 02 BPM.jpg",
+  "created_at": "2026-09-03T20:19:34.564309+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

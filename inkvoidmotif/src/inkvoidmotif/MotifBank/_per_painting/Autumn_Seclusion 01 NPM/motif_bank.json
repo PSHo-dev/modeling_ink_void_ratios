@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 01 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:26:58.067447+00:00",
+  "motifs": [
+    {
+      "name": "left_monumental_mountain",
+      "description": "Isolate the large rounded mountain mass on the left, with stacked arcing ridgelines, pale blue-gray washes, dark ink texture strokes, and sparse pine marks along the slopes. Exclude the small houses and foreground trees at the lower edge.",
+      "bbox": [
+        0.0,
+        0.21,
+        0.35,
+        0.32
+      ],
+      "role": "dominant mountain backdrop",
+      "must_preserve": [
+        "broad wet gray wash contours",
+        "repeated curved ridge linework",
+        "dark clustered pine-needle marks on upper slopes",
+        "pale blue mineral-tint accents",
+        "soft mist-softened lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_monumental_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pine_ridge_blue_peaks",
+      "description": "Isolate the central layered ridge with tall pale blue peaks behind it and a darker pine-covered slope in front. Include the vertical tree trunks and dense ink pine clusters along the lower central ridge, but exclude the village roofs below.",
+      "bbox": [
+        0.29,
+        0.25,
+        0.33,
+        0.29
+      ],
+      "role": "middle-distance mountain and pine ridge",
+      "must_preserve": [
+        "cool blue distant peak washes",
+        "ragged ink outlines on peak edges",
+        "arched gray ridge strokes",
+        "dense black pine-dot clusters",
+        "thin vertical pine trunks at the ridge base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_pine_ridge_blue_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_cliffs_and_valley",
+      "description": "Isolate the right-side mountain group: misty upright cliffs, rounded blue-gray hills, the deep white valley gap, descending stream path, and small bridge-like crossing near the lower valley. Exclude the lower-right pavilion complex.",
+      "bbox": [
+        0.58,
+        0.29,
+        0.4,
+        0.4
+      ],
+      "role": "misty right mountain valley",
+      "must_preserve": [
+        "vertical cliff texture strokes",
+        "soft white mist pockets between hills",
+        "pale blue-gray and tan washes",
+        "dark scalloped vegetation marks along ridges",
+        "thin bridge and stream linework in the valley"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_misty_cliffs_and_valley.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_hillside_village",
+      "description": "Isolate the central cluster of hillside buildings on a rocky terrace, including multiple tiled roofs, timber wall lines, and adjacent pine-darkened rocks. Keep only the village group and its immediate supporting slope.",
+      "bbox": [
+        0.34,
+        0.5,
+        0.27,
+        0.15
+      ],
+      "role": "village cluster on mountain terrace",
+      "must_preserve": [
+        "precise roof geometry and parallel tile lines",
+        "dark ink outlines of walls and posts",
+        "stepped arrangement of buildings",
+        "rocky gray wash foundation",
+        "nearby pine dots and small shrubs framing the terrace"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_hillside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_ravine_grove_hamlet",
+      "description": "Isolate the left mid-to-foreground ravine with tall bare trees, dark bamboo-like groves, small roofed houses tucked into the slope, orange autumn foliage, and rugged rocks. Exclude the large mountain mass above and open water below.",
+      "bbox": [
+        0.0,
+        0.46,
+        0.31,
+        0.31
+      ],
+      "role": "wooded ravine hamlet",
+      "must_preserve": [
+        "thin vertical tree trunks and branch tracery",
+        "small red-brown roof accents",
+        "dark ink grove clusters",
+        "orange autumn leaf touches",
+        "layered gray rock texture and wash transitions"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_ravine_grove_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_river_boat_scholar",
+      "description": "Isolate the foreground water surface with reed banks, the small covered boat at lower left, the seated boatman/passenger detail, and the standing scholar on the shore. Include the immediate shoreline and grasses, but exclude the large central tree and pavilion.",
+      "bbox": [
+        0.0,
+        0.72,
+        0.47,
+        0.23
+      ],
+      "role": "foreground river scene with boat and figure",
+      "must_preserve": [
+        "pale horizontal water washes",
+        "fine blue-gray reed strokes",
+        "small boat hull and canopy linework",
+        "tiny seated figure details in the boat",
+        "standing scholar silhouette and shoreline marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_river_boat_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_autumn_tree_rock",
+      "description": "Isolate the large foreground autumn tree and rocky knoll near the center-right, including the twisting trunks, black branch network, pink-orange leaves, dark root-like rock strokes, and surrounding low shrubs. Exclude the pavilion behind it where possible.",
+      "bbox": [
+        0.41,
+        0.6,
+        0.38,
+        0.36
+      ],
+      "role": "foreground tree and rock anchor",
+      "must_preserve": [
+        "twisted trunk contours",
+        "fine branching ink linework",
+        "pink and orange leaf accents",
+        "dark stippled rock texture",
+        "root-like strokes merging tree and stone"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_autumn_tree_rock.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_pavilion_scholar",
+      "description": "Isolate the lower-right pavilion group nestled between steep rocks, including the tiled roof, open wall bays, interior seated scholar figure, steps, adjacent shrubs, and enclosing dark-textured cliff forms. Exclude calligraphy and the central foreground tree except unavoidable overlapping branches.",
+      "bbox": [
+        0.66,
+        0.76,
+        0.29,
+        0.2
+      ],
+      "role": "foreground pavilion retreat with scholar",
+      "must_preserve": [
+        "crisp roof angles and tile hatching",
+        "open pavilion posts and wall geometry",
+        "small seated scholar figure inside",
+        "stepped entry lines",
+        "dark dotted cliff texture and nearby red-green foliage accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_pavilion_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

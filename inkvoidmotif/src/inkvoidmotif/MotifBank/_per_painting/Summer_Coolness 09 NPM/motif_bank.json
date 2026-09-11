@@ -1,0 +1,94 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 09 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:49:19.374000+00:00",
+  "motifs": [
+    {
+      "name": "overhanging_pine_bough",
+      "description": "Isolate the sweeping upper-right pine bough that arcs diagonally across the painting, including the twisting ocher-brown branch, exposed angular offshoots, and all dark needle clusters along the branch tips.",
+      "bbox": [
+        0.403,
+        0.247,
+        0.597,
+        0.274
+      ],
+      "role": "overhanging pine canopy",
+      "must_preserve": [
+        "fine black pine-needle sprays radiating from each tuft",
+        "twisted branch contour lines and warm brown wash",
+        "small ink dots along knots and bark scars",
+        "angular bare twig extensions at the far right",
+        "irregular spacing of needle clusters"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_overhanging_pine_bough.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_leafy_grove",
+      "description": "Isolate the central grove of smaller trees with multiple pale trunks and rounded canopies made of many radial leaf rosettes, including the intertwined branches and visible roots.",
+      "bbox": [
+        0.187,
+        0.486,
+        0.427,
+        0.405
+      ],
+      "role": "central tree grove",
+      "must_preserve": [
+        "repeated starburst leaf clusters drawn with fine ink strokes",
+        "pale ocher trunks with sinuous outlines",
+        "interlacing branch structure visible through foliage",
+        "dark stippled shadow masses behind trunks",
+        "root and base lines at the foreground ground plane"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_leafy_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mossy_rock_cluster",
+      "description": "Isolate the low rock and shrub cluster to the right of the tall pine trunk, including the ocher rocks, blue-green wash accents, contour lines, and dotted moss.",
+      "bbox": [
+        0.707,
+        0.69,
+        0.217,
+        0.09
+      ],
+      "role": "foreground rock cluster",
+      "must_preserve": [
+        "angular rock outlines in thin ink",
+        "blue-green mineral wash patches",
+        "black moss dots scattered on and around the rocks",
+        "small scrubby grass strokes",
+        "uneven ground contour beneath the rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_mossy_rock_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_seated_scholar",
+      "description": "Isolate the seated scholar at the lower left, including his red outer robe, pale undergarment, black cap, face, hands, and the low seat or rock directly supporting him.",
+      "bbox": [
+        0.028,
+        0.744,
+        0.125,
+        0.077
+      ],
+      "role": "seated scholar figure",
+      "must_preserve": [
+        "delicate facial linework and black cap",
+        "muted red robe wash",
+        "thin robe-fold outlines",
+        "seated posture with hands near the lap",
+        "small ground and support strokes immediately under the figure"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_left_seated_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

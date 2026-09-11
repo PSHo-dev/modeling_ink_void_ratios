@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Spring 26 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:37:15.439648+00:00",
+  "motifs": [
+    {
+      "name": "upper_right_mist_cliff",
+      "description": "Large upper-right mountain cliff face with a wooded crest and descending vertical rock striations, partially veiled by pale mist wash.",
+      "bbox": [
+        0.42,
+        0.06,
+        0.58,
+        0.36
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray ink wash forming the cliff mass",
+        "ragged tree silhouette along the ridge crest",
+        "vertical dry-brush rock texture and streaks",
+        "mist-softened lower edge fading into open space",
+        "irregular dark foliage dabs at the top"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_right_mist_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_mist_peak",
+      "description": "Small triangular distant peak emerging from haze in the central valley, with faint surrounding mist.",
+      "bbox": [
+        0.25,
+        0.33,
+        0.16,
+        0.1
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "subtle pointed peak silhouette",
+        "pale gray wash with low contrast",
+        "soft mist edges around the peak",
+        "minimal dry-brush mountain texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_distant_mist_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_wooded_bluff",
+      "description": "Left middle bluff with sloping gray rock forms and sparse-to-dense ink foliage rising from the ridge.",
+      "bbox": [
+        0,
+        0.33,
+        0.31,
+        0.25
+      ],
+      "role": "hillside",
+      "must_preserve": [
+        "leaning tree trunks and twig strokes",
+        "clustered dark leaf dabs on the ridge top",
+        "gray wash slope descending into mist",
+        "broken dry-brush rock lines",
+        "soft lower fade where the hill dissolves into fog"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_wooded_bluff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_ink_grove_ridge",
+      "description": "Dark central grove on a midground ridge, with tall clustered trees and heavy black foliage against mist.",
+      "bbox": [
+        0.23,
+        0.37,
+        0.48,
+        0.17
+      ],
+      "role": "forest ridge",
+      "must_preserve": [
+        "dense black ink foliage masses",
+        "thin vertical trunks visible beneath leaf clusters",
+        "ragged uneven canopy line",
+        "misty gray ridge base",
+        "contrast between dark grove and pale background wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_ink_grove_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bank_village_roofs",
+      "description": "Small distant village or pavilion roofs on the right bank, set among faint trees and haze.",
+      "bbox": [
+        0.67,
+        0.49,
+        0.3,
+        0.11
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "simple horizontal roof ridge lines",
+        "small angled roof supports and eaves",
+        "faint surrounding tree silhouettes",
+        "pale atmospheric wash separating structures from background",
+        "delicate linear geometry of the huts"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_bank_village_roofs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_pines",
+      "description": "Large foreground pine composition with twisting trunks and long needle clusters sweeping diagonally across the lower scene.",
+      "bbox": [
+        0.05,
+        0.56,
+        0.76,
+        0.29
+      ],
+      "role": "foreground pine",
+      "must_preserve": [
+        "angular twisted trunk linework",
+        "radiating pine needle clusters",
+        "dark ink branch contours",
+        "drooping and sweeping diagonal boughs",
+        "variation between dry thin needles and heavier trunk strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_twisted_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_rocky_slope",
+      "description": "Lower-right rocky hillside supporting trees, with layered slanted rock strokes, root-like lines, shrubs, and textured ground.",
+      "bbox": [
+        0.44,
+        0.69,
+        0.45,
+        0.24
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "diagonal dry-brush rock striations",
+        "dark root and trunk base contours",
+        "scattered shrub foliage dabs",
+        "layered slope planes in gray wash",
+        "broken ink texture defining the ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_right_rocky_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "path_scholars_pair",
+      "description": "Two small scholar figures on the lower path near the base of the slope, one standing with staff or robe linework and one smaller attendant-like figure nearby.",
+      "bbox": [
+        0.27,
+        0.84,
+        0.18,
+        0.08
+      ],
+      "role": "figure group",
+      "must_preserve": [
+        "fine black contour lines of robes",
+        "small heads and posture details",
+        "standing scholar silhouette",
+        "smaller companion figure",
+        "minimal path strokes anchoring the figures"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_path_scholars_pair.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape with ink-and-light-color mountains, misty water, clustered architecture, distant ridges, rocky shores, and sparse red foliage accents. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_craggy_mountain_massif",
+      "description": "Isolate the dominant central mountain formation: stacked rounded cliffs, steep gullies, terraced ledges, and dark conifer bands climbing the slopes. Exclude surrounding calligraphy, seals, sky, and the small village at the lower right edge.",
+      "bbox": [
+        0.12,
+        0.15,
+        0.61,
+        0.48
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "layered ink contour lines defining rounded rock faces",
+        "dry-brush texture and pale ochre-gray washes on cliff surfaces",
+        "dark blue-black tree-dot clusters and short vertical pine strokes along ridges",
+        "soft mist gaps separating terraces and valleys",
+        "arching central ridge line and vertical cliff striations"
+      ]
+    },
+    {
+      "name": "left_needle_cliffs_and_trees",
+      "description": "Isolate the left-side vertical rock needles and adjacent wooded cliff ledges, including the pale upright spires, dark tree bands, and small red-leaf shrubs embedded in the rocks. Avoid nearby calligraphy and red seals.",
+      "bbox": [
+        0.0,
+        0.27,
+        0.28,
+        0.36
+      ],
+      "role": "side cliffs",
+      "must_preserve": [
+        "tall pale pillar-like cliff silhouettes",
+        "thin ink outlines and vertical texture strokes",
+        "dark clustered treetops along ledges",
+        "small red foliage accents among gray rocks",
+        "misty white breaks at the cliff bases"
+      ]
+    },
+    {
+      "name": "upper_right_distant_ridge",
+      "description": "Isolate the distant rolling ridge on the upper right: soft pale hills with a dotted dark treeline along the crest and hazy washes receding into open space.",
+      "bbox": [
+        0.7,
+        0.25,
+        0.29,
+        0.18
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint gray contour lines of the far hills",
+        "soft diluted wash edges fading into mist",
+        "dark dotted tree strokes along the ridge crest",
+        "subtle ochre tint on the slopes",
+        "open atmospheric spacing around the ridge"
+      ]
+    },
+    {
+      "name": "mid_right_lakeside_village",
+      "description": "Isolate the small village cluster on the mid-right shore beneath the mountain: several low buildings with layered roofs, thin walls, nearby trees, and a narrow shoreline path. Exclude the large mountain mass above as much as possible.",
+      "bbox": [
+        0.62,
+        0.38,
+        0.29,
+        0.09
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "precise dark roof outlines and eave geometry",
+        "light tan roof and wall washes",
+        "thin horizontal shoreline and path lines",
+        "small vertical tree strokes behind and between buildings",
+        "tiny red-orange foliage accents near the water"
+      ]
+    },
+    {
+      "name": "lower_left_bridge_hamlet",
+      "description": "Isolate the lower-left waterfront hamlet with a covered structure, bridge-like walkway, posts, rocks, and bare trees beside the water. Keep it separate from the broad blank lake surface.",
+      "bbox": [
+        0.03,
+        0.58,
+        0.35,
+        0.08
+      ],
+      "role": "bridge and pavilion group",
+      "must_preserve": [
+        "fine roof lines and layered eaves",
+        "bridge or walkway posts drawn with thin ink strokes",
+        "bare branch silhouettes at the left",
+        "low shoreline rocks with dry-brush texture",
+        "pale wash transitions where the structure meets mist and water"
+      ]
+    },
+    {
+      "name": "central_misty_lake_surface",
+      "description": "Isolate the broad central lake or mist-filled water plane, including the open blank water, faint horizontal shore contours, and subtle wash boundaries between banks. Do not include buildings or major tree groups.",
+      "bbox": [
+        0.05,
+        0.64,
+        0.54,
+        0.23
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "large unpainted water/mist expanse",
+        "very faint horizontal ripples and shoreline traces",
+        "soft irregular edges where banks dissolve into water",
+        "pale gray wash transitions",
+        "minimal ink marks that define depth without clutter"
+      ]
+    },
+    {
+      "name": "foreground_tall_tree_islet",
+      "description": "Isolate the foreground rocky islet with tall slender trees, drooping foliage, red-leaf shrubs, grasses, and clustered rocks near the center-right foreground. Exclude the lower-right houses.",
+      "bbox": [
+        0.42,
+        0.6,
+        0.32,
+        0.29
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "long thin trunks with varied ink pressure",
+        "drooping dark leaf clusters and needle-like foliage",
+        "red berry-like and leaf accents among shrubs",
+        "rounded foreground rocks with gray-ochre washes",
+        "fine grasses and reeds at the water edge"
+      ]
+    },
+    {
+      "name": "lower_right_terraced_pavilions",
+      "description": "Isolate the lower-right architectural group set on a rocky bank: multi-level pavilions, walls, roof ridges, surrounding shrubs, and vertical cliff edge. Exclude the red seal at the bottom corner.",
+      "bbox": [
+        0.73,
+        0.8,
+        0.26,
+        0.11
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked roof geometry with crisp ink eaves",
+        "pale walls and light ochre roof washes",
+        "dark shrub and tree strokes framing the buildings",
+        "rock ledge texture beneath the structures",
+        "vertical architectural posts and terrace lines"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 03 NPM.jpg",
+  "created_at": "2026-09-03T19:24:07.225534+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

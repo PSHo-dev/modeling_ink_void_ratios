@@ -1,0 +1,150 @@
+{
+  "source_summary": "Pastoral Chinese ink-and-color landscape with a shallow waterway, reeds and banks, two flying birds, a half-submerged water buffalo, a boy riding another buffalo, and a gnarled tree with roots on the right; seals and border areas are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "flying_bird_pair",
+      "description": "Isolate the two dark birds flying across the open upper sky, including both silhouettes and wing feather strokes only.",
+      "bbox": [
+        0.292,
+        0.132,
+        0.185,
+        0.07
+      ],
+      "role": "sky wildlife accent",
+      "must_preserve": [
+        "dark ink silhouettes with tapered wings",
+        "individual feather-line strokes on raised and lowered wings",
+        "small pointed beaks and forked tail shapes",
+        "subtle variation between the two birds' poses"
+      ]
+    },
+    {
+      "name": "misted_far_shoreline",
+      "description": "Isolate the pale horizontal far bank and mist wash running across the middle distance, without including seals or foreground animals.",
+      "bbox": [
+        0.0,
+        0.276,
+        0.82,
+        0.085
+      ],
+      "role": "misty middle-ground shore",
+      "must_preserve": [
+        "soft gray-brown wash band",
+        "blurred mist edges along the bank",
+        "thin wavering contour line at the shore",
+        "faint tonal transition into open water below"
+      ]
+    },
+    {
+      "name": "central_reed_clump",
+      "description": "Isolate the tall reed and grass cluster rising from the left-center bank, including the thin stalks and sparse leaf blades, but excluding the nearby buffalo.",
+      "bbox": [
+        0.14,
+        0.28,
+        0.23,
+        0.27
+      ],
+      "role": "marsh vegetation",
+      "must_preserve": [
+        "fine black reed stalks crossing at varied angles",
+        "pale green-gray washes at the base",
+        "delicate needle-like leaf strokes",
+        "uneven density from sparse upper tips to heavier lower clump"
+      ]
+    },
+    {
+      "name": "half_submerged_buffalo",
+      "description": "Isolate the water buffalo partly submerged near the left-center water, including head, horns, back, shoulder, and visible watery body contours.",
+      "bbox": [
+        0.215,
+        0.558,
+        0.35,
+        0.102
+      ],
+      "role": "animal in shallow water",
+      "must_preserve": [
+        "curved crescent horns with dark ink edges",
+        "rounded muzzle, eye, and nostril details",
+        "soft brown-gray body wash fading into water",
+        "submerged back and neck contours",
+        "thin ripple lines touching the body"
+      ]
+    },
+    {
+      "name": "right_gnarled_tree_and_roots",
+      "description": "Isolate the gnarled tree trunk, exposed roots, rocky right bank, and adjacent low shrubs, avoiding the red seals above.",
+      "bbox": [
+        0.69,
+        0.335,
+        0.31,
+        0.345
+      ],
+      "role": "right foreground bank anchor",
+      "must_preserve": [
+        "twisted trunk contour lines",
+        "dark root outlines gripping the bank",
+        "dry-brush bark texture and knots",
+        "small dotted shrubs and grass tufts",
+        "rock ledge wash and rough edge texture"
+      ]
+    },
+    {
+      "name": "boy_riding_buffalo",
+      "description": "Isolate the large walking water buffalo with the seated boy rider in the lower right, including the boy's garment lines, the animal's horns, legs, tail, and body wash.",
+      "bbox": [
+        0.455,
+        0.65,
+        0.53,
+        0.21
+      ],
+      "role": "foreground figure and animal group",
+      "must_preserve": [
+        "boy's seated posture and bent legs",
+        "fine garment folds in pale ink",
+        "boy's head and short hair wash",
+        "large buffalo's dark rounded body wash",
+        "curved horns, muzzle, eye, and tail",
+        "leg and hoof linework with wet-ground contact marks"
+      ]
+    },
+    {
+      "name": "foreground_grassy_rock_islet",
+      "description": "Isolate the low foreground islet of grasses, rocks, and dark scrub beneath the buffalo path, excluding seals and as much of the animal as possible.",
+      "bbox": [
+        0.165,
+        0.865,
+        0.445,
+        0.075
+      ],
+      "role": "foreground ground plane",
+      "must_preserve": [
+        "tufted grass strokes in clustered arcs",
+        "dark ink scrub patches",
+        "low rounded rock forms",
+        "soft earthy wash around the islet",
+        "irregular broken shoreline edge"
+      ]
+    },
+    {
+      "name": "shallow_water_ripple_field",
+      "description": "Isolate the open shallow water area at lower left with layered ripple lines and pale wash, avoiding the red seal and figures.",
+      "bbox": [
+        0.055,
+        0.675,
+        0.39,
+        0.205
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "long thin horizontal ripple strokes",
+        "subtle wavering contour lines",
+        "pale transparent water wash",
+        "spacing variation between ripple bands",
+        "quiet empty-water negative space"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 04 NPM.jpg",
+  "created_at": "2026-08-27T22:34:59.843103+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

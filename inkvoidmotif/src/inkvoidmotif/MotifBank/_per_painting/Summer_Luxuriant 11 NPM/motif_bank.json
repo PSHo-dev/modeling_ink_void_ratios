@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 11 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:15:14.041947+00:00",
+  "motifs": [
+    {
+      "name": "distant_misty_mountain_chain",
+      "description": "Isolate the pale background mountain chain and low shoreline stretching from the far left across the center, including the soft receding peaks, faint horizontal waterline, and sparse dotted tree belt below the hills. Exclude the boats, central pavilions, and right rocky massif.",
+      "bbox": [
+        0.0,
+        0.22,
+        0.67,
+        0.17
+      ],
+      "role": "distant mountain and misted shoreline",
+      "must_preserve": [
+        "thin grey contour lines defining the low peaks",
+        "soft diluted ink washes fading into the blank sky",
+        "broken horizontal shoreline strokes",
+        "tiny green-grey tree dabs along the shore",
+        "misty gaps and feathered wash edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_misty_mountain_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_lake_sailboats",
+      "description": "Isolate the small group of sailing boats on the open lake at left middle: one small boat at far left and two larger boats with upright masts and slanted sails toward center-left. Include only their immediate water ripples.",
+      "bbox": [
+        0.02,
+        0.36,
+        0.24,
+        0.08
+      ],
+      "role": "boats on water",
+      "must_preserve": [
+        "dark angular hull linework",
+        "slender vertical masts",
+        "triangular pale sail shapes with ink outlines",
+        "short broken water-ripple strokes around the boats",
+        "spacing between the separate boats"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_lake_sailboats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rocky_pine_mountain",
+      "description": "Isolate the large right-side rocky hill/mountain rising from the lakeside, with its rounded summit, exposed crag clusters, dark ridge pines, and textured slopes. Exclude the lower pavilions and foreground fields where possible.",
+      "bbox": [
+        0.53,
+        0.22,
+        0.45,
+        0.26
+      ],
+      "role": "dominant rocky mountain",
+      "must_preserve": [
+        "layered rock contours and angular crag outlines",
+        "dry-brush texture strokes on the slopes",
+        "dark pine-dot crown along the ridge",
+        "blue-green shrub washes on the lower slopes",
+        "soft mist transition at the mountain foot"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_rocky_pine_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lakeside_pavilions",
+      "description": "Isolate the central cluster of lakeside pavilions nestled against the small hill, with multiple tiled roofs, posts, and warm red-orange wall accents. Include the small surrounding tree and bank strokes directly attached to the buildings.",
+      "bbox": [
+        0.385,
+        0.365,
+        0.15,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked black roof eaves with upturned tips",
+        "fine architectural linework and vertical posts",
+        "muted red-orange pigment accents under the roofs",
+        "small dark ridge ornaments",
+        "nearby shrub dots and pale bank wash framing the buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_lakeside_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midright_pine_grove_pavilion",
+      "description": "Isolate the mid-right waterside grove below the mountain: a band of upright pines and bare-branched trees, a small pavilion with dark roof and red wall, and adjacent horizontal embankment/water strokes. Exclude the main rocky mountain above and foreground willow trunks.",
+      "bbox": [
+        0.5,
+        0.39,
+        0.46,
+        0.17
+      ],
+      "role": "midground grove and pavilion",
+      "must_preserve": [
+        "repeated vertical pine trunks and dark needle clusters",
+        "pale blue-green foliage dabs",
+        "small pavilion roof geometry with dark ink eaves",
+        "thin horizontal water and field-divider lines",
+        "misty white openings between tree masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midright_pine_grove_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_willow_homestead",
+      "description": "Isolate the lower-left foreground homestead under dense willows: the small house compound with dark roofs and fence-like lines, surrounded by large drooping willow canopies, trunks, roots, rocks, and low shrubs. Exclude the lone scholar to the right.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.36,
+        0.35
+      ],
+      "role": "foreground village and willow grove",
+      "must_preserve": [
+        "heavy dark willow trunks and exposed root strokes",
+        "dense drooping leaf marks made of repeated short strokes",
+        "black roof and wall geometry of the small house",
+        "fence or railing linework beside the building",
+        "rocky foreground mounds with dry-brush texture and dark shrub dots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_willow_homestead.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lone_scholar_with_staff",
+      "description": "Isolate the tiny walking scholar figure on the foreground path near lower center-left, including the peach robe, bent posture, dark head, legs, and slender walking staff. Include only the minimal ground strokes immediately under the figure.",
+      "bbox": [
+        0.36,
+        0.735,
+        0.035,
+        0.055
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "small peach-colored robe wash",
+        "fine black outline of body and limbs",
+        "slender diagonal walking staff",
+        "dark head and compact posture",
+        "tiny ground/path strokes at the feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lone_scholar_with_staff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_wet_fields",
+      "description": "Isolate the lower-right open wet fields and low earthen banks, with pale sweeping wash bands, rows of short vertical marsh/rice strokes, scattered dark stones or earth clumps, and a curved shrub-dotted embankment at the upper edge. Avoid the large willow trunks as separate elements.",
+      "bbox": [
+        0.62,
+        0.71,
+        0.36,
+        0.25
+      ],
+      "role": "foreground wetland and field surface",
+      "must_preserve": [
+        "broad pale grey wash bands following the field slope",
+        "rows of tiny vertical grass or rice shoots",
+        "thin horizontal dike and waterline strokes",
+        "small dark stone or earth-clump accents",
+        "curved embankment with blue-green shrub dots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_wet_fields.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 27 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:27:30.760511+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_pine_cliffs",
+      "description": "A cluster of steep pale rock faces at the upper left-middle, capped and edged with dense dark ink pines and scrub, with vertical cliff washes and broken contour strokes isolated from the surrounding inscriptions and distant shore.",
+      "bbox": [
+        0.0,
+        0.328,
+        0.555,
+        0.486
+      ],
+      "role": "mountain cliff group",
+      "must_preserve": [
+        "bold dark pine masses on cliff tops",
+        "pale vertical rock faces with dry-brush texture",
+        "broken ink outlines and fissure strokes",
+        "soft wash transitions at the cliff bases",
+        "small dark shrubs at the lower rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_pine_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midwater_tree_islet",
+      "description": "Small low islet or rock with clustered dark trees in the open water below the upper cliffs, separated from larger landforms.",
+      "bbox": [
+        0.255,
+        0.455,
+        0.19,
+        0.055
+      ],
+      "role": "small wooded island",
+      "must_preserve": [
+        "compact dark tree crowns",
+        "short vertical trunk accents",
+        "low pale rock or bank shape",
+        "ink pooling at the base",
+        "surrounding open water margin"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midwater_tree_islet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_pine_spit",
+      "description": "Long low peninsula in the middle distance with a row of slender pines and dotted shoreline texture, projecting across the river from left toward the right.",
+      "bbox": [
+        0.405,
+        0.505,
+        0.56,
+        0.108
+      ],
+      "role": "distant wooded shoreline",
+      "must_preserve": [
+        "repeating narrow pine trunks",
+        "tiered dark pine crowns",
+        "dotted shoreline and pebble marks",
+        "low sloping bank wash",
+        "misty recession behind the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_distant_pine_spit.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "travelers_with_mount",
+      "description": "Two traveling figures in the lower middle: a robed rider on a dark donkey or horse and a walking attendant carrying a long pole or bundle, isolated with the small ground strokes beneath them.",
+      "bbox": [
+        0.18,
+        0.762,
+        0.47,
+        0.095
+      ],
+      "role": "scholar travelers",
+      "must_preserve": [
+        "fine contour linework of robes and hats",
+        "dark compact animal body and legs",
+        "rider posture and reins",
+        "attendant with long diagonal carrying pole",
+        "minimal ground line and small hoof/foot marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_travelers_with_mount.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_tall_tree_screen",
+      "description": "Tall foreground trees rising along the right-center edge, including a dark central conifer and paler vertical trunks behind it, with layered foliage washes.",
+      "bbox": [
+        0.505,
+        0.615,
+        0.46,
+        0.265
+      ],
+      "role": "foreground tree screen",
+      "must_preserve": [
+        "long straight trunks in pale and dark ink",
+        "dark clustered conifer needles",
+        "layered translucent foliage washes",
+        "vertical spacing between tree trunks",
+        "small dotted ground accents at the roots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_tall_tree_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Large foreground rocky bank at the lower right with heavy dark shrubs, pale rounded rock faces, and textured washes forming the nearest shore.",
+      "bbox": [
+        0.438,
+        0.846,
+        0.462,
+        0.145
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "rounded pale rock forms",
+        "dark ink shrub masses on ledges",
+        "dry-brush rock texture and fissures",
+        "soft wash at the water edge",
+        "irregular contour lines and pooled ink shadows"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

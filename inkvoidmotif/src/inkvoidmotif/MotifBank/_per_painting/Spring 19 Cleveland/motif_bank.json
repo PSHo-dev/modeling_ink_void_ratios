@@ -1,0 +1,183 @@
+{
+  "source": "../../../../../../Input_Images/Spring 19 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:26:17.000720+00:00",
+  "motifs": [
+    {
+      "name": "left_cliff_spring_trees",
+      "description": "Isolate the lower-left vertical cliff face with the cluster of bare-branched spring trees growing against it, including the dark ink trunks, dotted moss, pale blue-green leaf washes, and the grey vertical cliff washes. Exclude the inscription area above and any central hills beyond the cliff edge.",
+      "bbox": [
+        0,
+        0.31,
+        0.21,
+        0.57
+      ],
+      "role": "foreground framing cliff and trees",
+      "must_preserve": [
+        "ragged vertical grey wash texture of the cliff",
+        "dark dotted moss accents along rock edges",
+        "angular black branch linework",
+        "pale blue-green spring foliage dabs",
+        "heavy dark trunk bases and exposed root-like strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_cliff_spring_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_distance_rolling_hills",
+      "description": "Isolate the horizontal chain of rounded mid-distance hills and rocky banks across the upper middle water, including the layered grey washes, small rock outcrops, dotted shrub textures, and soft mist gaps. Exclude calligraphy and seals above, and exclude the boat below.",
+      "bbox": [
+        0.12,
+        0.19,
+        0.55,
+        0.3
+      ],
+      "role": "middle-distance hills and shoreline",
+      "must_preserve": [
+        "soft rounded hill silhouettes",
+        "granular grey ink wash texture",
+        "black dotted shrub clusters along ridgelines",
+        "small darker rock protrusions",
+        "pale misty edges where hills meet water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_mid_distance_rolling_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_cliff_bare_trees",
+      "description": "Isolate the upper-right rock ledge and cliff mass with the tall bare trees and dotted shrubs. Include the overhanging grey rock washes, dark bark strokes, sparse twig networks, and moss dots. Exclude the red seal at far right and the boat below.",
+      "bbox": [
+        0.63,
+        0,
+        0.31,
+        0.37
+      ],
+      "role": "right framing cliff and trees",
+      "must_preserve": [
+        "tall dark leafless tree trunks",
+        "fine angular twig linework",
+        "rounded boulder forms under the cliff lip",
+        "vertical dry-brush cliff texture",
+        "black moss dots and shrub clusters",
+        "soft pale blue background wash behind branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_cliff_bare_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "narrow_boat_two_figures",
+      "description": "Isolate the slender skiff with two seated figures on the water, including the boat ribs, pointed prow and stern, thin water ripples, black figure outlines, and red-orange clothing accents. Exclude adjacent cliff and tree trunks.",
+      "bbox": [
+        0.51,
+        0.36,
+        0.17,
+        0.2
+      ],
+      "role": "boat with scholar figures",
+      "must_preserve": [
+        "thin curved hull outline",
+        "parallel rib and plank strokes",
+        "two seated figures with black ink contours",
+        "red-orange robe accents",
+        "delicate horizontal water ripple lines",
+        "light empty-water space immediately around the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_narrow_boat_two_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_pavilion_bank",
+      "description": "Isolate the foreground lakeside pavilion and its rocky bank, including the tiled roof geometry, posts, railing, steps, adjacent stones, and dark ink architectural lines. Keep only the pavilion group and immediate ground; exclude the tall willow and unrelated open water.",
+      "bbox": [
+        0.2,
+        0.72,
+        0.25,
+        0.22
+      ],
+      "role": "foreground pavilion group",
+      "must_preserve": [
+        "slanted tiled roof with repeated parallel tile strokes",
+        "rectangular wall and window linework",
+        "dark vertical support posts",
+        "short steps or small landing beside the building",
+        "rounded bank rocks with grey wash",
+        "black moss-dot accents around the foundation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_foreground_pavilion_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_leafless_saplings",
+      "description": "Isolate the central foreground grove of thin leafless saplings rising in front of the pavilion area, with some faint blue-green foliage haze behind them. Include the branching ink skeletons and overlapping slender trunks, but exclude the pavilion roof and willow fronds where possible.",
+      "bbox": [
+        0.27,
+        0.53,
+        0.25,
+        0.45
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "fine forked branch linework",
+        "varied ink weight from pale grey twigs to dark trunks",
+        "vertical sapling rhythm",
+        "subtle blue-green wash patches behind branches",
+        "interlaced lower twigs and dark base strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_leafless_saplings.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "leaning_willow_clump",
+      "description": "Isolate the leaning willow at the lower center-right with its arcing trunk, drooping fronds, and surrounding reed-like grasses. Include the brownish trunk accent, grey-black hanging leaf strokes, and nearby soft rock base, while excluding the pavilion and distant islands.",
+      "bbox": [
+        0.45,
+        0.64,
+        0.25,
+        0.35
+      ],
+      "role": "foreground willow and reeds",
+      "must_preserve": [
+        "curving leaning trunk with warm brown accent",
+        "long drooping willow leaf strokes",
+        "loose reed and grass arcs",
+        "fine grey ink line variation",
+        "small rounded stones at the root area",
+        "transparent wash quality around foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_leaning_willow_clump.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_low_islets_waterline",
+      "description": "Isolate the low rocky islets and horizontal water bands in the lower-right distance. Include the shallow shoreline rocks, dark moss dots, low grey washes, and thin horizontal ripple lines. Exclude the willow branches above and the blank paper around the seal area.",
+      "bbox": [
+        0.7,
+        0.82,
+        0.29,
+        0.13
+      ],
+      "role": "distant waterline and rocky islets",
+      "must_preserve": [
+        "low elongated island silhouettes",
+        "soft grey rock washes",
+        "black moss-dot clusters on rock tops",
+        "thin horizontal waterline strokes",
+        "misty separation between islands and water",
+        "subtle tonal gradation along the shoreline"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_low_islets_waterline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

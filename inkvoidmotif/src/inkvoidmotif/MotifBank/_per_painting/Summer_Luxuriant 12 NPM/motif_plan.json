@@ -1,0 +1,158 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with monumental layered mountains, misty valleys, a central waterfall gorge, scattered pavilions and village compounds, winding watercourses, bridges, willows, pines, rocks, and small scholar figures. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "towering_right_mountain_pines",
+      "description": "Isolate the large right-side mountain massif rising behind the valley, including its stacked rounded ridges, dark contour lines, textured ink washes, dense pine clusters on ledges, and the small roofed pavilion tucked into the upper slope.",
+      "bbox": [
+        0.55,
+        0.14,
+        0.43,
+        0.37
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "layered rounded ridge outlines",
+        "vertical and diagonal rock texture strokes",
+        "soft ochre wash transitions",
+        "dark pine-needle clusters along terraces",
+        "small pavilion roof geometry embedded in the slope",
+        "mist-softened edges where the massif recedes"
+      ]
+    },
+    {
+      "name": "left_misty_peak_group",
+      "description": "Isolate the left and center-left misty mountain group, including the nearer rounded crag, the darker central needle-like peak, and faint background peaks dissolved in atmospheric wash.",
+      "bbox": [
+        0.02,
+        0.19,
+        0.42,
+        0.27
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale ink wash gradients suggesting mist",
+        "thin contour lines on the nearer crag",
+        "darker silhouette of the central steep peak",
+        "soft fading edges of background summits",
+        "small pine and shrub accents on lower ridges"
+      ]
+    },
+    {
+      "name": "central_waterfall_gorge",
+      "description": "Isolate the central rocky gorge with the vertical waterfall, enclosing boulders, stream pool, scattered stones, and the narrow bridge at the base.",
+      "bbox": [
+        0.25,
+        0.33,
+        0.43,
+        0.22
+      ],
+      "role": "waterfall and bridge",
+      "must_preserve": [
+        "parallel falling-water linework",
+        "dark crevice outlines around the gorge",
+        "rounded boulder contours and interior texture strokes",
+        "pebbled splash pool with dot accents",
+        "small arched bridge and rail posts",
+        "pines along the upper cliff rim"
+      ]
+    },
+    {
+      "name": "upper_right_valley_village",
+      "description": "Isolate the compact village and pavilion cluster on the right mid-slope beneath the mountains, with tiled roofs, low walls, enclosing trees, and adjacent pine-covered hillside.",
+      "bbox": [
+        0.68,
+        0.39,
+        0.3,
+        0.13
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "rectangular roof geometry and tiled roof planes",
+        "thin wall and courtyard linework",
+        "tree trunks and leaf clusters around the buildings",
+        "dark pine textures on the neighboring slope",
+        "subtle color accents on roof and wall washes"
+      ]
+    },
+    {
+      "name": "willow_bend_with_scholar",
+      "description": "Isolate the winding water bend and bank with leaning willows, low grasses, rocks, and a solitary scholar figure walking near the left edge.",
+      "bbox": [
+        0.0,
+        0.54,
+        0.47,
+        0.18
+      ],
+      "role": "waterbank and figure",
+      "must_preserve": [
+        "long drooping willow branch strokes",
+        "curving shoreline contour",
+        "tufts of bank grass and reeds",
+        "small scholar figure with robe outline",
+        "low rocks and exposed earth strokes",
+        "open water wash around the bend"
+      ]
+    },
+    {
+      "name": "lower_pavilion_compound",
+      "description": "Isolate the lower-right architectural compound with connected halls, slanted roofs, latticed windows, interior figures, pine tree, flowering shrubs, and adjacent garden wall.",
+      "bbox": [
+        0.52,
+        0.61,
+        0.46,
+        0.18
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof ridgelines and eaves",
+        "lattice window patterns",
+        "tiny seated or standing interior figures",
+        "dark layered pine needles in front of the buildings",
+        "garden wall geometry",
+        "pale blue-green and reddish color accents on plants and architecture"
+      ]
+    },
+    {
+      "name": "scholars_under_gnarled_tree",
+      "description": "Isolate the mid-lower rocky terrace with gnarled overhanging trees, three small scholar figures gathered beneath the canopy, a stone table-like slab, and surrounding bank grasses.",
+      "bbox": [
+        0.07,
+        0.75,
+        0.47,
+        0.14
+      ],
+      "role": "scholar figures and foreground tree",
+      "must_preserve": [
+        "twisting tree trunks and exposed roots",
+        "dense stippled leaf clusters",
+        "three tiny robed scholar figures",
+        "flat stone slab or table on the terrace",
+        "layered rock ledge contour lines",
+        "short grass strokes along the water edge"
+      ]
+    },
+    {
+      "name": "lower_right_rocky_pine_ravine",
+      "description": "Isolate the lower-right steep rocky ravine with tall pines, angular boulders, layered slopes, dark evergreen clusters, and the small figure on a path near the center-left of the motif.",
+      "bbox": [
+        0.55,
+        0.76,
+        0.43,
+        0.2
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "vertical pine trunks and dark needle masses",
+        "angular rock outlines and cracks",
+        "curving layered slope bands",
+        "tiny path figure with staff-like gesture",
+        "blue-green mineral accents on select foliage",
+        "contrast between dense trees and open rock wash"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 12 NPM.jpg",
+  "created_at": "2026-09-03T21:15:52.210318+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

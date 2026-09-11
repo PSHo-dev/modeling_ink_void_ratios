@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall vertical Chinese landscape with a monumental central mountain, layered ridges, wooded valleys, village pavilions, paths, scholar figures, a bridge, stream, rocks, and dense ink-textured trees; calligraphy and seals are excluded.",
+  "motifs": [
+    {
+      "name": "central_mountain_massif",
+      "description": "Dominant tan-and-gray mountain peak with steep shoulders, nested ravines, pale wash slopes, and dense dark cun-texture strokes descending into the central valley; isolate the peak and mountain body without the village buildings below.",
+      "bbox": [
+        0.16,
+        0.15,
+        0.76,
+        0.43
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "rounded summit contour and small dark cap behind it",
+        "pale ochre wash over the broad central face",
+        "fine vertical and diagonal ink texture strokes on both flanks",
+        "dark broken rock outlines along ravines",
+        "soft misty fading at lower valley edge"
+      ]
+    },
+    {
+      "name": "upper_left_distant_ridges",
+      "description": "Receding gray mountain forms at the upper left, partly hidden behind nearer ochre slopes, with soft silhouettes and sparse texture marks.",
+      "bbox": [
+        0.0,
+        0.24,
+        0.31,
+        0.25
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "muted blue-gray wash silhouettes",
+        "rounded rear peak shapes",
+        "thin dark ridge outlines",
+        "light atmospheric separation from foreground slopes",
+        "small texture strokes on the nearer left ravine"
+      ]
+    },
+    {
+      "name": "right_stratified_cliff",
+      "description": "Vertical cliff and rocky wall on the mid-right side, with horizontal ink strata, pale ledges, and small trees at its foot.",
+      "bbox": [
+        0.62,
+        0.43,
+        0.31,
+        0.17
+      ],
+      "role": "rock cliff",
+      "must_preserve": [
+        "stacked horizontal ink lines on the cliff face",
+        "pale ochre wash on ledges",
+        "dark vertical cracks and broken edges",
+        "tiny upright tree marks along the base and right edge",
+        "soft transition into adjacent hillside wash"
+      ]
+    },
+    {
+      "name": "central_valley_pavilion",
+      "description": "Small pavilion compound in the central valley beneath the mountain, including layered tile roofs, pale walls, surrounding leafless trees, shrubs, path, and nearby standing figure.",
+      "bbox": [
+        0.32,
+        0.55,
+        0.36,
+        0.12
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "double-tier roof geometry with fine ink eaves",
+        "pale wall panels and doorway lines",
+        "thin bare tree trunks and twig networks around the buildings",
+        "small dark standing scholar figure on the path",
+        "soft ochre ground wash and light path curve"
+      ]
+    },
+    {
+      "name": "right_hillside_pavilion_path",
+      "description": "Right-middle pavilion set into a wooded hillside with stone terrace, narrow path, one standing scholar figure, and surrounding bamboo-like and leafy tree brushwork.",
+      "bbox": [
+        0.61,
+        0.61,
+        0.33,
+        0.14
+      ],
+      "role": "pavilion and scholar path",
+      "must_preserve": [
+        "compact gabled roof with dark eave lines",
+        "rectangular pale wall opening",
+        "irregular stone wall blocks beside the path",
+        "single robed figure on the path",
+        "mixed foliage dots, fine trunks, and pale hillside wash"
+      ]
+    },
+    {
+      "name": "lower_left_village_grove",
+      "description": "Lower-left village cluster nestled in dense trees, with tiled roofs, courtyard walls, blossoming shrubs, a large straight trunk, and layered foliage.",
+      "bbox": [
+        0.02,
+        0.74,
+        0.42,
+        0.18
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "overlapping roof planes and dark roof ridges",
+        "courtyard wall linework and small architectural openings",
+        "large vertical tree trunk with branching limbs",
+        "round blossom-dot shrub clusters",
+        "dense black-green foliage masses and fine leaf stippling"
+      ]
+    },
+    {
+      "name": "lower_right_pavilion_grove",
+      "description": "Lower-right pavilion and wooded path scene, including the small raised pavilion, curving path, nearby rocks, dark shrubs, and the small animal-and-attendant group at the far right edge.",
+      "bbox": [
+        0.68,
+        0.73,
+        0.31,
+        0.16
+      ],
+      "role": "pavilion grove",
+      "must_preserve": [
+        "rectangular pavilion with pitched roof and thin support lines",
+        "curving pale path through the trees",
+        "dark rounded shrub masses",
+        "rock outlines and pale wash around the building base",
+        "tiny animal and attendant figures near the right hillside"
+      ]
+    },
+    {
+      "name": "foreground_bridge_gorge",
+      "description": "Foreground arched bridge crossing a rocky stream gorge, with turbulent water lines, dark boulders, stone embankments, and tiny figures near the bridge approach.",
+      "bbox": [
+        0.0,
+        0.86,
+        0.72,
+        0.12
+      ],
+      "role": "foreground bridge and stream",
+      "must_preserve": [
+        "thin arched bridge line and simple rail posts",
+        "white-water ripple strokes beneath the bridge",
+        "dark foreground boulders with layered ink texture",
+        "stone retaining wall blocks at the stream edge",
+        "tiny walking figures and path marks near the bridge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 25 NPM.jpg",
+  "created_at": "2026-08-06T22:52:05.160072+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

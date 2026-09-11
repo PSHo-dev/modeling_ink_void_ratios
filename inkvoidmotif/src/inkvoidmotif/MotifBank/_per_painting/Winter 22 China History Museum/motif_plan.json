@@ -1,0 +1,151 @@
+{
+  "source_summary": "Vertical ink landscape with layered pale mountains, dark dotted tree groves, small buildings nestled in cliffs, a waterfall/stream descending through rocks, riverbank huts, foreground terraces, a tiny scholar figure, and reeds/boat forms; calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_misty_summits",
+      "description": "Isolate the tall pale mountain mass in the upper left, including the rounded summit outlines, soft vertical washes, faint inner texture strokes, and the dark clustered tree crowns along the top ridge and right shoulder.",
+      "bbox": [
+        0.07,
+        0.04,
+        0.36,
+        0.27
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ink-wash mountain contours",
+        "faint vertical texture strokes on cliff faces",
+        "dark dotted foliage on summit ridge",
+        "irregular mist-softened edges"
+      ]
+    },
+    {
+      "name": "central_spires_and_pine_groves",
+      "description": "Isolate the central cluster of rocky spires and dense pine/brush groves below the high peaks, including pale stone forms, layered cliff planes, and the dark needle-like foliage masses scattered across the ridges.",
+      "bbox": [
+        0.27,
+        0.2,
+        0.34,
+        0.32
+      ],
+      "role": "middle-ground mountain grove",
+      "must_preserve": [
+        "pale angular rock silhouettes",
+        "dry-brush cliff texture",
+        "dense dark pine-needle stippling",
+        "layered ridge separation in light wash",
+        "misty gaps between rock forms"
+      ]
+    },
+    {
+      "name": "right_sheer_cliff_wall",
+      "description": "Isolate the narrow sheer cliff formation on the right side of the mountain group, with its tall vertical pale rock face, darker base wash, and sparse trees clinging to the inner left edge.",
+      "bbox": [
+        0.5,
+        0.21,
+        0.17,
+        0.44
+      ],
+      "role": "sheer mountain cliff",
+      "must_preserve": [
+        "long vertical cliff contour",
+        "transparent grey wash down the rock face",
+        "darkened lower cliff base",
+        "small foliage clusters along the inner ridge",
+        "soft mist transition at the bottom"
+      ]
+    },
+    {
+      "name": "left_hillside_pavilion_grove",
+      "description": "Isolate the left-middle hillside with the small roofed pavilion tucked among trees, including surrounding trunks, dense leaf dots, rocky slope, and the slanted roofline partly hidden by foliage.",
+      "bbox": [
+        0.0,
+        0.41,
+        0.32,
+        0.2
+      ],
+      "role": "pavilion among trees",
+      "must_preserve": [
+        "small angled pavilion roof",
+        "fine architectural linework visible through trees",
+        "dark dotted foliage masses",
+        "thin tree trunks and branches",
+        "rough hillside wash and rock texture"
+      ]
+    },
+    {
+      "name": "cliffside_house_and_waterfall",
+      "description": "Isolate the central cliffside building complex with its tiled roof, rectangular walls, adjacent trees, narrow rock ledge, and the waterfall/stream dropping beneath it through the cleft.",
+      "bbox": [
+        0.18,
+        0.51,
+        0.31,
+        0.26
+      ],
+      "role": "cliffside dwelling and waterfall",
+      "must_preserve": [
+        "precise roof geometry and eaves",
+        "rectangular wall and window linework",
+        "dark trees framing the roof",
+        "thin descending waterfall strokes",
+        "stepped rock ledges and dry-brush cliff texture"
+      ]
+    },
+    {
+      "name": "lower_left_foreground_terrace",
+      "description": "Isolate the broad lower-left foreground rock terrace and path area, excluding the tiny figure if possible, with heavy dark ink at the cliff base, pale sloping ground, and layered horizontal rock strokes.",
+      "bbox": [
+        0.0,
+        0.7,
+        0.44,
+        0.26
+      ],
+      "role": "foreground rock terrace",
+      "must_preserve": [
+        "dark saturated ink along cliff foot",
+        "broad pale path-like ground plane",
+        "horizontal cracked rock strokes",
+        "rough dry-brush texture",
+        "irregular edge where terrace meets mist"
+      ]
+    },
+    {
+      "name": "lower_right_riverside_huts_grove",
+      "description": "Isolate the lower-right riverside hamlet: small thatched huts and fenced forms set beside a dense grove, with fine roof outlines, dark foliage dots, and the pale open water/shore edge around them.",
+      "bbox": [
+        0.48,
+        0.73,
+        0.37,
+        0.14
+      ],
+      "role": "riverside village cluster",
+      "must_preserve": [
+        "thatched roof outlines and small eaves",
+        "simple hut wall and fence linework",
+        "dense rounded shrub and tree stippling",
+        "pale shoreline wash",
+        "low horizontal water-edge marks"
+      ]
+    },
+    {
+      "name": "tiny_scholar_under_cliff",
+      "description": "Isolate the small walking scholar figure at the lower left beneath the cliff, including the rounded head/hat, robe outline, and minimal ground strokes immediately supporting the figure.",
+      "bbox": [
+        0.025,
+        0.875,
+        0.045,
+        0.045
+      ],
+      "role": "scholar figure",
+      "must_preserve": [
+        "tiny head or cap shape",
+        "simple robe contour",
+        "small dark facial/body accents",
+        "scale contrast against cliff",
+        "minimal adjacent ground strokes only"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 22 China History Museum.jpg",
+  "created_at": "2026-08-27T22:44:58.777182+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

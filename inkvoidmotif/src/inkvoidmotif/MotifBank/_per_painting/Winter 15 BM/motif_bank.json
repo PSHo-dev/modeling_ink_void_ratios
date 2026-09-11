@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Winter 15 BM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:43:26.505833+00:00",
+  "motifs": [
+    {
+      "name": "left_twin_cliff",
+      "description": "Isolate the tall pale cliff formation on the left with two rounded summit masses and dark vertical creases, stopping above the village roofs and foreground trees.",
+      "bbox": [
+        0.014,
+        0.174,
+        0.172,
+        0.485
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray wash around the cliff silhouette",
+        "dark broken contour lines along both cliff edges",
+        "vertical dry-brush rock texture",
+        "pale unpainted cliff faces",
+        "rounded twin peak geometry"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_twin_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "temple_village_pagoda_cluster",
+      "description": "Isolate the clustered architecture below the left cliff: pagoda tower, layered pavilion roofs, small adjoining buildings, and surrounding dark evergreens.",
+      "bbox": [
+        0.046,
+        0.421,
+        0.255,
+        0.253
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiered pagoda linework",
+        "angled pavilion roof geometry",
+        "dark ink evergreen silhouettes",
+        "small dotted foliage accents",
+        "overlapping roof and tree relationships"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_temple_village_pagoda_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_rocks_path_shrubs",
+      "description": "Isolate the lower-left foreground slope with winding pale path, rounded boulders, low shrubs, and dark clustered brush at the base of the village hill.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.287,
+        0.356
+      ],
+      "role": "foreground",
+      "must_preserve": [
+        "curving light path edge",
+        "rounded rock outlines",
+        "dry-brush rock shading",
+        "small twiggy shrub strokes",
+        "dense black foliage dots near the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_foreground_rocks_path_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_slender_peak",
+      "description": "Isolate the narrow central upright rock spire rising from the misty valley, including its irregular outline and faint base rocks but excluding the left village and right massif.",
+      "bbox": [
+        0.351,
+        0.376,
+        0.153,
+        0.444
+      ],
+      "role": "middle-ground mountain",
+      "must_preserve": [
+        "thin jagged contour line",
+        "pale interior wash",
+        "soft mist fading around the base",
+        "small broken rock marks near lower edge",
+        "isolated vertical silhouette"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_slender_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_high_cliff_massif",
+      "description": "Isolate the dominant right-side mountain mass with high rounded cliffs, dark central ravines, and scrubby tree crowns along the top ridge.",
+      "bbox": [
+        0.529,
+        0.036,
+        0.391,
+        0.652
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "dark vertical ravine wash",
+        "soft rounded cliff faces",
+        "top-ridge leaf and twig strokes",
+        "broken dry-brush rock texture",
+        "mist-softened lower cliff edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_high_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_foreground_pine",
+      "description": "Isolate the low sweeping pine in the right foreground, including its leaning trunks and long horizontal needled branches.",
+      "bbox": [
+        0.596,
+        0.515,
+        0.306,
+        0.31
+      ],
+      "role": "foreground pine",
+      "must_preserve": [
+        "arching horizontal branch structure",
+        "clustered dark pine-needle dots",
+        "thin vertical trunks",
+        "asymmetrical canopy spacing",
+        "dry black ink accents at branch tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_foreground_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winter_tree_grove",
+      "description": "Isolate the foreground grove of mostly leafless winter trees and brush across the lower right-center, excluding the large mountain behind as much as possible.",
+      "bbox": [
+        0.437,
+        0.642,
+        0.401,
+        0.264
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "fine twig linework",
+        "multiple thin trunks",
+        "scattered dark shrub dots",
+        "pale wash around the trees",
+        "overlapping branch silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_winter_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_bridge_travelers_rocks",
+      "description": "Isolate the lower center passage with small bridge or plank structure, rocks, path edge, and tiny traveler-like figures nearby.",
+      "bbox": [
+        0.257,
+        0.802,
+        0.336,
+        0.179
+      ],
+      "role": "foreground passage",
+      "must_preserve": [
+        "short parallel bridge or plank lines",
+        "tiny figure-like ink marks",
+        "rounded foreground stones",
+        "dark path-edge strokes",
+        "small clustered dots and broken brush along the ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_bridge_travelers_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

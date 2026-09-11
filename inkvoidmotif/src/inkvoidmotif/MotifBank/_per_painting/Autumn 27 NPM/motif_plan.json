@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall ink-and-wash Chinese landscape with the upper portion occupied by inscriptions and seals, and the reusable landscape material concentrated from the middle downward: misty mountains, rocky pine-covered cliffs, river/water expanses, distant shore groves, traveling figures, and foreground rocks and trees.",
+  "motifs": [
+    {
+      "name": "upper_left_pine_cliffs",
+      "description": "A cluster of steep pale rock faces at the upper left-middle, capped and edged with dense dark ink pines and scrub, with vertical cliff washes and broken contour strokes isolated from the surrounding inscriptions and distant shore.",
+      "bbox": [
+        0.0,
+        0.328,
+        0.555,
+        0.486
+      ],
+      "role": "mountain cliff group",
+      "must_preserve": [
+        "bold dark pine masses on cliff tops",
+        "pale vertical rock faces with dry-brush texture",
+        "broken ink outlines and fissure strokes",
+        "soft wash transitions at the cliff bases",
+        "small dark shrubs at the lower rocks"
+      ]
+    },
+    {
+      "name": "misty_right_mountain_band",
+      "description": "Distant grey mountains and horizontal river/mist bands to the right of the upper cliffs, including soft triangular peaks fading into pale wash and thin level waterlines.",
+      "bbox": [
+        0.545,
+        0.355,
+        0.43,
+        0.112
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft-edged grey mountain silhouettes",
+        "layered atmospheric wash",
+        "thin horizontal water or mist lines",
+        "subtle peak contours without hard outlines",
+        "pale negative space between ridges"
+      ]
+    },
+    {
+      "name": "riverside_pavilion_grove",
+      "description": "Small dark riverside pavilion or hut cluster nestled among heavy trees on the right side below the distant mountains, with compact roof geometry and surrounding ink foliage.",
+      "bbox": [
+        0.608,
+        0.398,
+        0.214,
+        0.072
+      ],
+      "role": "village pavilion group",
+      "must_preserve": [
+        "angular dark roof planes",
+        "tiny structural linework beneath the eaves",
+        "dense surrounding tree foliage",
+        "dark foreground bush mass",
+        "adjacent horizontal shore/water strokes"
+      ]
+    },
+    {
+      "name": "midwater_tree_islet",
+      "description": "Small low islet or rock with clustered dark trees in the open water below the upper cliffs, separated from larger landforms.",
+      "bbox": [
+        0.255,
+        0.455,
+        0.19,
+        0.055
+      ],
+      "role": "small wooded island",
+      "must_preserve": [
+        "compact dark tree crowns",
+        "short vertical trunk accents",
+        "low pale rock or bank shape",
+        "ink pooling at the base",
+        "surrounding open water margin"
+      ]
+    },
+    {
+      "name": "distant_pine_spit",
+      "description": "Long low peninsula in the middle distance with a row of slender pines and dotted shoreline texture, projecting across the river from left toward the right.",
+      "bbox": [
+        0.405,
+        0.505,
+        0.56,
+        0.108
+      ],
+      "role": "distant wooded shoreline",
+      "must_preserve": [
+        "repeating narrow pine trunks",
+        "tiered dark pine crowns",
+        "dotted shoreline and pebble marks",
+        "low sloping bank wash",
+        "misty recession behind the trees"
+      ]
+    },
+    {
+      "name": "travelers_with_mount",
+      "description": "Two traveling figures in the lower middle: a robed rider on a dark donkey or horse and a walking attendant carrying a long pole or bundle, isolated with the small ground strokes beneath them.",
+      "bbox": [
+        0.18,
+        0.762,
+        0.47,
+        0.095
+      ],
+      "role": "scholar travelers",
+      "must_preserve": [
+        "fine contour linework of robes and hats",
+        "dark compact animal body and legs",
+        "rider posture and reins",
+        "attendant with long diagonal carrying pole",
+        "minimal ground line and small hoof/foot marks"
+      ]
+    },
+    {
+      "name": "foreground_tall_tree_screen",
+      "description": "Tall foreground trees rising along the right-center edge, including a dark central conifer and paler vertical trunks behind it, with layered foliage washes.",
+      "bbox": [
+        0.505,
+        0.615,
+        0.46,
+        0.265
+      ],
+      "role": "foreground tree screen",
+      "must_preserve": [
+        "long straight trunks in pale and dark ink",
+        "dark clustered conifer needles",
+        "layered translucent foliage washes",
+        "vertical spacing between tree trunks",
+        "small dotted ground accents at the roots"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Large foreground rocky bank at the lower right with heavy dark shrubs, pale rounded rock faces, and textured washes forming the nearest shore.",
+      "bbox": [
+        0.438,
+        0.846,
+        0.462,
+        0.145
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "rounded pale rock forms",
+        "dark ink shrub masses on ledges",
+        "dry-brush rock texture and fissures",
+        "soft wash at the water edge",
+        "irregular contour lines and pooled ink shadows"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 27 NPM.png",
+  "created_at": "2026-08-06T22:25:45.699261+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

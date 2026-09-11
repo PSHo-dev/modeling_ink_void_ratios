@@ -1,0 +1,170 @@
+{
+  "source": "../../../../../../Input_Images/Summer 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-06-25T00:22:13.796402+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_mass",
+      "description": "Isolate the tall upper-left mountain formation with rounded vertical peaks, pale green-gray washes, dark moss-dot ridgelines, and soft mist at the base; exclude nearby red seals and empty sky.",
+      "bbox": [
+        0.105,
+        0.118,
+        0.485,
+        0.235
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "arched contour linework running down the cliff faces",
+        "granular dark moss dots along upper ridges and foothills",
+        "soft green-gray wash texture",
+        "mist-softened lower edges where the mountain meets the water plain"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_mountain_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_right_blue_hills",
+      "description": "Isolate the far right low mountain range across the water, including the pale blue-green triangular peaks and faint horizontal shoreline washes; exclude red seals at the far right.",
+      "bbox": [
+        0.555,
+        0.228,
+        0.365,
+        0.07
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "thin pale ridge outlines",
+        "blue-green color accents on the main right peak",
+        "faint layered wash suggesting receding distance",
+        "soft horizontal mist transitions at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_distant_right_blue_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_water_flats",
+      "description": "Isolate the central river and sandbar surface with horizontal ink-wash bands, small vegetated islands, and mist gaps between upper mountains and lower cliffs.",
+      "bbox": [
+        0.11,
+        0.29,
+        0.77,
+        0.155
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "long horizontal gray wash strokes",
+        "broken dotted vegetation patches on sandbars",
+        "blank mist openings separating landforms",
+        "subtle shoreline curves and soft fading edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_misty_water_flats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_cliff_fir_grove",
+      "description": "Isolate the mid-left rocky cliff ledge topped with a dense stand of straight fir-like trees and shrub textures; include the sloping rock face below but not the boat or central water.",
+      "bbox": [
+        0.0,
+        0.435,
+        0.455,
+        0.145
+      ],
+      "role": "middle-ground cliff and trees",
+      "must_preserve": [
+        "vertical dark tree trunks and fine needle marks",
+        "dense stippled shrub band along the ridge",
+        "rounded cliff contour lines and pale mineral washes",
+        "dark shadow accents at the cliff base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_left_cliff_fir_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "river_boat_with_figures",
+      "description": "Isolate the small boat on the central water with low roofed cabin, plank deck, and tiny blue-accented figures; keep only the boat, its occupants, and immediate faint water marks.",
+      "bbox": [
+        0.315,
+        0.442,
+        0.275,
+        0.04
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "woven dark roof texture on the cabin",
+        "straight deck and hull linework",
+        "tiny standing and seated scholar/boatman figures",
+        "small blue-green color accents on clothing and cabin details"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_river_boat_with_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_windswept_pines",
+      "description": "Isolate the large middle pine group with sweeping horizontal branches, clustered needle tufts, pale trunks, and rocky support forms; avoid the pavilion below and bridge to the right.",
+      "bbox": [
+        0.0,
+        0.515,
+        0.83,
+        0.255
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "radiating pine needle clusters at branch tips",
+        "sinuous branching structure crossing the center",
+        "pale textured trunks with dark bark spots",
+        "rock contours and sparse grass strokes directly supporting the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_windswept_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_pavilion_group",
+      "description": "Isolate the small pavilion and terrace tucked among trees in the lower-left valley, including its roof, posts, railings, lattice windows, and immediate bank vegetation.",
+      "bbox": [
+        0.105,
+        0.742,
+        0.27,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angular tiled roof geometry",
+        "fine post, railing, and lattice window linework",
+        "tiny blue-green interior figure/accent",
+        "surrounding grasses and tree trunks framing the building"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_pavilion_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_bridge_stream",
+      "description": "Isolate the small rustic bridge crossing the lower-right stream with adjacent grassy banks and rounded rocks; exclude the large right hillside and nearby calligraphy.",
+      "bbox": [
+        0.61,
+        0.8,
+        0.305,
+        0.075
+      ],
+      "role": "bridge and stream",
+      "must_preserve": [
+        "thin bridge planks and support lines",
+        "curving stream-edge wash",
+        "short grass strokes along both banks",
+        "small rounded rock forms beside the crossing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_bridge_stream.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

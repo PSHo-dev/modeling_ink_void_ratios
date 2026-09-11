@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-light-color landscape with sparse misty washes, distant rocky ridge, pine and bamboo vegetation, a small shelter containing a reclining figure, foreground rocks, and quiet shoreline/water lines. Calligraphy and seals at the upper right are excluded from all motifs.",
+  "motifs": [
+    {
+      "name": "central_twisting_pine",
+      "description": "Isolate the tall central pine: curved trunk rising from the lower middle to the upper middle, angular branches extending left and right, and clustered pine-needle tufts. Extract only the tree forms, not the calligraphy, hut, rocks, or distant ridge behind it.",
+      "bbox": [
+        0.238,
+        0.187,
+        0.515,
+        0.623
+      ],
+      "role": "dominant foreground tree",
+      "must_preserve": [
+        "dry dark trunk strokes with broken ink edges",
+        "angular branch linework crossing the center",
+        "short radiating pine-needle clusters",
+        "ink-density variations along the trunk and branch joints",
+        "small pale gaps between needles and branches"
+      ]
+    },
+    {
+      "name": "left_tree_bamboo_cluster",
+      "description": "Isolate the left-side vegetation group with the leaning dark trunk, sparse brushy foliage, and bamboo leaves around the lower-left slope. Include the visible stems and leaves belonging to this cluster only.",
+      "bbox": [
+        0.0,
+        0.374,
+        0.351,
+        0.489
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "leaning dark trunk with rough dry-brush texture",
+        "thin vertical and diagonal bamboo stems",
+        "pointed bamboo leaf clusters",
+        "loose ink washes around the root area",
+        "contrasting heavy black accents and pale gray strokes"
+      ]
+    },
+    {
+      "name": "mid_slope_pine_shrubs",
+      "description": "Isolate the horizontal band of low pine boughs and brushy shrubs crossing the middle hillside, including the small needle tufts and sweeping branch strokes just above the hut area. Do not include the main central pine trunk or the hut.",
+      "bbox": [
+        0.226,
+        0.423,
+        0.63,
+        0.187
+      ],
+      "role": "middle-ground hillside vegetation",
+      "must_preserve": [
+        "long sweeping branch contours",
+        "small repeated pine-needle sprays",
+        "dry-brush shrub marks",
+        "gray hillside wash beneath the foliage",
+        "broken, calligraphic ink line quality"
+      ]
+    },
+    {
+      "name": "small_shelter_with_reclining_scholar",
+      "description": "Isolate the small rustic shelter beneath the trees with its slanted roof, simple wall lines, platform, and the reclining human figure inside with reddish-orange clothing accents.",
+      "bbox": [
+        0.177,
+        0.622,
+        0.407,
+        0.19
+      ],
+      "role": "human dwelling and figure",
+      "must_preserve": [
+        "sloping roof geometry outlined in dark ink",
+        "soft gray roof wash and dry eave strokes",
+        "rectangular platform and wall linework",
+        "small reclining figure with black hair and pale face",
+        "reddish-orange robe or sleeve accents"
+      ]
+    },
+    {
+      "name": "foreground_rock_terrace",
+      "description": "Isolate the clustered foreground rock terrace below and left of the shelter, including layered boulders, dark ink accents, root-like lines, and scrubby texture marks. Exclude the hut and tall pine trunk where possible.",
+      "bbox": [
+        0.0,
+        0.752,
+        0.587,
+        0.17
+      ],
+      "role": "foreground rock base",
+      "must_preserve": [
+        "irregular rock outlines in dry ink",
+        "dark black accent patches",
+        "gray wash modeling on rock faces",
+        "short vertical texture strokes",
+        "root-like curving lines around the stones"
+      ]
+    },
+    {
+      "name": "right_lakeside_standing_rock",
+      "description": "Isolate the pale upright rock mass on the lower right with its thin contour lines, light gray wash, and small dark marks near the base. Include only the rock and its immediate base, not the broader water lines.",
+      "bbox": [
+        0.565,
+        0.706,
+        0.334,
+        0.213
+      ],
+      "role": "foreground shoreline rock",
+      "must_preserve": [
+        "delicate angular rock outline",
+        "pale interior wash",
+        "subtle dry-brush cracks and texture marks",
+        "small dark ink accents near the lower edge",
+        "open unpainted interior space of the rock"
+      ]
+    },
+    {
+      "name": "distant_right_mountain_ridge",
+      "description": "Isolate the distant mountain ridge behind the central tree on the right, with soft gray wash slopes, darker ridge contours, and dry vertical texture marks. Exclude pine branches passing over it and exclude all calligraphy and seals.",
+      "bbox": [
+        0.477,
+        0.369,
+        0.483,
+        0.239
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft layered gray mountain wash",
+        "dark broken contour along the ridge crest",
+        "pale misty edges fading into the background",
+        "vertical dry-brush texture strokes on the slope",
+        "subtle tonal separation between near and far peaks"
+      ]
+    },
+    {
+      "name": "bottom_shore_water_lines",
+      "description": "Isolate the quiet shoreline and water indication at the bottom: long horizontal ink lines and faint washes beneath the rocks. Do not include the large foreground rocks except for the minimal contact shadows needed to anchor the water.",
+      "bbox": [
+        0.147,
+        0.902,
+        0.792,
+        0.075
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "thin horizontal waterline strokes",
+        "slightly uneven dry-brush edges",
+        "faint gray wash beneath the shore",
+        "minimal dark contact marks at rock bases",
+        "wide empty spacing that suggests calm water"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 11 NPM.jpg",
+  "created_at": "2026-07-16T23:51:28.158188+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,139 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 16 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:18:47.864072+00:00",
+  "motifs": [
+    {
+      "name": "misty_blue_distant_peaks",
+      "description": "Pale blue-gray distant mountain silhouettes rising behind the left ridgeline, including the tall vertical peak and smaller adjoining peak softened by mist.",
+      "bbox": [
+        0.07,
+        0.185,
+        0.17,
+        0.105
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blue wash silhouettes",
+        "blurred mist edges",
+        "faint ink contour at base",
+        "vertical peak shape and smaller rear peak"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_blue_distant_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_towering_rock_cliff",
+      "description": "Large left-side mountain mass with steep cliff faces, layered ridges, dark vegetation strokes, and blue-gray wash accents, excluding the foreground buildings below.",
+      "bbox": [
+        0.0,
+        0.255,
+        0.575,
+        0.46
+      ],
+      "role": "dominant mountain and cliff",
+      "must_preserve": [
+        "dry-brush rock texture",
+        "vertical cliff striations",
+        "layered ink contours",
+        "blue-gray moss-dot accents",
+        "dark clustered shrub strokes along ridges",
+        "mist-softened pale rock planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_towering_rock_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_rolling_hills",
+      "description": "Low rolling hills and distant shoreline across the lake on the middle right, with a central rounded peak and faint blue mountains behind.",
+      "bbox": [
+        0.5,
+        0.405,
+        0.5,
+        0.135
+      ],
+      "role": "distant hillside and shoreline",
+      "must_preserve": [
+        "thin ink contour lines",
+        "pale tan and blue-gray washes",
+        "small dark tree-dot clusters",
+        "soft horizontal shoreline strokes",
+        "fading background hill silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_mid_right_rolling_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lakeside_hamlet_red_tree",
+      "description": "Small settlement on a rocky lakeside shelf beneath the cliff, including clustered low roofs, dark fence-like strokes, slender trees, and a red-orange autumn tree.",
+      "bbox": [
+        0.425,
+        0.535,
+        0.245,
+        0.13
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "angular roof geometry",
+        "fine black architectural linework",
+        "low stone terrace shapes",
+        "slender vertical tree trunks",
+        "red-orange foliage dots",
+        "blue-gray and ink shrub accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lakeside_hamlet_red_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_stilt_pavilion",
+      "description": "Foreground-left waterside pavilion group with stacked roofs and stilt supports, set against the pale water edge and nearby small bare tree.",
+      "bbox": [
+        0.025,
+        0.765,
+        0.265,
+        0.12
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "crisp roof outlines",
+        "rectangular wall panels",
+        "thin stilt posts",
+        "dark ink understructure",
+        "small adjoining lower roof",
+        "nearby red-brown bare branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_stilt_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_autumn_shore_tree",
+      "description": "Right foreground shore motif with a leaning dark tree, orange-red foliage, shrubs, rocks, and pale water behind it.",
+      "bbox": [
+        0.705,
+        0.67,
+        0.235,
+        0.17
+      ],
+      "role": "foreground shore tree and rocks",
+      "must_preserve": [
+        "leaning dark trunk",
+        "orange-red leaf clusters",
+        "black shrub masses",
+        "blue-gray ground wash",
+        "irregular shoreline rocks",
+        "fine twig and branch linework"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_autumn_shore_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

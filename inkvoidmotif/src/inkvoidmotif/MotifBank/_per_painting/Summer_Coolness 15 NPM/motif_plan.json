@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink-and-color Chinese landscape with blue-green mountains, misty distant peaks, dense and leafless trees, small scholar figures, foreground boulders, a stream bank, and a low stone bridge; inscriptions and seals are excluded.",
+  "motifs": [
+    {
+      "name": "layered_blue_green_mountains",
+      "description": "Isolate the large upper-left and central mountain mass: rounded layered peaks and sloping rock faces painted in pale grey, blue-green wash, and soft ink contours, including the visible white reserve channels and ridge-top texture but excluding calligraphy, seals, and foreground tree branches.",
+      "bbox": [
+        0,
+        0.15,
+        0.68,
+        0.36
+      ],
+      "role": "distant mountain backdrop",
+      "must_preserve": [
+        "soft grey contour lines defining rounded peaks",
+        "blue-green mineral wash transitions",
+        "white unpainted ravines and mist gaps",
+        "dry-brush rock striations",
+        "subtle darker ink accents along ridges"
+      ]
+    },
+    {
+      "name": "dark_ridge_forest_belt",
+      "description": "Isolate the dark clustered foliage scattered across the central mountain ridge, including blotchy tree crowns and small shrub masses that sit on the slopes, separated from the pale mountain forms behind them.",
+      "bbox": [
+        0.18,
+        0.15,
+        0.43,
+        0.26
+      ],
+      "role": "mountain ridge forest",
+      "must_preserve": [
+        "dense black-green ink dots",
+        "irregular foliage edges",
+        "blue-green wash halos",
+        "clustered crown rhythm across the ridge",
+        "small broken brush marks suggesting shrubs"
+      ]
+    },
+    {
+      "name": "misty_right_peaks",
+      "description": "Isolate the pale right-side distant peaks emerging from blank mist: soft vertical rock silhouettes behind the middle trees and bridge area, with feathered wash edges and minimal interior linework, excluding the inscription columns above.",
+      "bbox": [
+        0.64,
+        0.34,
+        0.36,
+        0.27
+      ],
+      "role": "mist and distant mountain silhouettes",
+      "must_preserve": [
+        "soft mist boundaries",
+        "pale grey-green wash",
+        "thin contour outlines on peak edges",
+        "blank negative-space mist between forms",
+        "faint interior texture only where visible"
+      ]
+    },
+    {
+      "name": "left_leafless_tree",
+      "description": "Isolate the tall leafless foreground tree at the left edge, including its dark trunk, twisting lower roots, and angular branching canopy that spreads into the middle-left, but not the nearby scholar figures or mountain wash behind it.",
+      "bbox": [
+        0,
+        0.37,
+        0.21,
+        0.45
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "black ink trunk with knotted bends",
+        "fine angular branch linework",
+        "dry-brush bark texture",
+        "branch tips tapering into empty space",
+        "dark-to-light ink variation along limbs"
+      ]
+    },
+    {
+      "name": "central_winter_thicket",
+      "description": "Isolate the central band of bare winter trees and blue-green shrub masses across the midground, including the twisting thin trunks, interlaced branches, and dark foliage clumps, while excluding the large foreground boulder and distant mountains.",
+      "bbox": [
+        0.18,
+        0.45,
+        0.6,
+        0.34
+      ],
+      "role": "midground trees and shrubs",
+      "must_preserve": [
+        "interwoven fine branch lines",
+        "twisting pale trunks with ink outlines",
+        "blue-green shrub washes",
+        "dark dotted foliage clusters",
+        "layered transparency of branches over wash"
+      ]
+    },
+    {
+      "name": "scholar_pair_under_tree",
+      "description": "Isolate the two small scholar figures near the lower-left base of the tree: seated/standing figures in pale robes with delicate facial and hand lines, one with a small warm color accent, excluding the adjacent tree trunk and rock mass as much as possible.",
+      "bbox": [
+        0.03,
+        0.72,
+        0.14,
+        0.08
+      ],
+      "role": "figures",
+      "must_preserve": [
+        "tiny robe contour lines",
+        "small facial and hair details",
+        "subtle warm ochre/red accent",
+        "delicate hand gestures",
+        "scale relationship between the two figures"
+      ]
+    },
+    {
+      "name": "foreground_ink_boulders",
+      "description": "Isolate the large foreground boulder group occupying the lower center-left: massive rounded rocks with dark ink pooling, pale grey-green planes, grass tufts at the base, and dry-brush texture, excluding the scholar figures and bridge.",
+      "bbox": [
+        0.12,
+        0.65,
+        0.52,
+        0.29
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "heavy black ink washes in crevices",
+        "rounded pale rock planes",
+        "dry-brush striations and contour strokes",
+        "dark mossy blotches on upper surfaces",
+        "short grass strokes along the base"
+      ]
+    },
+    {
+      "name": "right_stone_bridge_streambank",
+      "description": "Isolate the low arched stone bridge and adjoining rocky stream bank at the lower right, including the row of small stones along the bridge edge, the vertical support/wash beneath, nearby grasses, and water-margin strokes, excluding right-edge seals.",
+      "bbox": [
+        0.6,
+        0.7,
+        0.33,
+        0.16
+      ],
+      "role": "bridge and water edge",
+      "must_preserve": [
+        "low curved bridge outline",
+        "small bead-like stone marks along the bridge top",
+        "grey rock bank washes",
+        "thin grass strokes at the water edge",
+        "pale water reserve and soft horizontal wash marks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 15 NPM.jpg",
+  "created_at": "2026-08-05T05:47:51.574099+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

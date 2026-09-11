@@ -1,0 +1,157 @@
+{
+  "source_summary": "Winter Chinese landscape with pale layered mountains above a river valley, leafless groves, a small village compound, open water with sandbars, a tiny moored boat, and foreground marsh banks. Calligraphy, seals, borders, and paper/silk texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "left_snow_mountain_mass",
+      "description": "Isolate the large pale mountain mass occupying the upper-left and center-left, including the rounded summit, adjoining left shoulder peaks, soft snow-like silhouettes, and faint tonal wash transitions.",
+      "bbox": [
+        0,
+        0.18,
+        0.62,
+        0.3
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "broad unoutlined pale wash forms",
+        "soft mist-blurred mountain edges",
+        "subtle ochre-gray tonal gradations",
+        "quiet negative-space snow surfaces",
+        "faint inner slope transitions without added texture"
+      ]
+    },
+    {
+      "name": "central_rounded_hill_ridges",
+      "description": "Isolate the middle stacked rounded hills below the main mountain, with overlapping arched ridge forms and dark dotted contour strokes along several crests.",
+      "bbox": [
+        0.17,
+        0.315,
+        0.45,
+        0.23
+      ],
+      "role": "middle hillside",
+      "must_preserve": [
+        "layered rounded ridge geometry",
+        "fine black dotted ridge accents",
+        "pale wash shadows between hill layers",
+        "soft descending slopes fading into mist",
+        "delicate separation lines between overlapping hills"
+      ]
+    },
+    {
+      "name": "right_mist_peaks_basin",
+      "description": "Isolate the receding right-side peak group and misty basin: pale angular peaks, a darker low valley hollow, and horizontal haze bands leading toward the water.",
+      "bbox": [
+        0.55,
+        0.28,
+        0.45,
+        0.24
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft-edged right peak silhouettes",
+        "layered atmospheric recession",
+        "gray-brown wash pool in the valley",
+        "horizontal mist bands",
+        "small dark dotted ridge marks on the nearer slope"
+      ]
+    },
+    {
+      "name": "midground_winter_village_grove",
+      "description": "Isolate the dense midground cluster of leafless winter trees sheltering a small village compound, including trunks, tangled branches, roofs, fences, shrubs, and the snowy ground plane immediately around them.",
+      "bbox": [
+        0,
+        0.38,
+        0.58,
+        0.29
+      ],
+      "role": "village grove",
+      "must_preserve": [
+        "fine branching ink linework",
+        "dark textured tree trunks with broken brush edges",
+        "small roof geometry partly hidden by branches",
+        "low fence and railing strokes",
+        "stippling around shrubs and bank edges",
+        "pale winter ground washes between trunks"
+      ]
+    },
+    {
+      "name": "right_riverside_willow_boat",
+      "description": "Isolate the right-bank leaning tree and small boat scene: the arched bare tree over the water, the narrow bank, the tiny boat with vertical post or mast, and adjacent rippled water edge.",
+      "bbox": [
+        0.52,
+        0.49,
+        0.31,
+        0.2
+      ],
+      "role": "riverside boat scene",
+      "must_preserve": [
+        "leaning trunk curve and exposed roots",
+        "thin bare branch network reaching over water",
+        "small boat hull contour",
+        "single vertical post or mast on the boat",
+        "dark stippled bank edge",
+        "subtle water wash around the boat"
+      ]
+    },
+    {
+      "name": "open_river_sandbars",
+      "description": "Isolate the broad open river surface with pale horizontal water bands, sandbars, distant low banks, and small scattered dark marks in the open water.",
+      "bbox": [
+        0.43,
+        0.58,
+        0.57,
+        0.28
+      ],
+      "role": "water and sandbars",
+      "must_preserve": [
+        "nearly empty calm water wash",
+        "long horizontal sandbar shapes",
+        "soft misty transitions between water and shore",
+        "tiny scattered dark water marks",
+        "faint rippling brush lines",
+        "pale negative-space channels"
+      ]
+    },
+    {
+      "name": "foreground_bare_tree_clump",
+      "description": "Isolate the large foreground clump of leafless trees rising from a low bank, with multiple textured trunks, forked branches, small shrubs, exposed roots, and nearby snowy shoreline contours.",
+      "bbox": [
+        0.11,
+        0.73,
+        0.51,
+        0.22
+      ],
+      "role": "foreground trees and bank",
+      "must_preserve": [
+        "gnarled clustered trunks",
+        "dense fine twig linework",
+        "dark dry-brush bark texture",
+        "root flares at the base",
+        "stippling along the mound and shrub masses",
+        "curving pale shoreline outlines"
+      ]
+    },
+    {
+      "name": "lower_right_marsh_hamlet",
+      "description": "Isolate the low lower-right marsh and distant bank details, including small hut-like roof forms, low rocks or mounds, reeds, tiny waterfowl-like dots, and faint shoreline strokes.",
+      "bbox": [
+        0.48,
+        0.85,
+        0.5,
+        0.1
+      ],
+      "role": "distant marsh settlement",
+      "must_preserve": [
+        "miniature roof and mound silhouettes",
+        "thin horizontal bank lines",
+        "clusters of reed strokes",
+        "tiny dark dot accents across the water",
+        "pale layered washes of shallow water",
+        "soft low vegetation textures"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 10 NPM.jpg",
+  "created_at": "2026-09-03T22:19:28.611683+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

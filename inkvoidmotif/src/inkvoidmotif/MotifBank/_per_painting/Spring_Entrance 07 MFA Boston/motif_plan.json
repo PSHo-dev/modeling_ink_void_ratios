@@ -1,0 +1,148 @@
+{
+  "source_summary": "Horizontal Chinese landscape/figure scene with an overhanging willow beside a riverbank, a scholar riding a water buffalo, a young attendant leading it, faint water and bank washes, bamboo and rocky ground in the foreground. Red seals and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "overhanging_willow_canopy",
+      "description": "Large drooping willow canopy suspended across the upper-left and upper-center area, including the fine pendant leaf curtains and the diagonal dark branch structure, isolated from the trunk and figures below.",
+      "bbox": [
+        0.18,
+        0.0,
+        0.43,
+        0.45
+      ],
+      "role": "tree canopy",
+      "must_preserve": [
+        "dense fine ink linework of hanging willow leaves",
+        "soft green-gray wash texture within the foliage",
+        "diagonal branch arcs and forked twigs",
+        "irregular feathered edges of the leaf curtains"
+      ]
+    },
+    {
+      "name": "gnarled_willow_trunk",
+      "description": "Tall old willow trunk on the right side, rising from the bank and splitting into dark vertical masses, with bark scars, knots, and nearby hanging foliage but excluding red seals.",
+      "bbox": [
+        0.59,
+        0.0,
+        0.24,
+        0.65
+      ],
+      "role": "dominant tree trunk",
+      "must_preserve": [
+        "dark textured bark strokes and mottled ink patches",
+        "vertical trunk fissures and knot shapes",
+        "forked trunk silhouette",
+        "subtle washes around attached drooping willow strands"
+      ]
+    },
+    {
+      "name": "hazy_river_surface",
+      "description": "Open river or lake surface occupying the left and middle background, with pale horizontal water lines and misty washes, kept free of figures and seals.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.58,
+        0.32
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "faint horizontal ripple lines",
+        "thin atmospheric wash layers",
+        "soft transitions between water and mist",
+        "nearly transparent shoreline hints"
+      ]
+    },
+    {
+      "name": "faint_left_reed_bank",
+      "description": "Subtle vertical reed or bank forms along the far-left water edge, including pale ink washes and sparse upright strokes.",
+      "bbox": [
+        0.0,
+        0.38,
+        0.17,
+        0.21
+      ],
+      "role": "distant riverbank vegetation",
+      "must_preserve": [
+        "delicate vertical reed strokes",
+        "blurred wash mass at the left edge",
+        "low-contrast ink texture",
+        "soft misted edges merging into the water"
+      ]
+    },
+    {
+      "name": "scholar_riding_buffalo",
+      "description": "Central lower group of an elderly scholar in pale robes seated on a dark water buffalo, with the small front figure, saddle cloth, horns, legs, and tail included as one reusable figure-and-animal motif.",
+      "bbox": [
+        0.43,
+        0.52,
+        0.35,
+        0.4
+      ],
+      "role": "main figure group",
+      "must_preserve": [
+        "scholar facial linework, beard, and dark hat with red accent",
+        "flowing robe contour lines and pale wash folds",
+        "buffalo curved horns, dark body wash, hooves, and tail",
+        "small seated/front figure details and harness lines",
+        "contrast between black buffalo wash and light clothing"
+      ]
+    },
+    {
+      "name": "young_attendant_with_rope",
+      "description": "Walking young attendant at lower left-center, leaning forward and holding the lead rope or switch, isolated without the buffalo body.",
+      "bbox": [
+        0.23,
+        0.69,
+        0.2,
+        0.25
+      ],
+      "role": "foreground figure",
+      "must_preserve": [
+        "small facial and hair-knot linework",
+        "folded robe outlines and light ocher-gray wash",
+        "bent walking posture and bare legs",
+        "thin lead rope or switch line extending from the hands",
+        "subtle ground contact strokes around the feet"
+      ]
+    },
+    {
+      "name": "right_bamboo_thicket",
+      "description": "Foreground bamboo cluster in the lower-right corner, with overlapping leaves, thin stems, and dark ink accents along the bank, excluding nearby seals.",
+      "bbox": [
+        0.68,
+        0.72,
+        0.32,
+        0.22
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "slender bamboo stems and nodes",
+        "pointed leaf clusters in layered ink lines",
+        "dark brush accents at the base",
+        "interlaced foliage silhouettes",
+        "light green-gray wash accents"
+      ]
+    },
+    {
+      "name": "tree_base_earthen_bank",
+      "description": "Small sloping earthen mound at the base of the willow trunk, with dotted grass marks, pale wash, and dark edge strokes, isolated from seals and figures.",
+      "bbox": [
+        0.72,
+        0.5,
+        0.15,
+        0.17
+      ],
+      "role": "riverbank ground",
+      "must_preserve": [
+        "curved sandy mound contour",
+        "scattered black grass dots and small strokes",
+        "soft ocher-gray ground wash",
+        "dark textured shadow where trunk meets earth",
+        "irregular natural bank edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 07 MFA Boston.jpg",
+  "created_at": "2026-09-03T19:59:42.730324+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

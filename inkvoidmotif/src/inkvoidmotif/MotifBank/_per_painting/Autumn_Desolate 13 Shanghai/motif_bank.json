@@ -1,0 +1,170 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 13 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:20:35.617583+00:00",
+  "motifs": [
+    {
+      "name": "right_towering_mountain",
+      "description": "Isolate the large steep mountain mass on the upper right, including the rounded summit, dark craggy ridges, descending slopes, and mist-softened lower edges, without the nearby bare trees or calligraphy area.",
+      "bbox": [
+        0.51,
+        0.14,
+        0.48,
+        0.31
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "layered hemp-fiber contour strokes following the mountain curvature",
+        "dark ink accents along ridge creases and summit edges",
+        "dry-brush rock texture and stippled shadow masses",
+        "soft wash transitions where the slope dissolves into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_right_towering_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_mist_hills_and_peaks",
+      "description": "Isolate the low misty ridge system on the upper left and center, including small dark peaks, pale rounded hills, and the atmospheric gap before the main mountain.",
+      "bbox": [
+        0.0,
+        0.29,
+        0.54,
+        0.16
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "faint rounded hill outlines",
+        "small dark triangular peak accents",
+        "light broken texture strokes on ridge faces",
+        "misty blank-paper separations between hill layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_mist_hills_and_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_bamboo_thicket",
+      "description": "Isolate the horizontal bamboo thicket across the middle-left slope, with clustered stalks and dense pointed leaves sitting on a pale bank.",
+      "bbox": [
+        0.07,
+        0.35,
+        0.48,
+        0.12
+      ],
+      "role": "bamboo grove",
+      "must_preserve": [
+        "individual bamboo leaf clusters in sharp dark ink",
+        "thin angled stalk lines",
+        "irregular shrub silhouette along the bank",
+        "light ground wash beneath the thicket"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_midground_bamboo_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bare_tree_grove",
+      "description": "Isolate the group of tall leafless trees at the middle-right foot of the mountain, including slim trunks, fine branching crowns, and the dark shrub mass at the far right base.",
+      "bbox": [
+        0.61,
+        0.32,
+        0.35,
+        0.18
+      ],
+      "role": "winter tree grove",
+      "must_preserve": [
+        "thin bare branch linework",
+        "vertical trunks with varied ink weight",
+        "dark dotted foliage or shrub texture at lower right",
+        "pale mist gaps around trunks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_bare_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bare_tree_bank",
+      "description": "Isolate the small arched bare tree or fallen trunk form crossing the middle bank, with its curved main limb, thin upward branchlets, and dark clustered brush at the base.",
+      "bbox": [
+        0.43,
+        0.4,
+        0.35,
+        0.1
+      ],
+      "role": "bank tree accent",
+      "must_preserve": [
+        "arched sweeping trunk line",
+        "fine twig-like branch extensions",
+        "dark dry-brush knots at the base",
+        "subtle bank contour lines around the roots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_arched_bare_tree_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rocky_stream_cascade",
+      "description": "Isolate the narrow stream and cascade on the right-middle, including curved water channels, small stones, dark banks, and the flowing bend emerging from the hillside.",
+      "bbox": [
+        0.55,
+        0.49,
+        0.43,
+        0.11
+      ],
+      "role": "stream and cascade",
+      "must_preserve": [
+        "parallel curved water lines",
+        "small rounded pebble shapes",
+        "dark ink bank edges",
+        "short wash strokes indicating sloped ground and water movement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_rocky_stream_cascade.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_rock_outcrop",
+      "description": "Isolate the compact rocky outcrop in the open middle area, with dark shrubs on top and several rounded boulders attached to its right side.",
+      "bbox": [
+        0.18,
+        0.52,
+        0.32,
+        0.09
+      ],
+      "role": "rock outcrop",
+      "must_preserve": [
+        "craggy rock outline",
+        "dark stippled shrub texture on the crown",
+        "rounded boulder forms to the right",
+        "dry-brush interior rock texture and shadow pockets"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_midground_rock_outcrop.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_gnarled_tree_bamboo_cluster",
+      "description": "Isolate the large foreground cluster of gnarled trunks, bare branches, bamboo sprays, and low grasses rooted on the lower bank, excluding seals and border areas.",
+      "bbox": [
+        0.0,
+        0.58,
+        0.9,
+        0.36
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "twisting heavy trunks with dark root bases",
+        "fine bare branch networks reaching left and right",
+        "bamboo leaf sprays in dense pointed clusters",
+        "dry-brush bark texture, moss-like dots, and pale grass strokes on the surrounding bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_gnarled_tree_bamboo_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

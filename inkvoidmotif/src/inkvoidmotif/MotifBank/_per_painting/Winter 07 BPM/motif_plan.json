@@ -1,0 +1,151 @@
+{
+  "source_summary": "Snowy Chinese mountain landscape with pale green-gray atmospheric wash, layered ink-line peaks, bare winter trees, winding snowy paths, and several small pavilion/gate complexes with blue-gray roof accents.",
+  "motifs": [
+    {
+      "name": "upper_mist_wash",
+      "description": "Isolate the broad pale green-gray atmospheric mist and cloud wash across the upper sky, including the faint horizontal tonal bands and distant speckled ink traces, while masking out mountain forms and architecture.",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.37
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "soft uneven horizontal wash texture",
+        "subtle green-gray tonal shifts",
+        "faint distant ink speckles at upper left",
+        "feathered mist edges around mountain silhouettes"
+      ]
+    },
+    {
+      "name": "central_snow_mountain_massif",
+      "description": "Isolate the large central snow-covered mountain mass with layered rounded peaks and valleys, from the left shoulder up to the highest central summit and down into the central ravines.",
+      "bbox": [
+        0.16,
+        0.16,
+        0.43,
+        0.42
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin gray contour lines along snow ridges",
+        "dense parallel cun-style texture strokes in ravines",
+        "pale untouched snow surfaces",
+        "overlapping peak geometry",
+        "soft wash shading at the mountain bases"
+      ]
+    },
+    {
+      "name": "right_snow_peak_ridge",
+      "description": "Isolate the tall right-side snowy peak ridge with steep central summit, descending serrated shoulders, and the smaller far-right rounded peaks behind it.",
+      "bbox": [
+        0.54,
+        0.19,
+        0.31,
+        0.42
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "sharp snow-outline crest lines",
+        "vertical and diagonal rock-texture strokes",
+        "soft gray wash in recessed gullies",
+        "stepped overlapping ridge silhouettes",
+        "mist-softened rear peak edges"
+      ]
+    },
+    {
+      "name": "central_terraced_pavilion_complex",
+      "description": "Isolate the multi-level pavilion and hall cluster on the central slope, including the stacked blue-gray roofs, railings, walls, lower platform, and the wooden scaffold-like terrace in front.",
+      "bbox": [
+        0.36,
+        0.43,
+        0.19,
+        0.17
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry with upturned eaves",
+        "blue-gray roof wash accents",
+        "fine ink railings and wall divisions",
+        "tiered placement following the slope",
+        "thin wooden support posts and platform lines"
+      ]
+    },
+    {
+      "name": "small_hillside_watchtower",
+      "description": "Isolate the small freestanding tower or shrine on the right hillside, including its capped roof, slender shaft, base plinth, and surrounding tiny ink details immediately attached to it.",
+      "bbox": [
+        0.585,
+        0.46,
+        0.045,
+        0.075
+      ],
+      "role": "tower pavilion",
+      "must_preserve": [
+        "miniature roof with upturned corners",
+        "straight vertical pillar lines",
+        "rectangular base plinth",
+        "delicate gray outline work",
+        "small blue-gray roof accent"
+      ]
+    },
+    {
+      "name": "lower_right_walled_pavilion",
+      "description": "Isolate the lower-right walled pavilion compound nestled among snowy hills, including the two small roofed towers, connecting wall, central hall lines, and enclosed courtyard geometry.",
+      "bbox": [
+        0.665,
+        0.64,
+        0.13,
+        0.09
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "paired blue-gray tiled roofs",
+        "thin courtyard wall outlines",
+        "tiny window and beam linework",
+        "balanced compound symmetry",
+        "crisp black ink edges against snow"
+      ]
+    },
+    {
+      "name": "foreground_gate_pavilion",
+      "description": "Isolate the small foreground gateway pavilion at the lower center-left, including the arched opening, roofed upper story, flanking walls, and the snowy path entering beneath it.",
+      "bbox": [
+        0.285,
+        0.805,
+        0.085,
+        0.1
+      ],
+      "role": "gate pavilion",
+      "must_preserve": [
+        "arched gateway opening",
+        "stacked roof and parapet geometry",
+        "blue-gray roof wash",
+        "fine brick and wall linework",
+        "path marks leading into the gate"
+      ]
+    },
+    {
+      "name": "left_foreground_winter_grove",
+      "description": "Isolate the dense leafless winter tree grove on the lower-left hillside, including the tall trunks, branching crowns, smaller saplings, and the immediate ink-textured snowy mound supporting them.",
+      "bbox": [
+        0.075,
+        0.535,
+        0.23,
+        0.22
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark branching ink linework",
+        "varied trunk thicknesses",
+        "fine twig networks",
+        "brown-gray trunk color accents",
+        "snowy mound contours and light rock texture beneath the trees"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 07 BPM.jpg",
+  "created_at": "2026-07-03T22:42:34.923683+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

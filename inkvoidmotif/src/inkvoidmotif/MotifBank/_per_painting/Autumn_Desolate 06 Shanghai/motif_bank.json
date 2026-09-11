@@ -1,0 +1,116 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 06 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:15:55.261870+00:00",
+  "motifs": [
+    {
+      "name": "left_sheer_peak",
+      "description": "Isolate the tall left peak of the central mountain mass, including its vertical cliff face, rounded summit, sparse dark shrubs along the crest, pale ink washes, and dry-brush contour lines. Exclude the adjacent right peak and all inscription/seal areas.",
+      "bbox": [
+        0.22,
+        0.1,
+        0.24,
+        0.31
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "soft vertical cliff outline",
+        "dry-brush rock wrinkles",
+        "light gray wash gradients",
+        "small dark summit shrubs",
+        "mist-softened lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_sheer_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rounded_peak",
+      "description": "Isolate the rounded central-right mountain peak and ravine face beneath it, including the darker cleft, sloping shoulder, scrub textures, and layered wash. Avoid calligraphy and red seals above/right.",
+      "bbox": [
+        0.39,
+        0.2,
+        0.25,
+        0.28
+      ],
+      "role": "secondary mountain peak",
+      "must_preserve": [
+        "dark central ravine strokes",
+        "curved rounded rock contour",
+        "feathery texture strokes on slope",
+        "subtle ink wash transitions",
+        "small crest vegetation marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_rounded_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_tree_pavilion_group",
+      "description": "Isolate the lower-left foreground group where a small pavilion or house sits partly behind tall leafless and willow-like trees, including the roofline, support posts, trunks, bending branches, and nearby rock base.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.42,
+        0.28
+      ],
+      "role": "foreground pavilion with trees",
+      "must_preserve": [
+        "thin pavilion roof geometry",
+        "vertical post linework",
+        "twisted tree trunks",
+        "drooping willow branches",
+        "dark leaf accents",
+        "foreground rock wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_tree_pavilion_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_winter_tree_stand",
+      "description": "Isolate the central foreground stand of bare winter trees and sparse pines rising from the rocky slope, including tall trunks, branch networks, dark needle tufts, and grass-like brush marks.",
+      "bbox": [
+        0.31,
+        0.48,
+        0.34,
+        0.32
+      ],
+      "role": "foreground tree stand",
+      "must_preserve": [
+        "fine branching linework",
+        "slender vertical trunks",
+        "dark pine needle tufts",
+        "dry grass hatching",
+        "soft ground wash at roots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_central_winter_tree_stand.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_stream_reed_bank",
+      "description": "Isolate the lower-right water margin with dark horizontal stream strokes, low grasses, reeds, pebbles, and the curving bank. Exclude nearby red seals and border areas.",
+      "bbox": [
+        0.52,
+        0.82,
+        0.42,
+        0.15
+      ],
+      "role": "foreground water and reeds",
+      "must_preserve": [
+        "parallel dark water strokes",
+        "tufted reed linework",
+        "small rounded stones",
+        "curving bank contour",
+        "pale open water wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_stream_reed_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "source_summary": "Wide horizontal Chinese landscape with pale ink-and-color washes: wooded hills and village structures at left-center, small figures and rocky foreground shore, a gnarled riverbank tree with a small boat, and broad misty water with distant layered mountains and bird flocks to the right. Calligraphy and seals are excluded.",
+  "motifs": [
+    {
+      "name": "left_crag_bare_tree_cluster",
+      "description": "Steep left hillside with pale layered rock washes and a cluster of tall leafless trees rising from the slope and lower bank; isolate the crag, trunks, branches, exposed roots, and sparse reddish-brown foliage near the base, excluding the adjacent inscription at the far left edge.",
+      "bbox": [
+        0.022,
+        0.077,
+        0.195,
+        0.75
+      ],
+      "role": "left foreground hillside and tree mass",
+      "must_preserve": [
+        "fine angular branch linework",
+        "pale gray-brown contour washes on the crag",
+        "dark dry-brush texture along the sloping rock face",
+        "exposed root strokes at the tree bases",
+        "small reddish-brown leaf accents"
+      ]
+    },
+    {
+      "name": "rear_hamlet_hillside_field",
+      "description": "Soft mid-left hillside with a tiny distant roof, terraced field patch, low embankments, and muted brushy vegetation behind the main grove; isolate the rolling hill forms and cultivated textures only.",
+      "bbox": [
+        0.218,
+        0.224,
+        0.168,
+        0.448
+      ],
+      "role": "midground hillside and distant hamlet detail",
+      "must_preserve": [
+        "small dark roof silhouette on the hill",
+        "parallel hatch marks of the field plot",
+        "soft ochre-gray hill washes",
+        "low horizontal bank lines",
+        "delicate scrub textures"
+      ]
+    },
+    {
+      "name": "central_thatched_pavilions_grove",
+      "description": "Central village cluster of low thatched pavilions tucked among tall bare trees, with dark roof beams, pale walls, surrounding trunks, and a dense dark grove behind.",
+      "bbox": [
+        0.355,
+        0.061,
+        0.18,
+        0.66
+      ],
+      "role": "central pavilion group and wooded village",
+      "must_preserve": [
+        "roof geometry with layered eaves",
+        "thin vertical tree trunks",
+        "branch filigree above the roofs",
+        "dark stippled grove texture behind the buildings",
+        "subtle warm brown roof and foliage accents"
+      ]
+    },
+    {
+      "name": "gnarled_bank_tree_with_mooring",
+      "description": "Riverbank section with a large gnarled leaning tree, exposed roots gripping the bank, adjacent low landform, and a small narrow moored boat or plank-like craft along the water edge.",
+      "bbox": [
+        0.447,
+        0.344,
+        0.132,
+        0.435
+      ],
+      "role": "riverbank tree and boat motif",
+      "must_preserve": [
+        "twisted trunk contour lines",
+        "root claw shapes at the bank",
+        "fine bare branch network",
+        "small horizontal boat form with dark outline",
+        "mist-softened shoreline edges"
+      ]
+    },
+    {
+      "name": "tiny_scholars_on_path",
+      "description": "Two tiny robed figures walking on the path near the center, one with a warm orange robe accent, placed beneath sparse branches and beside the pale riverbank path.",
+      "bbox": [
+        0.393,
+        0.638,
+        0.05,
+        0.125
+      ],
+      "role": "small human figures on path",
+      "must_preserve": [
+        "miniature figure silhouettes",
+        "orange robe color accent",
+        "tiny head and posture marks",
+        "thin path line beneath the figures",
+        "nearby delicate twig strokes only where attached to the figure setting"
+      ]
+    },
+    {
+      "name": "foreground_rocky_shore_shrubs",
+      "description": "Low foreground shore with flat rock shelves, dark clustered shrubs, tufts of grass, and a small leafless bush rising from the bank; isolate the bottom-center land strip and vegetation textures.",
+      "bbox": [
+        0.265,
+        0.676,
+        0.19,
+        0.25
+      ],
+      "role": "foreground rocky shore and shrubs",
+      "must_preserve": [
+        "flat layered rock outlines",
+        "dark ink shrub clusters",
+        "dry-brush grass tufts",
+        "small bare bush branchwork",
+        "pale wash transitions into water"
+      ]
+    },
+    {
+      "name": "right_hillside_trees_mist_bank",
+      "description": "Right midground sloping bank with several sparse leafless trees and shrubs descending toward the water, partly softened by mist at the lower edge.",
+      "bbox": [
+        0.553,
+        0.244,
+        0.175,
+        0.472
+      ],
+      "role": "right midground hillside and misty bank",
+      "must_preserve": [
+        "thin tree trunks and branch tips",
+        "dark shrub patches on the slope",
+        "soft stippled hill texture",
+        "mist-blurred lower shoreline",
+        "subtle gray-brown wash gradations"
+      ]
+    },
+    {
+      "name": "distant_lake_mountains_bird_flocks",
+      "description": "Broad right-side expanse of water and sky with layered distant mountain ridges, horizontal shorelines, soft mist bands, and scattered flocks of small birds rendered as dark dash marks.",
+      "bbox": [
+        0.596,
+        0.093,
+        0.376,
+        0.575
+      ],
+      "role": "distant lake, mountains, and atmospheric background",
+      "must_preserve": [
+        "faint horizontal water and shoreline lines",
+        "layered distant mountain washes",
+        "soft mist edges between ridges and water",
+        "small bird-flock dash marks",
+        "very pale ochre-gray atmospheric color"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 02 NPM.jpg",
+  "created_at": "2026-09-03T19:21:37.086952+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

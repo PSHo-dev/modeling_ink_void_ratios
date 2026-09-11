@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 05 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T23:00:57.494207+00:00",
+  "motifs": [
+    {
+      "name": "upper_right_mountain_massif",
+      "description": "Isolate the tall upper-right mountain cluster: pale rounded peaks with steep vertical sides, dark ink outlines, scattered black texture dots, soft gray interior washes, and mist-softened lower edges. Exclude nearby red seals and blank sky.",
+      "bbox": [
+        0.433,
+        0.094,
+        0.498,
+        0.454
+      ],
+      "role": "dominant distant mountain",
+      "must_preserve": [
+        "irregular dark contour line along the summit and right cliff edge",
+        "granular black texture dots on ridges and creases",
+        "soft gray wash gradients inside the pale rock forms",
+        "misty transition at the lower base of the massif",
+        "nested peak shapes and vertical cliff geometry"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_right_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_midground_snow_peaks",
+      "description": "Isolate the left and center-left snowy ridge system with low rolling hills, upright pale spires, and darker dotted ridge contours. Include the small brushy vegetation at the bases where it belongs to the hillside, but omit the bridge and water below.",
+      "bbox": [
+        0.0,
+        0.292,
+        0.462,
+        0.325
+      ],
+      "role": "midground hillsides and peaks",
+      "must_preserve": [
+        "rounded snow-covered hill silhouettes",
+        "vertical pale rock spires in the center-left",
+        "dark stippled ink accents along crest lines",
+        "soft ink wash shadows on the inner slopes",
+        "thin scrubby tree strokes at the foot of the hills"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_midground_snow_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_arching_rock_ridge",
+      "description": "Isolate the large snow-covered arched rock ridge in the center-right foreground, including its looping opening, pale interior plane, dark dotted crests, and attached snowy boulders. Do not include the village roofs or separate tree grove except tiny shrub marks attached to the rock surface.",
+      "bbox": [
+        0.455,
+        0.436,
+        0.475,
+        0.434
+      ],
+      "role": "foreground rock formation",
+      "must_preserve": [
+        "arched negative opening inside the ridge",
+        "thick pale snow masses with gray wash modeling",
+        "black broken contour dots along upper and lower edges",
+        "curving ridge geometry that wraps downward to the right",
+        "small ink shrub accents clinging to rock edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_foreground_arching_rock_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winter_stream_and_snow_banks",
+      "description": "Isolate the misty stream and pond surfaces across the lower-left and middle ground, with flat gray water washes, snowy islets, irregular banks, and soft reflections. Omit the bridge, scholar, pavilion, and buildings within this area.",
+      "bbox": [
+        0.0,
+        0.535,
+        0.523,
+        0.32
+      ],
+      "role": "water and misty foreground basin",
+      "must_preserve": [
+        "broad diluted gray water wash",
+        "soft horizontal tonal transitions suggesting mist and reflection",
+        "irregular white snowy shoreline shapes",
+        "small pale islands and exposed rocks in the water",
+        "blurred edges where water meets snow banks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_winter_stream_and_snow_banks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bridge_scholar",
+      "description": "Isolate the small arched footbridge over the stream with the tiny scholar figure standing or crossing near it. Include the bridge rail/posts and immediate ink strokes needed to read the crossing, but exclude surrounding water and banks except the minimal contact points.",
+      "bbox": [
+        0.095,
+        0.571,
+        0.249,
+        0.065
+      ],
+      "role": "bridge and scholar figure",
+      "must_preserve": [
+        "thin curved bridge line",
+        "two small vertical bridge supports or rail posts",
+        "tiny scholar figure with dark head and fine robe strokes",
+        "delicate walking-stick or staff-like line near the figure",
+        "minimal contact shadows where bridge meets the banks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_arched_bridge_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lakeside_open_pavilion",
+      "description": "Isolate the small open pavilion on the snowy island in the lower center-left: hipped roof, four posts, railings, platform, and the immediate snowy mound supporting it. Do not include the larger water field or nearby unrelated trees.",
+      "bbox": [
+        0.271,
+        0.722,
+        0.226,
+        0.104
+      ],
+      "role": "waterside pavilion",
+      "must_preserve": [
+        "low hipped roof with soft snow-like wash",
+        "straight post-and-beam geometry",
+        "small railing and platform linework",
+        "dark accent dots along the roof edge and island edge",
+        "pale snowy island base beneath the structure"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lakeside_open_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_leafless_tree_grove",
+      "description": "Isolate the cluster of bare winter trees rising through the foreground rocks from center to right, including multiple dark trunks, branching twig networks, and sparse brushy undergrowth. Exclude nearby pavilion and village architecture.",
+      "bbox": [
+        0.47,
+        0.592,
+        0.452,
+        0.272
+      ],
+      "role": "foreground trees and shrubs",
+      "must_preserve": [
+        "dark tapering trunks with dry-brush texture",
+        "angular leafless branch networks",
+        "fine twig ends and broken ink strokes",
+        "root-like bases emerging from snow-covered rocks",
+        "subtle gray wash around trunks and undergrowth"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_leafless_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

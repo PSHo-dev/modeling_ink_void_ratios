@@ -1,0 +1,138 @@
+{
+  "source": "../../../../../../Input_Images/Spring 21 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:20:05.704261+00:00",
+  "motifs": [
+    {
+      "name": "ancient_willow_tree",
+      "description": "The full visible old willow: gnarled trunk and roots at the left edge, heavy leaning limbs, sweeping arched boughs across the upper composition, and long pendant willow twigs.",
+      "bbox": [
+        0,
+        0,
+        0.74,
+        0.961
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thick-to-thin calligraphic contour lines of trunk and limbs",
+        "dark knotted bark spots and root texture",
+        "long fine hanging willow strands",
+        "small black buds and leaf dots along branches",
+        "irregular tapering of the sweeping upper boughs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_ancient_willow_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_robed_scholar",
+      "description": "Standing robed scholar near the lower center, facing left under the willow with head covering, long sleeves, sash, and visible feet.",
+      "bbox": [
+        0.313,
+        0.548,
+        0.098,
+        0.326
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "delicate angular robe-outline linework",
+        "fold lines down the sleeves and hem",
+        "small head and cap geometry",
+        "dark belt/sash accent",
+        "subtle pale wash inside the robe",
+        "walking stance and exposed shoes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_robed_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_attendant",
+      "description": "Small bent attendant at the lower left, carrying a bundled load or implements while walking beneath the willow.",
+      "bbox": [
+        0.027,
+        0.763,
+        0.137,
+        0.179
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "stooped posture and compact silhouette",
+        "thin contour lines of tunic, legs, and head covering",
+        "diagonal carried bundle or pole strokes",
+        "small dark accents at hair, hands, and feet",
+        "light wash defining clothing volume"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_lower_left_attendant.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_flowering_shrub_belt",
+      "description": "Low flowering shrub and brush belt across the lower foreground around the figures, including dotted blossoms, thin twig networks, and small clustered leaves.",
+      "bbox": [
+        0,
+        0.625,
+        0.605,
+        0.355
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "fine branching twig linework",
+        "dense black blossom and leaf dots",
+        "irregular spacing of shrub clusters",
+        "overlapping stems around rocks and feet",
+        "small warm-brown wash accents at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_foreground_flowering_shrub_belt.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rocky_bank_and_shallows",
+      "description": "Foreground rocky riverbank and shallow water forms through the lower middle and right, including angular rocks, eroded ledges, dotted stones, and horizontal water-wash marks.",
+      "bbox": [
+        0.21,
+        0.78,
+        0.6,
+        0.21
+      ],
+      "role": "foreground riverbank",
+      "must_preserve": [
+        "angular outlined rock planes",
+        "dark pebble dots along the bank",
+        "dry-brush striations on eroded slopes",
+        "pale horizontal water strokes",
+        "soft wash transitions between earth bank and shallow water",
+        "broken ink texture on rock edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_rocky_bank_and_shallows.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_birds_in_sky",
+      "description": "Sparse birds in the open upper sky, including the larger fluttering bird at upper right of center and the smaller bird strokes nearby.",
+      "bbox": [
+        0.542,
+        0.062,
+        0.212,
+        0.139
+      ],
+      "role": "sky birds",
+      "must_preserve": [
+        "minimal V-shaped wing strokes",
+        "small dark head and tail marks",
+        "dry-brush feather flicks",
+        "varied scale between birds",
+        "ample surrounding empty space for sky placement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_small_birds_in_sky.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "source": "../../../../../../Input_Images/Spring 30 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:29:13.788767+00:00",
+  "motifs": [
+    {
+      "name": "misty_left_mountain_ridges",
+      "description": "Isolate the pale layered mountain silhouettes on the upper-left and middle-left: the low sloping ridge, the rounded peak at far left, and receding central hills fading into mist.",
+      "bbox": [
+        0.0,
+        0.176,
+        0.43,
+        0.267
+      ],
+      "role": "distant mountain backdrop",
+      "must_preserve": [
+        "soft ink-wash gradations",
+        "blurred mist edges where ridges dissolve",
+        "faint contour lines along the left peak",
+        "subtle horizontal atmospheric bands",
+        "lightly textured rock faces without adding foreground trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_left_mountain_ridges.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "sheer_right_cliffs",
+      "description": "Isolate the monumental vertical cliffs on the upper-right: the tall dark right wall, the central pillar-like cliff, adjoining ledges, and pale gaps of mist between rock masses.",
+      "bbox": [
+        0.654,
+        0.0,
+        0.346,
+        0.428
+      ],
+      "role": "towering cliff backdrop",
+      "must_preserve": [
+        "vertical wash streaks",
+        "irregular jagged cliff silhouettes",
+        "faint fissure lines and darker cracks",
+        "soft tonal transitions inside the rock faces",
+        "mist-softened lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_sheer_right_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_bamboo_grove",
+      "description": "Isolate the dense midground grove of bamboo-like trees rising from the bank, including clustered trunks, arching stems, feathery leaf masses, and the shaded understory around the roots.",
+      "bbox": [
+        0.112,
+        0.35,
+        0.58,
+        0.395
+      ],
+      "role": "midground vegetation screen",
+      "must_preserve": [
+        "fine individual bamboo leaves and needle-like strokes",
+        "overlapping dark and pale foliage clusters",
+        "slender leaning trunks and branch structure",
+        "ink density variation within the canopy",
+        "small grasses and low shrubs at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_pavilion_compound",
+      "description": "Isolate the right-side architectural compound set among trees: tiled roofs, ochre wall, open-front pavilion with columns and steps, visible standing figure at the doorway, and flowering shrubs immediately attached to the building.",
+      "bbox": [
+        0.477,
+        0.512,
+        0.505,
+        0.272
+      ],
+      "role": "pavilion group and habitation motif",
+      "must_preserve": [
+        "precise roof geometry and layered eaves",
+        "curved roof tile linework",
+        "warm ochre wall color and brick pattern",
+        "vertical columns, door panels, and platform steps",
+        "small doorway figure gesture and robe folds",
+        "white blossom accents among surrounding shrubs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_riverside_pavilion_compound.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "traveling_party_with_horse",
+      "description": "Isolate the small procession on the lower path: two attendants carrying items, a child or young attendant, luggage and bundle details, plus the robed rider on a pale horse with dark hat and saddle cloth.",
+      "bbox": [
+        0.285,
+        0.785,
+        0.435,
+        0.112
+      ],
+      "role": "scholar-traveler figures",
+      "must_preserve": [
+        "delicate facial and hand linework",
+        "robe folds and pale color accents",
+        "red and tan bundle details",
+        "horse outline, bridle, legs, and pale wash",
+        "dark scholar hat and black saddle cloth",
+        "ground contact shadows and path placement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_traveling_party_with_horse.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_stone_arch_bridge",
+      "description": "Isolate the low arched stone bridge at the lower-right edge, including railings, posts, curved parapet, steps, and the adjoining grassy bank where it meets the path.",
+      "bbox": [
+        0.742,
+        0.768,
+        0.246,
+        0.113
+      ],
+      "role": "bridge crossing motif",
+      "must_preserve": [
+        "arched parapet curve",
+        "rectangular posts and capstones",
+        "fine linear masonry edges",
+        "pale stone wash",
+        "small tufts of grass around the bridge foot",
+        "connection between bridge, path, and riverbank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_small_stone_arch_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocks_and_twisted_pine",
+      "description": "Isolate the foreground rocky bank spanning the bottom: angular boulders, dark twisted pine-like branches at left, low bamboo and shrubs, sloping rock slabs, and dark brushy vegetation along the base.",
+      "bbox": [
+        0.026,
+        0.825,
+        0.92,
+        0.15
+      ],
+      "role": "foreground anchoring rocks and vegetation",
+      "must_preserve": [
+        "angular rock contour lines and dry-brush texture",
+        "dark cracked ink strokes on boulders",
+        "gnarled branching silhouette at lower left",
+        "small pine needles, bamboo leaves, and shrub dots",
+        "layered ground washes and grassy accents",
+        "strong diagonal rock forms that frame the scene"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocks_and_twisted_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

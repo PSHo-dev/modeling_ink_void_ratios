@@ -1,0 +1,151 @@
+{
+  "source_summary": "Tall hanging-scroll Chinese landscape with layered misty mountains above, forested cliffs and blue-green rock washes in the middle, a pavilion with seated scholars among dense trees, rocky streambanks, reeds, and a small covered boat at the lower right.",
+  "motifs": [
+    {
+      "name": "misty_distant_peaks",
+      "description": "Soft background mountain silhouettes across the upper third: pale vertical peaks at upper left, center, and upper right emerging through mist behind the darker ridges.",
+      "bbox": [
+        0.06,
+        0.025,
+        0.7,
+        0.245
+      ],
+      "role": "distant mountain backdrop",
+      "must_preserve": [
+        "faint ink outlines softened by wash",
+        "muted blue-green and brown-gray tonal gradations",
+        "mist-veiled edges where peaks fade into the sky",
+        "subtle vertical cliff contour lines"
+      ]
+    },
+    {
+      "name": "upper_forested_cliff",
+      "description": "Large upper-right cliff mass with rounded summit, steep face, and scattered dark tree-dot foliage along ridge crests and ledges.",
+      "bbox": [
+        0.34,
+        0.045,
+        0.52,
+        0.365
+      ],
+      "role": "dominant mountain cliff",
+      "must_preserve": [
+        "dense black dotting along the ridgelines",
+        "thin wrinkled contour lines running down the cliff face",
+        "blue-green mineral wash over brown ink structure",
+        "small exposed ocher rock ledges",
+        "soft mist transition at the lower base"
+      ]
+    },
+    {
+      "name": "left_curving_mountain",
+      "description": "Sweeping left and central mountain slope that curves downward like an arch, with layered rock striations, dark shrub clusters, and turquoise-green washes.",
+      "bbox": [
+        0.0,
+        0.165,
+        0.56,
+        0.345
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "arched contour of the slope",
+        "fine layered rock linework",
+        "dark stippled tree and shrub masses",
+        "warm ocher exposed rock patches",
+        "blue-green wash pockets on the shaded cliff"
+      ]
+    },
+    {
+      "name": "valley_hamlet_band",
+      "description": "Tiny distant settlement and path at the right middle valley: small roofed structures, pale ground plane, tree line, and low embankment beneath the mountains.",
+      "bbox": [
+        0.61,
+        0.405,
+        0.28,
+        0.085
+      ],
+      "role": "distant village cluster",
+      "must_preserve": [
+        "miniature roof geometry and hut outlines",
+        "thin vertical tree marks behind the buildings",
+        "pale misty clearing around the hamlet",
+        "curving dark embankment or path line",
+        "delicate scale contrast against the mountains"
+      ]
+    },
+    {
+      "name": "pavilion_scholars",
+      "description": "Open riverside pavilion with tiled thatched roof, railings, steps, columns, interior screens, and seated scholar figures inside.",
+      "bbox": [
+        0.33,
+        0.545,
+        0.43,
+        0.145
+      ],
+      "role": "architectural focal point with figures",
+      "must_preserve": [
+        "precise roof geometry and parallel roof strokes",
+        "straight wooden columns and railing lattice",
+        "seated scholars with robes and small facial linework",
+        "interior screen panels and table details",
+        "fine platform supports and steps"
+      ]
+    },
+    {
+      "name": "left_foreground_tree_grove",
+      "description": "Dense foreground grove on the lower left with multiple tall trunks, dark leafy canopies, bamboo-like foliage, and partial garden fence elements.",
+      "bbox": [
+        0.0,
+        0.445,
+        0.39,
+        0.435
+      ],
+      "role": "foreground trees and enclosure",
+      "must_preserve": [
+        "interlaced trunks with pale bark highlights",
+        "dense rounded leaf-dot clusters",
+        "dark ink bamboo or drooping foliage strokes",
+        "fine fence and gate linework at the far left",
+        "layered undergrowth and stippled ground texture"
+      ]
+    },
+    {
+      "name": "right_bamboo_bank",
+      "description": "Right-side bank beside the pavilion with bamboo and slender trees, dark brushy foliage, small water edge, and rocky ground.",
+      "bbox": [
+        0.7,
+        0.415,
+        0.27,
+        0.265
+      ],
+      "role": "side vegetation and stream bank",
+      "must_preserve": [
+        "vertical bamboo culm strokes",
+        "short clustered bamboo leaf marks",
+        "leaning tree trunks with exposed roots",
+        "soft blue-green ground wash",
+        "irregular ink-dotted rocks and bank edge"
+      ]
+    },
+    {
+      "name": "boat_reed_shore",
+      "description": "Lower-right waterside motif with a moored covered boat, low shore ledges, reeds, grasses, and small rocks in shallow water.",
+      "bbox": [
+        0.53,
+        0.855,
+        0.43,
+        0.12
+      ],
+      "role": "foreground water and boat",
+      "must_preserve": [
+        "thin outline of the long narrow boat hull",
+        "rectangular canopy roof and support posts",
+        "dark reed clusters drawn with quick vertical strokes",
+        "stepped muddy shore contours",
+        "small scattered rocks and pale water wash"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 23 Nelson Atkins.jpg",
+  "created_at": "2026-08-06T22:49:36.137884+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

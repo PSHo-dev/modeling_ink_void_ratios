@@ -1,0 +1,161 @@
+{
+  "source_summary": "Tall hanging-scroll Chinese landscape with ink-and-light-color mountains above a lake, mist bands, reed-filled water, pavilions, boats, scholar figures, and dense foreground trees/rocks. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_layered_mountain",
+      "description": "Isolate the large upper-center mountain mass with rounded layered slopes, darker rocky right flank, clustered shrubs, and the small exposed rock-and-tree hollow near the lower middle of the mountain. Exclude surrounding calligraphy and seals.",
+      "bbox": [
+        0.18,
+        0.11,
+        0.55,
+        0.24
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "fine contour linework following the rounded ridges",
+        "soft grey ink wash gradations on the slopes",
+        "dark dry-brush texture on the right cliff face",
+        "clustered rock forms in the central hollow",
+        "small scrub trees and leaf dots along the crest and ravines",
+        "mist-softened lower mountain edges"
+      ]
+    },
+    {
+      "name": "left_distant_peak_and_mist",
+      "description": "Isolate the small distant peak at upper left with its pale sloping sides, dark crest vegetation, adjacent low ridge, and surrounding horizontal mist/water wash. Exclude nearby red seals.",
+      "bbox": [
+        0.05,
+        0.17,
+        0.2,
+        0.11
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin pale ridge outlines",
+        "dark stippled foliage on the peak top",
+        "faint horizontal mist strokes at the base",
+        "soft washed transition into water",
+        "subtle layered ridge behind the peak"
+      ]
+    },
+    {
+      "name": "right_pavilion_hillside",
+      "description": "Isolate the small pavilion group on the right hillside, including tiered roof geometry, terrace lines, surrounding bamboo or slender trees, and the sloping bank beneath it. Do not include seals or unrelated calligraphy above.",
+      "bbox": [
+        0.7,
+        0.245,
+        0.27,
+        0.14
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof eaves and stacked pavilion outlines",
+        "thin architectural linework of platforms and railings",
+        "bamboo-like vertical stems and fine leaves at the right",
+        "light hillside contour lines",
+        "misty pale background separating buildings from lake",
+        "small dark shrub accents around the terrace"
+      ]
+    },
+    {
+      "name": "broad_lake_with_reeds",
+      "description": "Isolate the middle-left expanse of lake surface with fine ripple lines, pale water wash, scattered reed beds, and low marsh grasses. Exclude large foreground tree trunks and boats.",
+      "bbox": [
+        0.02,
+        0.31,
+        0.58,
+        0.27
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "closely spaced horizontal ripple strokes",
+        "faint tonal wash variations across the water",
+        "clusters of thin reed blades and marsh grasses",
+        "soft blank-water areas suggesting mist",
+        "small dark floating marks on the lake",
+        "delicate shoreline transitions"
+      ]
+    },
+    {
+      "name": "central_reed_island_trees",
+      "description": "Isolate the central small island or bank with mixed shrubs, bare saplings, reeds, and light ground contours rising from the water.",
+      "bbox": [
+        0.43,
+        0.335,
+        0.24,
+        0.17
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "thin bare tree branches with angular joints",
+        "leaf-dot clusters on the bushy shrubs",
+        "fine reed and grass strokes at the waterline",
+        "pale mound contour lines",
+        "subtle ink wash beneath the vegetation",
+        "overlapping branch structure without merging into nearby hills"
+      ]
+    },
+    {
+      "name": "right_cottage_grove",
+      "description": "Isolate the mid-right riverside cottage and surrounding grove, including the thatched roof, seated figure inside, tall trunks, flowering or dotted foliage, fence marks, and sloped bank.",
+      "bbox": [
+        0.58,
+        0.47,
+        0.36,
+        0.24
+      ],
+      "role": "village dwelling",
+      "must_preserve": [
+        "thatched roof texture and simple wall posts",
+        "tiny seated scholar figure inside the cottage",
+        "tall dark tree trunks with root bases",
+        "fine branch tracery and dotted blossoms or leaves",
+        "fence and garden line details",
+        "dry-brush shadows on the hillside bank",
+        "nearby reeds and grasses at the water edge"
+      ]
+    },
+    {
+      "name": "scholar_boat_under_trees",
+      "description": "Isolate the small boat carrying a scholar beneath the overhanging trees, including the low canopy or cabin, seated figure, boat hull, nearby bamboo, and surrounding narrow water channel. Exclude the large foreground rock mass where possible.",
+      "bbox": [
+        0.18,
+        0.705,
+        0.3,
+        0.095
+      ],
+      "role": "boat and figure",
+      "must_preserve": [
+        "slender boat hull outline",
+        "small seated scholar figure and robe lines",
+        "low arched boat cover or canopy texture",
+        "nearby bamboo leaves and thin stems",
+        "fine ripple lines around the boat",
+        "delicate bank grasses framing the channel"
+      ]
+    },
+    {
+      "name": "foreground_gnarled_pines_rock_promontory",
+      "description": "Isolate the large lower-left foreground promontory with twisted pine trunks, exposed roots, needle clusters, dense shrubs, and heavily textured rocks descending toward the water. Do not include the nearby boat as part of the motif.",
+      "bbox": [
+        0.0,
+        0.52,
+        0.57,
+        0.42
+      ],
+      "role": "foreground rocks and pines",
+      "must_preserve": [
+        "gnarled twisting pine trunk contours",
+        "tufts of pine needles at branch tips",
+        "exposed roots gripping the rocks",
+        "dark shrub masses at the base",
+        "layered rock outlines with dry-brush creases",
+        "grey-brown wash accents on trunks and stones",
+        "small grasses and reeds along the shoreline"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 10 NPM.jpg",
+  "created_at": "2026-09-03T19:41:26.177507+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

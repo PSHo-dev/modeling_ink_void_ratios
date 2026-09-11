@@ -1,0 +1,83 @@
+{
+  "source": "examples/inputs/Winter 20 MET.jpg",
+  "out_dir": "runs/winter20_api",
+  "mode": "sheet",
+  "crop_margin": 0.04,
+  "skip_existing": true,
+  "source_summary": "Manual motif plan based on the attached Winter 20 MET Chinese winter landscape painting.",
+  "motifs": [
+    {
+      "name": "misty_upper_snow_mountains",
+      "description": "large pale snow-covered mountain mass in the upper half, dissolving into grey winter mist",
+      "bbox": [0.28, 0.13, 0.49, 0.34],
+      "role": "background mountain mass",
+      "must_preserve": ["soft snow wash", "grey atmospheric ground", "faint ridge contours", "mist-softened edges"]
+    },
+    {
+      "name": "right_snow_cliff_and_falls",
+      "description": "right-side steep snow cliff with dark vertical waterfall or ravine strokes",
+      "bbox": [0.53, 0.34, 0.28, 0.27],
+      "role": "main cliff accent",
+      "must_preserve": ["dark falling vertical ink", "rounded snow cliff forms", "broken rock texture", "high contrast ravine edge"]
+    },
+    {
+      "name": "middle_snow_rock_spires",
+      "description": "central middle-ground snow rock spires and rounded boulders rising among trees",
+      "bbox": [0.30, 0.45, 0.34, 0.28],
+      "role": "middle-ground rocks",
+      "must_preserve": ["rounded snowy rock shoulders", "soft contour strokes", "small dark texture clusters"]
+    },
+    {
+      "name": "bare_winter_tree_cluster",
+      "description": "leafless winter trees with fine branching silhouettes in front of snowy rocks",
+      "bbox": [0.32, 0.55, 0.32, 0.25],
+      "role": "winter tree foreground",
+      "must_preserve": ["delicate bare branches", "dark ink trunks", "overlapping tree silhouettes"]
+    },
+    {
+      "name": "hidden_house_in_grove",
+      "description": "small hidden house or pavilion tucked into a dark grove near the lower left",
+      "bbox": [0.20, 0.64, 0.20, 0.18],
+      "role": "human habitation",
+      "must_preserve": ["tiny roof geometry", "dark surrounding grove", "snowy ground transition"]
+    },
+    {
+      "name": "foreground_snow_boulders",
+      "description": "large foreground snow-covered boulders and dark shrubs at the lower left",
+      "bbox": [0.19, 0.75, 0.34, 0.16],
+      "role": "foreground rocks",
+      "must_preserve": ["large pale boulder planes", "dark stippled shrubs", "ink texture at rock bases"]
+    },
+    {
+      "name": "icy_river_and_banks",
+      "description": "quiet icy river or winter stream with horizontal banks and pale water bands at the lower right",
+      "bbox": [0.55, 0.70, 0.26, 0.20],
+      "role": "water and shore",
+      "must_preserve": ["horizontal water bands", "subtle ice-like wash", "low snowy banks", "small red-brown vegetation marks"]
+    },
+    {
+      "name": "left_valley_trees_and_path",
+      "description": "left middle valley with sparse trees, snowy path, and faint small structures in mist",
+      "bbox": [0.20, 0.39, 0.28, 0.22],
+      "role": "misty valley detail",
+      "must_preserve": ["faint winter trees", "small distant structures", "misty snow path", "light ink recession"]
+    }
+  ],
+  "composition": {
+    "name": "winter_landscape_recombined",
+    "theme": "a new winter Chinese landscape with snowy mountains, a steep cliff and waterfall, bare trees, a hidden house, foreground boulders, and an icy river",
+    "include_scholar": false,
+    "size": "1024x1536",
+    "layout": "Place the misty mountain mass high in the background, the right cliff as the dominant vertical form, bare winter trees and a hidden house in the middle ground, large snow boulders low left, and the icy river flowing through the lower right.",
+    "source_style": "Restrained monochrome Chinese winter landscape, grey ink wash, soft snow reserves, sparse brown-red accents, silk-mounted painting tone, and delicate dry-brush winter branches.",
+    "ink_ratio": {
+      "void": 0.62,
+      "transition": 0.26,
+      "ink": 0.12,
+      "iters": 3,
+      "guide": true,
+      "revise": true,
+      "polish": false
+    }
+  }
+}

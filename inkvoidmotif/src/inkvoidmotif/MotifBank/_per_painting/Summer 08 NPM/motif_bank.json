@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Summer 08 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:37:09.236881+00:00",
+  "motifs": [
+    {
+      "name": "central_dark_peak",
+      "description": "Isolate the tall central mountain peak rising from the mist, including the dark rounded summit, steep ink-washed flanks, pale mist seams, and lower attached mountain mass, but excluding the inscription area and unrelated foreground trees or huts.",
+      "bbox": [
+        0.333,
+        0.137,
+        0.355,
+        0.399
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "broad layered gray-black wash forming the rounded summit",
+        "dry horizontal brush striations down the slopes",
+        "soft pale mist channels cutting along both sides",
+        "ink-dark lower shoulders and fading base edges",
+        "subtle tonal transitions from dense black to diluted gray"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_dark_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rock_buttresses",
+      "description": "Isolate the pale exposed rock buttresses embedded in the front of the central mountain, with jagged ink contours, textured ridges, and dark side shadows.",
+      "bbox": [
+        0.421,
+        0.277,
+        0.248,
+        0.248
+      ],
+      "role": "rocky cliff face",
+      "must_preserve": [
+        "angular contour linework around pale rock faces",
+        "short dark texture dabs along ridges",
+        "vertical and diagonal crevice strokes",
+        "gray wash modeling on the cliff planes",
+        "black clustered brush marks at the base and side edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_rock_buttresses.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mist_ridge",
+      "description": "Isolate the right-side mountain ridge and its adjoining mist pocket, including the dark rounded hill, sloping shoulder, distant pale blue-gray back hill, and soft white atmospheric gap below.",
+      "bbox": [
+        0.629,
+        0.252,
+        0.348,
+        0.227
+      ],
+      "role": "secondary mountain ridge",
+      "must_preserve": [
+        "rounded dark ink summit on the right ridge",
+        "sloping layered wash strokes down the hillside",
+        "soft-edged white mist opening between mountain masses",
+        "faint blue-gray distant hill behind the ridge",
+        "blurred wet-wash transitions at the lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_mist_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_distant_hills",
+      "description": "Isolate the low rolling hills and distant blue-gray peaks on the left middle distance, including their misty bases and broad diluted ink washes.",
+      "bbox": [
+        0.0,
+        0.258,
+        0.359,
+        0.196
+      ],
+      "role": "distant hills and mist",
+      "must_preserve": [
+        "pale blue-gray background peak",
+        "low dark rounded foreground hill silhouette",
+        "watery horizontal wash layers",
+        "mist-softened hill bases",
+        "minimal contour lines and diluted ink edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_distant_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "thatched_cottage_cluster",
+      "description": "Isolate the small central thatched cottages beside water, including tan roofs, dark wall posts, doorway lines, and surrounding low shrubs, without taking the larger foreground grove.",
+      "bbox": [
+        0.482,
+        0.593,
+        0.164,
+        0.083
+      ],
+      "role": "village dwellings",
+      "must_preserve": [
+        "warm tan thatched roof accents",
+        "black vertical wall and window strokes",
+        "slight roof eave geometry and overlapping roof planes",
+        "small surrounding dark shrub masses",
+        "watery gray ground reflection beneath the huts"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_thatched_cottage_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_boat_scholar",
+      "description": "Isolate the small boat with a standing scholar or boatman near the lower riverbank, including the hull, figure, pole or oar lines, and nearby curved bank grasses, while excluding the large foreground tree mass above it.",
+      "bbox": [
+        0.319,
+        0.843,
+        0.185,
+        0.071
+      ],
+      "role": "boat and figure",
+      "must_preserve": [
+        "delicate narrow boat outline",
+        "tiny robed human figure in pale wash and black line",
+        "fine pole or oar strokes",
+        "curved grassy bank line beside the boat",
+        "open pale water around the hull for separation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_boat_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

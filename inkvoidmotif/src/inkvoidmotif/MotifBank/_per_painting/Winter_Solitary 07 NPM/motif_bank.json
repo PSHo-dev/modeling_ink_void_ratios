@@ -1,0 +1,162 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:16:05.478505+00:00",
+  "motifs": [
+    {
+      "name": "central_mist_water_bands",
+      "description": "Isolate the faint horizontal bands of pale gray-white wash across the open middle of the painting, reading as distant mist or water surfaces. Include only the broken linear strokes and soft translucent edges, not birds, seals, calligraphy, or tree branches crossing nearby.",
+      "bbox": [
+        0.032,
+        0.247,
+        0.875,
+        0.402
+      ],
+      "role": "mist and distant water",
+      "must_preserve": [
+        "thin broken horizontal brush lines",
+        "soft uneven wash edges",
+        "subtle pale gray-white color accents",
+        "spacing between the parallel bands",
+        "very light, atmospheric ink texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_mist_water_bands.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_scattered_geese",
+      "description": "Isolate the small scattered flying birds in the upper-middle open space, including the tiny dark silhouettes arranged loosely across the misty void.",
+      "bbox": [
+        0.29,
+        0.187,
+        0.295,
+        0.306
+      ],
+      "role": "distant birds",
+      "must_preserve": [
+        "compact dark ink silhouettes",
+        "V-shaped wing flicks",
+        "minimal beak and tail strokes",
+        "variation in scale between birds",
+        "dry-brush feathered edges where visible"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_scattered_geese.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_swooping_bird_pair",
+      "description": "Isolate the larger swooping bird forms at mid-left, with one prominent downward-angled bird and a nearby smaller companion mark.",
+      "bbox": [
+        0.217,
+        0.429,
+        0.096,
+        0.055
+      ],
+      "role": "foreground birds",
+      "must_preserve": [
+        "curved dark wing strokes",
+        "small pointed head and tail marks",
+        "pale interior wash on the body",
+        "asymmetric landing or turning posture",
+        "crisp dark contour accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_swooping_bird_pair.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_winter_tree_cluster",
+      "description": "Isolate the large gnarled leafless tree cluster on the right, including the main hollow trunk, adjoining trunks, twisting branches, small bare twigs, and the birds perched among the branches. Exclude the surrounding snow banks except where they directly touch the trunk base.",
+      "bbox": [
+        0.491,
+        0.303,
+        0.509,
+        0.588
+      ],
+      "role": "foreground tree cluster",
+      "must_preserve": [
+        "gnarled trunk contours",
+        "dark vertical bark washes",
+        "round hollow knots and spotted bark texture",
+        "angular bare branch linework",
+        "fine twig tips",
+        "perched bird silhouettes",
+        "subtle warm ocher-gray wash on the wood"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_winter_tree_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_leafless_saplings",
+      "description": "Isolate the lower-left to center midground network of smaller bare saplings and shrubs emerging from the snowy bank, including the long low branch stretching horizontally and the delicate twig lattice.",
+      "bbox": [
+        0.181,
+        0.558,
+        0.383,
+        0.218
+      ],
+      "role": "midground shrubs and saplings",
+      "must_preserve": [
+        "thin wiry branch outlines",
+        "dry-brush twig endings",
+        "low horizontal branch structure",
+        "small dark nodes at branch joints",
+        "light snow-bank contact shadows",
+        "sparse reed-like strokes at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midground_leafless_saplings.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "snowy_river_terraces",
+      "description": "Isolate the layered snow-covered riverbank and water terrace shapes across the lower half, including the long pale landforms, dark under-wash shadows, and gently curving shoreline contours. Exclude tree trunks, rocks, and boat details except where the bank outline passes behind them.",
+      "bbox": [
+        0.0,
+        0.655,
+        0.912,
+        0.217
+      ],
+      "role": "snowy foreground and riverbank terraces",
+      "must_preserve": [
+        "broad pale snow washes",
+        "dark gray shadow bands beneath bank edges",
+        "long sweeping shoreline contours",
+        "soft transitions between snow and water",
+        "thin ink outlines on ridge edges",
+        "layered recession from foreground to midground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_snowy_river_terraces.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocks_on_snow",
+      "description": "Isolate the scattered rounded stones and pebble clusters along the very bottom snowy foreground, including the darker shadows beneath them and the larger central-right snow-capped rock group.",
+      "bbox": [
+        0.086,
+        0.873,
+        0.823,
+        0.087
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded ink contours",
+        "gray wash modeling on stone faces",
+        "small dark shadow pools",
+        "pale snow caps and reserved highlights",
+        "irregular spacing of pebble clusters",
+        "dry-brush texture along the bottom edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocks_on_snow.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

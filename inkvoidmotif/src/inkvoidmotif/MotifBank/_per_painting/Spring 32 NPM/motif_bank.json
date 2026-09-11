@@ -1,0 +1,183 @@
+{
+  "source": "../../../../../../Input_Images/Spring 32 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:26:24.108172+00:00",
+  "motifs": [
+    {
+      "name": "misty_layered_mountain_cliffs",
+      "description": "Isolate the large left-background mountain mass: rounded overlapping cliffs and hillsides rising behind the garden, with mist at the base. Exclude red seals and any foreground trees or pavilion elements crossing the lower edge.",
+      "bbox": [
+        0.09,
+        0.13,
+        0.47,
+        0.4
+      ],
+      "role": "distant mountain backdrop",
+      "must_preserve": [
+        "rounded contour linework of the mountain ridges",
+        "pale green-gray and ochre washes on the rock faces",
+        "dense dark moss-dot texture along ridge crests and seams",
+        "soft misty lower edge where the mountain dissolves behind the foreground",
+        "fine internal striation lines showing layered rock volume"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_layered_mountain_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "soft_distant_hill_band",
+      "description": "Isolate the pale central distant hill silhouette across the water: a low hazy mountain form with gentle peaks and a faint horizontal shoreline/mist band beneath it. Exclude nearby calligraphy and red seals.",
+      "bbox": [
+        0.53,
+        0.29,
+        0.19,
+        0.13
+      ],
+      "role": "far distance mountain and mist",
+      "must_preserve": [
+        "soft-edged gray-green wash with almost no hard outline",
+        "subtle peak profile and flattened base",
+        "faint atmospheric layering that suggests water and haze",
+        "delicate tonal gradation fading into the paper-colored sky"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_soft_distant_hill_band.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_studio_pavilion",
+      "description": "Isolate the lower-left studio/pavilion group: tiled roofs, pale walls, vertical wooden posts, open book shelves, round moon window, and low platform. Exclude surrounding tree trunks, pine foliage, shrubs, and foreground rocks where separable.",
+      "bbox": [
+        0.0,
+        0.55,
+        0.43,
+        0.36
+      ],
+      "role": "foreground pavilion group",
+      "must_preserve": [
+        "repeating curved roof-tile linework",
+        "crisp roof geometry with eaves and gable details",
+        "vertical timber frame lines and pale wall wash",
+        "visible books and shelves inside the open window",
+        "round moon window with interior table and books",
+        "thin ink outlines and restrained tan color accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_riverside_studio_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_old_pine_cluster",
+      "description": "Isolate the dominant foreground old pines in the center: twisting pale trunks, branching limbs, and dense needle clusters spreading horizontally over the pavilion and garden. Exclude pavilion architecture and bamboo where separable.",
+      "bbox": [
+        0.29,
+        0.36,
+        0.34,
+        0.62
+      ],
+      "role": "foreground pine trees",
+      "must_preserve": [
+        "gnarled pale trunks with dark knot marks and bark spots",
+        "sinuous branch structure with exposed tan wash",
+        "radiating fine pine-needle strokes forming rounded clusters",
+        "dark ink accents at branch joints and trunk scars",
+        "overlapping foliage masses with varied needle density",
+        "root bases and lower trunk texture at the garden edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_old_pine_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bamboo_thicket",
+      "description": "Isolate the bamboo thicket behind and to the right of the pines: multiple thin culms, angled leafy sprays, and darker clustered leaves descending toward the shore. Exclude pine trunks and distant hill wash where separable.",
+      "bbox": [
+        0.52,
+        0.43,
+        0.24,
+        0.51
+      ],
+      "role": "midground bamboo screen",
+      "must_preserve": [
+        "slender segmented bamboo culm lines",
+        "arched leaf clusters painted with quick tapered strokes",
+        "dark dense lower bamboo foliage",
+        "lighter upper sprays fading into the air",
+        "overlapping layers that create a screen behind the pines",
+        "subtle green-gray wash accents around the leaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_bamboo_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_plum_bank",
+      "description": "Isolate the left garden trees beside the pavilion: drooping willow branches, dark leafy shrub forms, and pale blossoming plum branches near the roof. Exclude red seals above and the pavilion roof where separable.",
+      "bbox": [
+        0.0,
+        0.39,
+        0.18,
+        0.34
+      ],
+      "role": "foreground garden trees",
+      "must_preserve": [
+        "long drooping willow frond linework",
+        "dark twisting trunks and branch forks",
+        "fine pale blossom branches with pink-white accents",
+        "dense dark shrub texture at the lower left",
+        "soft green washes around the willow foliage",
+        "delicate contrast between bare blossom twigs and hanging leaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_left_willow_plum_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_rocky_islet",
+      "description": "Isolate the right-side willow and rocky bank: a compact cluster of drooping willows, pale flowering branches, and rounded rocks at the edge of the water. Exclude nearby red seals and empty water beyond the immediate bank.",
+      "bbox": [
+        0.86,
+        0.5,
+        0.14,
+        0.35
+      ],
+      "role": "right foreground shoreline trees and rocks",
+      "must_preserve": [
+        "weeping willow leaves drawn as fine trailing strokes",
+        "gnarled dark trunks and exposed branch structure",
+        "small pale pink-white blossom accents on lower branches",
+        "rounded rock forms with moss-dot edges",
+        "green-gray wash on the bank and foliage",
+        "soft water-facing edge of the islet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_willow_rocky_islet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "diagonal_wooden_bridge_shoreline",
+      "description": "Isolate the lower-right diagonal wooden footbridge crossing the water near the shore, including its rail posts, planks, small stones in the water, and adjacent sloped banks. Exclude the right willow cluster and unrelated foreground rocks.",
+      "bbox": [
+        0.66,
+        0.84,
+        0.28,
+        0.15
+      ],
+      "role": "foreground bridge and shoreline",
+      "must_preserve": [
+        "thin diagonal bridge plank lines",
+        "upright dark railing posts and supports",
+        "small scattered stepping stones or rocks in the water",
+        "pale water wash around the bridge",
+        "curved green shoreline with dotted vegetation texture",
+        "ink-dark bank outlines and subtle ochre rock accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_diagonal_wooden_bridge_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

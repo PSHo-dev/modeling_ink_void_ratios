@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink landscape with winter-bare trees at left and center, pale misted ground, a towering rocky cliff at right, a small robed scholar below it, and sparse foreground banks with reeds, stones, and water lines. Calligraphy and seals are excluded.",
+  "motifs": [
+    {
+      "name": "left_windswept_tree",
+      "description": "Isolate the far-left bare, windswept tree with twisting vertical trunk, cropped side branches, and angular ink limbs reaching into the open mist.",
+      "bbox": [
+        0,
+        0.16,
+        0.19,
+        0.78
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "dark dry-brush trunk contours",
+        "crooked branching silhouette",
+        "soft gray wash around the trunk",
+        "broken ink at the roots",
+        "left-edge cropped branch tips"
+      ]
+    },
+    {
+      "name": "central_gnarled_grove",
+      "description": "Isolate the dense central cluster of gnarled bare trunks and interlaced branches, including the dark main trunk, lighter companion stems, and root area.",
+      "bbox": [
+        0.13,
+        0.15,
+        0.24,
+        0.79
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "layered black and gray trunk strokes",
+        "dry-brush bark texture",
+        "forked branch linework",
+        "dense overlapping twig network",
+        "dark root and base accents"
+      ]
+    },
+    {
+      "name": "diagonal_foreground_tree",
+      "description": "Isolate the large diagonal foreground tree rising from the lower center and splitting into long bare limbs that stretch toward the upper right.",
+      "bbox": [
+        0.29,
+        0.18,
+        0.3,
+        0.78
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "broad pale-gray trunk wash",
+        "dark outlines along branch forks",
+        "long diagonal compositional sweep",
+        "small angular offshoots",
+        "dry textured bark strokes"
+      ]
+    },
+    {
+      "name": "midground_leafless_shrub",
+      "description": "Isolate the small leafless shrub in the mid-right open space, with a low trunk and delicate horizontal branches against the pale mist.",
+      "bbox": [
+        0.48,
+        0.3,
+        0.13,
+        0.32
+      ],
+      "role": "midground shrub",
+      "must_preserve": [
+        "thin dark branch tips",
+        "soft gray under-branches",
+        "open negative space between twigs",
+        "faint wash halo",
+        "irregular ink pressure along limbs"
+      ]
+    },
+    {
+      "name": "under_cliff_low_shrub",
+      "description": "Isolate the low spreading shrub beneath the cliff overhang, with gray-brown sweeping branches fanning left and right near the base of the rock.",
+      "bbox": [
+        0.58,
+        0.42,
+        0.18,
+        0.23
+      ],
+      "role": "midground shrub",
+      "must_preserve": [
+        "arched gray branch strokes",
+        "short dark twig accents",
+        "soft base wash",
+        "fan-like branch geometry",
+        "mist-softened edges where branches recede"
+      ]
+    },
+    {
+      "name": "overhanging_mossy_cliff",
+      "description": "Isolate the suspended rocky overhang on the upper right, including its rounded lower lobes, vertical wash textures, and clusters of dark moss dots.",
+      "bbox": [
+        0.71,
+        0,
+        0.19,
+        0.67
+      ],
+      "role": "cliff overhang",
+      "must_preserve": [
+        "steep vertical rock washes",
+        "dark stippled moss clusters",
+        "rounded pendant rock forms",
+        "dry-brush fissures",
+        "soft pale edges fading into mist"
+      ]
+    },
+    {
+      "name": "right_vertical_cliff_wall",
+      "description": "Isolate the tall vertical cliff wall at the far right, from the pale upper rock face down to the darker lower base and edge stones.",
+      "bbox": [
+        0.82,
+        0,
+        0.18,
+        1
+      ],
+      "role": "cliff wall",
+      "must_preserve": [
+        "long vertical ink striations",
+        "pale tan-gray rock wash",
+        "dark lower moss stippling",
+        "irregular cliff edge contour",
+        "base rocks and rough ground texture"
+      ]
+    },
+    {
+      "name": "standing_scholar",
+      "description": "Isolate the small standing robed scholar near the lower right, facing left beneath the cliff with hands gathered and a dark hair cap or topknot.",
+      "bbox": [
+        0.71,
+        0.68,
+        0.05,
+        0.2
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "fine facial profile linework",
+        "dark hair and shoulder accent",
+        "flowing robe outline",
+        "thin sleeve and sash strokes",
+        "small grounded feet"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 28 Cleveland.jpg",
+  "created_at": "2026-07-06T06:13:43.934723+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

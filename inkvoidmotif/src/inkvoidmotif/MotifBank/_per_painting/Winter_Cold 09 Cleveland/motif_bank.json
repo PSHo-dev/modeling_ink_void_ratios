@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 09 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:01:05.165918+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_cliff_saplings",
+      "description": "Isolate the upper-left rocky cliff face with thin vertical rock contour lines and sparse leaning saplings emerging from the edge. Include the small dark leaf clusters and dry-brush cliff striations only, without the blank sky/mist beyond what is needed around the strokes.",
+      "bbox": [
+        0.0,
+        0.035,
+        0.245,
+        0.24
+      ],
+      "role": "cliff and sparse trees",
+      "must_preserve": [
+        "fine ink outline of cliff edge",
+        "vertical dry-brush rock texture",
+        "thin sapling trunks and forked twigs",
+        "small dark leaf-dot clusters",
+        "soft pale wash defining the cliff mass"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_cliff_saplings.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_massive_pine_trunks",
+      "description": "Isolate the large old pine trunks rising along the left side, including exposed roots, twisting bark, lower knots, and the dark pine-needle masses attached to the trunks. Avoid including the central horizontal branch canopy except where it joins the trunk.",
+      "bbox": [
+        0.0,
+        0.255,
+        0.315,
+        0.64
+      ],
+      "role": "foreground pine trunks",
+      "must_preserve": [
+        "gnarled root shapes at the cliff base",
+        "dark ink bark ridges and longitudinal striations",
+        "twisting trunk silhouettes",
+        "dense pine needle stippling",
+        "strong dark contour lines against pale rock wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_massive_pine_trunks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_windblown_pine_branch",
+      "description": "Isolate the broad windblown pine limb extending from the left trunk across the center, with twisting branch structure and scattered pine-needle tufts. Include the curved main branch, smaller offshoots, and hanging needle clusters, but not the distant mountains behind it.",
+      "bbox": [
+        0.18,
+        0.345,
+        0.56,
+        0.185
+      ],
+      "role": "overhanging pine branch",
+      "must_preserve": [
+        "sinuous main branch line",
+        "broken dry-brush bark strokes",
+        "radiating twig offshoots",
+        "clustered pine needles rendered as fine dark strokes",
+        "irregular ink-wash shadow under the branch"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_windblown_pine_branch.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hanging_bamboo_thicket",
+      "description": "Isolate the drooping bamboo-like foliage descending from the central slope toward the middle, with slender stems and many narrow leaves. Include the fine leaf clusters and lightly washed supporting bank only where attached.",
+      "bbox": [
+        0.38,
+        0.535,
+        0.235,
+        0.205
+      ],
+      "role": "bamboo and hillside foliage",
+      "must_preserve": [
+        "thin flexible bamboo stems",
+        "paired narrow leaf strokes",
+        "delicate dark ink leaf tips",
+        "subtle pale hillside wash behind the foliage",
+        "small branching joints along the stems"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_hanging_bamboo_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_layered_mountains_mist",
+      "description": "Isolate the pale middle-distance mountain range and misty water/valley band across the right half, including the soft triangular peaks and layered silhouettes. Exclude foreground trees and any seals at the lower right edge.",
+      "bbox": [
+        0.46,
+        0.515,
+        0.54,
+        0.205
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "soft-edged mountain contours",
+        "overlapping layered peak silhouettes",
+        "transparent pale brown-gray wash",
+        "misty horizontal transition into open water/sky",
+        "minimal ink linework and subdued tonal gradation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_distant_layered_mountains_mist.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_leafless_grove",
+      "description": "Isolate the cluster of small leafless trees on the rocky promontory in the lower middle-right, including branching twig networks, dark knotted trunks, and the uneven rock base. Avoid the red seal and unrelated far-right lower edge.",
+      "bbox": [
+        0.48,
+        0.665,
+        0.405,
+        0.16
+      ],
+      "role": "leafless grove on rocks",
+      "must_preserve": [
+        "fine angular twig linework",
+        "gnarled dark trunk knots",
+        "irregular rocky promontory outline",
+        "short grass strokes at the base",
+        "light wash separating rock from misty water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_mid_right_leafless_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rolling_bank_shrubs",
+      "description": "Isolate the lower foreground rolling bank with grasses, small shrubs, and low rounded rocks. Include the sloping earth forms, clumps of grass, and small leafy bushes, while excluding the bottom-left seal and outer border area.",
+      "bbox": [
+        0.025,
+        0.83,
+        0.7,
+        0.145
+      ],
+      "role": "foreground bank and shrubs",
+      "must_preserve": [
+        "rounded contour of the earthen bank",
+        "dry-brush grass tufts",
+        "small clustered shrub leaves",
+        "low rock outlines and shaded hollows",
+        "soft ochre wash with darker ink accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rolling_bank_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

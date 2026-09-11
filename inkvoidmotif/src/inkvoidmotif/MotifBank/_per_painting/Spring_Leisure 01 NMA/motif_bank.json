@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 01 NMA.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:18:30.905035+00:00",
+  "motifs": [
+    {
+      "name": "central_towering_crags",
+      "description": "The main cluster of steep, vertically striated mountain peaks rising through the upper center, including multiple narrow summits and connected cliff faces with dark dotted foliage clinging to ridges and ledges.",
+      "bbox": [
+        0.105,
+        0.057,
+        0.63,
+        0.505
+      ],
+      "role": "dominant mountain massif",
+      "must_preserve": [
+        "long vertical ink strokes and pale wash modeling on cliff faces",
+        "irregular peak silhouettes",
+        "dense dark ink-dot foliage along ridgelines and crevices",
+        "layered overlapping crag forms",
+        "soft fading lower edges where the mountains dissolve into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_towering_crags.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_framing_cliff",
+      "description": "Tall cropped cliff wall along the left edge, with a narrow vertical rock face, sparse dark foliage dots, and lower rocky buttresses framing the scene.",
+      "bbox": [
+        0.0,
+        0.195,
+        0.205,
+        0.555
+      ],
+      "role": "left foreground framing cliff",
+      "must_preserve": [
+        "cropped edge composition",
+        "thin wavering contour lines",
+        "vertical rock texture strokes",
+        "small clustered dark foliage dots along cracks and ledges",
+        "pale ink wash transitions on the cliff face"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_framing_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "large_foreground_pine",
+      "description": "Large twisting pine tree occupying the lower center-right, with two textured trunks, sweeping horizontal branches, and dense fan-like needle clusters spreading across the foreground.",
+      "bbox": [
+        0.29,
+        0.505,
+        0.665,
+        0.405
+      ],
+      "role": "foreground pine tree",
+      "must_preserve": [
+        "forked twisting trunks with bark stipple texture",
+        "arching branch structure",
+        "individual radiating pine-needle clusters",
+        "dark ink outlines and fine twig linework",
+        "asymmetrical canopy spreading left and right"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_large_foreground_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bamboo_grove",
+      "description": "Slender bamboo grove behind the pine on the lower right, with upright culms, fine leaves, and a small rock base at the edge of the path.",
+      "bbox": [
+        0.805,
+        0.715,
+        0.185,
+        0.18
+      ],
+      "role": "foreground bamboo grove",
+      "must_preserve": [
+        "thin vertical bamboo stalks",
+        "delicate paired leaf strokes",
+        "layered foliage density",
+        "small base rocks and dark root-side accents",
+        "separation from the pine trunk in front"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lone_scholar_with_staff",
+      "description": "Small robed scholar standing on the open path near the bottom center, holding a tall walking staff, with simple facial features and flowing robe lines.",
+      "bbox": [
+        0.428,
+        0.82,
+        0.165,
+        0.095
+      ],
+      "role": "human figure",
+      "must_preserve": [
+        "upright walking staff",
+        "fine robe contour lines and sleeve folds",
+        "small head, hair, and facial marks",
+        "visible feet beneath robe",
+        "quiet standing pose facing slightly left"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lone_scholar_with_staff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

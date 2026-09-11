@@ -1,0 +1,158 @@
+{
+  "source_summary": "Monochrome ink-and-light-wash Chinese landscape with towering craggy mountains, misty water, wooded cliffs, pavilions and hamlets; seals, calligraphy, borders, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "central_cliff_massif",
+      "description": "Isolate the dominant central mountain complex: tall vertical cliffs, dark pine-topped ridgelines, split ravines, and mist-veiled lower slopes. Exclude the pavilion village and foreground trees below.",
+      "bbox": [
+        0.421,
+        0.115,
+        0.455,
+        0.445
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "layered axe-cut and hemp-fiber rock strokes",
+        "dark ink washes on cliff faces",
+        "pale vertical ravine reserves",
+        "pine-needle silhouettes along crests",
+        "soft mist edges cutting across the lower mountain",
+        "small dotted foliage accents on ledges"
+      ]
+    },
+    {
+      "name": "left_misty_peak_cluster",
+      "description": "Isolate the left middle-distance group of mist-surrounded peaks: rounded dark monoliths at far left and the taller jagged peak with a small receding ridge behind it.",
+      "bbox": [
+        0.038,
+        0.246,
+        0.356,
+        0.264
+      ],
+      "role": "distant mountains",
+      "must_preserve": [
+        "soft diluted wash on rounded peaks",
+        "jagged dark crest of the tall peak",
+        "thin receding ridge line behind the main peak",
+        "horizontal mist bands partially obscuring bases",
+        "subtle water-atmosphere transitions"
+      ]
+    },
+    {
+      "name": "right_islet_peak_chain",
+      "description": "Isolate the small right middle-distance island mountains and narrow water gap behind the main massif, including the slender detached peak and two clustered rocky islets.",
+      "bbox": [
+        0.772,
+        0.302,
+        0.174,
+        0.153
+      ],
+      "role": "distant islets",
+      "must_preserve": [
+        "tiny pine strokes on the island crests",
+        "mist-softened lower edges",
+        "thin horizontal waterline washes",
+        "dark compact rock texture on the clustered peaks",
+        "slender vertical silhouette of the detached peak"
+      ]
+    },
+    {
+      "name": "left_wooded_rock_promontory",
+      "description": "Isolate the left-middle wooded rocky promontory with an arched cliff opening, dense trees on top, and shrubs descending along the slope.",
+      "bbox": [
+        0.107,
+        0.363,
+        0.366,
+        0.271
+      ],
+      "role": "wooded hillside",
+      "must_preserve": [
+        "dark clustered tree crowns with individual leaf dots",
+        "vertical trunks and twig linework",
+        "rock arch contour and pale interior wash",
+        "textured cliff strokes under the trees",
+        "mist-softened lower slope",
+        "small shrubs clinging to ledges"
+      ]
+    },
+    {
+      "name": "midright_pavilion_compound",
+      "description": "Isolate the mid-right pavilion compound nestled among trees at the foot of the cliffs: layered tiled roofs, rectangular walls, and surrounding bamboo-like foliage.",
+      "bbox": [
+        0.635,
+        0.504,
+        0.274,
+        0.171
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry with parallel eave lines",
+        "rectangular wall and window linework",
+        "light tan roof wash accents",
+        "surrounding vertical trunks and fine foliage",
+        "rocky slope behind the buildings",
+        "misty clearing separating architecture from cliff"
+      ]
+    },
+    {
+      "name": "foreground_bamboo_tree_screen",
+      "description": "Isolate the dense foreground screen of tall leafy trees and bamboo-like growth in the center-right, rising in front of the cliffs and partially screening the settlement.",
+      "bbox": [
+        0.333,
+        0.554,
+        0.316,
+        0.3
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "repeating leaf clusters and dark ink dots",
+        "slender vertical trunks",
+        "branching twig networks",
+        "layered canopy masses in varied ink density",
+        "overlapping foliage silhouettes",
+        "washed shadow at the tree bases"
+      ]
+    },
+    {
+      "name": "lower_right_hamlet_figures",
+      "description": "Isolate the lower-right hamlet with thatched houses, fenced enclosure, tiny human figures, courtyard spaces, and nearby trees. Exclude the outer border and any seals.",
+      "bbox": [
+        0.681,
+        0.706,
+        0.303,
+        0.177
+      ],
+      "role": "village and figures",
+      "must_preserve": [
+        "thatched roof striations",
+        "straight fence and wall linework",
+        "small seated and standing figure silhouettes",
+        "door and eave details",
+        "pale courtyard wash",
+        "nearby tree crowns and trunks framing the houses"
+      ]
+    },
+    {
+      "name": "lower_left_river_gorge_boat",
+      "description": "Isolate the lower-left river gorge with steep banks, dark rocks, flowing water lines, and the small dark boat-like form near the rocks.",
+      "bbox": [
+        0.0,
+        0.712,
+        0.315,
+        0.18
+      ],
+      "role": "water foreground",
+      "must_preserve": [
+        "thin horizontal ripples and current lines",
+        "dark boulders at the water edge",
+        "soft washed river surface",
+        "steep pale cliff walls fading into mist",
+        "small dark boat form beside the rocks",
+        "sparse shrubs and grasses along the bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 23 NPM.jpg",
+  "created_at": "2026-08-27T22:22:45.303830+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

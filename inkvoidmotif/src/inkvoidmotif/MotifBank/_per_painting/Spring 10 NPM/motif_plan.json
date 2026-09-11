@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape with layered blue-green mountains, cliffside pine groves, small pavilion/village clusters, misty water surfaces, garden rocks, willows, bridges, and a large foreground architectural compound. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "towering_central_summit",
+      "description": "Isolate the tall central upper mountain mass with sheer rounded peak, pale green-blue washes, ocher cliff faces, ink contour lines, fissure strokes, small ledges, and tiny structures or walls perched near the summit and upper clefts. Exclude surrounding inscriptions and seals.",
+      "bbox": [
+        0.315,
+        0.018,
+        0.455,
+        0.28
+      ],
+      "role": "distant mountain summit",
+      "must_preserve": [
+        "thin ink contour linework along cliff edges",
+        "vertical crack and wrinkle strokes",
+        "soft green-blue and ocher mineral washes",
+        "small summit buildings and wall-like roof/terrace geometry",
+        "dark dotted vegetation accents on ledges"
+      ]
+    },
+    {
+      "name": "misty_left_background_peaks",
+      "description": "Isolate the faint left-background mountain silhouettes rising through mist, including the pale washed peak forms and low jagged ridge at the lower left-middle. Avoid nearby calligraphy and red seals.",
+      "bbox": [
+        0.13,
+        0.1,
+        0.245,
+        0.255
+      ],
+      "role": "misty distant mountains",
+      "must_preserve": [
+        "very soft wash edges fading into mist",
+        "muted blue-green silhouettes",
+        "minimal ink outlines on nearer low ridge",
+        "empty mist space between peak forms"
+      ]
+    },
+    {
+      "name": "central_cliff_waterfall_pines",
+      "description": "Isolate the middle cliff section below the main peak with stacked rocky ledges, a narrow vertical waterfall, and pine clusters standing on terraces. Include the winding ravine linework and rocky slope texture, but avoid the right village cluster.",
+      "bbox": [
+        0.365,
+        0.305,
+        0.36,
+        0.255
+      ],
+      "role": "middle mountain waterfall and pine terrace",
+      "must_preserve": [
+        "narrow pale waterfall strip",
+        "angular rock ledges and ink texture strokes",
+        "clustered pine trunks and needle masses",
+        "green-blue slope washes with ocher rock accents",
+        "mist-softened transitions around ravine edges"
+      ]
+    },
+    {
+      "name": "upper_right_cliff_village",
+      "description": "Isolate the small pavilion and house cluster embedded in the upper-right hillside, with surrounding pines, layered roofs, enclosing walls, and rocky terrace ledges. Exclude the nearby red seal.",
+      "bbox": [
+        0.645,
+        0.235,
+        0.285,
+        0.095
+      ],
+      "role": "cliffside village cluster",
+      "must_preserve": [
+        "precise tiled roof geometry",
+        "thin architectural wall lines",
+        "dark pine needle clusters around buildings",
+        "rock ledge outlines beneath the village",
+        "subtle tan, green, and gray washes"
+      ]
+    },
+    {
+      "name": "middle_rocky_cascade_basin",
+      "description": "Isolate the rugged mid-lower mountain basin with broken boulders, sloping blue-green ridges, dry stream or cascade channels, and scattered stones leading toward the open water. Keep only the terrain and water-edge rocks, not the foreground buildings.",
+      "bbox": [
+        0.015,
+        0.46,
+        0.64,
+        0.205
+      ],
+      "role": "rocky stream basin and shore",
+      "must_preserve": [
+        "dense cracked rock texture",
+        "stepped boulder outlines",
+        "small scattered stones in the water",
+        "blue-green ridge washes",
+        "pale open water margin and soft shoreline transitions"
+      ]
+    },
+    {
+      "name": "taihu_rock_willow_pond",
+      "description": "Isolate the garden pond scene at left-center: pierced Taihu rock formation, small waterside pavilion, drooping willow clumps, low shrubs, and surrounding pale water. Avoid the large palace complex to the right.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.43,
+        0.205
+      ],
+      "role": "garden rock, pavilion, and willow pond",
+      "must_preserve": [
+        "holes and rounded cavities in the Taihu rock",
+        "gray-green wash modeling on the rock",
+        "small pavilion roof and rail geometry",
+        "long drooping willow leaf strokes",
+        "low shrub stippling and pale water gaps"
+      ]
+    },
+    {
+      "name": "foreground_palace_courtyard",
+      "description": "Isolate the main foreground architectural compound with large tiled-roof halls, raised stone terraces, stairways, balustraded bridge and courtyard walls, plus the visible small figures within and in front of the buildings. Exclude unrelated mountain mass where possible.",
+      "bbox": [
+        0.19,
+        0.615,
+        0.67,
+        0.255
+      ],
+      "role": "foreground palace compound with figures",
+      "must_preserve": [
+        "layered roof ridges and upturned eaves",
+        "fine lattice window and wall linework",
+        "stone terrace patterning and balustrades",
+        "stairs and bridge geometry",
+        "small scholar/attendant figures and color accents",
+        "warm ocher wall washes and dark roof ink hatching"
+      ]
+    },
+    {
+      "name": "right_blue_cliff_pine_screen",
+      "description": "Isolate the large right-side foreground blue-green cliff and dense pine screen, including the vertical rock face, dark pine canopies, exposed trunks, and foreground shrubs. Keep it separate from the palace roofs behind it.",
+      "bbox": [
+        0.545,
+        0.525,
+        0.455,
+        0.455
+      ],
+      "role": "foreground cliff and pine screen",
+      "must_preserve": [
+        "blue mineral wash on the cliff face",
+        "vertical rock contour and wrinkle strokes",
+        "dark clustered pine needles",
+        "twisting brown-black pine trunks and branches",
+        "foreground shrub stippling and layered foliage masses"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 10 NPM.jpg",
+  "created_at": "2026-08-26T21:42:38.824434+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

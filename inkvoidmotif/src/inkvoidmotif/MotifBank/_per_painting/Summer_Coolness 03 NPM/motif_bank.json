@@ -1,0 +1,179 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 03 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:34:13.444624+00:00",
+  "motifs": [
+    {
+      "name": "distant_right_mountain_range",
+      "description": "Pale blue-gray distant mountain silhouettes along the upper right horizon, isolated from the darker foreground hillside below.",
+      "bbox": [
+        0.62,
+        0.22,
+        0.38,
+        0.16
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft diluted wash silhouette",
+        "barely outlined ridge contours",
+        "mist-faded lower edges",
+        "subtle tonal layering between nearer and farther peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_right_mountain_range.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "textured_right_hillside",
+      "description": "Large sloping hillside on the right with diagonal dry-brush striations, dotted vegetation, and dark crest accents, excluding the pale mountains behind it.",
+      "bbox": [
+        0.7,
+        0.3,
+        0.3,
+        0.27
+      ],
+      "role": "hillside",
+      "must_preserve": [
+        "long diagonal ink texture strokes",
+        "rounded hill contour",
+        "scattered dark shrub dots along the ridge",
+        "pale wash transitions down the slope",
+        "small clustered tree marks near the upper edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_textured_right_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_midground_pine_grove",
+      "description": "Central midground grove of upright pines and sparse trees emerging from mist, set between the foreground village trees and the distant hills.",
+      "bbox": [
+        0.44,
+        0.34,
+        0.3,
+        0.18
+      ],
+      "role": "misty tree grove",
+      "must_preserve": [
+        "vertical pine trunks",
+        "tiered needle clusters",
+        "soft gray wash haze around the bases",
+        "small separated tree silhouettes",
+        "lost-and-found mist edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_misty_midground_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_grove",
+      "description": "Dense left and central grove of willows and leafy trees behind and around the village, with arching trunks and drooping foliage masses.",
+      "bbox": [
+        0.07,
+        0.42,
+        0.44,
+        0.34
+      ],
+      "role": "tree grove",
+      "must_preserve": [
+        "drooping willow-leaf strokes",
+        "arched branch linework",
+        "layered gray ink foliage",
+        "darker clustered leaf accents",
+        "thin visible trunks and forked branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "waterside_cottage_cluster",
+      "description": "Cluster of thatched riverside cottages at the lower center-left, including roof planes, walls, small windows, fencing, and tiny figures immediately beside the buildings.",
+      "bbox": [
+        0.25,
+        0.66,
+        0.35,
+        0.2
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "thatched roof geometry and parallel hatch strokes",
+        "upright wall posts",
+        "small window lattice marks",
+        "low fence and deck lines",
+        "tiny human figures near doorways",
+        "light wash shadows beneath eaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_waterside_cottage_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "large_riverside_tree",
+      "description": "Prominent dark riverside broadleaf tree rising beside the cottages, with leaning trunks and a heavy rounded canopy over the water edge.",
+      "bbox": [
+        0.51,
+        0.53,
+        0.23,
+        0.31
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "dark dense leaf clusters",
+        "fine repeated foliage strokes",
+        "leaning trunk and branch structure",
+        "root contact at the bank",
+        "contrast between dark canopy and pale water/mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_large_riverside_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_river_boat",
+      "description": "Narrow boat in the lower center with a standing punter and seated passenger, surrounded by minimal horizontal water strokes.",
+      "bbox": [
+        0.34,
+        0.75,
+        0.23,
+        0.12
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "slender curved hull outline",
+        "standing pole figure posture",
+        "seated passenger silhouette",
+        "punting pole angle",
+        "thin rippling water lines around the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_small_river_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "footbridge_with_travelers",
+      "description": "Low arched wooden footbridge and adjacent riverbank path on the lower right, including walkers and pack animal figures but excluding the large lower-right rocks.",
+      "bbox": [
+        0.56,
+        0.76,
+        0.34,
+        0.16
+      ],
+      "role": "bridge and figures",
+      "must_preserve": [
+        "plank bridge curve",
+        "vertical bridge supports",
+        "thin railing and deck strokes",
+        "small walking scholar/traveler figures",
+        "pack animal and attendant silhouettes",
+        "muddy bank wash and grass tufts"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_footbridge_with_travelers.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

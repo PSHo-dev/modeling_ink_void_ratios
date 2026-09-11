@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink-and-wash Chinese landscape with layered mountains, misty water bands, riverside hamlets, pine-covered slopes, leafless foreground trees, rocks, and a small pavilion; inscriptions, red seals, borders, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "central_layered_mountain",
+      "description": "Isolate the dominant central mountain mass with stacked rounded ridges, craggy summit, shaded gullies, and scattered dark pine clusters; mask out any overlying red seal marks and avoid neighboring right waterfall cliffs.",
+      "bbox": [
+        0.36,
+        0.12,
+        0.3,
+        0.5
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "soft grey ink washes defining rounded terraces",
+        "dry-brush rock texture and diagonal contour strokes",
+        "dark vertical pine-needle clusters on ledges",
+        "pale mist gaps between slopes",
+        "irregular crag line at the high summit"
+      ]
+    },
+    {
+      "name": "right_cliff_waterfall",
+      "description": "Isolate the right-side cliff group with tall upright rock faces, narrow cascading waterfall, mist at the base, and adjacent small dark pavilion-like roof form on the ridge; exclude distant hills and red seals at the far right.",
+      "bbox": [
+        0.61,
+        0.21,
+        0.27,
+        0.34
+      ],
+      "role": "cliff and waterfall",
+      "must_preserve": [
+        "vertical rock outlines and layered wash on cliff faces",
+        "thin white waterfall channel with darker flanking strokes",
+        "soft misty wash where water meets valley",
+        "small angular roof strokes near the ridge",
+        "dark pine accents at the lower cliff edge"
+      ]
+    },
+    {
+      "name": "left_distant_river_hills",
+      "description": "Isolate the low distant landscape at left: rolling hills, horizontal river or lake bands, faint shorelines, and small receding slopes beneath the inscription area; do not include calligraphy or seals.",
+      "bbox": [
+        0.02,
+        0.37,
+        0.4,
+        0.16
+      ],
+      "role": "distant hills and water",
+      "must_preserve": [
+        "pale graded wash on distant hills",
+        "thin horizontal waterline strokes",
+        "soft atmospheric fading at hill edges",
+        "small darker ridge accents",
+        "low shoreline contours"
+      ]
+    },
+    {
+      "name": "mid_left_riverside_hamlet_grove",
+      "description": "Isolate the mid-left riverside hamlet with low thatched buildings, bare trees, and narrow bank lines along the water below the distant hills.",
+      "bbox": [
+        0.12,
+        0.43,
+        0.3,
+        0.15
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "simple rectangular house walls and slanted roof geometry",
+        "fine bare tree trunks and twig marks",
+        "horizontal bank and water strokes",
+        "light wash around the settlement",
+        "small dark dots and reeds along the shore"
+      ]
+    },
+    {
+      "name": "mid_right_pine_slope",
+      "description": "Isolate the mid-right sloping hillside covered with clustered conifers and darker pine marks emerging from mist, between the waterfall cliffs and foreground trees; exclude the red seal column at the far right.",
+      "bbox": [
+        0.76,
+        0.34,
+        0.17,
+        0.24
+      ],
+      "role": "pine hillside",
+      "must_preserve": [
+        "stacked conifer silhouettes with dark ink tops",
+        "misty blank spaces separating tree groups",
+        "slanted hillside contour strokes",
+        "small clustered needle marks",
+        "soft grey wash receding into the valley"
+      ]
+    },
+    {
+      "name": "foreground_left_rocky_bank_trees",
+      "description": "Isolate the left foreground rocky bank with rounded boulders, low scrub, bare saplings, and dark texture strokes; exclude nearby red seals along the left margin.",
+      "bbox": [
+        0.06,
+        0.56,
+        0.42,
+        0.27
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "rounded boulder outlines with layered wash",
+        "dry-brush stipples and short dark texture dashes",
+        "thin bare tree trunks and forked branches",
+        "low shrub marks along the bank",
+        "curving ground contours leading toward the center"
+      ]
+    },
+    {
+      "name": "lower_center_village_roofs",
+      "description": "Isolate the lower-center village cluster of several long low buildings partly screened by trees, including visible walls, tiled roofs, and surrounding ground lines.",
+      "bbox": [
+        0.44,
+        0.7,
+        0.28,
+        0.13
+      ],
+      "role": "foreground village",
+      "must_preserve": [
+        "parallel roof ridges and eave lines",
+        "rectangular wall outlines in pale ink",
+        "overlapping roof geometry showing depth",
+        "nearby tree trunks crossing in front",
+        "light ground wash and small dark footing marks"
+      ]
+    },
+    {
+      "name": "right_foreground_tree_mound_pavilion",
+      "description": "Isolate the right foreground mound with large bare trees, root-like trunks, textured rocks, and the small pavilion at lower right; keep the tree-and-pavilion group separate from far-right seals and border.",
+      "bbox": [
+        0.64,
+        0.49,
+        0.33,
+        0.37
+      ],
+      "role": "foreground trees and pavilion",
+      "must_preserve": [
+        "thick dark tree trunks with forked branching structure",
+        "fine twig tips and leafless branch rhythm",
+        "rounded mound and rock wash texture",
+        "small pavilion roof with simple posts and eaves",
+        "dark base dots and brush accents around roots"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 15 NPM.jpg",
+  "created_at": "2026-09-03T20:14:50.803451+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

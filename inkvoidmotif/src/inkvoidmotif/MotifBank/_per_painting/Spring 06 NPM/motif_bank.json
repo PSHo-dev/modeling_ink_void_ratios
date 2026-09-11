@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Spring 06 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:17:53.741391+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_massif",
+      "description": "Isolate the large jagged mountain mass in the upper left, including the angular peak, layered cliff faces, blue-green mineral washes, diagonal contour strokes, and sparse small trees on ledges. Exclude nearby seals and calligraphy.",
+      "bbox": [
+        0.055,
+        0.087,
+        0.335,
+        0.205
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "sharp faceted peak geometry",
+        "blue-green wash accents along ridges",
+        "dry-brush diagonal rock texture",
+        "dark ink contour lines",
+        "tiny ledge trees and scrub marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "pine_ridge_distant_peak",
+      "description": "Isolate the mid-upper sloping ridge running from center toward the right with a line of thin pines, low rounded hills, and the pale distant mountain behind it. Include the atmospheric empty wash around the distant peak but not the inscription above.",
+      "bbox": [
+        0.395,
+        0.165,
+        0.455,
+        0.105
+      ],
+      "role": "distant ridge and mountain",
+      "must_preserve": [
+        "pale distant mountain silhouette",
+        "thin vertical pine trunks",
+        "small dark pine crowns",
+        "soft misty wash transitions",
+        "sloping ridge contour lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_pine_ridge_distant_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cliff_waterfall",
+      "description": "Isolate the tall central vertical cliff face with descending pale waterfall or ravine lines, striated rock planes, angular ledges, and small dark texture strokes. Include the base rocks directly attached to the cliff but exclude neighboring pavilion clusters.",
+      "bbox": [
+        0.305,
+        0.265,
+        0.335,
+        0.255
+      ],
+      "role": "central cliff and waterfall",
+      "must_preserve": [
+        "long vertical waterfall streaks",
+        "layered cliff planes",
+        "dry-brush rock hatching",
+        "blue-green mineral tint",
+        "dark ledge outlines and base rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_cliff_waterfall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_tree_grove",
+      "description": "Isolate the lower central grove of mixed trees rising from a rocky mound: a tall pine-like tree with horizontal foliage, drooping willow-like branches, smaller clustered trunks, and surrounding rocks. Exclude the separate hut on the right as much as possible.",
+      "bbox": [
+        0.315,
+        0.705,
+        0.37,
+        0.19
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "arching willow branch linework",
+        "tall pine trunk and flat needle masses",
+        "clustered pale trunks",
+        "dark ink foliage dabs",
+        "rock mound contours and root-like strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_hut_rocks",
+      "description": "Isolate the lower-right hut and rocky hillside cluster, including the small roof structure, slanted rock planes, vertical dark trees, and rounded foreground rocks. Avoid the central tree grove except where rocks touch the hut slope.",
+      "bbox": [
+        0.68,
+        0.79,
+        0.3,
+        0.17
+      ],
+      "role": "foreground pavilion and rocks",
+      "must_preserve": [
+        "angular hut roof geometry",
+        "dark roof-edge ink lines",
+        "layered sloping rock texture",
+        "thin vertical tree silhouettes",
+        "blue-green wash on rock planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_hut_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

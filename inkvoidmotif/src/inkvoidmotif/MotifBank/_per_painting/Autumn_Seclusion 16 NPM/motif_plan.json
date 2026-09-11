@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with monumental ink-wash mountains, misty ravines, clustered pavilions, dense trees, scholars, a river boat, and foreground rocks; calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_mountain_massif",
+      "description": "Isolate the dominant central rocky mountain rising through the upper middle, including the dark tree-covered summit, vertical crags, pale washed rock faces, scattered shrubs, and the mist-softened lower edges, but excluding the calligraphy above and lower village roofs.",
+      "bbox": [
+        0.08,
+        0.14,
+        0.66,
+        0.36
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "dense dark ink foliage dots along the summit ridge",
+        "vertical cun texture strokes on rock faces",
+        "pale tan wash transitions on exposed cliffs",
+        "irregular ravine creases and black contour lines",
+        "soft mist fading at the mountain base"
+      ]
+    },
+    {
+      "name": "right_gorge_cliff",
+      "description": "Isolate the tall right-side gorge wall with its overhanging wooded ledge, steep pale cliff face, dark crevice, shrubs, and descending narrow ravine beside the waterway, excluding the small village roofs and boat below.",
+      "bbox": [
+        0.63,
+        0.38,
+        0.35,
+        0.38
+      ],
+      "role": "gorge cliff",
+      "must_preserve": [
+        "arched dark cliff overhang",
+        "dot-leaf shrubs clinging to ledges",
+        "long vertical ink cracks down the pale rock",
+        "layered wash shadows in the ravine",
+        "mist-softened cliff edges"
+      ]
+    },
+    {
+      "name": "midleft_hamlet_roofs",
+      "description": "Isolate the small cluster of tiled buildings nestled in the central-left valley, with layered roofs, walls, surrounding low trees, and the enclosing mist and rocky slopes immediately around the houses.",
+      "bbox": [
+        0.2,
+        0.48,
+        0.3,
+        0.11
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "thin ruled roof geometry",
+        "red-brown roof and foliage accents",
+        "fine wall and railing lines",
+        "trees partially obscuring the buildings",
+        "hazy valley wash around the hamlet"
+      ]
+    },
+    {
+      "name": "lower_left_pavilion_scholars",
+      "description": "Isolate the foreground pavilion on the lower left with scholars seated inside, the thatched or tiled roof, railings, adjacent boulders, and the small cascading stream below it.",
+      "bbox": [
+        0.04,
+        0.78,
+        0.36,
+        0.15
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angular pavilion roof ribs and eaves",
+        "tiny seated scholar figures around a table",
+        "delicate railing and post linework",
+        "dark foreground rock texture",
+        "white stepped waterfall strokes beneath the pavilion"
+      ]
+    },
+    {
+      "name": "central_pine_grove",
+      "description": "Isolate the dense stand of tall pines and slender trees in the lower center, including trunks, dark needle clusters, bamboo-like foliage, and roots growing over the rocky foreground mound.",
+      "bbox": [
+        0.24,
+        0.59,
+        0.39,
+        0.29
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "individual dark pine needle sprays",
+        "slender vertical trunks with ink outlines",
+        "overlapping bamboo-like leaf clusters",
+        "root lines wrapping around rocks",
+        "dark foliage dots at the base"
+      ]
+    },
+    {
+      "name": "right_riverside_village",
+      "description": "Isolate the small stacked riverside buildings in the right-middle ravine, including the tiered roofs, posts, terraces, and the narrow misty water or path beside them, but not the separate boat farther below.",
+      "bbox": [
+        0.71,
+        0.62,
+        0.18,
+        0.1
+      ],
+      "role": "riverside village cluster",
+      "must_preserve": [
+        "two-tier roof geometry",
+        "fine vertical support posts",
+        "pale wall washes",
+        "thin terrace and bank lines",
+        "mist separating the buildings from the cliffs"
+      ]
+    },
+    {
+      "name": "scholar_boat_on_river",
+      "description": "Isolate the small boat on the lower-right river with the seated figure, low hull, oar or pole details, surrounding calm water, and nearby shoreline reeds and rocks only where they frame the boat.",
+      "bbox": [
+        0.72,
+        0.76,
+        0.23,
+        0.08
+      ],
+      "role": "boat on water",
+      "must_preserve": [
+        "tiny seated boat passenger",
+        "slender black boat outline",
+        "small oar or pole strokes",
+        "faint horizontal water lines",
+        "reeds and low bank rocks around the inlet"
+      ]
+    },
+    {
+      "name": "foreground_scholars_path",
+      "description": "Isolate the group of three scholars or attendants walking on the lower-right foreground path beside rocks, grasses, and shrubs, excluding the boat and distant buildings.",
+      "bbox": [
+        0.63,
+        0.9,
+        0.31,
+        0.08
+      ],
+      "role": "figures on path",
+      "must_preserve": [
+        "three small robed figures with distinct poses",
+        "fine facial and sleeve linework",
+        "subtle robe color accents",
+        "path edge ink lines",
+        "surrounding grasses, stones, and dark shrub dots"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 16 NPM.jpg",
+  "created_at": "2026-09-03T19:54:13.380998+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

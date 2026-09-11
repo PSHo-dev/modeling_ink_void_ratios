@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 20 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:16:17.954455+00:00",
+  "motifs": [
+    {
+      "name": "left_craggy_peak_group",
+      "description": "Tall left-side mountain cluster with steep rounded summits and descending ridges, isolated from the blank sky and lower cliff face.",
+      "bbox": [
+        0.0,
+        0.135,
+        0.36,
+        0.245
+      ],
+      "role": "mountain",
+      "must_preserve": [
+        "fine dry contour lines following the mountain folds",
+        "arched ridge strokes and layered wrinkle texture",
+        "pale ink wash at the rear left peak silhouette",
+        "small dark tree and brush accents along the ridgelines",
+        "soft misty fading at the lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_craggy_peak_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_misty_back_peaks",
+      "description": "Distant central background peaks seen through mist between the left and right mountains.",
+      "bbox": [
+        0.35,
+        0.185,
+        0.34,
+        0.16
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft grey wash silhouettes of far peaks",
+        "blurred mist edges with no hard outlines in the upper forms",
+        "light dry contour marks on the nearer central ridge",
+        "open negative space separating the peaks",
+        "subtle tonal transition from pale wash to bare paper"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_misty_back_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rounded_mountain",
+      "description": "Rounded upper-right mountain mass with sloping shoulders and sparse textural strokes, separated from the village and water below.",
+      "bbox": [
+        0.63,
+        0.21,
+        0.35,
+        0.16
+      ],
+      "role": "mountain",
+      "must_preserve": [
+        "curved contour lines wrapping the dome-like summit",
+        "short broken texture strokes on the upper ridge",
+        "pale wash and open mist at the base",
+        "thin descending slope lines toward the center valley",
+        "small dark accents suggesting shrubs or trees on the crest"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_rounded_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cliff_massif",
+      "description": "Large central rocky cliff platform with vertical faces, broken ledges, and a narrow ravine descending from the mountains.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.63,
+        0.245
+      ],
+      "role": "foreground cliff and ravine",
+      "must_preserve": [
+        "vertical cliff striations and long dry ink cracks",
+        "blocky rock ledges with angular outlines",
+        "dark crevice accents in the central ravine",
+        "rounded top ridges with layered wrinkle strokes",
+        "small shrubs and sparse tree marks attached to cliff edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winding_river_islands",
+      "description": "Broad winding water surface through the middle and lower painting, with curving banks, rocky islets, and sparse riverside vegetation.",
+      "bbox": [
+        0.0,
+        0.51,
+        0.84,
+        0.31
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "large unpainted water areas bounded by thin ink shorelines",
+        "curving S-shaped river course receding downward",
+        "low rocky islets with dry texture strokes",
+        "small reed and grass marks along the banks",
+        "scattered delicate tree clusters rising from islands and peninsulas"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_winding_river_islands.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_foreground_rocks_trees",
+      "description": "Foreground rock cluster at the lower right with rounded boulders, shoreline ledges, and tall sparse trees at the edge.",
+      "bbox": [
+        0.56,
+        0.8,
+        0.39,
+        0.13
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "rounded boulder contours with layered wrinkle texture",
+        "dark crevice marks at rock bases",
+        "thin bare tree trunks with small branching twigs",
+        "small leafy shrub accents near the rocks",
+        "foreground shoreline lines anchoring the cluster"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_foreground_rocks_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

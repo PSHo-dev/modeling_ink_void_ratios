@@ -1,0 +1,185 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 13 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:44:24.165449+00:00",
+  "motifs": [
+    {
+      "name": "distant_lake_mountains",
+      "description": "Layered distant mountain range and low shoreline at the upper left, including the hazy lake edge and pale receding hills behind the nearer green-brown slopes.",
+      "bbox": [
+        0.0,
+        0.18,
+        0.58,
+        0.13
+      ],
+      "role": "distant mountain and shoreline",
+      "must_preserve": [
+        "soft blue-gray and ochre washes on receding peaks",
+        "thin contour lines defining rounded hill profiles",
+        "horizontal misty waterline transitions",
+        "dark clustered tree strokes on the nearer hillside",
+        "dry-brush texture on slopes and coves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_lake_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "two_sailboats_open_water",
+      "description": "Two small sailing boats on the open pale water below the distant hills, isolated with their masts, angled sails, slim hulls, and faint wake lines.",
+      "bbox": [
+        0.035,
+        0.35,
+        0.2,
+        0.045
+      ],
+      "role": "distant boats on water",
+      "must_preserve": [
+        "delicate ink hull outlines",
+        "tan wash inside the triangular sails",
+        "fine mast and rigging lines",
+        "minimal ripples and wake strokes",
+        "large surrounding blank-water spacing immediately around the boats"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_two_sailboats_open_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_bank_hamlet_junks",
+      "description": "Small riverside hamlet and boat landing on the middle-left bank, with cottages, reeds, moored sail junks, low footbridge elements, and tiny figures along the water edge.",
+      "bbox": [
+        0.0,
+        0.465,
+        0.35,
+        0.13
+      ],
+      "role": "riverside village and boat landing",
+      "must_preserve": [
+        "low thatched roof geometry",
+        "clustered reed and shrub linework along the bank",
+        "dark moored hulls and upright sails",
+        "tiny figure strokes on the landing and bridge",
+        "broken horizontal water-edge texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_bank_hamlet_junks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_hillside_village",
+      "description": "Village cluster tucked into trees on the right hillside, including pale roof planes, small house fronts, fenced or walled edges, a gate-like opening, and surrounding shrubs.",
+      "bbox": [
+        0.68,
+        0.43,
+        0.32,
+        0.17
+      ],
+      "role": "hillside village cluster",
+      "must_preserve": [
+        "overlapping angular roof geometry",
+        "light tan roof washes",
+        "dark window and doorway accents",
+        "fine stippled foliage around buildings",
+        "vertical fence and gate linework",
+        "subtle slope contours beneath the houses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_hillside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "willow_avenue_canal",
+      "description": "Long avenue of leafing trees following the canal and path through the middle of the painting, with many slender trunks, branching crowns, and stippled spring foliage.",
+      "bbox": [
+        0.36,
+        0.45,
+        0.5,
+        0.22
+      ],
+      "role": "middle-ground tree avenue and canal edge",
+      "must_preserve": [
+        "repeated vertical tree trunks",
+        "dense fine branch networks",
+        "small green stipple leaves",
+        "dark root and bank strokes at the water edge",
+        "soft tan-green wash under the trees",
+        "misty gaps between trunks and water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_willow_avenue_canal.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bridge_scholars",
+      "description": "Small arched stone bridge over the canal with two standing scholar-like figures and a child or attendant on the crest, plus the bridge steps and reflected opening.",
+      "bbox": [
+        0.53,
+        0.67,
+        0.2,
+        0.085
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "arched bridge curve and block-like stone outlines",
+        "short step marks on both approaches",
+        "dark ink clothing outlines on the figures",
+        "muted blue, gray, and tan color accents",
+        "vertical reflection lines under the bridge arch",
+        "delicate hand and staff-like figure details"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_arched_bridge_scholars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_grove_rider",
+      "description": "Large foreground grove on the lower left with gnarled trees, a mounted rider, attendants, and seated figures beneath the trees near the water bank.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.47,
+        0.29
+      ],
+      "role": "foreground grove with figures",
+      "must_preserve": [
+        "thick twisting trunks with dark bark accents",
+        "dense twig and leaf-dot brushwork",
+        "white horse body with fine tack lines",
+        "rider robes and attendant poses",
+        "seated figures at the tree base",
+        "small dark rocks and root textures",
+        "yellow-green grassy mound washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_grove_rider.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "terraced_paddies_farmers_boat",
+      "description": "Right and lower foreground network of terraced rice paddies and waterways, including field ridges, planted rows, working farmers, baskets, tools, and a covered skiff on the canal.",
+      "bbox": [
+        0.43,
+        0.62,
+        0.57,
+        0.36
+      ],
+      "role": "foreground agricultural fields and canal",
+      "must_preserve": [
+        "curving raised paddy embankments",
+        "tiny repeated rice-shoot marks",
+        "farmers’ bent and walking postures",
+        "shoulder poles, baskets, and long-handled tools",
+        "covered skiff hull and woven canopy texture",
+        "pale water washes between fields",
+        "thin contour lines defining field terraces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_terraced_paddies_farmers_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "source_summary": "Ink-and-wash Chinese mountain landscape with misty distant peaks, jagged cliffs, dense dotted foliage, pines, rocky slopes, a lower pavilion/bridge complex, winding foreground walkway, and right-side pine grove. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the pale gray background mountain silhouettes rising behind the left and middle landscape: layered pointed peaks, soft ridge forms, and atmospheric wash fading into open mist. Exclude the calligraphy at far left and the darker foreground trees and rocks.",
+      "bbox": [
+        0.13,
+        0.07,
+        0.36,
+        0.44
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft diluted ink wash gradients",
+        "blurred mist edges around peak silhouettes",
+        "tall central spire-like peak",
+        "layered receding ridge shapes",
+        "minimal pale contour strokes"
+      ]
+    },
+    {
+      "name": "left_foreground_grove_rocks",
+      "description": "Isolate the dense grove on the left foreground hillside with clustered trunks, dotted leaf masses, pine-like fronds, dark shrubs, and broken rocks at the base. Include the visible slope line and rocky ledges directly supporting the trees, but not the lower pavilion roof.",
+      "bbox": [
+        0.08,
+        0.35,
+        0.34,
+        0.47
+      ],
+      "role": "foreground wooded hillside",
+      "must_preserve": [
+        "dark rounded foliage dots",
+        "thin vertical trunk lines",
+        "arched pine-needle clusters",
+        "dry-brush rock outlines",
+        "ink wash shadows at tree bases",
+        "scattered black texture dots on stones"
+      ]
+    },
+    {
+      "name": "upper_center_overhanging_cliff",
+      "description": "Isolate the suspended rocky cliff band across the upper center, including jagged contour lines, hanging vegetation, dotted shrubs, and claw-like pine needles descending from the ledge. Exclude the distant peaks below and the large right cliff mass.",
+      "bbox": [
+        0.3,
+        0.0,
+        0.31,
+        0.34
+      ],
+      "role": "overhanging cliff and shrubs",
+      "must_preserve": [
+        "broken angular rock contours",
+        "dry-brush gray wash on stone faces",
+        "black dot shrub clusters",
+        "curving hanging pine needles",
+        "irregular cliff underside",
+        "light mist gaps between rock strokes"
+      ]
+    },
+    {
+      "name": "central_dense_wooded_cliff",
+      "description": "Isolate the central midground mass of dark trees and rocky terraces: a thick canopy of black ink foliage, pale trunks, stacked boulders, and ferns or pines along the ledges. Keep only this wooded cliff cluster and its immediate rock base.",
+      "bbox": [
+        0.42,
+        0.2,
+        0.3,
+        0.44
+      ],
+      "role": "central wooded cliff",
+      "must_preserve": [
+        "heavy black ink canopy clusters",
+        "layered gray wash behind foliage",
+        "pale branching trunks left unpainted",
+        "stacked block-like rock ledges",
+        "curved pine-needle sprays",
+        "dark dotted moss texture"
+      ]
+    },
+    {
+      "name": "right_high_cliff_waterfall",
+      "description": "Isolate the tall right-side cliff with the pale vertical waterfall or stream-like striations, surrounding terraced rock faces, top shrubs, and sparse vegetation clinging to ledges. Exclude the lower right foreground pine grove and bottom bridge.",
+      "bbox": [
+        0.62,
+        0.0,
+        0.27,
+        0.65
+      ],
+      "role": "right cliff and waterfall",
+      "must_preserve": [
+        "long pale vertical water lines",
+        "thin parallel cliff striations",
+        "stepped horizontal rock ledges",
+        "dark shrub dots along edges",
+        "arched grass and pine strokes on ledges",
+        "soft wash indicating mist around the fall"
+      ]
+    },
+    {
+      "name": "lower_center_pavilion_scholar",
+      "description": "Isolate the lower center riverside pavilion or covered bridge section with slanted roof plane, vertical railings, windows, posts, and the small seated scholar figure inside. Include the immediate supporting bank beneath it, but not the separate zigzag walkway to the right.",
+      "bbox": [
+        0.31,
+        0.62,
+        0.25,
+        0.31
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "slanted roof geometry with fine parallel hatch lines",
+        "rectangular railing and window divisions",
+        "small seated scholar silhouette",
+        "thin architectural ink outlines",
+        "vertical post strokes",
+        "light gray wash under the structure"
+      ]
+    },
+    {
+      "name": "lower_right_zigzag_bridge",
+      "description": "Isolate the winding lower-right bridge or walkway section crossing the foreground: angled platforms, rail posts, plank-like hatching, and the curve as it turns around rocks. Exclude the center pavilion and the right pine grove except where posts directly attach to the bridge.",
+      "bbox": [
+        0.52,
+        0.73,
+        0.36,
+        0.22
+      ],
+      "role": "foreground bridge or walkway",
+      "must_preserve": [
+        "zigzag path geometry",
+        "parallel plank hatching",
+        "upright rail-post strokes",
+        "curving bank outlines below the walkway",
+        "pale gray wash on bridge surfaces",
+        "broken ink accents at corners and supports"
+      ]
+    },
+    {
+      "name": "right_foreground_pine_grove_path",
+      "description": "Isolate the right foreground grove beside the path: tall pines with layered needle fans, dark tree masses, pale trunks, scattered shrubs, rocks, and the small winding ground path beneath them. Exclude the red seal in the lower-right corner.",
+      "bbox": [
+        0.74,
+        0.55,
+        0.23,
+        0.38
+      ],
+      "role": "foreground pine grove and path",
+      "must_preserve": [
+        "stacked pine-needle fan clusters",
+        "dark ink foliage masses",
+        "slender pale trunks and branches",
+        "rock outlines at tree bases",
+        "dotted moss texture",
+        "faint winding path strokes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 10 Cleveland.jpg",
+  "created_at": "2026-09-03T20:07:54.862855+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

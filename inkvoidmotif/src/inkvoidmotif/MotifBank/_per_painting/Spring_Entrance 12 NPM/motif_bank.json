@@ -1,0 +1,181 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 12 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:11:51.571019+00:00",
+  "motifs": [
+    {
+      "name": "faint_left_background_peak",
+      "description": "Isolate the pale, mist-softened vertical mountain silhouette behind the main peak on the upper left, including only its translucent ink wash and blurred summit contour.",
+      "bbox": [
+        0.17,
+        0.14,
+        0.18,
+        0.26
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "very light gray wash",
+        "soft feathered mountain edge",
+        "nearly blank mist-filled interior",
+        "subtle darker base fading into surrounding haze"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_faint_left_background_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "dark_central_misty_peak",
+      "description": "Isolate the dominant dark central peak with a rounded summit, steep sides, and diagonal pale mist band cutting across its face.",
+      "bbox": [
+        0.25,
+        0.2,
+        0.34,
+        0.28
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "dense charcoal ink crown",
+        "dry-brush stippled texture along both ridges",
+        "diagonal reserve of pale mist across the slope",
+        "graduated wash fading at the lower foot",
+        "ragged ink edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_dark_central_misty_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_overlapping_mountain_chain",
+      "description": "Isolate the overlapping smaller peaks and sloping ridges to the right of the central mountain, including the saddle, dark crests, and receding misty base.",
+      "bbox": [
+        0.45,
+        0.31,
+        0.45,
+        0.18
+      ],
+      "role": "distant mountain chain",
+      "must_preserve": [
+        "layered peak silhouettes",
+        "dark dry-brush crest marks",
+        "soft gray interior washes",
+        "mist-softened lower edges",
+        "rightward tapering ridge shape"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_overlapping_mountain_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_riverside_hamlet_trees",
+      "description": "Isolate the left foreground riverside hamlet: two low houses with slanted roofs tucked among tall trees and bamboo-like trunks beside the shore.",
+      "bbox": [
+        0.0,
+        0.6,
+        0.31,
+        0.15
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "thin roof line geometry",
+        "small wall outlines",
+        "clustered vertical tree trunks",
+        "loose bamboo-like leaf strokes",
+        "dark ink mass at far-left foliage",
+        "pale shoreline wash beneath the buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_riverside_hamlet_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_lake_tree_belt",
+      "description": "Isolate the midground lake edge with a horizontal belt of pale trees, small wooded clumps, low banks, and calm water openings behind the village.",
+      "bbox": [
+        0.2,
+        0.59,
+        0.62,
+        0.13
+      ],
+      "role": "midground water and trees",
+      "must_preserve": [
+        "soft horizontal water washes",
+        "pale receding tree silhouettes",
+        "thin vertical trunks",
+        "small dark foliage crowns",
+        "low island-like bank shapes",
+        "misty gaps between tree groups"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_middle_lake_tree_belt.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "narrow_stream_footbridge",
+      "description": "Isolate the small narrow footbridge spanning the stream in the lower middle-left, with tiny vertical supports and adjacent pale banks.",
+      "bbox": [
+        0.13,
+        0.72,
+        0.34,
+        0.05
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "single thin horizontal bridge line",
+        "tiny dark support strokes",
+        "small upright marks at the crossing",
+        "pale water reserve around the bridge",
+        "soft muddy bank washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_narrow_stream_footbridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pine_grove_pavilion",
+      "description": "Isolate the right foreground grove and pavilion: dense dark pines leaning over a small roofed structure on the bank, with adjacent pale tree trunks and hillside wash.",
+      "bbox": [
+        0.43,
+        0.65,
+        0.48,
+        0.18
+      ],
+      "role": "foreground pavilion and pines",
+      "must_preserve": [
+        "dark layered pine-needle clusters",
+        "slanted clustered trunks",
+        "small pavilion roof triangle and wall lines",
+        "contrast between dark grove and pale background trees",
+        "soft gray hillside wash",
+        "dry-brush foliage edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_pine_grove_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_water_rocks_shore",
+      "description": "Isolate the lower foreground water surface and shoreline rocks below the right grove, including horizontal ripples, low gray banks, and rounded stones.",
+      "bbox": [
+        0.3,
+        0.8,
+        0.58,
+        0.1
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "thin horizontal ripple strokes",
+        "soft pale water wash",
+        "rounded ink-washed rocks",
+        "low shoreline contour",
+        "dry-brush bank texture",
+        "subtle dark accents at rock bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_water_rocks_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

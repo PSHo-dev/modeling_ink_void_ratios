@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-light-color Chinese landscape with layered misty mountains, steep striated cliffs, dense groves, secluded walled pavilions with scholar figures, rocky ravines, river water, and a small boat. Calligraphy, seals, borders, and paper tone are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the pale background mountain range in the upper center: soft distant peaks and layered ridgelines emerging through mist behind the darker foreground mountains.",
+      "bbox": [
+        0.27,
+        0.1,
+        0.58,
+        0.14
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint ink-wash silhouettes of rear peaks",
+        "soft mist edges between peaks",
+        "light dry-brush contour lines on the nearer ridges",
+        "subtle gray-green wash transitions",
+        "small dark tree dots along ridge crests"
+      ]
+    },
+    {
+      "name": "upper_right_waterfall_cliff",
+      "description": "Isolate the tall upper-right cliff mass with rounded summit, vertical striated rock face, dark vegetation clusters, and the narrow waterfall descending along the right side of the cliff.",
+      "bbox": [
+        0.43,
+        0.16,
+        0.48,
+        0.27
+      ],
+      "role": "waterfall cliff",
+      "must_preserve": [
+        "arched hemp-fiber rock strokes following the cliff curvature",
+        "dark stippled moss and shrub dots on ledges",
+        "thin vertical waterfall line and pale wash beside it",
+        "soft misty base where the cliff fades",
+        "layered ink density from crown to cliff face"
+      ]
+    },
+    {
+      "name": "left_wooded_cliff_slope",
+      "description": "Isolate the broad left-side middle cliff and sloping wooded ridge, including the rounded rock face, treeline along the crest, and scattered leafless and leafy trees on the slope.",
+      "bbox": [
+        0.0,
+        0.18,
+        0.45,
+        0.32
+      ],
+      "role": "wooded hillside",
+      "must_preserve": [
+        "curving parallel rock texture strokes",
+        "dark dotted vegetation along the ridge edge",
+        "thin angular branch linework",
+        "light wash on rounded cliff planes",
+        "irregular shrub silhouettes at the left and upper crest"
+      ]
+    },
+    {
+      "name": "central_rocky_ravine",
+      "description": "Isolate the central ravine and stepped rock corridor between the large cliffs, including the pale rocky path, jagged ledges, narrow cleft, and sparse shrubs clinging to the sides.",
+      "bbox": [
+        0.36,
+        0.27,
+        0.28,
+        0.25
+      ],
+      "role": "rocky ravine",
+      "must_preserve": [
+        "broken angular outline of the stacked rock ledges",
+        "dry-brush cracks and pale wash on stone planes",
+        "dark shrub dots tracing the ravine edge",
+        "mist-softened negative space in the cleft",
+        "vertical transition from upper passage to lower rocks"
+      ]
+    },
+    {
+      "name": "dense_bamboo_pine_grove",
+      "description": "Isolate the dense central-lower grove of bamboo, pine, and mixed trees surrounding the settlement, excluding the building walls and roofs where possible while keeping foliage that overlaps naturally.",
+      "bbox": [
+        0.03,
+        0.39,
+        0.63,
+        0.33
+      ],
+      "role": "forest grove",
+      "must_preserve": [
+        "fine bamboo leaf clusters drawn with repeated pointed strokes",
+        "vertical trunks with knotted bark marks",
+        "dark pine needle fans and layered foliage clumps",
+        "leafless branch networks interlaced among leafy trees",
+        "ink variation between pale background trees and dark foreground foliage"
+      ]
+    },
+    {
+      "name": "walled_pavilion_compound",
+      "description": "Isolate the secluded village/pavilion compound in the lower middle-left: stone walls, tiled roofs, open pavilion, courtyard rooms, and seated scholar figures partially framed by trees.",
+      "bbox": [
+        0.02,
+        0.58,
+        0.58,
+        0.19
+      ],
+      "role": "pavilion village with figures",
+      "must_preserve": [
+        "precise roof geometry with dark tile-line hatching",
+        "stone wall pattern made of irregular polygon lines",
+        "open pavilion posts and railings",
+        "small seated scholar figures and table gestures",
+        "courtyard layering partly obscured by trunks and foliage"
+      ]
+    },
+    {
+      "name": "right_curving_cliff_face",
+      "description": "Isolate the monumental right-side rounded cliff face rising beside the village, including its dark mossy rim, sweeping vertical striations, lower rock ledges, and adjoining small shrub-covered slope.",
+      "bbox": [
+        0.62,
+        0.35,
+        0.37,
+        0.42
+      ],
+      "role": "foreground cliff",
+      "must_preserve": [
+        "long sweeping contour strokes following the cliff bend",
+        "dense dark moss dots along the ridge and shoulder",
+        "pale ink wash gradients across the rock face",
+        "small blocky ledges at the cliff base",
+        "contrast between massive smooth face and rough shrub patches"
+      ]
+    },
+    {
+      "name": "foreground_boat_on_river",
+      "description": "Isolate the small boat on the lower river with two figures, low canopy, oar/boat details, and the surrounding rippled water immediately around it.",
+      "bbox": [
+        0.53,
+        0.82,
+        0.34,
+        0.08
+      ],
+      "role": "boat on water",
+      "must_preserve": [
+        "slender boat hull linework",
+        "two small human figures seated or standing in the boat",
+        "rectangular low canopy with dark roof wash",
+        "fine repeated water-ripple strokes around the hull",
+        "subtle scale relationship between boat and open river surface"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 07 NPM.jpg",
+  "created_at": "2026-08-05T05:32:22.867888+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

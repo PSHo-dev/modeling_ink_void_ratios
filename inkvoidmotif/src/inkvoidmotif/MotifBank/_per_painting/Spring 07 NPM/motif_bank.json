@@ -1,0 +1,184 @@
+{
+  "source": "../../../../../../Input_Images/Spring 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-06-25T00:19:42.642364+00:00",
+  "motifs": [
+    {
+      "name": "upper_sloping_cliff",
+      "description": "Isolate the tall slanting cliff face at the upper left, including its pale ochre-green washes, dark ink contour ridges, sparse dotted shrubs, and the diagonal rock planes descending into mist. Exclude any red seals near the left margin.",
+      "bbox": [
+        0.03,
+        0.012,
+        0.22,
+        0.35
+      ],
+      "role": "upper cliff backdrop",
+      "must_preserve": [
+        "broad translucent tan and green wash gradients",
+        "angular ink contour lines along the cliff edge",
+        "soft dry-brush rock texture",
+        "small black dotted foliage clusters on the slope",
+        "mist-softened lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_sloping_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_upper_rock_mass",
+      "description": "Isolate the large arched mountain form across the upper center-left, with its curved green rock face, darker outer ridges, dense dotted foliage, and clustered shrubs along the crest and lower edges.",
+      "bbox": [
+        0.12,
+        0.07,
+        0.47,
+        0.28
+      ],
+      "role": "dominant mountain arch",
+      "must_preserve": [
+        "sweeping arched silhouette",
+        "dark ink ridge lines following the curve",
+        "pale green interior wash",
+        "granular gray-green shrub washes",
+        "black circular dot foliage accents",
+        "soft transition into surrounding mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_arched_upper_rock_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_crag_shrub_cliff",
+      "description": "Isolate the vertical crag rising near the center-right below the main arch, including the pointed rock lip, pale green cliff wash, dark creases, and shrubs gathered at its base and top.",
+      "bbox": [
+        0.405,
+        0.255,
+        0.215,
+        0.225
+      ],
+      "role": "midground cliff spur",
+      "must_preserve": [
+        "sharp projecting crag outline",
+        "thin ink cracks and vertical texture strokes",
+        "pale green mineral wash",
+        "dark dotted shrub clusters",
+        "soft gray-green vegetation at the base",
+        "misty lower boundary"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_crag_shrub_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_distant_mountains",
+      "description": "Isolate the low distant mountain range on the right side, including the central dark peak, softer neighboring ridges, blue-green far peaks, and the horizontal mist band separating them from the foreground.",
+      "bbox": [
+        0.56,
+        0.285,
+        0.43,
+        0.095
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "soft-edged central peak silhouette",
+        "faint blue-green far ridges",
+        "thin horizontal mist wash",
+        "subtle ink gradients on slopes",
+        "blurred atmospheric edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_misty_distant_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_rocky_shore_trees",
+      "description": "Isolate the mid-right shoreline cluster with rounded green rocks, small dark pebble marks, low shrubs, and several wiry leafless or lightly blossoming trees leaning over the water.",
+      "bbox": [
+        0.525,
+        0.385,
+        0.455,
+        0.145
+      ],
+      "role": "midground rocky shore",
+      "must_preserve": [
+        "rounded pale green rock washes",
+        "dark ink outlines and crevice strokes",
+        "black dotted moss or foliage accents",
+        "twisting branch linework",
+        "delicate pale reddish blossom accents",
+        "thin horizontal water lines around the shore"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_mid_right_rocky_shore_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twin_pines",
+      "description": "Isolate the large foreground pine group with two tall pale trunks, branching limbs, needle clusters, and surrounding low gnarled trees at the base, while excluding unrelated distant water and boat areas.",
+      "bbox": [
+        0.13,
+        0.365,
+        0.43,
+        0.46
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "two vertical trunks with mottled bark texture",
+        "dark knots and hollow marks in the trunks",
+        "angular branching structure",
+        "fan-like black pine needle clusters",
+        "thin dry-brush branch lines",
+        "small base grasses and root strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_twin_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "scholar_boat_with_canopy",
+      "description": "Isolate the small boat on the right middle-lower water, including the seated scholar figure, long narrow hull, covered woven canopy, steering line, and surrounding minimal water ripples immediately touching the boat.",
+      "bbox": [
+        0.705,
+        0.655,
+        0.285,
+        0.075
+      ],
+      "role": "boat with figure",
+      "must_preserve": [
+        "thin ink hull outline",
+        "seated robed scholar silhouette",
+        "small dark-blue headwear accent",
+        "arched woven canopy geometry",
+        "parallel rib lines on the canopy",
+        "short horizontal water ripple strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_scholar_boat_with_canopy.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_green_rock_bank",
+      "description": "Isolate the long foreground rock bank at the bottom, including connected pale green boulders, ochre shadows, ink contours, mossy dot clusters, and the adjacent water-edge ripple lines. Exclude any inscription or seal at the lower left.",
+      "bbox": [
+        0.01,
+        0.835,
+        0.755,
+        0.125
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "linked irregular boulder silhouettes",
+        "pale green and tan wash texture",
+        "dark ink contour and crack lines",
+        "black dotted moss clusters",
+        "dry-brush shadow strokes",
+        "horizontal water lines along the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_green_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

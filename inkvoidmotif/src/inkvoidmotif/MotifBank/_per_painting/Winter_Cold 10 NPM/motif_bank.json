@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T06:00:22.834988+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_snow_arch_peaks",
+      "description": "Large sweeping snow-covered mountain mass on the upper left, with two arched ridge bands, dark ink contour strokes, soft dry-brush shading along the slopes, dotted texture at ridge crests, and sparse leafless trees tucked into the left and lower ravines.",
+      "bbox": [
+        0.0,
+        0.12,
+        0.46,
+        0.34
+      ],
+      "role": "dominant mountain backdrop",
+      "must_preserve": [
+        "broad pale snow faces",
+        "dark curved ridge linework",
+        "dry-brush shadow washes along inner slopes",
+        "small dotted rock texture near ridge tops",
+        "bare twig-like tree strokes in ravines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_snow_arch_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_distant_peak_chain",
+      "description": "Narrow chain of distant rounded snow peaks in the upper middle valley, partly veiled by mist, with small clustered bare trees and dark shrub strokes at the bases.",
+      "bbox": [
+        0.35,
+        0.23,
+        0.42,
+        0.21
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "soft mist-softened peak silhouettes",
+        "thin ink outlines on each peak",
+        "dark base washes",
+        "tiny bare tree clusters between peaks",
+        "subtle separation between overlapping hills"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_distant_peak_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_twin_snow_peaks",
+      "description": "Pair of tall pale snow peaks rising at the upper right edge, connected by a dark shaded valley saddle and sparse ink texture along the lower slopes.",
+      "bbox": [
+        0.76,
+        0.2,
+        0.24,
+        0.21
+      ],
+      "role": "distant side mountains",
+      "must_preserve": [
+        "sharp triangular peak outlines",
+        "light snow-wash interiors",
+        "dark dry-brush valley shading",
+        "soft transition into surrounding mist",
+        "minimal but distinct rock texture at bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_twin_snow_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_temple_pavilion_cluster",
+      "description": "Cluster of multi-tiered temple or pavilion roofs nestled among middle-height hills and leafless trees, including layered eaves, small wall lines, surrounding rounded snow mounds, and dense twig brushwork.",
+      "bbox": [
+        0.34,
+        0.36,
+        0.43,
+        0.13
+      ],
+      "role": "architectural village cluster",
+      "must_preserve": [
+        "stacked roof geometry with upturned eaves",
+        "fine architectural linework",
+        "small dark window and wall marks",
+        "surrounding bare tree trunks and branches",
+        "rounded snow-covered shrubs and hillocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_temple_pavilion_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_riverside_house_cluster",
+      "description": "Riverside houses and fenced compound in the lower right-middle, with long low thatched or tiled roofs, rectangular walls, small windows, a brush fence, and adjacent rocky bank.",
+      "bbox": [
+        0.49,
+        0.7,
+        0.4,
+        0.12
+      ],
+      "role": "foreground riverside village",
+      "must_preserve": [
+        "long horizontal roof planes",
+        "thin wall and window linework",
+        "fence strokes in front of buildings",
+        "irregular rock ledges along water edge",
+        "subtle roof wash texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_riverside_house_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_broad_water_and_shores",
+      "description": "Broad calm water surface occupying the lower right, framed by pale rocky banks and stepped shoreline ledges, with soft gray wash suggesting depth and misty reflection.",
+      "bbox": [
+        0.39,
+        0.63,
+        0.61,
+        0.33
+      ],
+      "role": "foreground water surface",
+      "must_preserve": [
+        "smooth gray water wash",
+        "curving shoreline contours",
+        "pale angular rock banks",
+        "stepped ledge shapes near the village",
+        "soft tonal gradient without added objects"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_broad_water_and_shores.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

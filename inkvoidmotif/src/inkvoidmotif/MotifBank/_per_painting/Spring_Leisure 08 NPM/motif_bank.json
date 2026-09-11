@@ -1,0 +1,121 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 08 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:33:32.043574+00:00",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_range",
+      "description": "Isolate the pale distant mountain range across the upper left and center-left, including soft triangular peaks, faint overlapping ridgelines, sparse dotted vegetation, and the light mist band that separates the ridges from the lower landscape.",
+      "bbox": [
+        0.0,
+        0.045,
+        0.37,
+        0.32
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ink contour lines of the peaks",
+        "pale blue-green washes",
+        "mist-softened ridge transitions",
+        "small clustered dot-texture vegetation on slopes",
+        "faint receding peaks in the central haze"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_misty_mountain_range.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_island_hillside",
+      "description": "Isolate the low rounded island hillside in the lower left lake, including the sloping shoreline, small rocky islets, sparse dotted shrubs, and light green-brown wash texture.",
+      "bbox": [
+        0.0,
+        0.36,
+        0.33,
+        0.31
+      ],
+      "role": "foreground hill island",
+      "must_preserve": [
+        "dark ink shoreline contour",
+        "rounded hill profile",
+        "scattered blue-green shrub dots",
+        "dry-brush slope texture",
+        "small rocks and islets at the water edge",
+        "thin pale wash defining the island form"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_lower_left_island_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_grand_mountain_mass",
+      "description": "Isolate the large rolling mountain mass on the upper right, including its high rounded summit, layered ridges, rocky crown, dotted vegetation, and greenish slope washes.",
+      "bbox": [
+        0.548,
+        0.035,
+        0.422,
+        0.43
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "strong upper ridge contour",
+        "dark rocky summit texture",
+        "dense dot clusters on ridges",
+        "long diagonal slope strokes",
+        "subtle green and tan washes",
+        "misty lower edge where the mountain descends toward the shore"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_grand_mountain_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_passenger_boat",
+      "description": "Isolate the larger covered passenger boat on the open lake, with its long hull, roof canopy, seated figures, oar lines, and subtle reddish interior accents.",
+      "bbox": [
+        0.486,
+        0.655,
+        0.144,
+        0.095
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "long narrow hull outline",
+        "rectangular canopy frame",
+        "tiny seated passenger figures",
+        "fine railing and cabin linework",
+        "stern and bow oar strokes",
+        "muted red-brown color accents inside the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_passenger_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_willows_bridge_bank",
+      "description": "Isolate the foreground right bank ensemble, including the large drooping willow trees, leafless shrubs, curving path, arched stone bridge, small walking figure, and dense dark foliage mass at the far right.",
+      "bbox": [
+        0.462,
+        0.535,
+        0.538,
+        0.465
+      ],
+      "role": "foreground",
+      "must_preserve": [
+        "long trailing willow fronds",
+        "dark twisting willow trunks and branches",
+        "leafless shrub calligraphic strokes",
+        "curving shoreline and path lines",
+        "arched bridge geometry and parapet strokes",
+        "tiny walking figure on the path",
+        "dense stippled dark foliage at the right edge",
+        "green-brown bank washes and rock texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_willows_bridge_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

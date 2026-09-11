@@ -1,0 +1,145 @@
+{
+  "source_summary": "Vertical Chinese ink landscape with upper inscriptions excluded; motifs are drawn from the lower landscape area: misty mountains, lake flats, groves, a small pavilion, and foreground banks rendered in layered ink washes.",
+  "motifs": [
+    {
+      "name": "hazy_background_peaks",
+      "description": "Isolate the soft distant mountain silhouettes behind the main ridge, including the rounded central peak and paler left foothills fading into atmosphere.",
+      "bbox": [
+        0.022,
+        0.354,
+        0.55,
+        0.095
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blurred peak edges",
+        "pale graded ink wash",
+        "minimal contour lines",
+        "misty overlap behind darker ridge"
+      ]
+    },
+    {
+      "name": "left_rocky_mountain_ridge",
+      "description": "Isolate the dark, textured middle-distance ridge stretching from the left edge toward the center, with craggy summit, sloping shoulders, and layered foothills.",
+      "bbox": [
+        0.0,
+        0.386,
+        0.64,
+        0.15
+      ],
+      "role": "middle mountain ridge",
+      "must_preserve": [
+        "angular rock contour linework",
+        "dry-brush striations on slopes",
+        "dark ink accents in gullies",
+        "layered wash transitions along foothills"
+      ]
+    },
+    {
+      "name": "right_low_lakeshore_hills",
+      "description": "Isolate the low distant hills and shoreline on the right side of the lake, including the small pointed hill and faint horizontal shore bands.",
+      "bbox": [
+        0.53,
+        0.407,
+        0.46,
+        0.12
+      ],
+      "role": "distant lakeshore hills",
+      "must_preserve": [
+        "thin horizontal shoreline strokes",
+        "pale receding hill wash",
+        "small dark peak accent",
+        "soft mist gap between hill layers"
+      ]
+    },
+    {
+      "name": "central_lake_mist_water",
+      "description": "Isolate the open lake and mist field across the center, preserving the pale water plane, faint banks, and horizontal ripples visible between mountains and foreground trees.",
+      "bbox": [
+        0.03,
+        0.468,
+        0.81,
+        0.215
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "faint horizontal water lines",
+        "soft mist edges around landforms",
+        "light ink wash gradations",
+        "small broken bank strokes and tiny rock marks"
+      ]
+    },
+    {
+      "name": "left_flowering_willow_cluster",
+      "description": "Isolate the left foreground cluster of pale flowering or leafy trees and drooping willow-like branches, including the looping round foliage marks and thin bending stems.",
+      "bbox": [
+        0.055,
+        0.515,
+        0.405,
+        0.315
+      ],
+      "role": "foreground shrubs and willows",
+      "must_preserve": [
+        "round looped leaf clusters",
+        "fine pale branch linework",
+        "drooping willow fronds",
+        "delicate sparse ink texture"
+      ]
+    },
+    {
+      "name": "central_tall_tree_grove",
+      "description": "Isolate the central grove of tall trunks and dark foliage masses rising in front of the lake, excluding the pavilion where possible but retaining trunks that define the grove.",
+      "bbox": [
+        0.345,
+        0.485,
+        0.405,
+        0.365
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "dark clustered leaf washes",
+        "vertical and leaning trunk lines",
+        "dry-brush bark texture",
+        "layered foliage silhouettes with varied ink density"
+      ]
+    },
+    {
+      "name": "secluded_pavilion",
+      "description": "Isolate the small pavilion or house nestled among trees near the lower center-right, including its simple roof, gable, walls, doorway lines, and visible structural strokes.",
+      "bbox": [
+        0.51,
+        0.675,
+        0.185,
+        0.13
+      ],
+      "role": "pavilion",
+      "must_preserve": [
+        "thin roof geometry",
+        "triangular gable outline",
+        "straight wall and doorway strokes",
+        "dark ink accents where tree trunks overlap the structure"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank_reeds",
+      "description": "Isolate the lower foreground landform with rounded rocky bank, right-side stones, grass and reed strokes, and shallow water at the base; exclude seals near the corners.",
+      "bbox": [
+        0.03,
+        0.725,
+        0.9,
+        0.24
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "broad curved wash forming the bank",
+        "dark dry-brush shadow patches",
+        "small rock outlines on the right",
+        "short reed and grass strokes along the water edge",
+        "horizontal shallow-water marks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 04 Shanghai M.jpg",
+  "created_at": "2026-08-26T21:34:18.575855+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,152 @@
+{
+  "source_summary": "Snowy/misty Chinese landscape with pale ink washes, central cliff-mountains, a grey water basin, small architecture on ledges, winding paths, bare winter trees, shrubs, and rocky foreground; calligraphy and red seals are excluded.",
+  "motifs": [
+    {
+      "name": "left_cliff_hut",
+      "description": "Small peach-washed hut perched on a pale snowy ledge at the left side, with angular black roof lines and surrounding soft cliff contours.",
+      "bbox": [
+        0.06,
+        0.38,
+        0.13,
+        0.16
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "peach color accent on hut walls",
+        "dark ink roof geometry and ridge line",
+        "soft snow-laden ledge edges",
+        "faint grey contour washes around the cliff",
+        "small dotted vegetation below the ledge"
+      ]
+    },
+    {
+      "name": "misty_water_basin",
+      "description": "Broad grey mist or water basin occupying the left-center valley, bordered by soft white snowy banks and faint distant shorelines.",
+      "bbox": [
+        0.13,
+        0.18,
+        0.35,
+        0.48
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "flat pale grey wash field",
+        "irregular feathered mist edges",
+        "soft white shoreline silhouettes",
+        "subtle tonal transitions in the wash",
+        "faint dark stipple marks along distant banks"
+      ]
+    },
+    {
+      "name": "central_snow_cliffs",
+      "description": "Large central mass of snow-covered cliffs and peaks rising from the valley, with pale vertical washes, rounded rock faces, and dark textural dots.",
+      "bbox": [
+        0.3,
+        0.04,
+        0.5,
+        0.57
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "vertical grey wash streaks on cliff faces",
+        "rounded snow-blanketed rock silhouettes",
+        "dark stippled moss and rock texture",
+        "soft mist transitions at the lower cliff bases",
+        "thin contour lines defining overlapping peaks"
+      ]
+    },
+    {
+      "name": "left_mid_layered_bluffs",
+      "description": "Horizontal layered bluffs behind the central valley, with flattened terraces, dark dotted edges, and light grey brush texture.",
+      "bbox": [
+        0.24,
+        0.2,
+        0.23,
+        0.18
+      ],
+      "role": "distant hillside",
+      "must_preserve": [
+        "stacked horizontal ledge shapes",
+        "dark broken ink dots along ridge edges",
+        "pale grey dry-brush striations",
+        "snowy white negative-space caps",
+        "soft overlap into surrounding mist"
+      ]
+    },
+    {
+      "name": "upper_right_cliff_village",
+      "description": "Cluster of small buildings or walled structures on the upper-right cliff, set among rock terraces and pale snow banks.",
+      "bbox": [
+        0.82,
+        0.03,
+        0.17,
+        0.34
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny roof and wall geometry",
+        "warm brown and peach color accents",
+        "dense black ink window-like marks",
+        "stepped cliff ledges around the structures",
+        "grey rock wash enclosing the village"
+      ]
+    },
+    {
+      "name": "right_winding_path_shrubs",
+      "description": "Steep winding mountain path on the right side with dark brushy rail-like strokes, shrubs, and rock texture along a snowy slope.",
+      "bbox": [
+        0.76,
+        0.31,
+        0.16,
+        0.43
+      ],
+      "role": "mountain path",
+      "must_preserve": [
+        "zigzag path direction through snow",
+        "dark vertical and diagonal brush strokes suggesting shrubs or rails",
+        "brown-grey pebble stippling",
+        "soft pale path surface",
+        "dark wash shadows against the cliff wall"
+      ]
+    },
+    {
+      "name": "lower_left_winter_trees",
+      "description": "Group of gnarled leafless winter trees in the lower-left foreground, with dark twisting trunks and fine angular branchwork over snowy ground.",
+      "bbox": [
+        0.02,
+        0.62,
+        0.36,
+        0.35
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "black-brown twisting trunks",
+        "fine forked branch linework",
+        "snowy white gaps around branches",
+        "small blue-green and brown shrub dots at the base",
+        "uneven pale foreground slope"
+      ]
+    },
+    {
+      "name": "foreground_rocky_stream",
+      "description": "Lower foreground rocky passage with rounded boulders, dark crevices, pebble clusters, and a narrow grey stream or path cutting between rocks.",
+      "bbox": [
+        0.48,
+        0.7,
+        0.41,
+        0.29
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded snow-covered boulder forms",
+        "dark ink crevice accents",
+        "brown and grey pebble stippling",
+        "soft grey wash in the stream/path channel",
+        "dry-brush rock texture and shadowed bases"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 11 MET.jpg",
+  "created_at": "2026-07-23T20:39:05.034012+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

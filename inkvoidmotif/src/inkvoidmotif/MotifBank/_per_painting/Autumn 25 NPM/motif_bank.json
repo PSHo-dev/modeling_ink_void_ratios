@@ -1,0 +1,159 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 25 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:10:11.525284+00:00",
+  "motifs": [
+    {
+      "name": "misty_distant_mountains",
+      "description": "Isolate the upper background mountain chain: soft layered peaks from left-center through right side, including the darker central crags, pale receding ridgelines, vertical cliff washes, and clusters of tiny pine silhouettes on ridges. Exclude red seals and empty surrounding paper.",
+      "bbox": [
+        0.18,
+        0.12,
+        0.74,
+        0.18
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft misted peak edges",
+        "graded ink wash on cliff faces",
+        "dark contour strokes along ridges",
+        "tiny upright pine silhouettes",
+        "pale receding ridgelines behind main peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_distant_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_sandbars_and_river_mist",
+      "description": "Isolate the broad horizontal middle-ground water and sandbar zone beneath the mountains, with layered banks, low islands, thin ink shorelines, and mist-softened transitions across the river plain.",
+      "bbox": [
+        0.0,
+        0.275,
+        0.86,
+        0.2
+      ],
+      "role": "water and mist plain",
+      "must_preserve": [
+        "long horizontal shoreline strokes",
+        "pale wash bands suggesting water",
+        "soft mist edges between banks",
+        "low dark island textures",
+        "subtle layered sandbar contours"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_middle_sandbars_and_river_mist.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_hillside_path_pavilion_grove",
+      "description": "Isolate the mid-right hillside with sloping path, clustered bare trees and shrubs, small roofed structures partly hidden among trees, and rounded rocks below the bank. Keep the connected hillside mass but exclude distant mountains above and open water to the left.",
+      "bbox": [
+        0.48,
+        0.335,
+        0.5,
+        0.25
+      ],
+      "role": "middle-ground hillside with pavilion group",
+      "must_preserve": [
+        "winding pale path contours",
+        "fine bare branch linework",
+        "small angular roof geometry",
+        "dark shrub dots and texture clusters",
+        "rounded rock washes and contour cracks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_hillside_path_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rock_outcrop_and_leafless_trees",
+      "description": "Isolate the central rocky promontory projecting into open water, with large dark boulders, eroded ink washes, sparse leafless trees, and low shrubs on the ridge.",
+      "bbox": [
+        0.39,
+        0.485,
+        0.39,
+        0.14
+      ],
+      "role": "rocky middle-ground promontory",
+      "must_preserve": [
+        "heavy dark boulder outlines",
+        "vertical wash streaks on rock faces",
+        "thin twisting leafless branches",
+        "small stippled shrubs",
+        "soft base fading into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_rock_outcrop_and_leafless_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "scholar_retreat_pavilion",
+      "description": "Isolate the lower-left pavilion retreat: open-sided thatched or tiled roof structure with seated scholars, railings, furniture, nearby shrubs, and the small bridge/stream edge at the far left. Exclude the large central pines where possible except branches that overlap the retreat.",
+      "bbox": [
+        0.0,
+        0.615,
+        0.36,
+        0.18
+      ],
+      "role": "foreground pavilion with scholars",
+      "must_preserve": [
+        "precise roof eaves and support posts",
+        "tiny seated scholar figures",
+        "railing and furniture linework",
+        "small arched bridge and stream strokes",
+        "dense dotted shrubs and garden rocks",
+        "light reddish robe accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_scholar_retreat_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_tall_pine_cluster",
+      "description": "Isolate the tall foreground pine group rising from the lower center: multiple straight trunks, dark bark strokes, spreading needle clusters, and the arcing branch network crossing the open water behind.",
+      "bbox": [
+        0.28,
+        0.62,
+        0.34,
+        0.3
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "long vertical trunk linework",
+        "dark bark texture strokes",
+        "fan-like pine needle clusters",
+        "twisting branch silhouettes",
+        "overlapping branch transparency against pale water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_tall_pine_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank_and_bending_pine",
+      "description": "Isolate the lower foreground rocky terrace and sweeping right-bending pine: layered bank contours, dark rocks at the base, the low arcing trunk extending rightward, sparse needle tufts, and small leafless shrubs along the bank. Exclude the signature at far right.",
+      "bbox": [
+        0.3,
+        0.735,
+        0.58,
+        0.25
+      ],
+      "role": "foreground rocky bank and pine",
+      "must_preserve": [
+        "sweeping curved pine trunk",
+        "fine sparse pine needles",
+        "layered earthen bank contour lines",
+        "dark rock washes and crevices",
+        "small twiggy shrub linework",
+        "mist-soft lower edge of the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_bank_and_bending_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

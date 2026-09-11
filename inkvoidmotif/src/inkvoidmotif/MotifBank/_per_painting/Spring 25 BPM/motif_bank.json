@@ -1,0 +1,135 @@
+{
+  "source": "../../../../../../Input_Images/Spring 25 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:58:27.987289+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_cliff_peak",
+      "description": "Isolate the large upper-left rocky mountain mass with its sheer cliff faces, rounded boulders, narrow ledges, pine clusters on the summit and slopes, and the small angular roof or lookout structure near the top edge of the cliff.",
+      "bbox": [
+        0.0,
+        0.278,
+        0.565,
+        0.305
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "dry ink contour lines defining fractured rock planes",
+        "layered gray-brown wash on cliff faces",
+        "dark pine needle clusters along the crest and left slope",
+        "small roof geometry tucked against the summit ledge",
+        "fine vertical texture strokes and dotted moss marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_cliff_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_misty_peaks",
+      "description": "Isolate the distant vertical mountain silhouettes rising in the central background beyond the valley, including soft-edged peaks partially submerged in mist.",
+      "bbox": [
+        0.505,
+        0.375,
+        0.335,
+        0.19
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft diluted wash gradients",
+        "blurred mist edges around the peak bases",
+        "tall narrow peak silhouettes",
+        "faint tonal separation between nearer and farther forms"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_misty_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_water_pavilion_bridge",
+      "description": "Isolate the mid-level water terrace with rippling stream patterns, the horizontal bridge or walkway, and the compact pavilion/roof cluster embedded among straight pines.",
+      "bbox": [
+        0.245,
+        0.525,
+        0.43,
+        0.105
+      ],
+      "role": "pavilion group with bridge over water",
+      "must_preserve": [
+        "thin parallel roof and bridge lines",
+        "dark vertical pine trunks framing the structures",
+        "tiny tiled roof angles",
+        "flowing water-line curls around the banks",
+        "ink contrast between architecture and pale water wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_middle_water_pavilion_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_hamlet_path",
+      "description": "Isolate the lower-left sheltered hamlet area with small roofed buildings, dark tree canopy, winding stair path, rock walls, and dense surrounding shrubs.",
+      "bbox": [
+        0.015,
+        0.735,
+        0.335,
+        0.17
+      ],
+      "role": "village hamlet and mountain path",
+      "must_preserve": [
+        "small hut roof geometry and dark eaves",
+        "curving stepped path lines",
+        "dense black ink foliage masses",
+        "rock contours enclosing the settlement",
+        "fine shrub and bamboo-like strokes around the buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_hamlet_path.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_foreground_tree_grove",
+      "description": "Isolate the central foreground grove on the rocky slope, including tall straight pines, a bare-branched tree, bamboo-like foliage, shrubs, and mottled rock texture beneath.",
+      "bbox": [
+        0.335,
+        0.745,
+        0.47,
+        0.17
+      ],
+      "role": "foreground trees and rocky slope",
+      "must_preserve": [
+        "vertical pine trunks with dark needle clusters",
+        "bare angular branch network",
+        "bamboo-like leaf strokes near the lower center",
+        "granular moss-dot texture on the rocks",
+        "layered ink washes shaping the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_central_foreground_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_stream_willows_rocks",
+      "description": "Isolate the bottom foreground stream bank with willow trees, rounded shrubs, scattered stones, rippling water lines, and low rocky embankments, excluding any seal marks at the lower edge.",
+      "bbox": [
+        0.0,
+        0.86,
+        0.895,
+        0.12
+      ],
+      "role": "foreground water edge",
+      "must_preserve": [
+        "long drooping willow branch lines",
+        "rounded pebble and stone clusters",
+        "thin horizontal water ripples",
+        "dark stippled shoreline vegetation",
+        "low rock contours and pale water-wash transitions"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_stream_willows_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

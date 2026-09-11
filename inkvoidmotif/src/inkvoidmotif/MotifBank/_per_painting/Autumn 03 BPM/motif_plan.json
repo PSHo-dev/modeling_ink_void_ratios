@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall ink-and-light-wash Chinese landscape with large blank sky, central distant mountain shoreline, broad water bands, and a detailed lower foreground of bamboo, slender trees, rocks, banks, and a thatched waterside pavilion. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "central_distant_mountain",
+      "description": "Isolate the main distant mountain mass in the middle of the scroll, including the twin peaks, sloping ridges, cliff faces, vertical texture strokes, dark clustered tree dots on the slopes, soft pale washes, and the low shoreline at its base.",
+      "bbox": [
+        0.03,
+        0.314,
+        0.82,
+        0.145
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "angular peak outlines and ridge linework",
+        "dry-brush cliff texture and vertical strokes",
+        "small dark tree clusters on mountain face",
+        "soft wash transitions along the mountain base",
+        "thin horizontal shoreline strokes"
+      ]
+    },
+    {
+      "name": "right_distant_shore_hills",
+      "description": "Isolate the low right-side distant shoreline and rolling hills beside the central mountain, with faint ridges, clustered shrubs, and horizontal water-edge lines.",
+      "bbox": [
+        0.62,
+        0.38,
+        0.36,
+        0.08
+      ],
+      "role": "distant hillside shoreline",
+      "must_preserve": [
+        "faint undulating hill contours",
+        "light ink wash texture",
+        "small shrub and tree marks",
+        "thin horizontal shoreline and water lines",
+        "soft misty edges where hills fade into blank space"
+      ]
+    },
+    {
+      "name": "middle_water_sandbars",
+      "description": "Isolate the open middle water surface with long horizontal ink strokes, pale sandbar shapes, small reed-like marks, and tiny dark accents suggesting distant banks.",
+      "bbox": [
+        0.0,
+        0.492,
+        0.5,
+        0.072
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "long broken horizontal water lines",
+        "pale sandbar contours",
+        "tiny reed or bank marks",
+        "sparse dark dots and short strokes",
+        "large blank-water spacing between strokes"
+      ]
+    },
+    {
+      "name": "left_foreground_bank_stream",
+      "description": "Isolate the lower-left curving riverbank and stream entrance, including the sloped bank, dark shrub clusters, small conifer-like trees, and thin water/path lines leading inward.",
+      "bbox": [
+        0.0,
+        0.8,
+        0.34,
+        0.118
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "curving bank outline",
+        "layered slope contour lines",
+        "dark shrub wash patches",
+        "small vertical tree silhouettes",
+        "thin stream or path strokes"
+      ]
+    },
+    {
+      "name": "thatched_waterside_pavilion",
+      "description": "Isolate the small thatched pavilion or hut near the lower-left foreground water, including the straw roof, supporting posts, dark roof-edge line, and minimal platform/base strokes.",
+      "bbox": [
+        0.13,
+        0.874,
+        0.28,
+        0.061
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "fan-like thatch strokes on roof",
+        "dark scalloped roof-edge line",
+        "thin vertical support posts",
+        "simple horizontal platform lines",
+        "open airy space beneath the roof"
+      ]
+    },
+    {
+      "name": "foreground_bamboo_clump",
+      "description": "Isolate the arcing bamboo cluster in the lower center-left, with bending stems, narrow leaves, branching sprays, and light-to-dark ink variations.",
+      "bbox": [
+        0.25,
+        0.592,
+        0.38,
+        0.223
+      ],
+      "role": "bamboo",
+      "must_preserve": [
+        "slender segmented bamboo stems",
+        "arched branching structure",
+        "individual tapered leaf strokes",
+        "dry-brush twig lines",
+        "darker leaf clusters mixed with pale wash stems"
+      ]
+    },
+    {
+      "name": "tall_foreground_tree_group",
+      "description": "Isolate the tall slender foreground trees on the lower right, including multiple pale trunks, sparse branching, dotted leaf clusters, and dark ink accents along the trunks and foliage.",
+      "bbox": [
+        0.56,
+        0.607,
+        0.31,
+        0.304
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "long pale vertical trunks",
+        "forking branch linework",
+        "small dotted leaf clusters",
+        "dark bark and foliage accents",
+        "delicate sparse upper twigs"
+      ]
+    },
+    {
+      "name": "foreground_rock_platform",
+      "description": "Isolate the broad foreground rock platform across the lower right and center, including rounded boulders, dark moss dots, layered rock contours, and the uneven ground supporting the trees.",
+      "bbox": [
+        0.34,
+        0.826,
+        0.64,
+        0.166
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded boulder outlines",
+        "layered contour and crack lines",
+        "dark moss-like dotting",
+        "soft grey ink wash on rock faces",
+        "uneven ground edge at the bottom"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 03 BPM.jpg",
+  "created_at": "2026-07-03T22:04:26.964335+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,138 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 04 Yale Gallery.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:33:18.432672+00:00",
+  "motifs": [
+    {
+      "name": "central_leafless_tree",
+      "description": "Isolate the tall central winter tree with multiple dark trunks rising from exposed roots, a dense web of fine bare branches spreading upward and outward, and faint adjacent twig clusters that belong to the same tree mass.",
+      "bbox": [
+        0.32,
+        0.17,
+        0.25,
+        0.59
+      ],
+      "role": "dominant foreground tree",
+      "must_preserve": [
+        "dark tapering trunk linework",
+        "interlaced bare branch network",
+        "fine twig endings",
+        "dry-brush bark texture",
+        "exposed root strokes at base",
+        "subtle ink wash variations along trunks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_leafless_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_slope_bare_tree",
+      "description": "Isolate the large bare tree growing from the left hillside, including its angled trunk, forked limbs, delicate leafless twigs, and the sloping bank immediately supporting its roots.",
+      "bbox": [
+        0.01,
+        0.25,
+        0.27,
+        0.38
+      ],
+      "role": "left foreground tree and hillside",
+      "must_preserve": [
+        "curving forked trunk geometry",
+        "thin winter twig linework",
+        "root attachment to slope",
+        "pale hillside contour wash",
+        "dry-brush shading on trunk"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_slope_bare_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_like_bare_tree",
+      "description": "Isolate the right-side leafless tree with a sweeping low trunk and upward-arching branches, including its sparse fine twigs and the darker branching base near the riverbank.",
+      "bbox": [
+        0.61,
+        0.28,
+        0.18,
+        0.34
+      ],
+      "role": "right foreground tree",
+      "must_preserve": [
+        "long sweeping branch silhouette",
+        "delicate bare twig tips",
+        "dark trunk-to-branch transitions",
+        "slight ink pooling at bends",
+        "open airy spacing between branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_willow_like_bare_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "leafy_shrub_cluster",
+      "description": "Isolate the dense cluster of shrubs and small leafy trees in front of the village, with mottled foliage dots and short branch strokes at the lower center-left.",
+      "bbox": [
+        0.14,
+        0.52,
+        0.23,
+        0.23
+      ],
+      "role": "midground shrubs",
+      "must_preserve": [
+        "stippled leaf texture",
+        "small branching stems",
+        "varied dark and pale ink spots",
+        "irregular shrub silhouettes",
+        "overlapping foliage masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_leafy_shrub_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "reed_bank_and_river_wash",
+      "description": "Isolate the right-side riverbank with dense reeds and grasses along the edge, plus the adjacent calm water surface indicated by horizontal ink washes.",
+      "bbox": [
+        0.52,
+        0.58,
+        0.46,
+        0.22
+      ],
+      "role": "riverside reeds and water",
+      "must_preserve": [
+        "vertical reed strokes",
+        "ragged shoreline edge",
+        "horizontal water wash bands",
+        "soft tonal gradation",
+        "dark accents in reed clumps",
+        "low muddy bank contours"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_reed_bank_and_river_wash.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "two_flying_birds",
+      "description": "Isolate the two small dark birds flying in the open air to the right of the central trees, preserving their compact silhouettes and wing positions without surrounding blank field beyond the necessary margin.",
+      "bbox": [
+        0.58,
+        0.34,
+        0.08,
+        0.12
+      ],
+      "role": "sky wildlife accent",
+      "must_preserve": [
+        "dark ink bird silhouettes",
+        "distinct wing angles",
+        "tiny body shapes",
+        "small separation between the two birds",
+        "crisp contrast against pale atmosphere"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_two_flying_birds.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

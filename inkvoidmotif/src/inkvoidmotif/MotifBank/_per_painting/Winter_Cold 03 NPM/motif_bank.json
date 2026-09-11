@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 03 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:31:21.793787+00:00",
+  "motifs": [
+    {
+      "name": "distant_mist_peaks",
+      "description": "Isolate the pale distant mountain silhouettes in the upper left and center: two narrow triangular peaks at left and a taller rounded central peak emerging through horizontal mist washes. Exclude nearby calligraphy and seals.",
+      "bbox": [
+        0.075,
+        0.066,
+        0.382,
+        0.281
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "very light ink wash silhouettes",
+        "soft lost-and-found mountain edges",
+        "horizontal mist bands crossing the peaks",
+        "subtle vertical wash gradations",
+        "faint base transitions fading into empty space"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_mist_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "towering_stratified_cliff",
+      "description": "Isolate the large right-side cliff mass with overhanging ledges, blocky vertical rock faces, and layered dark ink texture. Keep the cliff separate from the lower tree groves and exclude any red seals at the edge.",
+      "bbox": [
+        0.304,
+        0.091,
+        0.657,
+        0.452
+      ],
+      "role": "dominant mountain cliff",
+      "must_preserve": [
+        "broad slanting ledge geometry",
+        "dark dry-brush strata and fissures",
+        "pale reserve areas on sheer rock planes",
+        "vertical ink streaks on cliff faces",
+        "broken angular contour lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_towering_stratified_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pale_rock_chute",
+      "description": "Isolate the pale vertical rock chute or cliff fall descending from the central mountain, including the narrow shaded crevice at its upper left and the broad tapering wash down to the midground basin.",
+      "bbox": [
+        0.348,
+        0.295,
+        0.389,
+        0.321
+      ],
+      "role": "central cliff face and vertical descent",
+      "must_preserve": [
+        "long translucent downward wash",
+        "dark crevice brushwork near the top",
+        "soft tapering edges",
+        "subtle vertical striations",
+        "small ink accents at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_pale_rock_chute.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pine_rock_terrace",
+      "description": "Isolate the mid-left rocky terrace with clustered pines growing from the ledge. Include the layered ledge, upright trunks, fine pine needles, and the darker underside of the rock shelf.",
+      "bbox": [
+        0.0,
+        0.388,
+        0.314,
+        0.247
+      ],
+      "role": "midground rocky terrace with pines",
+      "must_preserve": [
+        "gnarled pine trunks",
+        "fine radiating pine-needle clusters",
+        "stepped rock ledge contours",
+        "dark dry-brush shadows under the ledge",
+        "small grasses and shrub dots along the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_pine_rock_terrace.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_winter_tree_canopy",
+      "description": "Isolate the large network of bare winter branches spreading across the lower middle, rooted near the center and sweeping horizontally through the composition. Exclude buildings behind it except where obscured by branches.",
+      "bbox": [
+        0.23,
+        0.535,
+        0.514,
+        0.264
+      ],
+      "role": "foreground bare tree canopy",
+      "must_preserve": [
+        "interlacing dark branch linework",
+        "thick twisting trunks and roots",
+        "thin twig clusters at branch tips",
+        "varied ink pressure from trunk to twig",
+        "overlapping branch rhythm across the empty background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_winter_tree_canopy.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bamboo_willow_grove",
+      "description": "Isolate the tall grove on the right side with vertical bamboo- or willow-like trunks, sparse winter branches, and reed-like shoots rising around the lower right hillside. Exclude the house forms behind it as much as possible.",
+      "bbox": [
+        0.682,
+        0.449,
+        0.304,
+        0.454
+      ],
+      "role": "right foreground grove and screen of trees",
+      "must_preserve": [
+        "straight vertical trunks",
+        "thin angular side branches",
+        "bamboo-like segmented strokes",
+        "pale ink wash around trunks",
+        "dark grass and reed accents at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_bamboo_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_pavilion_cluster",
+      "description": "Isolate the partially hidden village or pavilion group in the lower right: rectilinear walls, layered roofs, small windows, and a narrow path or fence elements glimpsed through winter branches.",
+      "bbox": [
+        0.606,
+        0.674,
+        0.319,
+        0.181
+      ],
+      "role": "village and pavilion cluster",
+      "must_preserve": [
+        "crisp roof geometry",
+        "horizontal eaves and vertical wall lines",
+        "small window and doorway marks",
+        "light ochre color accents on roof edges",
+        "partial occlusion by foreground branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_hidden_pavilion_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "wayside_traveler_hut_and_rocks",
+      "description": "Isolate the lower-left wayside scene with a small robed traveler near a fence, a thatched hut roof, clustered boulders, and the sloping rocky path leading inward. Keep it distinct from the central large tree mass.",
+      "bbox": [
+        0.0,
+        0.742,
+        0.448,
+        0.178
+      ],
+      "role": "foreground human-scale vignette",
+      "must_preserve": [
+        "tiny standing figure in warm robe",
+        "thin fence posts and rail marks",
+        "rounded thatched roof wash",
+        "dark textured boulder faces",
+        "curving pale path with scattered pebble strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_wayside_traveler_hut_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

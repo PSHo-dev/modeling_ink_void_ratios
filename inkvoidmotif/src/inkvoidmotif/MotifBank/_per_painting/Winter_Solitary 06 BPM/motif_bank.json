@@ -1,0 +1,135 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 06 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:13:47.689429+00:00",
+  "motifs": [
+    {
+      "name": "upper_horizontal_mist_bands",
+      "description": "Long, pale horizontal mist and sky-wash bands occupying the open upper field, with subtle layered ink tonal shifts and soft horizontal edges.",
+      "bbox": [
+        0.02,
+        0.02,
+        0.93,
+        0.34
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "very faint horizontal wash lines",
+        "soft uneven mist edges",
+        "delicate tonal gradations from tan ground to gray ink",
+        "large open negative space without added objects"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_horizontal_mist_bands.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_stippled_rocky_slope",
+      "description": "Steep diagonal rocky slope on the right side, with pale rock face, dark stippled foliage clusters, dot-textured stones, and vertical striated brush marks.",
+      "bbox": [
+        0.7,
+        0.31,
+        0.29,
+        0.55
+      ],
+      "role": "rocky hillside",
+      "must_preserve": [
+        "diagonal pale landform silhouette",
+        "dense black stipple dots",
+        "dark shrub masses along the ridge",
+        "vertical rock texture strokes",
+        "uneven scalloped edge against mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_stippled_rocky_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_bank_with_reeds",
+      "description": "Lower-right shoreline base where the diagonal slope meets the foreground, including dark rootlike strokes, small reeds, scattered dots, and soft shoreline wash.",
+      "bbox": [
+        0.55,
+        0.75,
+        0.35,
+        0.18
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "thin reed and twig strokes",
+        "dark clustered base marks",
+        "scattered pebble dots",
+        "soft horizontal waterline wash",
+        "uneven sandy bank edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_right_bank_with_reeds.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_leafless_tree_cluster",
+      "description": "Cluster of bare winter trees in the lower center-left, with several dark trunks rising from the bank and angular branches extending outward.",
+      "bbox": [
+        0.26,
+        0.64,
+        0.2,
+        0.31
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark ink trunks with varied thickness",
+        "forking angular bare branches",
+        "short dry brush twig tips",
+        "overlapping stems at the base",
+        "surrounding dark shrub wash only where attached"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_leafless_tree_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_grove_and_rocks",
+      "description": "Dark left foreground bank with a leaning bare tree, clustered shrubs, rocks, and heavy ink wash forming a shadowed corner.",
+      "bbox": [
+        0.08,
+        0.68,
+        0.24,
+        0.3
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "leaning trunk silhouette",
+        "dense dark shrub wash",
+        "rock outlines at the bottom edge",
+        "dry-brush grass strokes",
+        "irregular shoreline contour"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_left_foreground_grove_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_riverside_hut_and_bank",
+      "description": "Tiny riverside hut or shelter near the lower middle, set into a narrow bank with small dark stones and adjacent low brush marks.",
+      "bbox": [
+        0.41,
+        0.83,
+        0.15,
+        0.09
+      ],
+      "role": "village detail",
+      "must_preserve": [
+        "small angular roof geometry",
+        "tiny wall shapes in pale reserve",
+        "thin dark contour lines",
+        "nearby dotted stones",
+        "low horizontal bank strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_small_riverside_hut_and_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

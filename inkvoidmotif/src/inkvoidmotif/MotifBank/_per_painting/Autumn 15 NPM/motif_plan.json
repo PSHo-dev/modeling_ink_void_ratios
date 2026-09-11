@@ -1,0 +1,153 @@
+{
+  "source_summary": "Vertical ink-and-light-color Chinese landscape with misty distant peaks, layered striated cliffs, ravines, pavilions, bridge, scholar figures, bamboo, reeds, rocky banks, water space, and a dense foreground grove. Red seals, inscription, borders, and paper tone are excluded.",
+  "motifs": [
+    {
+      "name": "distant_mist_peaks",
+      "description": "Isolate the pale background mountain silhouettes at the upper left behind the main cliffs, including the soft triangular and sloping forms emerging from blank mist.",
+      "bbox": [
+        0.0,
+        0.23,
+        0.4,
+        0.14
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "very light gray wash gradients",
+        "soft lost-and-found mountain edges",
+        "faint peak outlines",
+        "blank mist gaps between peaks and foreground cliffs"
+      ]
+    },
+    {
+      "name": "left_ravine_waterfall_cliffs",
+      "description": "Isolate the steep left-side ravine with stacked cliff faces, dark crevice marks, and the narrow descending waterfall or stream channel cutting between rocks.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.29,
+        0.27
+      ],
+      "role": "left cliff ravine and waterfall",
+      "must_preserve": [
+        "angular cliff contour lines",
+        "dark ink accents along cracks",
+        "vertical waterfall channel",
+        "dry-brush rock texture",
+        "small shrubs clinging to ledges"
+      ]
+    },
+    {
+      "name": "central_striated_cliff_massif",
+      "description": "Isolate the broad central cliff wall and ridge system with horizontal sediment-like brush bands, vertical wash streaks, and dark broken ink along the ridge crests.",
+      "bbox": [
+        0.2,
+        0.25,
+        0.58,
+        0.29
+      ],
+      "role": "dominant middle-ground mountain cliff",
+      "must_preserve": [
+        "long horizontal striation lines",
+        "vertical diluted ink washes down the cliff face",
+        "dark broken ridge marks",
+        "layered ledge geometry",
+        "soft pale wash transitions at the cliff base"
+      ]
+    },
+    {
+      "name": "upper_right_terrace_trees",
+      "description": "Isolate the upper-right terraced rock ledge with pale ochre-tinted ground, blocky cliff edges, and the small sparse trees and brush standing on the ledge.",
+      "bbox": [
+        0.67,
+        0.3,
+        0.31,
+        0.17
+      ],
+      "role": "right hillside terrace with sparse trees",
+      "must_preserve": [
+        "pale ochre color accent on the terrace",
+        "thin upright tree trunks and twig clusters",
+        "blocky ledge outlines",
+        "dry horizontal rock texture",
+        "dark ink notches under the overhang"
+      ]
+    },
+    {
+      "name": "left_pavilion_bridge_figures",
+      "description": "Isolate the riverside architectural cluster at lower left: two roofed pavilions among trees, the small arched bridge or gate beneath, and the tiny human figures on the veranda.",
+      "bbox": [
+        0.0,
+        0.505,
+        0.34,
+        0.18
+      ],
+      "role": "village pavilion group with bridge and scholar figures",
+      "must_preserve": [
+        "sloped tiled roof geometry",
+        "fine parallel roof rib lines",
+        "rectangular posts and railings",
+        "arched bridge opening",
+        "tiny seated or standing figures",
+        "surrounding tree trunks and leaf-dot textures immediately interwoven with the buildings"
+      ]
+    },
+    {
+      "name": "central_bamboo_rock_bank",
+      "description": "Isolate the rocky bank in the center foreground with the cluster of slender bamboo stems rising in front of the cliff, including nearby low rocks and bare twiggy shrubs.",
+      "bbox": [
+        0.27,
+        0.43,
+        0.44,
+        0.22
+      ],
+      "role": "bamboo and rocky foreground bank",
+      "must_preserve": [
+        "thin bamboo culms and angled leaves",
+        "delicate branching shrubs",
+        "rounded and angular rock contours",
+        "dark stippled rock texture",
+        "pale wash shadows around the bank"
+      ]
+    },
+    {
+      "name": "right_reed_cove_pool",
+      "description": "Isolate the small right-side water cove below the cliff, with curving shoreline, reeds or grasses, rounded rocks, and dark shaded overhang marks.",
+      "bbox": [
+        0.62,
+        0.46,
+        0.35,
+        0.13
+      ],
+      "role": "water cove with reeds and rocks",
+      "must_preserve": [
+        "curved waterline and faint ripple strokes",
+        "tufted reed blades",
+        "rounded boulders at the bank",
+        "dark hatching under the cliff lip",
+        "soft blank water space against inked shore"
+      ]
+    },
+    {
+      "name": "foreground_willow_bamboo_grove",
+      "description": "Isolate the large lower-right foreground grove on the raised rocky bank, including leaning willow-like trunks, bamboo thicket, pine-needle foliage, the partially hidden small pavilion roof, and the base rocks.",
+      "bbox": [
+        0.25,
+        0.655,
+        0.69,
+        0.26
+      ],
+      "role": "foreground grove, pavilion, and rocky bank",
+      "must_preserve": [
+        "pale leaning trunks with dark contour accents",
+        "dense bamboo leaves and vertical culms",
+        "fine pine-needle clusters on upper branches",
+        "partly obscured pavilion roof and posts",
+        "dry-brush rocky mound texture",
+        "grass strokes along the bottom edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 15 NPM.jpg",
+  "created_at": "2026-07-16T23:11:44.327048+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

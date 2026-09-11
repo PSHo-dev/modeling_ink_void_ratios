@@ -1,0 +1,152 @@
+{
+  "source_summary": "Monochrome ink-and-wash Chinese winter landscape with towering cliffs, mist bands, snow-covered paths, pavilions, village roofs, pine groves, rocky ravines, bridges, water, and small human/animal figures. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "towering_left_cliff_massif",
+      "description": "Isolate the monumental pale cliff formation rising on the left and center-left: sheer vertical rock faces, rounded snowy tops, dark fissures, inner crags, and soft mist at the base. Exclude the lower pavilion compound and foreground village.",
+      "bbox": [
+        0.0,
+        0.08,
+        0.43,
+        0.38
+      ],
+      "role": "dominant mountain backdrop",
+      "must_preserve": [
+        "thin dark contour lines around cliff silhouettes",
+        "vertical ink-wash streaks suggesting height and erosion",
+        "dark cracked interior rock seams",
+        "soft pale snow reserves on rounded tops",
+        "mist-softened lower edges"
+      ]
+    },
+    {
+      "name": "upper_cliff_pavilion_bridge",
+      "description": "Isolate the small pavilion and terrace complex perched between cliffs near the upper center, including the narrow bridge-like walkway, layered tiled roofs, railings, adjacent rock ledges, and clustered pines around it.",
+      "bbox": [
+        0.41,
+        0.22,
+        0.18,
+        0.13
+      ],
+      "role": "high pavilion group",
+      "must_preserve": [
+        "precise roof geometry with stacked eaves",
+        "fine railing and bridge linework",
+        "dark pine foliage dots and needle clusters",
+        "small supporting cliff ledges",
+        "contrast between crisp architecture and misty cliff wash"
+      ]
+    },
+    {
+      "name": "lower_left_mountain_temple",
+      "description": "Isolate the snow-covered temple or pavilion compound on the mid-left hillside with tiered roofs, a small tower-like structure, surrounding trees, and the sloping snow bank beneath it.",
+      "bbox": [
+        0.09,
+        0.37,
+        0.29,
+        0.1
+      ],
+      "role": "mountain pavilion cluster",
+      "must_preserve": [
+        "curved tiled roof edges and layered eaves",
+        "delicate architectural posts and railings",
+        "small vertical tower roof detail",
+        "dense dark tree crowns behind the buildings",
+        "smooth snow slope contour below"
+      ]
+    },
+    {
+      "name": "foreground_snow_village",
+      "description": "Isolate the lower-left village cluster: snow-laden houses, fenced yards, small figures, courtyard details, gates, bare and evergreen trees, and the descending path at the lower edge.",
+      "bbox": [
+        0.0,
+        0.63,
+        0.35,
+        0.28
+      ],
+      "role": "foreground village settlement",
+      "must_preserve": [
+        "angular snow-covered roof planes",
+        "fine fence and gate linework",
+        "tiny human figures and courtyard objects",
+        "dark branching tree silhouettes over roofs",
+        "stepped path strokes descending into the foreground"
+      ]
+    },
+    {
+      "name": "central_rocky_ravine",
+      "description": "Isolate the central foreground ravine and snow-covered rock mass: jagged cliffs, dark crevices, winding path-like snow reserves, shrub clumps, and vertical wash textures. Exclude the village to the left and bridge scene to the right.",
+      "bbox": [
+        0.31,
+        0.46,
+        0.22,
+        0.38
+      ],
+      "role": "central rocky foreground divide",
+      "must_preserve": [
+        "jagged ink outlines along broken rock edges",
+        "layered texture strokes on exposed stone",
+        "soft snow reserves crossing the rocks",
+        "dark shrub clusters tucked into crevices",
+        "vertical wash streaks on the pale cliff face"
+      ]
+    },
+    {
+      "name": "right_stream_bridge_scene",
+      "description": "Isolate the mid-right stream crossing with wooden bridge structures, railings, travelers or attendants, a horse or pack animal, stepping stones, shallow water marks, and tall pines lining the bank.",
+      "bbox": [
+        0.55,
+        0.54,
+        0.29,
+        0.18
+      ],
+      "role": "bridge and river crossing",
+      "must_preserve": [
+        "thin wooden bridge posts and railings",
+        "tiny figures and animal silhouettes",
+        "scattered white stone shapes in the water",
+        "vertical pine trunks with dark clustered crowns",
+        "subtle water wash and rippled ink marks"
+      ]
+    },
+    {
+      "name": "right_snowy_hillside_cliffs",
+      "description": "Isolate the snow-covered rocky hills and cliffs on the right side above the stream, including rounded snow caps, exposed dark ledges, sparse shrubs, and layered receding forms. Exclude the bridge scene below and calligraphy above.",
+      "bbox": [
+        0.73,
+        0.39,
+        0.27,
+        0.24
+      ],
+      "role": "right middle-ground hillside",
+      "must_preserve": [
+        "rounded snow-covered hill silhouettes",
+        "dark angular rock ledge texture",
+        "pale receding hill layers in mist",
+        "small shrub and tree accents",
+        "soft wash transitions along valley edges"
+      ]
+    },
+    {
+      "name": "lower_right_river_cove_trees",
+      "description": "Isolate the lower-right water cove with overhanging dark trees, small figures near the bank, scattered stones, low snowy rocks, and soft river wash fading into mist.",
+      "bbox": [
+        0.63,
+        0.7,
+        0.34,
+        0.22
+      ],
+      "role": "foreground riverbank and trees",
+      "must_preserve": [
+        "dense dark branching canopy over the water",
+        "tiny bank-side figures and poles",
+        "scattered stone highlights in the river",
+        "smooth gray-brown water wash",
+        "snowy rock contours along the shoreline"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 25 MET.jpg",
+  "created_at": "2026-08-06T22:54:21.363856+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

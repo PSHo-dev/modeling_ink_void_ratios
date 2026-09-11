@@ -1,0 +1,150 @@
+{
+  "source_summary": "Vertical ink-and-light-wash Chinese landscape with hazy distant hills, riverbank reeds, a moored boat, small riverside dwellings, a lone walking fisherman/scholar figure, foreground rocks, bare branches, and a rustic gate or small pavilion element. Calligraphy/seals/borders excluded.",
+  "motifs": [
+    {
+      "name": "misty_distant_hills",
+      "description": "Layered distant mountain and hillside silhouettes across the upper half, fading into atmospheric mist; isolate only the soft horizontal ridgelines and pale ink washes, excluding birds and reeds on the right.",
+      "bbox": [
+        0.0,
+        0.077,
+        0.86,
+        0.249
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft diluted ink wash gradients",
+        "overlapping horizontal ridge contours",
+        "blurred mist edges",
+        "subtle tonal transitions from darker left ridge to paler central hills"
+      ]
+    },
+    {
+      "name": "flying_geese_flock",
+      "description": "Small flock of dark birds/geese flying diagonally in the upper-right sky, separated from surrounding reeds and hills.",
+      "bbox": [
+        0.748,
+        0.125,
+        0.227,
+        0.083
+      ],
+      "role": "sky accent",
+      "must_preserve": [
+        "tiny dark wing silhouettes",
+        "diagonal rising formation",
+        "individual spacing between birds",
+        "crisp ink marks against open sky"
+      ]
+    },
+    {
+      "name": "upper_reed_bank_with_boat",
+      "description": "Sloping upper-right reed bank with a narrow moored boat partly hidden among grasses; include the hull, dark cabin-like bundle, upright posts, and dense crossing reed strokes, excluding distant hills and lower rocks.",
+      "bbox": [
+        0.347,
+        0.293,
+        0.651,
+        0.154
+      ],
+      "role": "boat and riverside reeds",
+      "must_preserve": [
+        "thin angular boat hull linework",
+        "dark ink mass on stern or covered cargo",
+        "upright post details",
+        "long sweeping reed blades",
+        "overlapping dry-brush grass texture"
+      ]
+    },
+    {
+      "name": "midground_village_cluster",
+      "description": "Small riverside village or hut cluster on the left midground shore with low rounded roofs, nearby bank marks, and short vertical fence/reed strokes reflected near water.",
+      "bbox": [
+        0.205,
+        0.429,
+        0.174,
+        0.071
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny roof outlines",
+        "rounded hut forms",
+        "dark accent dots on roof ridges",
+        "short vertical shoreline strokes",
+        "delicate pale wash around buildings"
+      ]
+    },
+    {
+      "name": "central_walking_fisherman",
+      "description": "Lone standing/walking figure carrying a long fishing pole over the shoulder; include hat/head, robe folds, bare legs, sandals, dangling basket or gear, and the full diagonal pole.",
+      "bbox": [
+        0.346,
+        0.388,
+        0.271,
+        0.364
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "fine contour linework of robe and limbs",
+        "long diagonal fishing pole",
+        "bundle or basket hanging at side",
+        "ink accents on head and clothing folds",
+        "walking stance with separated feet"
+      ]
+    },
+    {
+      "name": "central_rocky_slope_reeds",
+      "description": "Central sloping earthen bank and rock outcrop behind the figure, with dark boulders, dry-brush texture, and right-side reed thickets; exclude the figure and upper boat as much as possible.",
+      "bbox": [
+        0.356,
+        0.463,
+        0.641,
+        0.263
+      ],
+      "role": "midground hillside and rocks",
+      "must_preserve": [
+        "broad sloped wash forming bank",
+        "dark rock contours and interior texture strokes",
+        "small scattered stones",
+        "thin reed blades crossing the right edge",
+        "soft waterline washes below the rocks"
+      ]
+    },
+    {
+      "name": "foreground_twisted_tree_rock",
+      "description": "Large foreground left gnarled tree/root and rock formation with bare angular branches and clustered shrubs at its base; isolate from the central figure and lower-right rocks.",
+      "bbox": [
+        0.0,
+        0.613,
+        0.471,
+        0.34
+      ],
+      "role": "foreground rock and tree",
+      "must_preserve": [
+        "twisted trunk/root contour",
+        "dark dry-brush bark texture",
+        "angular leafless branch network",
+        "dense shrub strokes and dots",
+        "heavy shaded rock base with pale exposed edges"
+      ]
+    },
+    {
+      "name": "lower_right_gate_rocks_reeds",
+      "description": "Lower-right foreground rustic gate or small wooden structure beside boulders and reeds; include vertical posts, dark roof/beam strokes, adjacent large rock, grasses, and shoreline textures.",
+      "bbox": [
+        0.531,
+        0.616,
+        0.465,
+        0.359
+      ],
+      "role": "foreground structure and rocks",
+      "must_preserve": [
+        "vertical wooden post linework",
+        "dark broken roof or beam accents",
+        "large faceted boulder with ink texture",
+        "clusters of thin reeds and grasses",
+        "dry-brush shoreline and shadow washes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 01 Shanghai M.jpg",
+  "created_at": "2026-08-26T21:32:15.843418+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,151 @@
+{
+  "source_summary": "Ink-and-wash Chinese landscape with layered rocky mountains on the left, misty distant peaks and boats across an open lake, and a lower river village with bridges, thatched structures, groves, reeds, and foreground rocks. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_pavilion",
+      "description": "Isolate the large upper-left layered mountain mass with its rounded ridges, dark shrub caps, sparse bare trees, and the small hidden pavilion tucked into the slope. Exclude surrounding seals and calligraphy.",
+      "bbox": [
+        0.0,
+        0.085,
+        0.5,
+        0.43
+      ],
+      "role": "mountain hillside with pavilion",
+      "must_preserve": [
+        "arched contour brush lines wrapping around the mountain forms",
+        "dry-brush rock texture and pale wash gradients",
+        "dense black dotted foliage along ridge crests",
+        "fine bare tree branches in the ravine",
+        "small pavilion roof geometry and posts partially obscured by trees"
+      ]
+    },
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the horizontal chain of distant mountains floating in mist across the upper-right lake, including all visible low and high peaks but no calligraphy above.",
+      "bbox": [
+        0.52,
+        0.19,
+        0.46,
+        0.075
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft mist edges fading into blank space",
+        "dark peak accents on the tallest central summit",
+        "pale layered washes on lower hills",
+        "minimal horizon-like ink traces around the peaks"
+      ]
+    },
+    {
+      "name": "tiny_sailboat_on_far_lake",
+      "description": "Isolate the small sailing boat at the far right of the upper lake, with its thin hull, mast lines, and faint water strokes.",
+      "bbox": [
+        0.83,
+        0.245,
+        0.09,
+        0.035
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "delicate linear hull",
+        "two fine sail or mast lines",
+        "slight rippled water marks beneath and around the boat",
+        "light empty-space margin needed to keep the boat readable"
+      ]
+    },
+    {
+      "name": "middle_left_rocky_shoreline",
+      "description": "Isolate the middle-left rocky promontory descending into water, with rounded boulders, scrub, dark foliage bands, and horizontal shoreline ripples.",
+      "bbox": [
+        0.0,
+        0.36,
+        0.57,
+        0.18
+      ],
+      "role": "rocky shoreline",
+      "must_preserve": [
+        "rounded boulder outlines with dry-brush shading",
+        "black dotted shrubs along the ridge and water edge",
+        "horizontal waterline strokes at the base of rocks",
+        "small scattered stones near the lower-left inlet",
+        "misty soft transition between rocks and open lake"
+      ]
+    },
+    {
+      "name": "central_stream_bridge",
+      "description": "Isolate the small arched bridge and central stream channel in the lower-middle distance, including low banks, grasses, and light water strokes leading toward the village.",
+      "bbox": [
+        0.24,
+        0.665,
+        0.46,
+        0.12
+      ],
+      "role": "bridge and watercourse",
+      "must_preserve": [
+        "thin arched bridge line with small vertical supports",
+        "light horizontal stream ripples",
+        "curving banks drawn with fine contour lines",
+        "tufts of grasses and low shrubs along both banks",
+        "open blank water areas separating the forms"
+      ]
+    },
+    {
+      "name": "right_riverside_village_grove",
+      "description": "Isolate the lower-right village cluster with thatched-roof buildings, rocky bank, tall trees, bamboo-like foliage, and nearby shrubs. Exclude seals and outer border areas.",
+      "bbox": [
+        0.58,
+        0.58,
+        0.42,
+        0.25
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "rectangular house walls and angled thatched roof geometry",
+        "fine roof hatch strokes",
+        "tall bare tree trunks and branching linework",
+        "dark leafy clumps and bamboo-like vertical sprays",
+        "rounded rock bases with dotted moss texture",
+        "small flock of birds to the right of the treetops if within the crop"
+      ]
+    },
+    {
+      "name": "lower_left_cliff_thatched_hut",
+      "description": "Isolate the lower-left foreground cliff and the small round thatched hut set beside the water, including adjacent heavy rocks, brushy vegetation, and inlet lines. Exclude the inscription near the lower-left margin.",
+      "bbox": [
+        0.0,
+        0.7,
+        0.36,
+        0.24
+      ],
+      "role": "foreground cliff and hut",
+      "must_preserve": [
+        "massive dark cliff rocks with layered contour strokes",
+        "moss dots and dense black shrub texture",
+        "round thatched hut roof with radial rib lines and small posts",
+        "pale water/inlet strokes around the hut",
+        "bare saplings and grasses on the bank"
+      ]
+    },
+    {
+      "name": "foreground_twisted_tree_rocks",
+      "description": "Isolate the central foreground rock garden with the prominent twisted leafless tree, adjacent dark conifer-like shrub, grasses, and clustered rounded stones at the base.",
+      "bbox": [
+        0.25,
+        0.78,
+        0.36,
+        0.21
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "gnarled twisting trunk line and forked bare branches",
+        "dark vertical needle-like foliage on the adjacent shrub",
+        "rounded foreground stones with dry-brush texture",
+        "small grass tufts and dotted ground accents",
+        "ink wash shadows nestled between the rocks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 04 NPM.jpg",
+  "created_at": "2026-08-27T22:10:36.473028+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

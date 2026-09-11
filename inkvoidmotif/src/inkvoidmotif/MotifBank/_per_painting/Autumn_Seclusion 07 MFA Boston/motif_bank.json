@@ -1,0 +1,181 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 07 MFA Boston.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:35:44.351132+00:00",
+  "motifs": [
+    {
+      "name": "upper_right_gnarled_tree",
+      "description": "Isolate the leafless, angular tree growing from the upper-right cliff edge, including its dark bent trunk, forked limbs, sparse twig strokes, small ink dots, and faint dry-brush tan wash around the branches. Exclude the lower hillside mass and nearby traveler area.",
+      "bbox": [
+        0.724,
+        0.276,
+        0.267,
+        0.292
+      ],
+      "role": "cliffside tree",
+      "must_preserve": [
+        "bold black kinked trunk line",
+        "thin broken twig linework",
+        "scattered ink-dot accents along the trunk",
+        "dry-brush tan wash halos around branches",
+        "asymmetric wind-bent branch geometry"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_right_gnarled_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_grassy_cliff_slope",
+      "description": "Isolate the steep right-side earthen slope covered with dense diagonal grass and texture strokes. Include the dark contour lines, layered grey-brown washes, scrubby dots, and the sloping ridge face, but exclude the small hut below and the upper tree trunk as much as possible.",
+      "bbox": [
+        0.702,
+        0.568,
+        0.286,
+        0.268
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "dense diagonal dry-brush grass strokes",
+        "dark ink ridge contours",
+        "grey-brown wash patches",
+        "speckled scrub dots at the slope base",
+        "rough eroded cliff edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_grassy_cliff_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_thatched_hut",
+      "description": "Isolate the small hut at the lower right with a dark slanted roof and simple wall plane set among rocks. Include the roof geometry, black window or doorway marks, supporting strokes, surrounding ground shadows, and immediate rocky base. Exclude the artist signature and red seal at the far right edge.",
+      "bbox": [
+        0.688,
+        0.787,
+        0.264,
+        0.139
+      ],
+      "role": "hut",
+      "must_preserve": [
+        "tilted dark roof silhouette",
+        "rectangular wall face with black opening marks",
+        "short support and footing strokes",
+        "adjacent dark rock washes",
+        "fine ground texture around the hut"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_lower_right_thatched_hut.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "umbrella_traveler_group",
+      "description": "Isolate the small traveler or scholar group near the right slope, centered on the reddish-orange umbrella or hat form and tiny black figure strokes below it. Include the nearby delicate grasses and small gestural marks directly attached to the figures, but not the large hillside or hut.",
+      "bbox": [
+        0.768,
+        0.622,
+        0.086,
+        0.112
+      ],
+      "role": "figures",
+      "must_preserve": [
+        "muted red-orange umbrella accent",
+        "tiny black figure outlines",
+        "fine staff-like and garment strokes",
+        "small surrounding grass flicks",
+        "delicate scale contrast against the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_umbrella_traveler_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_twisted_pine",
+      "description": "Isolate the large twisted pine-like tree across the lower center, including its dark winding trunk, low sweeping branches, sparse needles, ochre foliage dabs, and exposed roots on the bank. Exclude the distant water and the right hillside except where immediately touching the roots.",
+      "bbox": [
+        0.237,
+        0.614,
+        0.498,
+        0.258
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thick sinuous black trunk",
+        "angular branching structure",
+        "short sparse needle clusters",
+        "ochre-brown dry foliage dabs",
+        "root-like strokes gripping the bank",
+        "ink dots and broken dry-brush bark texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_twisted_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rocky_riverbank",
+      "description": "Isolate the low central foreground riverbank beneath the twisted tree: layered rocks, dark earth patches, horizontal water-edge lines, stippled pebbles, and grey-brown wash. Keep the bank shape and texture but avoid the tree canopy and hut.",
+      "bbox": [
+        0.307,
+        0.753,
+        0.446,
+        0.161
+      ],
+      "role": "foreground riverbank",
+      "must_preserve": [
+        "horizontal shoreline contour lines",
+        "dark rock patches and ink pools",
+        "stippled pebble dots",
+        "soft grey-brown washes",
+        "thin water ripples along the lower edge",
+        "dry-brush bank texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_rocky_riverbank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_distant_shore_and_water",
+      "description": "Isolate the quiet left-side distant shore with low landforms, soft dark washes, sparse shrub dots, and long horizontal water lines. Exclude the red seals along the left edge.",
+      "bbox": [
+        0.0,
+        0.657,
+        0.35,
+        0.251
+      ],
+      "role": "distant shore and water",
+      "must_preserve": [
+        "low flattened shoreline silhouettes",
+        "soft grey ink wash on distant land",
+        "tiny shrub and pebble dots",
+        "long thin horizontal water lines",
+        "open spacing that suggests misty water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_left_distant_shore_and_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_mist_shoreline",
+      "description": "Isolate the faint middle-distance shoreline and mist band running across the center-right: pale horizontal bank, subtle tan-grey wash, small rocks, dotted reeds, and soft broken edges. Exclude the upper empty silk ground and the lower foreground tree.",
+      "bbox": [
+        0.523,
+        0.44,
+        0.347,
+        0.147
+      ],
+      "role": "misty middle ground",
+      "must_preserve": [
+        "soft horizontal mist edge",
+        "pale tan-grey wash transitions",
+        "small isolated rock marks",
+        "dotted reed and shrub texture",
+        "broken dry-brush shoreline",
+        "minimal ink suggesting distance"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_middle_mist_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

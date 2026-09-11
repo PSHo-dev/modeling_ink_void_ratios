@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:34:23.967413+00:00",
+  "motifs": [
+    {
+      "name": "main_rolling_hillside",
+      "description": "Broad rolling hillside spanning the upper center and right, with rounded ridges, green mineral wash, scattered dark rock and shrub marks, and receding peak forms.",
+      "bbox": [
+        0.28,
+        0.12,
+        0.72,
+        0.39
+      ],
+      "role": "background hillside and mountain mass",
+      "must_preserve": [
+        "arched ridge contours",
+        "green and ochre wash texture",
+        "dark broken ink dabs for rocks and shrubs",
+        "layered summit silhouettes",
+        "dry-brush slope striations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_main_rolling_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_marsh_stream",
+      "description": "Dense willow and reed marsh at lower left with bending leaf strokes, small exposed rocks, and a shallow stream course running through the vegetation.",
+      "bbox": [
+        0.0,
+        0.43,
+        0.42,
+        0.25
+      ],
+      "role": "foreground marsh and stream bank",
+      "must_preserve": [
+        "thin drooping willow-leaf linework",
+        "clustered reed stems",
+        "small dark rock accents",
+        "pale stream gaps between plants",
+        "varied ink density in foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_willow_marsh_stream.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_bamboo_tree_clump",
+      "description": "Central grove of bamboo, shrubs, and two pale tree trunks rising before the hillside, including the clustered leaves and bamboo arcs but excluding nearby buildings.",
+      "bbox": [
+        0.33,
+        0.32,
+        0.21,
+        0.36
+      ],
+      "role": "middle-ground grove",
+      "must_preserve": [
+        "slender bamboo blades",
+        "upright pale trunks",
+        "dark clustered foliage dabs",
+        "overlapping shrub layers",
+        "loose dry-brush branch lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_bamboo_tree_clump.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_house_scholar",
+      "description": "Main riverside house with rectangular walls, sloped roof, barred windows and doorway, plus the small seated scholar figure at the right side of the structure.",
+      "bbox": [
+        0.5,
+        0.49,
+        0.26,
+        0.18
+      ],
+      "role": "pavilion dwelling with figure",
+      "must_preserve": [
+        "simple sloped roof geometry",
+        "fine wall and window linework",
+        "vertical door and lattice strokes",
+        "small seated scholar silhouette",
+        "light grey roof wash and dark base accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_riverside_house_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "fence_rock_embankment",
+      "description": "Low wooden fence and rocky embankment along the water below the house, including posts, rails, rough stones, and the narrow bank edge.",
+      "bbox": [
+        0.34,
+        0.63,
+        0.4,
+        0.17
+      ],
+      "role": "foreground bank and fence",
+      "must_preserve": [
+        "thin angled fence rails",
+        "short vertical fence posts",
+        "rounded rock blocks with wash shadows",
+        "dark crevice strokes",
+        "horizontal water-edge lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_fence_rock_embankment.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_forest_screen",
+      "description": "Dense vertical screen of trees on the right side, including pines, bare trunks, leafy shrubs, and dark foliage masses; isolate the tree growth from the buildings beneath.",
+      "bbox": [
+        0.69,
+        0.28,
+        0.31,
+        0.57
+      ],
+      "role": "right-side forest and foreground trees",
+      "must_preserve": [
+        "tall pale trunks",
+        "dark pine needle clusters",
+        "bare branching silhouettes",
+        "layered black-green foliage dabs",
+        "vertical rhythm of trunks and shrubs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_forest_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_waterside_pavilion_willow",
+      "description": "Small lower-right waterside pavilion partly hidden by trees, with triangular roof, light walls, adjacent willow branches, rocks, and nearby shallow water.",
+      "bbox": [
+        0.52,
+        0.69,
+        0.34,
+        0.25
+      ],
+      "role": "foreground waterside pavilion and willow",
+      "must_preserve": [
+        "triangular roof outline",
+        "fine pavilion wall lines",
+        "drooping willow branch strokes",
+        "dark foreground rock dots",
+        "pale water wash and bank transition"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_waterside_pavilion_willow.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

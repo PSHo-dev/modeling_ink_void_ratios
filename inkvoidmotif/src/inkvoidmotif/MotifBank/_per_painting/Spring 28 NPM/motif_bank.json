@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Spring 28 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:31:34.795387+00:00",
+  "motifs": [
+    {
+      "name": "left_distant_hills_water",
+      "description": "Isolate the pale distant shoreline and low rounded hills across the left middle, including the horizontal river bands and misty wash transitions but excluding inscriptions and seals above or below.",
+      "bbox": [
+        0.0,
+        0.302,
+        0.445,
+        0.105
+      ],
+      "role": "distant hills and water",
+      "must_preserve": [
+        "soft grey wash gradations forming low hills",
+        "thin horizontal ink lines suggesting river surface and shoreline",
+        "mist-softened hill edges",
+        "subtle darker strokes at the far-left waterline"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_distant_hills_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cliff_mass",
+      "description": "Isolate the main vertical crag cluster in the upper middle-right: tall central rock face, adjacent rounded boulders, dark fissures, and the small ledges at its base.",
+      "bbox": [
+        0.432,
+        0.246,
+        0.305,
+        0.192
+      ],
+      "role": "midground mountain cliffs",
+      "must_preserve": [
+        "angular contour linework on the tall cliff face",
+        "dry-brush texture strokes and vertical cracks",
+        "layered rounded rock forms to the right",
+        "dark ink accents in crevices and ledges",
+        "pale wash modeling on rock planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_cliff_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_sloping_mountain_ridge",
+      "description": "Isolate the sweeping mountain slope and ridge mass on the far right, including the diagonal descent into the valley and the small lower right hillside continuation.",
+      "bbox": [
+        0.69,
+        0.135,
+        0.31,
+        0.28
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "long diagonal brush strokes defining the slope",
+        "soft grey wash transitions on the upper ridge",
+        "dark contour accents along ridgelines",
+        "rounded lower hill forms at the base",
+        "misty separation between ridge and central cliffs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_sloping_mountain_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_river_shoals",
+      "description": "Isolate the horizontal river flats and sandbar-like shoals running across the center beneath the mountains, including the narrow dark shoreline strokes and pale open water gaps.",
+      "bbox": [
+        0.145,
+        0.398,
+        0.69,
+        0.13
+      ],
+      "role": "midground water and shoals",
+      "must_preserve": [
+        "long horizontal ink strokes of varying density",
+        "pale unpainted water channels between shoals",
+        "soft wash pools on sandbars",
+        "thin dark shoreline accents",
+        "low misty edges where land dissolves into water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midground_river_shoals.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_bare_tree_grove",
+      "description": "Isolate the dense foreground cluster of leafless trees rising from the lower center, including trunks, branching crowns, and the brushy shrub-like twigs around the bases.",
+      "bbox": [
+        0.218,
+        0.43,
+        0.335,
+        0.505
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "multiple vertical trunks with varied ink weight",
+        "fine calligraphic branch filaments and twig networks",
+        "dry-brush bark texture on trunks",
+        "dark knots and forked branch joints",
+        "small brushy shrub strokes around lower branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_bare_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_spray",
+      "description": "Isolate the softer willow-like tree mass to the right of the central grove, with hanging foliage strokes, leaning trunks, and drooping branch curtains.",
+      "bbox": [
+        0.5,
+        0.57,
+        0.195,
+        0.24
+      ],
+      "role": "foreground willow tree",
+      "must_preserve": [
+        "drooping vertical foliage strokes",
+        "soft grey wash behind hanging leaves",
+        "slender leaning trunks and branches",
+        "dark-to-light ink variation in foliage clusters",
+        "open gaps between branch curtains"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_willow_spray.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_rock_bank",
+      "description": "Isolate the left foreground rocky bank with layered ledges, pale ground wash, small upright saplings, and dark contour marks at the water’s edge.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.31,
+        0.265
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "stratified rock ledge linework",
+        "dry-brush dark accents on cliff-like edges",
+        "pale wash flats suggesting bank surface",
+        "small thin saplings at the left edge",
+        "horizontal ground strokes leading toward the grove"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_left_foreground_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_rocky_promontory",
+      "description": "Isolate the low rocky promontory and shoreline to the lower right of the tree grove, including the rounded rock shelf, dark undercuts, and adjacent sparse grasses.",
+      "bbox": [
+        0.442,
+        0.775,
+        0.45,
+        0.145
+      ],
+      "role": "foreground rocky shoreline",
+      "must_preserve": [
+        "rounded rock contours and layered striations",
+        "dark dry-brush undercut shadows",
+        "thin shoreline lines extending rightward",
+        "small reed and grass strokes near the water edge",
+        "pale wash transitions around the rock base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_rocky_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

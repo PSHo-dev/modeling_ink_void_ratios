@@ -1,0 +1,162 @@
+{
+  "source_summary": "Horizontal ink-and-light-color Chinese landscape with a left rock cliff, distant low riverbanks, travelers in the foreground, and a right-side grove of pines and autumn trees beside a rocky water edge. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_cliff_wall",
+      "description": "Isolate the large vertical rock cliff on the left, including its stepped upper ledge, pale gray wash face, dark angular contour lines, dry-brush cracks, small vertical grass strokes on the top, and the bare shrub rooted on the lower left face. Exclude the nearby travelers and calligraphy/seal marks.",
+      "bbox": [
+        0.0,
+        0.23,
+        0.24,
+        0.69
+      ],
+      "role": "foreground cliff and rocky hillside",
+      "must_preserve": [
+        "dark broken outline along the cliff rim",
+        "layered horizontal ledge lines",
+        "gray and tan wash texture on the rock face",
+        "dry-brush crack marks and ink scumbles",
+        "small bare shrub branches at lower left",
+        "tiny upright grass strokes on the cliff top"
+      ]
+    },
+    {
+      "name": "distant_riverbank_hills",
+      "description": "Isolate the long, low band of distant hills and riverbank running across the middle distance, with thin horizontal ink lines, soft gray washes, and faint undulating silhouettes fading into open mist.",
+      "bbox": [
+        0.2,
+        0.35,
+        0.46,
+        0.09
+      ],
+      "role": "distant riverbank and hills",
+      "must_preserve": [
+        "thin parallel horizontal shoreline strokes",
+        "soft uneven hill contours",
+        "pale gray wash transitions",
+        "misty broken edges with blank paper gaps",
+        "subtle darker accents along the ridge"
+      ]
+    },
+    {
+      "name": "porter_with_load",
+      "description": "Isolate the walking attendant at lower left carrying a shoulder pole with hanging basket and bundle, including the small hat, gray robe, bent legs, thin pole line, and hanging objects. Exclude the cliff and mounted rider.",
+      "bbox": [
+        0.08,
+        0.67,
+        0.09,
+        0.12
+      ],
+      "role": "foreground traveler figure",
+      "must_preserve": [
+        "fine black figure outline",
+        "small dark hat and head details",
+        "gray robe wash",
+        "diagonal shoulder pole",
+        "rectangular hanging basket",
+        "rounded hanging bundle",
+        "short stepping leg strokes"
+      ]
+    },
+    {
+      "name": "mounted_scholar_on_donkey",
+      "description": "Isolate the seated traveler riding a small donkey, including the peach-colored robe, dark hair knot, saddle forms, donkey ears, legs, tail, and sparse grass-like strokes around the hooves. Exclude the porter and surrounding ground wash except immediately attached hoof marks.",
+      "bbox": [
+        0.2,
+        0.65,
+        0.13,
+        0.13
+      ],
+      "role": "foreground mounted scholar figure",
+      "must_preserve": [
+        "peach robe color accent",
+        "fine facial and hair-knot linework",
+        "curved seated posture",
+        "donkey head, ears, and muzzle lines",
+        "thin leg and hoof strokes",
+        "dark saddle and tail accents",
+        "small dry-brush ground marks under the animal"
+      ]
+    },
+    {
+      "name": "twisted_pine_group",
+      "description": "Isolate the right-center group of leaning pines with tall twisting trunks and clustered needle foliage. Include the main bent trunk, adjacent slender pine trunks, dark starburst needle clusters, bark wash, and expressive branch joints. Exclude the pink-blossomed trees behind it.",
+      "bbox": [
+        0.54,
+        0.1,
+        0.2,
+        0.78
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "twisted tan-gray trunks with dark ink edges",
+        "angular branching structure",
+        "dense starburst pine-needle clusters",
+        "dry-brush bark texture",
+        "leaning silhouette of the main pine",
+        "dark clustered foliage at multiple heights"
+      ]
+    },
+    {
+      "name": "autumn_blossom_grove",
+      "description": "Isolate the grove of slender deciduous trees on the right with bare black branches and pale orange-red autumn leaf dots. Include the tall gray trunk, branching silhouettes, thin saplings, and scattered warm leaf clusters, but exclude the pine needles and foreground rocks where possible.",
+      "bbox": [
+        0.69,
+        0.04,
+        0.3,
+        0.78
+      ],
+      "role": "autumn grove",
+      "must_preserve": [
+        "thin black branch linework",
+        "tall pale gray trunk washes",
+        "forked bare limbs",
+        "pale orange-red dotted foliage",
+        "soft translucent leaf clusters",
+        "fine twig networks and sparse lower branches"
+      ]
+    },
+    {
+      "name": "right_rocky_bank_shrubs",
+      "description": "Isolate the rocky bank beneath the right grove, including rounded stones, low earth mounds, dotted moss texture, small dark shrubs, the tiered conifer-like shrub near center, and pale ground washes. Exclude tree trunks except unavoidable roots at the base.",
+      "bbox": [
+        0.54,
+        0.7,
+        0.43,
+        0.27
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "rounded rock outlines with gray wash",
+        "black moss-dot clusters",
+        "small scrubby twig strokes",
+        "tiered dark conifer-like shrub",
+        "pale tan-gray ground mounds",
+        "dry-brush bank contours",
+        "root-like dark accents at tree bases"
+      ]
+    },
+    {
+      "name": "foreground_water_edge",
+      "description": "Isolate the pale foreground water and shoreline wash across the lower center, including the broad blank water area, soft gray bank contours, rippled dry-brush texture, and scattered stones near the left-center edge. Exclude seals, borders, figures, and the right rocky bank.",
+      "bbox": [
+        0.25,
+        0.78,
+        0.49,
+        0.21
+      ],
+      "role": "foreground water surface and shoreline",
+      "must_preserve": [
+        "broad unpainted water reserve",
+        "soft gray shoreline curves",
+        "horizontal dry-brush ripples",
+        "faint wash gradients",
+        "small rounded stones at left-center",
+        "broken ink accents along the bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 21 Cleveland.jpg",
+  "created_at": "2026-07-23T20:19:24.480964+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

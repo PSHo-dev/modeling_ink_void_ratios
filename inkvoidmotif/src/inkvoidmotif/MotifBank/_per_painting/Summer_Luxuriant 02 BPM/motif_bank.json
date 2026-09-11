@@ -1,0 +1,156 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 02 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:03:33.449781+00:00",
+  "motifs": [
+    {
+      "name": "monumental_left_pine",
+      "description": "Isolate the large old pine dominating the left side: thick twisting trunk, exposed knots, branching limbs, and dense rounded clusters of pine needles extending across the upper-left and middle of the scene. Exclude the pavilion roof, rocks, and nearby shrubs except where pine trunk or needles are visibly part of the tree.",
+      "bbox": [
+        0.035,
+        0.23,
+        0.57,
+        0.43
+      ],
+      "role": "dominant foreground pine",
+      "must_preserve": [
+        "gnarled bark contours and knotted trunk texture",
+        "dark ink outlines around twisting branches",
+        "radiating pine-needle clusters with blue-gray wash accents",
+        "irregular branch rhythm and overhanging horizontal limb"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_monumental_left_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "open_hillside_pavilion",
+      "description": "Isolate the small open pavilion set into the hillside beneath the pine, including its sloped tiled roof, open posts, lattice walls, porch, seated scholar and attendant-like interior figures, and the immediate architectural platform. Exclude surrounding large pine trunk, rocks, and distant shrubs unless structurally attached to the pavilion.",
+      "bbox": [
+        0.215,
+        0.585,
+        0.34,
+        0.16
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry and layered eaves",
+        "parallel roof tile lines",
+        "thin post-and-lattice linework",
+        "small interior scholar figures and red color accents",
+        "delicate ink outlines of platform and steps"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_open_hillside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cliff_outcrop_shrubs",
+      "description": "Isolate the middle rocky ledge behind and to the right of the pavilion, with pale gray boulders, broken cliff planes, scattered shrubs, and small blue-green foliage washes. Exclude the pavilion roof and the large pine branches above.",
+      "bbox": [
+        0.405,
+        0.595,
+        0.2,
+        0.18
+      ],
+      "role": "midground rocky hillside",
+      "must_preserve": [
+        "layered rock contours and pale ink washes",
+        "small shrub clusters with dotted foliage",
+        "blue-green wash accents in bushes",
+        "irregular cliff edge beneath the pavilion area",
+        "fine texture strokes on the sloping ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_cliff_outcrop_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bamboo_grove",
+      "description": "Isolate the tall bamboo grove on the right side, including multiple segmented bamboo stalks, narrow leaves, drooping leafy sprays, and darker clustered foliage near the upper stems. Exclude the adjacent gnarled broadleaf tree as much as possible.",
+      "bbox": [
+        0.725,
+        0.285,
+        0.27,
+        0.44
+      ],
+      "role": "right-side bamboo grove",
+      "must_preserve": [
+        "vertical segmented bamboo culms with dark nodes",
+        "fine tapering bamboo leaves",
+        "overlapping pale and dark ink leaf clusters",
+        "leaning rhythm of the bamboo stalks",
+        "blue-gray wash shadows around foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_gnarled_broadleaf_tree",
+      "description": "Isolate the twisting broadleaf tree on the right foreground slope, with heavy dark curving trunk, branching limbs, dense rounded leaf clusters, and exposed roots merging into the hillside. Avoid the bamboo stalks behind it and the bridge below.",
+      "bbox": [
+        0.57,
+        0.505,
+        0.35,
+        0.34
+      ],
+      "role": "foreground gnarled tree",
+      "must_preserve": [
+        "dark sinuous trunk and branch linework",
+        "dense small leaf clusters drawn as rounded ink marks",
+        "pale wash modeling on bark and roots",
+        "interlaced branch structure crossing the open space",
+        "root forms gripping the sloped bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_gnarled_broadleaf_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "bridge_with_standing_scholar",
+      "description": "Isolate the small wooden bridge in the lower center, including railings, posts, plank deck, underside supports, and the single standing scholar figure on the bridge. Exclude the stream except for minimal contact edges directly under the bridge.",
+      "bbox": [
+        0.44,
+        0.785,
+        0.25,
+        0.085
+      ],
+      "role": "bridge and figure",
+      "must_preserve": [
+        "thin railing and post geometry",
+        "parallel plank lines across the bridge deck",
+        "vertical support posts beneath the bridge",
+        "tiny standing scholar silhouette and robe lines",
+        "delicate ink accents defining the bridge edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_bridge_with_standing_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "curving_stream_and_banks",
+      "description": "Isolate the pale winding stream flowing from beneath the bridge toward the bottom foreground, including curved current lines, narrow banks, adjacent rocks, and wash-textured embankments. Exclude the bridge structure and seals at the far lower margins.",
+      "bbox": [
+        0.395,
+        0.815,
+        0.42,
+        0.16
+      ],
+      "role": "foreground watercourse",
+      "must_preserve": [
+        "long parallel curving water lines",
+        "soft blank-paper water reserve",
+        "dark bank edges and small rock accents",
+        "gray wash on enclosing slopes",
+        "flow direction bending from bridge to lower foreground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_curving_stream_and_banks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

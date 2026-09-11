@@ -1,0 +1,151 @@
+{
+  "source_summary": "Sparse ink Chinese landscape with upper hazy mountains and shore bands, large blank water/mist spaces, a lower riverside grove with a tall leafed tree, low hills, huts, and foreground rocks. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_hazy_mountain_slope",
+      "description": "Isolate the broad pale mountain mass on the upper left, including the sloping ridge descending toward center and the scattered dark cun texture strokes across its face.",
+      "bbox": [
+        0.02,
+        0.17,
+        0.43,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft diluted wash silhouette",
+        "broken dry-brush ridge contours",
+        "scattered dark horizontal texture strokes",
+        "faint descending ravine lines",
+        "mist-softened lower edge"
+      ]
+    },
+    {
+      "name": "upper_central_saddle_ridge",
+      "description": "Isolate the central upper saddle-like ridge and adjoining sloped landform beneath the inscriptions, without including calligraphy or seals.",
+      "bbox": [
+        0.34,
+        0.28,
+        0.35,
+        0.13
+      ],
+      "role": "distant hillside",
+      "must_preserve": [
+        "layered grey wash transitions",
+        "dark broken strokes defining the saddle",
+        "low sloping ridge line",
+        "soft eroded mist edges",
+        "subtle diagonal terrain striations"
+      ]
+    },
+    {
+      "name": "upper_right_distant_peak",
+      "description": "Isolate the small distant peak and low ridge at upper right, separated from the neighboring central hillside and inscription area.",
+      "bbox": [
+        0.66,
+        0.29,
+        0.28,
+        0.08
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "small pointed peak profile",
+        "dark dry-brush crest marks",
+        "thin trailing ridge wash",
+        "pale surrounding atmospheric fade"
+      ]
+    },
+    {
+      "name": "upper_horizontal_shore_bands",
+      "description": "Isolate the horizontal shoreline and water bands across the upper-middle of the painting below the distant mountains.",
+      "bbox": [
+        0.0,
+        0.36,
+        1.0,
+        0.09
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "long flat ink bands",
+        "soft wet-wash water tone",
+        "broken dark shoreline accents",
+        "misty gaps between strokes",
+        "low clustered bank textures near the right"
+      ]
+    },
+    {
+      "name": "right_leafed_tree",
+      "description": "Isolate the tall slender tree on the lower right with arcing branches and clustered dark leaves, including its base where it meets the bank but not the huts.",
+      "bbox": [
+        0.46,
+        0.56,
+        0.5,
+        0.31
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thin pale trunk lines",
+        "forking branch structure",
+        "drooping leaf clusters in dark ink",
+        "short vertical twig strokes on the right",
+        "dry-brush base and root accents"
+      ]
+    },
+    {
+      "name": "lower_left_low_hill_bank",
+      "description": "Isolate the low rounded hill and riverbank behind the huts on the lower left, keeping only the pale landform, contour strokes, and adjacent bank marks.",
+      "bbox": [
+        0.03,
+        0.73,
+        0.48,
+        0.11
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "rounded hill silhouette",
+        "light grey wash modeling",
+        "horizontal contour lines",
+        "dark broken bank strokes",
+        "soft transition into blank water space"
+      ]
+    },
+    {
+      "name": "riverside_hut_cluster",
+      "description": "Isolate the small riverside hut group in the lower-left foreground, including the two roof forms and simple wall posts, without surrounding unrelated tree canopy.",
+      "bbox": [
+        0.08,
+        0.83,
+        0.48,
+        0.08
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "triangular dark thatched roof",
+        "pale low roof to the left",
+        "simple vertical wall supports",
+        "thin ink roof geometry",
+        "soft surrounding wash suggesting mist at the eaves"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the dark rocky foreground bank running along the lower right and center, including scattered stones and layered shoreline strokes.",
+      "bbox": [
+        0.38,
+        0.82,
+        0.59,
+        0.13
+      ],
+      "role": "foreground rocks and bank",
+      "must_preserve": [
+        "irregular dark rock clusters",
+        "dry-brush broken outlines",
+        "layered horizontal shoreline strokes",
+        "pale wash gaps between stones",
+        "rough textured bank edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 10 NPM.jpg",
+  "created_at": "2026-09-03T19:14:12.005889+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

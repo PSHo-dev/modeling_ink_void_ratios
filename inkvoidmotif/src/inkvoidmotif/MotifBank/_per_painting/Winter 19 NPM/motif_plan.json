@@ -1,0 +1,151 @@
+{
+  "source_summary": "A misty snow landscape with central textured mountains, pale distant peaks, foreground trees and rocks, a low snowy crossing, waterline strokes, and a small boat. Red seals, calligraphy, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "central_snow_mountain_mass",
+      "description": "Isolate the large central cluster of snow-capped mountains with multiple rounded peaks and steep vertical cliff faces, including the dense dark texture strokes on the slopes and the pale reserved snow areas.",
+      "bbox": [
+        0.09,
+        0.17,
+        0.53,
+        0.54
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "rounded snow-blanketed peak silhouettes",
+        "dense stippled leaf-like texture marks across upper slopes",
+        "vertical cliff cracks and dry-brush rock striations",
+        "soft grey wash transitions at mountain bases",
+        "unpainted pale snow reserves between inked ridges"
+      ]
+    },
+    {
+      "name": "left_distant_snow_ridge",
+      "description": "Isolate the pale, mist-softened ridge behind the main mountain on the left, with its low undulating outline and faint ink contouring.",
+      "bbox": [
+        0,
+        0.28,
+        0.24,
+        0.35
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin wavering ridge contour",
+        "very light grey wash on the snow face",
+        "soft disappearance into mist at the lower edge",
+        "minimal dry-brush texture near the base"
+      ]
+    },
+    {
+      "name": "right_isolated_mist_peak",
+      "description": "Isolate the solitary pale peak on the right side, standing behind the foreground mist, with a jagged crest and light vertical side contour.",
+      "bbox": [
+        0.66,
+        0.4,
+        0.16,
+        0.32
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "jagged snow crest outline",
+        "pale interior wash",
+        "thin right-side contour line",
+        "mist-softened lower boundary",
+        "small dark texture accents near the lower left edge"
+      ]
+    },
+    {
+      "name": "left_foreground_tree_grove",
+      "description": "Isolate the dense grove at the lower left with layered shrubs, bare trunks, dark foliage clusters, and a few muted reddish-brown leaf accents, including the rocky base beneath it.",
+      "bbox": [
+        0,
+        0.62,
+        0.28,
+        0.25
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "interlaced bare tree trunks and branches",
+        "dark clustered foliage dots",
+        "muted reddish-brown leaf accents",
+        "rocky base with grey washes and angular ink lines",
+        "overlapping shrub masses of varying density"
+      ]
+    },
+    {
+      "name": "foreground_snow_bank_waterlines",
+      "description": "Isolate the low horizontal snowy bank and water surface strokes across the lower left and middle foreground, excluding the large diagonal rock mass and seals.",
+      "bbox": [
+        0,
+        0.82,
+        0.42,
+        0.12
+      ],
+      "role": "foreground water and shore",
+      "must_preserve": [
+        "thin horizontal waterline strokes",
+        "pale snowy negative space between ink lines",
+        "small dark stones on the bank",
+        "broken dry-brush shoreline marks",
+        "subtle grey wash along the water edge"
+      ]
+    },
+    {
+      "name": "center_low_bridge_shrubs",
+      "description": "Isolate the small low bridge or crossing at the center foreground with the arcing line, short vertical supports, and dotted shrubs rising behind it.",
+      "bbox": [
+        0.36,
+        0.72,
+        0.31,
+        0.14
+      ],
+      "role": "foreground bridge and shrubs",
+      "must_preserve": [
+        "curving bridge or crossing line",
+        "short vertical support strokes beneath the crossing",
+        "dense dotted shrub foliage above and behind",
+        "fine twig-like branch lines",
+        "snowy gaps left between shrub clusters"
+      ]
+    },
+    {
+      "name": "diagonal_foreground_rock_slab",
+      "description": "Isolate the large diagonal foreground rock or fallen slab extending from lower center toward the right, with attached smaller rocks and water strokes around its base.",
+      "bbox": [
+        0.28,
+        0.79,
+        0.49,
+        0.14
+      ],
+      "role": "foreground rock",
+      "must_preserve": [
+        "long diagonal dry-brush striations",
+        "pale snow-covered upper plane",
+        "dark angular rock texture at the right end",
+        "cluster of smaller stones along the bottom edge",
+        "thin surrounding water ripples"
+      ]
+    },
+    {
+      "name": "small_right_boat",
+      "description": "Isolate the small empty boat at the lower right floating on the water, including its ribbed interior strokes and the nearby waterline marks.",
+      "bbox": [
+        0.72,
+        0.83,
+        0.14,
+        0.06
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "slender pointed hull shape",
+        "short rib-like interior ink strokes",
+        "small upright post or oar mark",
+        "faint horizontal water ripples around the boat",
+        "delicate dry-brush outline"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 19 NPM.jpg",
+  "created_at": "2026-07-16T23:43:54.898302+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

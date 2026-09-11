@@ -1,0 +1,151 @@
+{
+  "source_summary": "Vertical ink-wash Chinese landscape with monumental cliffs on the right, distant water and hills on the left, small waterside village and bridge, foreground rock terrace, bare trees, and pine/leafy tree clusters. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_craggy_mountain",
+      "description": "Isolate the high rocky summit and sloping ridge at the upper right: stacked rounded boulders, pale cliff faces, dark ink contour accents, scrubby pine marks, and the descending ridge line to the right.",
+      "bbox": [
+        0.397,
+        0.244,
+        0.595,
+        0.183
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "layered rounded rock forms",
+        "dry-brush gray wash texture",
+        "dark broken contour strokes",
+        "small pine silhouettes on ledges",
+        "soft pale mist gaps between rock tiers"
+      ]
+    },
+    {
+      "name": "main_vertical_cliff",
+      "description": "Isolate the tall central cliff wall below the upper ridge, including the sheer vertical face, left buttress, shadowed ledges, and broad pale rock planes; exclude foreground trees as much as possible.",
+      "bbox": [
+        0.282,
+        0.375,
+        0.5,
+        0.405
+      ],
+      "role": "dominant cliff mass",
+      "must_preserve": [
+        "vertical ink wash streaks",
+        "dark ledge marks along cliff edges",
+        "pale unpainted rock planes",
+        "dry-brush texture on cliff face",
+        "irregular fractured contour linework"
+      ]
+    },
+    {
+      "name": "distant_conical_hill",
+      "description": "Isolate the small rounded distant hill on the left across the water, with horizontal ink bands, soft shoreline haze, and faint surrounding mist.",
+      "bbox": [
+        0.0,
+        0.535,
+        0.305,
+        0.145
+      ],
+      "role": "distant hill and misty water backdrop",
+      "must_preserve": [
+        "horizontal brush striations on hill",
+        "soft blurred base fading into water",
+        "low gray wash reflection marks",
+        "open mist edges around the hill"
+      ]
+    },
+    {
+      "name": "waterside_village_cluster",
+      "description": "Isolate the small village and reeds at the far shore beneath the cliff: low rooflines, tiny rectangular buildings, shoreline strokes, and clumps of grasses or willows.",
+      "bbox": [
+        0.145,
+        0.672,
+        0.225,
+        0.066
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny roof geometry",
+        "thin parallel building lines",
+        "reed and willow strokes behind roofs",
+        "flat shoreline ink marks",
+        "delicate scale contrast against cliff"
+      ]
+    },
+    {
+      "name": "low_plank_bridge",
+      "description": "Isolate the short low bridge or walkway near the lower left-center water, with plank deck, vertical supports, and surrounding horizontal water lines.",
+      "bbox": [
+        0.185,
+        0.761,
+        0.27,
+        0.07
+      ],
+      "role": "bridge over water",
+      "must_preserve": [
+        "thin plank lines",
+        "small vertical pier strokes",
+        "light ink reflection marks",
+        "open water gaps around the bridge",
+        "minimal dry-brush shoreline accents"
+      ]
+    },
+    {
+      "name": "foreground_bare_tree_grove",
+      "description": "Isolate the central foreground grove of leafless trees rising in front of the cliff, including clustered trunks, forked branches, exposed roots, and small dark ink nodes.",
+      "bbox": [
+        0.48,
+        0.555,
+        0.25,
+        0.34
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "fine branching linework",
+        "multiple slender trunks",
+        "dark knots and branch tips",
+        "root flare at base",
+        "contrast between sharp ink branches and pale cliff wash behind"
+      ]
+    },
+    {
+      "name": "right_pine_and_leafy_trees",
+      "description": "Isolate the right-side tree group growing beside rocks: angular pine branches with needle clusters, drooping leafy foliage, thin trunks, and adjacent rounded boulders.",
+      "bbox": [
+        0.748,
+        0.515,
+        0.242,
+        0.33
+      ],
+      "role": "foreground tree and rock cluster",
+      "must_preserve": [
+        "spiky pine needle clusters",
+        "curving branch structure",
+        "drooping leaf strokes",
+        "slender vertical trunks",
+        "dark rock-edge accents beside foliage"
+      ]
+    },
+    {
+      "name": "foreground_rock_terrace_and_stones",
+      "description": "Isolate the lower foreground rocky terrace with layered ledges, large rounded blocks, scattered small stones in open ground, and pale wash shadows.",
+      "bbox": [
+        0.16,
+        0.82,
+        0.8,
+        0.16
+      ],
+      "role": "foreground rocks and ground plane",
+      "must_preserve": [
+        "stepped rock ledge geometry",
+        "dry-brush shaded undersides",
+        "dark chipped contour marks",
+        "scattered pebble shapes",
+        "horizontal ground and water wash lines"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 03 NPM.jpg",
+  "created_at": "2026-08-05T05:19:50.308615+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

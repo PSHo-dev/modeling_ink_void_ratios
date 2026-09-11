@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 16 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:58:54.391296+00:00",
+  "motifs": [
+    {
+      "name": "left_bamboo_marsh_bank",
+      "description": "Isolate the low bamboo thicket and marshy shoreline at the left middle, including clustered bamboo stems, fine leaf sprays, low grasses, small shoreline rocks, and pale horizontal water-wash around the bank.",
+      "bbox": [
+        0.0,
+        0.315,
+        0.41,
+        0.165
+      ],
+      "role": "background shoreline vegetation",
+      "must_preserve": [
+        "fine wiry bamboo leaf linework",
+        "soft gray ink wash under the thicket",
+        "short reed and grass strokes along the water edge",
+        "small dark rock accents",
+        "misty horizontal shoreline washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_bamboo_marsh_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_misty_water_channel",
+      "description": "Isolate the quiet receding water channel and distant reed line in the center, with scattered horizontal ink dashes suggesting ripples and a soft atmospheric opening between the left bank and right trees.",
+      "bbox": [
+        0.29,
+        0.385,
+        0.36,
+        0.12
+      ],
+      "role": "misty middle-ground water",
+      "must_preserve": [
+        "faint horizontal ripple strokes",
+        "soft broken reed marks",
+        "pale gray wash gradations",
+        "blurred mist edges",
+        "open negative-space water shape"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_misty_water_channel.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lotus_pond_surface",
+      "description": "Isolate the broad lotus-covered pond surface across the lower left and center, including floating leaves, buds, blossoms, pale blue-green wash accents, and scattered gray submerged leaf shadows.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.47,
+        0.39
+      ],
+      "role": "foreground water and lotus surface",
+      "must_preserve": [
+        "rounded lotus pad outlines",
+        "pale blue-green color accents",
+        "small flower and bud linework",
+        "light gray submerged leaf washes",
+        "irregular spacing of floating pads"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_lotus_pond_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lakeside_pavilion_with_figures",
+      "description": "Isolate the small waterside pavilion partially sheltered by rocks, including the sloped tiled roof, posts, railing, interior seated scholar figure, and small attendant-like figure near the left post.",
+      "bbox": [
+        0.26,
+        0.625,
+        0.39,
+        0.145
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "dark curved roof-tile pattern",
+        "warm tan roof wash",
+        "thin vertical pavilion posts",
+        "delicate railing geometry",
+        "tiny human figures with pale robe color accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_lakeside_pavilion_with_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "towering_broadleaf_trees",
+      "description": "Isolate the tall broadleaf trees rising on the right, including multiple pale trunks, branching limbs, and repeated rounded leaf clusters from the midsection to the upper right canopy.",
+      "bbox": [
+        0.405,
+        0.245,
+        0.57,
+        0.59
+      ],
+      "role": "dominant vertical trees",
+      "must_preserve": [
+        "pale trunk washes with dark contour lines",
+        "segmented bark marks",
+        "rounded leaf-cluster outlines",
+        "branching structure crossing between trunks",
+        "light ink foliage texture without filling the interiors"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_towering_broadleaf_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rockery_and_bamboo",
+      "description": "Isolate the dramatic garden rockery on the right with adjacent dark bamboo sprays, including perforated rock forms, heavy black ink cavities, angular contours, gray washes, and drooping bamboo leaves.",
+      "bbox": [
+        0.43,
+        0.55,
+        0.57,
+        0.29
+      ],
+      "role": "foreground rockery and bamboo screen",
+      "must_preserve": [
+        "bold black rock hollows",
+        "layered gray wash texture",
+        "jagged scholar-rock contours",
+        "thin bamboo stems and needle leaves",
+        "contrast between dense bamboo and pale stone surfaces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_rockery_and_bamboo.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_sloping_bank_rocks",
+      "description": "Isolate the lower sloping earthen bank and foreground rocks, including the curved embankment, grasses, dry-brush texture, dark rock crevices, and pale wash transitions into the pond.",
+      "bbox": [
+        0.22,
+        0.775,
+        0.72,
+        0.225
+      ],
+      "role": "foreground terrain and anchoring rocks",
+      "must_preserve": [
+        "sweeping diagonal bank contour",
+        "dry-brush earth texture",
+        "tufts of sharp grass strokes",
+        "dark crevices in foreground rocks",
+        "soft gray-to-tan wash transitions"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_sloping_bank_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

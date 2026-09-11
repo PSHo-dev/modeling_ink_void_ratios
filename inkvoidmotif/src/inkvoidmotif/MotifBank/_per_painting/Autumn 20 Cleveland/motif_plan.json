@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink landscape with pale washes and fine dry linework: layered mountains in the upper half, a central cliff massif, distant misty peaks, winding watercourses with wooded banks, small architectural elements, and foreground rock-and-tree groups. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_craggy_peak_group",
+      "description": "Tall left-side mountain cluster with steep rounded summits and descending ridges, isolated from the blank sky and lower cliff face.",
+      "bbox": [
+        0.0,
+        0.135,
+        0.36,
+        0.245
+      ],
+      "role": "mountain",
+      "must_preserve": [
+        "fine dry contour lines following the mountain folds",
+        "arched ridge strokes and layered wrinkle texture",
+        "pale ink wash at the rear left peak silhouette",
+        "small dark tree and brush accents along the ridgelines",
+        "soft misty fading at the lower edges"
+      ]
+    },
+    {
+      "name": "central_misty_back_peaks",
+      "description": "Distant central background peaks seen through mist between the left and right mountains.",
+      "bbox": [
+        0.35,
+        0.185,
+        0.34,
+        0.16
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft grey wash silhouettes of far peaks",
+        "blurred mist edges with no hard outlines in the upper forms",
+        "light dry contour marks on the nearer central ridge",
+        "open negative space separating the peaks",
+        "subtle tonal transition from pale wash to bare paper"
+      ]
+    },
+    {
+      "name": "right_rounded_mountain",
+      "description": "Rounded upper-right mountain mass with sloping shoulders and sparse textural strokes, separated from the village and water below.",
+      "bbox": [
+        0.63,
+        0.21,
+        0.35,
+        0.16
+      ],
+      "role": "mountain",
+      "must_preserve": [
+        "curved contour lines wrapping the dome-like summit",
+        "short broken texture strokes on the upper ridge",
+        "pale wash and open mist at the base",
+        "thin descending slope lines toward the center valley",
+        "small dark accents suggesting shrubs or trees on the crest"
+      ]
+    },
+    {
+      "name": "central_cliff_massif",
+      "description": "Large central rocky cliff platform with vertical faces, broken ledges, and a narrow ravine descending from the mountains.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.63,
+        0.245
+      ],
+      "role": "foreground cliff and ravine",
+      "must_preserve": [
+        "vertical cliff striations and long dry ink cracks",
+        "blocky rock ledges with angular outlines",
+        "dark crevice accents in the central ravine",
+        "rounded top ridges with layered wrinkle strokes",
+        "small shrubs and sparse tree marks attached to cliff edges"
+      ]
+    },
+    {
+      "name": "right_bank_village_bridge",
+      "description": "Small village and bridge group on the middle-right bank, including houses, a low bridge or railing, trees, and adjacent shoreline.",
+      "bbox": [
+        0.67,
+        0.34,
+        0.33,
+        0.115
+      ],
+      "role": "village and bridge",
+      "must_preserve": [
+        "tiny roof geometry with eaves and rectangular wall lines",
+        "horizontal bridge or railing segments crossing the bank",
+        "slender bare trees and clustered shrubs around the structures",
+        "light waterline strokes beside the bank",
+        "delicate scale contrast between architecture and surrounding landscape"
+      ]
+    },
+    {
+      "name": "winding_river_islands",
+      "description": "Broad winding water surface through the middle and lower painting, with curving banks, rocky islets, and sparse riverside vegetation.",
+      "bbox": [
+        0.0,
+        0.51,
+        0.84,
+        0.31
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "large unpainted water areas bounded by thin ink shorelines",
+        "curving S-shaped river course receding downward",
+        "low rocky islets with dry texture strokes",
+        "small reed and grass marks along the banks",
+        "scattered delicate tree clusters rising from islands and peninsulas"
+      ]
+    },
+    {
+      "name": "lower_shore_pavilion",
+      "description": "Small thatched riverside pavilion or hut near the lower center-left, with nearby shoreline, rocks, and thin trees.",
+      "bbox": [
+        0.3,
+        0.775,
+        0.27,
+        0.09
+      ],
+      "role": "pavilion",
+      "must_preserve": [
+        "simple sloped roof silhouette with light eave lines",
+        "short vertical support posts beneath the roof",
+        "surrounding low rocks and bank contour lines",
+        "nearby fine sapling and bamboo-like strokes",
+        "quiet open water space around the pavilion"
+      ]
+    },
+    {
+      "name": "lower_right_foreground_rocks_trees",
+      "description": "Foreground rock cluster at the lower right with rounded boulders, shoreline ledges, and tall sparse trees at the edge.",
+      "bbox": [
+        0.56,
+        0.8,
+        0.39,
+        0.13
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "rounded boulder contours with layered wrinkle texture",
+        "dark crevice marks at rock bases",
+        "thin bare tree trunks with small branching twigs",
+        "small leafy shrub accents near the rocks",
+        "foreground shoreline lines anchoring the cluster"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 20 Cleveland.jpg",
+  "created_at": "2026-08-05T05:14:36.123099+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

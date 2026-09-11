@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 15 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:23:34.453565+00:00",
+  "motifs": [
+    {
+      "name": "central_needle_peak",
+      "description": "Isolate the dominant upper central mountain: steep craggy peak with attached dark ridges, pale side slopes, and small pine clusters along the crest and ledges.",
+      "bbox": [
+        0.36,
+        0.1,
+        0.47,
+        0.22
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "dry-brush contour lines on the vertical cliffs",
+        "layered ink washes forming rounded ridges",
+        "dark textured strokes in the ravines",
+        "tiny crest pines and dotted foliage",
+        "soft mist transitions at the mountain foot"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_needle_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_mist_river_flats",
+      "description": "Isolate the broad upper river plain beneath the mountains, including low horizontal shorelines, marshy banks, faint tree rows, small bridge-like crossing, and tiny boat/mast marks.",
+      "bbox": [
+        0.02,
+        0.245,
+        0.85,
+        0.075
+      ],
+      "role": "misty water plain",
+      "must_preserve": [
+        "thin horizontal waterline brushwork",
+        "pale wash edges fading into mist",
+        "small dark reed and tree dots",
+        "delicate bridge or crossing strokes near the center",
+        "broken dry-brush texture on exposed shoals"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_mist_river_flats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_terraced_hillside_pines",
+      "description": "Isolate the middle-right rocky hillside and riverbank with terraced paths, pine groves, small roofed structures, and layered slope washes.",
+      "bbox": [
+        0.55,
+        0.315,
+        0.44,
+        0.2
+      ],
+      "role": "middle-ground hillside village",
+      "must_preserve": [
+        "angular roof geometry of the small buildings",
+        "dark pine trunks and clustered needle marks",
+        "stepped terrace lines along the slope",
+        "rounded rock texture with gray wash",
+        "pale peach accents on walls and roofs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_terraced_hillside_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_wooded_islet_house",
+      "description": "Isolate the central rocky islet: rounded boulders, dense vertical pines, grasses, and a small pale-walled house set near the water.",
+      "bbox": [
+        0.3,
+        0.47,
+        0.36,
+        0.16
+      ],
+      "role": "wooded island foreground",
+      "must_preserve": [
+        "dark pine silhouettes with individual needle clusters",
+        "rounded boulder washes and stippled rock shadows",
+        "small roof and wall geometry of the house",
+        "fine shoreline grasses and reeds",
+        "soft water edge around the islet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_wooded_islet_house.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_water_boats",
+      "description": "Isolate the open middle river surface with several tiny boats, fishermen silhouettes, faint ripples, and sparse shoreline grasses.",
+      "bbox": [
+        0.03,
+        0.59,
+        0.66,
+        0.13
+      ],
+      "role": "water with boats",
+      "must_preserve": [
+        "miniature boat outlines with curved hulls",
+        "tiny standing or seated figure strokes",
+        "very light ripple lines in open water",
+        "subtle blank-water spacing",
+        "small reeds and shore tufts at the edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_middle_water_boats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_bridge_and_pond",
+      "description": "Isolate the lower-left pond crossing with a low arched bridge, flanking banks, sparse flowering shrubs, water margins, and dark rock clusters.",
+      "bbox": [
+        0.02,
+        0.795,
+        0.58,
+        0.105
+      ],
+      "role": "bridge and pond",
+      "must_preserve": [
+        "simple arched bridge outline and deck lines",
+        "pale water wash around the bridge",
+        "low bank contours and grass strokes",
+        "small flowering branch accents",
+        "dark clustered rock texture at both banks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_bridge_and_pond.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

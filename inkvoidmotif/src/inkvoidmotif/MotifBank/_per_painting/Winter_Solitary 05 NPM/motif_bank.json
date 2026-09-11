@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 05 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:11:41.686927+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_pine_mountain",
+      "description": "Isolate the pale ocher upper-left and upper-center mountain mass with sheer cliff faces, rounded plateaus, winding slopes, and clustered dark pine dots running along ridgelines and paths. Exclude the inscription and red seals on the upper right.",
+      "bbox": [
+        0.0,
+        0.09,
+        0.54,
+        0.29
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ocher wash over broad cliff planes",
+        "thin contour lines defining ledges and vertical drops",
+        "dark stippled pine clusters and needle-like tree marks",
+        "winding diagonal ridge path across the mountain",
+        "mist-softened edges where the mountain fades into background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_pine_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_pine_saddle_ridge",
+      "description": "Isolate the middle-left saddle ridge descending from the high mountains, with a narrow pass, dark pine bands, exposed pale rock surfaces, and a small misty ravine separating upper and lower forms.",
+      "bbox": [
+        0.02,
+        0.3,
+        0.47,
+        0.18
+      ],
+      "role": "hillside ridge",
+      "must_preserve": [
+        "dense dark pine strokes following the crest",
+        "broken ink contour along the rocky edge",
+        "pale wash transitions suggesting mist-filled gaps",
+        "small scattered tree marks on the slope",
+        "irregular cliff silhouette"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_mid_left_pine_saddle_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_far_mountains",
+      "description": "Isolate the broad, pale distant mountain range across the middle-right background, including its jagged upper contour, shallow overlapping peaks, and hazy wash below. Exclude calligraphy and seals above.",
+      "bbox": [
+        0.49,
+        0.33,
+        0.51,
+        0.27
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint ocher wash of receding cliffs",
+        "thin grey-brown outline of the ridge",
+        "overlapping interior peak contours",
+        "soft mist edge at the lower boundary",
+        "subtle horizontal water-wash bands near the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_misty_far_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_gnarled_trees",
+      "description": "Isolate the dense foreground grove on the lower left: large twisted trunks, spreading branches, tangled leaf clusters, underbrush, and rock bases. Keep the grove as a reusable foreground mass without the boat.",
+      "bbox": [
+        0.0,
+        0.51,
+        0.61,
+        0.35
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "gnarled dark trunk linework",
+        "dense crisscross leaf and twig texture",
+        "exposed roots and rock outlines",
+        "tufts of vertical grasses at the base",
+        "layered ink washes inside the foliage masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_foreground_gnarled_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_tall_bamboo_grove",
+      "description": "Isolate the tall vertical grove at lower right, with slender clustered trunks, drooping branchlets, sparse leaf strokes, and dark grass tufts around the base.",
+      "bbox": [
+        0.68,
+        0.52,
+        0.29,
+        0.36
+      ],
+      "role": "bamboo grove",
+      "must_preserve": [
+        "long vertical trunk strokes with varied ink density",
+        "bending top branches and drooping leaves",
+        "thin lateral branch lines",
+        "dark base shadows and grass tufts",
+        "transparent wash that lets the background water remain airy"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_tall_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

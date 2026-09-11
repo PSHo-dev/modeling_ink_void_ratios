@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 06 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:06:01.712422+00:00",
+  "motifs": [
+    {
+      "name": "upper_craggy_mountains",
+      "description": "The broad upper band of jagged, layered mountain and hillside forms spanning the left and center, including the large central peak, smaller adjoining ridges, clustered boulders, and pale receding crags.",
+      "bbox": [
+        0.0,
+        0.205,
+        0.775,
+        0.225
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "dry ink contour lines defining crag profiles",
+        "cun-style rubbing and textured washes on rock faces",
+        "dark crevice accents between overlapping peaks",
+        "soft fading edges where mountains dissolve into mist",
+        "small lower boulder clusters at the mountain base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_craggy_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pine_grove",
+      "description": "Dense foreground pine cluster at the lower left, with dark horizontal needle masses, thin trunks, and drooping ink strokes.",
+      "bbox": [
+        0.0,
+        0.545,
+        0.255,
+        0.285
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "dark stacked pine-needle brushstrokes",
+        "vertical and slightly leaning trunks",
+        "hanging ink drips beneath foliage",
+        "fine twig lines around the grove",
+        "uneven base where pines merge with rocks and ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_leafless_trees",
+      "description": "Tall central leafless trees with slender vertical trunks and a network of fine bare branches rising in front of the hut area.",
+      "bbox": [
+        0.19,
+        0.43,
+        0.325,
+        0.43
+      ],
+      "role": "foreground tree screen",
+      "must_preserve": [
+        "long straight trunk linework",
+        "fine branching twigs and forked tips",
+        "light dry-brush bark texture",
+        "transparent ink washes on trunks",
+        "delicate overlap of branches without including the hut walls as part of the motif"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_leafless_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_hut",
+      "description": "Small simple hut or pavilion partly concealed among the foreground trees, including its angular roof, rectangular wall lines, doorway/window marks, and adjacent light structural strokes.",
+      "bbox": [
+        0.285,
+        0.735,
+        0.23,
+        0.13
+      ],
+      "role": "pavilion dwelling",
+      "must_preserve": [
+        "triangular roof geometry",
+        "straight wall and post linework",
+        "small doorway and window strokes",
+        "pale ink construction lines",
+        "partial concealment by nearby trunks while excluding the trunks as separate tree motifs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_hidden_hut.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_solitary_cliff",
+      "description": "Large freestanding rock cliff on the lower right, with a rounded massive face, darker base, and angular cap rocks.",
+      "bbox": [
+        0.735,
+        0.59,
+        0.265,
+        0.23
+      ],
+      "role": "foreground cliff rock",
+      "must_preserve": [
+        "bold outer contour of the cliff mass",
+        "angular top boulders",
+        "dry-brush rock texture and vertical striations",
+        "dark wash at the lower cleft",
+        "soft blank negative space around the rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_solitary_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_shore",
+      "description": "Low foreground rocky bank and shoreline ledges across the lower center and left, including scattered boulders, root-like ground lines, and faint horizontal water or shore strokes near the bottom.",
+      "bbox": [
+        0.0,
+        0.775,
+        0.84,
+        0.18
+      ],
+      "role": "foreground rocks and water edge",
+      "must_preserve": [
+        "irregular low boulder outlines",
+        "dry-brush shading on rock tops",
+        "thin horizontal waterline strokes",
+        "dark crevice accents under rocks",
+        "uneven ground contour tying the foreground together"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

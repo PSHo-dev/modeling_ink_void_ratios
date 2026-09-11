@@ -1,0 +1,151 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with a rocky pine-shaded retreat, open pavilion with scholar figures, bamboo and gnarled trees on the right, a small bridge over a curving stream, distant bird flocks, and extensive ink linework with pale blue-gray washes. Calligraphy, seals, borders, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "monumental_left_pine",
+      "description": "Isolate the large old pine dominating the left side: thick twisting trunk, exposed knots, branching limbs, and dense rounded clusters of pine needles extending across the upper-left and middle of the scene. Exclude the pavilion roof, rocks, and nearby shrubs except where pine trunk or needles are visibly part of the tree.",
+      "bbox": [
+        0.035,
+        0.23,
+        0.57,
+        0.43
+      ],
+      "role": "dominant foreground pine",
+      "must_preserve": [
+        "gnarled bark contours and knotted trunk texture",
+        "dark ink outlines around twisting branches",
+        "radiating pine-needle clusters with blue-gray wash accents",
+        "irregular branch rhythm and overhanging horizontal limb"
+      ]
+    },
+    {
+      "name": "open_hillside_pavilion",
+      "description": "Isolate the small open pavilion set into the hillside beneath the pine, including its sloped tiled roof, open posts, lattice walls, porch, seated scholar and attendant-like interior figures, and the immediate architectural platform. Exclude surrounding large pine trunk, rocks, and distant shrubs unless structurally attached to the pavilion.",
+      "bbox": [
+        0.215,
+        0.585,
+        0.34,
+        0.16
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry and layered eaves",
+        "parallel roof tile lines",
+        "thin post-and-lattice linework",
+        "small interior scholar figures and red color accents",
+        "delicate ink outlines of platform and steps"
+      ]
+    },
+    {
+      "name": "left_rocky_bank_with_grasses",
+      "description": "Isolate the rugged left foreground bank and cliff base with rounded rocks, cave-like hollows, tufts of grass, and wash-textured slopes beneath the pine. Avoid including the pavilion architecture and the pine crown; retain only rocks, ground, and low vegetation.",
+      "bbox": [
+        0.0,
+        0.555,
+        0.27,
+        0.31
+      ],
+      "role": "foreground rock bank",
+      "must_preserve": [
+        "soft gray ink wash in rock masses",
+        "dark crevice outlines and hollow openings",
+        "short grass strokes and stippled ground texture",
+        "rounded boulder contours at the lower-left edge",
+        "transition from steep rock face to sloped earth"
+      ]
+    },
+    {
+      "name": "central_cliff_outcrop_shrubs",
+      "description": "Isolate the middle rocky ledge behind and to the right of the pavilion, with pale gray boulders, broken cliff planes, scattered shrubs, and small blue-green foliage washes. Exclude the pavilion roof and the large pine branches above.",
+      "bbox": [
+        0.405,
+        0.595,
+        0.2,
+        0.18
+      ],
+      "role": "midground rocky hillside",
+      "must_preserve": [
+        "layered rock contours and pale ink washes",
+        "small shrub clusters with dotted foliage",
+        "blue-green wash accents in bushes",
+        "irregular cliff edge beneath the pavilion area",
+        "fine texture strokes on the sloping ground"
+      ]
+    },
+    {
+      "name": "right_bamboo_grove",
+      "description": "Isolate the tall bamboo grove on the right side, including multiple segmented bamboo stalks, narrow leaves, drooping leafy sprays, and darker clustered foliage near the upper stems. Exclude the adjacent gnarled broadleaf tree as much as possible.",
+      "bbox": [
+        0.725,
+        0.285,
+        0.27,
+        0.44
+      ],
+      "role": "right-side bamboo grove",
+      "must_preserve": [
+        "vertical segmented bamboo culms with dark nodes",
+        "fine tapering bamboo leaves",
+        "overlapping pale and dark ink leaf clusters",
+        "leaning rhythm of the bamboo stalks",
+        "blue-gray wash shadows around foliage"
+      ]
+    },
+    {
+      "name": "right_gnarled_broadleaf_tree",
+      "description": "Isolate the twisting broadleaf tree on the right foreground slope, with heavy dark curving trunk, branching limbs, dense rounded leaf clusters, and exposed roots merging into the hillside. Avoid the bamboo stalks behind it and the bridge below.",
+      "bbox": [
+        0.57,
+        0.505,
+        0.35,
+        0.34
+      ],
+      "role": "foreground gnarled tree",
+      "must_preserve": [
+        "dark sinuous trunk and branch linework",
+        "dense small leaf clusters drawn as rounded ink marks",
+        "pale wash modeling on bark and roots",
+        "interlaced branch structure crossing the open space",
+        "root forms gripping the sloped bank"
+      ]
+    },
+    {
+      "name": "bridge_with_standing_scholar",
+      "description": "Isolate the small wooden bridge in the lower center, including railings, posts, plank deck, underside supports, and the single standing scholar figure on the bridge. Exclude the stream except for minimal contact edges directly under the bridge.",
+      "bbox": [
+        0.44,
+        0.785,
+        0.25,
+        0.085
+      ],
+      "role": "bridge and figure",
+      "must_preserve": [
+        "thin railing and post geometry",
+        "parallel plank lines across the bridge deck",
+        "vertical support posts beneath the bridge",
+        "tiny standing scholar silhouette and robe lines",
+        "delicate ink accents defining the bridge edges"
+      ]
+    },
+    {
+      "name": "curving_stream_and_banks",
+      "description": "Isolate the pale winding stream flowing from beneath the bridge toward the bottom foreground, including curved current lines, narrow banks, adjacent rocks, and wash-textured embankments. Exclude the bridge structure and seals at the far lower margins.",
+      "bbox": [
+        0.395,
+        0.815,
+        0.42,
+        0.16
+      ],
+      "role": "foreground watercourse",
+      "must_preserve": [
+        "long parallel curving water lines",
+        "soft blank-paper water reserve",
+        "dark bank edges and small rock accents",
+        "gray wash on enclosing slopes",
+        "flow direction bending from bridge to lower foreground"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 02 BPM.jpg",
+  "created_at": "2026-09-03T21:01:59.785020+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

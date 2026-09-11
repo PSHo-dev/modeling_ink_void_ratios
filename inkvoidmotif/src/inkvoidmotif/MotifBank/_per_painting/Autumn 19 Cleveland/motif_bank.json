@@ -1,0 +1,161 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 19 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:16:04.274687+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_mist_wash",
+      "description": "Pale horizontal atmospheric wash in the upper-left and central sky area, with soft gray-green ink bands and diffuse mist edges; isolate only the empty mist field, excluding the inscription at upper right.",
+      "bbox": [
+        0.02,
+        0.05,
+        0.68,
+        0.28
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "soft horizontal wash gradations",
+        "faint gray-green tonal layering",
+        "blurred mist edges",
+        "subtle uneven ink pooling without paper border or calligraphy"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_mist_wash.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_distance_reed_islets",
+      "description": "Scattered low winter reed and shrub clumps emerging from broad pale mist bands across the middle distance.",
+      "bbox": [
+        0.03,
+        0.33,
+        0.9,
+        0.23
+      ],
+      "role": "distant shrubs and mist",
+      "must_preserve": [
+        "fine dry-brush twig clusters",
+        "low rounded shrub silhouettes",
+        "alternating pale blank mist lanes",
+        "soft gray shadow washes beneath reed patches",
+        "delicate sparse branch tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_mid_distance_reed_islets.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_winter_grove",
+      "description": "Dense group of tall leafless trees on the left foreground slope, including trunks, exposed roots, and interlaced bare branches.",
+      "bbox": [
+        0.04,
+        0.51,
+        0.54,
+        0.36
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "dark tapering trunk linework",
+        "intricate web of bare twigs",
+        "pale gray-brown bark washes",
+        "root flares at the bank",
+        "small dry grass strokes along the ground",
+        "layered overlapping branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_foreground_winter_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_receding_tree_slope",
+      "description": "Right-side midground slope with a screen of slim vertical trees, dark shrub masses, and terraced grassy contours receding into the distance.",
+      "bbox": [
+        0.67,
+        0.59,
+        0.31,
+        0.18
+      ],
+      "role": "hillside and distant trees",
+      "must_preserve": [
+        "parallel pale tree trunks",
+        "dark rounded shrub accents",
+        "curving contour lines of the slope",
+        "short grass hatch marks",
+        "subtle blue-gray and tan washes",
+        "receding layered bank geometry"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_receding_tree_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "eroded_stream_bank",
+      "description": "Cut earthen bank beside the stream in the lower middle-right, with exposed vertical faces, ridges, grasses, and pale water edge.",
+      "bbox": [
+        0.42,
+        0.76,
+        0.48,
+        0.13
+      ],
+      "role": "stream bank",
+      "must_preserve": [
+        "broken ink outline along the bank lip",
+        "vertical striations on eroded earth",
+        "warm tan-orange color accents",
+        "short reed strokes at waterline",
+        "gray wash shadows under the ledge",
+        "irregular cracked bank profile"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_eroded_stream_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rock_outcrop",
+      "description": "Large dark rocky outcrop and low bank at the bottom center-left, with layered brush-textured stone forms and tufts of water grass.",
+      "bbox": [
+        0.13,
+        0.84,
+        0.5,
+        0.11
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "heavy dark ink texture strokes",
+        "rounded layered rock contours",
+        "wet-to-dry brush transitions",
+        "small reed tufts around the base",
+        "gray-green washes on rock planes",
+        "irregular foreground shoreline edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_rock_outcrop.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "solitary_scholar_with_staff",
+      "description": "Single robed scholar standing on the pale stream bank at lower right, holding a slender staff, with blue-gray outer robe and light inner garment.",
+      "bbox": [
+        0.72,
+        0.8,
+        0.14,
+        0.1
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "small red face accent",
+        "blue-gray robe wash",
+        "cream inner robe folds",
+        "thin black staff line",
+        "delicate contour lines of sleeves and hem",
+        "standing posture facing left across the water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_solitary_scholar_with_staff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

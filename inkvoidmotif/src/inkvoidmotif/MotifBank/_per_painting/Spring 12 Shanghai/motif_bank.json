@@ -1,0 +1,160 @@
+{
+  "source": "../../../../../../Input_Images/Spring 12 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:46:16.012846+00:00",
+  "motifs": [
+    {
+      "name": "background_grand_mountain",
+      "description": "Large distant mountain mass occupying the upper-right background, with rounded overlapping peaks, pale ink wash, darker cun texture strokes, and a soft misty base.",
+      "bbox": [
+        0.4,
+        0.14,
+        0.6,
+        0.24
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "rounded layered peak silhouettes",
+        "dense black-gray texture strokes on ridges",
+        "soft diluted wash transitions",
+        "mist-softened lower edge",
+        "subtle tonal variations across the mountain folds"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_background_grand_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_slope_pine_grove",
+      "description": "Cluster of dark pines rooted on a midground rocky terrace, with surrounding rounded rocks and a narrow pale path or watercourse cutting through the slope.",
+      "bbox": [
+        0.2,
+        0.32,
+        0.4,
+        0.2
+      ],
+      "role": "pine grove on hillside",
+      "must_preserve": [
+        "needle-like pine foliage clusters",
+        "dark upright trunks with fine branch lines",
+        "layered rounded rock mounds",
+        "dry-brush moss and texture dots",
+        "narrow pale winding passage through the rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_mid_slope_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "cliffside_pavilion_hamlet",
+      "description": "Small pavilion and house group tucked into the right midground hillside, with angled roofs, railings, pale walls, nearby leafless trees, and red blossom accents.",
+      "bbox": [
+        0.64,
+        0.38,
+        0.33,
+        0.13
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry with muted blue-gray roof washes",
+        "thin architectural linework for walls and railings",
+        "small adjoining roof forms",
+        "bare branching trees around the buildings",
+        "red blossom or berry dots as color accents",
+        "rocky hillside cradle around the structures"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_cliffside_pavilion_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winding_stair_ravine",
+      "description": "Narrow ravine descending through the right-center rocks, marked by a stepped path, dark bare trees, and steep enclosing rock walls.",
+      "bbox": [
+        0.56,
+        0.45,
+        0.25,
+        0.18
+      ],
+      "role": "mountain path and ravine",
+      "must_preserve": [
+        "small repeated stair treads",
+        "thin dark leafless tree branches",
+        "compressed vertical ravine space",
+        "dark shaded rock clefts",
+        "soft wash transitions into surrounding mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_winding_stair_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_reed_belt",
+      "description": "Horizontal central band of pale mist and dense vertical reeds or bamboo-like vegetation separating the middle hills from the lower valley.",
+      "bbox": [
+        0,
+        0.59,
+        0.73,
+        0.12
+      ],
+      "role": "mist and reeds",
+      "must_preserve": [
+        "white unpainted mist band with irregular edges",
+        "dense vertical reed strokes",
+        "soft gray-green wash behind vegetation",
+        "dotted and broken brush tips",
+        "layered atmospheric separation between foreground and midground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_mist_reed_belt.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_waterside_retreat",
+      "description": "Quiet lower-left waterside scene with a small pavilion or hut, bamboo grove, still water, low rocks, and a slender footbridge crossing the stream.",
+      "bbox": [
+        0,
+        0.66,
+        0.44,
+        0.2
+      ],
+      "role": "waterside retreat",
+      "must_preserve": [
+        "simple hut roof and thin support posts",
+        "dense bamboo leaves and stalks at left",
+        "flat pale water surface",
+        "slender horizontal bridge line with small supports",
+        "low shoreline rocks and bank contours",
+        "delicate bare branch reaching over the water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_waterside_retreat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_right_rocky_bank",
+      "description": "Large foreground rocky riverbank on the lower right, formed from sweeping rounded boulders, dark crevices, shrubs, and layered shoreline rocks at the water's edge.",
+      "bbox": [
+        0.38,
+        0.65,
+        0.62,
+        0.27
+      ],
+      "role": "foreground rocks and bank",
+      "must_preserve": [
+        "bold rounded rock contours",
+        "dense dry-brush texture and dark ink crevices",
+        "sweeping striated mountain-ridge strokes",
+        "small shrubs and leafy bushes at the base",
+        "stepped shoreline stones",
+        "pale water edge with soft reflections"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_right_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

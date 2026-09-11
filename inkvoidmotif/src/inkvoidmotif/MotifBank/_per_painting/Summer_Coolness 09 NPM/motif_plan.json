@@ -1,0 +1,152 @@
+{
+  "source_summary": "A tall-format Chinese painting centered on scholars and attendants beneath dense pines and leafy trees; calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "overhanging_pine_bough",
+      "description": "Isolate the sweeping upper-right pine bough that arcs diagonally across the painting, including the twisting ocher-brown branch, exposed angular offshoots, and all dark needle clusters along the branch tips.",
+      "bbox": [
+        0.403,
+        0.247,
+        0.597,
+        0.274
+      ],
+      "role": "overhanging pine canopy",
+      "must_preserve": [
+        "fine black pine-needle sprays radiating from each tuft",
+        "twisted branch contour lines and warm brown wash",
+        "small ink dots along knots and bark scars",
+        "angular bare twig extensions at the far right",
+        "irregular spacing of needle clusters"
+      ]
+    },
+    {
+      "name": "tall_right_pine_trunk_and_canopy",
+      "description": "Isolate the tall right-side pine section below the overhanging bough: the vertical trunk, dense dark rounded foliage masses, exposed roots, and the immediate mossy base around it.",
+      "bbox": [
+        0.613,
+        0.426,
+        0.315,
+        0.348
+      ],
+      "role": "right foreground pine",
+      "must_preserve": [
+        "vertical bark striations and pale brown trunk wash",
+        "dense stippled dark-green foliage texture",
+        "black dot accents on bark and branch joints",
+        "root flare at the base",
+        "moss dots and small ground strokes around the trunk"
+      ]
+    },
+    {
+      "name": "central_leafy_grove",
+      "description": "Isolate the central grove of smaller trees with multiple pale trunks and rounded canopies made of many radial leaf rosettes, including the intertwined branches and visible roots.",
+      "bbox": [
+        0.187,
+        0.486,
+        0.427,
+        0.405
+      ],
+      "role": "central tree grove",
+      "must_preserve": [
+        "repeated starburst leaf clusters drawn with fine ink strokes",
+        "pale ocher trunks with sinuous outlines",
+        "interlacing branch structure visible through foliage",
+        "dark stippled shadow masses behind trunks",
+        "root and base lines at the foreground ground plane"
+      ]
+    },
+    {
+      "name": "central_dark_understory",
+      "description": "Isolate the dark understory thicket behind and between the central trees: compact black-green foliage masses, slender trunks, and mossy ground patches, excluding nearby figures.",
+      "bbox": [
+        0.463,
+        0.59,
+        0.297,
+        0.269
+      ],
+      "role": "understory shrubs",
+      "must_preserve": [
+        "dense stippled foliage dots",
+        "soft green-gray wash under dark ink marks",
+        "thin vertical sapling trunks",
+        "irregular silhouette of the shrub masses",
+        "small moss flecks along the lower edge"
+      ]
+    },
+    {
+      "name": "right_mossy_rock_cluster",
+      "description": "Isolate the low rock and shrub cluster to the right of the tall pine trunk, including the ocher rocks, blue-green wash accents, contour lines, and dotted moss.",
+      "bbox": [
+        0.707,
+        0.69,
+        0.217,
+        0.09
+      ],
+      "role": "foreground rock cluster",
+      "must_preserve": [
+        "angular rock outlines in thin ink",
+        "blue-green mineral wash patches",
+        "black moss dots scattered on and around the rocks",
+        "small scrubby grass strokes",
+        "uneven ground contour beneath the rocks"
+      ]
+    },
+    {
+      "name": "left_seated_scholar",
+      "description": "Isolate the seated scholar at the lower left, including his red outer robe, pale undergarment, black cap, face, hands, and the low seat or rock directly supporting him.",
+      "bbox": [
+        0.028,
+        0.744,
+        0.125,
+        0.077
+      ],
+      "role": "seated scholar figure",
+      "must_preserve": [
+        "delicate facial linework and black cap",
+        "muted red robe wash",
+        "thin robe-fold outlines",
+        "seated posture with hands near the lap",
+        "small ground and support strokes immediately under the figure"
+      ]
+    },
+    {
+      "name": "standing_scholar_attendant",
+      "description": "Isolate the standing robed figure near the lower-left grove, including the head, long pale robe, dark belt or sash details, hands, and small object held near the body.",
+      "bbox": [
+        0.153,
+        0.725,
+        0.128,
+        0.096
+      ],
+      "role": "standing scholar or attendant",
+      "must_preserve": [
+        "fine ink outline of the face and hair or cap",
+        "long vertical robe folds",
+        "subtle pale wash on the garment",
+        "dark sash and hand details",
+        "slight forward-leaning stance"
+      ]
+    },
+    {
+      "name": "central_attendant_with_red_tray",
+      "description": "Isolate the partially framed central attendant beneath the trees, including the pale robe, visible head and hands, red rectangular tray or offering object, and lower garment lines.",
+      "bbox": [
+        0.502,
+        0.724,
+        0.093,
+        0.088
+      ],
+      "role": "attendant figure",
+      "must_preserve": [
+        "small red tray accent",
+        "thin robe outlines partially obscured by tree forms",
+        "delicate head and facial strokes",
+        "vertical garment folds",
+        "muted wash transitions around the figure"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 09 NPM.jpg",
+  "created_at": "2026-09-03T20:47:52.138946+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

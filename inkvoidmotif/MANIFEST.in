@@ -1,0 +1,7 @@
+include .env.example
+include REVIEW_LICENSE.md
+include QUICKSTART.md
+include README.md
+include SHIPPING.md
+include app.py
+recursive-include docs/images *.png

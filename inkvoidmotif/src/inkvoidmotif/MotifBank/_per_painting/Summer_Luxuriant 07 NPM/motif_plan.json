@@ -1,0 +1,152 @@
+{
+  "source_summary": "Chinese landscape painting with layered misty cliffs, wooded hills, hidden pavilion roofs, rocky foreground banks, willows, and calm water. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_clifftop_plateau",
+      "description": "Isolate the tall central mesa-like cliff with a flat ochre ledge and dense dark foliage crowning the top. Include the vertical cliff face, hanging ink wash streaks, small side shrubs, and soft mist at the lower base, but exclude the calligraphy and neighboring right cliff mass.",
+      "bbox": [
+        0.42,
+        0.05,
+        0.33,
+        0.52
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "flat angular ochre cliff-top geometry",
+        "dense dotted treetop texture along the rim",
+        "vertical ink wash streaks down the rock face",
+        "dark crevice linework and dry-brush rock texture",
+        "soft fading mist edge at the lower cliff base"
+      ]
+    },
+    {
+      "name": "right_mist_cliff",
+      "description": "Isolate the large right-side rounded cliff formation with a dark vegetated cleft descending between rock masses. Include the shrub-covered summit, vertical rock washes, mist-wrapped lower portion, and pale distant peak behind it only where attached visually to this mountain group.",
+      "bbox": [
+        0.7,
+        0.08,
+        0.3,
+        0.52
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "rounded cliff silhouette",
+        "dark diagonal ravine filled with stippled foliage",
+        "vertical grey-brown wash texture",
+        "thin contour strokes on rock planes",
+        "mist-softened lower edge"
+      ]
+    },
+    {
+      "name": "left_hazy_ridges",
+      "description": "Isolate the low, receding hills and ridges on the left mid-background beneath the inscription area. Include only the misty layered mountain silhouettes and sparse ridge vegetation, excluding seals, calligraphy, and foreground trees.",
+      "bbox": [
+        0.0,
+        0.24,
+        0.43,
+        0.25
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "pale atmospheric wash layers",
+        "soft overlapping ridge contours",
+        "small dotted shrubs along ridge tops",
+        "faint distant peak silhouettes",
+        "blurred mist transitions between hills"
+      ]
+    },
+    {
+      "name": "hidden_hillside_pavilions",
+      "description": "Isolate the wooded hillside village cluster in the left-middle area: dark rooflines partly hidden among dense trees, backed by pines and mixed foliage. Include the slope immediately supporting the buildings and the interlaced tree canopy, but exclude unrelated foreground rocks and the central large slab rock.",
+      "bbox": [
+        0.05,
+        0.4,
+        0.39,
+        0.25
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin black roofline geometry with upturned eaves",
+        "partly obscured pavilion roofs among trees",
+        "dense rounded leaf-dot clusters",
+        "pine needle sprays behind the roofs",
+        "brown hillside wash and fine contour strokes"
+      ]
+    },
+    {
+      "name": "central_slanted_rock_grove",
+      "description": "Isolate the prominent slanted rock slab in the central foreground-midground with surrounding shrubs and small trees. Include the pale tilted rock face, dark lower creases, foliage beads along the ridge, and adjacent branching trees, but avoid the hidden pavilion cluster to the left.",
+      "bbox": [
+        0.31,
+        0.45,
+        0.31,
+        0.31
+      ],
+      "role": "foreground rock and shrubs",
+      "must_preserve": [
+        "large diagonal pale rock silhouette",
+        "dry-brush vertical and diagonal rock texture",
+        "dark ink accents at the rock base",
+        "small stippled shrubs along the crest",
+        "fine branching trees around the slab"
+      ]
+    },
+    {
+      "name": "willow_inlet_bridge",
+      "description": "Isolate the right-midground water inlet with drooping willows, low banks, and a small angular bridge or walkway crossing near the trees. Include the calm horizontal water strokes and bank contours, but exclude the broad lower river expanse.",
+      "bbox": [
+        0.57,
+        0.58,
+        0.34,
+        0.2
+      ],
+      "role": "water inlet with willows and bridge",
+      "must_preserve": [
+        "drooping willow branch linework",
+        "small bridge or walkway geometry",
+        "horizontal waterline strokes",
+        "curving bank edges",
+        "light ochre ground wash with dark reed accents"
+      ]
+    },
+    {
+      "name": "left_foreground_terraces_stream",
+      "description": "Isolate the left foreground terraced bank with gnarled trees, layered earth ledges, small rocks, and the stream or cascade at the bottom-left corner. Include the stepped ochre ground planes and dense foliage, but exclude the calligraphy area and upper pavilion roofs.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.42,
+        0.35
+      ],
+      "role": "foreground bank and stream",
+      "must_preserve": [
+        "gnarled trunks with fine branching",
+        "dense stippled foliage masses",
+        "stepped terrace contours in ochre wash",
+        "dark rock outlines and textured boulders",
+        "small flowing stream marks at the lower left"
+      ]
+    },
+    {
+      "name": "lower_right_river_shore",
+      "description": "Isolate the broad calm river surface and curving shoreline in the lower-right portion. Include the empty water plane, horizontal ink ripples, dotted shore vegetation, and small bank rocks, while excluding the willow inlet and central foreground rocks as much as possible.",
+      "bbox": [
+        0.46,
+        0.72,
+        0.54,
+        0.27
+      ],
+      "role": "water surface and shoreline",
+      "must_preserve": [
+        "broad pale open water wash",
+        "thin horizontal ripple strokes",
+        "curving shoreline contour",
+        "small dotted vegetation along the bank",
+        "subtle rocks and low shore forms at the water edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 07 NPM.jpg",
+  "created_at": "2026-07-23T20:35:00.654671+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

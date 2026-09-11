@@ -1,0 +1,149 @@
+{
+  "source_summary": "Tall monochrome Chinese landscape with steep layered mountains, a narrow gorge descending to a village and waterside foreground, with trees, plank bridges, buildings, water ripples, and small traveler figures. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "distant_rounded_peak",
+      "description": "Isolate the pale central background mountain peak rising behind the gorge, including its broad rounded summit, soft grey wash, faint contour strokes, and mist-softened lower edges; exclude nearby inscription/seals and the darker foreground wooded ridges.",
+      "bbox": [
+        0.36,
+        0.17,
+        0.44,
+        0.25
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft layered grey wash on the summit",
+        "subtle arcing contour lines",
+        "misty transition at the mountain base",
+        "rounded peak silhouette"
+      ]
+    },
+    {
+      "name": "left_sheer_cliff",
+      "description": "Isolate the tall left-side cliff wall forming the left edge of the ravine, including the vertical striated rock face, pale eroded slopes, ink-dotted vegetation, and the dark narrow cleft along its right edge; exclude red seals at the far left and central village below.",
+      "bbox": [
+        0.08,
+        0.25,
+        0.3,
+        0.43
+      ],
+      "role": "cliff and ravine wall",
+      "must_preserve": [
+        "long dry-brush vertical rock striations",
+        "pale wash gradients across the cliff face",
+        "clusters of small dark vegetation dots",
+        "sharp dark ravine edge"
+      ]
+    },
+    {
+      "name": "upper_right_wooded_ridge",
+      "description": "Isolate the upper right mountain mass with rounded bouldery forms and dense scrub, including the layered rock shelves, stippled foliage, and grey-black ink accents cascading down the slope; avoid the pale distant peak behind it.",
+      "bbox": [
+        0.46,
+        0.21,
+        0.52,
+        0.36
+      ],
+      "role": "wooded mountainside",
+      "must_preserve": [
+        "rounded boulder contours",
+        "dense stippled shrub clusters",
+        "dark ink-dot foliage accents",
+        "soft grey wash on overlapping rock shelves",
+        "brushy ridge texture"
+      ]
+    },
+    {
+      "name": "central_misty_gorge",
+      "description": "Isolate the narrow vertical gorge between the mountain walls, including the pale mist or waterfall channel, dark flanking vegetation, and receding V-shaped depth through the center of the composition; exclude adjacent large cliff faces as much as possible.",
+      "bbox": [
+        0.25,
+        0.35,
+        0.24,
+        0.29
+      ],
+      "role": "misty ravine",
+      "must_preserve": [
+        "thin pale vertical water-or-mist channel",
+        "dark dotted vegetation lining both sides",
+        "receding V-shaped valley geometry",
+        "soft mist edges blending into rock"
+      ]
+    },
+    {
+      "name": "middle_plank_bridge",
+      "description": "Isolate the long elevated wooden plank bridge crossing the ravine in the middle distance, including its zigzag railing, repeated vertical posts, slatted deck, and the rocky supports beneath; exclude the lower village roofs and foreground trees.",
+      "bbox": [
+        0.08,
+        0.57,
+        0.36,
+        0.1
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "parallel plank lines",
+        "repeated railing posts",
+        "angled zigzag bridge geometry",
+        "dry-brush ink texture on wood",
+        "rock ledges anchoring the bridge"
+      ]
+    },
+    {
+      "name": "lower_left_waterside_village",
+      "description": "Isolate the lower-left cluster of waterside buildings, including tiled and thatched roof geometry, wall panels, porch railings, a seated interior figure, adjacent rippled water, and small fence lines; exclude the large central tree trunks where possible.",
+      "bbox": [
+        0.04,
+        0.74,
+        0.47,
+        0.16
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "rectangular house wall linework",
+        "layered roof tiles and thatch strokes",
+        "small seated figure visible inside the open room",
+        "waterside railings and fences",
+        "horizontal water ripple lines"
+      ]
+    },
+    {
+      "name": "central_pine_and_tree_grove",
+      "description": "Isolate the dense central foreground grove rising in front of the village, including tall pale trunks, dark pine needle clusters, bamboo-like verticals, tangled branches, and shrubs rooted among rocks; exclude buildings behind it as much as possible.",
+      "bbox": [
+        0.31,
+        0.62,
+        0.43,
+        0.29
+      ],
+      "role": "foreground trees and shrubs",
+      "must_preserve": [
+        "dark clustered pine needles",
+        "slender vertical bamboo-like stems",
+        "pale twisting trunks with ink outlines",
+        "fine branch tracery",
+        "rock and shrub bases with stippled texture"
+      ]
+    },
+    {
+      "name": "foreground_scholar_bridge",
+      "description": "Isolate the bottom foreground footbridge with small traveler or scholar figures and attendants crossing over rippled water, including the simple railings, posts, bank contours, and nearby low pavilion platform at the water edge; exclude the red seal at the bottom right.",
+      "bbox": [
+        0.25,
+        0.88,
+        0.45,
+        0.09
+      ],
+      "role": "figures and foreground bridge",
+      "must_preserve": [
+        "tiny human figure linework and poses",
+        "bridge posts and rail lines",
+        "curving water ripple strokes beneath",
+        "soft earthen bank contours",
+        "small pavilion or platform roof edge nearby"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 15 NPM.jpg",
+  "created_at": "2026-08-26T21:54:35.558386+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

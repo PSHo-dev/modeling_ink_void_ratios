@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall vertical Chinese landscape with layered rocky cliffs, misty ravine spaces, pines and leafless trees, small retreats, a lower waterside village, and narrow stream gorges. Calligraphy, seals, border wear, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "upper_left_sheer_cliff",
+      "description": "Isolate the pale vertical cliff mass in the upper left: a broad flat-topped rock wall with irregular ink outline, soft tan wash, faint vertical striations, and sparse brushy shrubs along the rim and right shoulder. Exclude nearby red seals and calligraphy.",
+      "bbox": [
+        0.14,
+        0.05,
+        0.34,
+        0.29
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "thin wavering cliff contour line",
+        "subtle tan wash gradations",
+        "faint vertical rock texture",
+        "small dark shrub strokes on the upper rim",
+        "soft mist-like blank space around the lower cliff edge"
+      ]
+    },
+    {
+      "name": "upper_right_bushy_crags",
+      "description": "Isolate the high right mountain formation with overlapping rounded crags, diagonal ravines, and dense twig-like vegetation clinging to ledges and gullies.",
+      "bbox": [
+        0.53,
+        0.02,
+        0.47,
+        0.42
+      ],
+      "role": "distant mountain and hillside",
+      "must_preserve": [
+        "layered rock outlines",
+        "dry-brush crack and crevice marks",
+        "clusters of fine branch strokes",
+        "pale ocher rock wash",
+        "irregular mist-softened lower edges"
+      ]
+    },
+    {
+      "name": "central_misty_waterfall_chasm",
+      "description": "Isolate the narrow central vertical chasm between cliffs, including the pale blank waterfall or mist column, darkened cliff edges, and the small ledge vegetation at the top.",
+      "bbox": [
+        0.46,
+        0.2,
+        0.22,
+        0.24
+      ],
+      "role": "mist and waterfall ravine",
+      "must_preserve": [
+        "soft unpainted vertical fall shape",
+        "dark ink edge accents on both cliff sides",
+        "subtle wash transitions into surrounding rock",
+        "small brushy plants on the upper lip",
+        "blurred lower termination suggesting mist"
+      ]
+    },
+    {
+      "name": "wind_bent_dead_pine",
+      "description": "Isolate the dramatic wind-bent old pine and dead trunk on the left middle slope: tall twisted trunk, bare angular branches, hanging pine boughs, and a horizontal needled branch projecting right.",
+      "bbox": [
+        0.0,
+        0.3,
+        0.45,
+        0.32
+      ],
+      "role": "foreground pine and old tree",
+      "must_preserve": [
+        "gnarled trunk contour with reddish-brown wash",
+        "angular dead branch linework",
+        "dark pine needle clusters",
+        "bent hanging limb at lower left",
+        "root and rock contact strokes"
+      ]
+    },
+    {
+      "name": "central_pine_grove_on_slope",
+      "description": "Isolate the central stand of tall pines and mixed trees growing across the middle slope, with layered umbrella-like pine crowns, slender trunks, and interlaced bare branches.",
+      "bbox": [
+        0.28,
+        0.4,
+        0.62,
+        0.31
+      ],
+      "role": "middle-ground tree grove",
+      "must_preserve": [
+        "dotted pine needle texture",
+        "branch networks drawn in fine ink",
+        "tall vertical trunks with darker bases",
+        "overlapping canopy tiers",
+        "rocky slope wash visible between trunks"
+      ]
+    },
+    {
+      "name": "mid_right_retreat_in_trees",
+      "description": "Isolate the small retreat pavilion or hut in the mid-lower right, set among leafless vertical trees on a pale clearing against the hillside.",
+      "bbox": [
+        0.6,
+        0.55,
+        0.33,
+        0.25
+      ],
+      "role": "pavilion group in grove",
+      "must_preserve": [
+        "simple roof geometry and eaves",
+        "rectangular wall and doorway/window lines",
+        "thin vertical tree trunks surrounding the building",
+        "fine bare branch brushwork",
+        "pale clearing edge and adjacent rock wash"
+      ]
+    },
+    {
+      "name": "lower_lakeside_village_pavilions",
+      "description": "Isolate the lower waterside village cluster: connected roofed buildings and pavilion platforms beside water, railings, triangular gables, a willow-like tree, and tiny seated figures.",
+      "bbox": [
+        0.0,
+        0.82,
+        0.67,
+        0.16
+      ],
+      "role": "foreground village and waterside pavilions",
+      "must_preserve": [
+        "angled roof planes and gable linework",
+        "wooden railings and posts",
+        "tiny colored scholar figures",
+        "willow and shrub brushwork around the buildings",
+        "flat grey-green water shape beside the architecture"
+      ]
+    },
+    {
+      "name": "lower_central_rocky_stream_gorge",
+      "description": "Isolate the lower central ravine and stream corridor leading upward through angular rocks, including pale water channels, faceted boulders, and soft ocher cliff washes.",
+      "bbox": [
+        0.24,
+        0.67,
+        0.35,
+        0.22
+      ],
+      "role": "foreground stream gorge and rocks",
+      "must_preserve": [
+        "narrow winding water shapes",
+        "angular rock outlines",
+        "layered ocher and grey wash texture",
+        "dry-brush cracks and creases",
+        "misty pale gaps between rock faces"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 01 NPM.jpg",
+  "created_at": "2026-08-26T22:03:24.162102+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,154 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with layered river scenery: misty distant hills, a pine-crowned island mountain, open water, wooded banks, foreground rocks, bamboo, pines, a thatched pavilion, and small boats. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "misty_distant_mountain_range",
+      "description": "Soft blue-gray distant mountain silhouettes along the upper-left horizon, partly submerged in pale mist above the water.",
+      "bbox": [
+        0.0,
+        0.255,
+        0.46,
+        0.085
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint blue-green wash",
+        "low rounded peaks",
+        "soft mist-blurred lower edges",
+        "minimal ink contouring"
+      ]
+    },
+    {
+      "name": "central_pine_crowned_mountain_island",
+      "description": "Main upper island mountain with ochre-green slopes, dark ink rock ridges, clustered pines along the crest, wooded base, and narrow shoreline strokes.",
+      "bbox": [
+        0.22,
+        0.205,
+        0.58,
+        0.16
+      ],
+      "role": "mountain island",
+      "must_preserve": [
+        "angular summit rock face",
+        "layered ochre and green washes",
+        "dark pine-dot foliage on ridge",
+        "dry-brush contour lines on slopes",
+        "thin horizontal shoreline and waterline strokes"
+      ]
+    },
+    {
+      "name": "right_misty_far_shore",
+      "description": "Small distant right-side shoreline with low hills, faint trees or settlement-like marks, and a narrow sandy bank emerging through mist.",
+      "bbox": [
+        0.74,
+        0.255,
+        0.25,
+        0.095
+      ],
+      "role": "distant shore",
+      "must_preserve": [
+        "pale gray ink hills",
+        "soft broken outlines",
+        "misty negative space around forms",
+        "thin horizontal bank lines"
+      ]
+    },
+    {
+      "name": "mid_left_marshy_riverbank",
+      "description": "Middle-left low riverbank with hazy shrubs, sparse reed-like tree trunks, a small inlet, and horizontal water strokes.",
+      "bbox": [
+        0.0,
+        0.535,
+        0.48,
+        0.105
+      ],
+      "role": "marsh bank",
+      "must_preserve": [
+        "soft gray-green shrub washes",
+        "fine vertical reed and trunk lines",
+        "small dark accents along bank",
+        "thin layered water ripples",
+        "mist-softened far edge"
+      ]
+    },
+    {
+      "name": "right_pavilion_pines_bamboo",
+      "description": "Right foreground group with tall straight pines, bamboo stalks and leaves, rocky slope, and a small thatched pavilion roof beside the water.",
+      "bbox": [
+        0.74,
+        0.39,
+        0.26,
+        0.34
+      ],
+      "role": "pavilion grove",
+      "must_preserve": [
+        "fan-shaped thatched roof geometry",
+        "slender pavilion posts",
+        "tall pine trunks with dark needle clusters",
+        "bamboo leaf clusters and jointed stems",
+        "rocky ledge under pavilion",
+        "green wash accents on foliage"
+      ]
+    },
+    {
+      "name": "central_foreground_willow_terrace",
+      "description": "Central foreground terrace of rounded rocks and grassy banks with a leaning willow, clustered shrubs, small upright trees, and stream-edge rocks.",
+      "bbox": [
+        0.33,
+        0.58,
+        0.45,
+        0.24
+      ],
+      "role": "foreground terrace",
+      "must_preserve": [
+        "drooping willow branches",
+        "twisted willow trunk",
+        "rounded ochre-green banks",
+        "dark dry-brush rock texture",
+        "small vertical tree strokes",
+        "layered water-edge ink lines"
+      ]
+    },
+    {
+      "name": "lower_left_boat_bank",
+      "description": "Lower-left waterside bank with overhanging sparse tree, small boat on the water, reeds, and low rocks at the shoreline.",
+      "bbox": [
+        0.0,
+        0.7,
+        0.28,
+        0.18
+      ],
+      "role": "boat and bank",
+      "must_preserve": [
+        "tiny boat silhouette",
+        "curving shoreline linework",
+        "leafless branching tree",
+        "reed-like grasses",
+        "small dark rock accents",
+        "pale open-water spacing around boat"
+      ]
+    },
+    {
+      "name": "foreground_monolithic_rock_bamboo_gully",
+      "description": "Large lower foreground vertical rock mass and gully with bamboo clumps, shrubs, a small hidden roof or structure at its base, and layered grassy slopes.",
+      "bbox": [
+        0.06,
+        0.735,
+        0.58,
+        0.24
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "tall rounded rock pillar silhouette",
+        "parallel dry-brush texture strokes",
+        "ochre-green wash on slopes",
+        "bamboo leaves and thin stems",
+        "small roof geometry tucked below rock",
+        "dark crevice lines and mossy shrub dots"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 11 NPM.jpg",
+  "created_at": "2026-07-03T22:39:56.594536+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

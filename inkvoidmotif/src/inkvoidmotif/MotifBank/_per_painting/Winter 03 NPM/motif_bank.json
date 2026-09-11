@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Winter 03 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T22:08:42.951097+00:00",
+  "motifs": [
+    {
+      "name": "central_pagoda_islet",
+      "description": "Isolate the slender multi-tier pagoda rising from a wooded islet on the left-center lake shore, including the small clustered trees and rocky base immediately around it.",
+      "bbox": [
+        0.17,
+        0.39,
+        0.13,
+        0.12
+      ],
+      "role": "pagoda landmark",
+      "must_preserve": [
+        "stacked roof geometry and finial",
+        "fine vertical linework of the tower",
+        "dark ink outlines on each eave",
+        "speckled tree foliage around the base",
+        "pale wash transition into surrounding water and shore"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_pagoda_islet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_lakeside_village",
+      "description": "Isolate the small lakeside building cluster tucked among trees and rocks at lower left-center, with several tiled roofs and warm reddish-brown architectural accents.",
+      "bbox": [
+        0.06,
+        0.49,
+        0.16,
+        0.1
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "layered roof ridges and upturned eaves",
+        "thin structural lines for walls and posts",
+        "muted red-orange color accents on roofs and walls",
+        "dense stippled foliage enclosing the buildings",
+        "rounded pale rock forms framing the settlement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_lakeside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_monumental_cliff",
+      "description": "Isolate the large right-side mountain and cliff mass with rounded pale snow-like surfaces, dark fissures, tree-dotted ridges, and steep vertical rock faces.",
+      "bbox": [
+        0.5,
+        0.18,
+        0.4,
+        0.45
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "curving contour lines on rounded rock faces",
+        "vertical crag fissures and dark dry-brush texture",
+        "dense stippled trees along ridgelines",
+        "soft pale wash on broad mountain planes",
+        "mist-softened edges where cliffs recede"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_monumental_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_vertical_rock_spires",
+      "description": "Isolate the tall central-left vertical rock spires and adjoining wooded ravine, with pale cliff faces, long dark seams, and shrubs at the base and crest.",
+      "bbox": [
+        0.24,
+        0.53,
+        0.23,
+        0.31
+      ],
+      "role": "foreground cliff formation",
+      "must_preserve": [
+        "elongated vertical contour strokes",
+        "dark crevice lines running down the cliffs",
+        "rounded pale rock caps",
+        "fine clustered foliage at cliff edges",
+        "small scattered boulders at the foot of the rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_vertical_rock_spires.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bridge_scholars",
+      "description": "Isolate the lower middle-right arched footbridge crossing the water, the tiny scholar figures on and near it, the small open pavilion to the right, and the immediate riverbank stones.",
+      "bbox": [
+        0.5,
+        0.67,
+        0.38,
+        0.17
+      ],
+      "role": "foreground bridge scene",
+      "must_preserve": [
+        "thin bridge rails and angled supports",
+        "tiny human figures with dark ink outlines and small color accents",
+        "open pavilion roof and posts",
+        "scattered rounded stones in the shallow water",
+        "soft grey water wash around the crossing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_bridge_scholars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_garden_pavilion",
+      "description": "Isolate the lower center-left garden pavilion set amid bamboo-like grasses, shrubs, rounded rocks, and a fenced or banked garden edge.",
+      "bbox": [
+        0.21,
+        0.72,
+        0.25,
+        0.14
+      ],
+      "role": "foreground pavilion garden",
+      "must_preserve": [
+        "simple pavilion roof plane and vertical posts",
+        "fine fence or bank linework beside the structure",
+        "dense bamboo and grass strokes",
+        "rounded garden rocks and shrubs",
+        "pale wash separating paths, water, and vegetation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_garden_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_boat_willow_bank",
+      "description": "Isolate the small boat near the lower right water, together with the adjacent rocky bank, overhanging willow-like tree, grasses, and nearby rounded shoreline rocks.",
+      "bbox": [
+        0.38,
+        0.82,
+        0.3,
+        0.13
+      ],
+      "role": "boat and shoreline",
+      "must_preserve": [
+        "slender boat hull and pointed ends",
+        "tiny seated figure or cargo marks inside the boat",
+        "drooping willow and shrub brushwork",
+        "rocky promontory with dark stippled texture",
+        "soft water wash surrounding the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_boat_willow_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

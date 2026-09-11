@@ -1,0 +1,154 @@
+{
+  "source_summary": "Monochrome ink-and-light-color Chinese landscape with misty distant mountains, layered riverbanks, foreground pine-and-rock terraces, a small scholar retreat, and a boat on open water. Seals, inscription, borders, and paper staining are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "misty_distant_mountains",
+      "description": "Isolate the upper background mountain chain: soft layered peaks from left-center through right side, including the darker central crags, pale receding ridgelines, vertical cliff washes, and clusters of tiny pine silhouettes on ridges. Exclude red seals and empty surrounding paper.",
+      "bbox": [
+        0.18,
+        0.12,
+        0.74,
+        0.18
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft misted peak edges",
+        "graded ink wash on cliff faces",
+        "dark contour strokes along ridges",
+        "tiny upright pine silhouettes",
+        "pale receding ridgelines behind main peaks"
+      ]
+    },
+    {
+      "name": "middle_sandbars_and_river_mist",
+      "description": "Isolate the broad horizontal middle-ground water and sandbar zone beneath the mountains, with layered banks, low islands, thin ink shorelines, and mist-softened transitions across the river plain.",
+      "bbox": [
+        0.0,
+        0.275,
+        0.86,
+        0.2
+      ],
+      "role": "water and mist plain",
+      "must_preserve": [
+        "long horizontal shoreline strokes",
+        "pale wash bands suggesting water",
+        "soft mist edges between banks",
+        "low dark island textures",
+        "subtle layered sandbar contours"
+      ]
+    },
+    {
+      "name": "right_hillside_path_pavilion_grove",
+      "description": "Isolate the mid-right hillside with sloping path, clustered bare trees and shrubs, small roofed structures partly hidden among trees, and rounded rocks below the bank. Keep the connected hillside mass but exclude distant mountains above and open water to the left.",
+      "bbox": [
+        0.48,
+        0.335,
+        0.5,
+        0.25
+      ],
+      "role": "middle-ground hillside with pavilion group",
+      "must_preserve": [
+        "winding pale path contours",
+        "fine bare branch linework",
+        "small angular roof geometry",
+        "dark shrub dots and texture clusters",
+        "rounded rock washes and contour cracks"
+      ]
+    },
+    {
+      "name": "central_rock_outcrop_and_leafless_trees",
+      "description": "Isolate the central rocky promontory projecting into open water, with large dark boulders, eroded ink washes, sparse leafless trees, and low shrubs on the ridge.",
+      "bbox": [
+        0.39,
+        0.485,
+        0.39,
+        0.14
+      ],
+      "role": "rocky middle-ground promontory",
+      "must_preserve": [
+        "heavy dark boulder outlines",
+        "vertical wash streaks on rock faces",
+        "thin twisting leafless branches",
+        "small stippled shrubs",
+        "soft base fading into mist"
+      ]
+    },
+    {
+      "name": "boat_with_scholars",
+      "description": "Isolate the small covered boat on the lower-right water with two seated figures and one standing or rowing figure, including the arched canopy, pointed bow, stern platform, oar lines, and light reddish color accents on figures.",
+      "bbox": [
+        0.61,
+        0.675,
+        0.25,
+        0.055
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "thin boat hull outline",
+        "woven or dotted canopy texture",
+        "small scholar figure gestures",
+        "fine oar or pole lines",
+        "subtle warm color accents"
+      ]
+    },
+    {
+      "name": "scholar_retreat_pavilion",
+      "description": "Isolate the lower-left pavilion retreat: open-sided thatched or tiled roof structure with seated scholars, railings, furniture, nearby shrubs, and the small bridge/stream edge at the far left. Exclude the large central pines where possible except branches that overlap the retreat.",
+      "bbox": [
+        0.0,
+        0.615,
+        0.36,
+        0.18
+      ],
+      "role": "foreground pavilion with scholars",
+      "must_preserve": [
+        "precise roof eaves and support posts",
+        "tiny seated scholar figures",
+        "railing and furniture linework",
+        "small arched bridge and stream strokes",
+        "dense dotted shrubs and garden rocks",
+        "light reddish robe accents"
+      ]
+    },
+    {
+      "name": "foreground_tall_pine_cluster",
+      "description": "Isolate the tall foreground pine group rising from the lower center: multiple straight trunks, dark bark strokes, spreading needle clusters, and the arcing branch network crossing the open water behind.",
+      "bbox": [
+        0.28,
+        0.62,
+        0.34,
+        0.3
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "long vertical trunk linework",
+        "dark bark texture strokes",
+        "fan-like pine needle clusters",
+        "twisting branch silhouettes",
+        "overlapping branch transparency against pale water"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank_and_bending_pine",
+      "description": "Isolate the lower foreground rocky terrace and sweeping right-bending pine: layered bank contours, dark rocks at the base, the low arcing trunk extending rightward, sparse needle tufts, and small leafless shrubs along the bank. Exclude the signature at far right.",
+      "bbox": [
+        0.3,
+        0.735,
+        0.58,
+        0.25
+      ],
+      "role": "foreground rocky bank and pine",
+      "must_preserve": [
+        "sweeping curved pine trunk",
+        "fine sparse pine needles",
+        "layered earthen bank contour lines",
+        "dark rock washes and crevices",
+        "small twiggy shrub linework",
+        "mist-soft lower edge of the bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 25 NPM.jpg",
+  "created_at": "2026-08-27T22:08:38.309647+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

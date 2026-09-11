@@ -1,0 +1,154 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with misty ink-wash mountains, distant water craft, a spreading pine, layered foreground trees and rocks, and a small scholar crossing a rustic bridge. Calligraphy, seals, borders, and paper texture are excluded from all motifs.",
+  "motifs": [
+    {
+      "name": "upper_cliff_peak",
+      "description": "Isolate the tall upper cliff face and summit mass near the top center-left, excluding the inscription and red seals to the right. Keep the pale ochre cap washes, vertical contour lines, dark crevice strokes, small dotted texture marks, and soft grey-brown ink shading along the central rock face.",
+      "bbox": [
+        0.391,
+        0.054,
+        0.317,
+        0.19
+      ],
+      "role": "distant mountain peak",
+      "must_preserve": [
+        "vertical cliff linework",
+        "ochre summit wash",
+        "dark inner fissure strokes",
+        "scattered ink texture dots",
+        "soft wash transitions on the rock face"
+      ]
+    },
+    {
+      "name": "upper_right_dark_ridge",
+      "description": "Isolate the dark sloping mountain ridge descending on the upper right, separated from the calligraphy area above. Preserve the triangular ridge silhouette, dense black-grey rubbing strokes, layered brown washes, and the mist-softened lower edge.",
+      "bbox": [
+        0.611,
+        0.132,
+        0.354,
+        0.166
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "dense dark ink texture",
+        "sloped ridge outline",
+        "brown-grey wash layering",
+        "broken dry-brush marks",
+        "misty lower boundary"
+      ]
+    },
+    {
+      "name": "left_mist_bank",
+      "description": "Isolate the broad horizontal bank of mist and cloud wash spreading from the left edge into the central mountain gap. Keep the diluted grey ink blooms, feathered edges, and translucent overlaps with the pale background, without including calligraphy or distinct mountain masses.",
+      "bbox": [
+        0,
+        0.151,
+        0.62,
+        0.12
+      ],
+      "role": "mist and cloud bank",
+      "must_preserve": [
+        "soft feathered mist edges",
+        "pale grey ink blooms",
+        "transparent wash texture",
+        "horizontal drifting shape",
+        "uneven cloud contours"
+      ]
+    },
+    {
+      "name": "middle_conical_peak",
+      "description": "Isolate the central middle-distance conical mountain rising from the mist. Preserve its dark clustered ink strokes, ochre accent dabs near the crest, rough rocky side contours, and the cloud-softened base.",
+      "bbox": [
+        0.447,
+        0.281,
+        0.417,
+        0.173
+      ],
+      "role": "middle mountain",
+      "must_preserve": [
+        "dark clustered brush texture",
+        "ochre-red accent dabs",
+        "irregular rocky outline",
+        "dry-brush ridge marks",
+        "mist-softened base"
+      ]
+    },
+    {
+      "name": "water_pavilions_boats",
+      "description": "Isolate the two small roofed craft or pavilion-like boats floating in the misty water at lower left-center. Include their fine roof geometry, red-orange hull and wall accents, thin ink outlines, and the faint surrounding water wash needed to read them as distant boats.",
+      "bbox": [
+        0.155,
+        0.474,
+        0.358,
+        0.051
+      ],
+      "role": "distant boats on water",
+      "must_preserve": [
+        "small roof outlines",
+        "red-orange architectural accents",
+        "thin black hull lines",
+        "faint water wash",
+        "distance-softened edges"
+      ]
+    },
+    {
+      "name": "spreading_pine",
+      "description": "Isolate the large leaning pine in the middle-lower right, including the bent trunk, branching limbs, and all visible needle clusters. Preserve the dark needle rosettes, knotted brown trunk strokes, forked branch structure, and small rock base beneath it.",
+      "bbox": [
+        0.326,
+        0.48,
+        0.587,
+        0.146
+      ],
+      "role": "pine tree",
+      "must_preserve": [
+        "individual pine needle clusters",
+        "leaning trunk contour",
+        "brown bark texture",
+        "forking branch geometry",
+        "small base rocks and root strokes"
+      ]
+    },
+    {
+      "name": "foreground_grove_cliff",
+      "description": "Isolate the layered foreground grove and rocky bluff below the pine, with several dark tree trunks, ochre-brown foliage masses, and the sloping rock ledge. Preserve the broken ink outlines, foliage dabs, dry-brush cliff texture, and grey wash shadows around the trunks.",
+      "bbox": [
+        0.27,
+        0.619,
+        0.667,
+        0.17
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "dark angular tree trunks",
+        "ochre-brown foliage dabs",
+        "rock ledge linework",
+        "dry-brush cliff texture",
+        "grey wash shadows"
+      ]
+    },
+    {
+      "name": "scholar_bridge_rocky_shore",
+      "description": "Isolate the small scholar figure crossing the rustic bridge at the lower center-left with the adjacent rocky shore and nearby water edge. Preserve the tiny figure outline, robe strokes, bridge planks and supports, dark shoreline ink, rounded boulders, and sparse water marks.",
+      "bbox": [
+        0,
+        0.781,
+        0.669,
+        0.139
+      ],
+      "role": "scholar figure with bridge and rocky shore",
+      "must_preserve": [
+        "tiny scholar silhouette",
+        "robe and head linework",
+        "rustic bridge planks",
+        "bridge support strokes",
+        "rounded rock outlines",
+        "dark shoreline brushwork",
+        "sparse water marks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 18 Cleveland.jpg",
+  "created_at": "2026-08-06T22:20:45.025098+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

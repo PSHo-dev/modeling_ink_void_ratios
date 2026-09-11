@@ -1,0 +1,151 @@
+{
+  "source_summary": "Vertical Chinese garden landscape with scholar figures among dramatic ink rocks, bamboo, banana plants, grasses, and a tea setting. Motifs exclude calligraphy, seals, borders, and paper texture.",
+  "motifs": [
+    {
+      "name": "upper_left_bamboo_canopy",
+      "description": "Dense arching bamboo canopy entering from the upper left, with overlapping leafy sprays and slender segmented stems extending toward the center.",
+      "bbox": [
+        0.0,
+        0.035,
+        0.49,
+        0.285
+      ],
+      "role": "overhanging foliage",
+      "must_preserve": [
+        "fine pointed bamboo leaf linework",
+        "dark-to-pale ink layering of clustered leaves",
+        "curving branch structure",
+        "dry-brush accents on denser leaf masses"
+      ]
+    },
+    {
+      "name": "left_tall_garden_rock",
+      "description": "Large vertical scholar rock rising along the left side, irregular and slab-like with a darker central face and pale washed planes; isolate the rock body and adjacent attached shadowed contours, excluding any inscription or seal on its surface.",
+      "bbox": [
+        0.0,
+        0.155,
+        0.315,
+        0.565
+      ],
+      "role": "dominant foreground rock",
+      "must_preserve": [
+        "bold black outer contour",
+        "vertical fractured crevices",
+        "broad gray wash planes",
+        "dry-brush striations and chipped edges",
+        "dark recessed fissures near the lower center"
+      ]
+    },
+    {
+      "name": "central_jagged_peak",
+      "description": "Tall narrow jagged rock peak in the upper center-right, with smaller adjoining spurs and dark interior clefts rising behind the foliage.",
+      "bbox": [
+        0.465,
+        0.075,
+        0.235,
+        0.345
+      ],
+      "role": "background rock peak",
+      "must_preserve": [
+        "angular broken silhouette",
+        "dark ink cracks and cavities",
+        "layered gray wash texture",
+        "sharp top notch",
+        "pale highlighted rock faces"
+      ]
+    },
+    {
+      "name": "banana_grove",
+      "description": "Cluster of broad banana leaves and pale trunks filling the middle of the painting, overlapping the central rocks; includes drooping, torn leaf edges and vertical stems but excludes scholar figures below.",
+      "bbox": [
+        0.265,
+        0.185,
+        0.63,
+        0.46
+      ],
+      "role": "middle-ground foliage grove",
+      "must_preserve": [
+        "long ribbed banana leaves",
+        "parallel vein linework",
+        "ragged split leaf tips",
+        "light green-gray wash accents",
+        "slender pale trunks and leaf bases"
+      ]
+    },
+    {
+      "name": "middle_grasses_and_small_rocks",
+      "description": "Low garden floor vegetation between the banana trunks: tufts of fine grasses, small rounded rocks, and light ground washes beneath the grove.",
+      "bbox": [
+        0.305,
+        0.405,
+        0.56,
+        0.245
+      ],
+      "role": "ground cover",
+      "must_preserve": [
+        "delicate grass clump linework",
+        "small shaded stones",
+        "soft pale ground wash",
+        "thin ink outlines around rocks",
+        "spacing between separate tufts"
+      ]
+    },
+    {
+      "name": "seated_musicians_scholars",
+      "description": "Two seated scholar figures in robes at the lower middle: one playing a round-bodied pipa-like instrument, the other listening, with nearby small drum or basket and zither-like object.",
+      "bbox": [
+        0.12,
+        0.625,
+        0.61,
+        0.155
+      ],
+      "role": "figure group",
+      "must_preserve": [
+        "fine facial and beard linework",
+        "folded robe contours with pale wash",
+        "round instrument body and long neck details",
+        "seated postures facing each other",
+        "small nearby musical objects"
+      ]
+    },
+    {
+      "name": "tea_attendant_stone_table",
+      "description": "Right-side attendant beside a low stone platform or table with tea vessels, cups, and utensils; includes the crouched figure, table slab, supports, and objects on top.",
+      "bbox": [
+        0.735,
+        0.535,
+        0.265,
+        0.165
+      ],
+      "role": "tea service figure group",
+      "must_preserve": [
+        "attendant’s bent posture and robe folds",
+        "small facial features and hair knots",
+        "teapot, cups, stand, and vessel shapes",
+        "flat stone tabletop with rough ink edges",
+        "thin utensil and tray linework"
+      ]
+    },
+    {
+      "name": "lower_foreground_rocks_bamboo",
+      "description": "Bottom foreground rock formation with angular boulders and surrounding bamboo sprays, spanning the lower edge as a framing landscape base.",
+      "bbox": [
+        0.0,
+        0.84,
+        0.705,
+        0.16
+      ],
+      "role": "foreground base",
+      "must_preserve": [
+        "large slanted rock planes",
+        "heavy black contour cracks",
+        "broad gray ink washes",
+        "bamboo leaf clusters around the rocks",
+        "dry-brush texture on broken stone surfaces"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 01 NPM.jpg",
+  "created_at": "2026-09-03T20:59:27.531813+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:36:35.971521+00:00",
+  "motifs": [
+    {
+      "name": "central_clifftop_plateau",
+      "description": "Isolate the tall central mesa-like cliff with a flat ochre ledge and dense dark foliage crowning the top. Include the vertical cliff face, hanging ink wash streaks, small side shrubs, and soft mist at the lower base, but exclude the calligraphy and neighboring right cliff mass.",
+      "bbox": [
+        0.42,
+        0.05,
+        0.33,
+        0.52
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "flat angular ochre cliff-top geometry",
+        "dense dotted treetop texture along the rim",
+        "vertical ink wash streaks down the rock face",
+        "dark crevice linework and dry-brush rock texture",
+        "soft fading mist edge at the lower cliff base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_clifftop_plateau.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mist_cliff",
+      "description": "Isolate the large right-side rounded cliff formation with a dark vegetated cleft descending between rock masses. Include the shrub-covered summit, vertical rock washes, mist-wrapped lower portion, and pale distant peak behind it only where attached visually to this mountain group.",
+      "bbox": [
+        0.7,
+        0.08,
+        0.3,
+        0.52
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "rounded cliff silhouette",
+        "dark diagonal ravine filled with stippled foliage",
+        "vertical grey-brown wash texture",
+        "thin contour strokes on rock planes",
+        "mist-softened lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_mist_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_hazy_ridges",
+      "description": "Isolate the low, receding hills and ridges on the left mid-background beneath the inscription area. Include only the misty layered mountain silhouettes and sparse ridge vegetation, excluding seals, calligraphy, and foreground trees.",
+      "bbox": [
+        0.0,
+        0.24,
+        0.43,
+        0.25
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "pale atmospheric wash layers",
+        "soft overlapping ridge contours",
+        "small dotted shrubs along ridge tops",
+        "faint distant peak silhouettes",
+        "blurred mist transitions between hills"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_hazy_ridges.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_hillside_pavilions",
+      "description": "Isolate the wooded hillside village cluster in the left-middle area: dark rooflines partly hidden among dense trees, backed by pines and mixed foliage. Include the slope immediately supporting the buildings and the interlaced tree canopy, but exclude unrelated foreground rocks and the central large slab rock.",
+      "bbox": [
+        0.05,
+        0.4,
+        0.39,
+        0.25
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin black roofline geometry with upturned eaves",
+        "partly obscured pavilion roofs among trees",
+        "dense rounded leaf-dot clusters",
+        "pine needle sprays behind the roofs",
+        "brown hillside wash and fine contour strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_hidden_hillside_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_slanted_rock_grove",
+      "description": "Isolate the prominent slanted rock slab in the central foreground-midground with surrounding shrubs and small trees. Include the pale tilted rock face, dark lower creases, foliage beads along the ridge, and adjacent branching trees, but avoid the hidden pavilion cluster to the left.",
+      "bbox": [
+        0.31,
+        0.45,
+        0.31,
+        0.31
+      ],
+      "role": "foreground rock and shrubs",
+      "must_preserve": [
+        "large diagonal pale rock silhouette",
+        "dry-brush vertical and diagonal rock texture",
+        "dark ink accents at the rock base",
+        "small stippled shrubs along the crest",
+        "fine branching trees around the slab"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_slanted_rock_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_river_shore",
+      "description": "Isolate the broad calm river surface and curving shoreline in the lower-right portion. Include the empty water plane, horizontal ink ripples, dotted shore vegetation, and small bank rocks, while excluding the willow inlet and central foreground rocks as much as possible.",
+      "bbox": [
+        0.46,
+        0.72,
+        0.54,
+        0.27
+      ],
+      "role": "water surface and shoreline",
+      "must_preserve": [
+        "broad pale open water wash",
+        "thin horizontal ripple strokes",
+        "curving shoreline contour",
+        "small dotted vegetation along the bank",
+        "subtle rocks and low shore forms at the water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_river_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

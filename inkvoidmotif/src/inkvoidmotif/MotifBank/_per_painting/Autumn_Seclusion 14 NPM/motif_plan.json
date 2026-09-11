@@ -1,0 +1,152 @@
+{
+  "source_summary": "Chinese ink landscape with mist-wrapped mountains, layered wooded riverbanks, open water, a small boat with figures, and foreground groves and rocky shores. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_mist_wrapped_peak",
+      "description": "Isolate the large dark central mountain mass with its rounded summit, sloping shoulders, and pale mist openings cutting through the lower slopes; exclude any nearby inscription or seals.",
+      "bbox": [
+        0.16,
+        0.185,
+        0.69,
+        0.245
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft layered ink washes forming the broad peak",
+        "horizontal dry-brush texture across the summit and slopes",
+        "irregular pale mist gaps within the mountain body",
+        "feathered mountain edges dissolving into the surrounding air",
+        "dark-to-light wash gradations along the descending right slope"
+      ]
+    },
+    {
+      "name": "left_floating_mist_hills",
+      "description": "Isolate the cluster of low dark hills at upper left-middle, separated by white mist channels and tapering into the central valley.",
+      "bbox": [
+        0.0,
+        0.285,
+        0.48,
+        0.115
+      ],
+      "role": "distant hillsides",
+      "must_preserve": [
+        "rounded low hill silhouettes",
+        "broken ink edges softened by mist",
+        "small dark knolls connected by faint wash",
+        "white negative-space mist passages between hill forms",
+        "subtle horizontal brush grain"
+      ]
+    },
+    {
+      "name": "right_distant_ridge",
+      "description": "Isolate the pale right-side mountain ridge and adjoining low dark foothills emerging from mist.",
+      "bbox": [
+        0.725,
+        0.3,
+        0.275,
+        0.105
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "light gray wash ridge contour",
+        "soft diagonal slope rising at the far right",
+        "small darker foothill patches in front",
+        "misty base fading into open space",
+        "thin tonal transitions without hard outlines"
+      ]
+    },
+    {
+      "name": "midground_left_wooded_bank",
+      "description": "Isolate the broad wooded riverbank across the middle-left, including dense tree crowns, trunks, shoreline washes, and low land forms.",
+      "bbox": [
+        0.0,
+        0.425,
+        0.64,
+        0.17
+      ],
+      "role": "midground forested shore",
+      "must_preserve": [
+        "layered foliage dabs in olive-gray and black ink",
+        "visible thin tree trunks and branching lines",
+        "dark foreground bank washes beneath the trees",
+        "pale yellow-green color accents in the foliage",
+        "horizontal shoreline strokes and watery reflections"
+      ]
+    },
+    {
+      "name": "midground_right_tree_screen",
+      "description": "Isolate the narrower right-side riverside screen of trees and shrubs with its receding bank and pale water channel below.",
+      "bbox": [
+        0.61,
+        0.47,
+        0.385,
+        0.155
+      ],
+      "role": "midground riverside grove",
+      "must_preserve": [
+        "vertical tree-trunk rhythm receding into depth",
+        "dark rounded foliage caps and lighter shrub washes",
+        "thin horizontal bank lines",
+        "pale water gaps between shore forms",
+        "subtle ocher-green wash accents"
+      ]
+    },
+    {
+      "name": "small_boat_with_figures",
+      "description": "Isolate the small boat on the open water at lower left-middle, including the seated figures, arched covered load or canopy, and long narrow hull.",
+      "bbox": [
+        0.055,
+        0.66,
+        0.205,
+        0.045
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "fine ink outline of the slender boat hull",
+        "tiny seated human figures at both ends",
+        "arched covered bundle or canopy at center",
+        "delicate pole or oar lines",
+        "large surrounding blank-water spacing immediately around the boat"
+      ]
+    },
+    {
+      "name": "foreground_willow_tree_grove",
+      "description": "Isolate the foreground grove on the right and center, including dark broad-leaf trees, pale willow-like drooping branches, clustered trunks, and foliage masses along the river edge.",
+      "bbox": [
+        0.285,
+        0.585,
+        0.705,
+        0.275
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark wet-ink leaf clusters with rounded brushstrokes",
+        "thin branching structure visible inside the foliage",
+        "drooping willow strands at the left edge of the grove",
+        "multiple pale trunks rising from the bank",
+        "green-gray and ocher wash accents layered behind darker leaves"
+      ]
+    },
+    {
+      "name": "lower_rocky_headland",
+      "description": "Isolate the lower foreground headland with dark earth washes, exposed rounded rocks, small shoreline stones, and horizontal water-edge strokes; exclude signature and seals at the far right.",
+      "bbox": [
+        0.0,
+        0.775,
+        0.86,
+        0.145
+      ],
+      "role": "foreground rocks and shore",
+      "must_preserve": [
+        "broad dark ink washes defining the sloped promontory",
+        "rounded rock clusters with darker contour strokes",
+        "dry-brush horizontal shoreline lines",
+        "small pale stones and broken bank edges",
+        "soft transitions from land into blank water"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 14 NPM.jpg",
+  "created_at": "2026-09-03T19:49:06.952887+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

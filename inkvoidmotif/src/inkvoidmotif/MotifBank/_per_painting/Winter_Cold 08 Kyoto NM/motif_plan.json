@@ -1,0 +1,151 @@
+{
+  "source_summary": "A sparse Chinese ink landscape with calligraphy and seals in the upper field excluded. Reusable motifs are drawn from the lower landscape: misty distant mountains at left, wooded ridges and cliffs, open water/mist space, and foreground rocky banks with wintery shrubs and trees.",
+  "motifs": [
+    {
+      "name": "misty_left_peak",
+      "description": "Isolate the soft dark triangular distant peak on the far lower-left horizon, including the faint adjacent hill silhouettes fading into mist.",
+      "bbox": [
+        0.0,
+        0.535,
+        0.175,
+        0.165
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray ink wash forming the peak",
+        "blurred mist-softened mountain edges",
+        "faint flanking hill contours",
+        "subtle tonal gradation from dark summit to pale base"
+      ]
+    },
+    {
+      "name": "wooded_upper_ridge",
+      "description": "Isolate the tree-covered ridge across the upper part of the left mountain mass, with clustered dark conifer-like marks and sloping terrain beneath.",
+      "bbox": [
+        0.085,
+        0.585,
+        0.285,
+        0.115
+      ],
+      "role": "wooded hillside",
+      "must_preserve": [
+        "dense black dotted tree clusters",
+        "short vertical needle strokes",
+        "irregular ridge silhouette",
+        "pale underlying slope wash",
+        "broken dry-brush texture within the woods"
+      ]
+    },
+    {
+      "name": "sheer_right_cliff_face",
+      "description": "Isolate the pale vertical cliff face to the right of the wooded ridge, including angular contour lines and the narrow dark base where it meets mist.",
+      "bbox": [
+        0.305,
+        0.57,
+        0.18,
+        0.225
+      ],
+      "role": "cliff mountain",
+      "must_preserve": [
+        "thin angular cliff linework",
+        "pale gray wash planes",
+        "vertical fissure-like strokes",
+        "sharp overhanging cliff edge",
+        "dark soft base accents fading into mist"
+      ]
+    },
+    {
+      "name": "lower_left_forested_slope",
+      "description": "Isolate the descending lower-left mountain slope with sparse dark trees, exposed pale rock contours, and tapering lines leading downward.",
+      "bbox": [
+        0.025,
+        0.665,
+        0.27,
+        0.18
+      ],
+      "role": "mountain slope",
+      "must_preserve": [
+        "scattered black tree marks",
+        "curving pale rock contour lines",
+        "dry-brush slope texture",
+        "broken descending diagonal rhythm",
+        "misty unfinished edges"
+      ]
+    },
+    {
+      "name": "central_lake_mist_field",
+      "description": "Isolate the broad open middle field of water or mist between the mountains and foreground trees, preserving only the faint horizontal wash bands and atmospheric emptiness.",
+      "bbox": [
+        0.405,
+        0.405,
+        0.535,
+        0.35
+      ],
+      "role": "mist and water",
+      "must_preserve": [
+        "very faint horizontal wash bands",
+        "soft empty atmospheric space",
+        "subtle tonal transitions",
+        "barely visible waterline-like strokes",
+        "uninterrupted mist edges without calligraphy or seals"
+      ]
+    },
+    {
+      "name": "central_willow_shrub_mass",
+      "description": "Isolate the sprawling central foreground thicket of low willow-like shrubs, with interlaced bare branches rising from dark ink clumps.",
+      "bbox": [
+        0.255,
+        0.765,
+        0.44,
+        0.165
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "fine wiry branch linework",
+        "dark root and trunk ink clumps",
+        "fan-like outward branch spread",
+        "dry-brush twig tips",
+        "small pale gaps between crossing branches"
+      ]
+    },
+    {
+      "name": "right_winter_tree_reeds",
+      "description": "Isolate the right foreground cluster of leafless trees and reed-like grasses, including the taller branched forms and dense dark bases.",
+      "bbox": [
+        0.68,
+        0.745,
+        0.315,
+        0.175
+      ],
+      "role": "foreground trees and reeds",
+      "must_preserve": [
+        "angular bare branch structure",
+        "dark ink reed clusters at the base",
+        "varied brush pressure in twigs",
+        "overlapping shrub silhouettes",
+        "slightly smoky wash around trunks"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the bottom foreground shoreline and rock bank beneath the shrubs, with pale sloping rock slabs, dark accent strokes, and a winding bank edge.",
+      "bbox": [
+        0.35,
+        0.86,
+        0.64,
+        0.125
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "pale slanted rock planes",
+        "dark dry-brush crevice marks",
+        "curving shoreline edge",
+        "ink pooling under shrub roots",
+        "layered foreground-bank geometry"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 08 Kyoto NM.jpg",
+  "created_at": "2026-09-03T21:57:09.988726+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

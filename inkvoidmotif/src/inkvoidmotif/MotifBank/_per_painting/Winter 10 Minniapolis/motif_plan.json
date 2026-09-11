@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall monochrome Chinese landscape scroll with layered monumental mountains, cliff terraces, small architectural clusters, pine groves, waterfalls or pale watercourses, rocky streambeds, and foreground pavilions. Calligraphy and seal at the upper right are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_sheer_cliffs",
+      "description": "Isolate the towering upper-left mountain massif with flat-topped and jagged cliff faces, pale central rock planes, dark vertical scarps, and sparse crest vegetation. Exclude the calligraphy area and lower village terraces.",
+      "bbox": [
+        0.0,
+        0.06,
+        0.58,
+        0.29
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin ink outlines defining the irregular summit silhouette",
+        "vertical cun texture strokes on the dark cliff walls",
+        "pale unwashed central rock planes",
+        "small dotted and bristled vegetation along the ridgelines",
+        "subtle layered wash transitions at cliff bases"
+      ]
+    },
+    {
+      "name": "upper_right_folded_mountain",
+      "description": "Isolate the rounded upper-right mountain with sweeping arched contour bands, striated rock texture, and a narrow tree-lined ledge across its lower middle.",
+      "bbox": [
+        0.42,
+        0.17,
+        0.41,
+        0.29
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "long curved contour lines following the mountain folds",
+        "dry-brush striations and light ink washes",
+        "thin mist-softened outer edges",
+        "horizontal ledge line with tiny clustered pine strokes",
+        "dark accents in creases and ravines"
+      ]
+    },
+    {
+      "name": "middle_left_terrace_village",
+      "description": "Isolate the compact village and pavilion cluster on stepped cliffs at middle left, including small roofed buildings, vertical rock walls, pine rows, and connecting terrace paths.",
+      "bbox": [
+        0.09,
+        0.4,
+        0.34,
+        0.18
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "angular tiled roof geometry of the small buildings",
+        "stepped cliff outlines and cracked rock faces",
+        "dense vertical pine and shrub strokes around the terraces",
+        "fine path lines linking the structures",
+        "dark ink accents under eaves and cliff overhangs"
+      ]
+    },
+    {
+      "name": "central_pine_pavilion_ledge",
+      "description": "Isolate the central ledge with tall leaning pines, a small pavilion or lookout structure, and the cliff platform beneath it.",
+      "bbox": [
+        0.39,
+        0.41,
+        0.31,
+        0.17
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "slender pine trunks with sparse branching",
+        "needle clusters rendered as short dark strokes",
+        "small pavilion roof and posts on the ledge",
+        "flat cliff-top platform with dotted shrubs",
+        "vertical fissures descending from the ledge"
+      ]
+    },
+    {
+      "name": "right_ledge_house_and_rocky_stream",
+      "description": "Isolate the right-side small house on a rocky ledge together with the adjacent boulder-strewn stream or ravine below it.",
+      "bbox": [
+        0.76,
+        0.52,
+        0.23,
+        0.19
+      ],
+      "role": "waterside dwelling",
+      "must_preserve": [
+        "simple house with dark pitched roof and pale wall plane",
+        "curving bank line around the ledge",
+        "rounded boulders and angular rocks in the streambed",
+        "small shrub clusters beside the rocks",
+        "broken ink outlines suggesting shallow water channels"
+      ]
+    },
+    {
+      "name": "central_sheer_waterfall_cliff",
+      "description": "Isolate the tall central pale precipice or waterfall-like vertical rock face descending from the mid-scroll ledge, including flanking dark fissures and rocky foot.",
+      "bbox": [
+        0.34,
+        0.53,
+        0.34,
+        0.25
+      ],
+      "role": "waterfall cliff",
+      "must_preserve": [
+        "broad pale vertical central plane",
+        "long dry vertical lines suggesting falling water or sheer stone",
+        "dark flanking cracks and cliff edges",
+        "small rocks and broken ledges at the base",
+        "misty unpainted negative space around the descent"
+      ]
+    },
+    {
+      "name": "lower_left_bamboo_shrub_bank",
+      "description": "Isolate the lower-left bank with bamboo-like stems, leafy shrubs, small rocks, and a sloping ground plane beside the water or misty open area.",
+      "bbox": [
+        0.0,
+        0.63,
+        0.25,
+        0.16
+      ],
+      "role": "foreground vegetation",
+      "must_preserve": [
+        "fine bamboo stems and feathery leaves",
+        "rounded shrub masses made of dotted ink strokes",
+        "small outlined rocks at the bank edge",
+        "sloping contour lines of the ground",
+        "delicate dry-brush foliage texture"
+      ]
+    },
+    {
+      "name": "foreground_pines_pavilion",
+      "description": "Isolate the lower foreground grove with large twisting pines and the open pavilion at bottom right, including trunks, branch canopies, roof, posts, and nearby low shrubs.",
+      "bbox": [
+        0.48,
+        0.73,
+        0.49,
+        0.23
+      ],
+      "role": "foreground pavilion",
+      "must_preserve": [
+        "gnarled pine trunks with textured bark lines",
+        "flat spreading pine-needle clusters in dark ink",
+        "open pavilion roof with thin support posts",
+        "low shrubs and bushes behind the pavilion",
+        "soft ground contours and sparse foreground ink accents"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 10 Minniapolis.jpg",
+  "created_at": "2026-08-26T22:09:12.446618+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

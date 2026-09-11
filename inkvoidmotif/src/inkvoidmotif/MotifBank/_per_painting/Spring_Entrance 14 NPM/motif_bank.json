@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 14 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:28:43.119016+00:00",
+  "motifs": [
+    {
+      "name": "central_spring_mountain",
+      "description": "The large central mountain mass rising behind the lake, including its rounded summit, layered ridges, gullies, scrubby tree bands, dark conifer dots, and pale ochre-green washes. Isolate the mountain form and attached wooded slopes, excluding the calligraphy at upper left and seals at upper right.",
+      "bbox": [
+        0.235,
+        0.065,
+        0.395,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "rounded summit silhouette with broken ink contour lines",
+        "layered cun-style rock texture and dry-brush striations",
+        "dark dotted conifer clusters along ridgelines",
+        "pale ochre and green wash transitions",
+        "small mist-softened gaps between ridges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_spring_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_peaks",
+      "description": "The distant mountain chain on the upper right, with pale peaks emerging from white mist and a low dark ridge line crossing the water. Isolate the atmospheric peaks and cloud-water edges without including the red seals.",
+      "bbox": [
+        0.61,
+        0.125,
+        0.36,
+        0.18
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "soft gray-green wash peaks",
+        "faded mist edges around mountain bases",
+        "low dark ink ridge silhouettes",
+        "subtle layered distance recession",
+        "open white cloud-water spaces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_misty_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_lakeside_hamlet",
+      "description": "Small buildings and pavilions nestled among trees on the central-to-right midground shore, including rooflines, groves, footpaths, nearby low hills, and small waterside details. Exclude the larger foreground pine grove.",
+      "bbox": [
+        0.43,
+        0.205,
+        0.4,
+        0.225
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny angular roof geometry",
+        "fine vertical tree trunks and dotted foliage",
+        "thin shoreline and path linework",
+        "rocky hill texture around the houses",
+        "light ochre washes on banks and slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_midground_lakeside_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_mist_surface",
+      "description": "The broad open lake and mist field occupying the middle-left of the painting, with horizontal water washes, faint shorelines, and blank atmospheric space between foreground and distant hills. Isolate only the water and mist surface, avoiding surrounding cliffs and buildings as much as possible.",
+      "bbox": [
+        0.02,
+        0.245,
+        0.51,
+        0.275
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "horizontal pale ink wash bands",
+        "soft disappearing shoreline strokes",
+        "large reserved blank water areas",
+        "misty transitions into distant banks",
+        "subtle ochre staining along water edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_lake_mist_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_cliff_lone_pine",
+      "description": "The left mid-foreground rocky promontory with a single leaning pine growing from its top edge, including the cliff face, dark moss dots, root-like lines, and pine needles. Exclude the nearby hut to the right.",
+      "bbox": [
+        0.0,
+        0.365,
+        0.19,
+        0.245
+      ],
+      "role": "foreground rock and pine",
+      "must_preserve": [
+        "leaning pine trunk and spreading needle clusters",
+        "jagged cliff outline",
+        "dark moss-dot texture down the rock face",
+        "dry-brush rock wrinkles",
+        "pale ochre wash on the stone ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_cliff_lone_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rock_sheltered_hut",
+      "description": "A small hut or pavilion tucked between boulders in the lower-middle left, with a simple pitched roof, posts, enclosing rocks, bamboo-like stalks, and nearby shrubs. Keep the architecture and immediate rocky shelter only.",
+      "bbox": [
+        0.175,
+        0.515,
+        0.235,
+        0.18
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin angular roof outline",
+        "short vertical support posts",
+        "surrounding rounded boulder contours",
+        "slender bamboo or reed strokes behind the hut",
+        "small dark foliage dots and pale ground wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_rock_sheltered_hut.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_foreground_pine_grove",
+      "description": "The prominent right foreground grove of tall pines growing on steep textured hillsides, including the pale trunks, branching structure, dense needle clusters, surrounding moss-dotted slopes, and adjacent rock faces. Isolate the tree grove and supporting hillside, avoiding the lower red seal.",
+      "bbox": [
+        0.485,
+        0.495,
+        0.395,
+        0.365
+      ],
+      "role": "foreground pines and hillside",
+      "must_preserve": [
+        "tall pale pine trunks with dark contour lines",
+        "radiating needle clusters on layered branches",
+        "dense moss-dot patterns on the slopes",
+        "steep rock face texture and contour strokes",
+        "ochre-green washes separating hills, trunks, and foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_foreground_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

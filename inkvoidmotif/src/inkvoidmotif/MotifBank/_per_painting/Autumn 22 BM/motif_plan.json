@@ -1,0 +1,151 @@
+{
+  "source_summary": "Chinese ink-and-color landscape with misty blue distant ridges, rounded gray-green mountains with orange mineral washes, a small pavilion hidden among pines, a lone scholar, pale water, a small boat, and foreground rocky reed banks; calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "distant_blue_tree_ridge",
+      "description": "Isolate the far-left misty ridge of pale blue wash with a row of dark blue conifer-like treetops rising along the skyline behind the haze.",
+      "bbox": [
+        0.02,
+        0.13,
+        0.43,
+        0.25
+      ],
+      "role": "distant hillside and tree screen",
+      "must_preserve": [
+        "soft pale blue wash fading into blank mist",
+        "irregular wet-edge silhouettes along the lower ridge",
+        "dark blue pointed treetop shapes",
+        "subtle layered transparency between nearer and farther trees"
+      ]
+    },
+    {
+      "name": "central_rounded_mountain",
+      "description": "Isolate the large central rounded mountain mass, including its dark mottled summit, soft gray flanks, vertical cliff texture, and warm orange washes on the lower face.",
+      "bbox": [
+        0.38,
+        0.05,
+        0.25,
+        0.45
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "rounded summit contour",
+        "granular gray-black wash texture",
+        "soft white mist breaks within the mountain face",
+        "vertical ink streaks and dry-brush rock texture",
+        "orange mineral color accents on the lower cliffs"
+      ]
+    },
+    {
+      "name": "right_misty_mountain_slope",
+      "description": "Isolate the right-hand mountain and descending slope, with its rounded upper peak, smoky gray ink body, pale orange undertones, and feathered misty edges.",
+      "bbox": [
+        0.61,
+        0.17,
+        0.25,
+        0.52
+      ],
+      "role": "secondary mountain slope",
+      "must_preserve": [
+        "rounded peak profile",
+        "dark clustered ink texture near the summit and mid-slope",
+        "soft fading lower edge into mist",
+        "pale orange wash patches",
+        "broken dry-brush ridgeline and rock surface texture"
+      ]
+    },
+    {
+      "name": "hidden_pavilion_pines",
+      "description": "Isolate the small pavilion group tucked at the mountain foot, including the slanted tiled roof, dark pine clusters, tiny warm wall accents, and surrounding shrubs immediately enclosing the structure.",
+      "bbox": [
+        0.51,
+        0.41,
+        0.19,
+        0.19
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angled gray-green roof geometry with parallel tile strokes",
+        "dark black pine foliage masses above and beside the roof",
+        "small orange architectural accents",
+        "fine shrub and branch strokes around the building",
+        "mist-softened base where the pavilion sits against the slope"
+      ]
+    },
+    {
+      "name": "lone_scholar_figure",
+      "description": "Isolate the small standing scholar below the pavilion, including the dark head and hair/hat, orange face accent, pale robe, and thin black walking lines.",
+      "bbox": [
+        0.55,
+        0.63,
+        0.04,
+        0.11
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "tiny orange face accent",
+        "black head or hat shape",
+        "slender robe outline in pale gray ink",
+        "long thin black leg and staff-like strokes",
+        "delicate scale relative to the landscape"
+      ]
+    },
+    {
+      "name": "small_moored_boat",
+      "description": "Isolate the small dark boat in the lower middle water, with its narrow curved hull, orange highlights, and upright central post or mast.",
+      "bbox": [
+        0.45,
+        0.84,
+        0.1,
+        0.05
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "thin crescent-shaped black hull",
+        "warm orange-brown touches along the boat",
+        "upright dark central post",
+        "small pointed ends of the hull",
+        "light surrounding water left mostly blank"
+      ]
+    },
+    {
+      "name": "foreground_right_rock_reed_bank",
+      "description": "Isolate the lower-right foreground bank of pale rocks, ink shrubs, reeds, grasses, and scattered orange foliage accents, excluding the calligraphy and seals to the far right.",
+      "bbox": [
+        0.55,
+        0.7,
+        0.32,
+        0.25
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "rounded pale rock outlines with gray wash shadows",
+        "dark clustered shrub strokes",
+        "thin reed and grass linework",
+        "small orange leaf or flower accents",
+        "soft smoky ground wash tying the rocks together"
+      ]
+    },
+    {
+      "name": "left_misty_water_stones",
+      "description": "Isolate the lower-left water surface with pale gray horizontal washes, soft mist, and a loose chain of small rounded stones near the shore.",
+      "bbox": [
+        0.0,
+        0.64,
+        0.43,
+        0.22
+      ],
+      "role": "water and shoreline stones",
+      "must_preserve": [
+        "broad pale gray water wash",
+        "horizontal ripple-like brush bands",
+        "fading mist edges into blank paper",
+        "small rounded ink-outlined stones",
+        "subtle shoreline transition without hard borders"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 22 BM.jpg",
+  "created_at": "2026-08-26T21:38:18.803090+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

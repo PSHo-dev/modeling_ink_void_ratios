@@ -1,0 +1,154 @@
+{
+  "source": "../../../../../../Input_Images/Spring 20 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:52:06.955797+00:00",
+  "motifs": [
+    {
+      "name": "central_mountain_massif",
+      "description": "Large dark mountain group rising in the upper middle-right, including the sheer central cliff, adjoining rounded summit on the right, diagonal ravines, lower rounded foothill, and mist-softened base.",
+      "bbox": [
+        0.36,
+        0.28,
+        0.63,
+        0.29
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "dense ink-dot and hemp-fiber texture across the cliff faces",
+        "soft brown wash under the black texture",
+        "diagonal pale ravine cuts on the right-facing slope",
+        "rounded lower foothill with stippled crest",
+        "mist-blurred lower edges where the mountain dissolves into cloud"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_left_peaks",
+      "description": "Cluster of small distant conical mountains on the left horizon, partly submerged in mist below the main massif.",
+      "bbox": [
+        0.0,
+        0.42,
+        0.37,
+        0.11
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft silhouettes of overlapping triangular peaks",
+        "graduated grey ink wash fading into surrounding mist",
+        "pale atmospheric gaps between peaks",
+        "minimal dry-brush texture on the slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_distant_left_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_mountain_mist_band",
+      "description": "Horizontal bands of pale mist and cloud wrapping around the base and sides of the mountains, separating distant peaks, central massif, and lower landscape.",
+      "bbox": [
+        0.0,
+        0.47,
+        1.0,
+        0.16
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "irregular feathered mist edges",
+        "thin grey wash transitions",
+        "open pale reserves between dark mountains and trees",
+        "layered atmospheric depth without hard outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_mid_mountain_mist_band.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "red_roof_village_cluster",
+      "description": "Small low village or pavilion compound in the middle distance, with red-orange roofs and pale walls set at the foot of the mountains.",
+      "bbox": [
+        0.17,
+        0.55,
+        0.29,
+        0.045
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny red-orange roof accents",
+        "fine black roofline geometry and upturned eaves",
+        "pale wall shapes partially obscured by haze",
+        "surrounding low scrub strokes kept subordinate"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_red_roof_village_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_leafless_grove",
+      "description": "Sparse midground grove of bare or lightly leafed trees across the right-center slope, including branching trunks, small shrubs, and a faint opening like a path or stream behind them.",
+      "bbox": [
+        0.44,
+        0.58,
+        0.55,
+        0.18
+      ],
+      "role": "midground trees",
+      "must_preserve": [
+        "thin angular branch linework",
+        "light brown trunk washes",
+        "small clustered leaf and shrub dots",
+        "transparent ink texture allowing misty ground to show through",
+        "irregular spacing between trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midground_leafless_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_pine_grove",
+      "description": "Prominent foreground stand of tall pines occupying the lower left and center, with multiple vertical trunks and flattened needle clusters spreading horizontally.",
+      "bbox": [
+        0.02,
+        0.63,
+        0.61,
+        0.25
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "reddish-brown textured trunks with dark contour lines",
+        "radiating pine-needle clusters in dark ink",
+        "layered horizontal boughs crossing between trunks",
+        "rooted rocky ground at the base",
+        "variation between dense dark needles and pale mist gaps"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_waterbank",
+      "description": "Lower foreground rocky bank and water edge, including dark rocks, sloping earthen ledges, small stones, and a flat-topped pine-like tree near the water.",
+      "bbox": [
+        0.31,
+        0.78,
+        0.68,
+        0.2
+      ],
+      "role": "foreground rocks and waterbank",
+      "must_preserve": [
+        "dark dry-brush rock masses along the bank",
+        "soft pale water or open ground reserves around rocks",
+        "flat horizontal foliage strokes of the small tree",
+        "brown wash on sloping ledges",
+        "scattered pebble accents and uneven shoreline contours"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_waterbank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

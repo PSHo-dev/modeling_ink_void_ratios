@@ -1,0 +1,153 @@
+{
+  "source_summary": "Ink-wash Chinese landscape with a high cloud-veiled mountain, distant ridges, layered mist, and foreground wooded hills. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "cloud_veiled_main_peak",
+      "description": "Isolate the dominant upper central mountain mass: a tall rounded peak with steep shoulders, pale interior washes, darker contour accents, and horizontal texture strokes along ridges and summit.",
+      "bbox": [
+        0.36,
+        0.23,
+        0.5,
+        0.33
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "soft grey ink wash forming the peak volume",
+        "dark broken horizontal cun texture strokes on the crest and side ridges",
+        "vertical wash streaks down the right face",
+        "mist-softened lower edge where the mountain dissolves into cloud",
+        "irregular rounded summit silhouette"
+      ]
+    },
+    {
+      "name": "left_foothill_ridge",
+      "description": "Isolate the lower-left connected ridge beneath the main mountain, including the dark sloping knoll and small pale background peaks behind it.",
+      "bbox": [
+        0.0,
+        0.36,
+        0.42,
+        0.18
+      ],
+      "role": "foothill ridge",
+      "must_preserve": [
+        "dark clustered horizontal brush dashes on the left knoll",
+        "soft pale wash of distant peaks behind the ridge",
+        "low undulating ridge contour",
+        "mist-blurred transitions at the base",
+        "scattered dry-brush rock texture"
+      ]
+    },
+    {
+      "name": "right_distant_peaks",
+      "description": "Isolate the faint distant mountain group at the right side of the middle distance, behind the main peak base.",
+      "bbox": [
+        0.82,
+        0.37,
+        0.17,
+        0.13
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "very light ink wash silhouettes",
+        "two rounded peak forms",
+        "soft atmospheric edges",
+        "minimal dark contouring",
+        "hazy recession into background mist"
+      ]
+    },
+    {
+      "name": "middle_mist_band",
+      "description": "Isolate the broad horizontal band of mist and vapor crossing the painting below the main mountain, with soft openings and cloud-like wash patches.",
+      "bbox": [
+        0.0,
+        0.5,
+        1.0,
+        0.17
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "pale unpainted cloud gaps",
+        "soft grey feathered wash edges",
+        "horizontal drifting structure",
+        "blurred submerged hill shapes within the vapor",
+        "uneven ink density suggesting layered fog"
+      ]
+    },
+    {
+      "name": "central_misty_islets",
+      "description": "Isolate the small middle-ground hill and islet forms emerging from mist in the center-lower area.",
+      "bbox": [
+        0.22,
+        0.6,
+        0.55,
+        0.15
+      ],
+      "role": "misty hills",
+      "must_preserve": [
+        "rounded low hill silhouettes",
+        "soft diluted ink washes",
+        "barely visible contours fading into mist",
+        "subtle layered depth between overlapping forms",
+        "gentle horizontal base strokes"
+      ]
+    },
+    {
+      "name": "left_foreground_bamboo_hill",
+      "description": "Isolate the left foreground mound with its rounded rock face, dark dashed ridge texture, and sparse bamboo or shrub strokes along the slope.",
+      "bbox": [
+        0.02,
+        0.73,
+        0.34,
+        0.22
+      ],
+      "role": "foreground hill",
+      "must_preserve": [
+        "bold dark horizontal texture dashes on the crest",
+        "rounded pale rock wash on the hill face",
+        "small thin bamboo-like leaf clusters",
+        "soft base wash at the foot of the hill",
+        "dry-brush contour accents"
+      ]
+    },
+    {
+      "name": "central_pine_grove_mound",
+      "description": "Isolate the central foreground wooded mound with a dense stand of straight dark trunks and layered horizontal foliage strokes.",
+      "bbox": [
+        0.24,
+        0.71,
+        0.33,
+        0.27
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "vertical dark tree trunks of varying thickness",
+        "stacked horizontal pine-needle strokes",
+        "misty grey wash behind the grove",
+        "rocky mound base with broken texture marks",
+        "small grass tufts at the lower edge"
+      ]
+    },
+    {
+      "name": "right_foreground_pines_cliff",
+      "description": "Isolate the right foreground rocky slope and cliff with tall pines, slender saplings, bamboo-like foliage, and the pale vertical cleft or stream cut through the rock.",
+      "bbox": [
+        0.55,
+        0.66,
+        0.41,
+        0.27
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "tall dark pine at far right with layered needle clusters",
+        "slender central saplings with fine leaves",
+        "rounded cliff and boulder washes",
+        "dark broken texture marks along the slope",
+        "pale vertical cleft or waterfall-like white channel",
+        "small bamboo-like shrubs near the lower right"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 05 Shanghai M.jpg",
+  "created_at": "2026-07-23T20:37:00.556889+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

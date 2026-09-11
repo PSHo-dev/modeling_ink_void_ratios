@@ -1,0 +1,160 @@
+{
+  "source_summary": "Monochrome ink-and-light-wash Chinese landscape with towering layered mountains, diagonal pine-covered ridges, mist-filled valleys, a secluded pavilion compound, water crossing with bridge and figures, varied foreground tree groves, rocky banks, and small travelers on a right-hand path. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "central_towering_peak",
+      "description": "Isolate the large central mountain mass rising in the upper middle: a tall pale peak with rounded summit, layered vertical and diagonal contour strokes, dark hemp-fiber texture dots, and clustered black foliage accents along ridgelines.",
+      "bbox": [
+        0.365,
+        0.075,
+        0.43,
+        0.43
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "arched summit silhouette",
+        "pale ink wash gradients on the main face",
+        "curving contour linework",
+        "dense black texture dots along ridges",
+        "small dark shrub clusters near the crest",
+        "mist-softened lower slopes"
+      ]
+    },
+    {
+      "name": "right_diagonal_pine_ridges",
+      "description": "Isolate the right-middle system of diagonal hillsides with bands of dark pines climbing across the slopes, including the stepped ridgelines and rounded washed rock forms beneath them.",
+      "bbox": [
+        0.555,
+        0.255,
+        0.405,
+        0.43
+      ],
+      "role": "pine-covered hillside",
+      "must_preserve": [
+        "diagonal ridge geometry",
+        "rows of upright pine trunks",
+        "dark needle clusters",
+        "rounded pale rock washes",
+        "short black texture strokes on hill edges",
+        "layered recession between ridges"
+      ]
+    },
+    {
+      "name": "left_misty_valley_hills",
+      "description": "Isolate the left-center mist-filled valley: enclosing cliffs, distant rounded hills, soft blank mist basin, and scattered stippled trees descending into the haze.",
+      "bbox": [
+        0.0,
+        0.305,
+        0.38,
+        0.335
+      ],
+      "role": "misty valley and distant hills",
+      "must_preserve": [
+        "soft mist edges and unpainted voids",
+        "rounded distant hill silhouettes",
+        "stippled foliage patches",
+        "left cliff contour strokes",
+        "dark dotted ridge accents",
+        "subtle wash transitions into the valley"
+      ]
+    },
+    {
+      "name": "pine_hidden_pavilion_group",
+      "description": "Isolate the secluded building cluster among tall pines in the lower-left middle: tiled roofs, rectilinear walls, narrow vertical trunks, and the small stepped approach path nestled against the hillside.",
+      "bbox": [
+        0.18,
+        0.585,
+        0.205,
+        0.19
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "parallel roof tile linework",
+        "angular roof geometry",
+        "thin vertical pavilion wall lines",
+        "surrounding tall pine trunks",
+        "dark pine needle masses",
+        "narrow path strokes leading to the buildings"
+      ]
+    },
+    {
+      "name": "water_bridge_with_scholars",
+      "description": "Isolate the lower-left water crossing: calm inlet, uneven banks, plank or arched wooden bridge, and two small scholar figures standing on the bridge.",
+      "bbox": [
+        0.075,
+        0.765,
+        0.395,
+        0.145
+      ],
+      "role": "bridge and scholar figures",
+      "must_preserve": [
+        "blank water surface shape",
+        "irregular inked shoreline",
+        "bridge rail and plank linework",
+        "two tiny robed figures",
+        "small dark reflections or supports beneath bridge",
+        "soft bank washes around the crossing"
+      ]
+    },
+    {
+      "name": "central_foreground_tree_grove",
+      "description": "Isolate the dense central foreground grove and winding path: varied trees with different leaf textures, tall trunks, dark foliage masses, exposed roots, and low rocks at the base.",
+      "bbox": [
+        0.34,
+        0.685,
+        0.385,
+        0.295
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "contrasting leaf textures including dots and hooked strokes",
+        "slender vertical trunks",
+        "dark clustered foliage silhouettes",
+        "winding pale path between trees",
+        "root and branch linework",
+        "small foreground rocks and ink accents"
+      ]
+    },
+    {
+      "name": "right_path_travelers_grove",
+      "description": "Isolate the lower-right hillside path with two tiny travelers and the surrounding sparse trees: leafless branching trunks, dark leafy trees, rounded path contour, and adjacent slope washes.",
+      "bbox": [
+        0.705,
+        0.66,
+        0.285,
+        0.255
+      ],
+      "role": "figures on path with trees",
+      "must_preserve": [
+        "two small walking figures",
+        "delicate robe and head linework",
+        "curving path edge",
+        "leafless branch networks",
+        "dark clustered foliage on nearby trees",
+        "light hillside wash and dotted ground texture"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the bottom foreground rocky ledge and low bank, excluding the red seal: a chain of rounded rocks, dark stippled moss, uneven earth contour, and shallow wash at the painting’s front edge.",
+      "bbox": [
+        0.075,
+        0.92,
+        0.78,
+        0.065
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "individual rounded rock outlines",
+        "dark moss-like stippling",
+        "irregular horizontal bank contour",
+        "pale wash around stones",
+        "small black accent dots",
+        "broken dry-brush texture along the ledge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 05 Liaoning.jpg",
+  "created_at": "2026-09-03T21:06:20.627717+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

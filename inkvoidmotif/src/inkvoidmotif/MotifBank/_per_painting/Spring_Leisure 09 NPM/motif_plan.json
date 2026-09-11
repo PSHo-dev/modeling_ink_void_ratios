@@ -1,0 +1,149 @@
+{
+  "source_summary": "A vertical Chinese landscape with misty layered mountains above a lakeside garden estate, tree-lined banks, pavilions, pines, rocks, water, bridges, and small scholar figures. Calligraphy, seals, borders, and paper texture are excluded from the motif selections.",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_massif",
+      "description": "The large rounded mountain mass on the upper left, isolated from the margin inscriptions and seals, including its descending slopes and mist-softened lower edge.",
+      "bbox": [
+        0.035,
+        0.15,
+        0.39,
+        0.152
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "fine parallel contour strokes following the mountain curvature",
+        "dark clustered vegetation dots along ridgelines",
+        "pale olive-brown wash gradients on the slopes",
+        "soft fog boundary at the mountain base"
+      ]
+    },
+    {
+      "name": "central_rounded_mist_ridge",
+      "description": "The central mid-distance rounded ridge and saddle emerging from mist, with a darker crest and faint distant hills behind it.",
+      "bbox": [
+        0.315,
+        0.214,
+        0.32,
+        0.11
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin layered contour linework across the rounded peak",
+        "dark stippled brush clusters along the crest",
+        "light translucent wash on the ridge flanks",
+        "soft atmospheric fading into the surrounding mist"
+      ]
+    },
+    {
+      "name": "right_layered_hillside",
+      "description": "The right-side mid-distance hillside with overlapping rounded ridges, scattered tree clusters, and faint mountains receding behind it, cropped before the far-right seal area.",
+      "bbox": [
+        0.7,
+        0.245,
+        0.25,
+        0.145
+      ],
+      "role": "hillside",
+      "must_preserve": [
+        "overlapping hill silhouettes",
+        "fine hairline texture strokes on the slopes",
+        "small dark tree dots and upright grove marks",
+        "pale mist gaps separating the hill layers"
+      ]
+    },
+    {
+      "name": "middle_willow_riverbank",
+      "description": "The horizontal middle riverbank with low rounded hills, leafless and willow-like trees, small shrubs, and pale water channels running behind the garden area.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.76,
+        0.125
+      ],
+      "role": "riverbank",
+      "must_preserve": [
+        "delicate bare-branch linework",
+        "soft green willow washes",
+        "small pink blossom accents",
+        "low hill texture strokes and shrub dots",
+        "thin pale water lines and open misty spacing"
+      ]
+    },
+    {
+      "name": "right_estate_roof_complex",
+      "description": "The main right-side lakeside estate complex: nested halls, long grey tiled roofs, courtyard walls, windows, and trees partly screening the architecture.",
+      "bbox": [
+        0.445,
+        0.475,
+        0.54,
+        0.175
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise grey roof geometry with upturned eaves",
+        "dense parallel roof-tile hatch lines",
+        "red, blue, and ochre architectural color accents",
+        "rectangular window and door grids",
+        "tree foliage and trunks overlapping the buildings where visible"
+      ]
+    },
+    {
+      "name": "foreground_red_pavilion_pines",
+      "description": "The foreground red-pillared pavilion and its immediate garden setting, including the dark tiled roof, steps, nearby rocks, and pine branches crossing around it.",
+      "bbox": [
+        0.27,
+        0.59,
+        0.305,
+        0.175
+      ],
+      "role": "foreground pavilion",
+      "must_preserve": [
+        "red column structure and railing details",
+        "dark grey roof with upturned corners and tile lines",
+        "small stairways and pale stone platform",
+        "gnarled pine limbs and clustered needle tufts",
+        "garden rocks with textured outlines"
+      ]
+    },
+    {
+      "name": "right_wooden_bridge_water",
+      "description": "The arched wooden bridge on the lower right spanning pale water, with railings, posts, nearby banks, reeds, rocks, and flanking trees.",
+      "bbox": [
+        0.69,
+        0.665,
+        0.29,
+        0.095
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "brown bridge rail geometry and vertical supports",
+        "arched deck line over the water",
+        "pale water wash and empty reflective space",
+        "reed and grass strokes along the banks",
+        "small rock textures and surrounding shrub foliage"
+      ]
+    },
+    {
+      "name": "lower_left_scholar_bridge",
+      "description": "The lower-left wooden footbridge with two small robed figures crossing, adjacent banks, rocks, and overhanging foreground trees.",
+      "bbox": [
+        0.0,
+        0.76,
+        0.235,
+        0.125
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "tiny scholar figures with colored robes and dark headwear",
+        "wooden bridge planks, railings, and posts",
+        "curving pale path leading onto the bridge",
+        "nearby rock outlines and bank textures",
+        "fine foreground tree branches and soft green foliage washes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 09 NPM.jpg",
+  "created_at": "2026-08-05T05:35:22.429112+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

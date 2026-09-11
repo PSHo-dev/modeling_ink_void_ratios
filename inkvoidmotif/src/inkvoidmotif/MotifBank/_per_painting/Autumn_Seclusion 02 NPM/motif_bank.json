@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 02 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:23:16.802674+00:00",
+  "motifs": [
+    {
+      "name": "left_crag_bare_tree_cluster",
+      "description": "Steep left hillside with pale layered rock washes and a cluster of tall leafless trees rising from the slope and lower bank; isolate the crag, trunks, branches, exposed roots, and sparse reddish-brown foliage near the base, excluding the adjacent inscription at the far left edge.",
+      "bbox": [
+        0.022,
+        0.077,
+        0.195,
+        0.75
+      ],
+      "role": "left foreground hillside and tree mass",
+      "must_preserve": [
+        "fine angular branch linework",
+        "pale gray-brown contour washes on the crag",
+        "dark dry-brush texture along the sloping rock face",
+        "exposed root strokes at the tree bases",
+        "small reddish-brown leaf accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_crag_bare_tree_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rear_hamlet_hillside_field",
+      "description": "Soft mid-left hillside with a tiny distant roof, terraced field patch, low embankments, and muted brushy vegetation behind the main grove; isolate the rolling hill forms and cultivated textures only.",
+      "bbox": [
+        0.218,
+        0.224,
+        0.168,
+        0.448
+      ],
+      "role": "midground hillside and distant hamlet detail",
+      "must_preserve": [
+        "small dark roof silhouette on the hill",
+        "parallel hatch marks of the field plot",
+        "soft ochre-gray hill washes",
+        "low horizontal bank lines",
+        "delicate scrub textures"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_rear_hamlet_hillside_field.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_thatched_pavilions_grove",
+      "description": "Central village cluster of low thatched pavilions tucked among tall bare trees, with dark roof beams, pale walls, surrounding trunks, and a dense dark grove behind.",
+      "bbox": [
+        0.355,
+        0.061,
+        0.18,
+        0.66
+      ],
+      "role": "central pavilion group and wooded village",
+      "must_preserve": [
+        "roof geometry with layered eaves",
+        "thin vertical tree trunks",
+        "branch filigree above the roofs",
+        "dark stippled grove texture behind the buildings",
+        "subtle warm brown roof and foliage accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_thatched_pavilions_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_hillside_trees_mist_bank",
+      "description": "Right midground sloping bank with several sparse leafless trees and shrubs descending toward the water, partly softened by mist at the lower edge.",
+      "bbox": [
+        0.553,
+        0.244,
+        0.175,
+        0.472
+      ],
+      "role": "right midground hillside and misty bank",
+      "must_preserve": [
+        "thin tree trunks and branch tips",
+        "dark shrub patches on the slope",
+        "soft stippled hill texture",
+        "mist-blurred lower shoreline",
+        "subtle gray-brown wash gradations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_hillside_trees_mist_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_lake_mountains_bird_flocks",
+      "description": "Broad right-side expanse of water and sky with layered distant mountain ridges, horizontal shorelines, soft mist bands, and scattered flocks of small birds rendered as dark dash marks.",
+      "bbox": [
+        0.596,
+        0.093,
+        0.376,
+        0.575
+      ],
+      "role": "distant lake, mountains, and atmospheric background",
+      "must_preserve": [
+        "faint horizontal water and shoreline lines",
+        "layered distant mountain washes",
+        "soft mist edges between ridges and water",
+        "small bird-flock dash marks",
+        "very pale ochre-gray atmospheric color"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_distant_lake_mountains_bird_flocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

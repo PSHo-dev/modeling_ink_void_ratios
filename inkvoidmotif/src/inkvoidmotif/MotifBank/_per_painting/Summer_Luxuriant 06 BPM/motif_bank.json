@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 06 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:52:52.750435+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_massif",
+      "description": "Isolate the towering upper-left mountain group: multiple steep rounded peaks rising from mist, with the highest dark-textured summit near the upper center-left and paler flanking ridges at the far left.",
+      "bbox": [
+        0.0,
+        0.105,
+        0.5,
+        0.365
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "long vertical hemp-fiber contour strokes on the slopes",
+        "dark clustered ink dots along crest lines and summit vegetation",
+        "soft grey wash transitions fading into mist at the lower slopes",
+        "irregular rounded peak silhouettes",
+        "fine internal ridgeline linework without including nearby inscription areas"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_twin_cliffs_waterfall",
+      "description": "Isolate the central high cliff formation with two rounded ink-textured rock faces and the narrow pale vertical waterfall or ravine descending between the right cliffs.",
+      "bbox": [
+        0.36,
+        0.27,
+        0.43,
+        0.28
+      ],
+      "role": "middle mountain and waterfall",
+      "must_preserve": [
+        "dense black moss dots on cliff rims",
+        "curving layered rock-striation lines",
+        "pale unpainted waterfall channel with soft misty edges",
+        "dark wooded saddle between rock faces",
+        "subtle warm-brown and grey wash on the cliff bodies"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_twin_cliffs_waterfall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_layered_hillside",
+      "description": "Isolate the broad mid-left hillside made of horizontal, wave-like ridges and forested bands descending toward the central valley.",
+      "bbox": [
+        0.0,
+        0.39,
+        0.43,
+        0.22
+      ],
+      "role": "middle hillside",
+      "must_preserve": [
+        "stacked parallel ridge contours",
+        "short vertical tree strokes in rows along the slopes",
+        "dark stippled vegetation bands",
+        "soft wash gradients between hill layers",
+        "left-edge mist fade and lower path-like pale openings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_layered_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_hidden_roof_cluster",
+      "description": "Isolate the small hidden village or pavilion roofs nestled in the central valley among steep hills and dense trees.",
+      "bbox": [
+        0.39,
+        0.49,
+        0.23,
+        0.115
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "rectangular tiled roof geometry with fine parallel roof lines",
+        "tiny wall and eave outlines",
+        "surrounding slender trunks and dense leaf-dot foliage",
+        "enclosing rocky slopes with textured contour strokes",
+        "subtle ochre wash accents on earth and roof areas"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_hidden_roof_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midright_hillside_pavilion",
+      "description": "Isolate the mid-right pavilion compound set on a sloping hillside, partly enclosed by trees and rocks above the lower valley.",
+      "bbox": [
+        0.58,
+        0.635,
+        0.25,
+        0.12
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "small roofed structures with angular eaves",
+        "faint rail or wall lines within the compound",
+        "surrounding pine and deciduous tree silhouettes",
+        "rocky hillside contour strokes wrapping around the buildings",
+        "light mineral blue-green and ochre accents in vegetation and ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midright_hillside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_left_cottage_grove",
+      "description": "Isolate the lower-left cottage and grove: a small simple house at the foot of rocks, surrounded by bare-branched trees, shrubs, and a tall pine-like tree.",
+      "bbox": [
+        0.0,
+        0.805,
+        0.31,
+        0.12
+      ],
+      "role": "foreground dwelling and trees",
+      "must_preserve": [
+        "thin architectural wall and roof lines of the cottage",
+        "bare twig-like branch network in front of and around the house",
+        "dark pine needle clusters and trunk texture",
+        "rounded foreground rocks with fine contour hatching",
+        "dense shrub dots and light color washes near the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_left_cottage_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_right_riverside_pavilion",
+      "description": "Isolate the lower-right waterside pavilion or hall with open bays, set beside trees and a stream at the foot of a tall dark tree stand.",
+      "bbox": [
+        0.675,
+        0.825,
+        0.29,
+        0.105
+      ],
+      "role": "foreground pavilion",
+      "must_preserve": [
+        "long horizontal roof with clear eaves and support posts",
+        "open interior bay linework and tiny seated-figure-like interior marks if visible",
+        "nearby tall vertical tree trunks and dark foliage mass",
+        "stream-edge contour lines and bank textures",
+        "pale wash around the water and soft ochre-blue color accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_right_riverside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

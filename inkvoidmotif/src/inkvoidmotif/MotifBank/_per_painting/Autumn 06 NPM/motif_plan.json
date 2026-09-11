@@ -1,0 +1,151 @@
+{
+  "source_summary": "Ink monochrome Chinese landscape with inscription and seals above; reusable motifs are extracted only from the painted landscape area, excluding calligraphy, seals, borders, and paper texture.",
+  "motifs": [
+    {
+      "name": "upper_craggy_mountains",
+      "description": "The broad upper band of jagged, layered mountain and hillside forms spanning the left and center, including the large central peak, smaller adjoining ridges, clustered boulders, and pale receding crags.",
+      "bbox": [
+        0.0,
+        0.205,
+        0.775,
+        0.225
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "dry ink contour lines defining crag profiles",
+        "cun-style rubbing and textured washes on rock faces",
+        "dark crevice accents between overlapping peaks",
+        "soft fading edges where mountains dissolve into mist",
+        "small lower boulder clusters at the mountain base"
+      ]
+    },
+    {
+      "name": "right_distant_islets",
+      "description": "Small isolated distant rocks or islets floating in the pale empty space to the right of the upper mountains.",
+      "bbox": [
+        0.785,
+        0.355,
+        0.11,
+        0.055
+      ],
+      "role": "distant rocks",
+      "must_preserve": [
+        "tiny pale rock silhouettes",
+        "minimal dry-brush outlines",
+        "soft surrounding blank mist",
+        "subtle scale contrast with the main mountain mass"
+      ]
+    },
+    {
+      "name": "left_pine_grove",
+      "description": "Dense foreground pine cluster at the lower left, with dark horizontal needle masses, thin trunks, and drooping ink strokes.",
+      "bbox": [
+        0.0,
+        0.545,
+        0.255,
+        0.285
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "dark stacked pine-needle brushstrokes",
+        "vertical and slightly leaning trunks",
+        "hanging ink drips beneath foliage",
+        "fine twig lines around the grove",
+        "uneven base where pines merge with rocks and ground"
+      ]
+    },
+    {
+      "name": "central_leafless_trees",
+      "description": "Tall central leafless trees with slender vertical trunks and a network of fine bare branches rising in front of the hut area.",
+      "bbox": [
+        0.19,
+        0.43,
+        0.325,
+        0.43
+      ],
+      "role": "foreground tree screen",
+      "must_preserve": [
+        "long straight trunk linework",
+        "fine branching twigs and forked tips",
+        "light dry-brush bark texture",
+        "transparent ink washes on trunks",
+        "delicate overlap of branches without including the hut walls as part of the motif"
+      ]
+    },
+    {
+      "name": "right_bamboo_clump",
+      "description": "Leafy bamboo and slender saplings on the right side of the central tree group, with arcing stems and clustered narrow leaves.",
+      "bbox": [
+        0.43,
+        0.49,
+        0.205,
+        0.305
+      ],
+      "role": "foreground bamboo and shrubs",
+      "must_preserve": [
+        "thin curved bamboo stalks",
+        "clusters of narrow downward-pointing leaves",
+        "fine branch joints",
+        "light-to-dark ink variation in the foliage",
+        "airy gaps between leaves and stems"
+      ]
+    },
+    {
+      "name": "hidden_hut",
+      "description": "Small simple hut or pavilion partly concealed among the foreground trees, including its angular roof, rectangular wall lines, doorway/window marks, and adjacent light structural strokes.",
+      "bbox": [
+        0.285,
+        0.735,
+        0.23,
+        0.13
+      ],
+      "role": "pavilion dwelling",
+      "must_preserve": [
+        "triangular roof geometry",
+        "straight wall and post linework",
+        "small doorway and window strokes",
+        "pale ink construction lines",
+        "partial concealment by nearby trunks while excluding the trunks as separate tree motifs"
+      ]
+    },
+    {
+      "name": "right_solitary_cliff",
+      "description": "Large freestanding rock cliff on the lower right, with a rounded massive face, darker base, and angular cap rocks.",
+      "bbox": [
+        0.735,
+        0.59,
+        0.265,
+        0.23
+      ],
+      "role": "foreground cliff rock",
+      "must_preserve": [
+        "bold outer contour of the cliff mass",
+        "angular top boulders",
+        "dry-brush rock texture and vertical striations",
+        "dark wash at the lower cleft",
+        "soft blank negative space around the rock"
+      ]
+    },
+    {
+      "name": "foreground_rocky_shore",
+      "description": "Low foreground rocky bank and shoreline ledges across the lower center and left, including scattered boulders, root-like ground lines, and faint horizontal water or shore strokes near the bottom.",
+      "bbox": [
+        0.0,
+        0.775,
+        0.84,
+        0.18
+      ],
+      "role": "foreground rocks and water edge",
+      "must_preserve": [
+        "irregular low boulder outlines",
+        "dry-brush shading on rock tops",
+        "thin horizontal waterline strokes",
+        "dark crevice accents under rocks",
+        "uneven ground contour tying the foreground together"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 06 NPM.jpg",
+  "created_at": "2026-07-16T23:04:04.849639+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

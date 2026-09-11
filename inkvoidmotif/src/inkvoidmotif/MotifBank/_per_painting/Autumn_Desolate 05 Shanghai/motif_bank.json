@@ -1,0 +1,179 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 05 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:13:50.075541+00:00",
+  "motifs": [
+    {
+      "name": "distant_left_peak_ridge",
+      "description": "Isolate the pale triangular mountain mass at the far left horizon with its sloping shoreline and adjoining low ridge strokes.",
+      "bbox": [
+        0.0,
+        0.276,
+        0.39,
+        0.111
+      ],
+      "role": "distant mountain and shore",
+      "must_preserve": [
+        "dry, broken ink contour lines on the peak",
+        "soft grey wash forming the triangular slope",
+        "small dark vegetation or rock ticks along the ridge",
+        "thin horizontal shoreline strokes at the base",
+        "faint mist-softened edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_left_peak_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midriver_low_islets",
+      "description": "Isolate the low distant islets and waterline strokes across the middle horizon, including the small central peaked islet and scattered flat sandbar marks.",
+      "bbox": [
+        0.33,
+        0.283,
+        0.66,
+        0.078
+      ],
+      "role": "distant river islets and water surface",
+      "must_preserve": [
+        "very thin horizontal water strokes",
+        "small dark angular islet peaks near center",
+        "broken dry-brush sandbar lines",
+        "wide blank mist gaps between strokes",
+        "subtle grey wash variations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_midriver_low_islets.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_tall_bamboo_grove",
+      "description": "Isolate the main vertical bamboo grove in the lower center-right, including the tallest pale stalk, clustered leaves, and dark lower shoots.",
+      "bbox": [
+        0.49,
+        0.417,
+        0.29,
+        0.468
+      ],
+      "role": "foreground bamboo grove",
+      "must_preserve": [
+        "long pale vertical bamboo trunks",
+        "fine joint markings and narrow nodes",
+        "delicate clustered leaf sprays around the upper stalks",
+        "darker ink leaves on the right cluster",
+        "dense base grasses and black shoot accents",
+        "dry-brush texture on the central trunks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_tall_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_slender_bamboo_spray",
+      "description": "Isolate the airy bamboo and reed sprays on the far right side, with thin arcing stems and sparse leaf clusters.",
+      "bbox": [
+        0.75,
+        0.637,
+        0.24,
+        0.25
+      ],
+      "role": "foreground side bamboo",
+      "must_preserve": [
+        "arching hairline bamboo stems",
+        "tiny paired leaf marks",
+        "open spacing and pale ink gaps",
+        "small dark grass strokes at the base",
+        "right-leaning rhythm of the sprays"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_slender_bamboo_spray.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_bending_bamboo_thicket",
+      "description": "Isolate the left foreground thicket of bending bamboo, including the sweeping curved stems rising from the lower-left ground.",
+      "bbox": [
+        0.0,
+        0.617,
+        0.23,
+        0.28
+      ],
+      "role": "foreground bamboo thicket",
+      "must_preserve": [
+        "long bowed bamboo canes",
+        "fine stippled leaf clusters",
+        "dark basal shoots",
+        "light grey wash at the ground edge",
+        "asymmetrical leftward leaning composition"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_bending_bamboo_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_wispy_bamboo_screen",
+      "description": "Isolate the faint middle-left bamboo screen behind the figures, made of pale stems and small loose leaf marks.",
+      "bbox": [
+        0.31,
+        0.556,
+        0.2,
+        0.294
+      ],
+      "role": "midground bamboo screen",
+      "must_preserve": [
+        "very light ink stems",
+        "scattered small leaf flicks",
+        "transparent dry-brush quality",
+        "misty spacing between bamboo clusters",
+        "soft vertical rhythm"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_middle_wispy_bamboo_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "two_scholars_on_bank",
+      "description": "Isolate the two small standing scholar figures on the lower-left bank, including their robes, heads, and the object or staff held by the left figure.",
+      "bbox": [
+        0.18,
+        0.774,
+        0.145,
+        0.071
+      ],
+      "role": "figures",
+      "must_preserve": [
+        "thin contour linework of the robes",
+        "small dark hair or hat marks",
+        "gesture of the left figure holding a slender object",
+        "upright stance of the right figure",
+        "minimal ground strokes directly beneath their feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_two_scholars_on_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank_strokes",
+      "description": "Isolate the lower foreground bank with flat rocks, broken ground lines, dark grass shoots, and pale wash, excluding seals and inscription areas.",
+      "bbox": [
+        0.08,
+        0.842,
+        0.53,
+        0.126
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "flat angular rock outlines",
+        "broken dry-brush ground texture",
+        "short black grass and shoot accents",
+        "soft grey wash suggesting damp earth",
+        "scattered diagonal ink ticks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_bank_strokes.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source": "../../../../../../Input_Images/Spring 09 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:18:27.947221+00:00",
+  "motifs": [
+    {
+      "name": "upper_central_rocky_peak",
+      "description": "Isolate the main upper central mountain mass: stacked craggy rocks with a high rounded peak, pale ochre washes, gray ink contours, dark texture strokes, and small pines clustered along the summit and ledges. Exclude the surrounding calligraphy above and the lower village/water motifs.",
+      "bbox": [
+        0.38,
+        0.25,
+        0.38,
+        0.19
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "angular ink contour lines defining rock faces",
+        "dry-brush cun texture strokes and gray wash granulation",
+        "warm ochre planes on cliff shelves",
+        "small dark pine crowns and dotted foliage on the ridge",
+        "mist-softened lower edges where the mountain meets the valley"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_central_rocky_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_sweeping_striated_hills",
+      "description": "Isolate the right-side diagonal hillside system with long sweeping ridges descending toward the water, including layered ochre-and-gray slopes, dark dotted tree bands, and exposed rock seams. Exclude the waterside houses at the foot and the far-right bamboo grove if possible.",
+      "bbox": [
+        0.56,
+        0.34,
+        0.43,
+        0.25
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "parallel diagonal ridge strokes",
+        "alternating pale ochre washes and gray ink shadows",
+        "dark stippled vegetation following ridge contours",
+        "broken dry-brush rock texture",
+        "soft mist gaps between overlapping slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_sweeping_striated_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_left_shore_hills",
+      "description": "Isolate the faint low hills and shoreline on the upper-left water horizon, with thin ink outlines, muted gray washes, and small tree clumps near the shore. Avoid seals and blank paper areas above.",
+      "bbox": [
+        0.01,
+        0.34,
+        0.35,
+        0.07
+      ],
+      "role": "distant shoreline hills",
+      "must_preserve": [
+        "very light horizontal ink shoreline",
+        "pale gray distant hill silhouettes",
+        "small clustered dark trees near the shore",
+        "soft fading wash edges suggesting atmospheric distance"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_distant_left_shore_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_bridge_and_hamlet",
+      "description": "Isolate the mid-left settlement at the lake edge: small roofed huts tucked among trees, a low horizontal bridge or walkway crossing the water, and the adjacent rocky shoreline. Exclude the large foreground grove below and the central mountain above.",
+      "bbox": [
+        0.02,
+        0.47,
+        0.47,
+        0.1
+      ],
+      "role": "bridge and village cluster",
+      "must_preserve": [
+        "fine black roof and wall linework",
+        "thin bridge posts and horizontal deck strokes",
+        "scattered rocks along the bank",
+        "mixed tree trunks, dark foliage dots, and pale washes",
+        "short horizontal water ripples under the bridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_mid_left_bridge_and_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_bamboo_pavilion_grove",
+      "description": "Isolate the lower-left foreground grove with a small pavilion nestled among tall bamboo/pine trunks, dense vertical tree screen, rocky base, and layered foreground shrubs. Exclude the red seal at the bottom edge.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.43,
+        0.28
+      ],
+      "role": "foreground pavilion and tree grove",
+      "must_preserve": [
+        "tall straight bamboo or pine trunks with fine vertical ink lines",
+        "dark needle clusters and stippled foliage",
+        "small pavilion roof, railings, and posts hidden among trees",
+        "rounded foreground rocks with ochre wash",
+        "dry-brush bark texture and varied trunk thicknesses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_bamboo_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 14 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T06:03:29.408581+00:00",
+  "motifs": [
+    {
+      "name": "rear_snow_peak",
+      "description": "Isolate the tall pale snow-covered mountain peak in the upper left background, including its sharp summit, sloping ridges, shaded left flank, and faint wash transitions into surrounding mist. Exclude the calligraphy at upper right and the separate central foreground mountain.",
+      "bbox": [
+        0.0,
+        0.105,
+        0.63,
+        0.3
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin contour line along both mountain edges",
+        "soft pale snow wash on the broad face",
+        "dark stippled and dry-brush texture near the summit and ridge shoulders",
+        "faint vertical wash marks on the mountain face",
+        "mist-softened lower edge where the peak recedes behind nearer forms"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_rear_snow_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_craggy_mountain",
+      "description": "Isolate the large angular central mountain mass with a small dark-brushed crest, steep triangular snowy planes, and dark vertical rock fissures. Include the full visible slope down to the broad pale base, but exclude the left pine, lower buildings, and right village.",
+      "bbox": [
+        0.08,
+        0.235,
+        0.78,
+        0.335
+      ],
+      "role": "middle mountain",
+      "must_preserve": [
+        "dark ink crest strokes at the upper ridge",
+        "sharp angular outline of the snow-covered slopes",
+        "vertical cracked rock linework on the right face",
+        "soft gray-brown wash pooling at the base",
+        "dry-brush streaks and pale reserve areas defining snowy planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_craggy_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_pine",
+      "description": "Isolate the large pine tree entering from the left edge, including the twisting ocher-brown trunk, branching limbs, and dense blue-green needle clusters that overlap the lower mountain and pavilion area. Exclude adjacent buildings except where branches pass in front.",
+      "bbox": [
+        0.0,
+        0.378,
+        0.56,
+        0.265
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "gnarled warm-brown trunk contours",
+        "individual branching structure and forked limbs",
+        "blue-green pine needle rosettes and clustered tips",
+        "fine ink outlines around needles",
+        "layering of branches over the misty background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_foreground_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_waterside_pavilions",
+      "description": "Isolate the left lower waterside pavilion group: snow-dusted roofed buildings on the shoreline with wooden posts, railing, windows, small porch platform, and tiny seated interior figures. Include the immediate rocky bank and shrubs that support the architecture, but exclude the large pine canopy and foreground cliff rock as much as possible.",
+      "bbox": [
+        0.035,
+        0.605,
+        0.51,
+        0.12
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "low sloping roof geometry with pale snow cover",
+        "fine wooden post and window lattice linework",
+        "small porch railing and platform edges",
+        "tiny human figures visible inside the open pavilion",
+        "ink-and-color shrubs around the foundations",
+        "subtle ocher and gray wash accents on walls and rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_waterside_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "curved_midground_bank",
+      "description": "Isolate the pale curved midground bank or low bridge-like shoreline crossing the water, with leafless shrubs, a small red-roofed structure at the right edge, and soft water wash around it. Exclude the large central mountain above and the lower pavilion clusters.",
+      "bbox": [
+        0.49,
+        0.5,
+        0.51,
+        0.078
+      ],
+      "role": "bridge or shoreline bank",
+      "must_preserve": [
+        "long sweeping pale curve of the bank",
+        "thin ink outline along the upper ridge",
+        "dry-brush gray shading under the curve",
+        "delicate leafless shrub branches along the top",
+        "small reddish roof accent at the right",
+        "soft misty water edge around the form"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_curved_midground_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_shore_village",
+      "description": "Isolate the small village cluster on the right shore, including low roofed houses, enclosing walls, rocky shoreline, and pale hillside behind. Keep the compact settlement and its immediate bank only, without the surrounding open water.",
+      "bbox": [
+        0.755,
+        0.595,
+        0.245,
+        0.078
+      ],
+      "role": "distant village cluster",
+      "must_preserve": [
+        "tiny roof planes and eaves",
+        "fine wall and fence linework",
+        "warm ocher-red color accents on roofs and rocks",
+        "small dark openings and structural marks",
+        "irregular shoreline stones",
+        "pale wash slope behind the buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_shore_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_cliff_with_bare_tree",
+      "description": "Isolate the large foreground cliff rock rising from the lower left, including its pale vertical face, dark split fissures, dry-brush texture, and the leafless tree and shrubs growing along its right and upper edges. Exclude the pavilion group above and the distant boat below.",
+      "bbox": [
+        0.0,
+        0.675,
+        0.65,
+        0.275
+      ],
+      "role": "foreground rock and tree",
+      "must_preserve": [
+        "bold dark central rock fissure",
+        "long vertical dry-brush striations on the cliff face",
+        "pale snow-like reserved rock surfaces",
+        "angular cliff outline leaning downward to the left",
+        "fine bare branch tracery at the right side",
+        "small shrubs and root-like strokes clinging to the rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_cliff_with_bare_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverboat_and_sandbar",
+      "description": "Isolate the small boat in the lower right water with its covered cabin, boatman/passengers, slim mast or pole, and the adjacent pale sandbar curves in front. Include only the immediate water and bank needed to preserve the boat setting.",
+      "bbox": [
+        0.615,
+        0.845,
+        0.37,
+        0.07
+      ],
+      "role": "boat and foreground water bank",
+      "must_preserve": [
+        "long narrow hull outline",
+        "rectangular cabin with fine vertical posts",
+        "tiny figures at bow and stern",
+        "slender upright pole or mast",
+        "soft gray water wash around the boat",
+        "pale curved sandbar bands with shaded lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_riverboat_and_sandbar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

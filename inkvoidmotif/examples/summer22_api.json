@@ -1,0 +1,88 @@
+{
+  "source": "examples/inputs/Summer 22 NPM.jpg",
+  "out_dir": "runs/summer22_api",
+  "mode": "sheet",
+  "crop_margin": 0.08,
+  "skip_existing": true,
+  "source_summary": "Manual motif plan based on the attached Summer 22 NPM Chinese landscape painting.",
+  "motifs": [
+    {
+      "name": "distant_mountain_ranges",
+      "description": "soft blue-green mountain ranges in the far distance, partly veiled by mist",
+      "bbox": [0.02, 0.33, 0.52, 0.12],
+      "role": "distant mountains",
+      "must_preserve": ["pale blue-green wash", "broken ink contour lines", "mist gaps between ridges"]
+    },
+    {
+      "name": "right_hillside_with_pines",
+      "description": "large right hillside with layered slopes and dense pine clusters along the ridges",
+      "bbox": [0.44, 0.33, 0.54, 0.18],
+      "role": "main mountain mass",
+      "must_preserve": ["slanted hillside texture strokes", "dark vertical pine marks", "soft fading outer edge"]
+    },
+    {
+      "name": "central_village_compound",
+      "description": "central walled village compound with layered roofs, courtyards, trees, and pavilions",
+      "bbox": [0.07, 0.50, 0.70, 0.17],
+      "role": "architectural middle ground",
+      "must_preserve": ["roof geometry", "walled courtyards", "fine tree linework around buildings"]
+    },
+    {
+      "name": "left_village_houses",
+      "description": "left cluster of village houses and walls emerging among trees",
+      "bbox": [0.00, 0.51, 0.45, 0.16],
+      "role": "village extension",
+      "must_preserve": ["small tiled roofs", "trees surrounding buildings", "ink outlines of walls"]
+    },
+    {
+      "name": "tall_pines_above_village",
+      "description": "tall pines rising above the village compound",
+      "bbox": [0.30, 0.44, 0.34, 0.16],
+      "role": "vertical tree accent",
+      "must_preserve": ["twisted trunks", "needle clusters", "dark ink crowns"]
+    },
+    {
+      "name": "lotus_pond_surface",
+      "description": "lotus pond surface with scattered lily pads and light water wash",
+      "bbox": [0.10, 0.66, 0.60, 0.15],
+      "role": "water surface",
+      "must_preserve": ["many individual lily pads", "subtle green wash", "open water gaps"]
+    },
+    {
+      "name": "waterside_pavilions",
+      "description": "waterside pavilions and buildings along the lotus pond edge",
+      "bbox": [0.05, 0.58, 0.70, 0.17],
+      "role": "waterfront architecture",
+      "must_preserve": ["pier pavilion", "willow branches", "roof details", "pond-edge integration"]
+    },
+    {
+      "name": "stone_arch_bridge",
+      "description": "stone arched bridge over water with shrubs and masonry blocks",
+      "bbox": [0.48, 0.75, 0.40, 0.13],
+      "role": "foreground bridge",
+      "must_preserve": ["arched span", "block masonry", "curving top path", "nearby shrubs"]
+    },
+    {
+      "name": "foreground_shoreline_bank",
+      "description": "foreground sloping shoreline bank with rocks, shrubs, and small trees",
+      "bbox": [0.00, 0.78, 0.56, 0.18],
+      "role": "foreground landform",
+      "must_preserve": ["sloped bank wash", "clustered shrubs", "small trees", "irregular shoreline"]
+    },
+    {
+      "name": "bamboo_grove_and_willows",
+      "description": "right-side bamboo grove and willow trees by the water",
+      "bbox": [0.47, 0.62, 0.48, 0.28],
+      "role": "vegetation screen",
+      "must_preserve": ["bamboo stalks", "willow canopy", "dense leaf linework", "water-edge roots"]
+    }
+  ],
+  "composition": {
+    "name": "summer_landscape_recombined",
+    "theme": "a new summer Chinese landscape with a lotus pond, village pavilions, distant mountain mist, bamboo, willows, a stone bridge, and a contemplative scholar near the water",
+    "include_scholar": true,
+    "size": "1024x1536",
+    "layout": "Use distant mountains high in the background, the village nested in the middle ground, lotus water through the lower center, the stone bridge in the lower right, and a scholar on the foreground shoreline.",
+    "source_style": "Fine-line Chinese landscape painting with pale green and blue washes, silk or xuan paper tone, delicate architecture, misty mountain transitions, and detailed botanical brushwork."
+  }
+}

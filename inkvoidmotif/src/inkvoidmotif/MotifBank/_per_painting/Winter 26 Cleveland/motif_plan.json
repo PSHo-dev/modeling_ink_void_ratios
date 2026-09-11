@@ -1,0 +1,156 @@
+{
+  "source_summary": "Horizontal Chinese ink landscape with pale blue-gray mountain washes, textured cliffs, pine-topped ridges, a small riverside pavilion with a seated scholar, and a rocky watercourse; calligraphy, seals, borders, and paper texture are excluded from motif extraction.",
+  "motifs": [
+    {
+      "name": "left_overhanging_cliff",
+      "description": "Isolate the tall upper-left cliff mass with its overhanging rock face, descending vertical wall, pale wash interior, dry-brush contour lines, and scattered dark texture dots along the cliff edge.",
+      "bbox": [
+        0.155,
+        0.025,
+        0.245,
+        0.56
+      ],
+      "role": "dominant cliff mountain",
+      "must_preserve": [
+        "ragged overhanging silhouette",
+        "dry gray contour strokes",
+        "pale blue-gray wash patches",
+        "black moss-dot texture following the cliff edge",
+        "vertical eroded rock striations"
+      ]
+    },
+    {
+      "name": "central_misty_peak_screen",
+      "description": "Isolate the hazy central background mountains: a screen of pale vertical limestone-like peaks rising through mist, with soft horizontal gray washes behind them.",
+      "bbox": [
+        0.285,
+        0.165,
+        0.505,
+        0.395
+      ],
+      "role": "distant mountain mist",
+      "must_preserve": [
+        "soft mist edges",
+        "faint vertical peak outlines",
+        "layered blue-gray horizontal wash",
+        "thin dry-brush peak ridges",
+        "subtle tonal transitions between peaks and fog"
+      ]
+    },
+    {
+      "name": "left_foreground_pine_cliffs",
+      "description": "Isolate the lower-left foreground cliff group with stacked rock faces, dark moss dots, and dense bands of short-needled pines along the ledges.",
+      "bbox": [
+        0.115,
+        0.53,
+        0.245,
+        0.43
+      ],
+      "role": "foreground rocky hillside",
+      "must_preserve": [
+        "terraced cliff contours",
+        "black stippled rock texture",
+        "arched pine bough silhouettes",
+        "short needle strokes on pine crowns",
+        "pale ocher-gray rock wash",
+        "dark base accents at the foot of the cliff"
+      ]
+    },
+    {
+      "name": "central_saddle_ridge_pines",
+      "description": "Isolate the low central saddle ridge above the pavilion area, including its rolling rock outline, scattered dark dots, and continuous pine-brush bands cresting the slope.",
+      "bbox": [
+        0.295,
+        0.555,
+        0.285,
+        0.205
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "undulating ridge line",
+        "clustered pine-needle marks",
+        "dry broken rock outlines",
+        "small black moss dots",
+        "light gray wash beneath the ridge"
+      ]
+    },
+    {
+      "name": "thatched_pavilion_scholar",
+      "description": "Isolate the small riverside pavilion or hut at the lower center with its long angular roof, simple wall lines, window lattice, and seated scholar figure beneath the eaves.",
+      "bbox": [
+        0.365,
+        0.805,
+        0.16,
+        0.135
+      ],
+      "role": "pavilion with figure",
+      "must_preserve": [
+        "thin roof geometry",
+        "slightly bowed roofline",
+        "rectangular wall and window lattice",
+        "tiny seated scholar silhouette",
+        "minimal ink line construction",
+        "pale ground wash around the structure"
+      ]
+    },
+    {
+      "name": "right_pine_terrace_cliffs",
+      "description": "Isolate the long middle-right terrace of cliffs and hills, topped with irregular pine bands and punctuated by vertical rock walls and dark texture dots.",
+      "bbox": [
+        0.535,
+        0.5,
+        0.455,
+        0.235
+      ],
+      "role": "middle-ground pine terrace",
+      "must_preserve": [
+        "layered horizontal cliff terraces",
+        "jagged pine crowns along ridge tops",
+        "vertical pale rock faces",
+        "dense black moss-dot clusters",
+        "broken gray contour strokes",
+        "soft wash separating terraces from distant haze"
+      ]
+    },
+    {
+      "name": "rocky_water_reaches",
+      "description": "Isolate the lower-right watercourse with gray-blue water wash, exposed stones and islets, dark stippled banks, and shallow shoreline marks.",
+      "bbox": [
+        0.505,
+        0.7,
+        0.47,
+        0.235
+      ],
+      "role": "water and rocky shore",
+      "must_preserve": [
+        "broad blue-gray water wash",
+        "small pale rock islands",
+        "dark dotted shoreline accents",
+        "broken dry-brush bank lines",
+        "submerged-stone spacing",
+        "soft transition from water to misty bank"
+      ]
+    },
+    {
+      "name": "foreground_reed_shrub_bank",
+      "description": "Isolate the small foreground bank between the pavilion and water, with low reed and shrub clumps drawn in curved ink strokes and pale ground wash.",
+      "bbox": [
+        0.505,
+        0.805,
+        0.19,
+        0.15
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "curved reed leaf strokes",
+        "clustered low shrub forms",
+        "light gray-green wash around roots",
+        "fine dry-brush ground line",
+        "spacing between individual plant clumps"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 26 Cleveland.jpg",
+  "created_at": "2026-08-27T22:47:04.229402+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

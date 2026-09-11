@@ -1,0 +1,152 @@
+{
+  "source_summary": "Blue-green Chinese landscape with misty river valleys, clustered rounded mountains, wooded promontories, pavilions, distant peaks, open water, and foreground rocks/trees. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "central_peak_massif",
+      "description": "Isolate the dominant top-center blue-green mountain massif: stacked rounded peaks rising from mist, with layered contour strokes, dark ink ridges, mineral-blue washes, and small tree clusters along the lower slopes.",
+      "bbox": [
+        0.336,
+        0.055,
+        0.284,
+        0.342
+      ],
+      "role": "distant mountain massif",
+      "must_preserve": [
+        "arched layered contour linework on each peak",
+        "blue-green mineral wash with tan exposed rock transitions",
+        "dark ink texture strokes on ridgelines",
+        "small black tree silhouettes at the base",
+        "soft mist boundary separating the mountain base from the valley"
+      ]
+    },
+    {
+      "name": "left_misty_island_shore",
+      "description": "Isolate the left-side riverbank and island hills: low rounded hills, a tree-lined shore, small sandy spits, and pale water/mist openings around the landforms.",
+      "bbox": [
+        0.0,
+        0.235,
+        0.342,
+        0.306
+      ],
+      "role": "left riverbank hills and shore",
+      "must_preserve": [
+        "low blue-green hill contours",
+        "thin horizontal shoreline strokes",
+        "dark pine grove silhouettes along the bank",
+        "pale ochre water gaps between islands",
+        "soft mist edges around the distant hill bases"
+      ]
+    },
+    {
+      "name": "right_distant_mountains",
+      "description": "Isolate the distant mountains on the upper-right: separate rounded blue-green ranges and pale vertical rock spires emerging through mist, with open atmospheric gaps between them.",
+      "bbox": [
+        0.673,
+        0.135,
+        0.327,
+        0.268
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "rounded contour arcs on the rightmost peaks",
+        "faint vertical pale rock spires in the central distance",
+        "blue-green wash gradations",
+        "soft haze and mist separations between peaks",
+        "dark dotted ridge vegetation where visible"
+      ]
+    },
+    {
+      "name": "middle_wooded_promontory",
+      "description": "Isolate the central-left wooded promontory below the main mountains: sloping rocks, dense mixed trees, exposed roots, small tucked roofs, and shoreline forms projecting into the water.",
+      "bbox": [
+        0.235,
+        0.37,
+        0.339,
+        0.306
+      ],
+      "role": "middle-ground wooded hillside",
+      "must_preserve": [
+        "gnarled tree trunks and branching ink lines",
+        "dark foliage dots and blue-green leaf washes",
+        "rounded rock texture strokes on the slope",
+        "small hidden roof geometry among trees",
+        "tapering shoreline and pale water edge"
+      ]
+    },
+    {
+      "name": "ravine_waterfall_cliffs",
+      "description": "Isolate the central-right ravine with two steep cliff faces and a narrow waterfall descending through the gap, surrounded by dark pine clusters and blue-green rock masses.",
+      "bbox": [
+        0.505,
+        0.287,
+        0.185,
+        0.405
+      ],
+      "role": "waterfall ravine and cliffs",
+      "must_preserve": [
+        "thin vertical waterfall strokes",
+        "dark cliff-edge ink outlines",
+        "layered rounded rock texture on both sides of the ravine",
+        "dense pine silhouettes flanking the fall",
+        "mist-softened base where water meets the lower valley"
+      ]
+    },
+    {
+      "name": "lower_center_pavilion_spit",
+      "description": "Isolate the small pavilion on the lower central spit of land beside open water, including the low roof, posts, surrounding sparse shrubs, and gently sloping rocky bank.",
+      "bbox": [
+        0.475,
+        0.705,
+        0.189,
+        0.143
+      ],
+      "role": "small waterside pavilion",
+      "must_preserve": [
+        "simple angular pavilion roof geometry",
+        "thin support posts",
+        "small leafless shrub strokes nearby",
+        "low blue-green rocks on the bank",
+        "pale water margin around the land spit"
+      ]
+    },
+    {
+      "name": "right_village_cliff_cluster",
+      "description": "Isolate the right middle-ground village and cliff cluster: steep blue-green hills, dark woods, nested pavilion roofs, and rock shelves tucked into the slope.",
+      "bbox": [
+        0.675,
+        0.385,
+        0.25,
+        0.395
+      ],
+      "role": "village among cliffs",
+      "must_preserve": [
+        "tiered brown rooflines partly hidden by trees",
+        "vertical dark tree trunks and dense foliage masses",
+        "rounded cliff contours with blue-green washes",
+        "small architectural walls and posts",
+        "overlapping rock shelves descending toward the lower right"
+      ]
+    },
+    {
+      "name": "foreground_pines_rocks",
+      "description": "Isolate the foreground lower-right rocky bank with clustered pines and leafless trees: heavy dark trunks, needle foliage, blue-green shrubs, rounded boulders, and diagonal landforms leading inward.",
+      "bbox": [
+        0.456,
+        0.747,
+        0.415,
+        0.253
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "dark pine trunks and clustered needle masses",
+        "fine leafless branch linework",
+        "blue-green shrub washes",
+        "rounded boulder contour strokes",
+        "diagonal foreground slope and layered rock texture"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 30 NPM.png",
+  "created_at": "2026-07-03T22:37:35.480353+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

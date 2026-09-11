@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall Chinese landscape with mist-filled ravines, ochre-and-ink cliffs, a small pavilion compound embedded in the mountains, river water with a roofed boat, foreground rocky ledges, and dense pine groves. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_mist_cliff",
+      "description": "Isolate the pale upper-left cliff mass emerging from mist, with jagged crest, vertical rock faces, sparse dark vegetation dots, and soft wash fading into the central void.",
+      "bbox": [
+        0.0,
+        0.095,
+        0.285,
+        0.31
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "broken ink contour lines along the cliff rim",
+        "pale ochre wash on the rock planes",
+        "vertical fissure strokes and faint interior texture",
+        "scattered dark shrub dots on ridges",
+        "soft mist-dissolved lower and right edges"
+      ]
+    },
+    {
+      "name": "upper_right_canyon_peaks",
+      "description": "Isolate the high right-side mountain and canyon group, including the flat-topped peak, descending ravine walls, layered shoulders, and dark dotted ridge vegetation, excluding the nearby inscription area.",
+      "bbox": [
+        0.45,
+        0.095,
+        0.445,
+        0.34
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "steep angular cliff outlines",
+        "warm ochre wash and lighter exposed planes",
+        "threadlike vertical crack lines",
+        "black moss dots along ridgelines and ledges",
+        "stepped ravine geometry and mist-softened gaps"
+      ]
+    },
+    {
+      "name": "central_pavilion_cluster",
+      "description": "Isolate the small multi-roof pavilion compound tucked in the central ravine, with tiered roofs partially hidden by bare trees and surrounding rock ledges.",
+      "bbox": [
+        0.315,
+        0.338,
+        0.235,
+        0.085
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked roof geometry with upturned eaves",
+        "fine parallel roof-line strokes",
+        "pale wall forms behind the trees",
+        "leafless branch silhouettes crossing the buildings",
+        "adjacent ledge contours that anchor the compound"
+      ]
+    },
+    {
+      "name": "mid_mountain_path_and_bare_trees",
+      "description": "Isolate the horizontal mid-level rocky path and ledge system spanning the central mountainside, with twisting bare trees, dark ridge dots, and ochre rock shelves.",
+      "bbox": [
+        0.22,
+        0.385,
+        0.56,
+        0.16
+      ],
+      "role": "hillside path",
+      "must_preserve": [
+        "sinuous ledge contour lines",
+        "dark stippled moss marks along the path edge",
+        "gnarled leafless tree branches",
+        "layered ochre washes on the shelves",
+        "fine rock fissures and broken ink texture"
+      ]
+    },
+    {
+      "name": "left_mid_ravine_cliffs",
+      "description": "Isolate the vertical left-middle ravine cliffs and rock pillars below the mist, including pale hanging cliff faces, dark rim dots, and the narrow valley opening toward the river.",
+      "bbox": [
+        0.0,
+        0.37,
+        0.31,
+        0.27
+      ],
+      "role": "ravine cliffs",
+      "must_preserve": [
+        "tall descending cliff outlines",
+        "mist-softened upper transitions",
+        "black dotted vegetation on broken rims",
+        "thin vertical wash streaks and fissures",
+        "small lower rock outcrops at the valley mouth"
+      ]
+    },
+    {
+      "name": "lower_left_river_boat",
+      "description": "Isolate the calm river section with the small roofed boat and tiny seated figure, including surrounding water-line strokes but not the foreground border or seals.",
+      "bbox": [
+        0.06,
+        0.765,
+        0.34,
+        0.105
+      ],
+      "role": "boat on water",
+      "must_preserve": [
+        "arched boat hull outline",
+        "rectangular thatched cabin roof",
+        "tiny figure and oar-like strokes at the stern",
+        "delicate parallel current lines",
+        "open pale water spacing around the boat"
+      ]
+    },
+    {
+      "name": "foreground_pine_grove",
+      "description": "Isolate the dense foreground pine grove rising from rocky ledges on the lower right and center, with multiple trunks, clustered needle canopies, and ochre-highlighted bark.",
+      "bbox": [
+        0.285,
+        0.535,
+        0.6,
+        0.33
+      ],
+      "role": "foreground pines",
+      "must_preserve": [
+        "dark radiating pine-needle clusters",
+        "twisting trunks with patterned bark lines",
+        "overlapping branch structure",
+        "warm brown and ochre trunk accents",
+        "rock bases interwoven with roots and shrubs"
+      ]
+    },
+    {
+      "name": "lower_rocky_promontory_path",
+      "description": "Isolate the lower foreground rocky promontory and winding path beneath the pines, including rounded boulders, cliff edges, and small dark moss accents.",
+      "bbox": [
+        0.245,
+        0.815,
+        0.745,
+        0.145
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded boulder contours",
+        "broken ink texture and crack lines",
+        "ochre path wash following the ledge",
+        "dark moss dots on rock crests",
+        "stepped cliff edge and layered stone planes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 16 Cleveland.jpg",
+  "created_at": "2026-08-26T21:48:42.099254+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

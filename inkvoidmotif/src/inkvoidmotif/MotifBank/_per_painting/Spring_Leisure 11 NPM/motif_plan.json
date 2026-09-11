@@ -1,0 +1,156 @@
+{
+  "source_summary": "A sparse riverscape with a left rocky bank and landing, a covered ferry boat with figures, clustered willows, foreground rocks and shrubs, and fine water-ripple linework. Red seals, inscriptions, borders, and paper texture are excluded from all motifs.",
+  "motifs": [
+    {
+      "name": "left_cliff_rock_bank",
+      "description": "Isolate the tall eroded rock bank rising along the left edge, including the sweeping vertical cliff contours, fissures, dark ink accents, root-like base forms, and pale ink washes; exclude seals, the landing structure, boat, and separate leaf sprays where possible.",
+      "bbox": [
+        0.0,
+        0.11,
+        0.145,
+        0.72
+      ],
+      "role": "left rocky bank",
+      "must_preserve": [
+        "long tapering cliff outline strokes",
+        "thin internal crack lines",
+        "soft gray-brown wash texture",
+        "dark ink notches and hollows at the base",
+        "curving root-like rock forms near the waterline"
+      ]
+    },
+    {
+      "name": "left_hanging_willow_spray",
+      "description": "Isolate the drooping willow foliage attached to the left cliff, with narrow leaf clusters cascading downward beside the rock face; keep only the leaf sprays and their fine stems, not the full cliff or landing.",
+      "bbox": [
+        0.073,
+        0.35,
+        0.082,
+        0.27
+      ],
+      "role": "hanging willow foliage",
+      "must_preserve": [
+        "individual lance-shaped leaf strokes",
+        "alternating dark and pale ink leaves",
+        "slender curved branch lines",
+        "downward cascading rhythm",
+        "slightly dry brush tips"
+      ]
+    },
+    {
+      "name": "wooden_river_landing",
+      "description": "Isolate the partial wooden landing and bridge-like platform at the lower left, including vertical posts, railings, plank edges, and the stone or timber base at the water; exclude the cliff, boat, and inscriptions.",
+      "bbox": [
+        0.0,
+        0.675,
+        0.18,
+        0.315
+      ],
+      "role": "foreground landing",
+      "must_preserve": [
+        "straight ruled railing lines",
+        "vertical post geometry",
+        "diagonal support strokes",
+        "layered plank edges",
+        "light wash on structural surfaces"
+      ]
+    },
+    {
+      "name": "covered_ferry_boat",
+      "description": "Isolate the long covered river boat, including the pointed hull, roofed cabin, railings, posts, oar/pole fittings, and passengers seated or standing on board; exclude nearby landing, foreground rocks, and willow branches not touching the boat.",
+      "bbox": [
+        0.164,
+        0.638,
+        0.377,
+        0.205
+      ],
+      "role": "boat with passengers",
+      "must_preserve": [
+        "slender double hull outline",
+        "arched canopy roof and scalloped eave marks",
+        "rectangular railing and cabin post geometry",
+        "fine figure linework inside and beside the cabin",
+        "long diagonal boat pole",
+        "subtle ink wash on roof and hull"
+      ]
+    },
+    {
+      "name": "boat_figures_group",
+      "description": "Isolate the human figures associated with the boat: the standing poleman, seated companion near the bow area, and seated passenger in the cabin, including their robes, faces, hands, and the long punting pole; exclude the boat structure except where strokes physically overlap the figures.",
+      "bbox": [
+        0.12,
+        0.69,
+        0.295,
+        0.155
+      ],
+      "role": "scholar and boatmen figures",
+      "must_preserve": [
+        "delicate facial dots and hairlines",
+        "thin robe contour lines",
+        "bent standing posture of the poleman",
+        "seated compact posture of the companion",
+        "long diagonal pole line",
+        "small hand and sleeve gestures"
+      ]
+    },
+    {
+      "name": "central_low_willow_thicket",
+      "description": "Isolate the lower central willow thicket behind and around the boat roof, with rounded clumps of pendant leaves and thin branching stems; exclude the boat cabin and the taller right willow trunks.",
+      "bbox": [
+        0.415,
+        0.545,
+        0.205,
+        0.255
+      ],
+      "role": "midground willow thicket",
+      "must_preserve": [
+        "rounded masses of drooping leaves",
+        "repeated fine leaf strokes",
+        "thin forked branch lines",
+        "dark ink accents at leaf bases",
+        "soft transparent wash within the foliage"
+      ]
+    },
+    {
+      "name": "right_tall_willow_grove",
+      "description": "Isolate the large willow grove on the right, including the tall leaning trunks, arching branches, dense hanging curtains of leaves, and the smaller adjacent tree stems; exclude foreground rocks, boat, seals, and empty paper.",
+      "bbox": [
+        0.555,
+        0.375,
+        0.32,
+        0.555
+      ],
+      "role": "dominant right willow grove",
+      "must_preserve": [
+        "curving trunk outlines with textured bark washes",
+        "arching branch structure",
+        "long pendant leaf curtains",
+        "individual leaf clusters in dark ink",
+        "open gaps between foliage masses",
+        "subtle tonal variation in trunks and leaves"
+      ]
+    },
+    {
+      "name": "foreground_rocks_and_shrubs",
+      "description": "Isolate the foreground rock garden at the bottom center, including jagged rocks, low shrubs, small leafy plants, and the base of the willow trunk where it joins the rocks; exclude the boat and broad water surface.",
+      "bbox": [
+        0.215,
+        0.825,
+        0.445,
+        0.175
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "angular rock contour lines",
+        "wrinkled texture strokes and dark crevices",
+        "soft gray-brown rock washes",
+        "small clustered shrub leaves",
+        "tiny plant stems and ink dots",
+        "organic transition into the willow-root base"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 11 NPM.jpg",
+  "created_at": "2026-09-03T20:37:29.987247+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

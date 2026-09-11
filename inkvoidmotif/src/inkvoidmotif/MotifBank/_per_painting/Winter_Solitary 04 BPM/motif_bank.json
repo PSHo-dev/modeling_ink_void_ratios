@@ -1,0 +1,142 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 04 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:50:40.878331+00:00",
+  "motifs": [
+    {
+      "name": "summit_plateau_pavilions",
+      "description": "Isolate the upper central summit terrace with the small pavilion/house cluster, enclosing plateau edge, stepped paths, sparse trees, and surrounding cliff lip. Exclude the adjacent calligraphy and broad blank sky.",
+      "bbox": [
+        0.43,
+        0.17,
+        0.3,
+        0.13
+      ],
+      "role": "summit village cluster",
+      "must_preserve": [
+        "fine roof geometry with slanted tiled outlines",
+        "thin architectural wall lines",
+        "delicate twig-like trees around the buildings",
+        "soft pale wash on the plateau surface",
+        "broken ink contour defining the cliff edge",
+        "small dark accents marking shrubs and distant trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_summit_plateau_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_left_crag_grove",
+      "description": "Isolate the upper-left crag below the summit, including the rounded rock mass, vertical cliff face, small groves on the crown, and narrow mist gap beside it.",
+      "bbox": [
+        0.22,
+        0.2,
+        0.22,
+        0.2
+      ],
+      "role": "upper hillside crag",
+      "must_preserve": [
+        "pale vertical rock wash",
+        "dry-brush contour cracks",
+        "clusters of short upright tree strokes on the ridge",
+        "soft mist edge separating the crag from the central mountain",
+        "light ink texture on ledges and cliff shelves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_left_crag_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_vertical_cliffs",
+      "description": "Isolate the central stacked precipices with tall pale cliff columns, broken ledges, sparse pines and winter shrubs running down the middle of the composition.",
+      "bbox": [
+        0.36,
+        0.3,
+        0.31,
+        0.3
+      ],
+      "role": "central mountain cliffs",
+      "must_preserve": [
+        "long vertical cliff washes",
+        "fine angular rock outlines",
+        "dark shrub dots and short grass strokes along ledges",
+        "bare branching tree linework",
+        "layered ledge contours showing depth",
+        "soft transitions where mist leaves the rock faces pale"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_vertical_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_needle_spires",
+      "description": "Isolate the tall narrow rock spires on the left-middle foreground, including their pale faces, dark outer contour strokes, and sparse leafless trees growing from ledges and crevices.",
+      "bbox": [
+        0.17,
+        0.42,
+        0.21,
+        0.33
+      ],
+      "role": "foreground cliff spires",
+      "must_preserve": [
+        "slender tapering cliff silhouettes",
+        "dark dry-brush side contours",
+        "faint vertical wash streaks",
+        "tiny bare trees at the spire tops and bases",
+        "small ink accents marking cracks and ledges",
+        "mist-softened blank faces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_foreground_needle_spires.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "serpentine_middle_ridge",
+      "description": "Isolate the central lower serpentine ridge that winds downward through the mountain, with rounded snow-like pale slopes, shrub rows, scattered pines, and layered terraces.",
+      "bbox": [
+        0.34,
+        0.53,
+        0.34,
+        0.23
+      ],
+      "role": "middle winding ridge",
+      "must_preserve": [
+        "curving ridge contours",
+        "rows of short shrub and grass strokes following the slope",
+        "delicate bare tree branches",
+        "small pine canopies drawn with clustered needles",
+        "soft grey wash modeling the rounded terrain",
+        "clear negative-space bands between terraces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_serpentine_middle_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_right_pine_bamboo",
+      "description": "Isolate the dense foreground cluster at lower right: dark drooping bamboo-like foliage, pine branches, twisting trunks, rocks, and the small winding path or steps through the foreground ledge.",
+      "bbox": [
+        0.58,
+        0.7,
+        0.39,
+        0.25
+      ],
+      "role": "foreground vegetation and rocks",
+      "must_preserve": [
+        "bold dark foliage strokes",
+        "drooping bamboo-like leaf clusters",
+        "pine needle sprays on branching limbs",
+        "twisting trunk linework",
+        "angular foreground rocks with dry-brush texture",
+        "small stepped path lines",
+        "strong contrast between dark ink vegetation and pale rock wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_right_pine_bamboo.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

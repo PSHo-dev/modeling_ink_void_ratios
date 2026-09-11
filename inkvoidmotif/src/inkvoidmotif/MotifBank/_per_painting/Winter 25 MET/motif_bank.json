@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Winter 25 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:56:08.557021+00:00",
+  "motifs": [
+    {
+      "name": "towering_left_cliff_massif",
+      "description": "Isolate the monumental pale cliff formation rising on the left and center-left: sheer vertical rock faces, rounded snowy tops, dark fissures, inner crags, and soft mist at the base. Exclude the lower pavilion compound and foreground village.",
+      "bbox": [
+        0.0,
+        0.08,
+        0.43,
+        0.38
+      ],
+      "role": "dominant mountain backdrop",
+      "must_preserve": [
+        "thin dark contour lines around cliff silhouettes",
+        "vertical ink-wash streaks suggesting height and erosion",
+        "dark cracked interior rock seams",
+        "soft pale snow reserves on rounded tops",
+        "mist-softened lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_towering_left_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_cliff_pavilion_bridge",
+      "description": "Isolate the small pavilion and terrace complex perched between cliffs near the upper center, including the narrow bridge-like walkway, layered tiled roofs, railings, adjacent rock ledges, and clustered pines around it.",
+      "bbox": [
+        0.41,
+        0.22,
+        0.18,
+        0.13
+      ],
+      "role": "high pavilion group",
+      "must_preserve": [
+        "precise roof geometry with stacked eaves",
+        "fine railing and bridge linework",
+        "dark pine foliage dots and needle clusters",
+        "small supporting cliff ledges",
+        "contrast between crisp architecture and misty cliff wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_cliff_pavilion_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_mountain_temple",
+      "description": "Isolate the snow-covered temple or pavilion compound on the mid-left hillside with tiered roofs, a small tower-like structure, surrounding trees, and the sloping snow bank beneath it.",
+      "bbox": [
+        0.09,
+        0.37,
+        0.29,
+        0.1
+      ],
+      "role": "mountain pavilion cluster",
+      "must_preserve": [
+        "curved tiled roof edges and layered eaves",
+        "delicate architectural posts and railings",
+        "small vertical tower roof detail",
+        "dense dark tree crowns behind the buildings",
+        "smooth snow slope contour below"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_lower_left_mountain_temple.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_snow_village",
+      "description": "Isolate the lower-left village cluster: snow-laden houses, fenced yards, small figures, courtyard details, gates, bare and evergreen trees, and the descending path at the lower edge.",
+      "bbox": [
+        0.0,
+        0.63,
+        0.35,
+        0.28
+      ],
+      "role": "foreground village settlement",
+      "must_preserve": [
+        "angular snow-covered roof planes",
+        "fine fence and gate linework",
+        "tiny human figures and courtyard objects",
+        "dark branching tree silhouettes over roofs",
+        "stepped path strokes descending into the foreground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_foreground_snow_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rocky_ravine",
+      "description": "Isolate the central foreground ravine and snow-covered rock mass: jagged cliffs, dark crevices, winding path-like snow reserves, shrub clumps, and vertical wash textures. Exclude the village to the left and bridge scene to the right.",
+      "bbox": [
+        0.31,
+        0.46,
+        0.22,
+        0.38
+      ],
+      "role": "central rocky foreground divide",
+      "must_preserve": [
+        "jagged ink outlines along broken rock edges",
+        "layered texture strokes on exposed stone",
+        "soft snow reserves crossing the rocks",
+        "dark shrub clusters tucked into crevices",
+        "vertical wash streaks on the pale cliff face"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_rocky_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_stream_bridge_scene",
+      "description": "Isolate the mid-right stream crossing with wooden bridge structures, railings, travelers or attendants, a horse or pack animal, stepping stones, shallow water marks, and tall pines lining the bank.",
+      "bbox": [
+        0.55,
+        0.54,
+        0.29,
+        0.18
+      ],
+      "role": "bridge and river crossing",
+      "must_preserve": [
+        "thin wooden bridge posts and railings",
+        "tiny figures and animal silhouettes",
+        "scattered white stone shapes in the water",
+        "vertical pine trunks with dark clustered crowns",
+        "subtle water wash and rippled ink marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_stream_bridge_scene.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

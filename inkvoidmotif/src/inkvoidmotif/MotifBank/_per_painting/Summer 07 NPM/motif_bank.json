@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:33:24.913099+00:00",
+  "motifs": [
+    {
+      "name": "central_crag_peak_with_pines",
+      "description": "Isolate the dominant central mountain mass rising near the top: pale green and ochre peak, angular ink contour lines, vertical clefts, scattered dark texture dots, and small pine groves clinging to ledges on the upper and middle slopes.",
+      "bbox": [
+        0.22,
+        0.055,
+        0.49,
+        0.38
+      ],
+      "role": "distant mountain peak",
+      "must_preserve": [
+        "thin angular ink linework defining crags and fissures",
+        "pale green mineral wash with warm ochre cap near the summit",
+        "dark dotted texture strokes along ridges",
+        "compact pine clusters with individual needle-dot foliage",
+        "soft fading edges where the peak dissolves into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_crag_peak_with_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_cliff_pavilion",
+      "description": "Isolate the small pavilion compound perched on the upper-right cliff, together with the immediate rocky ledge and surrounding tree screen.",
+      "bbox": [
+        0.74,
+        0.205,
+        0.25,
+        0.2
+      ],
+      "role": "mountain pavilion",
+      "must_preserve": [
+        "small rectilinear building with tiled roof geometry",
+        "thin railing and wall lines",
+        "dense dark tree-dot foliage behind and beside the pavilion",
+        "pale cliff planes with broken ink cracks",
+        "ledge-like placement above the valley"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_cliff_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_slope_temple_and_pines",
+      "description": "Isolate the mid-left/central hillside temple cluster: several small roofed halls nestled among pines and mixed trees on stepped rocky slopes.",
+      "bbox": [
+        0.17,
+        0.325,
+        0.5,
+        0.19
+      ],
+      "role": "pavilion group on hillside",
+      "must_preserve": [
+        "curved tiled roofs with parallel roof-line strokes",
+        "white wall planes and delicate doorway outlines",
+        "dense vertical pine trunks and dotted needle foliage",
+        "mixed shrub textures around buildings",
+        "rock terraces and slanting ink fissures supporting the structures"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_slope_temple_and_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winding_path_with_scholars",
+      "description": "Isolate the narrow mountain path traversing the mid-right slope, with tiny walking scholar figures and attendants, plus the adjacent grove framing the path.",
+      "bbox": [
+        0.63,
+        0.395,
+        0.35,
+        0.16
+      ],
+      "role": "path with figures",
+      "must_preserve": [
+        "thin winding path contour along the cliff face",
+        "small robed figures rendered with minimal ink strokes",
+        "tiny walking gestures and spacing between figures",
+        "dark clustered tree crowns along the right side",
+        "rock striations dropping below the path"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_winding_path_with_scholars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_village_courtyard_complex",
+      "description": "Isolate the larger architectural village complex on the right middle slope: multi-roofed halls, courtyards, walls, small gathered figures, and nearby trees.",
+      "bbox": [
+        0.5,
+        0.515,
+        0.49,
+        0.27
+      ],
+      "role": "village and courtyard complex",
+      "must_preserve": [
+        "layered tiled roofs with ridgelines and eave curves",
+        "arched doorways and white plaster wall shapes",
+        "courtyard walls and terrace outlines",
+        "small human figures in robes within the courtyards and lane",
+        "surrounding dark foliage masses and pale rock base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_village_courtyard_complex.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_riverside_lodge_grove",
+      "description": "Isolate the lower-left riverside lodge and its enclosing grove: long waterside building on a stone foundation, smaller roof behind, tall pines and broadleaf trees climbing the slope.",
+      "bbox": [
+        0.0,
+        0.665,
+        0.48,
+        0.29
+      ],
+      "role": "foreground pavilion and trees",
+      "must_preserve": [
+        "long low tiled roof and open veranda with tiny seated figures",
+        "stone-block retaining wall beneath the lodge",
+        "overlapping tree trunks with ochre-brown accents",
+        "pine needle clusters and stippled broadleaf canopies",
+        "rocky slope lines wrapping around the grove"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_riverside_lodge_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_stream_waterfall_valley",
+      "description": "Isolate the lower central stream valley with the falling water, rippled pool, small crossing/boat-like element, flanking rocks, and the large leaning tree on the right bank.",
+      "bbox": [
+        0.36,
+        0.735,
+        0.55,
+        0.25
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "thin vertical waterfall strokes descending between rocks",
+        "horizontal ripple lines in the pool",
+        "small dark human/boat-like marks near the water edge",
+        "large right-bank tree with pale stippled canopy and darker crown patches",
+        "angular foreground rock faces with fine ink cracks and pale washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_stream_waterfall_valley.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

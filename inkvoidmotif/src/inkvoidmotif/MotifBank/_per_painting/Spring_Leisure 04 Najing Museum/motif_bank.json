@@ -1,0 +1,156 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 04 Najing Museum.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:29:01.077612+00:00",
+  "motifs": [
+    {
+      "name": "left_lake_boat",
+      "description": "Small narrow boat on the lower-left lake surface with a seated boatman and low cargo forms, isolated from the blank surrounding water.",
+      "bbox": [
+        0.047,
+        0.778,
+        0.078,
+        0.055
+      ],
+      "role": "boat on water",
+      "must_preserve": [
+        "thin dark hull line and upturned prow/stern",
+        "tiny seated figure and pole/oar gesture",
+        "small rounded cargo marks inside the boat",
+        "faint horizontal water wash around the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_lake_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_lakeside_hamlet",
+      "description": "Left-middle shoreline settlement with bare trees, willow clumps, a small red-roofed building, distant low shore, and soft lake mist.",
+      "bbox": [
+        0.095,
+        0.355,
+        0.23,
+        0.345
+      ],
+      "role": "village cluster and shoreline",
+      "must_preserve": [
+        "fine ink outlines of leaning bare branches",
+        "soft gray-green wash on willow foliage",
+        "small red color accent on the roof near the water",
+        "pale horizontal shoreline strokes fading into mist",
+        "tiny distant structures and boat-like marks along the far bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_misty_lakeside_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_peak_range",
+      "description": "Central background mountain mass with jagged peak, sloping ridges, pale cliff faces, and sparse summit trees.",
+      "bbox": [
+        0.248,
+        0.0,
+        0.235,
+        0.455
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "angular ridge outlines and broken contour strokes",
+        "dry-brush rock texture on the cliff faces",
+        "pale beige-gray wash transitions on slopes",
+        "small dark tree silhouettes along ridges",
+        "mist-softened lower mountain edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_peak_range.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "willow_pavilion_village",
+      "description": "Central lower village area with clustered thatched and tiled pavilions, drooping willows, footpaths, rocks, and a low red-railed bridge or walkway.",
+      "bbox": [
+        0.285,
+        0.405,
+        0.225,
+        0.405
+      ],
+      "role": "foreground village and trees",
+      "must_preserve": [
+        "delicate roof geometry on small pavilions",
+        "drooping willow foliage rendered with soft vertical strokes",
+        "dark twisting trunks and exposed branch linework",
+        "low red railing accent near the bottom center",
+        "scattered ink rocks and path texture at ground level"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_willow_pavilion_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "pine_cliff_slope",
+      "description": "Middle-right rocky hillside with tall pines, blue-green pine needle clusters, exposed trunks, and pale cliff wash behind.",
+      "bbox": [
+        0.505,
+        0.11,
+        0.19,
+        0.54
+      ],
+      "role": "pine grove on rocky slope",
+      "must_preserve": [
+        "blue-green clustered pine needle dabs",
+        "sinuous brown trunks and branching structure",
+        "dry textured rock strokes on the sloping cliff",
+        "small ledges and path-like breaks in the rock",
+        "misty pale wash separating trees from mountain face"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_pine_cliff_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "travelers_with_animals",
+      "description": "Lower center-right path group of small human figures, animals, and attendants crossing open ground below the cliffs.",
+      "bbox": [
+        0.515,
+        0.675,
+        0.125,
+        0.145
+      ],
+      "role": "scholar figures and pack animals",
+      "must_preserve": [
+        "tiny robe outlines and upright figure gestures",
+        "animal bodies and legs drawn with fine dark strokes",
+        "small attendant carrying object or bundle",
+        "light ground wash around the procession",
+        "spacing between figures showing movement along the path"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_travelers_with_animals.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_garden_pavilions_waterfall",
+      "description": "Right-side garden compound with upper and lower pavilions, tiled roofs, red railings, enclosing wall, dense trees, and a narrow waterfall descending from the cliff behind.",
+      "bbox": [
+        0.704,
+        0.0,
+        0.205,
+        0.705
+      ],
+      "role": "pavilion group and waterfall",
+      "must_preserve": [
+        "crisp tiled roof grids and upturned eaves",
+        "red railing and architectural accent lines",
+        "thin vertical waterfall streaks against the cliff",
+        "dense stippled foliage around the buildings",
+        "pale wall and gateway geometry along the lower compound"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_garden_pavilions_waterfall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

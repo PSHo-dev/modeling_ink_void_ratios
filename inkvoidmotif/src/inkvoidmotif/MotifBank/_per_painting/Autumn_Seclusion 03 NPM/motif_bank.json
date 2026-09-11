@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 03 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:25:45.437337+00:00",
+  "motifs": [
+    {
+      "name": "central_craggy_mountain_massif",
+      "description": "Isolate the dominant central mountain formation: stacked rounded cliffs, steep gullies, terraced ledges, and dark conifer bands climbing the slopes. Exclude surrounding calligraphy, seals, sky, and the small village at the lower right edge.",
+      "bbox": [
+        0.12,
+        0.15,
+        0.61,
+        0.48
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "layered ink contour lines defining rounded rock faces",
+        "dry-brush texture and pale ochre-gray washes on cliff surfaces",
+        "dark blue-black tree-dot clusters and short vertical pine strokes along ridges",
+        "soft mist gaps separating terraces and valleys",
+        "arching central ridge line and vertical cliff striations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_craggy_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_needle_cliffs_and_trees",
+      "description": "Isolate the left-side vertical rock needles and adjacent wooded cliff ledges, including the pale upright spires, dark tree bands, and small red-leaf shrubs embedded in the rocks. Avoid nearby calligraphy and red seals.",
+      "bbox": [
+        0.0,
+        0.27,
+        0.28,
+        0.36
+      ],
+      "role": "side cliffs",
+      "must_preserve": [
+        "tall pale pillar-like cliff silhouettes",
+        "thin ink outlines and vertical texture strokes",
+        "dark clustered treetops along ledges",
+        "small red foliage accents among gray rocks",
+        "misty white breaks at the cliff bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_needle_cliffs_and_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_distant_ridge",
+      "description": "Isolate the distant rolling ridge on the upper right: soft pale hills with a dotted dark treeline along the crest and hazy washes receding into open space.",
+      "bbox": [
+        0.7,
+        0.25,
+        0.29,
+        0.18
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint gray contour lines of the far hills",
+        "soft diluted wash edges fading into mist",
+        "dark dotted tree strokes along the ridge crest",
+        "subtle ochre tint on the slopes",
+        "open atmospheric spacing around the ridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_distant_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_lakeside_village",
+      "description": "Isolate the small village cluster on the mid-right shore beneath the mountain: several low buildings with layered roofs, thin walls, nearby trees, and a narrow shoreline path. Exclude the large mountain mass above as much as possible.",
+      "bbox": [
+        0.62,
+        0.38,
+        0.29,
+        0.09
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "precise dark roof outlines and eave geometry",
+        "light tan roof and wall washes",
+        "thin horizontal shoreline and path lines",
+        "small vertical tree strokes behind and between buildings",
+        "tiny red-orange foliage accents near the water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_right_lakeside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_bridge_hamlet",
+      "description": "Isolate the lower-left waterfront hamlet with a covered structure, bridge-like walkway, posts, rocks, and bare trees beside the water. Keep it separate from the broad blank lake surface.",
+      "bbox": [
+        0.03,
+        0.58,
+        0.35,
+        0.08
+      ],
+      "role": "bridge and pavilion group",
+      "must_preserve": [
+        "fine roof lines and layered eaves",
+        "bridge or walkway posts drawn with thin ink strokes",
+        "bare branch silhouettes at the left",
+        "low shoreline rocks with dry-brush texture",
+        "pale wash transitions where the structure meets mist and water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_left_bridge_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_tall_tree_islet",
+      "description": "Isolate the foreground rocky islet with tall slender trees, drooping foliage, red-leaf shrubs, grasses, and clustered rocks near the center-right foreground. Exclude the lower-right houses.",
+      "bbox": [
+        0.42,
+        0.6,
+        0.32,
+        0.29
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "long thin trunks with varied ink pressure",
+        "drooping dark leaf clusters and needle-like foliage",
+        "red berry-like and leaf accents among shrubs",
+        "rounded foreground rocks with gray-ochre washes",
+        "fine grasses and reeds at the water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_tall_tree_islet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_terraced_pavilions",
+      "description": "Isolate the lower-right architectural group set on a rocky bank: multi-level pavilions, walls, roof ridges, surrounding shrubs, and vertical cliff edge. Exclude the red seal at the bottom corner.",
+      "bbox": [
+        0.73,
+        0.8,
+        0.26,
+        0.11
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked roof geometry with crisp ink eaves",
+        "pale walls and light ochre roof washes",
+        "dark shrub and tree strokes framing the buildings",
+        "rock ledge texture beneath the structures",
+        "vertical architectural posts and terrace lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_terraced_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

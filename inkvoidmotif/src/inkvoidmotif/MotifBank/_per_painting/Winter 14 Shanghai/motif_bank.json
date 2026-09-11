@@ -1,0 +1,159 @@
+{
+  "source": "../../../../../../Input_Images/Winter 14 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T22:12:46.408256+00:00",
+  "motifs": [
+    {
+      "name": "upper_floating_bare_branches",
+      "description": "Isolate the detached cluster of thin, leafless tree branches near the upper center, appearing like a distant treetop or brushy crown suspended in open space.",
+      "bbox": [
+        0.425,
+        0.025,
+        0.265,
+        0.135
+      ],
+      "role": "distant tree canopy",
+      "must_preserve": [
+        "fine wiry ink linework",
+        "forking twig tips",
+        "uneven dry-brush strokes",
+        "open gaps between branches",
+        "light gray-brown wash remnants around the branch mass"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_floating_bare_branches.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_winter_grove",
+      "description": "Isolate the dense grove of bare, dark trees at the left edge, including the interlaced trunks, exposed branches, and lower brush at the base, but not the red seals along the margin.",
+      "bbox": [
+        0.0,
+        0.225,
+        0.29,
+        0.345
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "heavy black trunk strokes",
+        "curving branch silhouettes",
+        "fine hooked twig endings",
+        "dry-brush bark texture",
+        "dark base vegetation and short vertical grass strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_winter_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_handcart_and_attendant",
+      "description": "Isolate the small rustic wheeled handcart or farm cart and the crouched/standing attendant beside it at lower left, keeping the cart wheels and woven frame separate from the surrounding tree grove as much as possible.",
+      "bbox": [
+        0.03,
+        0.445,
+        0.16,
+        0.135
+      ],
+      "role": "foreground rustic figure group",
+      "must_preserve": [
+        "round wheel geometry",
+        "arched cart frame",
+        "thin spoke and axle lines",
+        "small human figure outline",
+        "compact ink accents at feet and cart base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_handcart_and_attendant.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_blossom_shrubs_and_rocks",
+      "description": "Isolate the central mound of clustered pale flowering shrubs and low rocks below the main trees, with dotted blossoms and tangled roots.",
+      "bbox": [
+        0.255,
+        0.365,
+        0.235,
+        0.24
+      ],
+      "role": "middle-ground shrub mound",
+      "must_preserve": [
+        "repeated circular blossom dots",
+        "small clustered ink stipples",
+        "gnarled root lines",
+        "soft gray rock wash",
+        "dark accents tucked behind the pale shrub masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_blossom_shrubs_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_twisted_tree_cliff",
+      "description": "Isolate the main central rocky cliff with twisted bare trees rising from it, including dark foliage patches, exposed roots, vertical rock faces, and the branching silhouette across the center.",
+      "bbox": [
+        0.345,
+        0.19,
+        0.34,
+        0.43
+      ],
+      "role": "central hillside and trees",
+      "must_preserve": [
+        "thick twisting trunks",
+        "angular leafless branches",
+        "dark ink foliage clumps",
+        "vertical cliff strokes",
+        "layered gray wash on rocks",
+        "black texture dots along ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_twisted_tree_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_crag_with_bare_tree",
+      "description": "Isolate the right-side craggy outcrop with a bare tree leaning across it, vertical cliff marks, and the dark dotted ridge descending into the foreground.",
+      "bbox": [
+        0.54,
+        0.36,
+        0.3,
+        0.34
+      ],
+      "role": "right foreground rock and tree",
+      "must_preserve": [
+        "sinuous bare tree limbs",
+        "dark dotted texture along the ridge",
+        "pale rock planes",
+        "vertical ink slashes on cliff face",
+        "soft wash transitions around the slope edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_crag_with_bare_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_ox_cart_procession",
+      "description": "Isolate the lower foreground procession: two oxen or cattle, the enclosed covered cart with large spoked wheel, small attendant figure, and the ground line beneath them.",
+      "bbox": [
+        0.305,
+        0.715,
+        0.49,
+        0.18
+      ],
+      "role": "foreground travel procession",
+      "must_preserve": [
+        "curved woven cart roof",
+        "large spoked wheel",
+        "rectangular cart body linework",
+        "animal horns and backs",
+        "thin harness and ground lines",
+        "small attendant figure between animals"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_ox_cart_procession.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

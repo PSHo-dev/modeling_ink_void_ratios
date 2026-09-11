@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 08 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:10:04.059330+00:00",
+  "motifs": [
+    {
+      "name": "gnarled_ancient_pine",
+      "description": "Isolate the dominant old tree spanning the left and center: thick twisting trunk rising from the lower left, knotted hollows, looping branches, and dense dark leaf clusters spreading across the middle and right.",
+      "bbox": [
+        0.0,
+        0.16,
+        0.9,
+        0.58
+      ],
+      "role": "foreground tree canopy and trunk",
+      "must_preserve": [
+        "sinuous ink outlines of the trunk and branches",
+        "knotted hollows and dark bark scars",
+        "warm ochre trunk wash",
+        "dense repeated dark leaf dabs and scalloped foliage clusters",
+        "branch forks visible through foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_gnarled_ancient_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_light_leaf_canopy",
+      "description": "Isolate the higher, lighter-toned leafy crown above the main dark tree mass, centered near the top, with rounded flower-like clusters and fine branch structure.",
+      "bbox": [
+        0.17,
+        0.05,
+        0.45,
+        0.3
+      ],
+      "role": "upper tree foliage",
+      "must_preserve": [
+        "individual petal-like leaf strokes",
+        "thin interlaced branch lines",
+        "lighter green-brown wash distinct from darker lower foliage",
+        "rounded clustered silhouette",
+        "fine ink contouring around leaf tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_light_leaf_canopy.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_vertical_cliff_wall",
+      "description": "Isolate the tall sheer cliff on the right side, from the top down behind the trees to the lower ravine, including vertical rock planes and dark edge accents but excluding seals.",
+      "bbox": [
+        0.54,
+        0.0,
+        0.43,
+        0.76
+      ],
+      "role": "background cliff wall",
+      "must_preserve": [
+        "long vertical ink striations",
+        "blocky ledge marks",
+        "darker dotted cliff-edge accents",
+        "transparent ochre-gray wash",
+        "misty fading transitions around the tree silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_vertical_cliff_wall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_seated_scholar",
+      "description": "Isolate the seated scholar on the left of the terrace, shown in pale robes in profile facing inward toward the musician.",
+      "bbox": [
+        0.13,
+        0.64,
+        0.17,
+        0.14
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "profile head and topknot",
+        "fine facial linework",
+        "pale robe shape with dark collar edge",
+        "seated posture with folded legs",
+        "small dark shoe and robe hem accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_seated_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_musician_scholar",
+      "description": "Isolate the central seated scholar holding a vertical string instrument, seated on the rocky terrace facing forward-left.",
+      "bbox": [
+        0.43,
+        0.62,
+        0.19,
+        0.17
+      ],
+      "role": "figure with instrument",
+      "must_preserve": [
+        "calm frontal face and mustache linework",
+        "topknot and cap details",
+        "vertical instrument neck and rounded body",
+        "flowing pale robes with ink folds",
+        "dark seat and small ground objects near the feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_musician_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_cascade_stream_and_rocks",
+      "description": "Isolate the narrow stream and waterfall descending along the right side, with rounded boulders and rippling water bands.",
+      "bbox": [
+        0.63,
+        0.58,
+        0.36,
+        0.29
+      ],
+      "role": "waterfall and stream",
+      "must_preserve": [
+        "curved parallel water lines",
+        "stepped cascades flowing downward right",
+        "rounded gray-green rocks",
+        "dark ink outlines around boulders",
+        "ochre wash in the water channels"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_cascade_stream_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_terrace_with_bamboo",
+      "description": "Isolate the lower rocky terrace and ravine foreground beneath the figures, including layered stone shelves, dotted ground edges, sparse grasses, and bamboo-like shrubs.",
+      "bbox": [
+        0.0,
+        0.73,
+        0.95,
+        0.25
+      ],
+      "role": "foreground rocky ground",
+      "must_preserve": [
+        "terraced rock contours and ledges",
+        "dark dotted edge texture",
+        "small bamboo leaf clusters",
+        "tufts of wiry grass",
+        "gray-brown wash and angular rock hatching"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_terrace_with_bamboo.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

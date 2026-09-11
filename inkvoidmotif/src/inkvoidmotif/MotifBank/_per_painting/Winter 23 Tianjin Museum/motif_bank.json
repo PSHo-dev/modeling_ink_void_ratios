@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Winter 23 Tianjin Museum.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:55:22.278643+00:00",
+  "motifs": [
+    {
+      "name": "upper_craggy_summits",
+      "description": "Isolate the high central-right mountain crown: stacked horizontal rock shelves, angular crags, pale unpainted summit planes, and jagged ridge contours descending from the upper right.",
+      "bbox": [
+        0.29,
+        0.155,
+        0.7,
+        0.245
+      ],
+      "role": "distant mountain summit and cliff crown",
+      "must_preserve": [
+        "dry horizontal texture strokes across the flat rock shelves",
+        "broken ink outlines defining jagged cliff edges",
+        "pale reserved-paper summit faces",
+        "small dark crevice marks and fractured ledge geometry",
+        "soft wash transitions around the rock masses without including calligraphy or seals"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_craggy_summits.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_ridges_lake",
+      "description": "Isolate the hazy left-side valley with distant overlapping mountain silhouettes and the calm water band beneath them.",
+      "bbox": [
+        0.0,
+        0.305,
+        0.39,
+        0.335
+      ],
+      "role": "misty distance and lake",
+      "must_preserve": [
+        "soft grey wash gradients forming atmospheric mist",
+        "thin wandering contour lines of distant hills",
+        "faint layered wave lines on the lake surface",
+        "blurred mist edges where mountains dissolve into water",
+        "minimal pale negative space between ridge layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_ridges_lake.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_waterfall_cliff",
+      "description": "Isolate the tall pale central cliff face with the vertical waterfall-like wash running down through surrounding rock ribs.",
+      "bbox": [
+        0.34,
+        0.325,
+        0.35,
+        0.355
+      ],
+      "role": "central waterfall and cliff face",
+      "must_preserve": [
+        "long vertical pale wash streaks suggesting falling water",
+        "curving cliff outlines on both sides of the cascade",
+        "dry-brush rock texture and scattered dotting along the ledges",
+        "darker ink knots where side ravines meet the fall",
+        "transparent wash texture over the broad cliff plane"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_waterfall_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_terraced_rock_slope",
+      "description": "Isolate the steep right-hand mountainside with layered ledges, stepped striations, and narrow shelf-like paths cut into the rock.",
+      "bbox": [
+        0.67,
+        0.355,
+        0.31,
+        0.295
+      ],
+      "role": "right hillside and rocky terraces",
+      "must_preserve": [
+        "parallel horizontal ledge strokes",
+        "dark short hatch marks along the terrace edges",
+        "curved descending contour of the slope",
+        "broken rock outlines and small angular projections",
+        "pale wash over the broad sloping rock faces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_terraced_rock_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "dark_bamboo_grove_base",
+      "description": "Isolate the dense dark grove at the base of the central cliff, with many vertical stalks and clustered foliage dots.",
+      "bbox": [
+        0.38,
+        0.575,
+        0.27,
+        0.105
+      ],
+      "role": "foreground grove at mountain base",
+      "must_preserve": [
+        "tight black foliage dot clusters",
+        "thin vertical bamboo or tree-stem strokes",
+        "irregular dark canopy edge following the mountain base",
+        "small rocks embedded among the trunks",
+        "contrast between dense ink grove and pale cliff wash behind it"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_dark_bamboo_grove_base.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_roof_village",
+      "description": "Isolate the lakeside village cluster in the lower middle-right: rows of small houses, angular tiled roofs, low walls, and terraces nestled below leafless trees.",
+      "bbox": [
+        0.42,
+        0.705,
+        0.5,
+        0.155
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "fine roof-line geometry with pitched eaves",
+        "rectangular wall outlines and courtyard divisions",
+        "thin ink strokes indicating terraces and paths",
+        "varied roof sizes receding into the hillside",
+        "delicate placement of houses among rocks and trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_midground_roof_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_leafless_trees",
+      "description": "Isolate the large group of bare winter trees in the lower left foreground, including dark trunks, branching crowns, and adjacent brushy shrubs.",
+      "bbox": [
+        0.03,
+        0.745,
+        0.37,
+        0.175
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "forking black trunk lines and exposed roots",
+        "fine twig networks with many small angular branch tips",
+        "contrasting thicker main trunks and hairline branches",
+        "vertical reed-like strokes at the far left",
+        "rocky ground strokes around the tree bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_leafless_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_water_bank",
+      "description": "Isolate the bottom foreground water inlet with smooth dark wash, rocky banks, pale sandbars, and the narrow path edge above it.",
+      "bbox": [
+        0.22,
+        0.845,
+        0.75,
+        0.145
+      ],
+      "role": "foreground water and bank",
+      "must_preserve": [
+        "horizontal water wash with darker pooled center",
+        "irregular rocky shoreline outlines",
+        "dry-brush texture on pale sandbars and foreground rocks",
+        "small broken stones along the far bank",
+        "subtle transition from bank path to water surface"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_water_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

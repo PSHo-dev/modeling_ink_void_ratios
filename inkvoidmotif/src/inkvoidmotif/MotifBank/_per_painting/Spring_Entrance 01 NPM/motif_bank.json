@@ -1,0 +1,140 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 01 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:26:13.205080+00:00",
+  "motifs": [
+    {
+      "name": "misty_peak_range",
+      "description": "Isolate the pale distant mountain range in the upper landscape: soft beige and blue-gray peaks, dotted dark vegetation along ridgelines, and faint diagonal slope lines emerging through mist.",
+      "bbox": [
+        0.1,
+        0.31,
+        0.82,
+        0.13
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft diluted wash gradients",
+        "mist-softened mountain edges",
+        "dark dotted tree texture on ridges",
+        "faint diagonal contour lines",
+        "subtle blue-gray rear peak"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_peak_range.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_island_shoreline",
+      "description": "Isolate the horizontal mid-distance river islands and shoreline bands beneath the distant hills, including small groves, low banks, and thin waterline strokes.",
+      "bbox": [
+        0,
+        0.4,
+        0.88,
+        0.08
+      ],
+      "role": "midground riverbank",
+      "must_preserve": [
+        "thin horizontal ink waterlines",
+        "small clustered tree strokes",
+        "low rounded island contours",
+        "pale wash transitions between water and land",
+        "tiny dark vegetation dots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_middle_island_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pavilion_grove",
+      "description": "Isolate the left-bank pavilion partially hidden among dense trees and willows, with its slanted roof, pale walls, surrounding shrubs, rocks, and drooping branches.",
+      "bbox": [
+        0,
+        0.49,
+        0.45,
+        0.13
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angular pavilion roof geometry",
+        "light ochre roof wash",
+        "dense blue-green stippled foliage",
+        "fine willow branch linework",
+        "rocky bank texture",
+        "layered shrub dots around the building"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_bridge_bank",
+      "description": "Isolate the right midground bank with the large leaning willow, sparse drooping foliage, low bridge or walkway strokes, and pale shoreline beside open water.",
+      "bbox": [
+        0.53,
+        0.48,
+        0.47,
+        0.12
+      ],
+      "role": "willow and bridge bank",
+      "must_preserve": [
+        "arching willow trunk line",
+        "fine hanging willow tendrils",
+        "thin horizontal bridge or walkway strokes",
+        "pale bank wash",
+        "small shrub accents at the base",
+        "open water edge lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_willow_bridge_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_blue_leaf_tree_cluster",
+      "description": "Isolate the tall central cluster of river trees with pale trunks, blue-green leaf masses, bare interlaced branches, and low grasses at the roots.",
+      "bbox": [
+        0.37,
+        0.6,
+        0.33,
+        0.24
+      ],
+      "role": "foreground tree cluster",
+      "must_preserve": [
+        "slender vertical trunk brushwork",
+        "pale bark wash with darker knots",
+        "airy blue-green foliage stippling",
+        "fine leafless branch network",
+        "root and grass texture at base",
+        "overlapping trunk spacing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_blue_leaf_tree_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_reed_rock_bank",
+      "description": "Isolate the low foreground shoreline with grasses, small shrubs, exposed rocks, pale sandbar wash, and horizontal water strokes across the bottom landscape.",
+      "bbox": [
+        0,
+        0.86,
+        0.85,
+        0.1
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "broken horizontal shoreline strokes",
+        "small ink-dot grasses",
+        "low rock outlines",
+        "pale green-gray wash patches",
+        "soft water reflections",
+        "irregular sandbar edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_reed_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

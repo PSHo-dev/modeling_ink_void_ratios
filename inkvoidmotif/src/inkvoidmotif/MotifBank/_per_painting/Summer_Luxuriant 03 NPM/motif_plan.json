@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall ink-and-wash Chinese landscape with layered rounded mountains, misty waterways, pine groves, small pavilions, village roofs, bridges, and foreground rocky islands. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "towering_central_mountain",
+      "description": "Isolate the dominant high mountain mass in the upper center-right: a steep rounded peak with nested vertical ridges, dark vegetation dots along crest lines, and pale mist-wash gaps between slopes.",
+      "bbox": [
+        0.39,
+        0.15,
+        0.39,
+        0.33
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "arched hemp-fiber texture strokes running down the slopes",
+        "dense black tree-dot clusters along ridge tops",
+        "soft grey ink wash gradients on rounded faces",
+        "mist-softened lower edges where the mountain dissolves into the valley",
+        "asymmetrical peak silhouette leaning slightly right"
+      ]
+    },
+    {
+      "name": "misty_left_valley_water",
+      "description": "Isolate the broad left middle valley with low distant hills, horizontal water bands, marshy banks, and atmospheric haze behind the nearer slopes.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.34,
+        0.24
+      ],
+      "role": "distant valley and water",
+      "must_preserve": [
+        "faint layered hill contours fading into mist",
+        "thin horizontal ink lines marking water surfaces",
+        "soft blurred wash transitions at the horizon",
+        "small dark shrub and tree marks along the far bank",
+        "open negative-space mist separating hills from water"
+      ]
+    },
+    {
+      "name": "mountain_saddle_pavilions",
+      "description": "Isolate the small pavilion and building group perched on the central-right mountain saddle, including the narrow terraces or path-like ledges around it.",
+      "bbox": [
+        0.54,
+        0.4,
+        0.18,
+        0.14
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "fine angular roof geometry with dark ink rooflines",
+        "stacked terrace ledges cut into the mountain slope",
+        "tiny vertical wall strokes beneath roofs",
+        "surrounding cliff texture immediately supporting the buildings",
+        "misty wash around the saddle without including the large peak above"
+      ]
+    },
+    {
+      "name": "lower_left_hillside_temple",
+      "description": "Isolate the compact temple or pavilion complex tucked into the lower-left hillside, framed by rounded rocks, vertical trunks, and a sloping mountain shoulder.",
+      "bbox": [
+        0.24,
+        0.56,
+        0.18,
+        0.13
+      ],
+      "role": "hillside pavilion group",
+      "must_preserve": [
+        "tiered roof outlines with upturned eaves",
+        "slender vertical tree trunks beside the structures",
+        "dark stippled foliage clusters on the enclosing hill",
+        "rounded rock contours with dry-brush texture",
+        "small platform and wall lines beneath the roofs"
+      ]
+    },
+    {
+      "name": "central_pine_grove",
+      "description": "Isolate the tall central grove of straight pines rising from the lower middle hills, with clustered trunks, needle crowns, and rounded bouldery mounds at their base.",
+      "bbox": [
+        0.32,
+        0.63,
+        0.27,
+        0.22
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "long thin vertical pine trunks",
+        "dark fanlike and clustered needle marks",
+        "varied tree heights creating an uneven canopy",
+        "ink-dot undergrowth along the ground line",
+        "rounded hill and boulder washes supporting the grove"
+      ]
+    },
+    {
+      "name": "lower_left_waterside_village",
+      "description": "Isolate the waterside village cluster in the lower left-center: several low houses with pale walls and dark roofs set along a bank beside calm water.",
+      "bbox": [
+        0.1,
+        0.74,
+        0.27,
+        0.11
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "crisp low roof geometry and overlapping gables",
+        "thin wall and fence lines",
+        "dark shrub dots around the buildings",
+        "flat horizontal waterline just below the bank",
+        "subtle light wash defining the open clearing"
+      ]
+    },
+    {
+      "name": "right_valley_bridge_and_stream",
+      "description": "Isolate the middle-right valley passage with the arched bridge, narrow stream, path, and adjacent small banks between rounded hills.",
+      "bbox": [
+        0.66,
+        0.61,
+        0.24,
+        0.16
+      ],
+      "role": "bridge and stream",
+      "must_preserve": [
+        "arched bridge curve with thin vertical support strokes",
+        "narrow winding stream edges",
+        "small path lines leading toward the bridge",
+        "rounded hill washes on both sides",
+        "dark shrub accents at the bank edges"
+      ]
+    },
+    {
+      "name": "foreground_right_pine_promontory",
+      "description": "Isolate the foreground right rocky promontory with tall dark pines, a small hut or pavilion on the ledge, and boulders descending into water.",
+      "bbox": [
+        0.58,
+        0.74,
+        0.28,
+        0.2
+      ],
+      "role": "foreground rocks and pines",
+      "must_preserve": [
+        "bold dark pine trunks and dense needle masses",
+        "small simple roofed structure partly hidden among trees",
+        "rounded foreground boulders with dark outline accents",
+        "stippled moss and shrub dots along the ridge",
+        "horizontal water strokes at the promontory base"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 03 NPM.jpg",
+  "created_at": "2026-09-03T21:04:14.273853+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

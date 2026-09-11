@@ -1,0 +1,184 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:35:56.671356+00:00",
+  "motifs": [
+    {
+      "name": "distant_rolling_hills_path",
+      "description": "Soft middle-left rolling hills with a pale winding path or stream threading through green-brown slopes and small blue-green shrub accents; isolate the landscape forms only, excluding nearby calligraphy and red seals.",
+      "bbox": [
+        0.06,
+        0.18,
+        0.38,
+        0.29
+      ],
+      "role": "distant hillside and winding path",
+      "must_preserve": [
+        "thin contour lines defining rounded hill shoulders",
+        "muted green and ochre wash gradients",
+        "pale serpentine path or watercourse edge",
+        "small blue-green vegetation clusters",
+        "dry-brush stippling along slope bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_rolling_hills_path.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_mixed_grove",
+      "description": "Dense upper-right grove of interlaced trees including black-ink pine or bamboo-like needles, pale green leafy crowns, blue-green shrubs, and exposed trunks on a sloping bank; exclude all red seal impressions at the edges.",
+      "bbox": [
+        0.5,
+        0.02,
+        0.44,
+        0.32
+      ],
+      "role": "background forest grove",
+      "must_preserve": [
+        "fine black branching networks",
+        "needle clusters and bamboo-like sprays",
+        "rounded pale green leaf dots",
+        "blue-green wash patches under foliage",
+        "brown trunk linework and forked branches",
+        "layered canopy depth"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_right_mixed_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_willow_curtain",
+      "description": "Tall central cluster of willows with dark trunks and long hanging curtains of fine leaves, set over muted hills and misty ground; isolate from adjacent upper grove and lower houses.",
+      "bbox": [
+        0.28,
+        0.29,
+        0.29,
+        0.51
+      ],
+      "role": "central willow grove",
+      "must_preserve": [
+        "long vertical drooping willow fronds",
+        "repeated fine leaf strokes",
+        "dark twisting trunks and bare side branches",
+        "soft green-gray wash behind the foliage",
+        "delicate gaps where mist shows through"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_willow_curtain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_blue_green_bluff",
+      "description": "Middle-right layered blue-green bluff and hillside terraces with winding footpaths, ochre banks, small shrubs, and rock-like mound textures below the upper grove.",
+      "bbox": [
+        0.58,
+        0.27,
+        0.33,
+        0.34
+      ],
+      "role": "middle-ground hillside and rocky bluff",
+      "must_preserve": [
+        "blue-green mineral wash on bluff tops",
+        "ochre-brown path edges",
+        "dark stippled vegetation along ridges",
+        "rounded mound contours",
+        "fine terrace lines receding into the slope",
+        "small warm brown rock accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_right_blue_green_bluff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_thatched_village",
+      "description": "Lower-left village group of thatched-roof buildings, fence segments, garden shrubs, bamboo-like thickets, and leafless trees around the dwellings; exclude adjacent calligraphy and seals.",
+      "bbox": [
+        0.0,
+        0.5,
+        0.29,
+        0.34
+      ],
+      "role": "foreground village cluster",
+      "must_preserve": [
+        "dark dry-brush thatch texture on roofs",
+        "straight wall posts and roof geometry",
+        "low fence rails and gate lines",
+        "dense ink shrub and bamboo strokes",
+        "blue-green leafy tree crowns",
+        "thin bare branch silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_left_thatched_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_tree_rocks",
+      "description": "Large foreground leafless twisting tree spreading horizontally across the lower center, with exposed roots, small blue rocks, ochre stones, and sparse grasses along a pale bank.",
+      "bbox": [
+        0.16,
+        0.66,
+        0.42,
+        0.29
+      ],
+      "role": "foreground tree and rocks",
+      "must_preserve": [
+        "sinuous dark trunk and root linework",
+        "fine twig network at branch tips",
+        "blue-green rock washes",
+        "small ochre stone accents",
+        "dry-brush grass tufts",
+        "low pale bank contour"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_twisted_tree_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_meandering_stream_bridge",
+      "description": "Right-side meandering stream or inlet with pale water ribbons, curved banks, a small arched footbridge or plank bridge, and dark grasses along the bank; isolate from the scholar figure and seal areas.",
+      "bbox": [
+        0.73,
+        0.42,
+        0.27,
+        0.24
+      ],
+      "role": "watercourse and bridge",
+      "must_preserve": [
+        "parallel curved water lines",
+        "thin bank outlines",
+        "small bridge geometry with rail or plank marks",
+        "dark reed and grass strokes",
+        "blue-green bank shadows",
+        "warm ochre bank wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_meandering_stream_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_scholar_mist_bank",
+      "description": "Lone scholar figure on the lower-right path beside a broad pale mist or water opening, with nearby sloping bank and sparse vegetation; keep the figure and immediate setting only.",
+      "bbox": [
+        0.55,
+        0.73,
+        0.32,
+        0.15
+      ],
+      "role": "figure and misty foreground path",
+      "must_preserve": [
+        "tiny robed scholar silhouette and hat",
+        "minimal facial and sleeve linework",
+        "pale mist or water edge",
+        "low curved path contour",
+        "subtle green-brown bank wash",
+        "small stippled vegetation at the mist edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_scholar_mist_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

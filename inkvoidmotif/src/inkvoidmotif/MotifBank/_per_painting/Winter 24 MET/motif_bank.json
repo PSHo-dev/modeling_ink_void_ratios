@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Winter 24 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:48:10.689911+00:00",
+  "motifs": [
+    {
+      "name": "upper_sky_flock",
+      "description": "Isolate the scattered flock of small dark birds flying across the open upper-left and central sky, keeping only the bird silhouettes and their minimal wing strokes.",
+      "bbox": [
+        0.145,
+        0.105,
+        0.355,
+        0.17
+      ],
+      "role": "sky accent",
+      "must_preserve": [
+        "thin calligraphic wing strokes",
+        "varied bird sizes and spacing",
+        "dry-brush tapered tips",
+        "irregular flight rhythm across the pale sky"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_sky_flock.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_winter_grove_slope",
+      "description": "Isolate the left-side winter grove standing on the sloping riverbank, including the bare trunks, branching crowns, shaded slope, and low rocks at the bank edge.",
+      "bbox": [
+        0.0,
+        0.25,
+        0.39,
+        0.43
+      ],
+      "role": "left bank grove",
+      "must_preserve": [
+        "fine forked bare branches",
+        "layered gray ink trunks fading into mist",
+        "slanted bank contour lines",
+        "dry-brush slope texture",
+        "low angular rocks at the water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_winter_grove_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_river_bend_rocks",
+      "description": "Isolate the quiet middle river bend with pale water reserve, soft shorelines, and scattered dark stones and sandbar marks near the center-left.",
+      "bbox": [
+        0.225,
+        0.505,
+        0.27,
+        0.155
+      ],
+      "role": "water passage",
+      "must_preserve": [
+        "unpainted pale water shape",
+        "soft misty bank edges",
+        "small dark rock dabs",
+        "curving shoreline contour",
+        "subtle gray wash transitions"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_distant_river_bend_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_hut_willow",
+      "description": "Isolate the small foreground hut with tiled roof beneath the drooping willow canopy, including the visible walls, roof grid, hanging branches, and immediate ground beneath it.",
+      "bbox": [
+        0.205,
+        0.64,
+        0.28,
+        0.34
+      ],
+      "role": "foreground dwelling",
+      "must_preserve": [
+        "rectangular hut wall linework",
+        "dark roof ridge and eaves",
+        "individual roof tile grid strokes",
+        "long drooping willow twigs",
+        "foreground ground wash around the hut"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_foreground_hut_willow.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_feathery_twin_trees",
+      "description": "Isolate the pair of tall central trees with twisting trunks, exposed roots, sparse upper branches, and dense feathery dark foliage strokes along the trunks.",
+      "bbox": [
+        0.395,
+        0.255,
+        0.18,
+        0.715
+      ],
+      "role": "central tree anchor",
+      "must_preserve": [
+        "twisted pale trunks outlined in dark ink",
+        "dense comb-like feathery brush texture",
+        "forking bare upper branches",
+        "exposed root curves at the base",
+        "contrast between wet wash and dry linear strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_feathery_twin_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_grove",
+      "description": "Isolate the mid-right grove of slender bare trees and hanging willows, including the interlaced trunks, long vertical willow strands, and light misty background wash behind them.",
+      "bbox": [
+        0.56,
+        0.22,
+        0.275,
+        0.71
+      ],
+      "role": "right bank grove",
+      "must_preserve": [
+        "thin overlapping bare branches",
+        "long vertical willow tendrils",
+        "soft gray trunk washes",
+        "crossing branch lattice",
+        "mist-softened edges behind the grove"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_bare_tree",
+      "description": "Isolate the tall bare tree at the upper right, including its dark vertical trunk, angular forked limbs, and sparse twig clusters extending toward the image edge.",
+      "bbox": [
+        0.795,
+        0.09,
+        0.18,
+        0.47
+      ],
+      "role": "right vertical tree accent",
+      "must_preserve": [
+        "bold dark trunk segments",
+        "angular broken branch geometry",
+        "fine twig tips",
+        "dry-brush bark texture",
+        "asymmetrical reach toward the right edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_upper_right_bare_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_right_rocky_slope",
+      "description": "Isolate the broad foreground-right rocky slope and path-like ridge with layered gray washes, dark dotted shrub marks, and curving ground contours.",
+      "bbox": [
+        0.49,
+        0.72,
+        0.5,
+        0.27
+      ],
+      "role": "foreground terrain",
+      "must_preserve": [
+        "sweeping dry-brush hill contours",
+        "layered gray wash texture",
+        "dark dotted shrub accents along the ridge",
+        "angular rock-face strokes at far right",
+        "curving path-like pale reserve"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_right_rocky_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

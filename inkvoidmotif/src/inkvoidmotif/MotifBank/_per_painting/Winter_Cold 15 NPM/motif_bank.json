@@ -1,0 +1,179 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Cold 15 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:05:07.923476+00:00",
+  "motifs": [
+    {
+      "name": "left_misty_cliff",
+      "description": "Isolate the large mist-softened cliff mass on the left, including its sloping ridge, pale wash face, darker vertical ink streaks, and the atmospheric fading into the surrounding blank space.",
+      "bbox": [
+        0.026,
+        0.166,
+        0.239,
+        0.462
+      ],
+      "role": "distant mountain cliff",
+      "must_preserve": [
+        "soft tan-gray wash transitions",
+        "dark vertical cliff texture strokes",
+        "slanted ridge line",
+        "misty lost edges at top and lower right",
+        "faint dry-brush striations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_misty_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_overhanging_branches",
+      "description": "Isolate the sparse dark branches descending from the top center, with fine twig clusters and drooping leaf marks, excluding seals and unrelated landscape below.",
+      "bbox": [
+        0.258,
+        0.0,
+        0.508,
+        0.204
+      ],
+      "role": "overhanging foliage",
+      "must_preserve": [
+        "thin calligraphic branch lines",
+        "clustered short leaf strokes",
+        "dark ink accents",
+        "uneven dangling twig rhythm",
+        "dry-brush tapering at branch tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_overhanging_branches.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_mist_hills",
+      "description": "Isolate the faint central background hills and valley washes behind the traveler, including pale mountain contours, blurred tree-like marks, and soft mist openings.",
+      "bbox": [
+        0.435,
+        0.123,
+        0.337,
+        0.42
+      ],
+      "role": "distant hills and mist",
+      "must_preserve": [
+        "barely visible mountain outlines",
+        "soft graded wash patches",
+        "broken mist edges",
+        "small dark foliage dots",
+        "faint diagonal hillside strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_distant_mist_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pine_hillside",
+      "description": "Isolate the right-side sloping hillside with prominent pine-like branches and dark needle clusters, including the angular limbs crossing the upper-right slope while avoiding the traveler figure.",
+      "bbox": [
+        0.739,
+        0.12,
+        0.261,
+        0.455
+      ],
+      "role": "pine hillside",
+      "must_preserve": [
+        "bold angular pine limbs",
+        "hanging needle clusters",
+        "dark ink knots and leaf dots",
+        "pale sloping hillside wash",
+        "dry-brush contour lines on the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_pine_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pack_donkey",
+      "description": "Isolate the left laden pack animal, including its head, ears, legs, dark back wash, and woven basket load with rounded contents.",
+      "bbox": [
+        0.218,
+        0.543,
+        0.229,
+        0.26
+      ],
+      "role": "pack animal",
+      "must_preserve": [
+        "thin ink outline of donkey head and legs",
+        "dark wash along the back",
+        "crosshatched woven basket texture",
+        "rounded load shapes at basket top",
+        "small harness lines and hanging strap details"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_pack_donkey.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pack_donkey",
+      "description": "Isolate the right laden pack animal, including its lowered head, thin legs, tail, back wash, and tall cylindrical basket packed with upright sticks or reeds.",
+      "bbox": [
+        0.501,
+        0.528,
+        0.202,
+        0.25
+      ],
+      "role": "pack animal",
+      "must_preserve": [
+        "fine contour lines around muzzle and ears",
+        "tall basket lattice pattern",
+        "upright stick bundle marks",
+        "soft gray wash over the animal body",
+        "delicate leg joints and hoof strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_pack_donkey.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "walking_traveler_with_pole",
+      "description": "Isolate the walking traveler at right-center, including hat, robe folds, lifted legs, long shoulder pole or staff, and dangling bundle behind him.",
+      "bbox": [
+        0.7,
+        0.431,
+        0.116,
+        0.292
+      ],
+      "role": "traveler figure",
+      "must_preserve": [
+        "angular robe outline",
+        "fold lines at sleeves and trousers",
+        "small hat shape",
+        "extended carrying pole line",
+        "dangling bundle or umbrella-like form",
+        "expressive bent walking posture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_walking_traveler_with_pole.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bank_rocks",
+      "description": "Isolate the low foreground bank across the bottom, with sparse reeds, small rocks, dark horizontal wash ridges, and the rocky mound near the lower right, excluding seals and inscriptions.",
+      "bbox": [
+        0.0,
+        0.797,
+        0.875,
+        0.153
+      ],
+      "role": "foreground bank and rocks",
+      "must_preserve": [
+        "long horizontal ground strokes",
+        "small grass and reed flicks",
+        "scattered pebble dots",
+        "dark dry-brush bank ridge",
+        "rounded rock outlines and gray wash on the lower-right mound"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_bank_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

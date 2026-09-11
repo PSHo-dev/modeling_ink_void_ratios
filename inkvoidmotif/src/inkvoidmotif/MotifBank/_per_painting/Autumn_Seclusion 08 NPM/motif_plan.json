@@ -1,0 +1,146 @@
+{
+  "source_summary": "Vertical Chinese ink-and-wash landscape with layered rocky mountains, mist, a small village compound, bridge and stream, pine and bamboo groves, foreground riverbank, and a lone boatman. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "upper_craggy_peak",
+      "description": "Isolate the high upper-right mountain peak cluster rising out of mist, with rounded eroded rock faces, dark dotted vegetation along ridgelines, and pale ink-wash slopes fading toward the right.",
+      "bbox": [
+        0.417,
+        0.083,
+        0.54,
+        0.139
+      ],
+      "role": "distant mountain peak",
+      "must_preserve": [
+        "fine contour lines defining the rounded rock ribs",
+        "dark clustered tree dots and short vertical strokes along the crest",
+        "soft gray-brown wash texture on the upper slopes",
+        "mist-softened lower edge where the peak dissolves into blank space"
+      ]
+    },
+    {
+      "name": "central_forested_mountain_massif",
+      "description": "Isolate the large central mountain mass with overlapping rounded hills, dense forest band on the upper right, and dark stippled shrubs following the ridges and gullies.",
+      "bbox": [
+        0.103,
+        0.244,
+        0.889,
+        0.247
+      ],
+      "role": "middle mountain massif",
+      "must_preserve": [
+        "layered contour-line rock texture on each rounded slope",
+        "dense vertical tree strokes and black dot foliage in the forest band",
+        "ink-wash gradations separating near ridges from misty recesses",
+        "dark stipple clusters tracing the ridge edges and ravines"
+      ]
+    },
+    {
+      "name": "left_waterfall_gorge",
+      "description": "Isolate the left-side rocky gorge below the middle mountains, including the narrow falling waterfall, flanking boulders, sparse brush, and mist at the base.",
+      "bbox": [
+        0.0,
+        0.319,
+        0.366,
+        0.214
+      ],
+      "role": "waterfall and gorge",
+      "must_preserve": [
+        "thin vertical waterfall lines descending through the rocks",
+        "cracked rock contour strokes on both sides of the gorge",
+        "dark mossy dots and short grasses clinging to ledges",
+        "soft blank mist around the waterfall base"
+      ]
+    },
+    {
+      "name": "village_compound",
+      "description": "Isolate the small village compound nestled below the mountains, including tiled boundary wall, gate, clustered roof planes, courtyard lines, and adjacent dark trees that frame the buildings.",
+      "bbox": [
+        0.291,
+        0.486,
+        0.461,
+        0.109
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "precise roof geometry and angled eaves",
+        "repeated tile pattern on the enclosing wall",
+        "fine architectural linework of gates, rooms, and courtyard divisions",
+        "dark leafy tree masses partly overlapping the buildings"
+      ]
+    },
+    {
+      "name": "right_pine_rock_slope",
+      "description": "Isolate the right hillside beside the village, with tall pine and slender trunks, dense vertical grove texture, and rounded foreground rocks at the base.",
+      "bbox": [
+        0.704,
+        0.386,
+        0.279,
+        0.231
+      ],
+      "role": "pine grove and rocky slope",
+      "must_preserve": [
+        "tiered pine needles and horizontal branch structure",
+        "thin vertical trunk lines of the grove",
+        "rounded boulder outlines with striated rock texture",
+        "dark stippled moss and shrub dots around the rocks"
+      ]
+    },
+    {
+      "name": "arched_bridge_stream_crossing",
+      "description": "Isolate the small arched bridge and stream crossing below the village, including the rail-like bridge strokes, shallow watercourse, scattered stones, and lightly washed path edges.",
+      "bbox": [
+        0.213,
+        0.581,
+        0.302,
+        0.067
+      ],
+      "role": "bridge and stream crossing",
+      "must_preserve": [
+        "delicate bridge outline and simple rail posts",
+        "curving stream-edge lines",
+        "small dark stepping stones and ground marks",
+        "pale wash suggesting the open path around the crossing"
+      ]
+    },
+    {
+      "name": "foreground_riverbank_grove",
+      "description": "Isolate the foreground central-right riverbank grove with tall leafy trees, bamboo-like foliage, slim trunks, pine needles at the right edge, and the rocky bank beneath them.",
+      "bbox": [
+        0.302,
+        0.698,
+        0.684,
+        0.234
+      ],
+      "role": "foreground trees and riverbank",
+      "must_preserve": [
+        "fine leaf clusters and bamboo-like narrow leaves",
+        "dark ink accents in the tree crowns",
+        "slender trunks and branching structure",
+        "needle strokes on the right-side pine",
+        "rounded shoreline rocks with layered contour texture and stippled moss"
+      ]
+    },
+    {
+      "name": "lone_boatman_skiff",
+      "description": "Isolate the small boat at lower left on open water, including the seated boatman, woven canopy or cargo texture, pointed hull, paddle shape, and faint surrounding ripples.",
+      "bbox": [
+        0.112,
+        0.808,
+        0.205,
+        0.058
+      ],
+      "role": "boat with figure",
+      "must_preserve": [
+        "curved pointed skiff outline",
+        "tiny seated boatman silhouette and hat-like head form",
+        "crosshatched woven texture inside the boat",
+        "slender paddle or pole line",
+        "faint ink ripple arcs around the hull"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 08 NPM.jpg",
+  "created_at": "2026-09-03T19:36:42.373418+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

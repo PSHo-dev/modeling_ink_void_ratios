@@ -1,0 +1,155 @@
+{
+  "source_summary": "Horizontal Chinese landscape handscroll with misty lake, distant blue-green mountains, small boats, flying birds, and a dense right-side rocky shore with expressive trees. Calligraphy, seals, borders, and paper tone are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "left_wooded_peak_ridges",
+      "description": "Isolate the left cluster of rounded blue-green mountains: the high wooded peak, sloping ridgelines, lower haze-softened hills, and dotted vegetation along crests. Exclude overlying inscriptions and seals.",
+      "bbox": [
+        0.0,
+        0.08,
+        0.36,
+        0.47
+      ],
+      "role": "distant mountain and hillside mass",
+      "must_preserve": [
+        "soft blue-green wash gradients",
+        "rounded ridge silhouettes",
+        "dark dotted tree texture on crests",
+        "layered contour linework",
+        "misty lower edges fading into the lake"
+      ]
+    },
+    {
+      "name": "central_distant_blue_peaks",
+      "description": "Isolate the low, receding chain of distant blue peaks across the upper middle distance, including the pale washes and subtly overlapping silhouettes. Exclude calligraphy above.",
+      "bbox": [
+        0.31,
+        0.25,
+        0.32,
+        0.18
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "pale mineral-blue wash",
+        "soft overlapping peak profiles",
+        "faint ink contour lines",
+        "atmospheric fading into mist",
+        "thin horizontal haze bands"
+      ]
+    },
+    {
+      "name": "left_shore_sampans_reeds",
+      "description": "Isolate the small left shoreline scene with clustered dark sampans, low reed banks, sparse trees, and the narrow strip of water beside them. Do not include nearby seals or upper mountains.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.13,
+        0.25
+      ],
+      "role": "shoreline village/boat cluster",
+      "must_preserve": [
+        "tiny dark boat hulls",
+        "short vertical reed strokes",
+        "small tree trunks and foliage dots",
+        "low green bank wash",
+        "fine shoreline linework"
+      ]
+    },
+    {
+      "name": "misty_lake_with_flying_birds",
+      "description": "Isolate the open misty lake surface with scattered flying birds and faint horizontal water bands. Keep it as an atmospheric water-and-sky passage without including boats or shore clusters.",
+      "bbox": [
+        0.12,
+        0.42,
+        0.32,
+        0.36
+      ],
+      "role": "mist and water surface",
+      "must_preserve": [
+        "pale empty wash transitions",
+        "thin horizontal water lines",
+        "small white and dark bird marks",
+        "soft foggy edges",
+        "subtle greenish-gray tonal shifts"
+      ]
+    },
+    {
+      "name": "central_canopy_boat_scholars",
+      "description": "Isolate the central curved boat with two scholar figures, arched canopy, bundled cargo, oars, and upturned prow and stern. Exclude surrounding empty lake except the immediate boat wash shadow.",
+      "bbox": [
+        0.44,
+        0.66,
+        0.16,
+        0.2
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "fine ink hull outline",
+        "upturned prow and stern geometry",
+        "arched woven canopy texture",
+        "seated scholar robes and heads",
+        "oars and small deck details",
+        "warm tan and blue-green color accents"
+      ]
+    },
+    {
+      "name": "midright_gnarled_vine_tree",
+      "description": "Isolate the mid-right gnarled, low spreading tree with bare twisting branches, hanging reddish vines or leaves, and small adjacent foliage clumps. Avoid merging it with the taller tree grove to the right.",
+      "bbox": [
+        0.62,
+        0.33,
+        0.16,
+        0.46
+      ],
+      "role": "foreground/midground tree motif",
+      "must_preserve": [
+        "twisted dark branch calligraphy",
+        "drooping red-brown hanging leaf clusters",
+        "small blue-green foliage tufts",
+        "knotted trunk bends",
+        "delicate twig tips"
+      ]
+    },
+    {
+      "name": "right_tall_tree_grove",
+      "description": "Isolate the tall grove on the right: large dark-leaved tree, pale trunks, interlaced bare branches, and surrounding smaller trees rising from the slope. Exclude seals and unrelated right-edge inscriptions.",
+      "bbox": [
+        0.74,
+        0.02,
+        0.18,
+        0.8
+      ],
+      "role": "dominant foreground tree grove",
+      "must_preserve": [
+        "bold black branch structure",
+        "dense dark foliage dabs",
+        "pale twisting trunk highlights",
+        "fine bare twig network",
+        "reddish leaf accents on smaller trees",
+        "layered green hillside wash behind trunks"
+      ]
+    },
+    {
+      "name": "right_foreground_rocky_bank_shrubs",
+      "description": "Isolate the rocky foreground bank along the lower right, including angular boulders, dark shrub masses, grasses, and the sloped shoreline base beneath the trees. Avoid including the upper tree crowns.",
+      "bbox": [
+        0.57,
+        0.75,
+        0.37,
+        0.24
+      ],
+      "role": "foreground rocks and vegetation",
+      "must_preserve": [
+        "angular ink rock outlines",
+        "textured blue-green and ocher washes",
+        "dark mossy shrub dots",
+        "grass and reed strokes",
+        "broken contour lines on the bank",
+        "soft transition into misty water"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 12 NPM.jpg",
+  "created_at": "2026-09-03T19:44:03.057788+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

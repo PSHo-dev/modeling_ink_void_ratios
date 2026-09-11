@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink landscape with a shaded garden pavilion at left, dense foreground trees and central willows, a rocky bank with a small figure, and an open lake receding to distant low hills on the right. Calligraphy and margins are excluded.",
+  "motifs": [
+    {
+      "name": "left_foreground_tree_grove",
+      "description": "Isolate the dense grove at the far left foreground: gnarled leaning trunks, dark clustered foliage, bare upper branches, hanging willow-like strands, low shrubs, and the small rocky earth base beneath the trees. Exclude the pavilion, fence, and neighboring central willow mass.",
+      "bbox": [
+        0,
+        0.213,
+        0.247,
+        0.683
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "dark stippled leaf clusters",
+        "twisting trunk contours",
+        "dry angular branch linework",
+        "thin hanging foliage strokes",
+        "ink-wash ground mounds and small rock dots"
+      ]
+    },
+    {
+      "name": "pavilion_with_reclining_scholar",
+      "description": "Isolate the open garden pavilion and enclosure: sloping roof or awning, upright posts, interior couch with a reclining scholar, and the angled lattice fence below. Avoid surrounding tree canopies except where they directly overlap the pavilion silhouette.",
+      "bbox": [
+        0.211,
+        0.449,
+        0.18,
+        0.281
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "precise roof geometry and eave lines",
+        "straight post and beam linework",
+        "reclining scholar outline and robe strokes",
+        "diagonal lattice fence pattern",
+        "light interior wash and platform edges"
+      ]
+    },
+    {
+      "name": "central_willow_tree_mass",
+      "description": "Isolate the large central willow cluster rising from the middle bank, with multiple intertwined trunks and heavy curtains of drooping leaves. Exclude pavilion details, foreground rocks, and distant shore where possible.",
+      "bbox": [
+        0.319,
+        0.125,
+        0.307,
+        0.645
+      ],
+      "role": "dominant central tree motif",
+      "must_preserve": [
+        "interlaced dark trunk strokes",
+        "long pendant willow-leaf lines",
+        "dense black ink accents",
+        "layered gray wash behind leaf masses",
+        "root flare and lower trunk texture"
+      ]
+    },
+    {
+      "name": "background_grove_mist_screen",
+      "description": "Isolate the pale rear screen of trees behind and around the central willows: soft vertical tree masses, gray ink washes, blurred foliage tops, and misty openings between trunks. Do not include calligraphy or foreground pavilion details.",
+      "bbox": [
+        0.381,
+        0.125,
+        0.392,
+        0.438
+      ],
+      "role": "misty background grove",
+      "must_preserve": [
+        "soft gray wash texture",
+        "vertical hanging foliage strokes",
+        "broken mist edges",
+        "faint clustered tree silhouettes",
+        "subtle tonal layering behind darker trees"
+      ]
+    },
+    {
+      "name": "foreground_rocky_bank_with_figure",
+      "description": "Isolate the lower foreground bank stretching from left to center, including layered shoreline rocks, sloping earth strokes, scattered ink dots, stepping path marks, and the small standing scholar figure near the pavilion path.",
+      "bbox": [
+        0,
+        0.693,
+        0.515,
+        0.296
+      ],
+      "role": "foreground rocky bank with figure",
+      "must_preserve": [
+        "small standing figure posture and robe lines",
+        "layered horizontal rock texture",
+        "dry brush contour strokes",
+        "scattered pebble and vegetation dots",
+        "pale wash transitions along the bank edge"
+      ]
+    },
+    {
+      "name": "midground_peninsula_willow_rocks",
+      "description": "Isolate the midground peninsula projecting into the water, including the leaning willow trunk at the water edge, low shrubs, curved shoreline, exposed rocks, and rippled ink-wash landforms.",
+      "bbox": [
+        0.476,
+        0.438,
+        0.308,
+        0.337
+      ],
+      "role": "midground peninsula",
+      "must_preserve": [
+        "curving shoreline contour",
+        "leaning tree trunk and drooping branch strokes",
+        "low dark shrub marks",
+        "rock outlines and layered washes",
+        "thin water-edge lines"
+      ]
+    },
+    {
+      "name": "right_lake_surface_islets",
+      "description": "Isolate the open lake surface on the right and lower right, with sparse horizontal water lines, pale wash bands, small isolated rocks or islets, and quiet negative space. Exclude distant hills if separable.",
+      "bbox": [
+        0.561,
+        0.552,
+        0.436,
+        0.419
+      ],
+      "role": "water surface with small islets",
+      "must_preserve": [
+        "delicate horizontal water strokes",
+        "small oval islet outlines",
+        "soft gray wash gradients",
+        "minimal ink marks suggesting distance",
+        "unpainted open-water spacing"
+      ]
+    },
+    {
+      "name": "distant_right_hills_flats",
+      "description": "Isolate the distant right horizon: low rounded hills, flat sandbars, thin shoreline bands, tiny vegetation dots, and the pale far mountain form at the extreme right. Exclude the calligraphy above.",
+      "bbox": [
+        0.701,
+        0.438,
+        0.298,
+        0.177
+      ],
+      "role": "distant hills and shoreline",
+      "must_preserve": [
+        "low undulating hill silhouettes",
+        "thin horizontal shoreline lines",
+        "tiny clustered ink dots",
+        "pale mountain wash at far right",
+        "soft receding atmospheric edges"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 08 NPM.png",
+  "created_at": "2026-09-03T20:45:08.773393+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

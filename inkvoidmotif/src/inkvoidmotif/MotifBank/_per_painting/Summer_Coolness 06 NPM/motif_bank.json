@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 06 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:38:29.552691+00:00",
+  "motifs": [
+    {
+      "name": "distant_blue_mountain_ridge",
+      "description": "Soft blue-green distant mountain ridge and low hazy shoreline behind the lake, isolated without the overlaid seal or inscription areas.",
+      "bbox": [
+        0.11,
+        0.35,
+        0.38,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale blue-green wash gradients",
+        "soft mist-faded mountain edges",
+        "thin contour line along ridge crests",
+        "low horizontal shoreline scrub texture",
+        "subtle blank mist gap between land and water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_blue_mountain_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_willow_grove",
+      "description": "Cluster of drooping willow trees on the left bank, including trunks, fine hanging branches, and nearby small dotted shrubs, isolated from the boat and distant mountains.",
+      "bbox": [
+        0.1,
+        0.4,
+        0.34,
+        0.57
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "arched willow branch linework",
+        "long hairlike drooping leaves",
+        "dark knotted trunks and branch forks",
+        "black ink dot foliage at the bank",
+        "green-gray wash around roots and shoreline"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "covered_scholar_boat",
+      "description": "Roofed pleasure boat or floating pavilion with three scholar figures seated inside, including the railings, roof, hull, and reflection-like vertical strokes below.",
+      "bbox": [
+        0.33,
+        0.66,
+        0.16,
+        0.29
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "slanted tiled roof geometry with parallel ink strokes",
+        "thin wooden posts and railings",
+        "three small seated scholar figures with robe color accents",
+        "layered brown hull lines",
+        "vertical ink strokes beneath the boat suggesting reflection or supports"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_covered_scholar_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lotus_pond_surface",
+      "description": "Open lotus pond surface to the right and foreground of the boat, with scattered lily pads, lotus blossoms, stems, and light water wash, excluding seals and built structures.",
+      "bbox": [
+        0.48,
+        0.7,
+        0.44,
+        0.29
+      ],
+      "role": "water and lotus surface",
+      "must_preserve": [
+        "irregular green lotus pad shapes",
+        "small pink-red lotus flower accents",
+        "fine vertical stems beneath some pads",
+        "light gray-green water wash",
+        "varied spacing of pads creating depth across the pond"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_lotus_pond_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hillside_pavilion_group",
+      "description": "Two connected pavilion buildings on the mid-right hillside, including tiled roofs, walls, posts, open bays, and simple furniture inside, isolated from surrounding trees and rocks.",
+      "bbox": [
+        0.59,
+        0.4,
+        0.24,
+        0.25
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "two-tier roof arrangement with crisp eaves",
+        "parallel roof tile hatching",
+        "vertical wooden posts and wall panels",
+        "open interior bay with small benches or tables",
+        "warm brown structural linework and pale wall wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_hillside_pavilion_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rockery_and_shrubs",
+      "description": "Tall tan rockery behind the pavilion area with surrounding dark shrub clusters and low vegetation, isolated from the red seal and neighboring roofs.",
+      "bbox": [
+        0.58,
+        0.14,
+        0.13,
+        0.35
+      ],
+      "role": "garden rocks",
+      "must_preserve": [
+        "upright irregular scholar-rock silhouettes",
+        "tan and gray wash texture on rock faces",
+        "dark stippled moss and shrub dots around rock bases",
+        "uneven contour lines and crevices",
+        "small black foliage clusters crowning the stones"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_rockery_and_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_pine_bamboo_grove",
+      "description": "Dense upper-right tree grove with broad dark pine-like canopy, visible trunks, and bamboo-like foliage behind, isolated from the right-side inscribed rock and pavilion roofs.",
+      "bbox": [
+        0.71,
+        0,
+        0.22,
+        0.48
+      ],
+      "role": "background grove",
+      "must_preserve": [
+        "layered dark ink canopy masses",
+        "short broken brush dabs forming leaf clusters",
+        "slender vertical and branching trunks",
+        "pale green-gray wash under foliage",
+        "fine bamboo leaf strokes in the background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_upper_right_pine_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "curving_shrub_embankment",
+      "description": "Curving planted embankment separating pavilion hillside from the lotus pond, with dotted shrubs, low rocks, and grassy washes, isolated from the boat and buildings.",
+      "bbox": [
+        0.38,
+        0.51,
+        0.35,
+        0.22
+      ],
+      "role": "middle-ground shoreline",
+      "must_preserve": [
+        "black stippled shrub clusters following the bank curve",
+        "small gray-green rock forms",
+        "thin contour lines defining the slope edge",
+        "soft olive and beige wash transitions",
+        "irregular natural spacing of dots and tufts"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_curving_shrub_embankment.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

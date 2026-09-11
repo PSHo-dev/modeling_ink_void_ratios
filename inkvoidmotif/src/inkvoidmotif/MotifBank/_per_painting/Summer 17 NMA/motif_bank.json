@@ -1,0 +1,158 @@
+{
+  "source": "../../../../../../Input_Images/Summer 17 NMA.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:58:25.402342+00:00",
+  "motifs": [
+    {
+      "name": "left_layered_mountain_wall",
+      "description": "Isolate the far-left stacked mountain wall: a tall dark ochre-gray crag behind lower green slopes, with soft rounded silhouettes and faint interior contour lines.",
+      "bbox": [
+        0,
+        0.06,
+        0.26,
+        0.205
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ink-and-mineral wash transitions",
+        "rounded peak silhouette",
+        "faint vertical and diagonal rock contour linework",
+        "muted green and brown color layering",
+        "misty unfinished edges where peaks fade into the background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_layered_mountain_wall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_blue_green_peaks",
+      "description": "Isolate the central cluster of steep peaks, including the blue-green vertical peak, rounded green summit, and muted rear cliffs tucked behind it.",
+      "bbox": [
+        0.235,
+        0.11,
+        0.205,
+        0.23
+      ],
+      "role": "mountain cluster",
+      "must_preserve": [
+        "blue-green mineral wash on the central peak",
+        "thin dark ridge outlines",
+        "vertical rock striations",
+        "layered rear cliff silhouettes",
+        "soft wash texture and transparent overlaps"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_blue_green_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rolling_hill_chain",
+      "description": "Isolate the long rightward chain of rolling hills and distant peaks, beginning with the broad green slope and continuing to the brown-gray mountains at the far right.",
+      "bbox": [
+        0.43,
+        0.21,
+        0.545,
+        0.31
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "low undulating ridge profile",
+        "pale green wash on the foreground hill",
+        "brown-gray distant mountain wash",
+        "delicate contour strokes on slopes",
+        "soft atmospheric edges between hill layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_rolling_hill_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hillside_pine_stand",
+      "description": "Isolate the compact stand of small pines on the left hillside, set against the pale green slope without including the larger surrounding mountains.",
+      "bbox": [
+        0.132,
+        0.228,
+        0.085,
+        0.075
+      ],
+      "role": "hillside trees",
+      "must_preserve": [
+        "dense stacked pine-needle strokes",
+        "slender dark trunks",
+        "individual clustered crowns",
+        "subtle green-black ink tone variation",
+        "small scale relative to the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_hillside_pine_stand.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_willow_poplar_grove",
+      "description": "Isolate the broad middle band of tall, fine-branched trees with gnarled trunks and greenish foliage rising in front of the hillside.",
+      "bbox": [
+        0,
+        0.32,
+        0.675,
+        0.385
+      ],
+      "role": "middle-ground forest",
+      "must_preserve": [
+        "dense interlaced twig and branch linework",
+        "gnarled dark trunk bases",
+        "pale green leaf and wash texture",
+        "repeated vertical tree rhythm",
+        "small shrubs and low vegetation at the forest floor"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_middle_willow_poplar_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "roadside_traveler_procession",
+      "description": "Isolate the lower-left to central roadside procession of small travelers, vendors, pack baskets, animals, and a mounted rider moving along the path.",
+      "bbox": [
+        0.105,
+        0.705,
+        0.345,
+        0.19
+      ],
+      "role": "figures and road activity",
+      "must_preserve": [
+        "delicate figure outlines and facial/hat details",
+        "red and blue garment color accents",
+        "basket and pole geometry",
+        "horse and small animal linework",
+        "thin path lines and spacing between traveler groups"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_roadside_traveler_procession.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bridge_pine_crossing",
+      "description": "Isolate the lower-right arched bridge area with railings, steps, nearby walking figures, and the large gnarled pines framing the crossing.",
+      "bbox": [
+        0.592,
+        0.633,
+        0.296,
+        0.32
+      ],
+      "role": "bridge and foreground trees",
+      "must_preserve": [
+        "arched bridge curve and railing geometry",
+        "stair and support linework",
+        "large twisting pine trunks",
+        "fine radiating pine needles",
+        "rocky root base texture",
+        "small walking figures beside the bridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_arched_bridge_pine_crossing.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

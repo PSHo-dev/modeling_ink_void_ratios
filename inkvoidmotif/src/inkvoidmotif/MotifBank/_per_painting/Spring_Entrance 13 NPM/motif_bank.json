@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 13 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:13:49.362278+00:00",
+  "motifs": [
+    {
+      "name": "misty_left_cliffs",
+      "description": "Isolate the pale distant cliff group at the upper left of the painted landscape: one tall vertical slab-like cliff on the far left and a softer rounded peak just to its right, both fading into blank mist.",
+      "bbox": [
+        0.0,
+        0.18,
+        0.23,
+        0.19
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "very light gray wash silhouettes",
+        "soft evaporating mist edges",
+        "tall flat-sided cliff contour",
+        "small rounded peak with faint ink pooling",
+        "unpainted negative space between forms"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_left_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "large_left_mountain_mass",
+      "description": "Isolate the dominant dark mountain mass left of center, rising from fog with a rounded summit and broad sloping shoulders.",
+      "bbox": [
+        0.12,
+        0.2,
+        0.39,
+        0.3
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "dark clustered texture strokes along crest",
+        "granular ink wash on summit",
+        "vertical wash streaks descending the face",
+        "soft lower edge dissolving into mist",
+        "subtle darker ridge line on the right slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_large_left_mountain_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_sharp_peak_cluster",
+      "description": "Isolate the central group of steep, narrow peaks: the tall dark triangular foreground peak with adjacent smaller spires and pale recessive ridges behind it.",
+      "bbox": [
+        0.31,
+        0.27,
+        0.34,
+        0.25
+      ],
+      "role": "mountain cluster",
+      "must_preserve": [
+        "sharp triangular peak geometry",
+        "dark stippled ridge accents",
+        "layered pale background peaks",
+        "vertical ink streaks on slopes",
+        "mist-softened bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_sharp_peak_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_receding_mountains",
+      "description": "Isolate the right-side receding mountain range, including several pale steep peaks and the broad rounded mountain at the far right.",
+      "bbox": [
+        0.6,
+        0.25,
+        0.39,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale gray atmospheric wash",
+        "thin pointed peak silhouettes",
+        "broad rounded right mountain contour",
+        "feathered lower slopes fading into blank paper",
+        "subtle ink density variations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_receding_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_cloud_band",
+      "description": "Isolate the horizontal mist and low cloud band below the mountains, with irregular soft-edged ink pools and blank channels suggesting water or vapor.",
+      "bbox": [
+        0.0,
+        0.47,
+        0.79,
+        0.12
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "irregular scalloped cloud edges",
+        "soft gray wash blooms",
+        "blank negative spaces between cloud forms",
+        "low horizontal drift across the composition",
+        "slightly darker pooled ink at center"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_mist_cloud_band.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_tree_grove",
+      "description": "Isolate the dense grove at lower left with clustered dark foliage, thin trunks, and layered low banks around it.",
+      "bbox": [
+        0.0,
+        0.58,
+        0.35,
+        0.18
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "dark wet foliage dabs",
+        "slender vertical tree trunks",
+        "branch linework visible through wash",
+        "horizontal ground-bank strokes",
+        "varied ink density from black accents to pale wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_left_foreground_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_river_plain_trees",
+      "description": "Isolate the middle river plain with open pale water or sand bands, small tree groups, and low horizontal embankments across the center.",
+      "bbox": [
+        0.22,
+        0.53,
+        0.55,
+        0.2
+      ],
+      "role": "water plain",
+      "must_preserve": [
+        "alternating blank horizontal water channels",
+        "soft gray embankment washes",
+        "small clustered trees with thin trunks",
+        "dark central foliage accents",
+        "long dry-brush horizontal strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_middle_river_plain_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_foreground_pavilion_grove",
+      "description": "Isolate the lower-right foreground hillside containing a small pavilion or hut under a dense tree grove, with sloping bank and surrounding shrubs.",
+      "bbox": [
+        0.48,
+        0.73,
+        0.51,
+        0.18
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "small angular roof with simple linear eaves",
+        "vertical support posts beneath roof",
+        "dense dark foliage canopy above and beside pavilion",
+        "slender tree trunks and branch strokes",
+        "sloped foreground bank with parallel dry-brush texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_foreground_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

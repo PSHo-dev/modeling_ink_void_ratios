@@ -1,0 +1,138 @@
+{
+  "source": "../../../../../../Input_Images/Winter Cold 11 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:58:26.711382+00:00",
+  "motifs": [
+    {
+      "name": "right_shrubbed_cliff_face",
+      "description": "Tall right-side cliff mass descending from the upper mountains, with layered rock planes, streaked washes, clustered ink-dot shrubs, and jagged contour accents; isolate the cliff texture and vegetation from the foreground pine branches crossing nearby.",
+      "bbox": [
+        0.43,
+        0.13,
+        0.48,
+        0.4
+      ],
+      "role": "middle-distance cliff",
+      "must_preserve": [
+        "angular cliff contour linework",
+        "vertical wash streaks",
+        "ink-dot shrub clusters",
+        "dry-brush rock texture",
+        "soft misty breaks between rock planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_shrubbed_cliff_face.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_gorge_cliff",
+      "description": "Pale left-side gorge wall and narrow ravine-like mountain form, with washed vertical cliff edges, sparse dotted foliage, and faint descending rock planes; exclude the central pine trunk and calligraphy area.",
+      "bbox": [
+        0.0,
+        0.29,
+        0.36,
+        0.42
+      ],
+      "role": "side cliff and misty gorge",
+      "must_preserve": [
+        "light gray cliff washes",
+        "thin vertical contour lines",
+        "scattered dark foliage dots",
+        "misty void separating cliff faces",
+        "subtle layered rock silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_misty_gorge_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "gnarled_foreground_pines",
+      "description": "Large foreground pine group with twisting trunks, exposed knots, broken angular branches, and dense needle clusters spanning the center of the painting; isolate all visible pine trunks, limbs, bark dots, and needle sprays while leaving background cliffs behind.",
+      "bbox": [
+        0.02,
+        0.32,
+        0.86,
+        0.46
+      ],
+      "role": "foreground pine group",
+      "must_preserve": [
+        "gnarled twisting trunk silhouettes",
+        "dark bark stippling along trunk edges",
+        "sharp angular branch linework",
+        "radiating pine needle clusters",
+        "irregular knots and broken limb tips",
+        "contrast between dark ink strokes and pale trunk wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_gnarled_foreground_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_slender_bamboo_grove",
+      "description": "Narrow grove of thin vertical bamboo or reed-like stalks on the right middle slope, with fine parallel stems, small leafy marks, and pale wash behind them; isolate the grove only, not the adjacent pine branch or cliff.",
+      "bbox": [
+        0.86,
+        0.4,
+        0.11,
+        0.25
+      ],
+      "role": "bamboo or reed grove",
+      "must_preserve": [
+        "fine vertical stalk lines",
+        "tiny clustered leaf strokes",
+        "light gray background wash",
+        "delicate uneven stem spacing",
+        "tapered upper foliage tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_slender_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_lower_bamboo_grove",
+      "description": "Lower-left grove of slender bamboo or reeds rising beside the rock slope, including clustered vertical stems, sparse leafy tops, and darker dotted foliage at the base; exclude the surrounding rock ledge except where stems touch it.",
+      "bbox": [
+        0.05,
+        0.65,
+        0.27,
+        0.22
+      ],
+      "role": "foreground bamboo or reeds",
+      "must_preserve": [
+        "thin upright stem linework",
+        "small leaf clusters and twig marks",
+        "dense dark dots near the base",
+        "pale wash silhouettes behind stems",
+        "irregular grove height variation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_left_lower_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_ledge",
+      "description": "Broad angular foreground rock terrace beneath the pines, with faceted stone planes, dark ink outlines, dry-brush striations, pale gray washes, and small shrub dots along crevices; isolate the ledge and attached root area, not the pine foliage above.",
+      "bbox": [
+        0.26,
+        0.72,
+        0.66,
+        0.21
+      ],
+      "role": "foreground rock ledge",
+      "must_preserve": [
+        "bold angular rock contours",
+        "layered gray wash planes",
+        "dry-brush diagonal striations",
+        "dark crevice accents",
+        "small dotted shrubs and moss marks",
+        "root-like lines where pine meets rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_rocky_ledge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

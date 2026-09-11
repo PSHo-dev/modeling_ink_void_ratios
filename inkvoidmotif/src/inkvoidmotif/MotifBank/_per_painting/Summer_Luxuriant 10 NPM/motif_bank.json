@@ -1,0 +1,155 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:12:32.802476+00:00",
+  "motifs": [
+    {
+      "name": "left_misty_peak",
+      "description": "Isolate the soft triangular distant hill on the left-middle with pale ink washes, blurred ridge edges, and the surrounding light misty valley forms below and to its right; exclude nearby red seals and inscriptions.",
+      "bbox": [
+        0.13,
+        0.29,
+        0.32,
+        0.27
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft graded ink wash on the hill mass",
+        "irregular dry-brush ridge contour",
+        "small horizontal pale gaps suggesting mist or terraces",
+        "faint valley washes fading into blank space"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_misty_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_water_passage",
+      "description": "Isolate the pale horizontal opening between the left hill and central rocks, reading as mist or water receding into the landscape, with faint banks and soft broken washes.",
+      "bbox": [
+        0.28,
+        0.36,
+        0.22,
+        0.21
+      ],
+      "role": "misty water passage",
+      "must_preserve": [
+        "unpainted negative space forming the mist channel",
+        "faint grey washes along both banks",
+        "broken horizontal strokes suggesting water or haze",
+        "soft feathered edges where hills dissolve into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_mist_water_passage.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rocky_cliff_pines",
+      "description": "Isolate the central vertical rocky cliff group with stacked ledges and dark pine-like foliage clinging to the left and top edges, excluding the red seal above and unrelated foreground trees below.",
+      "bbox": [
+        0.45,
+        0.24,
+        0.21,
+        0.43
+      ],
+      "role": "central rocky mountain cliff",
+      "must_preserve": [
+        "vertical dry-brush rock texture",
+        "dark horizontal pine clusters on ledges",
+        "layered ink washes defining cliff faces",
+        "broken contour lines and pale interior highlights"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_rocky_cliff_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_main_mountain",
+      "description": "Isolate the large upper-right mountain peak and adjoining distant ridge, with dark crown foliage, pale diagonal ravines, mist bands, and soft receding hills; exclude the nearby circular red seal.",
+      "bbox": [
+        0.69,
+        0.08,
+        0.29,
+        0.31
+      ],
+      "role": "dominant background mountain",
+      "must_preserve": [
+        "dark stippled brushwork across the summit",
+        "pale diagonal ravine washes",
+        "soft cloud-like mist bands crossing the slopes",
+        "faded distant ridge on the far right",
+        "granular ink texture along the mountain contour"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_upper_right_main_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_right_layered_hillside",
+      "description": "Isolate the middle-right sloping hillside beneath the main mountain, including layered terraces, scattered dark shrub marks, and the pale sweeping bank descending toward the right.",
+      "bbox": [
+        0.58,
+        0.32,
+        0.39,
+        0.27
+      ],
+      "role": "midground hillside",
+      "must_preserve": [
+        "long curved terrace lines",
+        "light grey wash planes between ledges",
+        "dark clustered shrub dots and short strokes",
+        "softly broken ridge edges",
+        "subtle color warmth in the pale earth wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_mid_right_layered_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_foreground_grove_rocks",
+      "description": "Isolate the dense central foreground thicket with multiple pale trunks, dark foliage masses, and interlocking rocks and ground washes across the base.",
+      "bbox": [
+        0.31,
+        0.53,
+        0.27,
+        0.39
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "overlapping pale tree trunks with dark outlines",
+        "irregular black-green foliage clusters",
+        "dry-brush texture on roots and rocks",
+        "low horizontal ground washes",
+        "branch tips extending upward into open mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_central_foreground_grove_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_waterside_pavilion",
+      "description": "Isolate the small pavilion at the lower right beside water, together with its adjacent trees, sloped bank, and reflected/stepped structural lines below the roof.",
+      "bbox": [
+        0.62,
+        0.72,
+        0.28,
+        0.22
+      ],
+      "role": "waterside pavilion group",
+      "must_preserve": [
+        "simple angular roof geometry",
+        "thin vertical support posts",
+        "dark tree canopies framing the pavilion",
+        "sloping shoreline wash",
+        "delicate linear marks suggesting reflection or railing",
+        "pale open water around the structure"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_waterside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

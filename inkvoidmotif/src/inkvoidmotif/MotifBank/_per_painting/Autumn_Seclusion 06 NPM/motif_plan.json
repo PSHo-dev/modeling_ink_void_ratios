@@ -1,0 +1,162 @@
+{
+  "source_summary": "Chinese landscape painting with misty mountains, lakeside settlements, wooded rocky banks, boats, scholars, and foreground pavilions. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "central_misty_mountain_range",
+      "description": "Isolate the large central background mountain range: overlapping steep peaks rising from horizontal mist, with pale ink-and-color washes, darker contour strokes, wrinkled rock texture, dotted vegetation on ridges, and soft atmospheric edges at the base.",
+      "bbox": [
+        0.28,
+        0.09,
+        0.58,
+        0.33
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "layered peak silhouettes",
+        "soft ocher-gray washes",
+        "dark broken contour linework",
+        "cun-style rock texture strokes",
+        "peppered vegetation dots along crests",
+        "horizontal mist bands separating mountain bases"
+      ]
+    },
+    {
+      "name": "left_distant_hills_in_mist",
+      "description": "Isolate the pale distant hills at the upper-left landscape area, including low triangular and rounded mountain forms emerging through haze behind the nearer shore.",
+      "bbox": [
+        0.0,
+        0.17,
+        0.3,
+        0.14
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "faint blue-gray hill outlines",
+        "soft dissolved mist edges",
+        "minimal wash gradients",
+        "subtle layered recession",
+        "low horizontal haze band"
+      ]
+    },
+    {
+      "name": "left_foreground_rocky_wooded_slope",
+      "description": "Isolate the left foreground rocky hillside descending toward the lake, with exposed striated rocks, clustered dark shrubs, slender trunks, conifers, and autumn-colored foliage on the slope.",
+      "bbox": [
+        0.0,
+        0.28,
+        0.34,
+        0.36
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "angular rock contour lines",
+        "dry-brush crevice texture",
+        "dark clustered foliage dots",
+        "slender tree trunks following the slope",
+        "green and russet color accents",
+        "mist-softened transition to water at the right edge"
+      ]
+    },
+    {
+      "name": "scholars_beneath_autumn_trees",
+      "description": "Isolate the lower-left scholar gathering beneath tall autumn trees: two robed figures seated or standing on a small rocky terrace, framed by vertical trunks, red-brown foliage, and nearby stones.",
+      "bbox": [
+        0.16,
+        0.66,
+        0.23,
+        0.25
+      ],
+      "role": "figure group",
+      "must_preserve": [
+        "tiny pale scholar robes",
+        "delicate black head and sleeve linework",
+        "vertical tree trunks with textured bark",
+        "red autumn leaf clusters",
+        "small terrace rocks and grasses",
+        "quiet negative space around the figures"
+      ]
+    },
+    {
+      "name": "lakeside_village_pine_grove",
+      "description": "Isolate the mid-distance lakeside village and pine grove on the far shore: low roofed houses and pavilions nestled among many straight trees, with a narrow bank and calm water in front.",
+      "bbox": [
+        0.41,
+        0.35,
+        0.45,
+        0.11
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "small pitched roof geometry",
+        "thin architectural linework",
+        "dense vertical pine trunks",
+        "dark needle clusters",
+        "low shoreline contour",
+        "muted green-brown washes",
+        "tiny reflections and water-edge strokes"
+      ]
+    },
+    {
+      "name": "midriver_covered_boat",
+      "description": "Isolate the small covered boat floating near the middle of the lake, including its long hull, low cabin canopy, stern shape, and faint ripples beneath it.",
+      "bbox": [
+        0.55,
+        0.5,
+        0.13,
+        0.04
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "slender curved hull",
+        "rectangular cabin cover",
+        "fine black boat outline",
+        "small prow and stern details",
+        "pale wash inside the boat",
+        "light horizontal ripple strokes"
+      ]
+    },
+    {
+      "name": "right_foreground_pavilion_willow_shore",
+      "description": "Isolate the right foreground shore with a small roofed pavilion tucked under dense trees and willow branches, plus the adjacent rocks, bank, and shallow waterline.",
+      "bbox": [
+        0.67,
+        0.56,
+        0.32,
+        0.22
+      ],
+      "role": "foreground pavilion",
+      "must_preserve": [
+        "low pavilion roof planes",
+        "fine post and wall linework",
+        "overhanging willow fronds",
+        "dense leafy tree texture",
+        "shoreline rocks with ink outlines",
+        "soft green-brown mound washes",
+        "reeds and grasses along the water"
+      ]
+    },
+    {
+      "name": "lower_right_boat_with_figures",
+      "description": "Isolate the lower-right boat scene: a narrow boat close to shore carrying small figures, with pale sails or cloth shapes, bank grasses, nearby rocks, and shallow water strokes.",
+      "bbox": [
+        0.61,
+        0.78,
+        0.25,
+        0.08
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "long dark curved hull",
+        "tiny seated figure marks",
+        "pale triangular cloth or sail accents",
+        "subtle oar or pole lines",
+        "shore grasses and reed strokes",
+        "low rock forms beside the water",
+        "soft horizontal water wash"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 06 NPM.jpg",
+  "created_at": "2026-09-03T19:31:48.847988+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

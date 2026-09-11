@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall vertical Chinese landscape painting with inscriptions and seals in the upper paper area; reusable motifs are drawn only from the landscape imagery and exclude calligraphy, seals, labels, borders, and paper texture.",
+  "motifs": [
+    {
+      "name": "left_distant_needle_peaks",
+      "description": "Pale, narrow background mountain spires rising behind the main left massif, including the tallest thin green-gray peak and adjacent angular peaks fading into mist.",
+      "bbox": [
+        0.012,
+        0.14,
+        0.17,
+        0.26
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin ink contour lines",
+        "soft pale green-gray wash",
+        "vertical tapering peak silhouettes",
+        "mist-softened lower edges",
+        "minimal interior rock texture"
+      ]
+    },
+    {
+      "name": "upper_central_crag",
+      "description": "Dominant upper rocky crag at center-left with rounded summit masses, ochre-green washes, dense moss dots, and layered cliff fissures.",
+      "bbox": [
+        0.145,
+        0.175,
+        0.34,
+        0.31
+      ],
+      "role": "mountain crag",
+      "must_preserve": [
+        "wrinkled rock linework",
+        "ochre and pale green mineral color accents",
+        "dense stippled vegetation along ridges",
+        "arched cliff recess shapes",
+        "vertical fracture lines and dry-brush texture"
+      ]
+    },
+    {
+      "name": "middle_cliff_wall",
+      "description": "Large central cliff wall and buttress below the upper crag, including the dark blue-green vertical rock face on the right and layered ledges across the middle.",
+      "bbox": [
+        0.13,
+        0.365,
+        0.47,
+        0.29
+      ],
+      "role": "hillside cliff",
+      "must_preserve": [
+        "stacked horizontal ledge strokes",
+        "dark blue-green wash on right cliff face",
+        "black moss-dot borders",
+        "angular rock planes",
+        "thin ochre outlines on ledges"
+      ]
+    },
+    {
+      "name": "left_waterfall_gorge",
+      "description": "Narrow waterfall and shaded gorge running down the left side of the mountain, with white cascading water between dark rock banks and sparse trees.",
+      "bbox": [
+        0.0,
+        0.365,
+        0.18,
+        0.53
+      ],
+      "role": "waterfall",
+      "must_preserve": [
+        "unpainted white water ribbons",
+        "dark ink outlines at waterfall edges",
+        "stepped cascade breaks",
+        "vertical gorge walls",
+        "small bare branches and shrubs beside the falls"
+      ]
+    },
+    {
+      "name": "foreground_pine_boulder",
+      "description": "Large foreground boulder crowned by spreading gnarled pines, with twisting tan trunks, dark needle clusters, hanging foliage, and surrounding rock forms.",
+      "bbox": [
+        0.15,
+        0.64,
+        0.58,
+        0.22
+      ],
+      "role": "foreground pine and rocks",
+      "must_preserve": [
+        "sinuous tan pine trunks",
+        "dense dark pine-needle clusters",
+        "fine dangling foliage strokes",
+        "rounded green boulder wash",
+        "cracked rock outlines and moss dots"
+      ]
+    },
+    {
+      "name": "scholar_stream_base",
+      "description": "Small seated scholar figure near the stream at the foot of the pine slope, with nearby white water, path-like ground, roots, and small rock edges.",
+      "bbox": [
+        0.095,
+        0.815,
+        0.25,
+        0.095
+      ],
+      "role": "figure by stream",
+      "must_preserve": [
+        "tiny red robe accent",
+        "simple seated scholar silhouette",
+        "white stream reserve shapes",
+        "root-like ink lines",
+        "small surrounding rock and bank contours"
+      ]
+    },
+    {
+      "name": "right_misty_mountains",
+      "description": "Layered distant mountains on the right, including pale green sloping hills, a darker rear peak, soft mist gaps, and tree-dot bands along the lower ridges.",
+      "bbox": [
+        0.7,
+        0.33,
+        0.3,
+        0.35
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "soft atmospheric washes",
+        "layered overlapping hill silhouettes",
+        "dark rear summit accent",
+        "mist-softened base transitions",
+        "fine tree-dot textures along ridgelines"
+      ]
+    },
+    {
+      "name": "lower_right_river_sandbar",
+      "description": "Open lower-right water surface with low ink shoreline, sandbar shapes, scattered dark ripples, and pale misty water wash.",
+      "bbox": [
+        0.61,
+        0.845,
+        0.39,
+        0.105
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "thin horizontal shoreline strokes",
+        "irregular sandbar contours",
+        "small dark ripple marks",
+        "soft pale wash gradation",
+        "open empty-water spacing"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Entrance 11 NPM.jpg",
+  "created_at": "2026-08-06T22:40:05.851100+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,159 @@
+{
+  "source": "../../../../../../Input_Images/Summer 28 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:44:29.548546+00:00",
+  "motifs": [
+    {
+      "name": "distant_mist_bridge",
+      "description": "Faint arched bridge emerging from pale mist at the far left edge, with light grey ink contour and two soft vertical supports fading into the water haze.",
+      "bbox": [
+        0.0,
+        0.35,
+        0.16,
+        0.12
+      ],
+      "role": "distant bridge and mist",
+      "must_preserve": [
+        "thin pale bridge outline",
+        "soft washed mist edge",
+        "faint vertical pier strokes",
+        "minimal tonal contrast"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_mist_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "speckled_lotus_water",
+      "description": "Open water surface along the left and lower portions, carrying scattered dark leaf-like dots, small blue-green washes, and pale blank water space around the shore.",
+      "bbox": [
+        0.0,
+        0.39,
+        0.48,
+        0.61
+      ],
+      "role": "water and lotus surface",
+      "must_preserve": [
+        "irregular dotted lotus or floating-leaf marks",
+        "pale reserved water wash",
+        "blue-green pigment accents",
+        "loose shoreline speckles",
+        "small clustered pebble-like strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_speckled_lotus_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_stilt_house",
+      "description": "Waterside rectangular house on a raised stone embankment, with tiled sloping roof, tan walls, red railing/window accents, and blocky stacked foundation stones descending into the water.",
+      "bbox": [
+        0.15,
+        0.41,
+        0.35,
+        0.22
+      ],
+      "role": "foreground waterside building",
+      "must_preserve": [
+        "grey tiled roof grid and ridge lines",
+        "red architectural accents",
+        "tan wall panels",
+        "individual ink outlines",
+        "stacked angular stone base texture",
+        "slight perspective of the roof plane"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_riverside_stilt_house.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_bank_pines_and_bamboo",
+      "description": "Tree cluster behind and above the waterside house, including a pale vertical bamboo-like trunk, soft green pine canopies, and fine dark foliage strokes along the bank.",
+      "bbox": [
+        0.22,
+        0.23,
+        0.35,
+        0.28
+      ],
+      "role": "midground tree grove",
+      "must_preserve": [
+        "needle-like pine foliage clusters",
+        "pale upright trunk",
+        "soft green wash in canopies",
+        "fine ink twig lines",
+        "layered shrub texture behind the roof"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_bank_pines_and_bamboo.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hilltop_pavilion_tower",
+      "description": "Elevated two-story pavilion or tower near the upper center, partly hidden by trees, with orange-brown walls, grey-green tiled roof, upturned eaves, and a small dark base under foliage.",
+      "bbox": [
+        0.52,
+        0.16,
+        0.22,
+        0.18
+      ],
+      "role": "background pavilion",
+      "must_preserve": [
+        "upturned roof eaves",
+        "parallel roof tile strokes",
+        "orange-brown wall wash",
+        "thin architectural ink outlines",
+        "partial occlusion by tree foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_hilltop_pavilion_tower.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_thatched_pavilion",
+      "description": "Small pavilion or cottage on the right hillside, with pale walls, angular dark roof lines, triangular gable detail, and surrounding light trees and shrubs against ochre rock.",
+      "bbox": [
+        0.67,
+        0.34,
+        0.28,
+        0.22
+      ],
+      "role": "right midground pavilion group",
+      "must_preserve": [
+        "sharp triangular roof geometry",
+        "thin black roof and wall outlines",
+        "pale wall wash",
+        "nearby vertical tree strokes",
+        "ochre hillside edge",
+        "small platform-like base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_thatched_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_wall_bridge_and_pines",
+      "description": "Lower-right garden wall or bridge segment with pale railings and posts, set among dark pines, rounded rocks, and a curving bank/path leading into the foreground.",
+      "bbox": [
+        0.48,
+        0.67,
+        0.49,
+        0.31
+      ],
+      "role": "foreground architectural passage and trees",
+      "must_preserve": [
+        "pale railing posts and panel divisions",
+        "curving wall or bridge outline",
+        "dark pine needle clusters",
+        "rounded ochre rock forms",
+        "blue-green shrub washes",
+        "ink contour lines along the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_wall_bridge_and_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

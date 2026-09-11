@@ -1,0 +1,158 @@
+{
+  "source": "../../../../../../Input_Images/Winter 16 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:40:35.673940+00:00",
+  "motifs": [
+    {
+      "name": "left_snow_peak",
+      "description": "Isolate the tall snow-covered peak and descending left mountain mass, including the pale cliff face, ridge crest, ravines, and scattered dark vegetation patches, but excluding all nearby calligraphy and seals.",
+      "bbox": [
+        0.12,
+        0.06,
+        0.31,
+        0.58
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin gray contour lines along the peak and cliff edges",
+        "soft blue-gray wash on the shaded rock faces",
+        "unpainted snow reserves and pale mist-like blank areas",
+        "vertical crack linework and dry-brush ravines",
+        "small black stippled shrub clusters on ledges and lower slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_snow_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_monastery_roofs",
+      "description": "Isolate the upper mountain monastery skyline: pagoda, layered tiled roofs, pale halls, and rows of windswept pines across the upper right ridge, avoiding adjacent red seals.",
+      "bbox": [
+        0.49,
+        0.16,
+        0.47,
+        0.22
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked pagoda tiers with reddish-brown accents",
+        "fine dark roof-tile strokes and upturned roof edges",
+        "horizontal bands of pine needles above and behind roofs",
+        "faint gray wall washes and architectural outlines",
+        "delicate mist-softened building silhouettes in the background"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_monastery_roofs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_cliff_pavilion",
+      "description": "Isolate the cliffside pavilion with peaked roof, surrounding tall pines, and the snowy rock platform beneath it on the middle-right side.",
+      "bbox": [
+        0.61,
+        0.33,
+        0.3,
+        0.27
+      ],
+      "role": "pavilion",
+      "must_preserve": [
+        "triangular pavilion roof with fine ink outline",
+        "dark clustered pine needles around the roof and terrace",
+        "slender pine trunks descending beside the cliff",
+        "angular rock ledge contours and pale snow reserves",
+        "black stippled moss dots on cliff edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_cliff_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_gorge_pine_grove",
+      "description": "Isolate the central snowy ravine with layered rock shelves and the compact grove of straight, needle-like pines rising from the valley floor.",
+      "bbox": [
+        0.42,
+        0.47,
+        0.25,
+        0.22
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "vertical pine trunks with comb-like needle marks",
+        "soft gray washes defining stepped rock ledges",
+        "dark dotted moss clusters along ledge breaks",
+        "snow-white gaps between trees and rocks",
+        "fine dry-brush cracks in the ravine walls"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_gorge_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_stone_bridge",
+      "description": "Isolate the low arched stone bridge crossing the stream near the lower left-center, with the adjoining snowy banks and light stream contours only.",
+      "bbox": [
+        0.1,
+        0.77,
+        0.31,
+        0.11
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "single rounded arch opening",
+        "thin ink lines describing the bridge parapet and stone surface",
+        "pale gray wash under the arch",
+        "snowy bank contours at both ends",
+        "subtle water-edge lines around the stream crossing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_arched_stone_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "winter_village_trees",
+      "description": "Isolate the lower-right riverside village with cottages nestled among tall leafless winter trees and a small background stand of evergreens.",
+      "bbox": [
+        0.55,
+        0.6,
+        0.43,
+        0.32
+      ],
+      "role": "foreground village",
+      "must_preserve": [
+        "branching bare-tree linework with many fine twigs",
+        "dark textured trunks and root bases",
+        "small hut roofs and wall outlines tucked between trees",
+        "muted warm color accents on village walls",
+        "compact evergreen strokes behind the houses",
+        "snowy ground contours and bank edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_winter_village_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_river_boat",
+      "description": "Isolate the tiny narrow boat on the lower river with its small figures and minimal water indication, without including the surrounding village or bridge.",
+      "bbox": [
+        0.37,
+        0.93,
+        0.22,
+        0.04
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "slender curved hull drawn with fine ink",
+        "tiny seated or standing figure marks",
+        "small pole or oar strokes",
+        "light gray shadow/water strokes beneath the boat",
+        "delicate scale relative to the open snowy river"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_small_river_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

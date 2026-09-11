@@ -1,0 +1,181 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 13 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:19:39.504242+00:00",
+  "motifs": [
+    {
+      "name": "misty_back_mountain",
+      "description": "Isolate the large pale rounded mountain mass in the upper center-right background, rising behind the darker foreground ridges. Include only the soft ink-wash silhouette, faint horizontal and arcing contour strokes, and mist-softened edges.",
+      "bbox": [
+        0.38,
+        0.17,
+        0.58,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale layered wash gradients",
+        "broad rounded summit silhouette",
+        "faint curved contour lines",
+        "soft misty edge transitions",
+        "empty atmospheric gaps around the peak"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_back_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_needle_cliff",
+      "description": "Isolate the narrow steep cliff on the upper left, with a pointed vertical mass, shaggy ink texture, and small dark tree dots along its crest and slopes. Avoid nearby calligraphy and seals.",
+      "bbox": [
+        0.02,
+        0.25,
+        0.31,
+        0.27
+      ],
+      "role": "steep hillside",
+      "must_preserve": [
+        "vertical dry-brush cliff texture",
+        "dark dotted shrubs along ridge edge",
+        "soft grey wash on rounded lower slope",
+        "ragged peak outline",
+        "fine parallel rock-fiber strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_needle_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_rocky_ridge",
+      "description": "Isolate the dense upper-right rocky ridge with overlapping rounded boulders, stippled vegetation, and darker ink accents cascading down the slope. Exclude any red seal impressions on or near the ridge.",
+      "bbox": [
+        0.43,
+        0.23,
+        0.52,
+        0.29
+      ],
+      "role": "forested rocky ridge",
+      "must_preserve": [
+        "clustered rounded rock forms",
+        "dark peppered foliage dots",
+        "short broken contour strokes",
+        "layered grey washes between boulders",
+        "diagonal descending ridge rhythm"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_rocky_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_ravine",
+      "description": "Isolate the narrow central ravine running downward between the left and right mountains, including the pale mist-filled void, vertical dark vegetation seams, and descending rock walls on both sides.",
+      "bbox": [
+        0.28,
+        0.34,
+        0.28,
+        0.34
+      ],
+      "role": "mist ravine",
+      "must_preserve": [
+        "slender pale negative-space channel",
+        "dark vertical tree-dot seams",
+        "opposing cliff walls",
+        "wash-to-blank mist transitions",
+        "fine descending rock texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_mist_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_slope_bamboo_bridge",
+      "description": "Isolate the mid-level zigzag bamboo or wooden bridge and stepped path crossing a rocky ledge, with bundled rail lines and nearby small shrubs. Include the immediate rock platform but not the larger surrounding mountains.",
+      "bbox": [
+        0.12,
+        0.58,
+        0.38,
+        0.12
+      ],
+      "role": "bridge and path",
+      "must_preserve": [
+        "repeating thin rail strokes",
+        "zigzag bridge geometry",
+        "closely spaced plank or bamboo linework",
+        "small dark shrub clusters",
+        "dry-brush rock ledge beneath"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_mid_slope_bamboo_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pine_grove_slope",
+      "description": "Isolate the dense pine and tree grove on the right middle slope, including tall straight trunks, dark needle clusters, pale trunks, and the curved mountain wash behind them where it directly supports the grove.",
+      "bbox": [
+        0.5,
+        0.57,
+        0.39,
+        0.25
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "vertical pine trunks",
+        "dark clustered needle tufts",
+        "pale twisting tree trunks",
+        "layered tree heights",
+        "curved background slope wash",
+        "fine branch linework"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_pine_grove_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_village_courtyard",
+      "description": "Isolate the lower-left village compound with tiled roofs, open pavilion-like room, fenced bank, and rippling water in front. Include the small seated figure visible inside the building and the immediate waterside setting.",
+      "bbox": [
+        0.05,
+        0.76,
+        0.47,
+        0.13
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "slanted roof tile linework",
+        "rectangular timber architecture",
+        "open central room with tiny seated figure",
+        "thin fence posts along water",
+        "concentric rippling water strokes",
+        "light grey architectural washes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_village_courtyard.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bridge_figures_pavilion",
+      "description": "Isolate the bottom foreground scene with the small round waterside pavilion, footbridge, winding stream, and tiny scholar-attendant figures crossing near the bridge. Include the adjacent low banks and immediate tree roots only.",
+      "bbox": [
+        0.3,
+        0.88,
+        0.46,
+        0.09
+      ],
+      "role": "foreground figures and pavilion",
+      "must_preserve": [
+        "round pavilion roof geometry",
+        "thin railing strokes",
+        "small walking figures with distinct heads and robes",
+        "arched footbridge linework",
+        "rippling stream texture",
+        "dark foreground bank dots and root-like strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_bridge_figures_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

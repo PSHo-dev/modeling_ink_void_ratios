@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 12 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:23:04.393789+00:00",
+  "motifs": [
+    {
+      "name": "twisted_winter_tree_trunk",
+      "description": "Isolate the gnarled lower and middle trunk of the leafless tree rising from the foreground bank, including exposed roots, knots, scars, and snow clinging to bark ridges; exclude the boat, figure, foliage bank, and inscriptions.",
+      "bbox": [
+        0.25,
+        0.47,
+        0.35,
+        0.38
+      ],
+      "role": "foreground tree trunk",
+      "must_preserve": [
+        "dark broken contour lines defining the twisting trunk",
+        "pale tan and gray bark washes",
+        "black knot holes and scar marks",
+        "white snow accents along bark edges",
+        "root-like extensions crossing toward the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_twisted_winter_tree_trunk.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "bare_tree_crown",
+      "description": "Isolate the upper network of leafless winter branches extending from the central trunk toward the left and right, with forked twigs and snow highlights; exclude calligraphy, seals, and background speckles not attached to the branches.",
+      "bbox": [
+        0.23,
+        0.18,
+        0.68,
+        0.38
+      ],
+      "role": "upper bare tree branches",
+      "must_preserve": [
+        "thin angular branch linework",
+        "dark ink joints and forked twig tips",
+        "pale gray dry-brush bark texture",
+        "small white snow touches on branch tops",
+        "asymmetrical sweeping branch silhouette"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_bare_tree_crown.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "covered_fishing_boat",
+      "description": "Isolate the wooden fishing boat with curved hull, pointed stern, woven cabin cover, deck planks, and rear canopy structure; exclude the angler figure, tree trunk, foreground shrubs, and fishing line where possible.",
+      "bbox": [
+        0.0,
+        0.64,
+        0.74,
+        0.19
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "curved ink outline of the hull",
+        "tan wood wash and subtle plank divisions",
+        "arched woven cabin roof with grid hatching",
+        "triangular raised stern and side rails",
+        "small dark deck fastenings and interior seams"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_covered_fishing_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "angler_in_straw_cape",
+      "description": "Isolate the seated angler inside the boat, including broad straw hat, visible face, straw rain cape, blue robe, folded lower garment, and long fishing line extending to the right.",
+      "bbox": [
+        0.51,
+        0.66,
+        0.48,
+        0.15
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "round straw hat with concentric rim lines",
+        "small facial features and beard linework",
+        "radiating straw cape strokes",
+        "blue robe color accent",
+        "thin fishing line arcing outward to the right"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_angler_in_straw_cape.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_autumn_shrub_bank",
+      "description": "Isolate the snowy riverbank shrub mass at lower left with ochre-brown leaves, dark stems, rocks, and snow patches around the tree base; exclude the main tree trunk and boat as much as possible.",
+      "bbox": [
+        0.0,
+        0.73,
+        0.35,
+        0.22
+      ],
+      "role": "foreground shrub and bank",
+      "must_preserve": [
+        "clustered fan-like ochre leaves",
+        "black twig and branch linework",
+        "white snow caps on rocks and leaf clusters",
+        "jagged ink rock outlines",
+        "layered overlapping foliage at the bank edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_foreground_autumn_shrub_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_snowy_reed_clump",
+      "description": "Isolate the small clump of dark reeds and grasses beneath the boat near the lower center, with snow-dusted tips and crossing blade strokes; exclude hull, tree roots, and nearby foliage.",
+      "bbox": [
+        0.32,
+        0.76,
+        0.26,
+        0.1
+      ],
+      "role": "foreground reeds",
+      "must_preserve": [
+        "thin black reed blades",
+        "crosshatched grass strokes",
+        "white snow touches along reed tops",
+        "irregular low mound silhouette",
+        "dry-brush ink variation"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_snowy_reed_clump.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_right_snowy_grass_mound",
+      "description": "Isolate the low distant mound of grasses at the lower right, with sparse arcing blades and white snow along the crest; exclude surrounding empty water wash and any border area.",
+      "bbox": [
+        0.68,
+        0.9,
+        0.3,
+        0.08
+      ],
+      "role": "distant snowy bank",
+      "must_preserve": [
+        "delicate arcing grass blades",
+        "dark ink crossings at the base",
+        "soft gray-brown ground wash",
+        "white snow highlights on upper ridges",
+        "low flattened distant-bank shape"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_distant_right_snowy_grass_mound.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "snow_filled_river_mist",
+      "description": "Isolate the atmospheric field of falling snow over muted gray-brown river mist and open water, including faint horizontal wash traces and scattered white flakes; exclude all calligraphy, seals, boat, figure, tree, shrubs, reeds, and border.",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "role": "snow and mist atmosphere",
+      "must_preserve": [
+        "uneven white snow speckles of varied sizes",
+        "soft gray-brown wash transitions",
+        "subtle horizontal water-ripple traces",
+        "open negative space around the central scene",
+        "diffuse misty edges without hard outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_snow_filled_river_mist.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

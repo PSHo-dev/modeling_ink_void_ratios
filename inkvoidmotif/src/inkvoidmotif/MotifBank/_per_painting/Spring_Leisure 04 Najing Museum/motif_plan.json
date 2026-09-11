@@ -1,0 +1,151 @@
+{
+  "source_summary": "Panoramic Chinese landscape handscroll with misty lake at left, clustered waterside village and willows in the middle, steep rocky mountains and pine groves rising behind, scholar/traveler figures with animals along the lower path, and a large garden-pavilion compound with waterfall and dense trees on the right.",
+  "motifs": [
+    {
+      "name": "left_lake_boat",
+      "description": "Small narrow boat on the lower-left lake surface with a seated boatman and low cargo forms, isolated from the blank surrounding water.",
+      "bbox": [
+        0.047,
+        0.778,
+        0.078,
+        0.055
+      ],
+      "role": "boat on water",
+      "must_preserve": [
+        "thin dark hull line and upturned prow/stern",
+        "tiny seated figure and pole/oar gesture",
+        "small rounded cargo marks inside the boat",
+        "faint horizontal water wash around the boat"
+      ]
+    },
+    {
+      "name": "misty_lakeside_hamlet",
+      "description": "Left-middle shoreline settlement with bare trees, willow clumps, a small red-roofed building, distant low shore, and soft lake mist.",
+      "bbox": [
+        0.095,
+        0.355,
+        0.23,
+        0.345
+      ],
+      "role": "village cluster and shoreline",
+      "must_preserve": [
+        "fine ink outlines of leaning bare branches",
+        "soft gray-green wash on willow foliage",
+        "small red color accent on the roof near the water",
+        "pale horizontal shoreline strokes fading into mist",
+        "tiny distant structures and boat-like marks along the far bank"
+      ]
+    },
+    {
+      "name": "central_peak_range",
+      "description": "Central background mountain mass with jagged peak, sloping ridges, pale cliff faces, and sparse summit trees.",
+      "bbox": [
+        0.248,
+        0.0,
+        0.235,
+        0.455
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "angular ridge outlines and broken contour strokes",
+        "dry-brush rock texture on the cliff faces",
+        "pale beige-gray wash transitions on slopes",
+        "small dark tree silhouettes along ridges",
+        "mist-softened lower mountain edge"
+      ]
+    },
+    {
+      "name": "willow_pavilion_village",
+      "description": "Central lower village area with clustered thatched and tiled pavilions, drooping willows, footpaths, rocks, and a low red-railed bridge or walkway.",
+      "bbox": [
+        0.285,
+        0.405,
+        0.225,
+        0.405
+      ],
+      "role": "foreground village and trees",
+      "must_preserve": [
+        "delicate roof geometry on small pavilions",
+        "drooping willow foliage rendered with soft vertical strokes",
+        "dark twisting trunks and exposed branch linework",
+        "low red railing accent near the bottom center",
+        "scattered ink rocks and path texture at ground level"
+      ]
+    },
+    {
+      "name": "pine_cliff_slope",
+      "description": "Middle-right rocky hillside with tall pines, blue-green pine needle clusters, exposed trunks, and pale cliff wash behind.",
+      "bbox": [
+        0.505,
+        0.11,
+        0.19,
+        0.54
+      ],
+      "role": "pine grove on rocky slope",
+      "must_preserve": [
+        "blue-green clustered pine needle dabs",
+        "sinuous brown trunks and branching structure",
+        "dry textured rock strokes on the sloping cliff",
+        "small ledges and path-like breaks in the rock",
+        "misty pale wash separating trees from mountain face"
+      ]
+    },
+    {
+      "name": "travelers_with_animals",
+      "description": "Lower center-right path group of small human figures, animals, and attendants crossing open ground below the cliffs.",
+      "bbox": [
+        0.515,
+        0.675,
+        0.125,
+        0.145
+      ],
+      "role": "scholar figures and pack animals",
+      "must_preserve": [
+        "tiny robe outlines and upright figure gestures",
+        "animal bodies and legs drawn with fine dark strokes",
+        "small attendant carrying object or bundle",
+        "light ground wash around the procession",
+        "spacing between figures showing movement along the path"
+      ]
+    },
+    {
+      "name": "right_garden_pavilions_waterfall",
+      "description": "Right-side garden compound with upper and lower pavilions, tiled roofs, red railings, enclosing wall, dense trees, and a narrow waterfall descending from the cliff behind.",
+      "bbox": [
+        0.704,
+        0.0,
+        0.205,
+        0.705
+      ],
+      "role": "pavilion group and waterfall",
+      "must_preserve": [
+        "crisp tiled roof grids and upturned eaves",
+        "red railing and architectural accent lines",
+        "thin vertical waterfall streaks against the cliff",
+        "dense stippled foliage around the buildings",
+        "pale wall and gateway geometry along the lower compound"
+      ]
+    },
+    {
+      "name": "right_rock_shrub_cluster",
+      "description": "Far-right foreground rocky outcrop with dark crag lines, dense shrubs, bamboo-like foliage, and small red blossoms or berries.",
+      "bbox": [
+        0.846,
+        0.525,
+        0.145,
+        0.36
+      ],
+      "role": "foreground rocks and flowering shrubs",
+      "must_preserve": [
+        "dark angular rock contours and dry-brush crevices",
+        "layered shrub masses with fine leaf dots",
+        "small red floral or berry accents",
+        "thin twig and bamboo-like linework",
+        "contrast between heavy foreground ink and pale misty ground"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 04 Najing Museum.jpg",
+  "created_at": "2026-09-03T20:24:32.325349+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

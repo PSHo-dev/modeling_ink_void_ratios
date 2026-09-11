@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 08 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:46:40.387055+00:00",
+  "motifs": [
+    {
+      "name": "left_foreground_tree_grove",
+      "description": "Isolate the dense grove at the far left foreground: gnarled leaning trunks, dark clustered foliage, bare upper branches, hanging willow-like strands, low shrubs, and the small rocky earth base beneath the trees. Exclude the pavilion, fence, and neighboring central willow mass.",
+      "bbox": [
+        0,
+        0.213,
+        0.247,
+        0.683
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "dark stippled leaf clusters",
+        "twisting trunk contours",
+        "dry angular branch linework",
+        "thin hanging foliage strokes",
+        "ink-wash ground mounds and small rock dots"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_foreground_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "pavilion_with_reclining_scholar",
+      "description": "Isolate the open garden pavilion and enclosure: sloping roof or awning, upright posts, interior couch with a reclining scholar, and the angled lattice fence below. Avoid surrounding tree canopies except where they directly overlap the pavilion silhouette.",
+      "bbox": [
+        0.211,
+        0.449,
+        0.18,
+        0.281
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "precise roof geometry and eave lines",
+        "straight post and beam linework",
+        "reclining scholar outline and robe strokes",
+        "diagonal lattice fence pattern",
+        "light interior wash and platform edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_pavilion_with_reclining_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_willow_tree_mass",
+      "description": "Isolate the large central willow cluster rising from the middle bank, with multiple intertwined trunks and heavy curtains of drooping leaves. Exclude pavilion details, foreground rocks, and distant shore where possible.",
+      "bbox": [
+        0.319,
+        0.125,
+        0.307,
+        0.645
+      ],
+      "role": "dominant central tree motif",
+      "must_preserve": [
+        "interlaced dark trunk strokes",
+        "long pendant willow-leaf lines",
+        "dense black ink accents",
+        "layered gray wash behind leaf masses",
+        "root flare and lower trunk texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_willow_tree_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "background_grove_mist_screen",
+      "description": "Isolate the pale rear screen of trees behind and around the central willows: soft vertical tree masses, gray ink washes, blurred foliage tops, and misty openings between trunks. Do not include calligraphy or foreground pavilion details.",
+      "bbox": [
+        0.381,
+        0.125,
+        0.392,
+        0.438
+      ],
+      "role": "misty background grove",
+      "must_preserve": [
+        "soft gray wash texture",
+        "vertical hanging foliage strokes",
+        "broken mist edges",
+        "faint clustered tree silhouettes",
+        "subtle tonal layering behind darker trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_background_grove_mist_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank_with_figure",
+      "description": "Isolate the lower foreground bank stretching from left to center, including layered shoreline rocks, sloping earth strokes, scattered ink dots, stepping path marks, and the small standing scholar figure near the pavilion path.",
+      "bbox": [
+        0,
+        0.693,
+        0.515,
+        0.296
+      ],
+      "role": "foreground rocky bank with figure",
+      "must_preserve": [
+        "small standing figure posture and robe lines",
+        "layered horizontal rock texture",
+        "dry brush contour strokes",
+        "scattered pebble and vegetation dots",
+        "pale wash transitions along the bank edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_foreground_rocky_bank_with_figure.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_peninsula_willow_rocks",
+      "description": "Isolate the midground peninsula projecting into the water, including the leaning willow trunk at the water edge, low shrubs, curved shoreline, exposed rocks, and rippled ink-wash landforms.",
+      "bbox": [
+        0.476,
+        0.438,
+        0.308,
+        0.337
+      ],
+      "role": "midground peninsula",
+      "must_preserve": [
+        "curving shoreline contour",
+        "leaning tree trunk and drooping branch strokes",
+        "low dark shrub marks",
+        "rock outlines and layered washes",
+        "thin water-edge lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_midground_peninsula_willow_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_lake_surface_islets",
+      "description": "Isolate the open lake surface on the right and lower right, with sparse horizontal water lines, pale wash bands, small isolated rocks or islets, and quiet negative space. Exclude distant hills if separable.",
+      "bbox": [
+        0.561,
+        0.552,
+        0.436,
+        0.419
+      ],
+      "role": "water surface with small islets",
+      "must_preserve": [
+        "delicate horizontal water strokes",
+        "small oval islet outlines",
+        "soft gray wash gradients",
+        "minimal ink marks suggesting distance",
+        "unpainted open-water spacing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_lake_surface_islets.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_right_hills_flats",
+      "description": "Isolate the distant right horizon: low rounded hills, flat sandbars, thin shoreline bands, tiny vegetation dots, and the pale far mountain form at the extreme right. Exclude the calligraphy above.",
+      "bbox": [
+        0.701,
+        0.438,
+        0.298,
+        0.177
+      ],
+      "role": "distant hills and shoreline",
+      "must_preserve": [
+        "low undulating hill silhouettes",
+        "thin horizontal shoreline lines",
+        "tiny clustered ink dots",
+        "pale mountain wash at far right",
+        "soft receding atmospheric edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_distant_right_hills_flats.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

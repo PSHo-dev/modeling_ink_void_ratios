@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 05 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:30:39.838538+00:00",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_chain",
+      "description": "Isolate the distant left mountain range: pale blue-gray background peaks and low ochre-green foothills running behind the water, with soft mist gaps and scattered dark texture dots along ridge lines.",
+      "bbox": [
+        0.0,
+        0.32,
+        0.315,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blue-gray wash peaks",
+        "faint ochre and green hillside washes",
+        "broken ink ridge contours",
+        "small dark cun and dot texture accents",
+        "mist-softened edges between peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_misty_mountain_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_foreground_shore_trees",
+      "description": "Isolate the lower-left riverbank with bare deciduous trees, small shrubs, sloping earth bank, and sparse rock dots at the water edge.",
+      "bbox": [
+        0.0,
+        0.5,
+        0.205,
+        0.315
+      ],
+      "role": "foreground shore",
+      "must_preserve": [
+        "thin leafless tree branch linework",
+        "dark ink trunks and exposed roots",
+        "pale tan bank wash",
+        "small black rock and shrub dots",
+        "soft transition into blank water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_foreground_shore_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_mist_surface",
+      "description": "Isolate the open lake and mist band in the center-left, including faint horizontal water strokes, pale reed patches, and low shoreline washes without nearby buildings.",
+      "bbox": [
+        0.165,
+        0.505,
+        0.3,
+        0.385
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "very light horizontal ink and ochre water lines",
+        "soft blank mist areas",
+        "faint blue-green reed clusters",
+        "low sandy shoreline strokes",
+        "delicate fading edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_lake_mist_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_center_pavilion_promontory",
+      "description": "Isolate the small pavilion and adjacent waterside promontory near the lower center, with its sloped tiled roof, posts, surrounding bare trees, low hut roof, and rocky mound.",
+      "bbox": [
+        0.32,
+        0.635,
+        0.18,
+        0.27
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin ruled roof geometry and eaves",
+        "vertical support posts",
+        "pale wall washes",
+        "bare tree saplings beside the buildings",
+        "rocky promontory with ochre-green texture strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_center_pavilion_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rocky_hill_tree_grove",
+      "description": "Isolate the large central hillside and tree grove rising behind the path: rounded rocky slope, leafless and lightly colored trees, shrubs, and the dark ledge near the top.",
+      "bbox": [
+        0.45,
+        0.39,
+        0.195,
+        0.52
+      ],
+      "role": "rocky hillside and grove",
+      "must_preserve": [
+        "layered dry-brush rock contours",
+        "pale ochre and green washes",
+        "black cliff-edge accents",
+        "fine branching tree linework",
+        "muted red and blue-green foliage touches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_rocky_hill_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_pavilion_flowering_grove",
+      "description": "Isolate the right-side pavilion compound and nearby flowering trees at the foot of the hill, including two stacked roof structures, pink foliage, path edge, and tiny scholar figures just to the left.",
+      "bbox": [
+        0.62,
+        0.575,
+        0.23,
+        0.34
+      ],
+      "role": "pavilion group with figures",
+      "must_preserve": [
+        "precise tiled roof lines and upturned eaves",
+        "pale red-orange building walls",
+        "pink flowering tree clusters",
+        "slender trunks and sparse branches",
+        "tiny dark-robed scholar figures and path linework"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_pavilion_flowering_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_tall_pine_and_rear_hills",
+      "description": "Isolate the tall twisting pine on the right with its needle clusters, neighboring bare trees, and the pale rear hillside behind it, avoiding nearby seals and calligraphy.",
+      "bbox": [
+        0.775,
+        0.205,
+        0.195,
+        0.35
+      ],
+      "role": "pine and hillside",
+      "must_preserve": [
+        "sinuous ink pine trunk",
+        "blue-green needle clusters in layered tufts",
+        "fine bare tree branches around the pine",
+        "pale ochre hillside contours",
+        "dotted black rock texture along ridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_tall_pine_and_rear_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

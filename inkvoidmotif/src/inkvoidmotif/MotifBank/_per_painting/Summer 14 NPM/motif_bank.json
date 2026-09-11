@@ -1,0 +1,176 @@
+{
+  "source": "../../../../../../Input_Images/Summer 14 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:46:49.802556+00:00",
+  "motifs": [
+    {
+      "name": "distant_green_peak",
+      "description": "Isolate the high pale-green mountain peak and adjoining rear ridges in the upper middle of the landscape, including the softly fading slopes and sparse ink texture strokes but excluding calligraphy and seals above/right.",
+      "bbox": [
+        0.321,
+        0.162,
+        0.414,
+        0.205
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft mineral-green wash fading into mist",
+        "thin brown-gray contour line along peak and shoulders",
+        "scattered horizontal ink texture strokes on the slopes",
+        "mist-softened lower edges where the mountain dissolves into the valley"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_green_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_hillside",
+      "description": "Isolate the rounded green hillside on the middle-left, with its arcing crest, inner ridge, and hazy lower fade; avoid the foreground villages below and the distant peak behind.",
+      "bbox": [
+        0.054,
+        0.256,
+        0.496,
+        0.172
+      ],
+      "role": "middle-distance hillside",
+      "must_preserve": [
+        "rounded hill silhouette with pale green wash",
+        "curving inner ridge line",
+        "short layered texture strokes following the slope",
+        "soft blank mist transition at the lower-left and lower-center edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_hamlet_river_bend",
+      "description": "Isolate the upper-right valley scene: small distant roof cluster beneath bare trees, winding river or terraced water bands, and low shrub-lined banks, without including the right-side seals.",
+      "bbox": [
+        0.479,
+        0.283,
+        0.438,
+        0.185
+      ],
+      "role": "distant hamlet and river terraces",
+      "must_preserve": [
+        "tiny angular roof geometry in fine ink lines",
+        "bare tree trunks and delicate branching silhouettes around the hamlet",
+        "parallel curved water or terrace lines",
+        "low stippled shrubs and grasses along the banks",
+        "pale green and ochre washes that define the valley floor"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_hamlet_river_bend.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "dark_pine_slope_groves",
+      "description": "Isolate the dense dark conifer groves climbing the right-middle slope, including the vertical trunks, clustered needle dots, and surrounding narrow paths and hill contours.",
+      "bbox": [
+        0.614,
+        0.321,
+        0.304,
+        0.238
+      ],
+      "role": "pine forest on hillside",
+      "must_preserve": [
+        "dark ink stippled pine crowns",
+        "thin vertical trunks with reddish-brown accents",
+        "irregular grove edges following the slope",
+        "pale path and hillside gaps between tree clusters",
+        "fine contour and grass strokes around the bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_dark_pine_slope_groves.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_hillside_village",
+      "description": "Isolate the central cluster of white-walled houses with ochre roofs on the slope, together with the immediate screening trees and small fence/path details that belong to the settlement.",
+      "bbox": [
+        0.338,
+        0.557,
+        0.262,
+        0.105
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "crisp roof geometry with ochre-brown washes",
+        "white wall planes outlined in fine ink",
+        "small fence and path marks below the houses",
+        "nearby bare and leafy tree brushwork framing the roofs",
+        "subtle green hill wash behind and beneath the village"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_hillside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_fenced_village",
+      "description": "Isolate the lower-left hamlet with several thatched or ochre-roofed buildings, fence lines, and surrounding trees at the foot of the hill; exclude nearby red seals and unrelated open water.",
+      "bbox": [
+        0.0,
+        0.622,
+        0.345,
+        0.118
+      ],
+      "role": "foreground village cluster",
+      "must_preserve": [
+        "low angular roof shapes with warm ochre wash",
+        "dark ink fence rails and posts",
+        "bare tree branches interlaced above the roofs",
+        "dense shrub texture at the left edge",
+        "fine ground strokes and pale green hill patches around the settlement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_fenced_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_willow_grove",
+      "description": "Isolate the tall foreground grove of slender bare and willow-like trees rising from the green bank, including multiple trunks, fine branching crowns, and low grasses, while not treating the nearby houses as part of the motif.",
+      "bbox": [
+        0.159,
+        0.666,
+        0.688,
+        0.266
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "long sinuous trunks in varied dark ink weights",
+        "delicate leafless branch networks",
+        "soft gray-green foliage haze on some trees",
+        "tufts of grass and low shrubs around the roots",
+        "pale green bank washes and small rock accents at the bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_stream_rocks",
+      "description": "Isolate the foreground stream edge with rippled water, uneven grassy banks, and scattered rocks across the bottom-left and bottom-center of the painting; avoid seals, calligraphy, and the far-right bridge structure.",
+      "bbox": [
+        0.0,
+        0.871,
+        0.795,
+        0.129
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "thin looping ripple lines in the water",
+        "irregular shoreline contours",
+        "small gray-green rocks with ink outlines",
+        "patches of pale green grass wash on the banks",
+        "short dry-brush grass and ground texture strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_stream_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "source_summary": "Tall Chinese landscape with blue-green mountains, misty water, wooded peninsulas, village architecture, pavilions, bridges, and scholar residence; seals, calligraphy, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_main_mountain_massif",
+      "description": "Isolate the dominant blue-green mountain rising on the upper left, including its rounded summit, descending ribbed ridges, shaded gullies, and dark pine clusters along the left flank and lower saddles; exclude the village roofs below and seals in the sky.",
+      "bbox": [
+        0.09,
+        0.17,
+        0.43,
+        0.27
+      ],
+      "role": "major mountain backdrop",
+      "must_preserve": [
+        "dark ink contour line along the summit",
+        "parallel hemp-fiber texture strokes on the slopes",
+        "soft blue-green mineral wash",
+        "warm ochre ridge highlights",
+        "black pine-needle clusters on the lower left shoulder",
+        "mist-softened lower edges where the mountain descends toward the valley"
+      ]
+    },
+    {
+      "name": "distant_misty_hill_chain",
+      "description": "Isolate the mid-to-far distance hill chain across the upper center and right: small rounded peaks, low undulating ridges, pale lake mist, and faint shoreline bands; exclude the main left mountain and any seals or inscriptions.",
+      "bbox": [
+        0.45,
+        0.23,
+        0.55,
+        0.17
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "pale ink silhouettes of far peaks",
+        "soft horizontal mist edges",
+        "delicate dotted texture on hill crests",
+        "light blue-green wash on rounded slopes",
+        "subtle ochre undertone",
+        "thin shoreline strokes fading into water"
+      ]
+    },
+    {
+      "name": "upper_left_lakeside_village",
+      "description": "Isolate the small village cluster at the upper-left lakeside, with several tiled-roof buildings tucked among leafless trees, pines, low fences, and pale water channels; exclude the large mountain mass behind it except for immediate grounding slopes.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.28,
+        0.22
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "fine roof geometry and dark roof ridges",
+        "fence and wall linework",
+        "bare tree branch tracery",
+        "dense black pine needles at the village edge",
+        "pale water wash around the houses",
+        "small red leaf accents among the shrubs"
+      ]
+    },
+    {
+      "name": "central_stilt_pavilion_peninsula",
+      "description": "Isolate the central waterside pavilion on stilts with its narrow roof, railings, supporting posts, adjacent blue-green rocky peninsula, and leaning red-leaved tree; exclude the larger surrounding lake and unrelated distant hills.",
+      "bbox": [
+        0.34,
+        0.37,
+        0.24,
+        0.13
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "thin ink roof outlines and eave angles",
+        "vertical stilt and railing strokes",
+        "blue-green wash on the rocky mound",
+        "leaning tree trunk and branch linework",
+        "red dotted foliage accents",
+        "small shoreline grasses and dark moss dots"
+      ]
+    },
+    {
+      "name": "middle_wooded_peninsula",
+      "description": "Isolate the middle-left wooded peninsula projecting into the water, with clusters of tall leafless trees, rounded blue-green knolls, ochre banks, and a winding shoreline; avoid including the central pavilion and lower bridge.",
+      "bbox": [
+        0.1,
+        0.46,
+        0.46,
+        0.22
+      ],
+      "role": "wooded shoreline peninsula",
+      "must_preserve": [
+        "interlaced bare branch networks",
+        "slender vertical trunks with dark ink outlines",
+        "rounded blue-green rock washes",
+        "dry-brush contour strokes on banks",
+        "small red foliage dots",
+        "soft shoreline transitions into pale water"
+      ]
+    },
+    {
+      "name": "lower_left_bridge_terraced_banks",
+      "description": "Isolate the lower-left stream crossing and terraced banks: the small plank bridge with posts, layered ochre-green shores, eroded rock ledges, and sparse grasses along the watercourse; exclude the large foreground blue rock and central groves.",
+      "bbox": [
+        0.0,
+        0.66,
+        0.35,
+        0.17
+      ],
+      "role": "bridge and foreground banks",
+      "must_preserve": [
+        "tiny bridge planks and vertical support posts",
+        "stepped shoreline contour lines",
+        "dark dry-brush rock ledges",
+        "pale water channel left unpainted",
+        "low moss and grass dotting",
+        "ochre and blue-green wash transitions on the banks"
+      ]
+    },
+    {
+      "name": "lower_right_scholar_residence_grove",
+      "description": "Isolate the lower-right scholar residence complex with tiled roofs, open room, veranda, fence, seated figures, tall trees, pines, bamboo-like foliage, and nearby willow; exclude the calligraphy at the far lower right.",
+      "bbox": [
+        0.52,
+        0.58,
+        0.39,
+        0.23
+      ],
+      "role": "scholar residence and grove",
+      "must_preserve": [
+        "precise tiled roof geometry",
+        "open interior wall and window linework",
+        "tiny seated scholar figures inside the room",
+        "fence panels and gate strokes",
+        "tall bare trunks rising through the compound",
+        "dark pine and bamboo foliage textures",
+        "pale willow branches and red leaf accents"
+      ]
+    },
+    {
+      "name": "foreground_blue_cliff_rocks",
+      "description": "Isolate the foreground blue cliff-like rock formation near the lower center, together with attached smaller rocks, low shrubs, dark moss, and the twisting bare tree beside it; exclude the residence above and the far-right inscription area.",
+      "bbox": [
+        0.37,
+        0.77,
+        0.32,
+        0.2
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "saturated blue-green mineral wash on the vertical rock face",
+        "dark contour lines and internal crevice strokes",
+        "rounded smaller boulders at the base",
+        "dry-brush moss dots along the foot of the rocks",
+        "twisting bare tree trunk and fine branches",
+        "warm ochre shadows and red foliage specks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 23 NPM.jpg",
+  "created_at": "2026-08-26T21:40:30.691242+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

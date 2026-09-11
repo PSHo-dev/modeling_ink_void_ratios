@@ -1,0 +1,140 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 16 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:12:55.418438+00:00",
+  "motifs": [
+    {
+      "name": "distant_left_hill",
+      "description": "Isolate the lower distant hill range in the upper left and center-left, including the curved ridge, faint parallel contour lines, darker notch near the center, and the subtle horizontal shore/water strokes below.",
+      "bbox": [
+        0.025,
+        0.249,
+        0.515,
+        0.103
+      ],
+      "role": "distant hill",
+      "must_preserve": [
+        "low arcing ridge line",
+        "pale layered wash texture",
+        "faint inner contour arcs",
+        "small darker ink cluster near the central saddle",
+        "thin horizontal waterline strokes beneath",
+        "soft atmospheric fading at both ends"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_distant_left_hill.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_mist_water_band",
+      "description": "Isolate the broad quiet water or mist band spanning beneath the distant hills, with sparse horizontal ink lines and soft blank-water spacing.",
+      "bbox": [
+        0.0,
+        0.315,
+        0.74,
+        0.085
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "widely spaced horizontal brush lines",
+        "subtle grey wash transitions",
+        "soft empty-paper water gaps",
+        "slightly darker ripples near the far bank",
+        "feathered mist edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_mist_water_band.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pine_grove",
+      "description": "Isolate the foreground cluster of tall trunks and pine-like foliage on the left, including multiple slender trunks, bare twig tips, layered dark needle clusters, and the foliage masses rising above the rock bank.",
+      "bbox": [
+        0.08,
+        0.397,
+        0.3,
+        0.455
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "thin vertical trunk linework",
+        "forking bare branches",
+        "stacked dark horizontal needle clusters",
+        "varied dry-brush leaf dabs",
+        "pale trunk wash with darker outlines",
+        "overlapping tree silhouettes without nearby calligraphy or seals"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the large foreground rock outcrop and earth bank at the bottom, including the tree bases, layered boulders, dark crevices, dry grass textures, and the sloping ground contours.",
+      "bbox": [
+        0.05,
+        0.758,
+        0.63,
+        0.185
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded boulder outlines",
+        "dark crevice strokes and ink pools",
+        "horizontal dry-brush rock texture",
+        "tree roots and bases embedded in rock",
+        "tuft-like grass strokes along the edges",
+        "sloping contour lines of the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rocky_islet",
+      "description": "Isolate the small rocky islet on the middle-right water, with low angular rocks, dark shadow strokes, and the horizontal waterline bands around it.",
+      "bbox": [
+        0.68,
+        0.693,
+        0.3,
+        0.065
+      ],
+      "role": "midground rocky islet",
+      "must_preserve": [
+        "low jagged rock outlines",
+        "pale interior rock wash",
+        "dark brush accents at the base",
+        "thin horizontal water bands passing behind and beside it",
+        "soft smudged shoreline shadow"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_rocky_islet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_water_shore",
+      "description": "Isolate the lower-right receding shore and water bands, including the low rounded bank form, layered horizontal ripples, and small dark accents, while excluding bottom seals.",
+      "bbox": [
+        0.39,
+        0.822,
+        0.58,
+        0.085
+      ],
+      "role": "foreground water and shore",
+      "must_preserve": [
+        "parallel horizontal water strokes",
+        "low rounded shoreline contour",
+        "soft grey wash bands",
+        "small dark ink accents on the bank",
+        "misty separation between water and land",
+        "dry-brush texture without seal marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_water_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

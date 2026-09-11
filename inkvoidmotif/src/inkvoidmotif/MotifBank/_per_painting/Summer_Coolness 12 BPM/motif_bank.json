@@ -1,0 +1,162 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 12 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:54:08.892189+00:00",
+  "motifs": [
+    {
+      "name": "distant_mist_hills",
+      "description": "Soft horizontal band of distant grey wash hills and cloud-like mist across the upper middle-right sky, isolated without the calligraphy or seal marks.",
+      "bbox": [
+        0.43,
+        0.22,
+        0.55,
+        0.12
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "pale ink wash gradations",
+        "blurred feathered mist edges",
+        "low undulating hill contour",
+        "small darker pooled ink accents near center",
+        "empty-paper gaps within the haze"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_mist_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lotus_water_shoal",
+      "description": "Curving lotus-covered water surface and shoal in the middle-left, with clustered round leaves fading into pale water and a gently arcing shoreline.",
+      "bbox": [
+        0.17,
+        0.45,
+        0.42,
+        0.15
+      ],
+      "role": "water and lotus surface",
+      "must_preserve": [
+        "many small rounded lotus leaves",
+        "blue-green and muted pink color accents",
+        "soft pale water wash",
+        "curving ochre shoreline line",
+        "scattered dot texture along the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_lotus_water_shoal.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rear_grove_and_island_pavilions",
+      "description": "Midground island garden with a round thatched pavilion, partial tiled building to the right, surrounding shrubs, bare trees, bamboo-like verticals, and a distant conifer grove behind.",
+      "bbox": [
+        0.51,
+        0.32,
+        0.48,
+        0.25
+      ],
+      "role": "village pavilion cluster",
+      "must_preserve": [
+        "round pavilion roof geometry with fine thatch strokes",
+        "vertical railing and wall linework",
+        "partial rectangular tiled roof at far right",
+        "bare branching tree linework",
+        "dense stippled evergreen grove",
+        "blue-green shrub washes and dot clusters"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_rear_grove_and_island_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_scholar_pavilion",
+      "description": "Raised waterside pavilion at right-center containing a seated scholar beside a low table, with tiled roof, open railing, support posts, and water reflections beneath.",
+      "bbox": [
+        0.67,
+        0.56,
+        0.24,
+        0.18
+      ],
+      "role": "foreground pavilion with figure",
+      "must_preserve": [
+        "layered tile roof lines",
+        "triangular gable detail",
+        "open architectural posts and railings",
+        "seated scholar figure with robe lines",
+        "small table and vessel forms",
+        "short vertical reflection strokes below the platform"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_foreground_scholar_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_pavilion_with_attendant",
+      "description": "Lower-right waterside pavilion with tiled roof and open lattice walls, containing a small seated figure near the right side, set on a slight bank above water.",
+      "bbox": [
+        0.78,
+        0.74,
+        0.2,
+        0.15
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "repeating roof tile pattern",
+        "open wall lattice and diagonal braces",
+        "small seated figure silhouette",
+        "thin platform and waterline strokes",
+        "pale green bank wash",
+        "delicate architectural ink outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_right_pavilion_with_attendant.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "bridge_stream_and_walking_scholar",
+      "description": "Lower-left stream crossing with a small plank bridge, grassy banks, and a walking scholar holding a staff along the path to the right of the bridge.",
+      "bbox": [
+        0.02,
+        0.8,
+        0.43,
+        0.13
+      ],
+      "role": "bridge, stream, and figure",
+      "must_preserve": [
+        "simple plank bridge with two posts",
+        "dark stream-bank contour lines",
+        "pale water wash",
+        "walking scholar’s robe and staff",
+        "dotted grass texture along banks",
+        "soft green foreground slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_bridge_stream_and_walking_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_foreground_tree_grove_and_rocks",
+      "description": "Central foreground grove of slender trees and shrubs rising from grassy mounds, with exposed roots and clustered rocks at the base.",
+      "bbox": [
+        0.38,
+        0.62,
+        0.38,
+        0.34
+      ],
+      "role": "foreground trees, rocks, and shrubs",
+      "must_preserve": [
+        "slender trunks with fine branch linework",
+        "dense blue-green leaf stippling",
+        "gnarled exposed roots",
+        "rounded rocks with dark contour cracks",
+        "layered grass hatch marks",
+        "varied ink density between foliage masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_central_foreground_tree_grove_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

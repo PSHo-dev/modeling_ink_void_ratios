@@ -1,0 +1,156 @@
+{
+  "source_summary": "Tall hanging-scroll landscape with misty mountains, pines, bamboo, water, bridge, small boat, rocks, and an open pavilion containing seated scholars. Calligraphy, seals, borders, and paper texture are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "upper_right_cliff_spires",
+      "description": "Isolate the high craggy mountain formation at the upper right, including the central vertical cliff, the narrow distant spire behind it, the overhanging right ledge, and the small pine clusters and shrubs rooted along the rock shelves.",
+      "bbox": [
+        0.51,
+        0.02,
+        0.48,
+        0.39
+      ],
+      "role": "distant mountain and cliff backdrop",
+      "must_preserve": [
+        "vertical ink-wash cliff faces fading into mist",
+        "angular rock ledges and broken contour lines",
+        "dark pine silhouettes along the cliff tops",
+        "small dotted shrub textures on ledges",
+        "soft mist edges at the cliff bases"
+      ]
+    },
+    {
+      "name": "arching_pine_canopy",
+      "description": "Isolate the large old pine sweeping across the middle of the painting, with its twisting trunk and branches extending from the right side toward the left, carrying dense rounded clusters of pine needles.",
+      "bbox": [
+        0.08,
+        0.35,
+        0.78,
+        0.31
+      ],
+      "role": "dominant middle-ground pine canopy",
+      "must_preserve": [
+        "gnarled dark branch linework",
+        "rounded needle clusters made of fine radiating strokes",
+        "irregular trunk knots and bark texture",
+        "layered branch crossings",
+        "subtle green-gray wash within the pine masses"
+      ]
+    },
+    {
+      "name": "waterside_pavilion_scholars",
+      "description": "Isolate the open pavilion built over water, including its tiled roofs, railings, lattice screens, supporting posts, interior furniture, and the seated scholar figures gathered around the table.",
+      "bbox": [
+        0.29,
+        0.61,
+        0.55,
+        0.22
+      ],
+      "role": "architectural pavilion and figure group",
+      "must_preserve": [
+        "precise roof geometry with layered eaves",
+        "fine parallel roof-tile lines",
+        "open lattice screens and carved rail patterns",
+        "seated scholar figures and robes",
+        "table, vessels, and interior furnishings",
+        "thin vertical support posts over the water"
+      ]
+    },
+    {
+      "name": "right_bamboo_grove",
+      "description": "Isolate the dense bamboo grove rising beside and behind the pavilion on the right, including slender stems, leaf sprays, and overlapping clusters around the pine trunk.",
+      "bbox": [
+        0.66,
+        0.45,
+        0.33,
+        0.38
+      ],
+      "role": "foreground and middle-ground bamboo screen",
+      "must_preserve": [
+        "slender segmented bamboo stalks",
+        "pointed leaf clusters in dark ink",
+        "overlapping sprays with varied density",
+        "fine twig-like branch joints",
+        "subtle wash separation between bamboo layers"
+      ]
+    },
+    {
+      "name": "left_stream_bridge_boat",
+      "description": "Isolate the left-side water scene with the pale stream surface, small arched bridge, rocks, bank vegetation, and the tiny moored boat near the shrub-covered bank.",
+      "bbox": [
+        0.0,
+        0.57,
+        0.48,
+        0.18
+      ],
+      "role": "water, bridge, and small boat setting",
+      "must_preserve": [
+        "delicate rippling water lines",
+        "low arched bridge outline",
+        "tiny dark boat form",
+        "rounded stream rocks",
+        "soft bank washes and shrub dots",
+        "small stepping-stone details"
+      ]
+    },
+    {
+      "name": "foreground_right_rocks_tree_base",
+      "description": "Isolate the rugged foreground rocks and base of the large tree on the lower right, including the sloping boulders, exposed roots, grasses, and small bamboo or shrub tufts around the base.",
+      "bbox": [
+        0.49,
+        0.77,
+        0.5,
+        0.22
+      ],
+      "role": "foreground rocky anchor",
+      "must_preserve": [
+        "dark angular rock contours",
+        "layered ink-wash facets",
+        "gnarled tree-root and trunk texture",
+        "small grass clumps at the water edge",
+        "low shrub and bamboo leaf accents",
+        "wet-edge wash transitions around stones"
+      ]
+    },
+    {
+      "name": "foreground_left_blossom_branch",
+      "description": "Isolate the low foreground branch entering from the lower left, with its twisting dark limb, thin offshoots, and sparse small blossoms or buds above the water and grasses.",
+      "bbox": [
+        0.0,
+        0.83,
+        0.38,
+        0.14
+      ],
+      "role": "foreground flowering branch",
+      "must_preserve": [
+        "crooked dark branch linework",
+        "fine twig extensions",
+        "tiny blossom and bud marks",
+        "uneven bark texture",
+        "delicate spacing of sparse foliage",
+        "nearby grass strokes at the base"
+      ]
+    },
+    {
+      "name": "open_mist_water_bird",
+      "description": "Isolate the quiet open mist and water passage in the upper-left to middle-left area, including the tiny flying bird and the faint horizontal atmospheric washes, while excluding seals and inscriptions.",
+      "bbox": [
+        0.16,
+        0.2,
+        0.42,
+        0.29
+      ],
+      "role": "misty negative space and distant water atmosphere",
+      "must_preserve": [
+        "tiny bird silhouette with spread wings",
+        "soft horizontal mist bands",
+        "very pale water-wash gradations",
+        "subtle atmospheric void around the bird",
+        "faint tonal transitions without paper texture"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 18 NPM.jpg",
+  "created_at": "2026-08-06T22:47:19.576916+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 09 MFA Boston.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:40:33.347777+00:00",
+  "motifs": [
+    {
+      "name": "hazy_right_mountain",
+      "description": "Large distant mountain and headland rising from the mist on the upper right, with a sloping dark shoreline base and rounded pale summit forms receding off the right edge.",
+      "bbox": [
+        0.535,
+        0.175,
+        0.465,
+        0.245
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray-brown ink wash gradients",
+        "rounded summit silhouettes fading into mist",
+        "dark triangular shoreline base at lower left of the mountain",
+        "subtle internal contour strokes",
+        "mist-softened lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_hazy_right_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "wooded_ridge_canopy",
+      "description": "Cluster of dark treetops and scrub growing along the ridge across the upper-right hillside, separated from the larger mountain wash as a reusable foliage band.",
+      "bbox": [
+        0.59,
+        0.18,
+        0.31,
+        0.16
+      ],
+      "role": "hillside trees",
+      "must_preserve": [
+        "dense dotted leaf texture",
+        "irregular broken crown line",
+        "fine branch strokes visible beneath dots",
+        "darker ink accents along the ridge crest",
+        "soft blending into the underlying hill wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_wooded_ridge_canopy.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_mid_peaks",
+      "description": "Small, misty blue-gray rock peaks near the center distance, partly veiled by the open water and haze.",
+      "bbox": [
+        0.468,
+        0.345,
+        0.085,
+        0.06
+      ],
+      "role": "distant peaks",
+      "must_preserve": [
+        "faint angular peak silhouettes",
+        "pale blue-gray wash",
+        "soft lost-and-found edges",
+        "tiny darker ridge accents",
+        "ample surrounding mist edge without unrelated foreground trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_distant_mid_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_left_shrub_bank",
+      "description": "Dense lower-left riverbank with tangled shrubs, small trees, and dark rock base along the left edge, excluding the large pine canopy to the right.",
+      "bbox": [
+        0.0,
+        0.51,
+        0.225,
+        0.43
+      ],
+      "role": "foreground shrubs and rocks",
+      "must_preserve": [
+        "dark calligraphic twig linework",
+        "rounded dotted leaf clusters",
+        "vertical reed-like strokes",
+        "layered black-gray rock washes at the base",
+        "irregular foliage gaps and pale negative spaces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_foreground_left_shrub_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "leaning_foreground_pine",
+      "description": "Prominent foreground pine leaning from the lower left toward the center, with twisting trunk, heavy branches, and needle clusters over the water.",
+      "bbox": [
+        0.205,
+        0.585,
+        0.23,
+        0.39
+      ],
+      "role": "foreground pine",
+      "must_preserve": [
+        "twisted dark trunk and branch contours",
+        "radiating pine needle bundles",
+        "hooked and angular branch joints",
+        "dense black ink accents over softer brown wash",
+        "lower roots and branch tips without including adjacent shrub mass"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_leaning_foreground_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "center_right_grove_shore",
+      "description": "Misty grove of deciduous trees on the center-right shoreline, with trunks, stippled foliage, and a low island bank projecting into the water.",
+      "bbox": [
+        0.43,
+        0.535,
+        0.43,
+        0.33
+      ],
+      "role": "midground wooded shore",
+      "must_preserve": [
+        "soft gray wash mass behind the trees",
+        "fine exposed trunks and branching silhouettes",
+        "stippled and feathered foliage texture",
+        "dark low shoreline contour",
+        "pale water gaps and mist-softened tree edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_center_right_grove_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "broad_mist_lake_surface",
+      "description": "Open lake and mist passage across the middle and lower right, with faint horizontal water strokes and soft bands of haze around the distant shore; exclude the boat and red seal.",
+      "bbox": [
+        0.3,
+        0.4,
+        0.64,
+        0.5
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "wide unpainted misty space",
+        "subtle horizontal water ripples",
+        "soft shoreline reflections and wash transitions",
+        "faint floating flecks of ink",
+        "gentle tonal gradation from warm paper to gray-brown wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_broad_mist_lake_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_fisher_boat",
+      "description": "Narrow boat at the lower right carrying two small figures, one standing with a pole and one seated or crouched near the stern.",
+      "bbox": [
+        0.82,
+        0.855,
+        0.17,
+        0.055
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "thin elongated hull line",
+        "slight upward-curved prow and stern",
+        "standing figure with vertical pole",
+        "small seated/crouched figure at far right",
+        "delicate oar or rope-like strokes trailing along the hull"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_small_fisher_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

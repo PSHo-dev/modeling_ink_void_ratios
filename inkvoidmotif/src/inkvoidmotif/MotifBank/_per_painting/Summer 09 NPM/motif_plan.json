@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape with distant tan mountains and mist above a valley, temple roofs among pines, a garden pavilion compound, rocky/tree clusters, water surfaces, paths, fences, and small figures. Calligraphy, seals, borders, and paper texture are excluded from motif selection.",
+  "motifs": [
+    {
+      "name": "misty_distant_mountain",
+      "description": "Isolate the large upper mountain range: the central ochre peak and adjoining ridges, faint blue-gray left peaks, and surrounding pale mist bands. Exclude all calligraphy and red seals above it.",
+      "bbox": [
+        0.0,
+        0.105,
+        0.98,
+        0.235
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft tan and ochre washes on the main peak",
+        "faint contour lines defining ridges",
+        "irregular white mist gaps and cloud-like edges crossing the mountain",
+        "subtle blue-gray silhouettes of receding peaks at left",
+        "dry-brush texture and pale erosion-like streaks on the slopes"
+      ]
+    },
+    {
+      "name": "left_waterfall_cliffs",
+      "description": "Isolate the left middle cliff mass with rounded ochre rocks, the narrow white waterfall dropping through the ravine, and the pale water pool at its base. Avoid neighboring pavilion roofs and distant temple elements.",
+      "bbox": [
+        0.0,
+        0.245,
+        0.51,
+        0.19
+      ],
+      "role": "hillside and waterfall",
+      "must_preserve": [
+        "thin white vertical waterfall channel",
+        "rounded layered rock contours in light brown and green washes",
+        "small dark cave-like opening near the pool",
+        "soft misty water edge at the base",
+        "fine reddish-brown contour strokes on the cliff faces"
+      ]
+    },
+    {
+      "name": "pine_temple_hillside",
+      "description": "Isolate the temple and pagoda group set into the right hillside, including the stepped red-roofed pagoda, partial hall roofs, and the vertical pine avenue rising along the slope. Exclude the nearby red seal on the hill.",
+      "bbox": [
+        0.59,
+        0.29,
+        0.27,
+        0.215
+      ],
+      "role": "pavilion group on hillside",
+      "must_preserve": [
+        "stacked pagoda roof geometry with red accents",
+        "glimpsed red and gray tiled roofs behind trees",
+        "slender dark pine trunks arranged in a diagonal line",
+        "needle-like pine foliage strokes",
+        "green hillside wash and fine slope contouring"
+      ]
+    },
+    {
+      "name": "central_garden_pavilions",
+      "description": "Isolate the main garden architecture in the middle: connected white-walled pavilions with gray tiled roofs, open veranda, interior furnishings and tiny figures, plus the immediate courtyard edge. Do not include the large right scholar rock cluster except where it touches the architecture.",
+      "bbox": [
+        0.05,
+        0.49,
+        0.69,
+        0.2
+      ],
+      "role": "pavilion compound",
+      "must_preserve": [
+        "precise roof tile striping and roof angles",
+        "white wall planes with thin ink outlines",
+        "open colonnade and veranda posts",
+        "tiny interior figures and red furniture accents",
+        "surrounding garden shrubs and pale wash transitions around the buildings"
+      ]
+    },
+    {
+      "name": "right_scholar_rock_pines",
+      "description": "Isolate the large right-side garden rock and tree cluster beside the pavilion: perforated gray scholar rock, tall dark pines, pale blue-green foliage, and adjacent shrubs. Avoid the pavilion interior as much as possible.",
+      "bbox": [
+        0.61,
+        0.43,
+        0.38,
+        0.25
+      ],
+      "role": "rocks and pines",
+      "must_preserve": [
+        "hollow openings and angular contours of the scholar rock",
+        "dark gray ink washes on rock faces",
+        "tall pine trunks with dense vertical needle texture",
+        "blue-green clustered foliage around the rock",
+        "fine grasses and shrubs at the base"
+      ]
+    },
+    {
+      "name": "middle_water_garden",
+      "description": "Isolate the broad pale water surface and garden shore below the pavilion, including the irregular banks, small birds on or above the water, reflections/wash texture, and the lone white-robed figure on the right bank.",
+      "bbox": [
+        0.05,
+        0.63,
+        0.88,
+        0.19
+      ],
+      "role": "water surface and figure",
+      "must_preserve": [
+        "flat pale water wash with subtle horizontal texture",
+        "irregular tan shoreline and low fence lines",
+        "small dark birds rendered with minimal strokes",
+        "white-robed standing figure on the bank",
+        "soft transition between water, mud banks, and sparse vegetation"
+      ]
+    },
+    {
+      "name": "left_rocky_bank_bridge",
+      "description": "Isolate the left rocky bank beside the water, including stacked ochre rocks, gnarled trees, the small arched crossing/bridge-like path, and tiny animals or figures visible among the rocks. Keep it separate from the central pavilion roofs.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.3,
+        0.17
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "layered ochre and gray rock texture",
+        "gnarled tree trunks and bare branch linework",
+        "small arched crossing or path detail",
+        "tiny living figures/animals indicated by fine strokes",
+        "dark-to-light wash variation in the crevices"
+      ]
+    },
+    {
+      "name": "bottom_gate_fence_pines",
+      "description": "Isolate the lower garden entrance area: the small open gate pavilion, diagonal fence or wall, foreground pines and bare trees, and low shrubs along the bottom edge. Exclude the red seal at the lower left border.",
+      "bbox": [
+        0.14,
+        0.81,
+        0.85,
+        0.17
+      ],
+      "role": "foreground entrance and fence",
+      "must_preserve": [
+        "small roofed gate with open doorway and tiled roof lines",
+        "diagonal lattice fence/wall pattern",
+        "slender pine trunks with dark needle clusters",
+        "bare winter-branch linework",
+        "low green shrubs and pale ground wash around the entrance"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 09 NPM.jpg",
+  "created_at": "2026-07-23T20:29:53.311218+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

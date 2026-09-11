@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Winter 28 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-06T06:17:15.465936+00:00",
+  "motifs": [
+    {
+      "name": "left_windswept_tree",
+      "description": "Isolate the far-left bare, windswept tree with twisting vertical trunk, cropped side branches, and angular ink limbs reaching into the open mist.",
+      "bbox": [
+        0,
+        0.16,
+        0.19,
+        0.78
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "dark dry-brush trunk contours",
+        "crooked branching silhouette",
+        "soft gray wash around the trunk",
+        "broken ink at the roots",
+        "left-edge cropped branch tips"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_windswept_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_gnarled_grove",
+      "description": "Isolate the dense central cluster of gnarled bare trunks and interlaced branches, including the dark main trunk, lighter companion stems, and root area.",
+      "bbox": [
+        0.13,
+        0.15,
+        0.24,
+        0.79
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "layered black and gray trunk strokes",
+        "dry-brush bark texture",
+        "forked branch linework",
+        "dense overlapping twig network",
+        "dark root and base accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_gnarled_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "diagonal_foreground_tree",
+      "description": "Isolate the large diagonal foreground tree rising from the lower center and splitting into long bare limbs that stretch toward the upper right.",
+      "bbox": [
+        0.29,
+        0.18,
+        0.3,
+        0.78
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "broad pale-gray trunk wash",
+        "dark outlines along branch forks",
+        "long diagonal compositional sweep",
+        "small angular offshoots",
+        "dry textured bark strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_diagonal_foreground_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "overhanging_mossy_cliff",
+      "description": "Isolate the suspended rocky overhang on the upper right, including its rounded lower lobes, vertical wash textures, and clusters of dark moss dots.",
+      "bbox": [
+        0.71,
+        0,
+        0.19,
+        0.67
+      ],
+      "role": "cliff overhang",
+      "must_preserve": [
+        "steep vertical rock washes",
+        "dark stippled moss clusters",
+        "rounded pendant rock forms",
+        "dry-brush fissures",
+        "soft pale edges fading into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_overhanging_mossy_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_vertical_cliff_wall",
+      "description": "Isolate the tall vertical cliff wall at the far right, from the pale upper rock face down to the darker lower base and edge stones.",
+      "bbox": [
+        0.82,
+        0,
+        0.18,
+        1
+      ],
+      "role": "cliff wall",
+      "must_preserve": [
+        "long vertical ink striations",
+        "pale tan-gray rock wash",
+        "dark lower moss stippling",
+        "irregular cliff edge contour",
+        "base rocks and rough ground texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_vertical_cliff_wall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "standing_scholar",
+      "description": "Isolate the small standing robed scholar near the lower right, facing left beneath the cliff with hands gathered and a dark hair cap or topknot.",
+      "bbox": [
+        0.71,
+        0.68,
+        0.05,
+        0.2
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "fine facial profile linework",
+        "dark hair and shoulder accent",
+        "flowing robe outline",
+        "thin sleeve and sash strokes",
+        "small grounded feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_standing_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

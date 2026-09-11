@@ -1,0 +1,153 @@
+{
+  "source_summary": "Vertical monochrome ink landscape with layered rocky mountains, sparse winter trees, a small lower-left pavilion, distant shore elements, foreground rocks, reeds, and water. Calligraphy, seals, borders, and paper texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "left_sheer_peak",
+      "description": "Isolate the tall left peak of the central mountain mass, including its vertical cliff face, rounded summit, sparse dark shrubs along the crest, pale ink washes, and dry-brush contour lines. Exclude the adjacent right peak and all inscription/seal areas.",
+      "bbox": [
+        0.22,
+        0.1,
+        0.24,
+        0.31
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "soft vertical cliff outline",
+        "dry-brush rock wrinkles",
+        "light gray wash gradients",
+        "small dark summit shrubs",
+        "mist-softened lower edge"
+      ]
+    },
+    {
+      "name": "central_rounded_peak",
+      "description": "Isolate the rounded central-right mountain peak and ravine face beneath it, including the darker cleft, sloping shoulder, scrub textures, and layered wash. Avoid calligraphy and red seals above/right.",
+      "bbox": [
+        0.39,
+        0.2,
+        0.25,
+        0.28
+      ],
+      "role": "secondary mountain peak",
+      "must_preserve": [
+        "dark central ravine strokes",
+        "curved rounded rock contour",
+        "feathery texture strokes on slope",
+        "subtle ink wash transitions",
+        "small crest vegetation marks"
+      ]
+    },
+    {
+      "name": "distant_left_shore_hamlet",
+      "description": "Isolate the faint left middle-distance shoreline with low hills, tiny huts or walls, sparse trees, scattered rocks, and horizontal water-edge strokes.",
+      "bbox": [
+        0.0,
+        0.28,
+        0.29,
+        0.12
+      ],
+      "role": "distant shore village",
+      "must_preserve": [
+        "pale distant hill silhouette",
+        "tiny architectural strokes",
+        "thin leafless tree trunks",
+        "scattered pebble-like rocks",
+        "delicate horizontal shoreline marks"
+      ]
+    },
+    {
+      "name": "middle_terraced_rocks",
+      "description": "Isolate the midground layered rocky terrace below the peaks, with rounded boulders, path-like slopes, small bare trees, scrub patches, and soft ink-wash depressions.",
+      "bbox": [
+        0.27,
+        0.39,
+        0.36,
+        0.27
+      ],
+      "role": "midground rocky hillside",
+      "must_preserve": [
+        "rounded boulder contours",
+        "light and dark wash pooling",
+        "fine bare branch linework",
+        "small shrub dots",
+        "stepped terrace edges"
+      ]
+    },
+    {
+      "name": "right_pine_rock_grove",
+      "description": "Isolate the right midground grove on rocks: angular boulders, a dark-needled pine, bare companion trees, small shrubs, and faint grasses near the slope.",
+      "bbox": [
+        0.62,
+        0.34,
+        0.27,
+        0.24
+      ],
+      "role": "pine and rock grove",
+      "must_preserve": [
+        "dark pine needle clusters",
+        "twisting bare branches",
+        "craggy rock outlines",
+        "granular shrub texture",
+        "pale wash around the rocks"
+      ]
+    },
+    {
+      "name": "foreground_tree_pavilion_group",
+      "description": "Isolate the lower-left foreground group where a small pavilion or house sits partly behind tall leafless and willow-like trees, including the roofline, support posts, trunks, bending branches, and nearby rock base.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.42,
+        0.28
+      ],
+      "role": "foreground pavilion with trees",
+      "must_preserve": [
+        "thin pavilion roof geometry",
+        "vertical post linework",
+        "twisted tree trunks",
+        "drooping willow branches",
+        "dark leaf accents",
+        "foreground rock wash"
+      ]
+    },
+    {
+      "name": "central_winter_tree_stand",
+      "description": "Isolate the central foreground stand of bare winter trees and sparse pines rising from the rocky slope, including tall trunks, branch networks, dark needle tufts, and grass-like brush marks.",
+      "bbox": [
+        0.31,
+        0.48,
+        0.34,
+        0.32
+      ],
+      "role": "foreground tree stand",
+      "must_preserve": [
+        "fine branching linework",
+        "slender vertical trunks",
+        "dark pine needle tufts",
+        "dry grass hatching",
+        "soft ground wash at roots"
+      ]
+    },
+    {
+      "name": "lower_right_stream_reed_bank",
+      "description": "Isolate the lower-right water margin with dark horizontal stream strokes, low grasses, reeds, pebbles, and the curving bank. Exclude nearby red seals and border areas.",
+      "bbox": [
+        0.52,
+        0.82,
+        0.42,
+        0.15
+      ],
+      "role": "foreground water and reeds",
+      "must_preserve": [
+        "parallel dark water strokes",
+        "tufted reed linework",
+        "small rounded stones",
+        "curving bank contour",
+        "pale open water wash"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 06 Shanghai.jpg",
+  "created_at": "2026-08-27T22:14:25.483222+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

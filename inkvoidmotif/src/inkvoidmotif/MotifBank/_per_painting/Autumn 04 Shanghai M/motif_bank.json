@@ -1,0 +1,151 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 04 Shanghai M.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:35:41.169720+00:00",
+  "motifs": [
+    {
+      "name": "hazy_background_peaks",
+      "description": "Isolate the soft distant mountain silhouettes behind the main ridge, including the rounded central peak and paler left foothills fading into atmosphere.",
+      "bbox": [
+        0.022,
+        0.354,
+        0.55,
+        0.095
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blurred peak edges",
+        "pale graded ink wash",
+        "minimal contour lines",
+        "misty overlap behind darker ridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_hazy_background_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_rocky_mountain_ridge",
+      "description": "Isolate the dark, textured middle-distance ridge stretching from the left edge toward the center, with craggy summit, sloping shoulders, and layered foothills.",
+      "bbox": [
+        0.0,
+        0.386,
+        0.64,
+        0.15
+      ],
+      "role": "middle mountain ridge",
+      "must_preserve": [
+        "angular rock contour linework",
+        "dry-brush striations on slopes",
+        "dark ink accents in gullies",
+        "layered wash transitions along foothills"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_rocky_mountain_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_low_lakeshore_hills",
+      "description": "Isolate the low distant hills and shoreline on the right side of the lake, including the small pointed hill and faint horizontal shore bands.",
+      "bbox": [
+        0.53,
+        0.407,
+        0.46,
+        0.12
+      ],
+      "role": "distant lakeshore hills",
+      "must_preserve": [
+        "thin horizontal shoreline strokes",
+        "pale receding hill wash",
+        "small dark peak accent",
+        "soft mist gap between hill layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_low_lakeshore_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_mist_water",
+      "description": "Isolate the open lake and mist field across the center, preserving the pale water plane, faint banks, and horizontal ripples visible between mountains and foreground trees.",
+      "bbox": [
+        0.03,
+        0.468,
+        0.81,
+        0.215
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "faint horizontal water lines",
+        "soft mist edges around landforms",
+        "light ink wash gradations",
+        "small broken bank strokes and tiny rock marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_lake_mist_water.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_flowering_willow_cluster",
+      "description": "Isolate the left foreground cluster of pale flowering or leafy trees and drooping willow-like branches, including the looping round foliage marks and thin bending stems.",
+      "bbox": [
+        0.055,
+        0.515,
+        0.405,
+        0.315
+      ],
+      "role": "foreground shrubs and willows",
+      "must_preserve": [
+        "round looped leaf clusters",
+        "fine pale branch linework",
+        "drooping willow fronds",
+        "delicate sparse ink texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_flowering_willow_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_tall_tree_grove",
+      "description": "Isolate the central grove of tall trunks and dark foliage masses rising in front of the lake, excluding the pavilion where possible but retaining trunks that define the grove.",
+      "bbox": [
+        0.345,
+        0.485,
+        0.405,
+        0.365
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "dark clustered leaf washes",
+        "vertical and leaning trunk lines",
+        "dry-brush bark texture",
+        "layered foliage silhouettes with varied ink density"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_tall_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank_reeds",
+      "description": "Isolate the lower foreground landform with rounded rocky bank, right-side stones, grass and reed strokes, and shallow water at the base; exclude seals near the corners.",
+      "bbox": [
+        0.03,
+        0.725,
+        0.9,
+        0.24
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "broad curved wash forming the bank",
+        "dark dry-brush shadow patches",
+        "small rock outlines on the right",
+        "short reed and grass strokes along the water edge",
+        "horizontal shallow-water marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_bank_reeds.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

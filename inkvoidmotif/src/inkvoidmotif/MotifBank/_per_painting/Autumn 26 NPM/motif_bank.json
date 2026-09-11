@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 26 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:19:05.470328+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_craggy_peak",
+      "description": "Isolate the upper portion of the left mountain: rounded crags and stacked ridges rising from the left edge, with dense ink texture and small dark shrub clusters on ledges. Exclude nearby calligraphy and seals.",
+      "bbox": [
+        0.035,
+        0.055,
+        0.545,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "layered contour linework wrapping around rounded rock forms",
+        "dry-brush hemp-fiber texture strokes",
+        "dark stippled vegetation along ridge tops and crevices",
+        "soft gray wash transitions on rock faces",
+        "irregular silhouette of the summit and side ridges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_craggy_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_slab_cliff",
+      "description": "Isolate the central descending mountain section with long vertical faces, diagonal shelf-like rock slabs, and dark brushy vegetation clinging to cracks. Avoid the red seals along the left margin and the village trees below.",
+      "bbox": [
+        0.045,
+        0.25,
+        0.62,
+        0.31
+      ],
+      "role": "mountain cliff",
+      "must_preserve": [
+        "long vertical ink streaks suggesting cliff faces and runoff",
+        "angular pale rock shelves with dark outlines",
+        "dense black scrub texture in crevices",
+        "alternating wet wash and dry-brush passages",
+        "broken edges where the cliff dissolves into mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_middle_slab_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_right_peak",
+      "description": "Isolate the faint distant peak and atmospheric wash on the right side of the composition, including the pale vertical mountain silhouette emerging from open mist. Exclude inscriptions and seals.",
+      "bbox": [
+        0.685,
+        0.15,
+        0.26,
+        0.235
+      ],
+      "role": "mist and distant mountain",
+      "must_preserve": [
+        "very pale gray wash silhouette",
+        "soft feathered mist edges",
+        "subtle vertical peak form",
+        "low-contrast tonal transitions",
+        "empty surrounding air that gives the peak distance"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_misty_right_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pine_studio_grove",
+      "description": "Isolate the lower-left pine grove and studio area: dark full-needled pines, twisting trunks, a small architectural platform or study nook with railing, and the shaded rocks and terrace immediately around it.",
+      "bbox": [
+        0.0,
+        0.585,
+        0.5,
+        0.205
+      ],
+      "role": "foreground grove and pavilion",
+      "must_preserve": [
+        "dense pine-needle dot clusters and short bristle strokes",
+        "gnarled pale trunks outlined in ink",
+        "small railings and geometric architectural lines",
+        "bench or table-like interior detail",
+        "contrast between dark foliage masses and pale courtyard ground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_pine_studio_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_bank_footbridge",
+      "description": "Isolate the small wooden footbridge or plank crossing at the lower right bank, including the short rail-like boards, stepped planks, adjacent rock lip, and waterline immediately around it.",
+      "bbox": [
+        0.705,
+        0.78,
+        0.245,
+        0.065
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "parallel plank lines and short cross-strokes",
+        "small stepped bridge geometry",
+        "thin waterline strokes beside the landing",
+        "rock contour supporting the bridge",
+        "delicate scale contrast against the surrounding shore"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_bank_footbridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_river_rocks",
+      "description": "Isolate the foreground river surface with scattered rocks and low banks across the bottom: rippling horizontal water lines, rounded ink-washed stones, and the larger central and left bank rocks. Exclude border marks and seals.",
+      "bbox": [
+        0.0,
+        0.805,
+        1.0,
+        0.19
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "horizontal ripple lines across the water",
+        "rounded stones with dark dry-brush texture",
+        "large central rock with pale top plane and dark base",
+        "left bank rock mass with layered contour strokes",
+        "soft washes indicating shallow water around rock edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_river_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

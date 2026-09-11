@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink-and-wash Chinese landscape with inscription occupying the upper register (excluded), a large wooded mountain and misty river middle ground, rocky hill banks with reeds, and a foreground riverbank containing trees, a willow, a small scholar boat, rocks, grasses, and shrubs.",
+  "motifs": [
+    {
+      "name": "central_wooded_peak",
+      "description": "Isolate the dominant steep mountain massif in the middle-left: the high rounded peak, descending ridges, rocky cliff planes, wooded slopes, and the darker foothill base beside the water. Exclude the calligraphy above and the separate foreground trees below.",
+      "bbox": [
+        0.0,
+        0.265,
+        0.585,
+        0.245
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "layered ink wash forming the mountain silhouette",
+        "angular cun texture strokes on the rock faces",
+        "dark dotted tree clusters along the ridge crest and gullies",
+        "soft gray wash transitions at the left rear slope",
+        "dark foothill contours and small rocky protrusions at the waterline"
+      ]
+    },
+    {
+      "name": "misty_distant_hills",
+      "description": "Isolate the pale distant hill silhouettes and atmospheric mist band across the middle-right background behind the nearer banks.",
+      "bbox": [
+        0.53,
+        0.365,
+        0.445,
+        0.11
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "very light gray wash hill profiles",
+        "soft blurred mist edges",
+        "low contrast separation between hills and empty sky-water space",
+        "subtle overlapping hill layers"
+      ]
+    },
+    {
+      "name": "right_midground_rocky_hills",
+      "description": "Isolate the rocky hills and low wooded bank on the right side of the middle ground, including rounded mounds, exposed rock contours, and shrub/tree dotting.",
+      "bbox": [
+        0.43,
+        0.43,
+        0.54,
+        0.14
+      ],
+      "role": "midground hillside",
+      "must_preserve": [
+        "rounded rock outlines in dry ink",
+        "short texture strokes on hill faces",
+        "dense black tree-dot clusters on hilltops and saddles",
+        "pale wash underlayers defining the mounds",
+        "small shrubs and grasses along the lower water edge"
+      ]
+    },
+    {
+      "name": "river_reed_channels",
+      "description": "Isolate the horizontal river surface and reed-lined channels running across the middle of the painting, including sandbars, water gaps, and narrow marshy islands.",
+      "bbox": [
+        0.0,
+        0.43,
+        0.735,
+        0.145
+      ],
+      "role": "water and reeds",
+      "must_preserve": [
+        "blank-water negative space",
+        "thin horizontal shore and sandbar washes",
+        "clusters of upright reed strokes",
+        "dark grass tufts crossing the waterline",
+        "soft gray island shapes and reflections"
+      ]
+    },
+    {
+      "name": "foreground_tall_tree_grove",
+      "description": "Isolate the tall foreground grove on the right: dark leafy tree, pale-trunked tree with fine leaf clusters, adjacent darker evergreen-like foliage, and the vertical trunks rising from the rocky bank.",
+      "bbox": [
+        0.49,
+        0.57,
+        0.445,
+        0.33
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "contrasting dark and pale trunks",
+        "dense ink foliage masses on the left tall tree",
+        "fine stippled leaf clusters on the pale tree",
+        "vertical bark lines and dry-brush trunk texture",
+        "overlapping dark foliage washes behind the trunks",
+        "root and grass marks at the base"
+      ]
+    },
+    {
+      "name": "leaning_willow_on_bank",
+      "description": "Isolate the leaning willow-like tree and twisted bank vegetation in the lower-left foreground area above the boat, including sparse angular branches, drooping strands, and the curved trunk rooted on the shore.",
+      "bbox": [
+        0.16,
+        0.655,
+        0.37,
+        0.18
+      ],
+      "role": "foreground willow and bank shrub",
+      "must_preserve": [
+        "arching bare branch structure",
+        "small ink leaf dots on branch tips",
+        "long dangling willow strands",
+        "twisted pale trunk with dark contour accents",
+        "thin grasses and shrub strokes around the base"
+      ]
+    },
+    {
+      "name": "covered_scholar_boat",
+      "description": "Isolate the small boat with a seated scholar and arched woven canopy near the lower-left water edge. Include the hull, canopy, seated figure, faint rope or line, and immediate waterline only.",
+      "bbox": [
+        0.2,
+        0.825,
+        0.34,
+        0.065
+      ],
+      "role": "boat and figure",
+      "must_preserve": [
+        "slender curved boat hull",
+        "arched woven canopy with crosshatch roof texture",
+        "small seated robed figure with warm color accent",
+        "fine black linework defining the bow and stern",
+        "faint waterline and towing line marks"
+      ]
+    },
+    {
+      "name": "foreground_rocky_shore_reeds",
+      "description": "Isolate the lower foreground rocky shore spanning the bottom, with large dark rocks, sloping bank, grasses, reeds, and low shrubs. Exclude seals at the extreme corners as much as possible.",
+      "bbox": [
+        0.0,
+        0.88,
+        0.94,
+        0.115
+      ],
+      "role": "foreground rocks and shore",
+      "must_preserve": [
+        "large rounded rocks with dark ink wash",
+        "dry-brush rock texture and contour cracks",
+        "tufted grasses and reed strokes along the top edge",
+        "low shrub dots and tangled brush near the bank",
+        "sloping foreground ground plane with layered gray washes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 13 BPM.jpg",
+  "created_at": "2026-09-03T19:46:16.554451+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

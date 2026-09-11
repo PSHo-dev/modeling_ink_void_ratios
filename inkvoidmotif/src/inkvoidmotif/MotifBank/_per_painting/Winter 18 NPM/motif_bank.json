@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Winter 18 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:42:34.262983+00:00",
+  "motifs": [
+    {
+      "name": "upper_misty_mountain_wash",
+      "description": "Large pale ink-wash mountain mass rising behind the left-side scene, with soft grey-brown tonal blooms, feathered mist edges, and sparse contour hints. Isolate only the visible mountain wash and its irregular edge, excluding overlaid trees, blossoms, buildings, and paper marks.",
+      "bbox": [
+        0.32,
+        0.0,
+        0.27,
+        0.58
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "soft diluted grey-brown wash gradients",
+        "irregular feathered mountain silhouette",
+        "subtle vertical and diagonal contour traces",
+        "misty edges where the wash fades into blank space"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_misty_mountain_wash.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_snowy_cliff_pines",
+      "description": "Steep left foreground cliff and stacked dark evergreens, including snow-laden rock shelves and vertical pine clusters along the ridge. Exclude the lower-left calligraphy and seals.",
+      "bbox": [
+        0.07,
+        0.25,
+        0.27,
+        0.66
+      ],
+      "role": "foreground cliff and pine ridge",
+      "must_preserve": [
+        "dark broken ink strokes defining pine foliage",
+        "blue-grey snow highlights on rock and needles",
+        "rough dry-brush cliff texture",
+        "stepped vertical rhythm of trees and ledges",
+        "soft grey wash shadows on snow banks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_snowy_cliff_pines.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_plum_and_pine_cascade",
+      "description": "Cascading branch cluster on the upper central cliff: dark pine needles and angular plum branches with many small pink-red blossoms descending along the cliff edge.",
+      "bbox": [
+        0.28,
+        0.13,
+        0.15,
+        0.38
+      ],
+      "role": "flowering hillside vegetation",
+      "must_preserve": [
+        "black angular branch linework",
+        "dense pink blossom dots",
+        "dark triangular pine-needle strokes",
+        "white snowy negative spaces between branches",
+        "thin brown ink twigs following the cliff edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_plum_and_pine_cascade.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "hidden_cliff_pavilion_group",
+      "description": "Small roofed pavilion or cottage group tucked into the snowy middle-left cliff, with dark ink roof geometry, a small wall or doorway, surrounding rocks, pines, and plum branches.",
+      "bbox": [
+        0.28,
+        0.39,
+        0.25,
+        0.25
+      ],
+      "role": "mountain dwelling cluster",
+      "must_preserve": [
+        "sharp black roof outlines and eaves",
+        "small pale wall planes left as snow/negative space",
+        "dark rock base beneath the buildings",
+        "nearby pink plum blossoms on branching limbs",
+        "grey wash shadows binding buildings into the cliff"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_hidden_cliff_pavilion_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_plum_tree_bank",
+      "description": "Foreground plum tree growing from the lower-left snowy bank, with two dark trunks, long arching branches, scattered pink blossoms, small rocks, and pale snow ground.",
+      "bbox": [
+        0.13,
+        0.59,
+        0.32,
+        0.3
+      ],
+      "role": "foreground flowering tree and snow bank",
+      "must_preserve": [
+        "forked dark trunks with dry-brush texture",
+        "long sweeping branch arcs",
+        "individual pink blossom dots along twigs",
+        "small dark stones at the base",
+        "soft grey snow-bank wash and black edge strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_left_plum_tree_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_plum_grove_rock_ledge",
+      "description": "Dense central grove of plum trees on a rocky snow ledge, with several upright trunks, interlaced branches, pink blossoms, dark rock masses, and blue-grey snow accents.",
+      "bbox": [
+        0.43,
+        0.53,
+        0.32,
+        0.29
+      ],
+      "role": "midground flowering grove and rocks",
+      "must_preserve": [
+        "multiple vertical dark trunks",
+        "fine branching network",
+        "clusters of pink blossom dots",
+        "dark ink rock bases and ledges",
+        "blue-grey snow highlights on rocks",
+        "soft wash transitions behind the grove"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_plum_grove_rock_ledge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_water_and_isolated_rocks",
+      "description": "Open misty water or frozen river surface across the lower center-right, with pale grey wash, soft shoreline transitions, and several isolated dark rocks protruding from the water.",
+      "bbox": [
+        0.37,
+        0.7,
+        0.42,
+        0.25
+      ],
+      "role": "water surface and spatial mist",
+      "must_preserve": [
+        "broad pale grey horizontal wash",
+        "soft cloud-like water edges",
+        "isolated dark ink rocks with blue-grey highlights",
+        "subtle shoreline shadowing",
+        "empty negative space that separates foreground from far bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_misty_water_and_isolated_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

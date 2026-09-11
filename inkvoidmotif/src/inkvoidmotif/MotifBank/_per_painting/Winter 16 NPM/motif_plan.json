@@ -1,0 +1,153 @@
+{
+  "source_summary": "Chinese snowy landscape with steep pale mountains, temple architecture among pines, cliff pavilions, winter trees, a bridge, riverside village, and a small boat; inscriptions, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_snow_peak",
+      "description": "Isolate the tall snow-covered peak and descending left mountain mass, including the pale cliff face, ridge crest, ravines, and scattered dark vegetation patches, but excluding all nearby calligraphy and seals.",
+      "bbox": [
+        0.12,
+        0.06,
+        0.31,
+        0.58
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin gray contour lines along the peak and cliff edges",
+        "soft blue-gray wash on the shaded rock faces",
+        "unpainted snow reserves and pale mist-like blank areas",
+        "vertical crack linework and dry-brush ravines",
+        "small black stippled shrub clusters on ledges and lower slopes"
+      ]
+    },
+    {
+      "name": "upper_monastery_roofs",
+      "description": "Isolate the upper mountain monastery skyline: pagoda, layered tiled roofs, pale halls, and rows of windswept pines across the upper right ridge, avoiding adjacent red seals.",
+      "bbox": [
+        0.49,
+        0.16,
+        0.47,
+        0.22
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "stacked pagoda tiers with reddish-brown accents",
+        "fine dark roof-tile strokes and upturned roof edges",
+        "horizontal bands of pine needles above and behind roofs",
+        "faint gray wall washes and architectural outlines",
+        "delicate mist-softened building silhouettes in the background"
+      ]
+    },
+    {
+      "name": "red_cloister_pine_wall",
+      "description": "Isolate the lower monastery terrace with reddish walls, roofed corridors, vertical supports, and a screen of slender pines descending the snowy slope.",
+      "bbox": [
+        0.41,
+        0.29,
+        0.34,
+        0.17
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "muted red-orange wall washes",
+        "thin roof geometry and corridor lines",
+        "dark vertical posts and trunks",
+        "dense short pine-needle strokes along rooflines",
+        "snowy slope edge and pale gray retaining-wall texture"
+      ]
+    },
+    {
+      "name": "right_cliff_pavilion",
+      "description": "Isolate the cliffside pavilion with peaked roof, surrounding tall pines, and the snowy rock platform beneath it on the middle-right side.",
+      "bbox": [
+        0.61,
+        0.33,
+        0.3,
+        0.27
+      ],
+      "role": "pavilion",
+      "must_preserve": [
+        "triangular pavilion roof with fine ink outline",
+        "dark clustered pine needles around the roof and terrace",
+        "slender pine trunks descending beside the cliff",
+        "angular rock ledge contours and pale snow reserves",
+        "black stippled moss dots on cliff edges"
+      ]
+    },
+    {
+      "name": "central_gorge_pine_grove",
+      "description": "Isolate the central snowy ravine with layered rock shelves and the compact grove of straight, needle-like pines rising from the valley floor.",
+      "bbox": [
+        0.42,
+        0.47,
+        0.25,
+        0.22
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "vertical pine trunks with comb-like needle marks",
+        "soft gray washes defining stepped rock ledges",
+        "dark dotted moss clusters along ledge breaks",
+        "snow-white gaps between trees and rocks",
+        "fine dry-brush cracks in the ravine walls"
+      ]
+    },
+    {
+      "name": "arched_stone_bridge",
+      "description": "Isolate the low arched stone bridge crossing the stream near the lower left-center, with the adjoining snowy banks and light stream contours only.",
+      "bbox": [
+        0.1,
+        0.77,
+        0.31,
+        0.11
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "single rounded arch opening",
+        "thin ink lines describing the bridge parapet and stone surface",
+        "pale gray wash under the arch",
+        "snowy bank contours at both ends",
+        "subtle water-edge lines around the stream crossing"
+      ]
+    },
+    {
+      "name": "winter_village_trees",
+      "description": "Isolate the lower-right riverside village with cottages nestled among tall leafless winter trees and a small background stand of evergreens.",
+      "bbox": [
+        0.55,
+        0.6,
+        0.43,
+        0.32
+      ],
+      "role": "foreground village",
+      "must_preserve": [
+        "branching bare-tree linework with many fine twigs",
+        "dark textured trunks and root bases",
+        "small hut roofs and wall outlines tucked between trees",
+        "muted warm color accents on village walls",
+        "compact evergreen strokes behind the houses",
+        "snowy ground contours and bank edges"
+      ]
+    },
+    {
+      "name": "small_river_boat",
+      "description": "Isolate the tiny narrow boat on the lower river with its small figures and minimal water indication, without including the surrounding village or bridge.",
+      "bbox": [
+        0.37,
+        0.93,
+        0.22,
+        0.04
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "slender curved hull drawn with fine ink",
+        "tiny seated or standing figure marks",
+        "small pole or oar strokes",
+        "light gray shadow/water strokes beneath the boat",
+        "delicate scale relative to the open snowy river"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 16 NPM.jpg",
+  "created_at": "2026-08-27T22:39:08.998664+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

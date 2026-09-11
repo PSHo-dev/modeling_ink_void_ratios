@@ -1,0 +1,152 @@
+{
+  "source_summary": "Ink-and-light-color Chinese landscape with snowy/misty hills, clustered village roofs, bare winter trees, pines, rocky ravines, and a pale winding stream; inscription and red seals are excluded.",
+  "motifs": [
+    {
+      "name": "upper_ridge_hamlet",
+      "description": "Isolate the distant upper-center ridge with several small roofed structures, sparse dark trees, and pale snow/mist bands along the hill crest.",
+      "bbox": [
+        0.28,
+        0.12,
+        0.41,
+        0.26
+      ],
+      "role": "distant mountain village ridge",
+      "must_preserve": [
+        "tiny layered roof geometry with dark ink eaves",
+        "scattered upright tree trunks and dot foliage",
+        "soft grey dry-brush ridge texture",
+        "pale ochre wash accents on slopes",
+        "irregular white mist/snow edges separating the ridge from the background"
+      ]
+    },
+    {
+      "name": "mid_mountain_gateway",
+      "description": "Isolate the small central mountain building or gateway set into rocks, with a narrow path and enclosing dark washes.",
+      "bbox": [
+        0.36,
+        0.24,
+        0.13,
+        0.25
+      ],
+      "role": "mountain pavilion gateway",
+      "must_preserve": [
+        "dark angular roofline and central ridge cap",
+        "vertical support lines and arched opening",
+        "narrow pale path descending from the structure",
+        "surrounding crag strokes in grey ink",
+        "subtle peach-ochre wall and rock accents"
+      ]
+    },
+    {
+      "name": "left_foreground_village_compound",
+      "description": "Isolate the large foreground-left cluster of connected houses and courtyards with snow-covered roofs and peach-toned walls.",
+      "bbox": [
+        0.08,
+        0.41,
+        0.43,
+        0.22
+      ],
+      "role": "foreground village cluster",
+      "must_preserve": [
+        "long black roof outlines and white roof planes",
+        "small tower-like roof at the center-left of the compound",
+        "vertical wall posts in warm peach wash",
+        "courtyard wall geometry and overlapping building volumes",
+        "dry-brush ink edges showing snow on roofs"
+      ]
+    },
+    {
+      "name": "winter_orchard_thicket",
+      "description": "Isolate the foreground thicket of leafless winter trees and shrubs in front of the village, including branching trunks and low rocky ground.",
+      "bbox": [
+        0.0,
+        0.44,
+        0.43,
+        0.38
+      ],
+      "role": "foreground trees and shrubs",
+      "must_preserve": [
+        "expressive bare branch linework",
+        "dark clustered trunk bases",
+        "grey and ochre rock washes beneath the trees",
+        "fine twig networks crossing the lower foreground",
+        "small black foliage dots and dry-brush texture"
+      ]
+    },
+    {
+      "name": "right_mid_slope_pine_grove",
+      "description": "Isolate the middle-right snowy hillside with a dense row of small pines and dark dotted shrubs along terraced slopes.",
+      "bbox": [
+        0.5,
+        0.34,
+        0.31,
+        0.23
+      ],
+      "role": "midground wooded hillside",
+      "must_preserve": [
+        "closely spaced black pine dots and vertical trunks",
+        "curving snow-covered terrace edges",
+        "grey dry-brush rock texture",
+        "soft ochre wash on exposed earth",
+        "misty white negative spaces between slope bands"
+      ]
+    },
+    {
+      "name": "lower_right_roof_cluster",
+      "description": "Isolate the lower-right village buildings tucked below the pine slope, with overlapping sloped roofs, pale walls, and a descending path edge.",
+      "bbox": [
+        0.47,
+        0.53,
+        0.28,
+        0.19
+      ],
+      "role": "midground village cluster",
+      "must_preserve": [
+        "overlapping white roof planes outlined in ink",
+        "peach and tan wall washes",
+        "short vertical window or post strokes",
+        "diagonal path or wall lines linking the buildings",
+        "dark shrub dots around the structures"
+      ]
+    },
+    {
+      "name": "central_rocky_ravine_bridge",
+      "description": "Isolate the lower-center rocky ravine area with pale stream channel, small plank bridge or fence, and clustered stones.",
+      "bbox": [
+        0.38,
+        0.66,
+        0.27,
+        0.24
+      ],
+      "role": "foreground ravine crossing",
+      "must_preserve": [
+        "thin vertical fence or bridge slats",
+        "pale winding water channel left as negative space",
+        "rounded rock forms with grey contour strokes",
+        "ochre dry-brush accents on stones",
+        "dark ink dots marking vegetation along the ravine edge"
+      ]
+    },
+    {
+      "name": "right_foreground_cliffs_and_figure",
+      "description": "Isolate the right foreground cliff mass beside the pale stream, including the craggy rocks and the small dark robed figure near the lower path.",
+      "bbox": [
+        0.58,
+        0.58,
+        0.3,
+        0.36
+      ],
+      "role": "foreground cliffs with traveler figure",
+      "must_preserve": [
+        "large angular cliff outlines in grey ink",
+        "soft ochre washes on rock faces",
+        "white stream or path cutting vertically through the rocks",
+        "small dark human figure silhouette near the lower edge",
+        "black vegetation dots and dry-brush rock texture"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 17 MET.jpg",
+  "created_at": "2026-07-03T22:47:57.015620+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

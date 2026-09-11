@@ -1,0 +1,152 @@
+{
+  "source_summary": "Monochrome ink-and-wash Chinese landscape with layered cliffs, misty water, dense foreground trees, bamboo-like grove, and a small canopied boat carrying figures near the lower center. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_pine_mountain",
+      "description": "Isolate the pale ocher upper-left and upper-center mountain mass with sheer cliff faces, rounded plateaus, winding slopes, and clustered dark pine dots running along ridgelines and paths. Exclude the inscription and red seals on the upper right.",
+      "bbox": [
+        0.0,
+        0.09,
+        0.54,
+        0.29
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ocher wash over broad cliff planes",
+        "thin contour lines defining ledges and vertical drops",
+        "dark stippled pine clusters and needle-like tree marks",
+        "winding diagonal ridge path across the mountain",
+        "mist-softened edges where the mountain fades into background"
+      ]
+    },
+    {
+      "name": "mid_left_pine_saddle_ridge",
+      "description": "Isolate the middle-left saddle ridge descending from the high mountains, with a narrow pass, dark pine bands, exposed pale rock surfaces, and a small misty ravine separating upper and lower forms.",
+      "bbox": [
+        0.02,
+        0.3,
+        0.47,
+        0.18
+      ],
+      "role": "hillside ridge",
+      "must_preserve": [
+        "dense dark pine strokes following the crest",
+        "broken ink contour along the rocky edge",
+        "pale wash transitions suggesting mist-filled gaps",
+        "small scattered tree marks on the slope",
+        "irregular cliff silhouette"
+      ]
+    },
+    {
+      "name": "right_misty_far_mountains",
+      "description": "Isolate the broad, pale distant mountain range across the middle-right background, including its jagged upper contour, shallow overlapping peaks, and hazy wash below. Exclude calligraphy and seals above.",
+      "bbox": [
+        0.49,
+        0.33,
+        0.51,
+        0.27
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint ocher wash of receding cliffs",
+        "thin grey-brown outline of the ridge",
+        "overlapping interior peak contours",
+        "soft mist edge at the lower boundary",
+        "subtle horizontal water-wash bands near the base"
+      ]
+    },
+    {
+      "name": "left_foreground_gnarled_trees",
+      "description": "Isolate the dense foreground grove on the lower left: large twisted trunks, spreading branches, tangled leaf clusters, underbrush, and rock bases. Keep the grove as a reusable foreground mass without the boat.",
+      "bbox": [
+        0.0,
+        0.51,
+        0.61,
+        0.35
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "gnarled dark trunk linework",
+        "dense crisscross leaf and twig texture",
+        "exposed roots and rock outlines",
+        "tufts of vertical grasses at the base",
+        "layered ink washes inside the foliage masses"
+      ]
+    },
+    {
+      "name": "right_tall_bamboo_grove",
+      "description": "Isolate the tall vertical grove at lower right, with slender clustered trunks, drooping branchlets, sparse leaf strokes, and dark grass tufts around the base.",
+      "bbox": [
+        0.68,
+        0.52,
+        0.29,
+        0.36
+      ],
+      "role": "bamboo grove",
+      "must_preserve": [
+        "long vertical trunk strokes with varied ink density",
+        "bending top branches and drooping leaves",
+        "thin lateral branch lines",
+        "dark base shadows and grass tufts",
+        "transparent wash that lets the background water remain airy"
+      ]
+    },
+    {
+      "name": "central_calm_water_basin",
+      "description": "Isolate the calm central water surface and curving shoreline behind the boat, including the horizontal wash bands, pale open water, and soft bank contours. Exclude the boat and foreground trees as much as possible.",
+      "bbox": [
+        0.4,
+        0.55,
+        0.43,
+        0.27
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "broad empty misty wash of the water",
+        "subtle horizontal ripples and tonal bands",
+        "curving shoreline line at the lower edge",
+        "soft transitions into distant banks",
+        "minimal ink marks that create quiet space"
+      ]
+    },
+    {
+      "name": "canopied_scholar_boat",
+      "description": "Isolate the small boat near the lower center-right with its arched canopy, seated scholar, attendants, prow and stern curves, and the short landing fence or rail behind it.",
+      "bbox": [
+        0.43,
+        0.8,
+        0.31,
+        0.12
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "arched canopy geometry and panel lines",
+        "seated scholar figure under the canopy",
+        "small attendant figures at the bow and beside the cabin",
+        "curved hull outline and stern shape",
+        "fine ink details on clothing, faces, poles, and rail"
+      ]
+    },
+    {
+      "name": "lower_rocky_riverbank",
+      "description": "Isolate the lower foreground bank beneath the trees and boat: layered rock shelf, sloping earth forms, grasses, dark crevice strokes, and the curved ledge leading toward the water.",
+      "bbox": [
+        0.0,
+        0.82,
+        0.69,
+        0.18
+      ],
+      "role": "foreground bank",
+      "must_preserve": [
+        "dark broken contour lines along the rock shelf",
+        "tufted grass strokes in vertical clusters",
+        "pale earth wash on sloping ground",
+        "ink-dark crevices and underside shadows",
+        "curving bank silhouette that supports figures and trees"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 05 NPM.jpg",
+  "created_at": "2026-09-03T22:09:54.365485+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

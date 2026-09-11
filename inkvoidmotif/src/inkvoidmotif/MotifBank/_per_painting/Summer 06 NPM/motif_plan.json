@@ -1,0 +1,149 @@
+{
+  "source_summary": "Vertical Chinese landscape with distant misty hills, a broad rippled lake, steep right-side cliffs, densely textured wooded slopes, hidden pavilion roofs, foreground rocky shoreline, and a small lower-right stream/cascade. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_mountain_ridge",
+      "description": "Isolate the distant rounded mountain ridge in the upper left, including the ochre-green wash slopes, soft crest line, scattered dark tree dots along the summit, and fading lower edge where it dissolves into mist. Exclude seals and empty sky above.",
+      "bbox": [
+        0.0,
+        0.185,
+        0.46,
+        0.105
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft ochre and pale green washes",
+        "delicate ridge contour line",
+        "small black-blue tree and shrub dots on the crest",
+        "mist-softened lower slope edges"
+      ]
+    },
+    {
+      "name": "left_misty_foothills",
+      "description": "Isolate the lower band of misty foothills beneath the distant ridge at left, with pale layered slopes, sparse ink vegetation marks, and the atmospheric white gap separating hill forms. Exclude the lake ripples below.",
+      "bbox": [
+        0.0,
+        0.285,
+        0.43,
+        0.09
+      ],
+      "role": "misty hillside",
+      "must_preserve": [
+        "thin broken contour lines",
+        "faint yellow-green wash",
+        "small dotted shrubs along hill shoulders",
+        "soft white mist openings between overlapping slopes"
+      ]
+    },
+    {
+      "name": "broad_rippled_lake",
+      "description": "Isolate the visible lake surface across the left and middle of the painting, including the many fine horizontal and scalloped ripple strokes and pale wash variations. Do not include adjacent cliffs, rocks, trees, or buildings.",
+      "bbox": [
+        0.0,
+        0.38,
+        0.72,
+        0.45
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "fine parallel ripple linework",
+        "subtle gray-green wash bands",
+        "uneven hand-drawn wave rhythm",
+        "soft transitions where water fades into mist"
+      ]
+    },
+    {
+      "name": "right_sheer_cliff_face",
+      "description": "Isolate the tall right-side cliff mass below the inscription area, including the vertical rock planes, dark dotted texture, green-ochre washes, and clinging shrubs. Exclude calligraphy and seals on the upper right.",
+      "bbox": [
+        0.64,
+        0.315,
+        0.36,
+        0.47
+      ],
+      "role": "sheer cliff",
+      "must_preserve": [
+        "long vertical rock-striation lines",
+        "dense black texture dots following cracks",
+        "olive and ochre mineral washes",
+        "small shrub clusters attached to ledges",
+        "irregular cliff silhouette against mist"
+      ]
+    },
+    {
+      "name": "secluded_pavilion_roofs",
+      "description": "Isolate the partially hidden pavilion and building roof group nestled among trees on the middle-right slope, including visible gabled roof geometry, eaves, wall lines, and surrounding foliage that overlaps the structures. Exclude unrelated cliff faces beyond the immediate setting.",
+      "bbox": [
+        0.61,
+        0.625,
+        0.33,
+        0.155
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "angular tiled roof outlines",
+        "stacked pavilion roof tiers",
+        "thin architectural linework for walls and eaves",
+        "tree branches crossing in front of roofs",
+        "muted tan and gray wash accents"
+      ]
+    },
+    {
+      "name": "central_rocky_grove_peninsula",
+      "description": "Isolate the central rocky wooded peninsula projecting from the lower middle-left, with rounded green rock forms, dense shrub clusters, bare branching trees, and ink-dot texture. Exclude the pavilion roofs to the right and open lake to the left except where edges are needed.",
+      "bbox": [
+        0.24,
+        0.545,
+        0.41,
+        0.235
+      ],
+      "role": "wooded rocky hillside",
+      "must_preserve": [
+        "rounded boulder contours",
+        "black moss-dot texture",
+        "layered green and ochre washes",
+        "fine leafless branch networks",
+        "dark clustered foliage and shrub brushwork"
+      ]
+    },
+    {
+      "name": "foreground_pine_tree_grove",
+      "description": "Isolate the dense foreground grove across the lower center, including dark pine-like needle clusters, pale twisting trunks, leafless branchwork, overlapping shrubs, and rounded rocks at the base. Avoid including the lower-right cascade as a separate motif.",
+      "bbox": [
+        0.28,
+        0.72,
+        0.52,
+        0.22
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "dark clustered needle foliage",
+        "fine brown-gray branch linework",
+        "twisting pale trunks",
+        "overlapping bush masses",
+        "ink dots and stippled moss on rocks"
+      ]
+    },
+    {
+      "name": "lower_right_stream_cascade",
+      "description": "Isolate the small lower-right stream or cascade descending through rocks and trees, including the pale vertical water ribbons, bordering stones, and nearby foliage that frames the flow. Exclude the pavilion group above and broad foreground shoreline below where possible.",
+      "bbox": [
+        0.72,
+        0.785,
+        0.27,
+        0.18
+      ],
+      "role": "stream and cascade",
+      "must_preserve": [
+        "thin vertical water strokes",
+        "stepped rock edges around the cascade",
+        "dark foliage framing the water",
+        "soft green wash on adjacent stones",
+        "delicate contour lines showing the channel"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 06 NPM.jpg",
+  "created_at": "2026-08-06T22:42:41.628973+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,155 @@
+{
+  "source_summary": "Sparse Chinese ink landscape on warm silk ground with most painted forms concentrated along the lower and right edges: gnarled trees, rocky banks, a small traveler group, a thatched hut, distant shorelines, and broad empty water/mist space. Seals, signature, and fabric texture are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "upper_right_gnarled_tree",
+      "description": "Isolate the leafless, angular tree growing from the upper-right cliff edge, including its dark bent trunk, forked limbs, sparse twig strokes, small ink dots, and faint dry-brush tan wash around the branches. Exclude the lower hillside mass and nearby traveler area.",
+      "bbox": [
+        0.724,
+        0.276,
+        0.267,
+        0.292
+      ],
+      "role": "cliffside tree",
+      "must_preserve": [
+        "bold black kinked trunk line",
+        "thin broken twig linework",
+        "scattered ink-dot accents along the trunk",
+        "dry-brush tan wash halos around branches",
+        "asymmetric wind-bent branch geometry"
+      ]
+    },
+    {
+      "name": "right_grassy_cliff_slope",
+      "description": "Isolate the steep right-side earthen slope covered with dense diagonal grass and texture strokes. Include the dark contour lines, layered grey-brown washes, scrubby dots, and the sloping ridge face, but exclude the small hut below and the upper tree trunk as much as possible.",
+      "bbox": [
+        0.702,
+        0.568,
+        0.286,
+        0.268
+      ],
+      "role": "foreground hillside",
+      "must_preserve": [
+        "dense diagonal dry-brush grass strokes",
+        "dark ink ridge contours",
+        "grey-brown wash patches",
+        "speckled scrub dots at the slope base",
+        "rough eroded cliff edge"
+      ]
+    },
+    {
+      "name": "lower_right_thatched_hut",
+      "description": "Isolate the small hut at the lower right with a dark slanted roof and simple wall plane set among rocks. Include the roof geometry, black window or doorway marks, supporting strokes, surrounding ground shadows, and immediate rocky base. Exclude the artist signature and red seal at the far right edge.",
+      "bbox": [
+        0.688,
+        0.787,
+        0.264,
+        0.139
+      ],
+      "role": "hut",
+      "must_preserve": [
+        "tilted dark roof silhouette",
+        "rectangular wall face with black opening marks",
+        "short support and footing strokes",
+        "adjacent dark rock washes",
+        "fine ground texture around the hut"
+      ]
+    },
+    {
+      "name": "umbrella_traveler_group",
+      "description": "Isolate the small traveler or scholar group near the right slope, centered on the reddish-orange umbrella or hat form and tiny black figure strokes below it. Include the nearby delicate grasses and small gestural marks directly attached to the figures, but not the large hillside or hut.",
+      "bbox": [
+        0.768,
+        0.622,
+        0.086,
+        0.112
+      ],
+      "role": "figures",
+      "must_preserve": [
+        "muted red-orange umbrella accent",
+        "tiny black figure outlines",
+        "fine staff-like and garment strokes",
+        "small surrounding grass flicks",
+        "delicate scale contrast against the slope"
+      ]
+    },
+    {
+      "name": "central_twisted_pine",
+      "description": "Isolate the large twisted pine-like tree across the lower center, including its dark winding trunk, low sweeping branches, sparse needles, ochre foliage dabs, and exposed roots on the bank. Exclude the distant water and the right hillside except where immediately touching the roots.",
+      "bbox": [
+        0.237,
+        0.614,
+        0.498,
+        0.258
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thick sinuous black trunk",
+        "angular branching structure",
+        "short sparse needle clusters",
+        "ochre-brown dry foliage dabs",
+        "root-like strokes gripping the bank",
+        "ink dots and broken dry-brush bark texture"
+      ]
+    },
+    {
+      "name": "central_rocky_riverbank",
+      "description": "Isolate the low central foreground riverbank beneath the twisted tree: layered rocks, dark earth patches, horizontal water-edge lines, stippled pebbles, and grey-brown wash. Keep the bank shape and texture but avoid the tree canopy and hut.",
+      "bbox": [
+        0.307,
+        0.753,
+        0.446,
+        0.161
+      ],
+      "role": "foreground riverbank",
+      "must_preserve": [
+        "horizontal shoreline contour lines",
+        "dark rock patches and ink pools",
+        "stippled pebble dots",
+        "soft grey-brown washes",
+        "thin water ripples along the lower edge",
+        "dry-brush bank texture"
+      ]
+    },
+    {
+      "name": "left_distant_shore_and_water",
+      "description": "Isolate the quiet left-side distant shore with low landforms, soft dark washes, sparse shrub dots, and long horizontal water lines. Exclude the red seals along the left edge.",
+      "bbox": [
+        0.0,
+        0.657,
+        0.35,
+        0.251
+      ],
+      "role": "distant shore and water",
+      "must_preserve": [
+        "low flattened shoreline silhouettes",
+        "soft grey ink wash on distant land",
+        "tiny shrub and pebble dots",
+        "long thin horizontal water lines",
+        "open spacing that suggests misty water"
+      ]
+    },
+    {
+      "name": "middle_mist_shoreline",
+      "description": "Isolate the faint middle-distance shoreline and mist band running across the center-right: pale horizontal bank, subtle tan-grey wash, small rocks, dotted reeds, and soft broken edges. Exclude the upper empty silk ground and the lower foreground tree.",
+      "bbox": [
+        0.523,
+        0.44,
+        0.347,
+        0.147
+      ],
+      "role": "misty middle ground",
+      "must_preserve": [
+        "soft horizontal mist edge",
+        "pale tan-grey wash transitions",
+        "small isolated rock marks",
+        "dotted reed and shrub texture",
+        "broken dry-brush shoreline",
+        "minimal ink suggesting distance"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 07 MFA Boston.jpg",
+  "created_at": "2026-09-03T19:34:07.842489+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

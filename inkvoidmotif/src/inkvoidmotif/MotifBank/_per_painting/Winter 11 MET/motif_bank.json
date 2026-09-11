@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Winter 11 MET.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:41:00.072143+00:00",
+  "motifs": [
+    {
+      "name": "left_cliff_hut",
+      "description": "Small peach-washed hut perched on a pale snowy ledge at the left side, with angular black roof lines and surrounding soft cliff contours.",
+      "bbox": [
+        0.06,
+        0.38,
+        0.13,
+        0.16
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "peach color accent on hut walls",
+        "dark ink roof geometry and ridge line",
+        "soft snow-laden ledge edges",
+        "faint grey contour washes around the cliff",
+        "small dotted vegetation below the ledge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_cliff_hut.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_snow_cliffs",
+      "description": "Large central mass of snow-covered cliffs and peaks rising from the valley, with pale vertical washes, rounded rock faces, and dark textural dots.",
+      "bbox": [
+        0.3,
+        0.04,
+        0.5,
+        0.57
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "vertical grey wash streaks on cliff faces",
+        "rounded snow-blanketed rock silhouettes",
+        "dark stippled moss and rock texture",
+        "soft mist transitions at the lower cliff bases",
+        "thin contour lines defining overlapping peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_snow_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_mid_layered_bluffs",
+      "description": "Horizontal layered bluffs behind the central valley, with flattened terraces, dark dotted edges, and light grey brush texture.",
+      "bbox": [
+        0.24,
+        0.2,
+        0.23,
+        0.18
+      ],
+      "role": "distant hillside",
+      "must_preserve": [
+        "stacked horizontal ledge shapes",
+        "dark broken ink dots along ridge edges",
+        "pale grey dry-brush striations",
+        "snowy white negative-space caps",
+        "soft overlap into surrounding mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_mid_layered_bluffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_winding_path_shrubs",
+      "description": "Steep winding mountain path on the right side with dark brushy rail-like strokes, shrubs, and rock texture along a snowy slope.",
+      "bbox": [
+        0.76,
+        0.31,
+        0.16,
+        0.43
+      ],
+      "role": "mountain path",
+      "must_preserve": [
+        "zigzag path direction through snow",
+        "dark vertical and diagonal brush strokes suggesting shrubs or rails",
+        "brown-grey pebble stippling",
+        "soft pale path surface",
+        "dark wash shadows against the cliff wall"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_winding_path_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_winter_trees",
+      "description": "Group of gnarled leafless winter trees in the lower-left foreground, with dark twisting trunks and fine angular branchwork over snowy ground.",
+      "bbox": [
+        0.02,
+        0.62,
+        0.36,
+        0.35
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "black-brown twisting trunks",
+        "fine forked branch linework",
+        "snowy white gaps around branches",
+        "small blue-green and brown shrub dots at the base",
+        "uneven pale foreground slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_winter_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_stream",
+      "description": "Lower foreground rocky passage with rounded boulders, dark crevices, pebble clusters, and a narrow grey stream or path cutting between rocks.",
+      "bbox": [
+        0.48,
+        0.7,
+        0.41,
+        0.29
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded snow-covered boulder forms",
+        "dark ink crevice accents",
+        "brown and grey pebble stippling",
+        "soft grey wash in the stream/path channel",
+        "dry-brush rock texture and shadowed bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_stream.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

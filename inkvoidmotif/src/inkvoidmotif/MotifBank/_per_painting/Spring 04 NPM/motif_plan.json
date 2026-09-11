@@ -1,0 +1,153 @@
+{
+  "source_summary": "Chinese landscape painting with layered ink-wash mountains, willow groves, pine-dotted slopes, open spring pasture with grazing cattle and a shepherd, foreground trees, rocks, and shallow water. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "layered_distant_hills",
+      "description": "Isolate the pale blue-gray and tan distant hill chain across the left and center background, including the soft receding peaks behind the nearer ridge and the misty gaps between them.",
+      "bbox": [
+        0.0,
+        0.255,
+        0.61,
+        0.21
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft blue-gray washes on far peaks",
+        "faint tan hill silhouettes",
+        "mist-softened edges",
+        "thin contour lines on nearer low ridges",
+        "small dotted vegetation along ridge crests"
+      ]
+    },
+    {
+      "name": "high_right_mountain_slope",
+      "description": "Isolate the large upper-right mountain mass with sweeping diagonal ridges, rounded summit, dark vegetation dots, and dry-brush texture, excluding nearby calligraphy on the far right.",
+      "bbox": [
+        0.49,
+        0.095,
+        0.43,
+        0.385
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "layered dry-brush ridge strokes",
+        "rounded summit contour",
+        "dark ink-dot tree clusters along crests",
+        "pale ochre and gray wash texture",
+        "soft mist transition at lower slope"
+      ]
+    },
+    {
+      "name": "mid_right_pine_terraces",
+      "description": "Isolate the mid-right stand of dense upright trees and the adjacent terraced field bands beneath the mountain slope.",
+      "bbox": [
+        0.59,
+        0.34,
+        0.32,
+        0.19
+      ],
+      "role": "midground forest and fields",
+      "must_preserve": [
+        "vertical brown-gray tree trunks",
+        "dense dark green-black foliage dabs",
+        "horizontal terrace lines",
+        "pale green field wash",
+        "small dotted shrubs at field edges"
+      ]
+    },
+    {
+      "name": "central_willow_grove",
+      "description": "Isolate the broad midground willow grove stretching across the lower mountain base, with arched bare branches, low shrubs, and pale spring greenery.",
+      "bbox": [
+        0.075,
+        0.39,
+        0.61,
+        0.17
+      ],
+      "role": "willow grove",
+      "must_preserve": [
+        "fine curved willow branch linework",
+        "dark knotted trunks",
+        "light green stippled undergrowth",
+        "overlapping tree crowns",
+        "transparent wash around the grove edges"
+      ]
+    },
+    {
+      "name": "open_pasture_grazing_herd",
+      "description": "Isolate the open lower-left and central pasture with scattered grazing cattle, pale green meadow marks, and low field contours, excluding the seated figures at far left.",
+      "bbox": [
+        0.13,
+        0.555,
+        0.49,
+        0.285
+      ],
+      "role": "pasture with animals",
+      "must_preserve": [
+        "individual cattle outlines in fine ink",
+        "brown and gray body washes",
+        "short grass stipple marks",
+        "subtle horizontal meadow contours",
+        "spacing between animals across the field"
+      ]
+    },
+    {
+      "name": "shepherd_with_oxen",
+      "description": "Isolate the small shepherd figure holding a stick among grazing oxen on the mid-right meadow.",
+      "bbox": [
+        0.61,
+        0.51,
+        0.28,
+        0.13
+      ],
+      "role": "figure and animals",
+      "must_preserve": [
+        "tiny shepherd hat and robe outline",
+        "thin diagonal staff",
+        "distinct ox and cattle poses",
+        "light brown and gray animal washes",
+        "small green grass dabs around the feet"
+      ]
+    },
+    {
+      "name": "left_foreground_tree_scholars",
+      "description": "Isolate the left foreground leafless tree group with exposed trunks, nearby rocks, and the two small seated scholar figures beneath it.",
+      "bbox": [
+        0.0,
+        0.49,
+        0.19,
+        0.37
+      ],
+      "role": "foreground figures and tree",
+      "must_preserve": [
+        "branching black ink linework",
+        "warm brown trunk wash",
+        "small scholar robes and seated postures",
+        "rock outlines at the tree base",
+        "dark ground dots and grass marks"
+      ]
+    },
+    {
+      "name": "foreground_rocky_grove_stream",
+      "description": "Isolate the central foreground cluster of leafless trees, turquoise-green bamboo-like foliage, rocks, and shallow water/stream edge at the base of the slope.",
+      "bbox": [
+        0.27,
+        0.615,
+        0.54,
+        0.35
+      ],
+      "role": "foreground grove and rocks",
+      "must_preserve": [
+        "interlaced bare branch linework",
+        "orange-brown tree trunks",
+        "turquoise-green leaf accents",
+        "rounded ink-outlined rocks",
+        "dry-brush rocky slope texture",
+        "thin water-edge lines and pale wash"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 04 NPM.jpg",
+  "created_at": "2026-07-23T20:21:47.686616+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

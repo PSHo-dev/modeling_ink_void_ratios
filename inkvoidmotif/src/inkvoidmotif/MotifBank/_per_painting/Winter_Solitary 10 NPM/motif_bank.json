@@ -1,0 +1,161 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:20:55.756495+00:00",
+  "motifs": [
+    {
+      "name": "left_snow_mountain_mass",
+      "description": "Isolate the large pale mountain mass occupying the upper-left and center-left, including the rounded summit, adjoining left shoulder peaks, soft snow-like silhouettes, and faint tonal wash transitions.",
+      "bbox": [
+        0,
+        0.18,
+        0.62,
+        0.3
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "broad unoutlined pale wash forms",
+        "soft mist-blurred mountain edges",
+        "subtle ochre-gray tonal gradations",
+        "quiet negative-space snow surfaces",
+        "faint inner slope transitions without added texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_snow_mountain_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rounded_hill_ridges",
+      "description": "Isolate the middle stacked rounded hills below the main mountain, with overlapping arched ridge forms and dark dotted contour strokes along several crests.",
+      "bbox": [
+        0.17,
+        0.315,
+        0.45,
+        0.23
+      ],
+      "role": "middle hillside",
+      "must_preserve": [
+        "layered rounded ridge geometry",
+        "fine black dotted ridge accents",
+        "pale wash shadows between hill layers",
+        "soft descending slopes fading into mist",
+        "delicate separation lines between overlapping hills"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_rounded_hill_ridges.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mist_peaks_basin",
+      "description": "Isolate the receding right-side peak group and misty basin: pale angular peaks, a darker low valley hollow, and horizontal haze bands leading toward the water.",
+      "bbox": [
+        0.55,
+        0.28,
+        0.45,
+        0.24
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft-edged right peak silhouettes",
+        "layered atmospheric recession",
+        "gray-brown wash pool in the valley",
+        "horizontal mist bands",
+        "small dark dotted ridge marks on the nearer slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_mist_peaks_basin.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_winter_village_grove",
+      "description": "Isolate the dense midground cluster of leafless winter trees sheltering a small village compound, including trunks, tangled branches, roofs, fences, shrubs, and the snowy ground plane immediately around them.",
+      "bbox": [
+        0,
+        0.38,
+        0.58,
+        0.29
+      ],
+      "role": "village grove",
+      "must_preserve": [
+        "fine branching ink linework",
+        "dark textured tree trunks with broken brush edges",
+        "small roof geometry partly hidden by branches",
+        "low fence and railing strokes",
+        "stippling around shrubs and bank edges",
+        "pale winter ground washes between trunks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midground_winter_village_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_riverside_willow_boat",
+      "description": "Isolate the right-bank leaning tree and small boat scene: the arched bare tree over the water, the narrow bank, the tiny boat with vertical post or mast, and adjacent rippled water edge.",
+      "bbox": [
+        0.52,
+        0.49,
+        0.31,
+        0.2
+      ],
+      "role": "riverside boat scene",
+      "must_preserve": [
+        "leaning trunk curve and exposed roots",
+        "thin bare branch network reaching over water",
+        "small boat hull contour",
+        "single vertical post or mast on the boat",
+        "dark stippled bank edge",
+        "subtle water wash around the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_riverside_willow_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "open_river_sandbars",
+      "description": "Isolate the broad open river surface with pale horizontal water bands, sandbars, distant low banks, and small scattered dark marks in the open water.",
+      "bbox": [
+        0.43,
+        0.58,
+        0.57,
+        0.28
+      ],
+      "role": "water and sandbars",
+      "must_preserve": [
+        "nearly empty calm water wash",
+        "long horizontal sandbar shapes",
+        "soft misty transitions between water and shore",
+        "tiny scattered dark water marks",
+        "faint rippling brush lines",
+        "pale negative-space channels"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_open_river_sandbars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bare_tree_clump",
+      "description": "Isolate the large foreground clump of leafless trees rising from a low bank, with multiple textured trunks, forked branches, small shrubs, exposed roots, and nearby snowy shoreline contours.",
+      "bbox": [
+        0.11,
+        0.73,
+        0.51,
+        0.22
+      ],
+      "role": "foreground trees and bank",
+      "must_preserve": [
+        "gnarled clustered trunks",
+        "dense fine twig linework",
+        "dark dry-brush bark texture",
+        "root flares at the base",
+        "stippling along the mound and shrub masses",
+        "curving pale shoreline outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_bare_tree_clump.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

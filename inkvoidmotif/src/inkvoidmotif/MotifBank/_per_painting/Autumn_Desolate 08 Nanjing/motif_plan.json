@@ -1,0 +1,157 @@
+{
+  "source_summary": "Ink-and-wash Chinese landscape with inscription area above (excluded). The usable motifs are in the lower half: layered mountains and hills on the left, a quiet water expanse, distant shore and hills, bare winter trees, a small boat with a seated figure, foreground rocks, and sparse shrubs.",
+  "motifs": [
+    {
+      "name": "central_ink_mountain_massif",
+      "description": "Isolate the main rounded mountain massif in the left-middle of the painting, including the high central peak, adjacent sloping ridges, clustered dark ink vegetation dots, pale grey washes, dry contour lines, and the lower foothill forms that descend toward the water.",
+      "bbox": [
+        0.05,
+        0.32,
+        0.57,
+        0.28
+      ],
+      "role": "main mountain and hillside",
+      "must_preserve": [
+        "rounded peak silhouette with soft broken outline",
+        "layered grey wash texture on slopes",
+        "dry arcing contour strokes following the hill forms",
+        "dark oval vegetation dots scattered along ridges and gullies",
+        "small rocky protrusions embedded in the lower foothills",
+        "misty open negative space around the mountain edges"
+      ]
+    },
+    {
+      "name": "left_receding_peak_and_gorge",
+      "description": "Isolate the paler distant peak and narrow gorge at the far left behind the main massif, including the triangular washed mountain, dark inner rock strokes, and diagonal valley edge entering from the left margin.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.25,
+        0.16
+      ],
+      "role": "distant mountain and gorge",
+      "must_preserve": [
+        "soft translucent grey triangular peak",
+        "darker craggy ink strokes inside the gorge",
+        "diagonal left-edge slope line",
+        "faint mist-softened boundaries",
+        "small dark vegetation dots near the lower slope"
+      ]
+    },
+    {
+      "name": "midground_shoreline_flats",
+      "description": "Isolate the thin horizontal midground shoreline and flat riverbank forms behind the open water, including the low layered ink lines, small bank shapes, pale washes, and subtle horizontal reflections just below the mountains.",
+      "bbox": [
+        0.4,
+        0.5,
+        0.43,
+        0.09
+      ],
+      "role": "midground shore and water edge",
+      "must_preserve": [
+        "fine horizontal shoreline strokes",
+        "thin layered water/reflection lines",
+        "small dark bank accents",
+        "pale grey wash transitions",
+        "low flat landforms separating mountain from water"
+      ]
+    },
+    {
+      "name": "distant_right_hills",
+      "description": "Isolate the faint low hills on the right horizon across the water, with soft silhouettes, light washes, and the narrow dark shoreline at their base.",
+      "bbox": [
+        0.73,
+        0.48,
+        0.26,
+        0.07
+      ],
+      "role": "distant hills",
+      "must_preserve": [
+        "low undulating hill silhouettes",
+        "transparent grey wash",
+        "thin dark base line along the shore",
+        "misty separation from the water",
+        "minimal sparse brushwork"
+      ]
+    },
+    {
+      "name": "tall_winter_trees",
+      "description": "Isolate the pair of tall bare winter trees in the right foreground, including the two vertical trunks, branching crowns, sparse dark leaf clusters, and dry angular twigs extending left and right.",
+      "bbox": [
+        0.58,
+        0.43,
+        0.32,
+        0.45
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "two tall wavering trunks with double contour strokes",
+        "dry-brush bark texture and pale wash inside trunks",
+        "angular leafless branches and twig tips",
+        "dark clustered leaves or needles near branch joints",
+        "crossing branch silhouettes in varied ink density",
+        "open gaps between branches"
+      ]
+    },
+    {
+      "name": "foreground_rock_ledge",
+      "description": "Isolate the large foreground rock ledge at the base of the trees on the lower right, including the rounded rock mass, dark ink accents, grey wash, small ground strokes, and the immediate soil platform beneath the trunks.",
+      "bbox": [
+        0.51,
+        0.84,
+        0.42,
+        0.1
+      ],
+      "role": "foreground rock",
+      "must_preserve": [
+        "rounded ledge-like rock silhouette",
+        "dark oval texture dots and short broken strokes",
+        "soft grey interior wash",
+        "heavier dark contour along the upper edge",
+        "small ground lines at the base",
+        "tree-root connection points on the rock"
+      ]
+    },
+    {
+      "name": "small_boat_with_seated_figure",
+      "description": "Isolate the small narrow boat in the lower central water, including the long pointed hull, rib-like interior lines, faint wake, and the tiny seated figure near the stern.",
+      "bbox": [
+        0.32,
+        0.78,
+        0.34,
+        0.05
+      ],
+      "role": "boat and figure",
+      "must_preserve": [
+        "slender pointed hull outline",
+        "parallel rib strokes inside the boat",
+        "tiny seated figure silhouette with bent posture",
+        "small dark head and body marks",
+        "faint horizontal waterline and wake",
+        "delicate light ink linework"
+      ]
+    },
+    {
+      "name": "lower_left_bare_shrubs",
+      "description": "Isolate the sparse leafless shrubs in the lower-left foreground, including the low branching twigs, dry angular strokes, and faint ground/water marks around them, while excluding the nearby red seals.",
+      "bbox": [
+        0.05,
+        0.88,
+        0.36,
+        0.07
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "thin angular twig network",
+        "dry-brush broken branch tips",
+        "low spreading shrub silhouette",
+        "faint pale wash and ground lines",
+        "asymmetrical branch spacing",
+        "empty negative space around the shrubs"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 08 Nanjing.jpg",
+  "created_at": "2026-08-05T05:22:15.275447+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-light-color Chinese landscape with misty mountain ranges, dense pine/cedar slopes, a small riverside village with willows, foreground rocks and trees, and a narrow stream at the lower left. Calligraphy, seals, border, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "distant_right_mountain_massif",
+      "description": "High mist-washed mountain mass rising from the upper right, including the rounded peak, adjacent sharp summit at the far right, pale ridgelines, and soft cloud-like gaps around the slopes.",
+      "bbox": [
+        0.47,
+        0.09,
+        0.53,
+        0.41
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft gray ink washes defining the main peak",
+        "fine contour strokes along the ridges",
+        "pale mist edges where the mountain fades into blank sky",
+        "small dark texture strokes on the upper crest",
+        "subtle ocher-green color accents"
+      ]
+    },
+    {
+      "name": "central_forest_mountain_slope",
+      "description": "Dark wooded mountain face in the middle-right, formed by dense vertical evergreen marks and layered ink washes descending toward the village valley.",
+      "bbox": [
+        0.34,
+        0.19,
+        0.56,
+        0.39
+      ],
+      "role": "forested mountain",
+      "must_preserve": [
+        "closely spaced vertical tree strokes",
+        "dark ink massing at the lower right slope",
+        "horizontal wash bands suggesting terrain ledges",
+        "soft mist openings along the lower edge",
+        "green-gray tonal variation within the forest"
+      ]
+    },
+    {
+      "name": "left_distant_ridge_and_pines",
+      "description": "Layered distant hills on the left with jagged small peaks, pale ridges, and thin pine stands climbing the slopes.",
+      "bbox": [
+        0.0,
+        0.25,
+        0.48,
+        0.31
+      ],
+      "role": "distant hillsides",
+      "must_preserve": [
+        "sawtooth silhouettes of the small peaks",
+        "light ink wash recession between ridge layers",
+        "fine upright pine trunks and twiggy branches",
+        "short dark foliage dabs on the hillside",
+        "blank misty valley spaces between ridges"
+      ]
+    },
+    {
+      "name": "foreground_pine_grove_and_rocks",
+      "description": "Large foreground grove at lower left-center with leaning trunks, branching pines, shrubs, and boulders at their base.",
+      "bbox": [
+        0.0,
+        0.45,
+        0.48,
+        0.39
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "curving pale tree trunks with dark outlines",
+        "angular branching structure",
+        "clustered pine needles and foliage dabs",
+        "rounded boulder contours at the base",
+        "layered ink washes separating shrubs from rocks"
+      ]
+    },
+    {
+      "name": "lower_foreground_stream_cascade",
+      "description": "Narrow stream and small cascade entering from the lower left, with rippling water marks, dark banks, and rounded stones beside it.",
+      "bbox": [
+        0.0,
+        0.76,
+        0.27,
+        0.22
+      ],
+      "role": "foreground water",
+      "must_preserve": [
+        "curved ripple strokes in the water",
+        "small cascade-like dark strokes at the left edge",
+        "rounded shoreline stones",
+        "ink-dark bank contours",
+        "open paper gaps used as water highlights"
+      ]
+    },
+    {
+      "name": "central_village_roofs_bridge",
+      "description": "Compact riverside village cluster in the center-right, including small tiled roofs, wall lines, and the narrow bridge or walkway crossing in front of the buildings.",
+      "bbox": [
+        0.51,
+        0.55,
+        0.29,
+        0.14
+      ],
+      "role": "village and bridge",
+      "must_preserve": [
+        "precise roof geometry with dark eaves",
+        "thin horizontal and vertical wall lines",
+        "small bridge or walkway strokes over the watercourse",
+        "pale wash around the buildings to keep them embedded in mist",
+        "tiny dark accents suggesting posts and openings"
+      ]
+    },
+    {
+      "name": "willow_banks_around_village",
+      "description": "Slender willows and bank vegetation surrounding the village, with drooping branches on both sides of the roof cluster.",
+      "bbox": [
+        0.49,
+        0.49,
+        0.32,
+        0.22
+      ],
+      "role": "willows and riverside trees",
+      "must_preserve": [
+        "long downward willow fronds",
+        "thin trunk lines",
+        "light ocher-green washes in the foliage",
+        "delicate branch tips around the rooftops",
+        "soft transitions into surrounding mist"
+      ]
+    },
+    {
+      "name": "lower_right_riverbank_rocks_shrubs",
+      "description": "Low rocky riverbank and shrubs at the lower right, stopping before the red seal, with layered mounds, small trees, and pale water margins.",
+      "bbox": [
+        0.65,
+        0.63,
+        0.24,
+        0.18
+      ],
+      "role": "right foreground bank",
+      "must_preserve": [
+        "low rounded rock mounds",
+        "short shrub and grass strokes",
+        "small upright tree marks near the bank",
+        "soft wash shadows under the rocks",
+        "blank water edge separating bank from village area"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 27 NPM.png",
+  "created_at": "2026-07-16T23:38:52.331933+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,118 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Leisure 11 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:38:57.111691+00:00",
+  "motifs": [
+    {
+      "name": "left_cliff_rock_bank",
+      "description": "Isolate the tall eroded rock bank rising along the left edge, including the sweeping vertical cliff contours, fissures, dark ink accents, root-like base forms, and pale ink washes; exclude seals, the landing structure, boat, and separate leaf sprays where possible.",
+      "bbox": [
+        0.0,
+        0.11,
+        0.145,
+        0.72
+      ],
+      "role": "left rocky bank",
+      "must_preserve": [
+        "long tapering cliff outline strokes",
+        "thin internal crack lines",
+        "soft gray-brown wash texture",
+        "dark ink notches and hollows at the base",
+        "curving root-like rock forms near the waterline"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_cliff_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "covered_ferry_boat",
+      "description": "Isolate the long covered river boat, including the pointed hull, roofed cabin, railings, posts, oar/pole fittings, and passengers seated or standing on board; exclude nearby landing, foreground rocks, and willow branches not touching the boat.",
+      "bbox": [
+        0.164,
+        0.638,
+        0.377,
+        0.205
+      ],
+      "role": "boat with passengers",
+      "must_preserve": [
+        "slender double hull outline",
+        "arched canopy roof and scalloped eave marks",
+        "rectangular railing and cabin post geometry",
+        "fine figure linework inside and beside the cabin",
+        "long diagonal boat pole",
+        "subtle ink wash on roof and hull"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_covered_ferry_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_low_willow_thicket",
+      "description": "Isolate the lower central willow thicket behind and around the boat roof, with rounded clumps of pendant leaves and thin branching stems; exclude the boat cabin and the taller right willow trunks.",
+      "bbox": [
+        0.415,
+        0.545,
+        0.205,
+        0.255
+      ],
+      "role": "midground willow thicket",
+      "must_preserve": [
+        "rounded masses of drooping leaves",
+        "repeated fine leaf strokes",
+        "thin forked branch lines",
+        "dark ink accents at leaf bases",
+        "soft transparent wash within the foliage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_low_willow_thicket.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_tall_willow_grove",
+      "description": "Isolate the large willow grove on the right, including the tall leaning trunks, arching branches, dense hanging curtains of leaves, and the smaller adjacent tree stems; exclude foreground rocks, boat, seals, and empty paper.",
+      "bbox": [
+        0.555,
+        0.375,
+        0.32,
+        0.555
+      ],
+      "role": "dominant right willow grove",
+      "must_preserve": [
+        "curving trunk outlines with textured bark washes",
+        "arching branch structure",
+        "long pendant leaf curtains",
+        "individual leaf clusters in dark ink",
+        "open gaps between foliage masses",
+        "subtle tonal variation in trunks and leaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_tall_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocks_and_shrubs",
+      "description": "Isolate the foreground rock garden at the bottom center, including jagged rocks, low shrubs, small leafy plants, and the base of the willow trunk where it joins the rocks; exclude the boat and broad water surface.",
+      "bbox": [
+        0.215,
+        0.825,
+        0.445,
+        0.175
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "angular rock contour lines",
+        "wrinkled texture strokes and dark crevices",
+        "soft gray-brown rock washes",
+        "small clustered shrub leaves",
+        "tiny plant stems and ink dots",
+        "organic transition into the willow-root base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocks_and_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 01 Shanghai M.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:33:44.082425+00:00",
+  "motifs": [
+    {
+      "name": "flying_geese_flock",
+      "description": "Small flock of dark birds/geese flying diagonally in the upper-right sky, separated from surrounding reeds and hills.",
+      "bbox": [
+        0.748,
+        0.125,
+        0.227,
+        0.083
+      ],
+      "role": "sky accent",
+      "must_preserve": [
+        "tiny dark wing silhouettes",
+        "diagonal rising formation",
+        "individual spacing between birds",
+        "crisp ink marks against open sky"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_flying_geese_flock.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_reed_bank_with_boat",
+      "description": "Sloping upper-right reed bank with a narrow moored boat partly hidden among grasses; include the hull, dark cabin-like bundle, upright posts, and dense crossing reed strokes, excluding distant hills and lower rocks.",
+      "bbox": [
+        0.347,
+        0.293,
+        0.651,
+        0.154
+      ],
+      "role": "boat and riverside reeds",
+      "must_preserve": [
+        "thin angular boat hull linework",
+        "dark ink mass on stern or covered cargo",
+        "upright post details",
+        "long sweeping reed blades",
+        "overlapping dry-brush grass texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_reed_bank_with_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_walking_fisherman",
+      "description": "Lone standing/walking figure carrying a long fishing pole over the shoulder; include hat/head, robe folds, bare legs, sandals, dangling basket or gear, and the full diagonal pole.",
+      "bbox": [
+        0.346,
+        0.388,
+        0.271,
+        0.364
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "fine contour linework of robe and limbs",
+        "long diagonal fishing pole",
+        "bundle or basket hanging at side",
+        "ink accents on head and clothing folds",
+        "walking stance with separated feet"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_central_walking_fisherman.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_rocky_slope_reeds",
+      "description": "Central sloping earthen bank and rock outcrop behind the figure, with dark boulders, dry-brush texture, and right-side reed thickets; exclude the figure and upper boat as much as possible.",
+      "bbox": [
+        0.356,
+        0.463,
+        0.641,
+        0.263
+      ],
+      "role": "midground hillside and rocks",
+      "must_preserve": [
+        "broad sloped wash forming bank",
+        "dark rock contours and interior texture strokes",
+        "small scattered stones",
+        "thin reed blades crossing the right edge",
+        "soft waterline washes below the rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_rocky_slope_reeds.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_tree_rock",
+      "description": "Large foreground left gnarled tree/root and rock formation with bare angular branches and clustered shrubs at its base; isolate from the central figure and lower-right rocks.",
+      "bbox": [
+        0.0,
+        0.613,
+        0.471,
+        0.34
+      ],
+      "role": "foreground rock and tree",
+      "must_preserve": [
+        "twisted trunk/root contour",
+        "dark dry-brush bark texture",
+        "angular leafless branch network",
+        "dense shrub strokes and dots",
+        "heavy shaded rock base with pale exposed edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_twisted_tree_rock.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

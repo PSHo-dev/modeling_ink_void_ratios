@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-wash Chinese landscape with a dominant left-side pine and rocky cliff, pale layered mountains and mist/water in the middle distance, and foreground banks with shrubs, grasses, and gnarled leafless trees. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_cliff_saplings",
+      "description": "Isolate the upper-left rocky cliff face with thin vertical rock contour lines and sparse leaning saplings emerging from the edge. Include the small dark leaf clusters and dry-brush cliff striations only, without the blank sky/mist beyond what is needed around the strokes.",
+      "bbox": [
+        0.0,
+        0.035,
+        0.245,
+        0.24
+      ],
+      "role": "cliff and sparse trees",
+      "must_preserve": [
+        "fine ink outline of cliff edge",
+        "vertical dry-brush rock texture",
+        "thin sapling trunks and forked twigs",
+        "small dark leaf-dot clusters",
+        "soft pale wash defining the cliff mass"
+      ]
+    },
+    {
+      "name": "left_massive_pine_trunks",
+      "description": "Isolate the large old pine trunks rising along the left side, including exposed roots, twisting bark, lower knots, and the dark pine-needle masses attached to the trunks. Avoid including the central horizontal branch canopy except where it joins the trunk.",
+      "bbox": [
+        0.0,
+        0.255,
+        0.315,
+        0.64
+      ],
+      "role": "foreground pine trunks",
+      "must_preserve": [
+        "gnarled root shapes at the cliff base",
+        "dark ink bark ridges and longitudinal striations",
+        "twisting trunk silhouettes",
+        "dense pine needle stippling",
+        "strong dark contour lines against pale rock wash"
+      ]
+    },
+    {
+      "name": "central_windblown_pine_branch",
+      "description": "Isolate the broad windblown pine limb extending from the left trunk across the center, with twisting branch structure and scattered pine-needle tufts. Include the curved main branch, smaller offshoots, and hanging needle clusters, but not the distant mountains behind it.",
+      "bbox": [
+        0.18,
+        0.345,
+        0.56,
+        0.185
+      ],
+      "role": "overhanging pine branch",
+      "must_preserve": [
+        "sinuous main branch line",
+        "broken dry-brush bark strokes",
+        "radiating twig offshoots",
+        "clustered pine needles rendered as fine dark strokes",
+        "irregular ink-wash shadow under the branch"
+      ]
+    },
+    {
+      "name": "mid_left_rocky_lantern_peak",
+      "description": "Isolate the angular rocky outcrop just below the central pine, including the small upright rock spires and shaded crevices on the slope. Keep the sharp rock linework and dark wash pockets, excluding the large trunk above and foreground shrubs below.",
+      "bbox": [
+        0.235,
+        0.61,
+        0.235,
+        0.17
+      ],
+      "role": "rock outcrop",
+      "must_preserve": [
+        "angular pointed rock silhouettes",
+        "ink outlines with broken texture strokes",
+        "dark crevice washes",
+        "pale ochre-brown rock wash",
+        "small attached grasses and root-like lines"
+      ]
+    },
+    {
+      "name": "hanging_bamboo_thicket",
+      "description": "Isolate the drooping bamboo-like foliage descending from the central slope toward the middle, with slender stems and many narrow leaves. Include the fine leaf clusters and lightly washed supporting bank only where attached.",
+      "bbox": [
+        0.38,
+        0.535,
+        0.235,
+        0.205
+      ],
+      "role": "bamboo and hillside foliage",
+      "must_preserve": [
+        "thin flexible bamboo stems",
+        "paired narrow leaf strokes",
+        "delicate dark ink leaf tips",
+        "subtle pale hillside wash behind the foliage",
+        "small branching joints along the stems"
+      ]
+    },
+    {
+      "name": "distant_layered_mountains_mist",
+      "description": "Isolate the pale middle-distance mountain range and misty water/valley band across the right half, including the soft triangular peaks and layered silhouettes. Exclude foreground trees and any seals at the lower right edge.",
+      "bbox": [
+        0.46,
+        0.515,
+        0.54,
+        0.205
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "soft-edged mountain contours",
+        "overlapping layered peak silhouettes",
+        "transparent pale brown-gray wash",
+        "misty horizontal transition into open water/sky",
+        "minimal ink linework and subdued tonal gradation"
+      ]
+    },
+    {
+      "name": "mid_right_leafless_grove",
+      "description": "Isolate the cluster of small leafless trees on the rocky promontory in the lower middle-right, including branching twig networks, dark knotted trunks, and the uneven rock base. Avoid the red seal and unrelated far-right lower edge.",
+      "bbox": [
+        0.48,
+        0.665,
+        0.405,
+        0.16
+      ],
+      "role": "leafless grove on rocks",
+      "must_preserve": [
+        "fine angular twig linework",
+        "gnarled dark trunk knots",
+        "irregular rocky promontory outline",
+        "short grass strokes at the base",
+        "light wash separating rock from misty water"
+      ]
+    },
+    {
+      "name": "foreground_rolling_bank_shrubs",
+      "description": "Isolate the lower foreground rolling bank with grasses, small shrubs, and low rounded rocks. Include the sloping earth forms, clumps of grass, and small leafy bushes, while excluding the bottom-left seal and outer border area.",
+      "bbox": [
+        0.025,
+        0.83,
+        0.7,
+        0.145
+      ],
+      "role": "foreground bank and shrubs",
+      "must_preserve": [
+        "rounded contour of the earthen bank",
+        "dry-brush grass tufts",
+        "small clustered shrub leaves",
+        "low rock outlines and shaded hollows",
+        "soft ochre wash with darker ink accents"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 09 Cleveland.jpg",
+  "created_at": "2026-09-03T21:59:11.037252+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

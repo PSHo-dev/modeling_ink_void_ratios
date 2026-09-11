@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink landscape with a massive textured mountain descending along the left side, a pale misty distance to the right, and a lower garden-village compound among pines, bamboo, leafless trees, rocks, water, and a small bridge. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_craggy_peak",
+      "description": "Isolate the upper portion of the left mountain: rounded crags and stacked ridges rising from the left edge, with dense ink texture and small dark shrub clusters on ledges. Exclude nearby calligraphy and seals.",
+      "bbox": [
+        0.035,
+        0.055,
+        0.545,
+        0.225
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "layered contour linework wrapping around rounded rock forms",
+        "dry-brush hemp-fiber texture strokes",
+        "dark stippled vegetation along ridge tops and crevices",
+        "soft gray wash transitions on rock faces",
+        "irregular silhouette of the summit and side ridges"
+      ]
+    },
+    {
+      "name": "middle_slab_cliff",
+      "description": "Isolate the central descending mountain section with long vertical faces, diagonal shelf-like rock slabs, and dark brushy vegetation clinging to cracks. Avoid the red seals along the left margin and the village trees below.",
+      "bbox": [
+        0.045,
+        0.25,
+        0.62,
+        0.31
+      ],
+      "role": "mountain cliff",
+      "must_preserve": [
+        "long vertical ink streaks suggesting cliff faces and runoff",
+        "angular pale rock shelves with dark outlines",
+        "dense black scrub texture in crevices",
+        "alternating wet wash and dry-brush passages",
+        "broken edges where the cliff dissolves into mist"
+      ]
+    },
+    {
+      "name": "misty_right_peak",
+      "description": "Isolate the faint distant peak and atmospheric wash on the right side of the composition, including the pale vertical mountain silhouette emerging from open mist. Exclude inscriptions and seals.",
+      "bbox": [
+        0.685,
+        0.15,
+        0.26,
+        0.235
+      ],
+      "role": "mist and distant mountain",
+      "must_preserve": [
+        "very pale gray wash silhouette",
+        "soft feathered mist edges",
+        "subtle vertical peak form",
+        "low-contrast tonal transitions",
+        "empty surrounding air that gives the peak distance"
+      ]
+    },
+    {
+      "name": "left_pine_studio_grove",
+      "description": "Isolate the lower-left pine grove and studio area: dark full-needled pines, twisting trunks, a small architectural platform or study nook with railing, and the shaded rocks and terrace immediately around it.",
+      "bbox": [
+        0.0,
+        0.585,
+        0.5,
+        0.205
+      ],
+      "role": "foreground grove and pavilion",
+      "must_preserve": [
+        "dense pine-needle dot clusters and short bristle strokes",
+        "gnarled pale trunks outlined in ink",
+        "small railings and geometric architectural lines",
+        "bench or table-like interior detail",
+        "contrast between dark foliage masses and pale courtyard ground"
+      ]
+    },
+    {
+      "name": "central_walled_courtyard",
+      "description": "Isolate the central village/courtyard compound with tiled roofs, enclosing walls, gate-like fence panels, vertical tree trunks, and the small robed figure standing inside the courtyard.",
+      "bbox": [
+        0.3,
+        0.665,
+        0.525,
+        0.15
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "precise roof geometry with repeated diagonal tile hatching",
+        "straight wall and gate panel linework",
+        "small scholar figure with robe outline",
+        "slender tree trunks rising through the compound",
+        "pale open courtyard wash separating buildings and figures"
+      ]
+    },
+    {
+      "name": "right_bamboo_tree_grove",
+      "description": "Isolate the right-side vegetation group: bamboo thickets, leafless branch sprays, dark leafy trees, and tall trunks framing the courtyard edge. Exclude the red seals at the far right.",
+      "bbox": [
+        0.61,
+        0.555,
+        0.365,
+        0.28
+      ],
+      "role": "foreground trees and bamboo",
+      "must_preserve": [
+        "fine bamboo leaf clusters with repeated narrow strokes",
+        "leafless twig networks drawn with thin ink lines",
+        "dark rounded foliage masses built from stippling",
+        "multiple tree trunks with knotted bases",
+        "layering of bamboo behind heavier trees"
+      ]
+    },
+    {
+      "name": "right_bank_footbridge",
+      "description": "Isolate the small wooden footbridge or plank crossing at the lower right bank, including the short rail-like boards, stepped planks, adjacent rock lip, and waterline immediately around it.",
+      "bbox": [
+        0.705,
+        0.78,
+        0.245,
+        0.065
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "parallel plank lines and short cross-strokes",
+        "small stepped bridge geometry",
+        "thin waterline strokes beside the landing",
+        "rock contour supporting the bridge",
+        "delicate scale contrast against the surrounding shore"
+      ]
+    },
+    {
+      "name": "foreground_river_rocks",
+      "description": "Isolate the foreground river surface with scattered rocks and low banks across the bottom: rippling horizontal water lines, rounded ink-washed stones, and the larger central and left bank rocks. Exclude border marks and seals.",
+      "bbox": [
+        0.0,
+        0.805,
+        1.0,
+        0.19
+      ],
+      "role": "foreground water and rocks",
+      "must_preserve": [
+        "horizontal ripple lines across the water",
+        "rounded stones with dark dry-brush texture",
+        "large central rock with pale top plane and dark base",
+        "left bank rock mass with layered contour strokes",
+        "soft washes indicating shallow water around rock edges"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 26 NPM.png",
+  "created_at": "2026-08-05T05:17:06.342922+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

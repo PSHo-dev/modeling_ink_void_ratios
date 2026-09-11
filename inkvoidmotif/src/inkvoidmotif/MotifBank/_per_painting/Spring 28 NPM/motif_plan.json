@@ -1,0 +1,151 @@
+{
+  "source_summary": "Ink-wash Chinese landscape with broad empty sky occupied by inscriptions/seals, a distant river-and-hill panorama, layered rock mountains on the upper right, horizontal water shoals, and a foreground bank with bare trees, willows, and textured rocks. Calligraphy, seals, borders, and paper tone are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "left_distant_hills_water",
+      "description": "Isolate the pale distant shoreline and low rounded hills across the left middle, including the horizontal river bands and misty wash transitions but excluding inscriptions and seals above or below.",
+      "bbox": [
+        0.0,
+        0.302,
+        0.445,
+        0.105
+      ],
+      "role": "distant hills and water",
+      "must_preserve": [
+        "soft grey wash gradations forming low hills",
+        "thin horizontal ink lines suggesting river surface and shoreline",
+        "mist-softened hill edges",
+        "subtle darker strokes at the far-left waterline"
+      ]
+    },
+    {
+      "name": "central_cliff_mass",
+      "description": "Isolate the main vertical crag cluster in the upper middle-right: tall central rock face, adjacent rounded boulders, dark fissures, and the small ledges at its base.",
+      "bbox": [
+        0.432,
+        0.246,
+        0.305,
+        0.192
+      ],
+      "role": "midground mountain cliffs",
+      "must_preserve": [
+        "angular contour linework on the tall cliff face",
+        "dry-brush texture strokes and vertical cracks",
+        "layered rounded rock forms to the right",
+        "dark ink accents in crevices and ledges",
+        "pale wash modeling on rock planes"
+      ]
+    },
+    {
+      "name": "right_sloping_mountain_ridge",
+      "description": "Isolate the sweeping mountain slope and ridge mass on the far right, including the diagonal descent into the valley and the small lower right hillside continuation.",
+      "bbox": [
+        0.69,
+        0.135,
+        0.31,
+        0.28
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "long diagonal brush strokes defining the slope",
+        "soft grey wash transitions on the upper ridge",
+        "dark contour accents along ridgelines",
+        "rounded lower hill forms at the base",
+        "misty separation between ridge and central cliffs"
+      ]
+    },
+    {
+      "name": "midground_river_shoals",
+      "description": "Isolate the horizontal river flats and sandbar-like shoals running across the center beneath the mountains, including the narrow dark shoreline strokes and pale open water gaps.",
+      "bbox": [
+        0.145,
+        0.398,
+        0.69,
+        0.13
+      ],
+      "role": "midground water and shoals",
+      "must_preserve": [
+        "long horizontal ink strokes of varying density",
+        "pale unpainted water channels between shoals",
+        "soft wash pools on sandbars",
+        "thin dark shoreline accents",
+        "low misty edges where land dissolves into water"
+      ]
+    },
+    {
+      "name": "central_bare_tree_grove",
+      "description": "Isolate the dense foreground cluster of leafless trees rising from the lower center, including trunks, branching crowns, and the brushy shrub-like twigs around the bases.",
+      "bbox": [
+        0.218,
+        0.43,
+        0.335,
+        0.505
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "multiple vertical trunks with varied ink weight",
+        "fine calligraphic branch filaments and twig networks",
+        "dry-brush bark texture on trunks",
+        "dark knots and forked branch joints",
+        "small brushy shrub strokes around lower branches"
+      ]
+    },
+    {
+      "name": "right_willow_spray",
+      "description": "Isolate the softer willow-like tree mass to the right of the central grove, with hanging foliage strokes, leaning trunks, and drooping branch curtains.",
+      "bbox": [
+        0.5,
+        0.57,
+        0.195,
+        0.24
+      ],
+      "role": "foreground willow tree",
+      "must_preserve": [
+        "drooping vertical foliage strokes",
+        "soft grey wash behind hanging leaves",
+        "slender leaning trunks and branches",
+        "dark-to-light ink variation in foliage clusters",
+        "open gaps between branch curtains"
+      ]
+    },
+    {
+      "name": "left_foreground_rock_bank",
+      "description": "Isolate the left foreground rocky bank with layered ledges, pale ground wash, small upright saplings, and dark contour marks at the water’s edge.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.31,
+        0.265
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "stratified rock ledge linework",
+        "dry-brush dark accents on cliff-like edges",
+        "pale wash flats suggesting bank surface",
+        "small thin saplings at the left edge",
+        "horizontal ground strokes leading toward the grove"
+      ]
+    },
+    {
+      "name": "lower_right_rocky_promontory",
+      "description": "Isolate the low rocky promontory and shoreline to the lower right of the tree grove, including the rounded rock shelf, dark undercuts, and adjacent sparse grasses.",
+      "bbox": [
+        0.442,
+        0.775,
+        0.45,
+        0.145
+      ],
+      "role": "foreground rocky shoreline",
+      "must_preserve": [
+        "rounded rock contours and layered striations",
+        "dark dry-brush undercut shadows",
+        "thin shoreline lines extending rightward",
+        "small reed and grass strokes near the water edge",
+        "pale wash transitions around the rock base"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 28 NPM.jpg",
+  "created_at": "2026-08-05T05:29:54.992688+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

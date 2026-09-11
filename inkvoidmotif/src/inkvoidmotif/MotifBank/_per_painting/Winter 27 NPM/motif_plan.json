@@ -1,0 +1,164 @@
+{
+  "source_summary": "Tall Chinese landscape with monumental blue-green cliffs at left, pavilion architecture in the lower foreground, pine and bamboo clusters, a distant river with misty sandbars and boats, and small travelers on a riverside path. Calligraphy, seal marks, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_layered_cliffs",
+      "description": "Isolate the large upper-left mountain mass with rounded peaks, arching cliff faces, dark blue-green washes, stippled rock edges, and the leafy overhanging brush canopy crossing the top ridge.",
+      "bbox": [
+        0.0,
+        0.07,
+        0.48,
+        0.36
+      ],
+      "role": "mountain backdrop",
+      "must_preserve": [
+        "rounded ochre peak silhouettes",
+        "blue-green mineral wash on shaded cliff faces",
+        "black ink contour lines along rock edges",
+        "dense stippled texture at cliff seams",
+        "fine twig-and-leaf linework across the upper ridge",
+        "horizontal ledge lines and pale mist openings within the rock"
+      ]
+    },
+    {
+      "name": "central_needle_peak_pine_slope",
+      "description": "Isolate the narrow central rock pinnacle and adjoining sloped hill with a compact stand of vertical pines, including the pale cliff face and dark dotted texture along the ravine edge.",
+      "bbox": [
+        0.43,
+        0.25,
+        0.17,
+        0.31
+      ],
+      "role": "central mountain peak",
+      "must_preserve": [
+        "tall pale needle-like rock silhouette",
+        "dark ink outlines on both cliff edges",
+        "green-blue shaded ravine washes",
+        "small vertical pine trunks and needle clusters",
+        "stippled moss dots along the rock margins",
+        "soft transition into the lower slope"
+      ]
+    },
+    {
+      "name": "hidden_ravine_pavilions",
+      "description": "Isolate the small pavilion cluster tucked in the central ravine, with layered roofs, tiny railings, surrounding dark trees, and the enclosing cliff walls immediately around it.",
+      "bbox": [
+        0.3,
+        0.37,
+        0.18,
+        0.12
+      ],
+      "role": "distant pavilion group",
+      "must_preserve": [
+        "miniature tiled roof geometry",
+        "stacked roof eaves and ridge lines",
+        "tiny wall and railing details",
+        "dark tree mass below the buildings",
+        "surrounding vertical cliff washes",
+        "fine ink outlines that separate architecture from rock"
+      ]
+    },
+    {
+      "name": "distant_river_sandbars_boats",
+      "description": "Isolate the broad right-side river distance with pale horizontal sandbars, mist-like banks, long low shoreline contours, and the small sailing boats near the middle-right water.",
+      "bbox": [
+        0.55,
+        0.38,
+        0.44,
+        0.16
+      ],
+      "role": "distant water and boats",
+      "must_preserve": [
+        "thin horizontal ink lines marking sandbars",
+        "soft pale ochre riverbank shapes",
+        "misty negative-space water gaps",
+        "small boat hulls and triangular sails",
+        "delicate distant shoreline contours",
+        "subtle layered washes suggesting atmospheric depth"
+      ]
+    },
+    {
+      "name": "riverside_travelers_path",
+      "description": "Isolate the mid-right rocky riverside path with small traveler figures, a mounted rider or pack animal, attendants, low cliff edge, and surrounding water gaps.",
+      "bbox": [
+        0.66,
+        0.57,
+        0.31,
+        0.13
+      ],
+      "role": "figures on path",
+      "must_preserve": [
+        "tiny human figure linework",
+        "animal legs, head, and saddle/load details",
+        "thin path outline along the river edge",
+        "dark stippling on the low bank",
+        "small rocks and water cutouts around the path",
+        "scale contrast between figures and landscape"
+      ]
+    },
+    {
+      "name": "foreground_pavilion_complex",
+      "description": "Isolate the large lower-left multi-story pavilion compound built into the rocks, including curved tiled roofs, railings, columns, windows, decorative ridge ornaments, and the seated scholar visible inside the upper room.",
+      "bbox": [
+        0.07,
+        0.63,
+        0.39,
+        0.25
+      ],
+      "role": "foreground pavilion architecture",
+      "must_preserve": [
+        "layered sweeping roof geometry",
+        "rows of individual roof tiles",
+        "decorative roof-end ornaments",
+        "straight column and railing linework",
+        "window lattice patterns",
+        "interior seated scholar figure",
+        "warm red-brown architectural color accents",
+        "rock base and stair-like foundation immediately supporting the pavilion"
+      ]
+    },
+    {
+      "name": "left_foreground_pine_grove",
+      "description": "Isolate the dense foreground pines rising beside and behind the pavilion on the left, with tall trunks, exposed roots, rounded needle clusters, and dark mossy bases.",
+      "bbox": [
+        0.0,
+        0.47,
+        0.31,
+        0.36
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "long vertical pine trunks",
+        "gnarled branching structure",
+        "rounded radiating pine needle clusters",
+        "exposed root and bark linework",
+        "dark ink moss dots near bases",
+        "blue-green wash shadows on adjacent rocks",
+        "overlap of trees in front of cliff without pavilion architecture"
+      ]
+    },
+    {
+      "name": "foreground_twisted_tree_bamboo_rocks",
+      "description": "Isolate the lower-center gnarled tree and bamboo thicket over layered rocks, including twisting trunks, fine branch sprays, bamboo leaves, low shrubs, and shaded boulders.",
+      "bbox": [
+        0.32,
+        0.72,
+        0.43,
+        0.24
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "large twisting trunk contours",
+        "fine angular branch linework",
+        "clusters of narrow bamboo leaves",
+        "dense low shrub texture",
+        "rounded boulders with blue-green shadows",
+        "stippled rock edges and moss dots",
+        "interlaced roots crossing the foreground rock"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 27 NPM.jpg",
+  "created_at": "2026-09-03T21:25:07.869453+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

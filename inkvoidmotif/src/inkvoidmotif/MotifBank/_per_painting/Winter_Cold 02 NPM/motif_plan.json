@@ -1,0 +1,153 @@
+{
+  "source_summary": "Vertical ink-and-wash painting centered on a pheasant perched among pale rocks, with gnarled pine limbs, sparse winter saplings, bamboo leaves, and foreground rock bank; red seals and calligraphy are excluded from the motif bank.",
+  "motifs": [
+    {
+      "name": "upper_gnarled_pine_trunk",
+      "description": "Isolate the upper central gnarled pine trunk and branch junction, beginning below the top seal area: dark twisted trunk, knotted forks, broken side twigs, small clustered pine needles, and pale reserve edges around the ink.",
+      "bbox": [
+        0.364,
+        0.047,
+        0.301,
+        0.298
+      ],
+      "role": "upper pine / vertical tree structure",
+      "must_preserve": [
+        "heavy black trunk strokes with dry-brush breaks",
+        "irregular knotted branch forks",
+        "small dotted foliage clusters",
+        "pale ink-wash halos along trunk edges",
+        "thin hanging twig lines"
+      ]
+    },
+    {
+      "name": "central_arching_pine_limb",
+      "description": "Isolate the sweeping arched pine limb on the left-middle of the painting, curving upward and inward behind the bird, with attached dark foliage clumps and dangling vine-like strokes.",
+      "bbox": [
+        0.09,
+        0.196,
+        0.415,
+        0.303
+      ],
+      "role": "middle pine limb / structural tree form",
+      "must_preserve": [
+        "bold curved ink contour of the limb",
+        "wet black foliage blotches",
+        "dry-brush bark texture",
+        "long thin dangling lines",
+        "light wash transitions around the branch"
+      ]
+    },
+    {
+      "name": "left_winter_saplings",
+      "description": "Isolate the sparse leafless saplings at the left-middle side, with pale reserve stems, thin black branch tips, and small clustered ink accents; exclude nearby red seal marks.",
+      "bbox": [
+        0.075,
+        0.174,
+        0.187,
+        0.124
+      ],
+      "role": "bare shrubs / winter vegetation",
+      "must_preserve": [
+        "slender upright stems",
+        "forking bare branch tips",
+        "white-reserve twig edges",
+        "small dark ink dots at branch bases",
+        "soft gray wash around the stems"
+      ]
+    },
+    {
+      "name": "right_horizontal_pine_spray",
+      "description": "Isolate the rightward horizontal pine branch in the middle register, including its thin arcing branch line, drooping needle clusters, small dark foliage masses, and pale wash outline.",
+      "bbox": [
+        0.565,
+        0.332,
+        0.336,
+        0.087
+      ],
+      "role": "pine bough / lateral foliage accent",
+      "must_preserve": [
+        "long curved branch stroke",
+        "drooping pine needle clusters",
+        "dark blotched needle masses",
+        "fine trailing twig lines",
+        "soft pale edge wash following the bough"
+      ]
+    },
+    {
+      "name": "perched_pheasant",
+      "description": "Isolate the full pheasant perched on the rock, including head, beak, eye ring, neck collar, patterned body, folded wing, scaled breast marks, long tapering tail, and feet where visible; exclude the supporting rock except where visually inseparable at the feet.",
+      "bbox": [
+        0.054,
+        0.356,
+        0.589,
+        0.491
+      ],
+      "role": "bird figure / focal motif",
+      "must_preserve": [
+        "sharp beak and circular eye detail",
+        "dark neck collar and spotted throat",
+        "repeating scalloped feather pattern on back and wing",
+        "crescent marks across breast",
+        "long striped tail feathers",
+        "fine ink linework defining feather layers"
+      ]
+    },
+    {
+      "name": "central_perch_rock",
+      "description": "Isolate the pale central rock mass beneath and behind the pheasant, including its angular top ledge, dark vertical ink fissures, gray washes, and broken contour lines; do not include the bird body or bamboo spray.",
+      "bbox": [
+        0.145,
+        0.564,
+        0.529,
+        0.241
+      ],
+      "role": "perch rock / central rocky support",
+      "must_preserve": [
+        "angular pale rock planes",
+        "dark vertical fissure strokes",
+        "dry-brush black texture at the base",
+        "soft gray wash modeling",
+        "broken ink outlines along rock edges"
+      ]
+    },
+    {
+      "name": "lower_right_bamboo_spray",
+      "description": "Isolate the bamboo and twig spray emerging from the right side of the lower rock, including long narrow leaves, jointed stems, angular branchlets, and scattered dark ink accents.",
+      "bbox": [
+        0.544,
+        0.643,
+        0.422,
+        0.197
+      ],
+      "role": "bamboo / lower vegetation accent",
+      "must_preserve": [
+        "pointed bamboo leaves in black ink",
+        "thin segmented stems",
+        "angular branching twigs",
+        "small terminal ink dots",
+        "contrast between dark leaves and pale background wash"
+      ]
+    },
+    {
+      "name": "foreground_rock_bank_reeds",
+      "description": "Isolate the bottom foreground rock bank and grasses: broad pale rock surfaces, dark contour ridges, reed-like grass strokes at lower left, and gray wash texture across the stone.",
+      "bbox": [
+        0,
+        0.837,
+        1,
+        0.163
+      ],
+      "role": "foreground rock bank / ground plane",
+      "must_preserve": [
+        "bold black foreground contour line",
+        "pale reserved rock tops",
+        "gray dry-brush wash texture",
+        "reed and grass strokes at lower left",
+        "irregular dark rock accents and cracks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 02 NPM.jpg",
+  "created_at": "2026-08-05T05:56:21.429676+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

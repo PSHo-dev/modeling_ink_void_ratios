@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-wash Chinese landscape with tall dark pines on a left promontory, pale misty mountains and water across the middle distance, sparse right-bank trees, two small scholar figures in the foreground, twisted foreground pine branches, rocks, grasses, and bamboo-like shrubs. No calligraphy or seals are included as motifs.",
+  "motifs": [
+    {
+      "name": "left_tall_pine_grove",
+      "description": "Isolate the towering cluster of dark pines along the left edge: multiple slender trunks, a high bent crown, drooping side branches, and dense needle masses descending through the composition. Exclude the foreground scholars, lower sandbar, and distant mountains behind it.",
+      "bbox": [
+        0.0,
+        0.038,
+        0.412,
+        0.642
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "long vertical trunk linework with varied ink pressure",
+        "feathery pine-needle brush texture on drooping boughs",
+        "angular broken branch tips at the high crown",
+        "dark ink accents on bark splits and exposed trunks",
+        "overlapping layered branches that create depth against the pale wash"
+      ]
+    },
+    {
+      "name": "misty_distant_mountains",
+      "description": "Isolate the pale mid-to-background mountain range: soft triangular peaks near the center and rounded right-side hills fading into mist. Include only the mountain silhouettes and subtle ridge washes, not the left pines or foreground banks.",
+      "bbox": [
+        0.314,
+        0.267,
+        0.656,
+        0.324
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "faint peak outlines emerging from atmospheric wash",
+        "soft mist edges where slopes dissolve into the background",
+        "broad pale ochre-gray tonal washes",
+        "darker sparse ridge strokes on the right hills",
+        "layered recession from central pointed peaks to rounded side slopes"
+      ]
+    },
+    {
+      "name": "right_bank_sparse_trees",
+      "description": "Isolate the narrow right-side shoreline with sparse leafless trees and low shrubs extending over the water. Include the thin bank line and clustered branchwork at the far right, excluding the large mountain mass behind it.",
+      "bbox": [
+        0.715,
+        0.47,
+        0.285,
+        0.125
+      ],
+      "role": "midground shoreline trees",
+      "must_preserve": [
+        "fine wiry branch linework",
+        "low horizontal shoreline contour",
+        "small dark shrub texture at tree bases",
+        "delicate forked twigs reaching leftward",
+        "contrast between dry brush branches and pale water wash"
+      ]
+    },
+    {
+      "name": "open_mist_water_surface",
+      "description": "Isolate the broad quiet water or mist surface in the middle of the painting, including faint horizontal wash bands and the subtle distant shore line. Exclude foreground rocks, figures, trees, and mountain silhouettes except for the water-level atmospheric edges.",
+      "bbox": [
+        0.295,
+        0.545,
+        0.675,
+        0.258
+      ],
+      "role": "water and mist plane",
+      "must_preserve": [
+        "nearly empty ink-wash expanse",
+        "soft horizontal tonal transitions",
+        "thin distant shoreline strokes",
+        "muted atmospheric gradation from mountain base to foreground",
+        "quiet negative-space character essential to the composition"
+      ]
+    },
+    {
+      "name": "left_rocky_promontory",
+      "description": "Isolate the rocky ledge and sloping promontory beneath the left pines: dark ink rocks, root-like forms, grass tufts, and the pale sloping ground plane. Exclude the vertical pine trunks above as much as possible and exclude the foreground figures.",
+      "bbox": [
+        0.0,
+        0.628,
+        0.33,
+        0.213
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "bold dark rock outlines and angular cuts",
+        "dry-brush texture on rock faces",
+        "tufted grasses along the lower edge",
+        "curving pale bank contour",
+        "ink pooling and wash variation at the ledge base"
+      ]
+    },
+    {
+      "name": "low_bamboo_shrub_sprays",
+      "description": "Isolate the low bamboo-like shrub sprays stretching from the base of the left promontory toward the center: thin branching stems with small pointed leaves and light ink clusters. Do not include the tall pine trunks or the scholar figures.",
+      "bbox": [
+        0.132,
+        0.574,
+        0.375,
+        0.119
+      ],
+      "role": "foreground shrub and bamboo accent",
+      "must_preserve": [
+        "fine calligraphic stems",
+        "small pointed leaf clusters in repeated sprays",
+        "light dry-brush leaf tips",
+        "arching horizontal growth direction",
+        "delicate overlap with the pale ground wash"
+      ]
+    },
+    {
+      "name": "two_scholar_figures",
+      "description": "Isolate the two small foreground scholar figures standing on the bank: one upright robed figure with a dark head and long robe, and one seated or crouched companion nearby. Include their immediate ink shadows only, not the surrounding rocks or tree branches.",
+      "bbox": [
+        0.265,
+        0.775,
+        0.168,
+        0.106
+      ],
+      "role": "foreground figures",
+      "must_preserve": [
+        "thin robe contour lines",
+        "dark hair or cap accents",
+        "subtle pale robe wash",
+        "small gestural posture differences between standing and seated figures",
+        "minimal ground-shadow strokes anchoring the figures"
+      ]
+    },
+    {
+      "name": "twisted_foreground_pine_branch",
+      "description": "Isolate the large low twisted foreground tree and branch system sweeping across the lower right: sinuous trunk, exposed roots, bare twigs, and sparse pine-needle clusters at the far right and lower base. Exclude the two scholars and bottom-left rocks.",
+      "bbox": [
+        0.386,
+        0.748,
+        0.59,
+        0.178
+      ],
+      "role": "foreground twisted tree",
+      "must_preserve": [
+        "sinuous dark trunk contour with knot-like bends",
+        "fine bare twig extensions",
+        "fan-like sparse pine needles at branch ends",
+        "dry-brush bark texture and dark ink accents",
+        "root-like forms gripping the foreground bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 21 Shanghai.jpg",
+  "created_at": "2026-08-27T22:43:11.204960+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

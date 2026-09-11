@@ -1,0 +1,156 @@
+{
+  "source_summary": "Tall Chinese landscape dominated by gnarled pines, layered rocks, pale water channels, distant mist washes, and sparse bamboo/shrub accents. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_mist_bamboo_grove",
+      "description": "Isolate the loose upper-center grove of fine-leaved bamboo or leafy trees emerging from pale mist, including the staggered clusters of drooping foliage and faint horizontal wash bands behind them.",
+      "bbox": [
+        0.18,
+        0.24,
+        0.5,
+        0.18
+      ],
+      "role": "distant grove and mist",
+      "must_preserve": [
+        "delicate dark green-black leaf strokes",
+        "thin branching stems",
+        "soft horizontal mist wash edges",
+        "spacing between separate foliage clumps",
+        "subtle pale green-gray color accents"
+      ]
+    },
+    {
+      "name": "left_sweeping_pine_canopy",
+      "description": "Isolate the large pine mass entering from the left edge, with curved trunks and branches supporting dense starburst pine-needle clusters.",
+      "bbox": [
+        0.0,
+        0.39,
+        0.36,
+        0.29
+      ],
+      "role": "foreground pine canopy",
+      "must_preserve": [
+        "arching pale-brown branch linework",
+        "radial pine needle clusters",
+        "ink outlines along twisted limbs",
+        "small dotted bark and twig accents",
+        "layered green wash within needle masses"
+      ]
+    },
+    {
+      "name": "central_ancient_pine",
+      "description": "Isolate the monumental central gnarled pine, including its split trunk, exposed twisting roots, high branching structure, and surrounding needle clusters, but not the supporting rock mass as an independent object.",
+      "bbox": [
+        0.22,
+        0.34,
+        0.55,
+        0.54
+      ],
+      "role": "dominant foreground tree",
+      "must_preserve": [
+        "deeply contoured trunk ridges",
+        "twisted forked branches",
+        "radial pine-needle brushwork",
+        "dry-brush bark texture",
+        "pale tan trunk wash",
+        "dark ink knots and root lines"
+      ]
+    },
+    {
+      "name": "midground_layered_riverbank",
+      "description": "Isolate the horizontal midground riverbank and water channels behind the central pine, with terraced earth shelves, pale water openings, and low receding banks.",
+      "bbox": [
+        0.42,
+        0.48,
+        0.57,
+        0.15
+      ],
+      "role": "midground water and shore",
+      "must_preserve": [
+        "thin horizontal bank outlines",
+        "ochre-brown earth washes",
+        "pale unpainted water channels",
+        "layered recession of sandbars",
+        "soft broken dry-brush texture"
+      ]
+    },
+    {
+      "name": "right_midground_tree_cluster",
+      "description": "Isolate the right-side midground group of small trees and shrubs, including the taller drooping leafy tree, lower rounded shrub masses, and sparse bare-branched tree near the water.",
+      "bbox": [
+        0.68,
+        0.38,
+        0.3,
+        0.16
+      ],
+      "role": "midground tree cluster",
+      "must_preserve": [
+        "fine drooping leaf strokes",
+        "small grouped shrub crowns",
+        "thin bare twig linework",
+        "subtle green-gray washes",
+        "light separation from surrounding mist and water"
+      ]
+    },
+    {
+      "name": "central_foreground_rock_mass",
+      "description": "Isolate the large ochre-gray rock formation at the base of the central pine, including stacked boulders, ridged surfaces, crevices, and small dotted vegetation along ledges.",
+      "bbox": [
+        0.16,
+        0.64,
+        0.43,
+        0.25
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded boulder outlines",
+        "layered contour lines",
+        "ochre and gray wash modeling",
+        "dark crevice strokes",
+        "small dotted moss and shrub accents",
+        "dry-brush rock texture"
+      ]
+    },
+    {
+      "name": "right_cliff_bamboo_cluster",
+      "description": "Isolate the right-edge cliff and vegetation cluster with vertical bamboo-like foliage, a small rocky ledge, and interlaced dark branches descending along the margin.",
+      "bbox": [
+        0.82,
+        0.55,
+        0.18,
+        0.3
+      ],
+      "role": "side cliff with bamboo and shrubs",
+      "must_preserve": [
+        "vertical cascading leaf strokes",
+        "dark wiry branch network",
+        "angular rock face lines",
+        "warm ochre cliff wash",
+        "dense lower foliage texture",
+        "edge-hugging composition"
+      ]
+    },
+    {
+      "name": "lower_right_boulder_island",
+      "description": "Isolate the lower-right rounded boulder island with low bamboo tufts and shrubs, surrounded by pale water and soft shoreline washes.",
+      "bbox": [
+        0.57,
+        0.8,
+        0.39,
+        0.17
+      ],
+      "role": "foreground boulder island",
+      "must_preserve": [
+        "rounded rock contour bands",
+        "gray-ochre wash gradients",
+        "small bamboo leaf clusters",
+        "dark rootlike shrub marks",
+        "pale water boundary lines",
+        "soft shoreline transitions"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 24 NPM.jpg",
+  "created_at": "2026-07-16T23:18:55.879944+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,162 @@
+{
+  "source": "../../../../../../Input_Images/Summer 19 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T22:00:25.029529+00:00",
+  "motifs": [
+    {
+      "name": "distant_left_mist_peaks",
+      "description": "Soft, pale distant mountain silhouettes emerging from mist on the left middle of the composition, including the tall rounded peak and lower layered hill masses beside the water.",
+      "bbox": [
+        0.15,
+        0.23,
+        0.28,
+        0.19
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "translucent ink wash silhouettes",
+        "soft mist-blurred edges",
+        "subtle tonal layering between tall peak and lower hills",
+        "faint horizontal water haze at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_left_mist_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pine_cliff_mass",
+      "description": "Central towering rock mass with jagged vertical sides, ledges, clustered shrubs, and pine growth, forming the main mountain spine through the middle of the painting.",
+      "bbox": [
+        0.28,
+        0.24,
+        0.45,
+        0.4
+      ],
+      "role": "central mountain and pine hillside",
+      "must_preserve": [
+        "layered rock texture strokes",
+        "dark ink crevices along the vertical cliff",
+        "pine branch linework and needle clusters",
+        "small shrub dots and leaf clusters along ledges",
+        "irregular mist gaps cutting across the mountain",
+        "washed tonal transitions from dark foreground rock to pale background slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_pine_cliff_mass.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_lakeside_pavilion",
+      "description": "Elaborate pavilion or palace building floating beside misty water at mid-left, with layered roofs, railings, decorative eaves, and reflection-like horizontal ink marks beneath.",
+      "bbox": [
+        0.06,
+        0.45,
+        0.39,
+        0.12
+      ],
+      "role": "waterside architecture",
+      "must_preserve": [
+        "precise roof ridge and tiled eave linework",
+        "stacked pavilion roof geometry",
+        "balustrades and small ornamental posts",
+        "fine architectural interior lines",
+        "soft water reflection strokes below the building",
+        "misty separation from surrounding rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_left_lakeside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_waterfall_rapids",
+      "description": "Lower-left cascade and stream section with falling water over rocks, curling rapids, and dark foreground stones near the bank.",
+      "bbox": [
+        0.0,
+        0.64,
+        0.4,
+        0.16
+      ],
+      "role": "waterfall and stream",
+      "must_preserve": [
+        "parallel curved waterfall strokes",
+        "foamy spiral water patterns",
+        "dark rock outlines framing the falls",
+        "layered bank contours",
+        "fine ripple lines in the water",
+        "contrast between pale flowing water and ink-dark stones"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_lower_left_waterfall_rapids.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_bridge_cavalcade",
+      "description": "Lower-left foreground arched bridge with railings and several mounted travelers crossing it, including horses, riders, bridge posts, and water swirling below.",
+      "bbox": [
+        0.0,
+        0.78,
+        0.48,
+        0.15
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "bridge plank perspective and arched support geometry",
+        "upright railing posts and horizontal rails",
+        "fine outlines of horses and riders",
+        "individual horse legs and heads",
+        "flowing water curls beneath the bridge",
+        "delicate figure garments and reins"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_bridge_cavalcade.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "center_path_lone_rider",
+      "description": "Small mounted traveler on a narrow central path beneath the cliff, with the horse, rider, nearby attendant-like marks, and the enclosing rock face around the path.",
+      "bbox": [
+        0.43,
+        0.62,
+        0.15,
+        0.11
+      ],
+      "role": "scholar traveler figure",
+      "must_preserve": [
+        "small horse outline and legs",
+        "rider robe and head detail",
+        "thin vertical path linework",
+        "adjacent dark cliff edge",
+        "nearby brushy shrubs",
+        "scale contrast between tiny figure and massive rock"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_center_path_lone_rider.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mid_pine_grove",
+      "description": "Large right-side pine grove with sweeping branches, dense rounded needle clusters, twisting trunks, and rocky ground beneath, separate from the mounted figures below.",
+      "bbox": [
+        0.55,
+        0.55,
+        0.43,
+        0.2
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "radiating pine needle clusters",
+        "curving branch structure",
+        "dark ink accents on branch joints",
+        "twisted trunk linework",
+        "layered foliage density from pale to dark ink",
+        "rock and shrub texture at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_right_mid_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

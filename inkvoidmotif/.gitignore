@@ -1,0 +1,14 @@
+.env
+.venv/
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+runs/
+.DS_Store
+desktop.ini

@@ -1,0 +1,152 @@
+{
+  "source_summary": "Misty Chinese landscape with tree-covered hills, dense lakeside groves, a partially hidden pavilion, winding water and sandbars, and a gnarled foreground willow-like tree. Calligraphy, seals, borders, and paper texture are excluded from motif selection.",
+  "motifs": [
+    {
+      "name": "distant_wooded_ridge",
+      "description": "Faint upper-center band of rounded, tree-covered hills receding into mist, isolated from the blank sky and lower groves.",
+      "bbox": [
+        0.326,
+        0.25,
+        0.42,
+        0.18
+      ],
+      "role": "distant mountain and wooded hillside",
+      "must_preserve": [
+        "soft ink-wash hill silhouettes",
+        "granular dotted foliage texture",
+        "feathery ridge contours",
+        "mist-softened lower edges",
+        "subtle dark-to-light tonal variation"
+      ]
+    },
+    {
+      "name": "left_autumn_grove",
+      "description": "Large left-side grove of clustered trees with pale trunks, dense stippled foliage, and muted reddish autumn accents, excluding the lower-left calligraphy and seals.",
+      "bbox": [
+        0.0,
+        0.318,
+        0.335,
+        0.43
+      ],
+      "role": "foreground and midground grove",
+      "must_preserve": [
+        "vertical trunk linework",
+        "dense dot-and-dash leaf clusters",
+        "muted red-brown foliage accents",
+        "soft wash shadows at tree bases",
+        "layered tree depth from dark foreground to faint background"
+      ]
+    },
+    {
+      "name": "hidden_lakeside_pavilion",
+      "description": "Small pavilion tucked beneath trees near the lower-left center, including its roof, posts, railings, and immediate enclosing foliage but not the larger unrelated forest mass.",
+      "bbox": [
+        0.188,
+        0.535,
+        0.205,
+        0.185
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "slanted roof geometry",
+        "thin post and railing lines",
+        "dark ink accents under the eaves",
+        "nearby tree trunks partly obscuring the structure",
+        "pale wash around the building foundation"
+      ]
+    },
+    {
+      "name": "central_dense_copse",
+      "description": "Dense central cluster of tall trees with dark trunks and rounded stippled crowns rising in front of the distant hills.",
+      "bbox": [
+        0.3,
+        0.365,
+        0.245,
+        0.445
+      ],
+      "role": "central foreground trees",
+      "must_preserve": [
+        "closely spaced vertical trunks",
+        "dark clustered leaf dots",
+        "soft gray-green wash texture",
+        "occasional warm reddish foliage touches",
+        "irregular canopy edge against the mist"
+      ]
+    },
+    {
+      "name": "misty_right_copse",
+      "description": "Fainter mid-right stand of slender trees and shrubs emerging from atmospheric haze, separated from the central dense copse and open water.",
+      "bbox": [
+        0.535,
+        0.42,
+        0.17,
+        0.225
+      ],
+      "role": "misty midground trees",
+      "must_preserve": [
+        "pale vertical trunk strokes",
+        "blurred foliage dabs",
+        "mist-veiled lower trunks",
+        "soft disappearing edges",
+        "delicate sparse branch marks"
+      ]
+    },
+    {
+      "name": "river_sandbar_bend",
+      "description": "Winding river surface with pale sandbars and low banks across the middle-right, isolated from the foreground willow and pavilion grove.",
+      "bbox": [
+        0.485,
+        0.565,
+        0.34,
+        0.295
+      ],
+      "role": "water and sandbar surface",
+      "must_preserve": [
+        "broad translucent water washes",
+        "curving pale shoreline edges",
+        "low horizontal bank strokes",
+        "soft gray-brown island forms",
+        "subtle rippling and sediment textures"
+      ]
+    },
+    {
+      "name": "right_gnarled_willow",
+      "description": "Foreground right gnarled tree with twisting trunk, bare angular branches, drooping willow-like twigs, and sparse foliage tufts, cropped above the lower-right seal area.",
+      "bbox": [
+        0.735,
+        0.535,
+        0.24,
+        0.365
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "dark sinuous trunk contour",
+        "angular bare branch linework",
+        "long drooping twig strokes",
+        "small dark leaf clusters",
+        "contrast between heavy trunk ink and pale surrounding wash"
+      ]
+    },
+    {
+      "name": "foreground_layered_bank",
+      "description": "Low foreground riverbank and marshy shoreline bands across the lower center, with layered washes, small rocks, and grasses, avoiding all seals at the corners.",
+      "bbox": [
+        0.115,
+        0.795,
+        0.66,
+        0.155
+      ],
+      "role": "foreground shoreline",
+      "must_preserve": [
+        "horizontal layered wash bands",
+        "small dark rock and grass marks",
+        "soft muddy bank edges",
+        "thin pale water channels",
+        "broken ink texture along the shore"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 08 Cleveland.jpg",
+  "created_at": "2026-07-23T20:14:29.276268+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

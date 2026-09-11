@@ -1,0 +1,155 @@
+{
+  "source_summary": "Chinese landscape painting with mist-filled mountain ranges, layered cliffs, dotted tree textures, central wooded rocky terraces, foreground river with a small boat and figures, and lower banks with autumnal trees. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "central_towering_peak",
+      "description": "Isolate the tall central mountain massif rising above the valley, including the rounded summit, steep layered cliff faces, ledges, and clusters of dark dotted pines along ridges and shelves.",
+      "bbox": [
+        0.43,
+        0.1,
+        0.35,
+        0.35
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "fine ink contour lines defining folded rock strata",
+        "pale mineral wash and soft interior shading",
+        "dark pine-dot clusters on upper ridges and ledges",
+        "mist-softened lower edges where the cliffs dissolve into cloud",
+        "subtle ochre and green tonal accents on rock planes"
+      ]
+    },
+    {
+      "name": "left_misty_gorge_cliffs",
+      "description": "Isolate the left-side layered gorge with pale vertical peaks, receding cliff silhouettes, lower crags, and dotted vegetation along the ridgelines.",
+      "bbox": [
+        0.0,
+        0.19,
+        0.42,
+        0.28
+      ],
+      "role": "distant mountain and gorge",
+      "must_preserve": [
+        "soft blue-gray wash silhouettes of distant vertical peaks",
+        "thin curving cliff outlines and eroded rock folds",
+        "dark stippled tree dots on ridges and slopes",
+        "faded mist transitions between foreground and background cliffs",
+        "horizontal haze separating the cliff layers"
+      ]
+    },
+    {
+      "name": "right_receding_mountain_valley",
+      "description": "Isolate the right-side mountain group with tall background silhouettes, rounded midground hills, ravine-like openings, and pine-dotted shoulders.",
+      "bbox": [
+        0.7,
+        0.15,
+        0.3,
+        0.32
+      ],
+      "role": "receding mountain valley",
+      "must_preserve": [
+        "pale distant peak silhouettes at the far right",
+        "rounded contour linework of midground hills",
+        "small dark pine clusters on crests and slopes",
+        "misty basin shapes between the hills",
+        "light green-brown wash variations on the rock surfaces"
+      ]
+    },
+    {
+      "name": "central_valley_mist_bands",
+      "description": "Isolate the horizontal bands of cloud and mist drifting through the middle valley below the mountains, including scalloped cloud edges and translucent wash passages.",
+      "bbox": [
+        0.0,
+        0.47,
+        0.86,
+        0.15
+      ],
+      "role": "mist and cloud layer",
+      "must_preserve": [
+        "soft scalloped ink outlines of cloud banks",
+        "transparent pale wash texture",
+        "irregular mist edges that overlap the valley floor",
+        "layered horizontal spacing between cloud bands",
+        "delicate fading where mist meets mountain bases"
+      ]
+    },
+    {
+      "name": "middle_rocky_grove_island",
+      "description": "Isolate the central midground rocky island and wooded terrace with exposed roots, layered rock shelves, leafless trees, dark shrubs, red-leaf accents, and a sloping path-like ground form.",
+      "bbox": [
+        0.28,
+        0.49,
+        0.5,
+        0.22
+      ],
+      "role": "wooded foreground terrace",
+      "must_preserve": [
+        "gnarled tree trunks and fine branching linework",
+        "dark rounded shrub masses with dense stippling",
+        "red autumn leaf accents among bare branches",
+        "layered rock contours and root-like formations",
+        "small pine-dot textures along the banks and ridges",
+        "subtle green wash on shrubs and ground"
+      ]
+    },
+    {
+      "name": "river_boat_with_figures",
+      "description": "Isolate the small boat group floating on the open river, including the long narrow boat, seated scholar-like passenger, boatman with pole or oar, and the faint second hull/overlapping boat form.",
+      "bbox": [
+        0.37,
+        0.715,
+        0.26,
+        0.055
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "thin ink outline of the long narrow hull",
+        "small seated figure in pale robe",
+        "boatman posture with angled pole or oar",
+        "delicate facial and garment linework where visible",
+        "faint boat edges and minimal water indication around the hull"
+      ]
+    },
+    {
+      "name": "lower_left_autumn_bank",
+      "description": "Isolate the lower-left riverside bank with clustered trees, red-leaf branches, shrubs, sloping rock ledges, and pine-dot vegetation, excluding nearby seals at the page edge.",
+      "bbox": [
+        0.11,
+        0.76,
+        0.43,
+        0.16
+      ],
+      "role": "foreground riverbank grove",
+      "must_preserve": [
+        "fine bare-branch tree networks",
+        "red leaf accents on the upper left tree",
+        "dark stippled shrub masses near the base",
+        "curving rock ledge outlines along the bank",
+        "small black vegetation dots on the slopes",
+        "pale wash modeling of the shoreline rocks"
+      ]
+    },
+    {
+      "name": "lower_right_willow_peninsula",
+      "description": "Isolate the lower-right small rocky peninsula with leaning willow-like trees, pale shrubs, a darker leafy tree, red accents, and low layered stone forms projecting into the water.",
+      "bbox": [
+        0.43,
+        0.81,
+        0.28,
+        0.12
+      ],
+      "role": "foreground waterside grove",
+      "must_preserve": [
+        "drooping willow branch linework",
+        "thin leaning trunks and sparse foliage",
+        "dark stippled central shrub or tree crown",
+        "small red color accents",
+        "flat layered rock shelf outlines",
+        "soft pale wash separating the bank from open water"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 05 NPM.jpg",
+  "created_at": "2026-08-26T21:36:14.954165+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

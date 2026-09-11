@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Spring 22 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:22:15.749293+00:00",
+  "motifs": [
+    {
+      "name": "high_twin_peak_massif",
+      "description": "Isolate the upper central double mountain massif: two tall rounded peaks rising behind a saddle, with blue-green and ochre washes, layered contour strokes, dark ink texture marks, and the small pine silhouettes on the lower right shoulder of the ridge.",
+      "bbox": [
+        0.34,
+        0.02,
+        0.34,
+        0.26
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "rounded twin-peak silhouette",
+        "overlapping blue-green and ochre washes",
+        "dense dark cun texture strokes near the crest and right face",
+        "soft misted lower edges where the forms fade",
+        "tiny pine silhouettes on the lower ridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_high_twin_peak_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_blue_cliff_column",
+      "description": "Isolate the large left midground cliff column, including its vertical rounded wall, blue mineral highlights, ochre rock planes, black broken texture strokes, and the stepped rocky ledges at its lower right edge.",
+      "bbox": [
+        0.13,
+        0.17,
+        0.23,
+        0.35
+      ],
+      "role": "midground mountain",
+      "must_preserve": [
+        "vertical cliff silhouette fading into mist at the base",
+        "blue-green washes along ridges and ledges",
+        "short dark ink hatch marks and contour lines",
+        "ochre angular rock facets",
+        "stepped lower ledges without nearby pavilion architecture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_blue_cliff_column.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_cascading_rock_gully",
+      "description": "Isolate the central descending rocky gully and ridge system beneath the high peaks, with interlocking blue and ochre cliff faces, a pale winding ravine, clustered ridge pines, and dark texture strokes following the slope.",
+      "bbox": [
+        0.25,
+        0.18,
+        0.38,
+        0.35
+      ],
+      "role": "rocky hillside",
+      "must_preserve": [
+        "diagonal cascading composition of cliffs and ravine",
+        "blue-green mineral wash on exposed rock shelves",
+        "ochre-orange cliff accents",
+        "ink contour lines and dry-brush texture marks",
+        "small upright pines grouped along the ridge crests"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_cascading_rock_gully.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_misty_distant_peaks",
+      "description": "Isolate the mist-filled right background with a small rounded island-like peak, a taller pale vertical peak behind it, and the partial orange-blue cliff at the far right edge, all softened by open atmospheric wash.",
+      "bbox": [
+        0.72,
+        0.2,
+        0.27,
+        0.22
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "soft mist gaps around isolated peaks",
+        "faint vertical distant peak silhouette",
+        "small dark-textured rounded peak in the middle distance",
+        "partial far-right cliff with blue-green wash and ochre edges",
+        "subtle fading edges rather than hard outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_right_misty_distant_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "center_left_pine_grove_slope",
+      "description": "Isolate the center-left pine grove on the sloping terrace: tall slender trunks, flat-topped needle clusters, nearby shrubs, and the pale rocky ground that supports them.",
+      "bbox": [
+        0.2,
+        0.52,
+        0.34,
+        0.18
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "thin vertical pine trunks",
+        "fine dotted and clustered needle brushwork",
+        "varied tree heights and leaning trunks",
+        "pale slope contours beneath the trees",
+        "small dark shrub masses between the pines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_center_left_pine_grove_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_right_rock_garden",
+      "description": "Isolate the foreground right rock garden: large layered blue-green boulders, dark crag hollow, rounded ochre ridges, dense shrubs and small trees, plus the narrow orange cliff/path fragments along the right side.",
+      "bbox": [
+        0.43,
+        0.57,
+        0.47,
+        0.34
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "large stacked boulder contours",
+        "blue-green mineral highlights on rock crowns",
+        "dark ink crag hollow and heavy texture marks",
+        "dense dotted shrub foliage and fine branching",
+        "ochre cliff facets and narrow path-like edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_right_rock_garden.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

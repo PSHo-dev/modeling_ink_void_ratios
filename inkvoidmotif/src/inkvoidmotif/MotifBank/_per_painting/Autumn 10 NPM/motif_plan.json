@@ -1,0 +1,159 @@
+{
+  "source_summary": "Ink landscape with layered mountains, pine-covered slopes, river/mist spaces, small waterside buildings, a boat, and dense foreground trees and rocks. Calligraphy, red seals, borders, and paper wear are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "distant_left_mountain",
+      "description": "Isolate the soft, dark distant mountain silhouette in the upper left background, including its rounded peak, descending shoulders, pale mist at the base, and diluted ink wash texture.",
+      "bbox": [
+        0.015,
+        0.17,
+        0.26,
+        0.14
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft-edged gray wash silhouette",
+        "rounded summit contour",
+        "subtle vertical wash streaks",
+        "misty fading lower edge",
+        "uneven ink density along the left slope"
+      ]
+    },
+    {
+      "name": "central_craggy_ridge",
+      "description": "Isolate the large central-left rocky mountain ridge with layered ridgelines, pale slopes, darker ink creases, dotted shrubs, and small adjoining foothills at its base.",
+      "bbox": [
+        0.0,
+        0.23,
+        0.48,
+        0.25
+      ],
+      "role": "main mountain ridge",
+      "must_preserve": [
+        "angular peak and arcing ridge profile",
+        "dry-brush rock texture",
+        "parallel contour strokes on the slopes",
+        "dark crevice lines",
+        "dotted shrub rows following ridge edges",
+        "soft wash transitions into the lower foothills"
+      ]
+    },
+    {
+      "name": "middle_valley_mist_and_hills",
+      "description": "Isolate the misty middle valley behind the central ridge: low receding hills, pale mountain silhouettes, and open atmospheric wash between the left and right ranges.",
+      "bbox": [
+        0.41,
+        0.29,
+        0.31,
+        0.16
+      ],
+      "role": "misty valley",
+      "must_preserve": [
+        "faint gray hill silhouettes",
+        "soft dissolving mist edges",
+        "low saddle-shaped ridge forms",
+        "minimal pale wash texture",
+        "distance created by reduced contrast"
+      ]
+    },
+    {
+      "name": "right_pine_hillside",
+      "description": "Isolate the right midground hillside and mountain shoulder with terraced slopes, clustered dark shrub dots, tall vertical pines, and the pale peak behind them.",
+      "bbox": [
+        0.56,
+        0.34,
+        0.44,
+        0.22
+      ],
+      "role": "pine hillside",
+      "must_preserve": [
+        "sweeping diagonal hillside contours",
+        "rows of dark dotted shrubs",
+        "slender vertical pine trunks",
+        "stacked pine-needle marks",
+        "pale rear peak with soft wash",
+        "dry-brush rock striations on the lower slope"
+      ]
+    },
+    {
+      "name": "riverside_pavilion_pine_cluster",
+      "description": "Isolate the small rectangular waterside pavilion or boat-house near the center, together with the immediate bank and the dense vertical pine cluster directly behind it.",
+      "bbox": [
+        0.42,
+        0.37,
+        0.18,
+        0.14
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "pitched roof geometry with ink outlines",
+        "small window and railing divisions",
+        "dark supports reflected at the waterline",
+        "vertical pine trunks behind the roof",
+        "layered pine-needle dots",
+        "low rocky bank under and beside the structure"
+      ]
+    },
+    {
+      "name": "midriver_small_boat",
+      "description": "Isolate the small covered boat on the mid-right water, including its low hull, arched woven canopy, tiny stern and bow strokes, nearby small rock, and sparse water ripples.",
+      "bbox": [
+        0.61,
+        0.505,
+        0.16,
+        0.055
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "thin curved hull line",
+        "arched crosshatched canopy",
+        "delicate bow and stern extensions",
+        "adjacent dark shrub-topped rock",
+        "horizontal water ripple strokes",
+        "open surrounding water margin needed to read the boat"
+      ]
+    },
+    {
+      "name": "foreground_willow_and_leafless_grove",
+      "description": "Isolate the large foreground grove on the central island: drooping willow, gnarled leafless branching tree, darker leafy clusters, bamboo-like foliage, trunks, rocks, and shrub-dotted ground immediately around them.",
+      "bbox": [
+        0.15,
+        0.58,
+        0.58,
+        0.3
+      ],
+      "role": "foreground grove",
+      "must_preserve": [
+        "drooping willow fronds with fine parallel leaf strokes",
+        "gnarled pale trunks with dark outline accents",
+        "fine twig network of the leafless tree",
+        "dark clustered leaf dabs",
+        "bamboo-like pointed leaves",
+        "rocky mound contours and dotted ground shrubs",
+        "overlapping ink washes around the tree bases"
+      ]
+    },
+    {
+      "name": "lower_right_pavilion_rock_bank",
+      "description": "Isolate the small lower-right thatched pavilion tucked below the foreground trees, with its roof, posts, adjacent rock ledge, shoreline, and calm water strokes.",
+      "bbox": [
+        0.56,
+        0.76,
+        0.32,
+        0.13
+      ],
+      "role": "foreground pavilion and bank",
+      "must_preserve": [
+        "sloping thatched roof with fine parallel strokes",
+        "thin vertical support posts",
+        "pale platform or bank line beneath the pavilion",
+        "angular rock ledge to the right",
+        "horizontal shoreline and water ripple marks",
+        "nearby overhanging branch tips without unrelated calligraphy or seals"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn 10 NPM.jpg",
+  "created_at": "2026-07-03T22:07:43.007951+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

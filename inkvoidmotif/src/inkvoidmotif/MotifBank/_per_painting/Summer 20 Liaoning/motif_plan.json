@@ -1,0 +1,154 @@
+{
+  "source_summary": "Wide handscroll-style Chinese river landscape with misty water, distant shoals, boats, willow groves, rocky banks, a wooden bridge with tiny figures, and a partially hidden riverside village among trees.",
+  "motifs": [
+    {
+      "name": "distant_left_shoals",
+      "description": "Isolate the pale distant sandbars and low ink-wash banks across the upper-left water, including the horizontal grey-brown washes, soft mist gaps, and tiny dotted reed or vegetation marks.",
+      "bbox": [
+        0.005,
+        0,
+        0.325,
+        0.325
+      ],
+      "role": "distant shoreline and mist",
+      "must_preserve": [
+        "soft horizontal ink-wash bands",
+        "faint mountain and sandbar silhouettes",
+        "clusters of tiny stippled reed dots",
+        "blurred mist edges fading into blank water"
+      ]
+    },
+    {
+      "name": "left_river_boats",
+      "description": "Isolate the group of boats on the left river: the larger roofed passenger boat near the upper center-left and the smaller skiffs below and around it, with surrounding blank water kept only as needed for the hull silhouettes.",
+      "bbox": [
+        0.05,
+        0.245,
+        0.225,
+        0.33
+      ],
+      "role": "boats on open water",
+      "must_preserve": [
+        "thin hull outlines",
+        "brown roof and cabin geometry on the large boat",
+        "small oar strokes and skiff profiles",
+        "delicate rippling wake lines",
+        "tiny dark passenger or boatman marks"
+      ]
+    },
+    {
+      "name": "foreground_lotus_dots_left",
+      "description": "Isolate the low foreground water surface and bank at the lower left, with dense dotted lotus/reed texture and the dark soft-edged mound emerging from the water.",
+      "bbox": [
+        0,
+        0.795,
+        0.235,
+        0.205
+      ],
+      "role": "foreground water and lotus surface",
+      "must_preserve": [
+        "dense stippled lotus or reed dots",
+        "soft dark wash of the foreground mound",
+        "uneven shoreline edge",
+        "scattered pale water gaps between dots"
+      ]
+    },
+    {
+      "name": "central_left_willow_bank",
+      "description": "Isolate the left portion of the central riverside grove: rounded willow masses, small shrubs, low rocks, and the dotted marshy bank beneath them.",
+      "bbox": [
+        0.185,
+        0.395,
+        0.19,
+        0.6
+      ],
+      "role": "middle-ground willow bank",
+      "must_preserve": [
+        "rounded ink-wash foliage masses",
+        "fine branch linework visible through wash",
+        "dark stippled ground texture",
+        "small angular rock outlines",
+        "soft transitions between trees and misty water"
+      ]
+    },
+    {
+      "name": "central_tall_tree_grove",
+      "description": "Isolate the tall central grove with high willow trunks, arching branches, dark foliage washes, exposed roots, and clustered rocks at the base.",
+      "bbox": [
+        0.365,
+        0.06,
+        0.175,
+        0.91
+      ],
+      "role": "dominant central tree and rock mass",
+      "must_preserve": [
+        "tall curving trunk outlines",
+        "drooping willow branch strokes",
+        "layered dark foliage wash",
+        "gnarled root lines at the base",
+        "angular rock texture and contour strokes",
+        "mist-softened outer foliage edges"
+      ]
+    },
+    {
+      "name": "bridge_with_walkers",
+      "description": "Isolate the long wooden bridge crossing the lower middle-right water, including its railings, posts, angled approach, small supports, and tiny walking figures on the span.",
+      "bbox": [
+        0.47,
+        0.7,
+        0.19,
+        0.225
+      ],
+      "role": "bridge and figures",
+      "must_preserve": [
+        "parallel railing lines",
+        "regular vertical posts and finials",
+        "angled bridge deck geometry",
+        "tiny robed walker silhouettes",
+        "small pier supports beneath the span",
+        "dark ink accents along the bridge edges"
+      ]
+    },
+    {
+      "name": "right_willow_rock_bank",
+      "description": "Isolate the right-side riverbank grove beside the bridge: leaning willows, tangled bare branches, exposed roots, low rocks, and the undulating bank below.",
+      "bbox": [
+        0.63,
+        0.165,
+        0.195,
+        0.735
+      ],
+      "role": "right riverbank trees and rocks",
+      "must_preserve": [
+        "long drooping willow foliage strokes",
+        "dark twisting branch linework",
+        "gnarled trunks and exposed root network",
+        "layered low bank contours",
+        "rock outlines and dry-brush texture",
+        "small dotted ground vegetation"
+      ]
+    },
+    {
+      "name": "far_right_village_grove",
+      "description": "Isolate the far-right wooded village area, with buildings partially hidden among dark trees, distant low mountains at the top, and the rocky shoreline and shrubs below.",
+      "bbox": [
+        0.805,
+        0.005,
+        0.19,
+        0.93
+      ],
+      "role": "village and distant wooded bank",
+      "must_preserve": [
+        "faint roof and wall geometry behind trees",
+        "dark clustered tree washes",
+        "thin trunk and branch outlines",
+        "pale distant mountain silhouettes",
+        "soft mist bands separating background and village",
+        "rocky shoreline contours and stippled vegetation"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 20 Liaoning.jpg",
+  "created_at": "2026-08-27T22:29:01.370413+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

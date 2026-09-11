@@ -1,0 +1,134 @@
+{
+  "source": "../../../../../../Input_Images/Summer 15 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:56:05.546981+00:00",
+  "motifs": [
+    {
+      "name": "distant_rounded_peak",
+      "description": "Isolate the pale central background mountain peak rising behind the gorge, including its broad rounded summit, soft grey wash, faint contour strokes, and mist-softened lower edges; exclude nearby inscription/seals and the darker foreground wooded ridges.",
+      "bbox": [
+        0.36,
+        0.17,
+        0.44,
+        0.25
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft layered grey wash on the summit",
+        "subtle arcing contour lines",
+        "misty transition at the mountain base",
+        "rounded peak silhouette"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_rounded_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_sheer_cliff",
+      "description": "Isolate the tall left-side cliff wall forming the left edge of the ravine, including the vertical striated rock face, pale eroded slopes, ink-dotted vegetation, and the dark narrow cleft along its right edge; exclude red seals at the far left and central village below.",
+      "bbox": [
+        0.08,
+        0.25,
+        0.3,
+        0.43
+      ],
+      "role": "cliff and ravine wall",
+      "must_preserve": [
+        "long dry-brush vertical rock striations",
+        "pale wash gradients across the cliff face",
+        "clusters of small dark vegetation dots",
+        "sharp dark ravine edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_sheer_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_wooded_ridge",
+      "description": "Isolate the upper right mountain mass with rounded bouldery forms and dense scrub, including the layered rock shelves, stippled foliage, and grey-black ink accents cascading down the slope; avoid the pale distant peak behind it.",
+      "bbox": [
+        0.46,
+        0.21,
+        0.52,
+        0.36
+      ],
+      "role": "wooded mountainside",
+      "must_preserve": [
+        "rounded boulder contours",
+        "dense stippled shrub clusters",
+        "dark ink-dot foliage accents",
+        "soft grey wash on overlapping rock shelves",
+        "brushy ridge texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_wooded_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_plank_bridge",
+      "description": "Isolate the long elevated wooden plank bridge crossing the ravine in the middle distance, including its zigzag railing, repeated vertical posts, slatted deck, and the rocky supports beneath; exclude the lower village roofs and foreground trees.",
+      "bbox": [
+        0.08,
+        0.57,
+        0.36,
+        0.1
+      ],
+      "role": "bridge",
+      "must_preserve": [
+        "parallel plank lines",
+        "repeated railing posts",
+        "angled zigzag bridge geometry",
+        "dry-brush ink texture on wood",
+        "rock ledges anchoring the bridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_middle_plank_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_waterside_village",
+      "description": "Isolate the lower-left cluster of waterside buildings, including tiled and thatched roof geometry, wall panels, porch railings, a seated interior figure, adjacent rippled water, and small fence lines; exclude the large central tree trunks where possible.",
+      "bbox": [
+        0.04,
+        0.74,
+        0.47,
+        0.16
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "rectangular house wall linework",
+        "layered roof tiles and thatch strokes",
+        "small seated figure visible inside the open room",
+        "waterside railings and fences",
+        "horizontal water ripple lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_waterside_village.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_pine_and_tree_grove",
+      "description": "Isolate the dense central foreground grove rising in front of the village, including tall pale trunks, dark pine needle clusters, bamboo-like verticals, tangled branches, and shrubs rooted among rocks; exclude buildings behind it as much as possible.",
+      "bbox": [
+        0.31,
+        0.62,
+        0.43,
+        0.29
+      ],
+      "role": "foreground trees and shrubs",
+      "must_preserve": [
+        "dark clustered pine needles",
+        "slender vertical bamboo-like stems",
+        "pale twisting trunks with ink outlines",
+        "fine branch tracery",
+        "rock and shrub bases with stippled texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_central_pine_and_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

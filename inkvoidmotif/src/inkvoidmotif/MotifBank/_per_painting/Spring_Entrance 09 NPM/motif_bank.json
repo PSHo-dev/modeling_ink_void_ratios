@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Spring_Entrance 09 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T20:06:58.080828+00:00",
+  "motifs": [
+    {
+      "name": "left_thatched_village_houses",
+      "description": "Cluster of low thatched village houses on the left, including layered straw roofs, black post-and-beam structure, window openings, red hanging accents, and small seated interior figures visible under the eaves.",
+      "bbox": [
+        0.027,
+        0.481,
+        0.353,
+        0.274
+      ],
+      "role": "village pavilion group",
+      "must_preserve": [
+        "parallel roof-thatch strokes and dark roof edges",
+        "thin vertical support posts",
+        "rectangular window and doorway linework",
+        "small seated figure outlines under the eaves",
+        "subtle tan roof wash and red architectural accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_thatched_village_houses.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_gnarled_trees_and_rocks",
+      "description": "Dense foreground grove at lower left with two gnarled trunks, dark stippled foliage masses, exposed roots, low rocks, and sloping textured ground beneath the village.",
+      "bbox": [
+        0.0,
+        0.572,
+        0.277,
+        0.426
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "twisted trunk contour lines",
+        "dark dot-and-wash leaf texture",
+        "exposed root network spreading across the bank",
+        "ink pebble clusters and rough ground strokes",
+        "overlapping foliage silhouettes without adjacent roof details"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_foreground_gnarled_trees_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "fenced_plum_courtyard",
+      "description": "Central low woven fence with flowering bare branches rising behind it, forming a courtyard divider between the buildings and central grove.",
+      "bbox": [
+        0.348,
+        0.335,
+        0.17,
+        0.329
+      ],
+      "role": "courtyard fence and blossoming shrubs",
+      "must_preserve": [
+        "crisscross lattice pattern on the fence",
+        "thin angular plum-branch linework",
+        "small pink-red blossom dots",
+        "dark fence posts and pale wash at the base",
+        "open spacing between branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_fenced_plum_courtyard.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_willow_grove",
+      "description": "Tall central grove of willows and leafy trees, including drooping willow boughs, dark trunks, and a dense rounded stippled canopy in front.",
+      "bbox": [
+        0.388,
+        0.211,
+        0.262,
+        0.458
+      ],
+      "role": "middle-ground tree grove",
+      "must_preserve": [
+        "long arcing willow-leaf strokes",
+        "dark forked trunks and branch joints",
+        "mottled stippled foliage mass",
+        "layered overlap between willows and central leafy tree",
+        "soft pale wash around the tree bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_willow_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_lattice_fence_gate",
+      "description": "Right-side garden fence and small gate structure behind the trees, with a low crisscross fence, upright posts, and a tiny roofed gatehouse set along the waterside path.",
+      "bbox": [
+        0.566,
+        0.455,
+        0.203,
+        0.149
+      ],
+      "role": "fence and gate pavilion",
+      "must_preserve": [
+        "diamond lattice fence linework",
+        "dark upright posts",
+        "small pitched gate roof geometry",
+        "pale tan roof wash",
+        "thin horizontal ground and shoreline strokes behind the fence"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_lattice_fence_gate.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_willow_rocky_bank",
+      "description": "Large right bank motif with a leaning willow rooted in dark rocks, arcing branches sweeping over the water, and a curved embankment leading into the foreground.",
+      "bbox": [
+        0.598,
+        0.348,
+        0.293,
+        0.439
+      ],
+      "role": "rocky bank with willow",
+      "must_preserve": [
+        "long drooping willow fronds in black ink",
+        "gnarled exposed root and trunk contours",
+        "dark spotted rock texture",
+        "curving bank outline descending toward foreground water",
+        "dry-brush striations on the rocks and earth"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_willow_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_thatched_water_pavilion",
+      "description": "Small round or polygonal thatched waterside pavilion near the lower center, standing on posts in shallow water with a compact roof and tiny red detail beneath.",
+      "bbox": [
+        0.402,
+        0.815,
+        0.105,
+        0.15
+      ],
+      "role": "foreground waterside pavilion",
+      "must_preserve": [
+        "radial thatch strokes on the roof",
+        "dark roof rim and post lines",
+        "small red accent under the shelter",
+        "pale water wash around the posts",
+        "simple geometric pavilion silhouette"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_thatched_water_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "open_river_surface_and_distant_mountains",
+      "description": "Open right-side water and far landscape atmosphere, combining pale river wash, sparse ripple arcs, distant shoreline strokes, and soft ink-wash mountain ridges at the upper right, excluding the calligraphy.",
+      "bbox": [
+        0.5,
+        0.105,
+        0.495,
+        0.888
+      ],
+      "role": "water surface and distant mountains",
+      "must_preserve": [
+        "thin curved ripple lines across the water",
+        "light blue-green water wash",
+        "soft distant shoreline contours",
+        "dry-brush mountain ridges and pale hill washes",
+        "misty unpainted gaps between water, shore, and mountains"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_open_river_surface_and_distant_mountains.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

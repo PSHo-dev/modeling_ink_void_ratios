@@ -1,0 +1,55 @@
+{
+  "source": "Autumn 12 NPM (sample motif bank, paths relative for portability)",
+  "image_provider": null,
+  "image_model": null,
+  "motifs": [
+    {
+      "name": "misty_peak",
+      "description": "",
+      "bbox": [0.557, 0.098, 0.356, 0.342],
+      "asset_path": "01_misty_peak.png"
+    },
+    {
+      "name": "distant_center_hills",
+      "description": "",
+      "bbox": [0.326, 0.265, 0.31, 0.16],
+      "asset_path": "02_distant_center_hills.png"
+    },
+    {
+      "name": "thatched_pavilion",
+      "description": "",
+      "bbox": [0.194, 0.417, 0.331, 0.181],
+      "asset_path": "03_thatched_pavilion.png"
+    },
+    {
+      "name": "upper_left_pines",
+      "description": "",
+      "bbox": [0.139, 0.215, 0.33, 0.198],
+      "asset_path": "04_upper_left_pines.png"
+    },
+    {
+      "name": "left_autumn_grove",
+      "description": "",
+      "bbox": [0.0, 0.303, 0.234, 0.408],
+      "asset_path": "05_left_autumn_grove.png"
+    },
+    {
+      "name": "right_pine_group",
+      "description": "",
+      "bbox": [0.456, 0.425, 0.479, 0.463],
+      "asset_path": "06_right_pine_group.png"
+    },
+    {
+      "name": "bank_with_small_rocks",
+      "description": "",
+      "bbox": [0.052, 0.694, 0.527, 0.089],
+      "asset_path": "07_bank_with_small_rocks.png"
+    },
+    {
+      "name": "bridge_with_scholars",
+      "description": "",
+      "bbox": [0.0, 0.822, 0.413, 0.174],
+      "asset_path": "08_bridge_with_scholars.png"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 13 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:11:01.842928+00:00",
+  "motifs": [
+    {
+      "name": "upper_central_cliff_massif",
+      "description": "Isolate the towering central upper mountain wall with steep folded ridges, dark ink contour lines, pale washes, clustered summit trees, and the narrow terrace-like ledge near the top. Avoid nearby red seals.",
+      "bbox": [
+        0.255,
+        0.05,
+        0.43,
+        0.235
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "vertical striated cliff lines",
+        "layered cun texture strokes",
+        "soft ink wash gradients",
+        "small dark tree clusters on ridges",
+        "mist-softened lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_central_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_cliff_pillars",
+      "description": "Isolate the narrow left-side cliff spires emerging from mist, including the high vertical pillar with shrubs on its crown and the smaller mist-veiled peak below it. Exclude adjacent seals.",
+      "bbox": [
+        0.08,
+        0.067,
+        0.205,
+        0.215
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin contour linework on sheer faces",
+        "dark shrub dots along cliff tops",
+        "pale mist gaps around the bases",
+        "light vertical wash texture",
+        "irregular rocky silhouettes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_cliff_pillars.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midleft_pavilion_grove_hillside",
+      "description": "Isolate the mid-left hillside settlement with multi-tier pavilion roofs, clustered houses, surrounding pines and deciduous trees, and terraced rocky slopes descending toward the water.",
+      "bbox": [
+        0.005,
+        0.278,
+        0.45,
+        0.184
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "angular roof geometry and eaves",
+        "fine architectural linework",
+        "tree crowns made of dots and short strokes",
+        "rocky slope texture",
+        "soft transition into surrounding mist"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_midleft_pavilion_grove_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midright_pine_rocky_hill",
+      "description": "Isolate the mid-right rounded rocky hill mass with two tall pines, a small upper ledge with sparse pines, distant pale peaks behind, and layered ridge strokes.",
+      "bbox": [
+        0.405,
+        0.245,
+        0.4,
+        0.24
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "arched hill contour bands",
+        "paired pine trunks and needle clusters",
+        "small cliff ledge trees",
+        "pale background mountain wash",
+        "dry-brush rock texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midright_pine_rocky_hill.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_lakeside_pavilion_rock_bank",
+      "description": "Isolate the lower-left lakeside pavilion on a rocky bank with a tall bare-branched tree, smaller foliage, shore rocks, and calm water edge.",
+      "bbox": [
+        0.0,
+        0.486,
+        0.342,
+        0.19
+      ],
+      "role": "foreground pavilion",
+      "must_preserve": [
+        "pavilion roof eaves and posts",
+        "tall tree trunk with bare branches",
+        "dark foliage dots and leaf clusters",
+        "jagged shoreline rocks",
+        "faint horizontal water lines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_lakeside_pavilion_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_rock_islet_reeds",
+      "description": "Isolate the central lake passage with the broken eroded rock islet, sparse reeds and willow-like grasses, low shoreline marks, and broad open water washes.",
+      "bbox": [
+        0.235,
+        0.52,
+        0.37,
+        0.2
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "irregular broken rock silhouette",
+        "fine reed and grass strokes",
+        "subtle horizontal water lines",
+        "misty open negative space",
+        "low shoreline contour marks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_central_lake_rock_islet_reeds.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

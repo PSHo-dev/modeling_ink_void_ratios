@@ -1,0 +1,158 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 15 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:13:34.178123+00:00",
+  "motifs": [
+    {
+      "name": "distant_mist_peaks",
+      "description": "Isolate the pale background mountain silhouettes at the upper left behind the main cliffs, including the soft triangular and sloping forms emerging from blank mist.",
+      "bbox": [
+        0.0,
+        0.23,
+        0.4,
+        0.14
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "very light gray wash gradients",
+        "soft lost-and-found mountain edges",
+        "faint peak outlines",
+        "blank mist gaps between peaks and foreground cliffs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_mist_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_ravine_waterfall_cliffs",
+      "description": "Isolate the steep left-side ravine with stacked cliff faces, dark crevice marks, and the narrow descending waterfall or stream channel cutting between rocks.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.29,
+        0.27
+      ],
+      "role": "left cliff ravine and waterfall",
+      "must_preserve": [
+        "angular cliff contour lines",
+        "dark ink accents along cracks",
+        "vertical waterfall channel",
+        "dry-brush rock texture",
+        "small shrubs clinging to ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_ravine_waterfall_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_striated_cliff_massif",
+      "description": "Isolate the broad central cliff wall and ridge system with horizontal sediment-like brush bands, vertical wash streaks, and dark broken ink along the ridge crests.",
+      "bbox": [
+        0.2,
+        0.25,
+        0.58,
+        0.29
+      ],
+      "role": "dominant middle-ground mountain cliff",
+      "must_preserve": [
+        "long horizontal striation lines",
+        "vertical diluted ink washes down the cliff face",
+        "dark broken ridge marks",
+        "layered ledge geometry",
+        "soft pale wash transitions at the cliff base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_striated_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_terrace_trees",
+      "description": "Isolate the upper-right terraced rock ledge with pale ochre-tinted ground, blocky cliff edges, and the small sparse trees and brush standing on the ledge.",
+      "bbox": [
+        0.67,
+        0.3,
+        0.31,
+        0.17
+      ],
+      "role": "right hillside terrace with sparse trees",
+      "must_preserve": [
+        "pale ochre color accent on the terrace",
+        "thin upright tree trunks and twig clusters",
+        "blocky ledge outlines",
+        "dry horizontal rock texture",
+        "dark ink notches under the overhang"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_upper_right_terrace_trees.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_pavilion_bridge_figures",
+      "description": "Isolate the riverside architectural cluster at lower left: two roofed pavilions among trees, the small arched bridge or gate beneath, and the tiny human figures on the veranda.",
+      "bbox": [
+        0.0,
+        0.505,
+        0.34,
+        0.18
+      ],
+      "role": "village pavilion group with bridge and scholar figures",
+      "must_preserve": [
+        "sloped tiled roof geometry",
+        "fine parallel roof rib lines",
+        "rectangular posts and railings",
+        "arched bridge opening",
+        "tiny seated or standing figures",
+        "surrounding tree trunks and leaf-dot textures immediately interwoven with the buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_left_pavilion_bridge_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_bamboo_rock_bank",
+      "description": "Isolate the rocky bank in the center foreground with the cluster of slender bamboo stems rising in front of the cliff, including nearby low rocks and bare twiggy shrubs.",
+      "bbox": [
+        0.27,
+        0.43,
+        0.44,
+        0.22
+      ],
+      "role": "bamboo and rocky foreground bank",
+      "must_preserve": [
+        "thin bamboo culms and angled leaves",
+        "delicate branching shrubs",
+        "rounded and angular rock contours",
+        "dark stippled rock texture",
+        "pale wash shadows around the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_bamboo_rock_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_willow_bamboo_grove",
+      "description": "Isolate the large lower-right foreground grove on the raised rocky bank, including leaning willow-like trunks, bamboo thicket, pine-needle foliage, the partially hidden small pavilion roof, and the base rocks.",
+      "bbox": [
+        0.25,
+        0.655,
+        0.69,
+        0.26
+      ],
+      "role": "foreground grove, pavilion, and rocky bank",
+      "must_preserve": [
+        "pale leaning trunks with dark contour accents",
+        "dense bamboo leaves and vertical culms",
+        "fine pine-needle clusters on upper branches",
+        "partly obscured pavilion roof and posts",
+        "dry-brush rocky mound texture",
+        "grass strokes along the bottom edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_willow_bamboo_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

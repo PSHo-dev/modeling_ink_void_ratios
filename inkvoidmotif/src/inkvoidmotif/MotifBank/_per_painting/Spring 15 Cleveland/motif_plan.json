@@ -1,0 +1,152 @@
+{
+  "source_summary": "Tall vertical Chinese landscape with distant ink-wash peaks, craggy forested slopes, layered scroll-like mist banks, dense pine and deciduous groves, small scholar figures among rocks, and a winding foreground watercourse. Calligraphy, seals, borders, and paper tone are excluded.",
+  "motifs": [
+    {
+      "name": "distant_peak_ridge",
+      "description": "Upper mountain skyline: tall central peak with surrounding jagged grey peaks and faint reddish background pinnacles, isolated from the blank sky and inscription area.",
+      "bbox": [
+        0.02,
+        0.12,
+        0.92,
+        0.23
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale grey vertical wash on peak faces",
+        "fine dark contour lines and crackle-like rock texture",
+        "peppered black vegetation dots along ridges",
+        "soft mist fading at mountain bases",
+        "muted red-orange accent peaks in the distance"
+      ]
+    },
+    {
+      "name": "central_craggy_waterfall_slopes",
+      "description": "Middle craggy mountain mass with steep dark wooded slopes and branching pale waterfall or ravine lines descending through the rocks.",
+      "bbox": [
+        0.25,
+        0.27,
+        0.72,
+        0.21
+      ],
+      "role": "middle mountain and ravines",
+      "must_preserve": [
+        "white negative-space waterfall channels",
+        "dark stippled pine forests on ridgelines",
+        "angular ink outlines of rock faces",
+        "brown-red leaf accents scattered on ledges",
+        "layered grey-green washes in the cliff shadows"
+      ]
+    },
+    {
+      "name": "upper_left_scroll_cloud_bank",
+      "description": "Compact rounded cloud bank at the left-middle, composed of clustered curling cloud forms sitting in front of dark trees and rocks.",
+      "bbox": [
+        0.02,
+        0.36,
+        0.36,
+        0.11
+      ],
+      "role": "mist cloud",
+      "must_preserve": [
+        "rounded scalloped cloud outlines",
+        "spiral interior curls",
+        "soft white reserved cloud body",
+        "subtle grey shading under cloud edges",
+        "contrast with dark tree silhouettes behind without absorbing the trees"
+      ]
+    },
+    {
+      "name": "central_mist_cloud_belt",
+      "description": "Large horizontal belt of swirling white mist crossing the center-right of the composition, partially veiling cliffs and forests.",
+      "bbox": [
+        0.34,
+        0.41,
+        0.64,
+        0.18
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "dense curling brush loops",
+        "irregular cloud edge that wraps around trees and rocks",
+        "white reserved mist shapes",
+        "light grey wash shadows within the cloud mass",
+        "small openings where dark foliage peeks through"
+      ]
+    },
+    {
+      "name": "left_rocky_pine_grove",
+      "description": "Left lower hillside grove with tall slender trunks, dark pine crowns, exposed rocks, and a small rustic roof-like structure nestled among the trees.",
+      "bbox": [
+        0.0,
+        0.48,
+        0.39,
+        0.18
+      ],
+      "role": "foreground hillside grove",
+      "must_preserve": [
+        "thin vertical tree trunks",
+        "dark blue-green stippled foliage",
+        "angular tan-grey rocks at the base",
+        "delicate branch linework",
+        "small sloped roof geometry partly hidden in the grove"
+      ]
+    },
+    {
+      "name": "scholars_under_pines",
+      "description": "Small group of robed scholar figures seated and standing among rocks beneath spreading pine branches in the lower middle area.",
+      "bbox": [
+        0.2,
+        0.63,
+        0.45,
+        0.11
+      ],
+      "role": "figures in landscape",
+      "must_preserve": [
+        "tiny pale robes with minimal ink outlines",
+        "seated and standing figure poses",
+        "surrounding rock seats and footpath shapes",
+        "overhanging pine boughs with needle clusters",
+        "scale relationship between figures, rocks, and trees"
+      ]
+    },
+    {
+      "name": "red_trunk_cliff_pine",
+      "description": "Prominent left foreground pine rising from a rocky cliff, with twisting reddish-brown trunk, dark foliage masses, and red leaf accents.",
+      "bbox": [
+        0.0,
+        0.68,
+        0.39,
+        0.2
+      ],
+      "role": "foreground pine and rocks",
+      "must_preserve": [
+        "sinuous reddish-brown trunk and exposed roots",
+        "dense dark stippled pine canopy",
+        "red-orange foliage accents",
+        "layered cracked rock ledges",
+        "fine needle texture and branch joints"
+      ]
+    },
+    {
+      "name": "foreground_watercourse_and_willows",
+      "description": "Lower foreground water scene with winding stream or pool, rippling current lines, pale rounded willow-like trees, dark bank shadows, and rocky banks.",
+      "bbox": [
+        0.31,
+        0.77,
+        0.67,
+        0.18
+      ],
+      "role": "foreground water and trees",
+      "must_preserve": [
+        "concentric and flowing water ripple lines",
+        "pale clustered leaf dots on rounded trees",
+        "dark ink wash reflections and bank shadows",
+        "gnarled tree trunks and branching linework",
+        "rocky shoreline contours and small gravel textures"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 15 Cleveland.jpg",
+  "created_at": "2026-08-05T05:27:29.621432+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,175 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 07 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:17:50.253749+00:00",
+  "motifs": [
+    {
+      "name": "misty_right_mountain",
+      "description": "Isolate the pale distant mountain mass on the upper right: a softly outlined rounded ridge emerging through mist, with very light tan-gray wash and nearly dry contour edges. Exclude nearby birds and seals.",
+      "bbox": [
+        0.66,
+        0.18,
+        0.34,
+        0.23
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint uneven ridge outline",
+        "soft translucent wash",
+        "mist-faded lower edge",
+        "subtle tonal variation without hard texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_misty_right_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "low_left_shoreline",
+      "description": "Isolate the low distant shoreline across the left middle distance, including the faint hill silhouette, horizontal water bands, and mottled tree masses along the bank. Exclude open paper field above and the nearby tree cluster to the right.",
+      "bbox": [
+        0.0,
+        0.37,
+        0.47,
+        0.11
+      ],
+      "role": "distant shoreline",
+      "must_preserve": [
+        "thin pale hill contour",
+        "soft horizontal lake strokes",
+        "blurred tree-dot texture",
+        "misty transitions into water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_low_left_shoreline.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "diagonal_flying_geese",
+      "description": "Isolate the diagonal stream of small black birds crossing the central sky, from the high scattered birds down to the denser middle flock. Capture each bird as quick dark ink wing marks; exclude mountain wash and tree branches below.",
+      "bbox": [
+        0.33,
+        0.15,
+        0.48,
+        0.26
+      ],
+      "role": "birds",
+      "must_preserve": [
+        "individual calligraphic wing silhouettes",
+        "variation in bird size and spacing",
+        "diagonal movement from upper right to lower left",
+        "dark ink accents against empty sky"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_diagonal_flying_geese.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "scholar_in_skiff",
+      "description": "Isolate the small seated scholar in a narrow skiff near the lower left-center water. Include the robed figure, dark head and shoulder linework, small hand/rod gesture, and the long shallow boat strokes. Exclude surrounding blank water except immediate support strokes.",
+      "bbox": [
+        0.28,
+        0.74,
+        0.23,
+        0.07
+      ],
+      "role": "figure and boat",
+      "must_preserve": [
+        "rounded seated robe silhouette",
+        "small dark hair/head accent",
+        "fine angular arm or pole line",
+        "thin elongated skiff contour",
+        "minimal water contact strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_scholar_in_skiff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "main_leafless_tree_cluster",
+      "description": "Isolate the tall leafless tree cluster on the right: multiple pale trunks rising upward with dense forked branches, gray twig networks, and dark ink branch accents. Exclude the foreground rock base as much as possible while keeping visible trunks and branch brushwork.",
+      "bbox": [
+        0.43,
+        0.32,
+        0.54,
+        0.53
+      ],
+      "role": "trees",
+      "must_preserve": [
+        "twisted vertical trunks",
+        "fine gray twig lattice",
+        "dark dry-brush branch lines",
+        "sparse ocher-red leaf dots",
+        "layered pale wash around branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_main_leafless_tree_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_sweeping_bare_shrub",
+      "description": "Isolate the lower sweeping bare shrub/tree mass extending leftward from the central bank, with fanlike pale branches and small dotted foliage texture. Keep the arcing branch structure distinct from the taller right tree trunks.",
+      "bbox": [
+        0.1,
+        0.48,
+        0.48,
+        0.17
+      ],
+      "role": "shrub and low tree",
+      "must_preserve": [
+        "long leftward sweeping branch lines",
+        "fine pale twig sprays",
+        "soft gray-beige wash",
+        "small dotted leaf textures",
+        "dry-brush tips at branch ends"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_left_sweeping_bare_shrub.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the lower-right rocky bank supporting the trees, including angular boulders, dark shrub clusters, root-like strokes, and pale gray rock planes. Exclude the scholar boat and upper tree canopy.",
+      "bbox": [
+        0.51,
+        0.67,
+        0.49,
+        0.31
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "jagged rock outlines",
+        "gray ink wash planes",
+        "dark stippled shrub masses",
+        "root and crevice linework",
+        "strong black dry-brush accents at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_lake_surface",
+      "description": "Isolate the open misty lake surface in the lower and middle left, defined by sparse horizontal washes and soft blank-water intervals. Exclude the skiff, figure, distant shoreline, and foreground bank while preserving the subtle water strokes.",
+      "bbox": [
+        0.0,
+        0.43,
+        0.56,
+        0.47
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "very light horizontal wash bands",
+        "large calm negative-space water field",
+        "soft fading edges",
+        "faint shoreline reflections",
+        "minimal ink texture suitable for recomposition"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_misty_lake_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

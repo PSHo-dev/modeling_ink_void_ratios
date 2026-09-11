@@ -1,0 +1,156 @@
+{
+  "source": "../../../../../../Input_Images/Spring 27 Shanghai.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:22:59.713948+00:00",
+  "motifs": [
+    {
+      "name": "distant_left_needle_peaks",
+      "description": "Isolate the pale vertical needle-like mountain spires on the far left, including the tallest slim peak and faint receding peaks behind it, stopping before the central vegetated cliff mass.",
+      "bbox": [
+        0.0,
+        0.12,
+        0.22,
+        0.28
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin ink contour lines on the tall spire",
+        "soft grey-green wash fading into mist",
+        "faint background peak silhouettes",
+        "uneven mineral wash edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_left_needle_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_vegetated_peak",
+      "description": "Isolate the upper central crag with rounded summit and steep sides, covered with stippled vegetation along the crown and ridges.",
+      "bbox": [
+        0.18,
+        0.16,
+        0.26,
+        0.32
+      ],
+      "role": "mountain peak",
+      "must_preserve": [
+        "blue-green mineral wash",
+        "fine cracked rock linework",
+        "dark stippled foliage on the crest",
+        "ragged ridge contours",
+        "subtle vertical wash streaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_vegetated_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_overhanging_cliff",
+      "description": "Isolate the large middle cliff and rounded boulder mass projecting forward, with layered rock faces and dark fissures.",
+      "bbox": [
+        0.11,
+        0.31,
+        0.54,
+        0.36
+      ],
+      "role": "central cliff",
+      "must_preserve": [
+        "angular ink fissures and stratified rock texture",
+        "pale green-blue washes",
+        "dark shadow clefts near the lower center",
+        "irregular broken cliff outline",
+        "small tufts of vegetation clinging to ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_overhanging_cliff.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_waterfall_gorge",
+      "description": "Isolate the narrow waterfall and shaded gorge descending along the left side of the main mountain, including the dark ravine walls and misty falling water.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.2,
+        0.5
+      ],
+      "role": "waterfall",
+      "must_preserve": [
+        "long pale vertical waterfall ribbons",
+        "dark inked gorge shadows",
+        "soft spray and mist at the base",
+        "adjacent cliff-edge brush lines",
+        "small scrubby branches beside the fall"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_waterfall_gorge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_pine",
+      "description": "Isolate the prominent foreground pine growing across the lower rocks, with sinuous tan trunk and dense dark needle clusters spreading horizontally.",
+      "bbox": [
+        0.17,
+        0.68,
+        0.61,
+        0.21
+      ],
+      "role": "foreground pine",
+      "must_preserve": [
+        "twisting ochre-brown trunk and exposed branches",
+        "dense dark stippled pine needles",
+        "hanging needle sprays",
+        "rock contours beneath the roots",
+        "contrast between dry brush needles and pale green rocks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_twisted_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_scholar_under_pine",
+      "description": "Isolate the tiny seated scholar figure near the lower left-center beneath the pine and rocks, including the immediate ledge or path that anchors the figure.",
+      "bbox": [
+        0.13,
+        0.88,
+        0.18,
+        0.06
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "small orange robe accent",
+        "tiny dark head and posture",
+        "pale path or ledge around the figure",
+        "nearby inked rock edges",
+        "scale contrast against surrounding cliffs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_small_scholar_under_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_water_shore",
+      "description": "Isolate the quiet water surface at the lower right, including thin horizontal shoreline strokes and the small pale rock or islet near the edge.",
+      "bbox": [
+        0.65,
+        0.83,
+        0.34,
+        0.12
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "delicate horizontal water lines",
+        "soft empty misty water wash",
+        "small outlined rock or islet",
+        "subtle shoreline curvature",
+        "minimal ink accents at the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_water_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "source_summary": "Horizontal ink-and-light-wash Chinese landscape with a large old willow, misty distant hills, two traveling figures, flowering foreground shrubs, rocky riverbank shallows, a small right-shore structure, and small birds in open sky. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_ridge",
+      "description": "Soft distant mountain ridge at the upper left, including the layered rounded peaks and hazy ink washes partly seen behind the willow.",
+      "bbox": [
+        0,
+        0.115,
+        0.352,
+        0.175
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale graded wash forming receding peaks",
+        "soft blurred ridge edges",
+        "small darker crest accents and clustered tree-like dots",
+        "misty overlap where mountains disappear behind foreground willow"
+      ]
+    },
+    {
+      "name": "ancient_willow_tree",
+      "description": "The full visible old willow: gnarled trunk and roots at the left edge, heavy leaning limbs, sweeping arched boughs across the upper composition, and long pendant willow twigs.",
+      "bbox": [
+        0,
+        0,
+        0.74,
+        0.961
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thick-to-thin calligraphic contour lines of trunk and limbs",
+        "dark knotted bark spots and root texture",
+        "long fine hanging willow strands",
+        "small black buds and leaf dots along branches",
+        "irregular tapering of the sweeping upper boughs"
+      ]
+    },
+    {
+      "name": "central_robed_scholar",
+      "description": "Standing robed scholar near the lower center, facing left under the willow with head covering, long sleeves, sash, and visible feet.",
+      "bbox": [
+        0.313,
+        0.548,
+        0.098,
+        0.326
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "delicate angular robe-outline linework",
+        "fold lines down the sleeves and hem",
+        "small head and cap geometry",
+        "dark belt/sash accent",
+        "subtle pale wash inside the robe",
+        "walking stance and exposed shoes"
+      ]
+    },
+    {
+      "name": "lower_left_attendant",
+      "description": "Small bent attendant at the lower left, carrying a bundled load or implements while walking beneath the willow.",
+      "bbox": [
+        0.027,
+        0.763,
+        0.137,
+        0.179
+      ],
+      "role": "figure",
+      "must_preserve": [
+        "stooped posture and compact silhouette",
+        "thin contour lines of tunic, legs, and head covering",
+        "diagonal carried bundle or pole strokes",
+        "small dark accents at hair, hands, and feet",
+        "light wash defining clothing volume"
+      ]
+    },
+    {
+      "name": "foreground_flowering_shrub_belt",
+      "description": "Low flowering shrub and brush belt across the lower foreground around the figures, including dotted blossoms, thin twig networks, and small clustered leaves.",
+      "bbox": [
+        0,
+        0.625,
+        0.605,
+        0.355
+      ],
+      "role": "foreground shrubs",
+      "must_preserve": [
+        "fine branching twig linework",
+        "dense black blossom and leaf dots",
+        "irregular spacing of shrub clusters",
+        "overlapping stems around rocks and feet",
+        "small warm-brown wash accents at the base"
+      ]
+    },
+    {
+      "name": "rocky_bank_and_shallows",
+      "description": "Foreground rocky riverbank and shallow water forms through the lower middle and right, including angular rocks, eroded ledges, dotted stones, and horizontal water-wash marks.",
+      "bbox": [
+        0.21,
+        0.78,
+        0.6,
+        0.21
+      ],
+      "role": "foreground riverbank",
+      "must_preserve": [
+        "angular outlined rock planes",
+        "dark pebble dots along the bank",
+        "dry-brush striations on eroded slopes",
+        "pale horizontal water strokes",
+        "soft wash transitions between earth bank and shallow water",
+        "broken ink texture on rock edges"
+      ]
+    },
+    {
+      "name": "right_shore_hut_and_rocks",
+      "description": "Small right-bank shore motif with low hut or roof form, adjacent rocks, and nearby flowering shrub clusters at the far right lower edge.",
+      "bbox": [
+        0.869,
+        0.616,
+        0.131,
+        0.246
+      ],
+      "role": "distant shore settlement",
+      "must_preserve": [
+        "simple sloping roof geometry",
+        "dark roof-edge and corner dots",
+        "small surrounding rock silhouettes",
+        "thin shoreline strokes",
+        "dotted blossom clusters above and beside the structure",
+        "light wash under the bank"
+      ]
+    },
+    {
+      "name": "small_birds_in_sky",
+      "description": "Sparse birds in the open upper sky, including the larger fluttering bird at upper right of center and the smaller bird strokes nearby.",
+      "bbox": [
+        0.542,
+        0.062,
+        0.212,
+        0.139
+      ],
+      "role": "sky birds",
+      "must_preserve": [
+        "minimal V-shaped wing strokes",
+        "small dark head and tail marks",
+        "dry-brush feather flicks",
+        "varied scale between birds",
+        "ample surrounding empty space for sky placement"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 21 NPM.jpg",
+  "created_at": "2026-08-27T22:18:43.809902+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

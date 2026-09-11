@@ -1,0 +1,166 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 21 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-23T20:21:04.539558+00:00",
+  "motifs": [
+    {
+      "name": "left_cliff_wall",
+      "description": "Isolate the large vertical rock cliff on the left, including its stepped upper ledge, pale gray wash face, dark angular contour lines, dry-brush cracks, small vertical grass strokes on the top, and the bare shrub rooted on the lower left face. Exclude the nearby travelers and calligraphy/seal marks.",
+      "bbox": [
+        0.0,
+        0.23,
+        0.24,
+        0.69
+      ],
+      "role": "foreground cliff and rocky hillside",
+      "must_preserve": [
+        "dark broken outline along the cliff rim",
+        "layered horizontal ledge lines",
+        "gray and tan wash texture on the rock face",
+        "dry-brush crack marks and ink scumbles",
+        "small bare shrub branches at lower left",
+        "tiny upright grass strokes on the cliff top"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_left_cliff_wall.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "distant_riverbank_hills",
+      "description": "Isolate the long, low band of distant hills and riverbank running across the middle distance, with thin horizontal ink lines, soft gray washes, and faint undulating silhouettes fading into open mist.",
+      "bbox": [
+        0.2,
+        0.35,
+        0.46,
+        0.09
+      ],
+      "role": "distant riverbank and hills",
+      "must_preserve": [
+        "thin parallel horizontal shoreline strokes",
+        "soft uneven hill contours",
+        "pale gray wash transitions",
+        "misty broken edges with blank paper gaps",
+        "subtle darker accents along the ridge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_distant_riverbank_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "porter_with_load",
+      "description": "Isolate the walking attendant at lower left carrying a shoulder pole with hanging basket and bundle, including the small hat, gray robe, bent legs, thin pole line, and hanging objects. Exclude the cliff and mounted rider.",
+      "bbox": [
+        0.08,
+        0.67,
+        0.09,
+        0.12
+      ],
+      "role": "foreground traveler figure",
+      "must_preserve": [
+        "fine black figure outline",
+        "small dark hat and head details",
+        "gray robe wash",
+        "diagonal shoulder pole",
+        "rectangular hanging basket",
+        "rounded hanging bundle",
+        "short stepping leg strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_porter_with_load.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mounted_scholar_on_donkey",
+      "description": "Isolate the seated traveler riding a small donkey, including the peach-colored robe, dark hair knot, saddle forms, donkey ears, legs, tail, and sparse grass-like strokes around the hooves. Exclude the porter and surrounding ground wash except immediately attached hoof marks.",
+      "bbox": [
+        0.2,
+        0.65,
+        0.13,
+        0.13
+      ],
+      "role": "foreground mounted scholar figure",
+      "must_preserve": [
+        "peach robe color accent",
+        "fine facial and hair-knot linework",
+        "curved seated posture",
+        "donkey head, ears, and muzzle lines",
+        "thin leg and hoof strokes",
+        "dark saddle and tail accents",
+        "small dry-brush ground marks under the animal"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mounted_scholar_on_donkey.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "twisted_pine_group",
+      "description": "Isolate the right-center group of leaning pines with tall twisting trunks and clustered needle foliage. Include the main bent trunk, adjacent slender pine trunks, dark starburst needle clusters, bark wash, and expressive branch joints. Exclude the pink-blossomed trees behind it.",
+      "bbox": [
+        0.54,
+        0.1,
+        0.2,
+        0.78
+      ],
+      "role": "pine grove",
+      "must_preserve": [
+        "twisted tan-gray trunks with dark ink edges",
+        "angular branching structure",
+        "dense starburst pine-needle clusters",
+        "dry-brush bark texture",
+        "leaning silhouette of the main pine",
+        "dark clustered foliage at multiple heights"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_twisted_pine_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "autumn_blossom_grove",
+      "description": "Isolate the grove of slender deciduous trees on the right with bare black branches and pale orange-red autumn leaf dots. Include the tall gray trunk, branching silhouettes, thin saplings, and scattered warm leaf clusters, but exclude the pine needles and foreground rocks where possible.",
+      "bbox": [
+        0.69,
+        0.04,
+        0.3,
+        0.78
+      ],
+      "role": "autumn grove",
+      "must_preserve": [
+        "thin black branch linework",
+        "tall pale gray trunk washes",
+        "forked bare limbs",
+        "pale orange-red dotted foliage",
+        "soft translucent leaf clusters",
+        "fine twig networks and sparse lower branches"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_autumn_blossom_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rocky_bank_shrubs",
+      "description": "Isolate the rocky bank beneath the right grove, including rounded stones, low earth mounds, dotted moss texture, small dark shrubs, the tiered conifer-like shrub near center, and pale ground washes. Exclude tree trunks except unavoidable roots at the base.",
+      "bbox": [
+        0.54,
+        0.7,
+        0.43,
+        0.27
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "rounded rock outlines with gray wash",
+        "black moss-dot clusters",
+        "small scrubby twig strokes",
+        "tiered dark conifer-like shrub",
+        "pale tan-gray ground mounds",
+        "dry-brush bank contours",
+        "root-like dark accents at tree bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_right_rocky_bank_shrubs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

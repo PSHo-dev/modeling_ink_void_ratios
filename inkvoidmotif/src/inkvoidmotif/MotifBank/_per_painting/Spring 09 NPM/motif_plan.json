@@ -1,0 +1,151 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with ink-and-color mountains, river/lake spaces, rocky banks, tree groves, small pavilions, bridges, and distant hills; calligraphy and seals are excluded.",
+  "motifs": [
+    {
+      "name": "upper_central_rocky_peak",
+      "description": "Isolate the main upper central mountain mass: stacked craggy rocks with a high rounded peak, pale ochre washes, gray ink contours, dark texture strokes, and small pines clustered along the summit and ledges. Exclude the surrounding calligraphy above and the lower village/water motifs.",
+      "bbox": [
+        0.38,
+        0.25,
+        0.38,
+        0.19
+      ],
+      "role": "dominant mountain peak",
+      "must_preserve": [
+        "angular ink contour lines defining rock faces",
+        "dry-brush cun texture strokes and gray wash granulation",
+        "warm ochre planes on cliff shelves",
+        "small dark pine crowns and dotted foliage on the ridge",
+        "mist-softened lower edges where the mountain meets the valley"
+      ]
+    },
+    {
+      "name": "right_sweeping_striated_hills",
+      "description": "Isolate the right-side diagonal hillside system with long sweeping ridges descending toward the water, including layered ochre-and-gray slopes, dark dotted tree bands, and exposed rock seams. Exclude the waterside houses at the foot and the far-right bamboo grove if possible.",
+      "bbox": [
+        0.56,
+        0.34,
+        0.43,
+        0.25
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "parallel diagonal ridge strokes",
+        "alternating pale ochre washes and gray ink shadows",
+        "dark stippled vegetation following ridge contours",
+        "broken dry-brush rock texture",
+        "soft mist gaps between overlapping slopes"
+      ]
+    },
+    {
+      "name": "distant_left_shore_hills",
+      "description": "Isolate the faint low hills and shoreline on the upper-left water horizon, with thin ink outlines, muted gray washes, and small tree clumps near the shore. Avoid seals and blank paper areas above.",
+      "bbox": [
+        0.01,
+        0.34,
+        0.35,
+        0.07
+      ],
+      "role": "distant shoreline hills",
+      "must_preserve": [
+        "very light horizontal ink shoreline",
+        "pale gray distant hill silhouettes",
+        "small clustered dark trees near the shore",
+        "soft fading wash edges suggesting atmospheric distance"
+      ]
+    },
+    {
+      "name": "central_lakeside_pavilion_spit",
+      "description": "Isolate the small pavilion or roofed structure on the central peninsula beneath the main mountain, with adjacent vertical trees, low rocky bank, and narrow shoreline. Do not include the large mountain behind except immediate supporting rocks and trees.",
+      "bbox": [
+        0.32,
+        0.4,
+        0.2,
+        0.07
+      ],
+      "role": "waterside pavilion group",
+      "must_preserve": [
+        "thin roof geometry and layered eaves",
+        "delicate vertical tree trunks beside the building",
+        "small dotted foliage and dark leaf clusters",
+        "low ochre bank wash",
+        "fine ink shoreline and tiny reflections or ripples"
+      ]
+    },
+    {
+      "name": "mid_left_bridge_and_hamlet",
+      "description": "Isolate the mid-left settlement at the lake edge: small roofed huts tucked among trees, a low horizontal bridge or walkway crossing the water, and the adjacent rocky shoreline. Exclude the large foreground grove below and the central mountain above.",
+      "bbox": [
+        0.02,
+        0.47,
+        0.47,
+        0.1
+      ],
+      "role": "bridge and village cluster",
+      "must_preserve": [
+        "fine black roof and wall linework",
+        "thin bridge posts and horizontal deck strokes",
+        "scattered rocks along the bank",
+        "mixed tree trunks, dark foliage dots, and pale washes",
+        "short horizontal water ripples under the bridge"
+      ]
+    },
+    {
+      "name": "mid_right_waterside_houses",
+      "description": "Isolate the pair of small houses at the base of the right hills beside the water, including the nearby slender willows/bare trees, short pine rows, and ochre shoreline. Avoid including the full hillside above.",
+      "bbox": [
+        0.51,
+        0.52,
+        0.28,
+        0.12
+      ],
+      "role": "waterside village cluster",
+      "must_preserve": [
+        "rectangular house walls and neat stacked roof lines",
+        "delicate vertical posts and eave strokes",
+        "slender willow-like trunks and sparse branches",
+        "small dark pine clusters along the bank",
+        "brown-ochre ground wash and reflected shoreline marks"
+      ]
+    },
+    {
+      "name": "lower_left_bamboo_pavilion_grove",
+      "description": "Isolate the lower-left foreground grove with a small pavilion nestled among tall bamboo/pine trunks, dense vertical tree screen, rocky base, and layered foreground shrubs. Exclude the red seal at the bottom edge.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.43,
+        0.28
+      ],
+      "role": "foreground pavilion and tree grove",
+      "must_preserve": [
+        "tall straight bamboo or pine trunks with fine vertical ink lines",
+        "dark needle clusters and stippled foliage",
+        "small pavilion roof, railings, and posts hidden among trees",
+        "rounded foreground rocks with ochre wash",
+        "dry-brush bark texture and varied trunk thicknesses"
+      ]
+    },
+    {
+      "name": "right_foreground_bamboo_rock_bank",
+      "description": "Isolate the right foreground rocky bank with tall bamboo and pine-like trees, dark leafy clusters, pale trunks, shrubs, and layered boulders along the water. Exclude the mid-right houses and the large hillside behind.",
+      "bbox": [
+        0.77,
+        0.5,
+        0.22,
+        0.22
+      ],
+      "role": "foreground bamboo and rocks",
+      "must_preserve": [
+        "slender bamboo trunks and segmented vertical strokes",
+        "dark clustered leaves and needle-like foliage",
+        "rounded ink-outlined boulders with ochre-gray wash",
+        "thin shoreline strokes at the water edge",
+        "overlapping shrub dots and small branch silhouettes"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 09 NPM.jpg",
+  "created_at": "2026-07-16T23:16:36.203435+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

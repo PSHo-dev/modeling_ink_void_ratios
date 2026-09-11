@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Seclusion 14 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:50:36.366547+00:00",
+  "motifs": [
+    {
+      "name": "central_mist_wrapped_peak",
+      "description": "Isolate the large dark central mountain mass with its rounded summit, sloping shoulders, and pale mist openings cutting through the lower slopes; exclude any nearby inscription or seals.",
+      "bbox": [
+        0.16,
+        0.185,
+        0.69,
+        0.245
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft layered ink washes forming the broad peak",
+        "horizontal dry-brush texture across the summit and slopes",
+        "irregular pale mist gaps within the mountain body",
+        "feathered mountain edges dissolving into the surrounding air",
+        "dark-to-light wash gradations along the descending right slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_mist_wrapped_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_floating_mist_hills",
+      "description": "Isolate the cluster of low dark hills at upper left-middle, separated by white mist channels and tapering into the central valley.",
+      "bbox": [
+        0.0,
+        0.285,
+        0.48,
+        0.115
+      ],
+      "role": "distant hillsides",
+      "must_preserve": [
+        "rounded low hill silhouettes",
+        "broken ink edges softened by mist",
+        "small dark knolls connected by faint wash",
+        "white negative-space mist passages between hill forms",
+        "subtle horizontal brush grain"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_floating_mist_hills.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_distant_ridge",
+      "description": "Isolate the pale right-side mountain ridge and adjoining low dark foothills emerging from mist.",
+      "bbox": [
+        0.725,
+        0.3,
+        0.275,
+        0.105
+      ],
+      "role": "distant mountain ridge",
+      "must_preserve": [
+        "light gray wash ridge contour",
+        "soft diagonal slope rising at the far right",
+        "small darker foothill patches in front",
+        "misty base fading into open space",
+        "thin tonal transitions without hard outlines"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_distant_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_left_wooded_bank",
+      "description": "Isolate the broad wooded riverbank across the middle-left, including dense tree crowns, trunks, shoreline washes, and low land forms.",
+      "bbox": [
+        0.0,
+        0.425,
+        0.64,
+        0.17
+      ],
+      "role": "midground forested shore",
+      "must_preserve": [
+        "layered foliage dabs in olive-gray and black ink",
+        "visible thin tree trunks and branching lines",
+        "dark foreground bank washes beneath the trees",
+        "pale yellow-green color accents in the foliage",
+        "horizontal shoreline strokes and watery reflections"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_midground_left_wooded_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midground_right_tree_screen",
+      "description": "Isolate the narrower right-side riverside screen of trees and shrubs with its receding bank and pale water channel below.",
+      "bbox": [
+        0.61,
+        0.47,
+        0.385,
+        0.155
+      ],
+      "role": "midground riverside grove",
+      "must_preserve": [
+        "vertical tree-trunk rhythm receding into depth",
+        "dark rounded foliage caps and lighter shrub washes",
+        "thin horizontal bank lines",
+        "pale water gaps between shore forms",
+        "subtle ocher-green wash accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midground_right_tree_screen.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "small_boat_with_figures",
+      "description": "Isolate the small boat on the open water at lower left-middle, including the seated figures, arched covered load or canopy, and long narrow hull.",
+      "bbox": [
+        0.055,
+        0.66,
+        0.205,
+        0.045
+      ],
+      "role": "boat and figures",
+      "must_preserve": [
+        "fine ink outline of the slender boat hull",
+        "tiny seated human figures at both ends",
+        "arched covered bundle or canopy at center",
+        "delicate pole or oar lines",
+        "large surrounding blank-water spacing immediately around the boat"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_small_boat_with_figures.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_willow_tree_grove",
+      "description": "Isolate the foreground grove on the right and center, including dark broad-leaf trees, pale willow-like drooping branches, clustered trunks, and foliage masses along the river edge.",
+      "bbox": [
+        0.285,
+        0.585,
+        0.705,
+        0.275
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark wet-ink leaf clusters with rounded brushstrokes",
+        "thin branching structure visible inside the foliage",
+        "drooping willow strands at the left edge of the grove",
+        "multiple pale trunks rising from the bank",
+        "green-gray and ocher wash accents layered behind darker leaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_willow_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_rocky_headland",
+      "description": "Isolate the lower foreground headland with dark earth washes, exposed rounded rocks, small shoreline stones, and horizontal water-edge strokes; exclude signature and seals at the far right.",
+      "bbox": [
+        0.0,
+        0.775,
+        0.86,
+        0.145
+      ],
+      "role": "foreground rocks and shore",
+      "must_preserve": [
+        "broad dark ink washes defining the sloped promontory",
+        "rounded rock clusters with darker contour strokes",
+        "dry-brush horizontal shoreline lines",
+        "small pale stones and broken bank edges",
+        "soft transitions from land into blank water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_rocky_headland.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

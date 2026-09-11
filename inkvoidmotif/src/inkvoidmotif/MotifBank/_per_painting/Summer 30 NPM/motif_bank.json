@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Summer 30 NPM.png",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-03T22:39:33.789720+00:00",
+  "motifs": [
+    {
+      "name": "central_peak_massif",
+      "description": "Isolate the dominant top-center blue-green mountain massif: stacked rounded peaks rising from mist, with layered contour strokes, dark ink ridges, mineral-blue washes, and small tree clusters along the lower slopes.",
+      "bbox": [
+        0.336,
+        0.055,
+        0.284,
+        0.342
+      ],
+      "role": "distant mountain massif",
+      "must_preserve": [
+        "arched layered contour linework on each peak",
+        "blue-green mineral wash with tan exposed rock transitions",
+        "dark ink texture strokes on ridgelines",
+        "small black tree silhouettes at the base",
+        "soft mist boundary separating the mountain base from the valley"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_peak_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_island_shore",
+      "description": "Isolate the left-side riverbank and island hills: low rounded hills, a tree-lined shore, small sandy spits, and pale water/mist openings around the landforms.",
+      "bbox": [
+        0.0,
+        0.235,
+        0.342,
+        0.306
+      ],
+      "role": "left riverbank hills and shore",
+      "must_preserve": [
+        "low blue-green hill contours",
+        "thin horizontal shoreline strokes",
+        "dark pine grove silhouettes along the bank",
+        "pale ochre water gaps between islands",
+        "soft mist edges around the distant hill bases"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_island_shore.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "middle_wooded_promontory",
+      "description": "Isolate the central-left wooded promontory below the main mountains: sloping rocks, dense mixed trees, exposed roots, small tucked roofs, and shoreline forms projecting into the water.",
+      "bbox": [
+        0.235,
+        0.37,
+        0.339,
+        0.306
+      ],
+      "role": "middle-ground wooded hillside",
+      "must_preserve": [
+        "gnarled tree trunks and branching ink lines",
+        "dark foliage dots and blue-green leaf washes",
+        "rounded rock texture strokes on the slope",
+        "small hidden roof geometry among trees",
+        "tapering shoreline and pale water edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_middle_wooded_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_center_pavilion_spit",
+      "description": "Isolate the small pavilion on the lower central spit of land beside open water, including the low roof, posts, surrounding sparse shrubs, and gently sloping rocky bank.",
+      "bbox": [
+        0.475,
+        0.705,
+        0.189,
+        0.143
+      ],
+      "role": "small waterside pavilion",
+      "must_preserve": [
+        "simple angular pavilion roof geometry",
+        "thin support posts",
+        "small leafless shrub strokes nearby",
+        "low blue-green rocks on the bank",
+        "pale water margin around the land spit"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_center_pavilion_spit.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_pines_rocks",
+      "description": "Isolate the foreground lower-right rocky bank with clustered pines and leafless trees: heavy dark trunks, needle foliage, blue-green shrubs, rounded boulders, and diagonal landforms leading inward.",
+      "bbox": [
+        0.456,
+        0.747,
+        0.415,
+        0.253
+      ],
+      "role": "foreground rocks and trees",
+      "must_preserve": [
+        "dark pine trunks and clustered needle masses",
+        "fine leafless branch linework",
+        "blue-green shrub washes",
+        "rounded boulder contour strokes",
+        "diagonal foreground slope and layered rock texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_pines_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

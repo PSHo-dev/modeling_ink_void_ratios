@@ -1,0 +1,149 @@
+{
+  "source_summary": "A muted ink-and-wash Chinese winter landscape with misty diagonal mountains, sparse bare trees, dark pine clusters, a lower-left hamlet with small travelers, layered foreground banks, and a quiet waterside area at the right.",
+  "motifs": [
+    {
+      "name": "upper_left_misty_cliff",
+      "description": "Isolate the pale upper-left mountain cliff face, including its rounded summit, dark broken contour along the top and right edge, faint internal slope lines, and the small dark pine and bare-tree cluster growing on the cliff ledge.",
+      "bbox": [
+        0.0,
+        0.09,
+        0.43,
+        0.28
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft tan-green wash of the cliff face",
+        "irregular dark ink contour on the summit and descending edge",
+        "faint interior ridge lines",
+        "tiny clustered pine needles and sparse bare branches on the slope"
+      ]
+    },
+    {
+      "name": "diagonal_middle_mountain_slope",
+      "description": "Isolate the broad misty mountain slope descending diagonally from the upper middle toward the right, with its ink-dark ridgeline, pale wash body, and small scrub marks along the ridge.",
+      "bbox": [
+        0.31,
+        0.2,
+        0.55,
+        0.29
+      ],
+      "role": "middle-distance hillside",
+      "must_preserve": [
+        "long diagonal ridge contour",
+        "subtle graded wash fading into mist",
+        "small dark shrub dots along the ridge",
+        "thin exposed branch marks on the slope edge"
+      ]
+    },
+    {
+      "name": "distant_right_low_ridge",
+      "description": "Isolate the faint low mountain ridge on the middle-right horizon, including the delicate wavering outline and pale wash below it.",
+      "bbox": [
+        0.69,
+        0.33,
+        0.31,
+        0.12
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "thin uneven ridge line",
+        "soft washed silhouette",
+        "mist-softened edges",
+        "minimal dry-brush texture"
+      ]
+    },
+    {
+      "name": "left_overhanging_bare_tree",
+      "description": "Isolate the leafless tree projecting from the left bank into the open mist, with its twisted trunk, horizontal branch, dangling twig strokes, and dark shrub mass at the base.",
+      "bbox": [
+        0.0,
+        0.37,
+        0.37,
+        0.16
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "gnarled trunk linework",
+        "long horizontal bare branch",
+        "hanging fine twigs",
+        "dark stippled shrub texture at the base",
+        "thin dry-brush accents"
+      ]
+    },
+    {
+      "name": "lower_left_hamlet_pavilions",
+      "description": "Isolate the lower-left village and pavilion cluster built into the hillside, including sloped roofs, vertical wall posts, small railings, terraces, and the path-like bank around the buildings.",
+      "bbox": [
+        0.0,
+        0.53,
+        0.43,
+        0.2
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "angular roof geometry",
+        "fine vertical building posts",
+        "small fence and railing strokes",
+        "layered hillside contour lines",
+        "faint warm wash on walls and roofs"
+      ]
+    },
+    {
+      "name": "left_gate_traveler_pack_animal",
+      "description": "Isolate the small activity group at the lower-left edge: the simple gate or fence structure, tiny standing figures, and the small pack-animal form with light color accents beside the path.",
+      "bbox": [
+        0.0,
+        0.66,
+        0.16,
+        0.11
+      ],
+      "role": "figures and travel detail",
+      "must_preserve": [
+        "tiny figure outlines",
+        "pack-animal silhouette",
+        "small reddish-brown color accent",
+        "gate and fence linework",
+        "delicate path and ground strokes"
+      ]
+    },
+    {
+      "name": "central_pine_bare_tree_grove",
+      "description": "Isolate the dense foreground grove in the lower center-right, combining dark pine trunks and needle masses with taller bare branches and surrounding shrub texture.",
+      "bbox": [
+        0.36,
+        0.48,
+        0.53,
+        0.3
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "dark layered pine-needle brushwork",
+        "straight and slightly leaning trunks",
+        "leafless branch networks rising above the pines",
+        "stippled shrub masses",
+        "varied ink density from dry brush to dark wash"
+      ]
+    },
+    {
+      "name": "foreground_layered_banks_reeds",
+      "description": "Isolate the sweeping foreground land and stream-bank forms across the bottom, including layered contour lines, exposed rock ledges, low mounds, and reed or grass tufts at the lower right.",
+      "bbox": [
+        0.0,
+        0.73,
+        1.0,
+        0.25
+      ],
+      "role": "foreground ground and water edge",
+      "must_preserve": [
+        "long curving bank contours",
+        "broken rock-outline strokes",
+        "pale wash transitions suggesting shallow water or damp ground",
+        "fine grass and reed tufts",
+        "dry-brush texture on the ledges"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter 09 Philidelphia.jpg",
+  "created_at": "2026-07-03T22:45:48.851260+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

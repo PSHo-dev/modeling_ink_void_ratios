@@ -1,0 +1,154 @@
+{
+  "source_summary": "Tall Chinese landscape painting with monumental ink-wash cliffs, dense pine groves, small architectural retreats, village huts, winding water, bridges, travelers, and foreground rocks/trees. Calligraphy, seals, borders, and plain paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_sheer_cliffs_pine_ridge",
+      "description": "Isolate the high upper-right mountain mass: sheer pale vertical cliff faces, rounded summit ledges, dark stippled contour dots, dry-brush crevices, cascading wash streaks, and the dense ridge of upright conifers along the top and right slope. Exclude the red seal and the nearby cliffside pavilion.",
+      "bbox": [
+        0.43,
+        0.03,
+        0.5,
+        0.3
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale vertical wash texture on the cliff faces",
+        "dark dotted moss texture along ridge edges",
+        "thin angular rock linework",
+        "clustered pine trunks and needle strokes on the summit",
+        "soft misty gaps around the cliff edges"
+      ]
+    },
+    {
+      "name": "cliffside_pavilion_tower",
+      "description": "Isolate the small multi-level pavilion embedded in the upper central cliffs, including its stacked roofs, balcony railings, supporting posts, warm brown architectural accents, and the immediate enclosing trees and rock ledges that frame it. Do not include the larger surrounding mountain mass beyond the local ledge.",
+      "bbox": [
+        0.49,
+        0.135,
+        0.15,
+        0.09
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry with upturned eaves",
+        "fine balcony and railing linework",
+        "brown-red color accents on walls and posts",
+        "dark conifer needles behind and below the pavilion",
+        "small adjacent rock ledge texture"
+      ]
+    },
+    {
+      "name": "middle_left_cliffs_conifer_ledges",
+      "description": "Isolate the stepped middle-left cliff system with pale faceted rock planes, narrow terraces, and dense vertical conifer groves growing along ledges. Include the dark moss-dot outlining and striated rock washes, but exclude the large foreground pine canopy and the upper pavilion tower.",
+      "bbox": [
+        0.04,
+        0.12,
+        0.47,
+        0.35
+      ],
+      "role": "hillside",
+      "must_preserve": [
+        "layered cliff-face brush lines",
+        "dry-brush vertical fissures",
+        "moss-dot texture along ledge rims",
+        "slender pine trunks with clustered dark needles",
+        "mist-softened distant rock silhouettes at the left edge"
+      ]
+    },
+    {
+      "name": "right_mid_village_huts_trees",
+      "description": "Isolate the small village cluster at middle right: low thatched and tiled huts, simple fence lines, pale wall rectangles, surrounding pines and soft trees, and the misty ground plane beneath the cliffs. Avoid including the large courtyard building below.",
+      "bbox": [
+        0.72,
+        0.3,
+        0.28,
+        0.105
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "thin roof-line geometry of the huts",
+        "light wall washes and small doorway marks",
+        "woven or fenced detail between buildings",
+        "dark pine silhouettes behind the village",
+        "soft mist edge separating village from cliffs"
+      ]
+    },
+    {
+      "name": "lower_right_courtyard_scholars",
+      "description": "Isolate the lower-right waterside pavilion compound with tiled roofs, open colonnades, interior scholar figures, table furnishings, surrounding trunks, shrubs, and rocky terrace. Include the small gate-like structure at the lower right if connected to the compound, but exclude the bridge and river crossing.",
+      "bbox": [
+        0.54,
+        0.46,
+        0.45,
+        0.165
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "parallel tile strokes on the dark roofs",
+        "crisp beam, post, and railing linework",
+        "small scholar figures with robes and gestures",
+        "table and interior furnishing details",
+        "tree trunks rising in front of the architecture",
+        "rock terrace texture and dotted foliage accents"
+      ]
+    },
+    {
+      "name": "foreground_wind_bent_pines",
+      "description": "Isolate the large dark foreground pine group sweeping in from the left: twisting trunks, exposed roots, angular branches, layered cloud-like needle masses, and the rocky base beneath them. Exclude the distant cliffs behind and the bridge area to the lower right.",
+      "bbox": [
+        0.0,
+        0.36,
+        0.43,
+        0.27
+      ],
+      "role": "foreground trees",
+      "must_preserve": [
+        "gnarled trunk contours",
+        "branching calligraphic linework",
+        "dense soft-edged pine needle washes",
+        "dark ink accents at branch joints",
+        "rocky root base and dry-brush bark texture"
+      ]
+    },
+    {
+      "name": "arched_wood_bridge_travelers",
+      "description": "Isolate the central arched wooden bridge crossing the water, including its railings, vertical supports, stone footings, two travelers, the horse, and the immediate bridge reflections or water ripples directly beneath. Do not include the large courtyard or the surrounding cliffs except where bridge supports touch them.",
+      "bbox": [
+        0.25,
+        0.615,
+        0.55,
+        0.105
+      ],
+      "role": "bridge with figures",
+      "must_preserve": [
+        "curved bridge profile",
+        "thin railing posts and crossbars",
+        "wooden pier bundles and stone bases",
+        "traveler robes and hats",
+        "horse outline and harness details",
+        "short ripple lines under the bridge"
+      ]
+    },
+    {
+      "name": "lower_riverbank_rocks_leafless_trees",
+      "description": "Isolate the lower-right riverbank scene with pale rippled water, scattered dark rocks, the low rocky shore, and gnarled leafless trees leaning over the water. Exclude the bridge above and the red seal at the bottom edge.",
+      "bbox": [
+        0.45,
+        0.74,
+        0.55,
+        0.22
+      ],
+      "role": "foreground riverbank",
+      "must_preserve": [
+        "fine horizontal water ripple lines",
+        "dark isolated rock shapes in the stream",
+        "gnarled bare branch linework",
+        "dry-brush shore-rock contours",
+        "soft pale wash transitions between water and bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring_Leisure 03 BPM.jpg",
+  "created_at": "2026-09-03T20:22:05.546220+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

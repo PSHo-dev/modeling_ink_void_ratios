@@ -1,0 +1,160 @@
+{
+  "source_summary": "Tall vertical Chinese landscape with layered green-brown mountains, misty valleys, winding water, small village and pavilion groups, bridges, pines and foreground groves. Seals and inscriptions are excluded.",
+  "motifs": [
+    {
+      "name": "central_terraced_peak",
+      "description": "Isolate the dominant upper-center mountain mass with arcing terraced ridges, dark dotted vegetation bands, pale ochre-green washes, and mist-softened right edge.",
+      "bbox": [
+        0.285,
+        0.086,
+        0.49,
+        0.26
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "curving layered ridge linework",
+        "dark ink-dot vegetation along crest bands",
+        "dry-brush rock texture",
+        "green and ochre wash gradations",
+        "soft fading mist edge on the right side",
+        "small pine clusters on lower ledges"
+      ]
+    },
+    {
+      "name": "left_cascading_mountain_slope",
+      "description": "Isolate the large left-side descending mountain slope that steps from mid-height into the lower valley, including its repeated rounded ridges and vertical pine strokes.",
+      "bbox": [
+        0.0,
+        0.265,
+        0.405,
+        0.405
+      ],
+      "role": "hillside",
+      "must_preserve": [
+        "repeated scalloped ridge contours",
+        "dark vertical texture strokes",
+        "ink-dot accents on ridge tops",
+        "pale green mineral wash",
+        "small pine and shrub marks embedded along the slope",
+        "rocky ledges at the lower edge"
+      ]
+    },
+    {
+      "name": "right_cliff_village_slope",
+      "description": "Isolate the right mid-ground cliff and hillside with small roofed buildings, thin pines, rocky outcrops, and descending path-like terraces beside the water.",
+      "bbox": [
+        0.66,
+        0.225,
+        0.315,
+        0.265
+      ],
+      "role": "village hillside",
+      "must_preserve": [
+        "angular cliff outlines",
+        "small tiled roof geometry",
+        "thin dark pine trunks and sparse needles",
+        "dotted rock texture",
+        "ochre-green slope washes",
+        "layered ledges separating village structures"
+      ]
+    },
+    {
+      "name": "central_lake_village_banks",
+      "description": "Isolate the middle water basin with pale horizontal water washes, low banks, tiny riverside houses, tree rows, and narrow landing-like strokes.",
+      "bbox": [
+        0.335,
+        0.34,
+        0.555,
+        0.175
+      ],
+      "role": "water and village",
+      "must_preserve": [
+        "blank pale water surface with light horizontal wash lines",
+        "thin shoreline strokes",
+        "small roof forms along both banks",
+        "rows of fine dark trees",
+        "low sandbar and bank shapes",
+        "subtle warm ochre accents near the water"
+      ]
+    },
+    {
+      "name": "pine_retreat_on_mid_knoll",
+      "description": "Isolate the compact retreat or pavilion cluster nestled among pines on the central-lower rocky knoll above the water bend.",
+      "bbox": [
+        0.3,
+        0.45,
+        0.265,
+        0.17
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "small angular roof outlines",
+        "dense pine needles and upright trunks",
+        "rocky knoll contours",
+        "dark stippled shrub texture",
+        "pale green washes between tree clusters",
+        "fine architectural linework kept separate from surrounding mountains"
+      ]
+    },
+    {
+      "name": "lower_left_water_bridge_bend",
+      "description": "Isolate the lower-left winding river bend with a simple bridge, small waterside pavilion or roofed structure, low banks, and sparse trees.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.49,
+        0.19
+      ],
+      "role": "water bridge",
+      "must_preserve": [
+        "thin bridge linework and vertical supports",
+        "pale open water left blank",
+        "small roof geometry on the bank",
+        "curving shoreline contours",
+        "scattered tree trunks and bamboo-like strokes",
+        "light gray-green wash around banks"
+      ]
+    },
+    {
+      "name": "foreground_right_pine_grove",
+      "description": "Isolate the prominent foreground grove on the right: tall pines and leafy trees rising from rocks, with layered needles, blue-green foliage dots, and exposed trunks.",
+      "bbox": [
+        0.535,
+        0.535,
+        0.455,
+        0.33
+      ],
+      "role": "foreground trees and rocks",
+      "must_preserve": [
+        "long pale tree trunks with ink outlines",
+        "radiating pine needle clusters",
+        "blue-green dotted foliage accents",
+        "dark hanging leaf strokes",
+        "rounded foreground rocks",
+        "overlapping shrubs and grasses at the base"
+      ]
+    },
+    {
+      "name": "bottom_rocky_foothill_ridge",
+      "description": "Isolate the bottom foreground ridge and rocky foothill forms with rounded striated mounds, dark brush texture, sparse shrubs, and the adjacent pale stream edge.",
+      "bbox": [
+        0.365,
+        0.8,
+        0.6,
+        0.19
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded layered rock contours",
+        "dry-brush striations following the slope",
+        "dark ink-dot accents",
+        "patches of green wash on mound tops",
+        "small shrub strokes along creases",
+        "pale stream boundary at the lower right"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 01 NPM.jpg",
+  "created_at": "2026-07-16T23:29:12.520628+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

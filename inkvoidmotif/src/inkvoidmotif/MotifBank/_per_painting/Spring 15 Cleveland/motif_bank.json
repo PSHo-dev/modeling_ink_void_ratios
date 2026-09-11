@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Spring 15 Cleveland.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:29:20.549075+00:00",
+  "motifs": [
+    {
+      "name": "distant_peak_ridge",
+      "description": "Upper mountain skyline: tall central peak with surrounding jagged grey peaks and faint reddish background pinnacles, isolated from the blank sky and inscription area.",
+      "bbox": [
+        0.02,
+        0.12,
+        0.92,
+        0.23
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "pale grey vertical wash on peak faces",
+        "fine dark contour lines and crackle-like rock texture",
+        "peppered black vegetation dots along ridges",
+        "soft mist fading at mountain bases",
+        "muted red-orange accent peaks in the distance"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_distant_peak_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_craggy_waterfall_slopes",
+      "description": "Middle craggy mountain mass with steep dark wooded slopes and branching pale waterfall or ravine lines descending through the rocks.",
+      "bbox": [
+        0.25,
+        0.27,
+        0.72,
+        0.21
+      ],
+      "role": "middle mountain and ravines",
+      "must_preserve": [
+        "white negative-space waterfall channels",
+        "dark stippled pine forests on ridgelines",
+        "angular ink outlines of rock faces",
+        "brown-red leaf accents scattered on ledges",
+        "layered grey-green washes in the cliff shadows"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_craggy_waterfall_slopes.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_mist_cloud_belt",
+      "description": "Large horizontal belt of swirling white mist crossing the center-right of the composition, partially veiling cliffs and forests.",
+      "bbox": [
+        0.34,
+        0.41,
+        0.64,
+        0.18
+      ],
+      "role": "mist",
+      "must_preserve": [
+        "dense curling brush loops",
+        "irregular cloud edge that wraps around trees and rocks",
+        "white reserved mist shapes",
+        "light grey wash shadows within the cloud mass",
+        "small openings where dark foliage peeks through"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_mist_cloud_belt.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "red_trunk_cliff_pine",
+      "description": "Prominent left foreground pine rising from a rocky cliff, with twisting reddish-brown trunk, dark foliage masses, and red leaf accents.",
+      "bbox": [
+        0.0,
+        0.68,
+        0.39,
+        0.2
+      ],
+      "role": "foreground pine and rocks",
+      "must_preserve": [
+        "sinuous reddish-brown trunk and exposed roots",
+        "dense dark stippled pine canopy",
+        "red-orange foliage accents",
+        "layered cracked rock ledges",
+        "fine needle texture and branch joints"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_red_trunk_cliff_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_watercourse_and_willows",
+      "description": "Lower foreground water scene with winding stream or pool, rippling current lines, pale rounded willow-like trees, dark bank shadows, and rocky banks.",
+      "bbox": [
+        0.31,
+        0.77,
+        0.67,
+        0.18
+      ],
+      "role": "foreground water and trees",
+      "must_preserve": [
+        "concentric and flowing water ripple lines",
+        "pale clustered leaf dots on rounded trees",
+        "dark ink wash reflections and bank shadows",
+        "gnarled tree trunks and branching linework",
+        "rocky shoreline contours and small gravel textures"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_watercourse_and_willows.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

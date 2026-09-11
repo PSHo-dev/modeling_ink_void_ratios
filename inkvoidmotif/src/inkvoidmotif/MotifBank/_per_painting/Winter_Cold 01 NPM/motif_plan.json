@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical monochrome Chinese landscape with towering ink cliffs, misty water, distant hills and buildings, a scholar pavilion terrace, gnarled pines, bare winter branches, bridges, rocks, and willow/reed forms. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_cliff_pines",
+      "description": "Isolate the tall craggy mountain mass on the upper left, including the sheer vertical peak, adjacent left spurs, clustered pine trees on ridgelines and summits, and descending ink-shadowed ravines.",
+      "bbox": [
+        0.0,
+        0.06,
+        0.39,
+        0.43
+      ],
+      "role": "towering mountain backdrop",
+      "must_preserve": [
+        "jagged ink contour lines along cliff edges",
+        "dry-brush vertical rock texture and dark crevice washes",
+        "small pine clusters with pointed needle strokes on the ridge tops",
+        "pale unpainted rock faces contrasting with gray mist wash",
+        "steep diagonal ravine cuts and broken brush accents"
+      ]
+    },
+    {
+      "name": "central_rock_spire_with_pines",
+      "description": "Isolate the slimmer middle-distance rock spire rising from mist below the main cliffs, with a pine-crowned peak and dark vertical rock cuts.",
+      "bbox": [
+        0.27,
+        0.24,
+        0.23,
+        0.21
+      ],
+      "role": "middle mountain crag",
+      "must_preserve": [
+        "pine tufts at the crest with fine dark needles",
+        "irregular rock outline tapering into mist",
+        "dark diagonal fissure across the face",
+        "soft gray wash at the base where the form dissolves",
+        "short interior texture strokes on pale rock"
+      ]
+    },
+    {
+      "name": "distant_layered_hills",
+      "description": "Isolate the pale distant mountain range stretching across the right half behind the lake, including overlapping low peaks and mist-softened slopes.",
+      "bbox": [
+        0.42,
+        0.31,
+        0.58,
+        0.14
+      ],
+      "role": "distant mountain range",
+      "must_preserve": [
+        "thin undulating ridge contours",
+        "subtle overlapping hill silhouettes",
+        "soft gray wash separations between layers",
+        "misty lower edge fading into the lake",
+        "pale ochre-toned reserved mountain faces"
+      ]
+    },
+    {
+      "name": "misty_moon_water_band",
+      "description": "Isolate the open atmospheric band of lake and sky in the upper-middle right, including the small round moon and horizontal mist washes.",
+      "bbox": [
+        0.47,
+        0.13,
+        0.49,
+        0.25
+      ],
+      "role": "mist and moon atmosphere",
+      "must_preserve": [
+        "small pale circular moon",
+        "broad horizontal gray wash bands",
+        "soft blurred mist transitions",
+        "empty water-sky space without added objects",
+        "very faint tonal variations suggesting distance"
+      ]
+    },
+    {
+      "name": "distant_lakeside_village",
+      "description": "Isolate the small cluster of distant buildings and trees on the far right shore across the water, including tiered roof pavilions, low houses, and conifers softened by mist.",
+      "bbox": [
+        0.58,
+        0.47,
+        0.39,
+        0.07
+      ],
+      "role": "distant village cluster",
+      "must_preserve": [
+        "tiny tiered roof geometry with upturned eaves",
+        "low hut rooflines between trees",
+        "thin vertical conifer silhouettes",
+        "mist partially veiling building bases",
+        "delicate scale contrast against the open lake"
+      ]
+    },
+    {
+      "name": "scholar_pavilion_terrace",
+      "description": "Isolate the foreground pavilion terrace at lower left with the roofed study, railing, seated scholar figures, table, stools, and the immediate platform architecture.",
+      "bbox": [
+        0.0,
+        0.61,
+        0.34,
+        0.18
+      ],
+      "role": "foreground pavilion and figures",
+      "must_preserve": [
+        "angular tiled roof and triangular gable details",
+        "straight railing posts and terrace floor lines",
+        "two seated scholar figures with fine robe outlines",
+        "small table and interior furnishing marks",
+        "dark ink linework defining beams, screens, and platform edges"
+      ]
+    },
+    {
+      "name": "central_gnarled_pine",
+      "description": "Isolate the large twisted pine rising beside and above the pavilion, with its bent trunk, exposed knots, long branches, and spreading needle clusters.",
+      "bbox": [
+        0.18,
+        0.46,
+        0.54,
+        0.34
+      ],
+      "role": "foreground pine anchor",
+      "must_preserve": [
+        "gnarled trunk contour with knots and hollows",
+        "long angular branches crossing diagonally",
+        "dense needle clusters made of short dark strokes",
+        "hanging fine twig lines beneath branches",
+        "dry-brush bark texture and dark root-like bends"
+      ]
+    },
+    {
+      "name": "lower_right_willow_reeds",
+      "description": "Isolate the waterside willow and reed clump in the lower right foreground, including drooping leaf strands, arched stems, and the low rocky bank with bare twigs behind it.",
+      "bbox": [
+        0.44,
+        0.78,
+        0.39,
+        0.18
+      ],
+      "role": "foreground waterside vegetation",
+      "must_preserve": [
+        "long drooping willow or reed leaves drawn in fine lines",
+        "arched stalk outlines with pale interiors",
+        "small bare branch network at the base",
+        "soft water wash surrounding the plants",
+        "delicate ink accents along the low bank"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 01 NPM.jpg",
+  "created_at": "2026-09-03T21:27:22.904821+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

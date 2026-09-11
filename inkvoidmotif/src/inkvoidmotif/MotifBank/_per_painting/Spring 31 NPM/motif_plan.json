@@ -1,0 +1,152 @@
+{
+  "source_summary": "Chinese spring landscape with a large mist-washed mountain at left, blossom-filled riverside village below, foreground plum trees, layered riverbanks and water to the right, a small boat with figures, and faint distant boats/island forms. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "left_misty_mountain_massif",
+      "description": "Isolate the large left-side mountain rising behind the village, including its rounded peak, sloping shoulders, mist-softened lower contours, and darker central rocky strata.",
+      "bbox": [
+        0.0,
+        0.21,
+        0.53,
+        0.43
+      ],
+      "role": "mountain backdrop",
+      "must_preserve": [
+        "soft grey-green ink wash gradients",
+        "dry-brush diagonal mountain texture",
+        "darker layered rock ledges near the center-right face",
+        "mist-dissolved lower edge",
+        "rounded peak silhouette"
+      ]
+    },
+    {
+      "name": "central_rocky_cliff_terraces",
+      "description": "Isolate the darker terraced cliff section embedded on the mountain face, with stepped horizontal ledges and scrubby ink marks.",
+      "bbox": [
+        0.22,
+        0.29,
+        0.16,
+        0.18
+      ],
+      "role": "rock texture accent",
+      "must_preserve": [
+        "stacked ledge geometry",
+        "dark dry-brush cracks",
+        "short scrub strokes on ledges",
+        "uneven ink density",
+        "integration with pale surrounding wash edges"
+      ]
+    },
+    {
+      "name": "riverside_village_rooftops",
+      "description": "Isolate the cluster of pale village roofs nestled among blossoms in the lower left-middle, including overlapping gabled houses and diagonal roof tile lines.",
+      "bbox": [
+        0.0,
+        0.63,
+        0.49,
+        0.16
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "slanted grey roof planes",
+        "fine parallel roof-tile linework",
+        "small triangular gable ends",
+        "pale wall washes",
+        "partial concealment by blossom branches"
+      ]
+    },
+    {
+      "name": "midground_blossom_belt",
+      "description": "Isolate the continuous band of spring blossom shrubs and small trees stretching behind the village toward the right bank.",
+      "bbox": [
+        0.0,
+        0.56,
+        0.69,
+        0.22
+      ],
+      "role": "flowering hillside vegetation",
+      "must_preserve": [
+        "dense magenta and purple blossom dots",
+        "thin grey-brown twig strokes",
+        "irregular shrub tops",
+        "transparent pale green-grey foliage wash",
+        "soft transition into the mountain and bank washes"
+      ]
+    },
+    {
+      "name": "foreground_plum_grove",
+      "description": "Isolate the dark foreground plum trees at the lower left, with branching trunks, exposed roots, and clusters of magenta blossoms.",
+      "bbox": [
+        0.0,
+        0.69,
+        0.47,
+        0.23
+      ],
+      "role": "foreground flowering trees",
+      "must_preserve": [
+        "black-brown angular trunk linework",
+        "forking branch structure",
+        "root-like base strokes",
+        "deep red and purple blossom accents",
+        "layered dry-brush grasses and low foliage at the base"
+      ]
+    },
+    {
+      "name": "right_layered_riverbank",
+      "description": "Isolate the misty shoreline and low hills on the right side, including the projecting bank, receding horizontal land strips, and soft water-edge washes.",
+      "bbox": [
+        0.43,
+        0.58,
+        0.53,
+        0.21
+      ],
+      "role": "riverbank and distant shore",
+      "must_preserve": [
+        "horizontal receding shoreline bands",
+        "soft grey-green bank washes",
+        "blurred mist edges",
+        "low mound silhouette",
+        "subtle darker brush accents along the bank"
+      ]
+    },
+    {
+      "name": "small_family_boat",
+      "description": "Isolate the small skiff on the lower right water with seated figures and a standing boatman using an oar.",
+      "bbox": [
+        0.58,
+        0.84,
+        0.25,
+        0.07
+      ],
+      "role": "boat with figures",
+      "must_preserve": [
+        "thin ink outline of the narrow boat",
+        "three seated passenger figures",
+        "standing or crouched boatman at the stern",
+        "long diagonal oar strokes",
+        "tiny dark hair and robe accents"
+      ]
+    },
+    {
+      "name": "distant_mist_boats_and_island",
+      "description": "Isolate the faint distant forms near the upper sky-water area: pale small sailboats and the low grey island or cloud-like landform near the top.",
+      "bbox": [
+        0.45,
+        0.0,
+        0.39,
+        0.2
+      ],
+      "role": "distant atmospheric detail",
+      "must_preserve": [
+        "very pale ink silhouettes",
+        "low horizontal island/cloud form",
+        "tiny boat shapes with suggested sails",
+        "soft faded edges",
+        "minimal brush marks that imply distance and mist"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Spring 31 NPM.png",
+  "created_at": "2026-07-03T22:18:23.005943+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,115 @@
+{
+  "source": "../../../../../../Input_Images/Summer 13 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-26T21:54:11.945502+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_peak_massif",
+      "description": "Isolate the monumental upper-left mountain group: clustered rounded peaks and a high dark vertical cliff face, with pale ochre-grey washes, dry-brush vertical striations, dotted vegetation accents, and soft misty edges around the summits.",
+      "bbox": [
+        0.0,
+        0.055,
+        0.52,
+        0.34
+      ],
+      "role": "distant mountain massif",
+      "must_preserve": [
+        "vertical hemp-fiber texture strokes on the rock faces",
+        "dark ink washes on the central high cliff",
+        "small dotted shrub marks along ridges",
+        "soft atmospheric wash separating peaks from sky",
+        "rounded layered peak geometry"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_peak_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_cliff_waterfall_mist",
+      "description": "Isolate the right-middle cliff system with a narrow white waterfall dropping through a mist gap, flanked by rounded rock masses and dark shaded recesses.",
+      "bbox": [
+        0.56,
+        0.22,
+        0.41,
+        0.25
+      ],
+      "role": "cliff, waterfall, and mist passage",
+      "must_preserve": [
+        "thin pale waterfall line with dark ink edge",
+        "misty blank vertical opening around the falls",
+        "rounded rock contours with dry-brush texture",
+        "dark hollow shadow at the lower cliff base",
+        "subtle grey-brown wash gradients"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_cliff_waterfall_mist.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_terraced_pine_slopes",
+      "description": "Isolate the left middle descending hillsides with layered, wave-like ridges, terraced contour bands, and dense small pine clusters at the lower slopes.",
+      "bbox": [
+        0.0,
+        0.36,
+        0.43,
+        0.22
+      ],
+      "role": "middle-ground hillside and pine forest",
+      "must_preserve": [
+        "parallel contour strokes following the slope curves",
+        "rows of fine pine trunks and needle marks",
+        "dark dotted ridge vegetation",
+        "stepped terrace-like bands at the far left",
+        "soft transition into surrounding mountain wash"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_left_terraced_pine_slopes.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_twisted_tree_grove",
+      "description": "Isolate the broad foreground grove of twisting deciduous trees and pines over rocks, including dense leaf-dot canopies, gnarled trunks, low shrubs, and the small paths and streamlets threading between them.",
+      "bbox": [
+        0.02,
+        0.69,
+        0.64,
+        0.27
+      ],
+      "role": "foreground grove and rocky garden terrain",
+      "must_preserve": [
+        "gnarled pale tree trunks with branching linework",
+        "dense stippled and scalloped leaf clusters",
+        "dark pine needle masses mixed with lighter foliage",
+        "large foreground rocks with shaded creases",
+        "small pale paths and water channels winding through the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_foreground_twisted_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_waterside_pavilion",
+      "description": "Isolate the lower-right waterside pavilion group with a rectangular roofed building, willow-like trees, bankside rocks, small water channels, and pale open ground around the structure.",
+      "bbox": [
+        0.66,
+        0.79,
+        0.32,
+        0.17
+      ],
+      "role": "foreground pavilion by water",
+      "must_preserve": [
+        "straight roof ridgeline and tiled eaves of the pavilion",
+        "pale wall panels and posts beneath the roof",
+        "drooping willow-like branch strokes",
+        "dark ink rock textures around the water edge",
+        "small pale water surfaces and bank contours"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_right_waterside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

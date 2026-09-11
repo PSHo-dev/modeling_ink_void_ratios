@@ -1,0 +1,158 @@
+{
+  "source_summary": "Chinese landscape painting with misty water, distant washed hills, garden pavilions, tree groves, lotus surface, bridge, stream, rocks, and small scholar figures. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "distant_mist_hills",
+      "description": "Soft horizontal band of distant grey wash hills and cloud-like mist across the upper middle-right sky, isolated without the calligraphy or seal marks.",
+      "bbox": [
+        0.43,
+        0.22,
+        0.55,
+        0.12
+      ],
+      "role": "distant mountain and mist",
+      "must_preserve": [
+        "pale ink wash gradations",
+        "blurred feathered mist edges",
+        "low undulating hill contour",
+        "small darker pooled ink accents near center",
+        "empty-paper gaps within the haze"
+      ]
+    },
+    {
+      "name": "lotus_water_shoal",
+      "description": "Curving lotus-covered water surface and shoal in the middle-left, with clustered round leaves fading into pale water and a gently arcing shoreline.",
+      "bbox": [
+        0.17,
+        0.45,
+        0.42,
+        0.15
+      ],
+      "role": "water and lotus surface",
+      "must_preserve": [
+        "many small rounded lotus leaves",
+        "blue-green and muted pink color accents",
+        "soft pale water wash",
+        "curving ochre shoreline line",
+        "scattered dot texture along the bank"
+      ]
+    },
+    {
+      "name": "rear_grove_and_island_pavilions",
+      "description": "Midground island garden with a round thatched pavilion, partial tiled building to the right, surrounding shrubs, bare trees, bamboo-like verticals, and a distant conifer grove behind.",
+      "bbox": [
+        0.51,
+        0.32,
+        0.48,
+        0.25
+      ],
+      "role": "village pavilion cluster",
+      "must_preserve": [
+        "round pavilion roof geometry with fine thatch strokes",
+        "vertical railing and wall linework",
+        "partial rectangular tiled roof at far right",
+        "bare branching tree linework",
+        "dense stippled evergreen grove",
+        "blue-green shrub washes and dot clusters"
+      ]
+    },
+    {
+      "name": "foreground_scholar_pavilion",
+      "description": "Raised waterside pavilion at right-center containing a seated scholar beside a low table, with tiled roof, open railing, support posts, and water reflections beneath.",
+      "bbox": [
+        0.67,
+        0.56,
+        0.24,
+        0.18
+      ],
+      "role": "foreground pavilion with figure",
+      "must_preserve": [
+        "layered tile roof lines",
+        "triangular gable detail",
+        "open architectural posts and railings",
+        "seated scholar figure with robe lines",
+        "small table and vessel forms",
+        "short vertical reflection strokes below the platform"
+      ]
+    },
+    {
+      "name": "arching_willow_frame",
+      "description": "Large dark-trunked willow-like tree mass on the right, arching over the buildings with long drooping branches and sparse foliage clusters.",
+      "bbox": [
+        0.78,
+        0.4,
+        0.21,
+        0.48
+      ],
+      "role": "foreground framing tree",
+      "must_preserve": [
+        "bold dark twisting trunk strokes",
+        "long sweeping drooping branch lines",
+        "fine twig network",
+        "light blue-green leaf stippling",
+        "overlapping branches crossing the pavilion roofs",
+        "contrast between heavy ink trunk and pale washes"
+      ]
+    },
+    {
+      "name": "lower_right_pavilion_with_attendant",
+      "description": "Lower-right waterside pavilion with tiled roof and open lattice walls, containing a small seated figure near the right side, set on a slight bank above water.",
+      "bbox": [
+        0.78,
+        0.74,
+        0.2,
+        0.15
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "repeating roof tile pattern",
+        "open wall lattice and diagonal braces",
+        "small seated figure silhouette",
+        "thin platform and waterline strokes",
+        "pale green bank wash",
+        "delicate architectural ink outlines"
+      ]
+    },
+    {
+      "name": "bridge_stream_and_walking_scholar",
+      "description": "Lower-left stream crossing with a small plank bridge, grassy banks, and a walking scholar holding a staff along the path to the right of the bridge.",
+      "bbox": [
+        0.02,
+        0.8,
+        0.43,
+        0.13
+      ],
+      "role": "bridge, stream, and figure",
+      "must_preserve": [
+        "simple plank bridge with two posts",
+        "dark stream-bank contour lines",
+        "pale water wash",
+        "walking scholar’s robe and staff",
+        "dotted grass texture along banks",
+        "soft green foreground slope"
+      ]
+    },
+    {
+      "name": "central_foreground_tree_grove_and_rocks",
+      "description": "Central foreground grove of slender trees and shrubs rising from grassy mounds, with exposed roots and clustered rocks at the base.",
+      "bbox": [
+        0.38,
+        0.62,
+        0.38,
+        0.34
+      ],
+      "role": "foreground trees, rocks, and shrubs",
+      "must_preserve": [
+        "slender trunks with fine branch linework",
+        "dense blue-green leaf stippling",
+        "gnarled exposed roots",
+        "rounded rocks with dark contour cracks",
+        "layered grass hatch marks",
+        "varied ink density between foliage masses"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer_Coolness 12 BPM.jpg",
+  "created_at": "2026-09-03T20:52:32.342300+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

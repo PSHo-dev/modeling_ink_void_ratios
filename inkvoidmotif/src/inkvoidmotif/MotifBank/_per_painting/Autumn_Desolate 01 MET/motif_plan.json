@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical ink-and-light-wash Chinese landscape with most pictorial motifs in the lower two-thirds: tall trees and shrubs on a rocky bank, a seated scholar by water, foreground rocks, reeds, and sparse saplings. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "tall_right_willow_tree",
+      "description": "Isolate the tall leafy tree on the right with its pale upright trunk, forked upper branching, and cascading dark ink foliage clusters. Include the upper crown, side branch extending toward the right edge, lower hanging leaves, and the full visible trunk down to the root area, but exclude calligraphy, seals, and unrelated rocks beyond the immediate root contact.",
+      "bbox": [
+        0.57,
+        0.24,
+        0.43,
+        0.58
+      ],
+      "role": "dominant tree",
+      "must_preserve": [
+        "soft gray trunk wash with darker contour lines",
+        "forked trunk geometry and subtle bark streaks",
+        "repeated hooked leaf strokes in dense clusters",
+        "lighter misty gaps between foliage masses",
+        "right-edge branch tips and drooping leaves"
+      ]
+    },
+    {
+      "name": "leaning_gnarled_tree",
+      "description": "Isolate the central leaning gnarled tree crossing diagonally upward from lower right toward left, including its twisted trunk, bare twiggy branches, and dark leaf clusters attached around the trunk. Keep it separate from the taller right tree as much as possible.",
+      "bbox": [
+        0.27,
+        0.42,
+        0.45,
+        0.37
+      ],
+      "role": "secondary tree",
+      "must_preserve": [
+        "diagonal S-curved trunk with pale wash highlight",
+        "dry-brush bark texture and dark contour accents",
+        "fine bare branch linework at the top and sides",
+        "dense dark leaf dabs hugging the trunk",
+        "overlapping but distinct twig silhouettes"
+      ]
+    },
+    {
+      "name": "drooping_reed_bamboo_clump",
+      "description": "Isolate the low, sweeping clump of long drooping reed or bamboo-like leaves to the left of the tree trunks. Include the arcing sprays and pale gray wash mass behind them, without the seated figure or rocky foreground.",
+      "bbox": [
+        0.06,
+        0.59,
+        0.5,
+        0.14
+      ],
+      "role": "vegetation cluster",
+      "must_preserve": [
+        "long thin downward leaf strokes",
+        "fan-like arcing sprays extending leftward",
+        "soft gray wash understructure",
+        "dry-brush tips and broken ink texture",
+        "layered light and dark leaf densities"
+      ]
+    },
+    {
+      "name": "seated_scholar_on_bank",
+      "description": "Isolate the small seated scholar figure on the low bank near the water. Include the robe outline, head and facial indication, folded posture, and the thin ground line or mat directly supporting the figure, but not the surrounding trees or large water area.",
+      "bbox": [
+        0.33,
+        0.77,
+        0.2,
+        0.1
+      ],
+      "role": "scholar figure",
+      "must_preserve": [
+        "delicate pale ink facial and hair outline",
+        "folded seated robe geometry",
+        "fine contour lines of sleeves and knees",
+        "small dark accents defining posture",
+        "subtle ground/mat line beneath the figure"
+      ]
+    },
+    {
+      "name": "quiet_water_shoals",
+      "description": "Isolate the calm water and low shoal forms across the lower middle-left, including horizontal wash bands, soft shoreline edges, and small dotted vegetation along the banks. Exclude the seated scholar as a separate motif where possible.",
+      "bbox": [
+        0.03,
+        0.82,
+        0.58,
+        0.11
+      ],
+      "role": "water surface",
+      "must_preserve": [
+        "horizontal ink wash bands suggesting still water",
+        "soft blurred shore and sandbar edges",
+        "small dark vegetation dots along the banks",
+        "faint layered tonal gradations",
+        "open negative space between the shoals"
+      ]
+    },
+    {
+      "name": "right_foreground_rocky_slope",
+      "description": "Isolate the sloping rocky bank in the lower right beneath the trees, including the diagonal rock planes, dotted moss shrubs, root contact, and dry-brush texture. Avoid the red seals at the lower right and bottom.",
+      "bbox": [
+        0.49,
+        0.73,
+        0.38,
+        0.18
+      ],
+      "role": "foreground rock slope",
+      "must_preserve": [
+        "diagonal rock striations in gray wash",
+        "dark moss-dot clusters along ridge edges",
+        "irregular shrub silhouettes at the top of the slope",
+        "root-like dark lines near the tree base",
+        "soft transitions between rock planes"
+      ]
+    },
+    {
+      "name": "lower_left_rock_shrub_bank",
+      "description": "Isolate the foreground rocks and shrub bank at the lower left, including rounded boulders, dark stippled foliage, and small shoreline protrusions. Exclude any red seal impressions near the extreme bottom edge.",
+      "bbox": [
+        0.0,
+        0.88,
+        0.37,
+        0.09
+      ],
+      "role": "foreground rocks and shrubs",
+      "must_preserve": [
+        "rounded rock forms with pale interior wash",
+        "dark stippled shrub texture",
+        "broken dry-brush outlines on stone edges",
+        "small protruding stones near the water",
+        "layered foreground-to-water transition"
+      ]
+    },
+    {
+      "name": "right_bare_saplings",
+      "description": "Isolate the slender bare saplings on the right side, including the thin trunks and sparse branchlets rising beside the main tree. Keep them distinct from the tall leafy tree and the rocky bank when possible.",
+      "bbox": [
+        0.82,
+        0.5,
+        0.18,
+        0.34
+      ],
+      "role": "bare trees",
+      "must_preserve": [
+        "fine wiry branch linework",
+        "slender pale-gray trunks with minimal wash",
+        "forked twig tips and angular branch joints",
+        "open negative space around the branches",
+        "subtle tonal contrast against the background"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Autumn_Desolate 01 MET.jpg",
+  "created_at": "2026-08-06T22:28:09.046791+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

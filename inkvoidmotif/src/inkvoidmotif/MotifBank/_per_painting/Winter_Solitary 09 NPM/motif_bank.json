@@ -1,0 +1,160 @@
+{
+  "source": "../../../../../../Input_Images/Winter_Solitary 09 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T22:18:26.868597+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_terraced_hillside",
+      "description": "Isolate the stepped rocky hillside at upper left, including layered horizontal ledges, scrub vegetation, and the prominent pine-like tree descending along the slope.",
+      "bbox": [
+        0.0,
+        0.09,
+        0.42,
+        0.22
+      ],
+      "role": "upper hillside and rocky terrace",
+      "must_preserve": [
+        "blocky terrace geometry with dark ink outlines",
+        "dry-brush rock texture and shaded cliff faces",
+        "small clustered shrubs along ledge tops",
+        "fine pine needles and twiggy vegetation",
+        "pale wash transitions on the sloping rock planes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_left_terraced_hillside.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_hidden_pavilions",
+      "description": "Isolate the small pavilion group tucked into the upper-right valley, including the main roofed pavilion, lower red-accented roofs, surrounding bamboo-like thickets, shrubs, and nearby pine.",
+      "bbox": [
+        0.64,
+        0.17,
+        0.27,
+        0.145
+      ],
+      "role": "hidden pavilion village cluster",
+      "must_preserve": [
+        "precise roof geometry with angled eaves",
+        "red-brown roof and railing accents",
+        "vertical bamboo and shrub strokes around the buildings",
+        "fine pine branches above the pavilion",
+        "rocky enclosure framing the structures without adding distant seals or text"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_hidden_pavilions.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_diagonal_rock_gorge",
+      "description": "Isolate the central diagonal gorge of large pale rock slabs, dark crevices, clumps of vegetation, and two tall conifers rising from the rocky middle ground.",
+      "bbox": [
+        0.22,
+        0.255,
+        0.5,
+        0.295
+      ],
+      "role": "central mountain gorge",
+      "must_preserve": [
+        "long sweeping diagonal rock contours",
+        "dark ink crevice lines and stippled rock bases",
+        "soft gray-brown wash on broad stone faces",
+        "needle-like conifer branches and leaning trunks",
+        "dense shrub dots along ravine edges",
+        "mist-softened separations between overlapping rock masses"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_diagonal_rock_gorge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_mid_cliff_ravine",
+      "description": "Isolate the angular rocky ravine on the middle right, with stacked cliff faces, a narrow descending gully, dotted vegetation, and dry-brush texture.",
+      "bbox": [
+        0.72,
+        0.315,
+        0.27,
+        0.245
+      ],
+      "role": "rocky ravine and side cliff",
+      "must_preserve": [
+        "faceted cliff outlines with sharp turns",
+        "layered rock blocks and interior crack lines",
+        "dark stippling at the base of slopes",
+        "thin vegetation strokes clinging to ledges",
+        "pale wash modeling on the vertical stone faces"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_mid_cliff_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_mid_grove_hut",
+      "description": "Isolate the dense grove across the lower middle, including interlaced tree trunks and branches, the small hut or gate-like structure on the right, and the wooded bank behind it.",
+      "bbox": [
+        0.0,
+        0.52,
+        0.98,
+        0.225
+      ],
+      "role": "riverside grove and rustic architecture",
+      "must_preserve": [
+        "many pale trunks with dark shaded bark edges",
+        "fine twig networks and leaf-dot texture",
+        "layered depth between front and back trees",
+        "small hut roof and vertical wall or gate lines",
+        "subtle warm roof accents",
+        "low bank contours and scattered rocks beneath the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_mid_grove_hut.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_stream_and_rocks",
+      "description": "Isolate the quiet lower stream or water surface with shoreline rocks, stepping stones, low banks, and faint bridge or plank lines near the left-middle foreground.",
+      "bbox": [
+        0.0,
+        0.66,
+        0.67,
+        0.18
+      ],
+      "role": "water surface and rocky bank",
+      "must_preserve": [
+        "flat open water wash with minimal linework",
+        "thin horizontal bank and bridge/plank lines",
+        "small scattered rocks with ink outlines",
+        "dry-brush shading on larger shoreline stones",
+        "soft transitions where land meets water"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_stream_and_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mounted_traveler_bridge",
+      "description": "Isolate the small mounted traveler crossing the narrow bridge or path at lower left, including the mule or donkey, the red-robed rider, and the immediate bridge line beneath.",
+      "bbox": [
+        0.095,
+        0.825,
+        0.19,
+        0.08
+      ],
+      "role": "scholar figure and travel accent",
+      "must_preserve": [
+        "tiny animal silhouette with delicate legs and head",
+        "rider posture and hat/head detail",
+        "distinct red robe color accent",
+        "thin reins or guiding linework",
+        "straight bridge or path line beneath the figure",
+        "surrounding minimal ground strokes needed to anchor the crossing"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_mounted_traveler_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

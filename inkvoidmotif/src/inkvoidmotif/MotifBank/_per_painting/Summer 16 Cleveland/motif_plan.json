@@ -1,0 +1,154 @@
+{
+  "source_summary": "Tall monochrome ink Chinese landscape with layered mountains, mist bands, pine-covered ridges, small village and pavilion architecture, winding stream, rocks, shrubs, and foreground trees. Calligraphy, seals, borders, and paper texture are excluded.",
+  "motifs": [
+    {
+      "name": "upper_left_pine_mountain",
+      "description": "Isolate the massive upper-left mountain mass with rounded summit, steep washed slopes, dark contour strokes, and rows of tiny pines crowning the top and ridgelines.",
+      "bbox": [
+        0.0,
+        0.09,
+        0.62,
+        0.28
+      ],
+      "role": "dominant background mountain",
+      "must_preserve": [
+        "soft grey ink wash on broad slopes",
+        "arched contour lines descending from summit",
+        "dense dark pine needles along the crest",
+        "small dotted trees on ridgelines",
+        "rocky darker right edge and lower foothill transitions"
+      ]
+    },
+    {
+      "name": "distant_right_mist_peaks",
+      "description": "Isolate the pale distant peaks on the upper-right middle distance, including the tall vertical peak, smaller pointed silhouettes, and the darker nearer knoll with pine strokes.",
+      "bbox": [
+        0.58,
+        0.21,
+        0.39,
+        0.22
+      ],
+      "role": "distant mountain group",
+      "must_preserve": [
+        "faint mist-softened peak silhouettes",
+        "tall narrow right peak with blurred wash edge",
+        "dark ribbed brush strokes on nearer knoll",
+        "small pine marks at bases",
+        "soft atmospheric fading into surrounding void"
+      ]
+    },
+    {
+      "name": "central_mist_belt",
+      "description": "Isolate the horizontal mist layer crossing the painting between the upper mountains and middle hills, keeping the soft blank-cloud openings and partially submerged tree and ridge edges.",
+      "bbox": [
+        0.0,
+        0.31,
+        0.94,
+        0.12
+      ],
+      "role": "mist and atmospheric divider",
+      "must_preserve": [
+        "soft uneven mist edges",
+        "blank paper-like cloud openings",
+        "partially obscured lower mountain bases",
+        "faint tree tops emerging through fog",
+        "transparent grey wash transitions"
+      ]
+    },
+    {
+      "name": "mid_left_terraced_village",
+      "description": "Isolate the mid-left hillside village cluster with small angular roofs nestled among trees, terraced slopes, shrubs, and surrounding rounded rocks.",
+      "bbox": [
+        0.11,
+        0.39,
+        0.33,
+        0.16
+      ],
+      "role": "village cluster on hillside",
+      "must_preserve": [
+        "thin roof geometry and stacked house lines",
+        "dark tree crowns around dwellings",
+        "terraced slope contours",
+        "rounded rock forms with ink texture",
+        "small vertical trunks and shrub dots"
+      ]
+    },
+    {
+      "name": "central_pine_ridge_network",
+      "description": "Isolate the central layered ridges and pine groves, including the diagonal ridge spine, clustered hilltops, dark dotted rock accents, and scattered small trees.",
+      "bbox": [
+        0.42,
+        0.36,
+        0.4,
+        0.31
+      ],
+      "role": "middle-ground hillsides",
+      "must_preserve": [
+        "diagonal ridge linework",
+        "dark moss-dot rock accents",
+        "vertical pine trunks and needle clusters",
+        "alternating pale wash slopes and dark texture bands",
+        "small hidden architectural roof marks if visible within the ridge"
+      ]
+    },
+    {
+      "name": "cliffside_bridge_hamlet",
+      "description": "Isolate the lower-left middle hamlet beside the narrow descending stream, including the rectangular buildings, arched bridge-like crossing, cliff walls, and nearby vertical tree stands.",
+      "bbox": [
+        0.14,
+        0.55,
+        0.29,
+        0.15
+      ],
+      "role": "waterfall hamlet and bridge scene",
+      "must_preserve": [
+        "small rectangular roof and wall geometry",
+        "arched bridge or covered crossing over the stream",
+        "vertical falling-water channel",
+        "tight cliff contours around the ravine",
+        "fine trunks and dark foliage enclosing the buildings"
+      ]
+    },
+    {
+      "name": "foreground_stream_boat_rocks",
+      "description": "Isolate the lower central winding waterway with pale stream surface, low boat form, small footbridge or rope-like crossing, stepping stones, banks, and surrounding foreground rocks.",
+      "bbox": [
+        0.14,
+        0.7,
+        0.5,
+        0.26
+      ],
+      "role": "foreground water passage",
+      "must_preserve": [
+        "thin horizontal water ripples",
+        "curved low boat silhouette",
+        "small crossing line with posts",
+        "scattered stepping stones in the stream",
+        "rounded bank rocks with dotted texture",
+        "soft wet washes along the shore"
+      ]
+    },
+    {
+      "name": "right_foreground_pavilion_tree_grove",
+      "description": "Isolate the lower-right pavilion compound beneath the large dark foreground tree, including bamboo-like trunks, leafy canopy masses, hut rooflines, and rocky base.",
+      "bbox": [
+        0.56,
+        0.62,
+        0.38,
+        0.31
+      ],
+      "role": "foreground pavilion and tree grove",
+      "must_preserve": [
+        "large branching tree trunk with dark foliage masses",
+        "fine bamboo or slender vertical trunks",
+        "small pavilion roof and wall outlines",
+        "rocky mound at the base with moss dots",
+        "contrasting dark ink foliage against pale washes",
+        "delicate ground lines around the building"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 16 Cleveland.jpg",
+  "created_at": "2026-08-05T05:40:18.980604+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

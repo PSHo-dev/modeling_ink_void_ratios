@@ -1,0 +1,136 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Luxuriant 16 BPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T21:24:26.100931+00:00",
+  "motifs": [
+    {
+      "name": "central_monumental_mountain",
+      "description": "Isolate the large central mountain mass rising in the upper half, with rounded layered ridges, steep gullies, and dense texture strokes. Include the full clustered summit and descending central slopes, but exclude the red seal above, distant side peaks, and lower village areas.",
+      "bbox": [
+        0.17,
+        0.13,
+        0.53,
+        0.28
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "arched contour linework defining stacked ridges",
+        "dry-brush cun texture and short dark ink strokes",
+        "soft ochre-green washes on rock faces",
+        "mist-softened lower edges where slopes fade into the valley",
+        "dark dotted vegetation accents along ridge crests"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_monumental_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_distant_misty_peaks",
+      "description": "Isolate the pale background mountain chain on the upper right, including the pointed triangular peak and lower receding ridges emerging from mist. Avoid the nearer right cliff and village below.",
+      "bbox": [
+        0.64,
+        0.22,
+        0.35,
+        0.12
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "faint ink outlines softened by atmospheric wash",
+        "triangular peak geometry",
+        "low layered ridgelines receding to the right",
+        "misty blank spaces between peaks",
+        "subtle ochre-gray tonal transitions"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_right_distant_misty_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_pine_pavilion_cluster",
+      "description": "Isolate the pavilion group nestled among tall pines in the mid-left lower valley. Include the stacked roofs, surrounding pine trunks, and nearby rocks, but avoid the calligraphy at the far left and unrelated lower cascade.",
+      "bbox": [
+        0.18,
+        0.45,
+        0.27,
+        0.14
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "tiered roof geometry with fine ink eave lines",
+        "slender vertical pine trunks",
+        "dense needle clusters around the buildings",
+        "rock outlines and shaded bases",
+        "soft green and ochre wash around the grove"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_left_pine_pavilion_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "rocky_cascade_pool",
+      "description": "Isolate the small rocky cascade and pool area in the lower-left middle, where water flows between rounded stones with a few green shrubs nearby. Do not include the left-side inscription or the large foreground pavilion below.",
+      "bbox": [
+        0.1,
+        0.64,
+        0.27,
+        0.12
+      ],
+      "role": "water and rocks",
+      "must_preserve": [
+        "broken ink lines indicating flowing water",
+        "rounded boulder outlines with textured shading",
+        "small dark pebble clusters in the stream",
+        "bright green shrub accents near the banks",
+        "soft wash transitions around the pool"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_rocky_cascade_pool.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_central_pine_grove",
+      "description": "Isolate the dense central foreground grove of mature pines growing over rocks and slopes. Include interlacing trunks, umbrella-like needle clusters, and rocky bases, but avoid the waterfront buildings at lower left and the right streambank trees.",
+      "bbox": [
+        0.29,
+        0.55,
+        0.48,
+        0.28
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "fine radiating pine-needle linework",
+        "twisting trunks and branching structure",
+        "dark ink clusters inside foliage masses",
+        "ochre-gray rock texture under the trees",
+        "small green color accents on nearby shrubs"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_foreground_central_pine_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_waterfront_pavilion_bridge",
+      "description": "Isolate the lower-left waterside architectural complex with pavilion roofs, raised walkways, bridge railings, posts, and adjacent rocks at the water’s edge. Exclude the calligraphy and red seal on the left margin.",
+      "bbox": [
+        0.07,
+        0.86,
+        0.32,
+        0.09
+      ],
+      "role": "waterfront pavilion and bridge",
+      "must_preserve": [
+        "long horizontal bridge deck with repeated vertical rail posts",
+        "dark tiled roof outlines and projecting eaves",
+        "thin support pilings beneath the walkway",
+        "rounded shoreline rocks with ink shading",
+        "pale water wash around the structure"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_left_waterfront_pavilion_bridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

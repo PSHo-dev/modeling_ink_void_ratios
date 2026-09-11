@@ -1,0 +1,179 @@
+{
+  "source": "../../../../../../Input_Images/Autumn 11 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-06-25T00:16:59.769852+00:00",
+  "motifs": [
+    {
+      "name": "towering_upper_left_cliffs",
+      "description": "Isolate the large stacked cliff mass along the upper left edge, including the pale vertical rock faces, dark contour ridges, crevice shadows, and the small clumps of trees and bare autumn branches growing from ledges.",
+      "bbox": [
+        0.0,
+        0.08,
+        0.49,
+        0.35
+      ],
+      "role": "dominant background mountain cliff",
+      "must_preserve": [
+        "bold black cliff outlines and hooked contour strokes",
+        "soft gray ink wash gradients on rock faces",
+        "dry-brush striations following the vertical slopes",
+        "dark dotted moss texture along ridgelines and ledges",
+        "thin tree trunks, needle-like vertical foliage, and small red-brown leaf accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_towering_upper_left_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the pale blue-gray distant mountain silhouettes floating in the open mist on the right side of the upper middle distance.",
+      "bbox": [
+        0.43,
+        0.27,
+        0.56,
+        0.13
+      ],
+      "role": "distant mountain range in mist",
+      "must_preserve": [
+        "very light blue-gray wash",
+        "soft disappearing edges where peaks dissolve into mist",
+        "varied narrow peak shapes receding across the horizon",
+        "empty mist gaps between individual peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_misty_distant_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_ravine_cliffs",
+      "description": "Isolate the middle section of rounded ridges and ravine walls, with clustered vertical tree bands and small autumn-tinted treetops on the cliff tops.",
+      "bbox": [
+        0.04,
+        0.39,
+        0.86,
+        0.3
+      ],
+      "role": "middle-ground mountain valley and ravine",
+      "must_preserve": [
+        "rounded pale rock shoulders with sweeping dry-brush texture",
+        "dark scalloped moss dots along ridge edges",
+        "dense vertical tree strokes in black and gray",
+        "fine reddish leaf accents on bare branches",
+        "white mist pockets separating cliff layers"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_central_ravine_cliffs.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_autumn_tree_grove",
+      "description": "Isolate the lower-left grove of tall slender trees rooted among rocks, including bare branches, sparse red leaves, dark conifer-like vertical foliage, and the adjacent sloping rock base.",
+      "bbox": [
+        0.0,
+        0.62,
+        0.37,
+        0.27
+      ],
+      "role": "foreground tree grove",
+      "must_preserve": [
+        "thin black trunks and forked branch linework",
+        "small red-orange leaf dots on upper branches",
+        "closely spaced vertical needle strokes behind the deciduous trees",
+        "rounded ink-washed boulders at the roots",
+        "soft pale wash transitions on the left hillside"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_autumn_tree_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "thatched_cottage_compound",
+      "description": "Isolate the central-lower thatched cottage compound with multiple roof planes, bamboo fence, porch posts, windows, and the nearby drooping bamboo or leafy branch crossing the roof.",
+      "bbox": [
+        0.3,
+        0.68,
+        0.45,
+        0.2
+      ],
+      "role": "village dwelling compound",
+      "must_preserve": [
+        "layered thatch roof geometry with dark ridge lines",
+        "rectangular window and wall divisions",
+        "porch posts and gate-like vertical supports",
+        "closely spaced bamboo fence slats at right",
+        "fine radiating bamboo/grass strokes behind the roof",
+        "reddish-brown leafy branch draped over the cottage"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_thatched_cottage_compound.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_cliffside_pavilion",
+      "description": "Isolate the small pavilion perched on the right cliff above falling water and rocks, including its tiled roof, open railings, supporting posts, cliff shelf, and the narrow cascade below.",
+      "bbox": [
+        0.75,
+        0.55,
+        0.24,
+        0.26
+      ],
+      "role": "cliffside pavilion and waterfall",
+      "must_preserve": [
+        "crisp pavilion roof geometry with central finial",
+        "thin railing and post linework",
+        "vertical support structure beneath the pavilion",
+        "angular cliff contour lines around the platform",
+        "white waterfall path bordered by dark ink strokes",
+        "stepped rocks and stream-edge lines below"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_right_cliffside_pavilion.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "arched_bridge_scholar",
+      "description": "Isolate the stone arch bridge at the lower right together with the lone standing scholar figure on the path above it and the adjoining stream banks.",
+      "bbox": [
+        0.58,
+        0.82,
+        0.41,
+        0.11
+      ],
+      "role": "bridge crossing with scholar figure",
+      "must_preserve": [
+        "arched bridge underside and irregular stone texture",
+        "thin path line leading across the bridge",
+        "small robed scholar silhouette with dark head and fine staff/arm detail",
+        "broken ink outlines defining the banks",
+        "light unpainted water/mist space around the bridge opening"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_arched_bridge_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_boulder_bank",
+      "description": "Isolate the foreground cluster of rounded boulders and stream-bank rocks across the lower center-left, excluding the inscription and seals at the far lower left.",
+      "bbox": [
+        0.11,
+        0.86,
+        0.51,
+        0.1
+      ],
+      "role": "foreground rocky bank",
+      "must_preserve": [
+        "rounded boulder silhouettes with dark lower edges",
+        "dry-brush gray hatching following rock curvature",
+        "dense black moss dots in crevices",
+        "small angular stones along the water edge",
+        "soft wash transitions into the pale stream space"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_boulder_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

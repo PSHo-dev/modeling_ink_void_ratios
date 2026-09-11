@@ -1,0 +1,152 @@
+{
+  "source_summary": "Vertical Chinese landscape painting with monumental pale cliffs, dark ink pines and shrubs, small pavilion compounds, misty water flats with birds, winding banks, bridges, and foreground groves. Calligraphy and seals in the upper/right margins are excluded from motif selection.",
+  "motifs": [
+    {
+      "name": "left_sheer_cliff_with_pines",
+      "description": "Tall left-side vertical cliff face with layered pale wash, dark fissure lines, sparse shrubs, and clusters of pines clinging to ledges along the upper and middle slopes.",
+      "bbox": [
+        0.0,
+        0.02,
+        0.29,
+        0.39
+      ],
+      "role": "mountain cliff",
+      "must_preserve": [
+        "soft ochre-gray cliff wash and broad blank rock planes",
+        "thin vertical crack lines and darker ravine strokes",
+        "dark pine crowns with fine needle-dot texture",
+        "small shrubs scattered along ledges",
+        "irregular mist-softened cliff edges"
+      ]
+    },
+    {
+      "name": "central_crag_ridge_pines",
+      "description": "Massive central mountain crag rising from the midground, including the jagged ridge line, pale rock planes, central vertical clefts, and dense pine groups on the crest and left shoulder.",
+      "bbox": [
+        0.29,
+        0.23,
+        0.48,
+        0.34
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "angular ridge silhouette against open mist",
+        "long vertical texture strokes on rock face",
+        "dark crevice at lower left of crag",
+        "rounded pine canopies along the crest",
+        "fine dotted vegetation on slopes and ledges"
+      ]
+    },
+    {
+      "name": "right_receding_mountain_spur",
+      "description": "Pale right-side receding mountain spur and saddle, with rounded rock forms, soft washes, dotted shrubs, and dark ravine notch at the base; exclude nearby red seals.",
+      "bbox": [
+        0.74,
+        0.23,
+        0.22,
+        0.25
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "light translucent mountain wash",
+        "thin contour lines defining rounded slopes",
+        "dark notch and shadow at the saddle",
+        "small dotted shrub clusters",
+        "misty softened lower edge"
+      ]
+    },
+    {
+      "name": "midleft_hidden_pavilion_cluster",
+      "description": "Small pavilion and house roofs tucked into the left midground hillside beneath dense trees, with sloping tiled roofs, railings, trunks, and surrounding dark foliage.",
+      "bbox": [
+        0.02,
+        0.44,
+        0.3,
+        0.12
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "individual sloped roof geometry",
+        "fine roof-edge and railing linework",
+        "dark clustered tree masses partially obscuring buildings",
+        "vertical trunks behind the roofs",
+        "hillside contour wash around the compound"
+      ]
+    },
+    {
+      "name": "misty_water_birds_and_islets",
+      "description": "Broad misty water plain across the lower middle with scattered flocks of tiny dark birds, low sandy islets, sparse reeds, and faint shoreline contours.",
+      "bbox": [
+        0.0,
+        0.57,
+        0.55,
+        0.22
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "open pale wash of water and mist",
+        "tiny V-shaped and dot-like bird marks",
+        "thin curving shoreline lines",
+        "low reed and grass strokes on islets",
+        "subtle tonal transitions at the banks"
+      ]
+    },
+    {
+      "name": "central_river_island_with_bridge",
+      "description": "Narrow curving river island and bank in the lower middle-right, including a small simple bridge or landing structure, low shrubs, water channels, and nearby shoreline trees.",
+      "bbox": [
+        0.43,
+        0.64,
+        0.32,
+        0.16
+      ],
+      "role": "river island and bridge",
+      "must_preserve": [
+        "thin horizontal bridge or railing lines",
+        "curving bank outlines",
+        "small dark shrub masses along the island",
+        "light water gaps around the bank",
+        "delicate twiggy tree strokes"
+      ]
+    },
+    {
+      "name": "lower_left_riverside_pavilions",
+      "description": "Foreground-left riverside architectural compound with multiple sloped roofs, walls, terrace edge, small gate-like structure, and overhanging trees beside the water.",
+      "bbox": [
+        0.0,
+        0.76,
+        0.24,
+        0.16
+      ],
+      "role": "foreground pavilion group",
+      "must_preserve": [
+        "layered tiled roof shapes",
+        "straight architectural wall and terrace lines",
+        "small gate or landing element at lower edge",
+        "dense dark foliage overlapping roofs",
+        "adjacent waterline and bank contour"
+      ]
+    },
+    {
+      "name": "lower_right_pine_grove_and_rocky_bank",
+      "description": "Lower-right foreground grove of tall dark pines and trees on a sandy rocky bank, with exposed trunks, clustered canopies, shrubs, rocks, and a few pinkish blossom accents at the far right.",
+      "bbox": [
+        0.6,
+        0.63,
+        0.4,
+        0.34
+      ],
+      "role": "foreground grove and rocks",
+      "must_preserve": [
+        "tall tree trunks with dark ink bases",
+        "dense pine needle clusters and rounded foliage masses",
+        "sandy bank wash and rock contours",
+        "small shrubs and grasses at tree bases",
+        "subtle pink blossom/color accents on the right edge"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Cold 14 NPM.jpg",
+  "created_at": "2026-09-03T22:01:35.451837+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

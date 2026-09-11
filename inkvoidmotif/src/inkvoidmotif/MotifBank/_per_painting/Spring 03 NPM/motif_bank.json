@@ -1,0 +1,178 @@
+{
+  "source": "../../../../../../Input_Images/Spring 03 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-06T22:35:00.456357+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_cliff_face",
+      "description": "Isolate the inner portion of the towering upper-left rocky cliff, including steep folded strata, dark ink contour ridges, dry-brush creases, pale green mineral washes, and small dotted vegetation along ledges. Exclude nearby red seals and any blank paper margin.",
+      "bbox": [
+        0.055,
+        0.18,
+        0.17,
+        0.26
+      ],
+      "role": "mountain cliff",
+      "must_preserve": [
+        "angular black contour linework on the cliff ridges",
+        "layered cun-style dry brush texture",
+        "pale green wash accents on rock planes",
+        "dotted shrub marks along the upper ledges",
+        "dark crevice shadows between rock folds"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_cliff_face.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_craggy_mountain_cluster",
+      "description": "Isolate the central mass of rounded vertical crags and ravines, with clustered pine rows, ink-dotted shrubs, pale green-gray washes, and interlocking boulder forms rising from the middle of the composition.",
+      "bbox": [
+        0.12,
+        0.27,
+        0.44,
+        0.36
+      ],
+      "role": "central mountain mass",
+      "must_preserve": [
+        "rounded vertical rock forms with dark outline strokes",
+        "dense texture strokes on cliff faces",
+        "bands of small pine needles and dot foliage",
+        "soft green mineral wash on selected slopes",
+        "mist-softened lower edges between crags"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_central_craggy_mountain_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_rolling_hillside_pine_belt",
+      "description": "Isolate the broad right-side rolling hillside and ridge, including the horizontal pine belt across the crest, dark textured rock folds, and sloping earth forms. Do not include red seals at the far right.",
+      "bbox": [
+        0.56,
+        0.35,
+        0.37,
+        0.19
+      ],
+      "role": "middle-distance hillside",
+      "must_preserve": [
+        "long undulating ridge contour",
+        "dark dry-brush striations across the hillside",
+        "thin upright pine trunks and needle clusters along the crest",
+        "subtle green-gray wash patches",
+        "soft transition into mist at the lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_rolling_hillside_pine_belt.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "misty_distant_peaks",
+      "description": "Isolate the pale background mountains and horizontal mist band behind the main hills, including faint triangular and rounded peaks, softened ink washes, and atmospheric edges over the waterline.",
+      "bbox": [
+        0.2,
+        0.29,
+        0.65,
+        0.21
+      ],
+      "role": "distant mountains and mist",
+      "must_preserve": [
+        "faint washed silhouettes of distant peaks",
+        "horizontal mist band and waterline haze",
+        "soft feathered edges with minimal linework",
+        "low-contrast gray-green atmospheric wash",
+        "open negative space between peaks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_misty_distant_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_village_cluster",
+      "description": "Isolate the middle-right riverside settlement: small roofed houses nestled among willows and shrubs along the bank, with thin architectural lines, layered roof geometry, and surrounding tree canopies.",
+      "bbox": [
+        0.55,
+        0.56,
+        0.39,
+        0.13
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "slender black roof outlines and eaves",
+        "rectangular wall and window geometry",
+        "willow-like drooping tree branches around houses",
+        "low shrubs and bank texture",
+        "fine horizontal shoreline strokes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_riverside_village_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_lake_boat",
+      "description": "Isolate the broad central water surface with the small boat and two tiny figures, including rippling horizontal water lines, open blank water reserves, and softly inked banks around the boat.",
+      "bbox": [
+        0.36,
+        0.61,
+        0.45,
+        0.16
+      ],
+      "role": "water surface with boat",
+      "must_preserve": [
+        "small boat hull with curved ink outline",
+        "two miniature seated or standing figures in the boat",
+        "delicate horizontal ripple lines",
+        "pale open water left unpainted",
+        "soft gray shoreline washes near the banks"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_central_lake_boat.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_pavilion_grove",
+      "description": "Isolate the lower-left pavilion compound under a dense leafless grove, including the long low building, tiled roof strokes, interior furnishings, surrounding rocks, and fine tree trunks rising behind it.",
+      "bbox": [
+        0.0,
+        0.7,
+        0.33,
+        0.19
+      ],
+      "role": "foreground pavilion and grove",
+      "must_preserve": [
+        "long horizontal pavilion roof with fine parallel tile strokes",
+        "thin posts, walls, and small interior objects",
+        "dense vertical leafless tree trunks",
+        "branching ink network above the roof",
+        "foreground rock outlines and pale green wash accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_left_pavilion_grove.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_stream_scholar",
+      "description": "Isolate the lower-center stream crossing area with small cascade, curved bank path, stones, and lone scholar figure standing near the water. Include the immediate stream brushwork but exclude unrelated pavilion and large tree masses.",
+      "bbox": [
+        0.3,
+        0.8,
+        0.26,
+        0.16
+      ],
+      "role": "foreground stream and figure",
+      "must_preserve": [
+        "tiny scholar figure with robe outline and warm color accent",
+        "curved bank or path line beside the stream",
+        "short repeated strokes indicating falling water and current",
+        "small rounded stones in the streambed",
+        "light ink washes defining the sandy foreground"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_stream_scholar.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

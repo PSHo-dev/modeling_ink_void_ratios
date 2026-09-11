@@ -1,0 +1,151 @@
+{
+  "source_summary": "Tall Chinese landscape with layered blue-green rocky mountains, cascading streams, pine and bamboo groves, winding river flats, and small scholar figures; calligraphy, seals, borders, and plain paper areas are excluded from motifs.",
+  "motifs": [
+    {
+      "name": "distant_mist_mountains",
+      "description": "Soft background mountain silhouettes across the upper distance, including the left cropped cliff, central muted triangular peak, and low right ridges emerging from pale mist.",
+      "bbox": [
+        0.0,
+        0.112,
+        0.98,
+        0.16
+      ],
+      "role": "distant mountain and atmospheric backdrop",
+      "must_preserve": [
+        "faint grey-brown wash silhouettes",
+        "soft mist-dissolved mountain edges",
+        "subtle stepped peak outlines",
+        "low-contrast recession behind foreground hills"
+      ]
+    },
+    {
+      "name": "upper_left_crag_cluster",
+      "description": "Large blue-green rocky mountain cluster on the upper left with stacked crags, rounded boulders, dark vegetation dots, and ochre rock seams.",
+      "bbox": [
+        0.0,
+        0.128,
+        0.56,
+        0.27
+      ],
+      "role": "dominant foreground mountain mass",
+      "must_preserve": [
+        "blue-green mineral washes",
+        "angular contour linework",
+        "dark moss-dot texture along ridges",
+        "ochre crevice accents",
+        "vertical cliff striations and broken rock planes"
+      ]
+    },
+    {
+      "name": "upper_right_bamboo_cliffs",
+      "description": "Right-side upper hillside and cliff group with pale green slopes, dark shrub caps, vertical bamboo or slender pines, and a narrow pale waterfall-like cleft.",
+      "bbox": [
+        0.52,
+        0.245,
+        0.46,
+        0.27
+      ],
+      "role": "right enclosing hillside with grove",
+      "must_preserve": [
+        "thin vertical bamboo/pine strokes",
+        "dark clustered foliage dots",
+        "pale green hill washes",
+        "sharp ink rock contours",
+        "narrow white falling-water cleft and misty edges"
+      ]
+    },
+    {
+      "name": "central_cascading_stream_gorge",
+      "description": "Central descending stream system winding through rocks, including multiple small waterfalls, white water channels, scalloped current lines, and flanking boulders.",
+      "bbox": [
+        0.16,
+        0.292,
+        0.58,
+        0.34
+      ],
+      "role": "central watercourse and gorge",
+      "must_preserve": [
+        "curving ink current lines",
+        "tiered waterfall bands",
+        "white negative-space water passages",
+        "green and ochre rock banks",
+        "small dark moss clusters along stream edges"
+      ]
+    },
+    {
+      "name": "middle_left_conifer_bank",
+      "description": "Dense stand of tall, thin conifers on the middle-left riverbank, backed by pale hills and a broad horizontal water surface.",
+      "bbox": [
+        0.0,
+        0.505,
+        0.42,
+        0.15
+      ],
+      "role": "middle-ground tree grove and riverbank",
+      "must_preserve": [
+        "slender vertical trunks",
+        "dark needle clusters at tree tops",
+        "fine reed-like strokes at the base",
+        "pale rippled river lines",
+        "soft green bank wash"
+      ]
+    },
+    {
+      "name": "middle_right_wooded_river_bend",
+      "description": "Middle-right wooded bend with rounded blue-green hills, dense dark tree canopies, exposed ochre rock faces, and winding stream channels between them.",
+      "bbox": [
+        0.45,
+        0.545,
+        0.53,
+        0.19
+      ],
+      "role": "middle-ground wooded island and river bend",
+      "must_preserve": [
+        "dark stippled foliage masses",
+        "curved river ripple linework",
+        "blue-green rounded rock washes",
+        "ochre exposed ledges",
+        "irregular shrub silhouettes along ridge tops"
+      ]
+    },
+    {
+      "name": "lower_left_gnarled_pine_group",
+      "description": "Large foreground-left pine group with twisting trunks, drooping branches, dark needle masses, and smaller companion trees rising from a green bank.",
+      "bbox": [
+        0.03,
+        0.675,
+        0.52,
+        0.19
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "gnarled ochre-brown trunks",
+        "black-green pine needle clusters",
+        "drooping branch tips",
+        "fine bark linework",
+        "dark base shadows and surrounding low shrubs"
+      ]
+    },
+    {
+      "name": "lower_scholars_and_lone_pine",
+      "description": "Lower riverbank scene with two small scholar figures standing on pale ground near a tall sparse pine and low shrubs, set against calm water lines.",
+      "bbox": [
+        0.43,
+        0.785,
+        0.38,
+        0.13
+      ],
+      "role": "human-scale foreground vignette",
+      "must_preserve": [
+        "two tiny robed scholar figures",
+        "minimal face and robe linework",
+        "tall slender pine trunk with flat canopy",
+        "low dotted shrubs",
+        "pale bank wash and surrounding water ripples"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 24 Nanjing Museum.jpg",
+  "created_at": "2026-07-16T23:36:24.557270+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

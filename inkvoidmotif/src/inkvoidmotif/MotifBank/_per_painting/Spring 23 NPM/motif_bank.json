@@ -1,0 +1,97 @@
+{
+  "source": "../../../../../../Input_Images/Spring 23 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-27T22:24:13.653665+00:00",
+  "motifs": [
+    {
+      "name": "central_cliff_massif",
+      "description": "Isolate the dominant central mountain complex: tall vertical cliffs, dark pine-topped ridgelines, split ravines, and mist-veiled lower slopes. Exclude the pavilion village and foreground trees below.",
+      "bbox": [
+        0.421,
+        0.115,
+        0.455,
+        0.445
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "layered axe-cut and hemp-fiber rock strokes",
+        "dark ink washes on cliff faces",
+        "pale vertical ravine reserves",
+        "pine-needle silhouettes along crests",
+        "soft mist edges cutting across the lower mountain",
+        "small dotted foliage accents on ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_cliff_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_islet_peak_chain",
+      "description": "Isolate the small right middle-distance island mountains and narrow water gap behind the main massif, including the slender detached peak and two clustered rocky islets.",
+      "bbox": [
+        0.772,
+        0.302,
+        0.174,
+        0.153
+      ],
+      "role": "distant islets",
+      "must_preserve": [
+        "tiny pine strokes on the island crests",
+        "mist-softened lower edges",
+        "thin horizontal waterline washes",
+        "dark compact rock texture on the clustered peaks",
+        "slender vertical silhouette of the detached peak"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_islet_peak_chain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_wooded_rock_promontory",
+      "description": "Isolate the left-middle wooded rocky promontory with an arched cliff opening, dense trees on top, and shrubs descending along the slope.",
+      "bbox": [
+        0.107,
+        0.363,
+        0.366,
+        0.271
+      ],
+      "role": "wooded hillside",
+      "must_preserve": [
+        "dark clustered tree crowns with individual leaf dots",
+        "vertical trunks and twig linework",
+        "rock arch contour and pale interior wash",
+        "textured cliff strokes under the trees",
+        "mist-softened lower slope",
+        "small shrubs clinging to ledges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_left_wooded_rock_promontory.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "midright_pavilion_compound",
+      "description": "Isolate the mid-right pavilion compound nestled among trees at the foot of the cliffs: layered tiled roofs, rectangular walls, and surrounding bamboo-like foliage.",
+      "bbox": [
+        0.635,
+        0.504,
+        0.274,
+        0.171
+      ],
+      "role": "pavilion group",
+      "must_preserve": [
+        "precise roof geometry with parallel eave lines",
+        "rectangular wall and window linework",
+        "light tan roof wash accents",
+        "surrounding vertical trunks and fine foliage",
+        "rocky slope behind the buildings",
+        "misty clearing separating architecture from cliff"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_midright_pavilion_compound.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "source": "../../../../../../Input_Images/Autumn_Desolate 10 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-09-03T19:15:39.437887+00:00",
+  "motifs": [
+    {
+      "name": "upper_left_hazy_mountain_slope",
+      "description": "Isolate the broad pale mountain mass on the upper left, including the sloping ridge descending toward center and the scattered dark cun texture strokes across its face.",
+      "bbox": [
+        0.02,
+        0.17,
+        0.43,
+        0.2
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "soft diluted wash silhouette",
+        "broken dry-brush ridge contours",
+        "scattered dark horizontal texture strokes",
+        "faint descending ravine lines",
+        "mist-softened lower edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_upper_left_hazy_mountain_slope.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_central_saddle_ridge",
+      "description": "Isolate the central upper saddle-like ridge and adjoining sloped landform beneath the inscriptions, without including calligraphy or seals.",
+      "bbox": [
+        0.34,
+        0.28,
+        0.35,
+        0.13
+      ],
+      "role": "distant hillside",
+      "must_preserve": [
+        "layered grey wash transitions",
+        "dark broken strokes defining the saddle",
+        "low sloping ridge line",
+        "soft eroded mist edges",
+        "subtle diagonal terrain striations"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_upper_central_saddle_ridge.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_right_distant_peak",
+      "description": "Isolate the small distant peak and low ridge at upper right, separated from the neighboring central hillside and inscription area.",
+      "bbox": [
+        0.66,
+        0.29,
+        0.28,
+        0.08
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "small pointed peak profile",
+        "dark dry-brush crest marks",
+        "thin trailing ridge wash",
+        "pale surrounding atmospheric fade"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_upper_right_distant_peak.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "upper_horizontal_shore_bands",
+      "description": "Isolate the horizontal shoreline and water bands across the upper-middle of the painting below the distant mountains.",
+      "bbox": [
+        0.0,
+        0.36,
+        1.0,
+        0.09
+      ],
+      "role": "water and shoreline",
+      "must_preserve": [
+        "long flat ink bands",
+        "soft wet-wash water tone",
+        "broken dark shoreline accents",
+        "misty gaps between strokes",
+        "low clustered bank textures near the right"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_upper_horizontal_shore_bands.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_leafed_tree",
+      "description": "Isolate the tall slender tree on the lower right with arcing branches and clustered dark leaves, including its base where it meets the bank but not the huts.",
+      "bbox": [
+        0.46,
+        0.56,
+        0.5,
+        0.31
+      ],
+      "role": "foreground tree",
+      "must_preserve": [
+        "thin pale trunk lines",
+        "forking branch structure",
+        "drooping leaf clusters in dark ink",
+        "short vertical twig strokes on the right",
+        "dry-brush base and root accents"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_right_leafed_tree.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_left_low_hill_bank",
+      "description": "Isolate the low rounded hill and riverbank behind the huts on the lower left, keeping only the pale landform, contour strokes, and adjacent bank marks.",
+      "bbox": [
+        0.03,
+        0.73,
+        0.48,
+        0.11
+      ],
+      "role": "middle-ground hillside",
+      "must_preserve": [
+        "rounded hill silhouette",
+        "light grey wash modeling",
+        "horizontal contour lines",
+        "dark broken bank strokes",
+        "soft transition into blank water space"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_left_low_hill_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "riverside_hut_cluster",
+      "description": "Isolate the small riverside hut group in the lower-left foreground, including the two roof forms and simple wall posts, without surrounding unrelated tree canopy.",
+      "bbox": [
+        0.08,
+        0.83,
+        0.48,
+        0.08
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "triangular dark thatched roof",
+        "pale low roof to the left",
+        "simple vertical wall supports",
+        "thin ink roof geometry",
+        "soft surrounding wash suggesting mist at the eaves"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_riverside_hut_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_rocky_bank",
+      "description": "Isolate the dark rocky foreground bank running along the lower right and center, including scattered stones and layered shoreline strokes.",
+      "bbox": [
+        0.38,
+        0.82,
+        0.59,
+        0.13
+      ],
+      "role": "foreground rocks and bank",
+      "must_preserve": [
+        "irregular dark rock clusters",
+        "dry-brush broken outlines",
+        "layered horizontal shoreline strokes",
+        "pale wash gaps between stones",
+        "rough textured bank edge"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_rocky_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

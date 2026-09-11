@@ -1,0 +1,150 @@
+{
+  "source_summary": "Ink painting dominated by a bare plum-like tree form on warm silk, with thick wet-wash trunk at the right, angular leafless branches extending across the center and lower half, and a faint horizontal atmospheric wash. Red seals and small inscription are excluded.",
+  "motifs": [
+    {
+      "name": "right_curved_trunk",
+      "description": "Isolate the thick dark trunk mass along the right edge, including the curved swollen section, forked bend, and wet ink transitions from dark outer contour to pale interior wash.",
+      "bbox": [
+        0.74,
+        0.0,
+        0.26,
+        0.65
+      ],
+      "role": "tree trunk",
+      "must_preserve": [
+        "bold curved contour strokes",
+        "soft diluted ink wash inside the trunk",
+        "knotted swelling at the central bend",
+        "dry-brush rough edges",
+        "dark-to-light tonal bleeding"
+      ]
+    },
+    {
+      "name": "upper_forking_branches",
+      "description": "Isolate the high network of thin bare branches emerging from the upper right trunk and crossing diagonally through the top center, without seals or border areas.",
+      "bbox": [
+        0.4,
+        0.0,
+        0.57,
+        0.31
+      ],
+      "role": "upper bare branches",
+      "must_preserve": [
+        "long tapering ink lines",
+        "angular branch joints",
+        "fine twig tips",
+        "slight variations in ink density",
+        "overlapping diagonals against empty ground"
+      ]
+    },
+    {
+      "name": "right_vertical_twig_cluster",
+      "description": "Isolate the slender upright twig cluster just right of the main trunk, including the narrow vertical shoots and small angled offshoots.",
+      "bbox": [
+        0.88,
+        0.26,
+        0.1,
+        0.24
+      ],
+      "role": "bare twig cluster",
+      "must_preserve": [
+        "thin vertical brush lines",
+        "needle-like twig endings",
+        "subtle dry-brush breaks",
+        "delicate spacing between parallel shoots"
+      ]
+    },
+    {
+      "name": "central_rising_branch",
+      "description": "Isolate the central leafless branch rising from the lower crossing point toward the upper left, with its angled joints and small side twigs.",
+      "bbox": [
+        0.28,
+        0.32,
+        0.38,
+        0.41
+      ],
+      "role": "rising branch",
+      "must_preserve": [
+        "slender taper from base to tip",
+        "sharp angular bends",
+        "small hooked side twig",
+        "light gray ink variations",
+        "fine dry-brush linework"
+      ]
+    },
+    {
+      "name": "long_left_sweeping_branch",
+      "description": "Isolate the long, low horizontal branch sweeping from the central junction toward the left, including its sparse upward and downward twigs.",
+      "bbox": [
+        0.13,
+        0.63,
+        0.65,
+        0.12
+      ],
+      "role": "horizontal branch",
+      "must_preserve": [
+        "extended wavering main line",
+        "thin crossing twiglets",
+        "subtle darkened central segment",
+        "dry-brush gaps",
+        "delicate tapering left tips"
+      ]
+    },
+    {
+      "name": "lower_right_diagonal_branch",
+      "description": "Isolate the darker diagonal branch descending from the central junction to the lower right edge; exclude the nearby black inscription characters.",
+      "bbox": [
+        0.63,
+        0.7,
+        0.37,
+        0.19
+      ],
+      "role": "lower branch",
+      "must_preserve": [
+        "angular dark branch body",
+        "thickened elbow near the junction",
+        "taper toward the lower right edge",
+        "uneven ink pooling",
+        "faceted brush geometry"
+      ]
+    },
+    {
+      "name": "lower_right_horizontal_shoot",
+      "description": "Isolate the thin nearly horizontal shoot extending across the lower right area, separate from the red seal below and the inscription above.",
+      "bbox": [
+        0.76,
+        0.8,
+        0.24,
+        0.06
+      ],
+      "role": "secondary twig",
+      "must_preserve": [
+        "fine pale ink line",
+        "slight upward curve",
+        "tapered right endpoint",
+        "minimal dry-brush texture"
+      ]
+    },
+    {
+      "name": "central_mist_wash_band",
+      "description": "Isolate the faint horizontal gray-green atmospheric wash band behind the branches across the middle of the image, keeping only the soft tonal field and not the paper texture, seals, or branches.",
+      "bbox": [
+        0.0,
+        0.42,
+        1.0,
+        0.17
+      ],
+      "role": "mist wash",
+      "must_preserve": [
+        "soft horizontal gradient",
+        "feathered upper and lower edges",
+        "very pale ink modulation",
+        "subtle uneven wash pooling",
+        "empty-space atmosphere"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 01 NPM.jpg",
+  "created_at": "2026-09-03T22:05:42.731190+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

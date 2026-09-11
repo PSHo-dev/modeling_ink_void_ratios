@@ -1,0 +1,151 @@
+{
+  "source_summary": "Ink monochrome Chinese landscape with jagged mountain masses at left and center, bare winter trees, a small boat on open water, a foreground rocky bank with leaning pines, and distant right-side snowy hills with conifers. Calligraphy in the upper right is excluded.",
+  "motifs": [
+    {
+      "name": "left_jagged_mountain_massif",
+      "description": "Isolate the tall left cluster of steep, jagged mountains and adjacent mist-softened foothills, excluding the foreground shoreline trees where they cross in front.",
+      "bbox": [
+        0.115,
+        0.19,
+        0.255,
+        0.37
+      ],
+      "role": "distant mountain",
+      "must_preserve": [
+        "broken ink outlines on vertical cliff faces",
+        "soft gray wash gradients inside the peaks",
+        "dark textured crevices along the left flank",
+        "small dark tree strokes on ridge tops",
+        "misty lower edge where the massif dissolves into the bank"
+      ]
+    },
+    {
+      "name": "central_needle_crags",
+      "description": "Isolate the central serrated crag group with the high peak, descending cliff planes, narrow clefts, and pale lower rock forms; omit nearby foreground pine and shore grove.",
+      "bbox": [
+        0.335,
+        0.235,
+        0.18,
+        0.46
+      ],
+      "role": "middle-distance mountain",
+      "must_preserve": [
+        "angular contour linework on the peak edges",
+        "dry-brush rock texture and vertical fissures",
+        "dark ink accents in ravines",
+        "soft wash transitions on the lower cliff",
+        "irregular broken silhouette against the open sky"
+      ]
+    },
+    {
+      "name": "leafless_shore_grove",
+      "description": "Isolate the winter grove on the left-middle shoreline: bare trunks, twiggy branches, sparse dark foliage marks, and the low rocky bank beneath them.",
+      "bbox": [
+        0.195,
+        0.345,
+        0.205,
+        0.39
+      ],
+      "role": "shoreline trees and rocks",
+      "must_preserve": [
+        "thin calligraphic branch linework",
+        "clustered vertical trunks of varied weight",
+        "small dark leaf or needle dots",
+        "low horizontal bank contour",
+        "rocky mounds with dry-brush texture at the base"
+      ]
+    },
+    {
+      "name": "small_left_boat",
+      "description": "Isolate the tiny boat floating in the lower-left water, including its curved hull, seated figures or dark marks, and slight water strokes around it.",
+      "bbox": [
+        0.108,
+        0.735,
+        0.065,
+        0.038
+      ],
+      "role": "boat",
+      "must_preserve": [
+        "delicate curved hull line",
+        "tiny dark figure-like strokes inside the boat",
+        "short horizontal water ripples",
+        "minimal pale space around the boat needed to retain scale"
+      ]
+    },
+    {
+      "name": "foreground_leaning_pine_group",
+      "description": "Isolate the prominent foreground pine group on the rocky bank: two tall leaning trunks, spreading branch canopy, sparse needles, exposed roots, and small companion branches.",
+      "bbox": [
+        0.5,
+        0.385,
+        0.215,
+        0.42
+      ],
+      "role": "foreground pine",
+      "must_preserve": [
+        "paired leaning trunks with dark contour strokes",
+        "radiating pine branch structure",
+        "fine needle clusters and twig tips",
+        "root lines descending into the rocks",
+        "dark-to-light ink variation in the trunk wash"
+      ]
+    },
+    {
+      "name": "foreground_rocky_snow_bank",
+      "description": "Isolate the broad foreground rocky bank beneath and around the pine base, with rounded snow-like mounds, dark rock accents, and soft lower shoreline washes.",
+      "bbox": [
+        0.355,
+        0.755,
+        0.44,
+        0.235
+      ],
+      "role": "foreground rocks",
+      "must_preserve": [
+        "rounded mound contours",
+        "dry-brush stippling and dark rock cracks",
+        "soft gray wash shadows under the bank",
+        "irregular broken edge along the water",
+        "small dark vegetation accents among the rocks"
+      ]
+    },
+    {
+      "name": "right_distant_conifer_hills",
+      "description": "Isolate the distant right-side rolling hills with clusters of small conifers and bare trees along the ridge, excluding the calligraphy above.",
+      "bbox": [
+        0.625,
+        0.485,
+        0.35,
+        0.2
+      ],
+      "role": "distant hills and forest",
+      "must_preserve": [
+        "low undulating hill outlines",
+        "tiny vertical conifer silhouettes",
+        "repeated dark needle marks",
+        "pale wash on snowy slopes",
+        "mist-softened horizontal base line"
+      ]
+    },
+    {
+      "name": "open_river_mist_bands",
+      "description": "Isolate the open water and mist bands running across the lower half of the painting, including horizontal shoreline contours and soft wash transitions, while masking out boat, trees, rocks, and mountain forms.",
+      "bbox": [
+        0.0,
+        0.515,
+        0.99,
+        0.355
+      ],
+      "role": "water and mist",
+      "must_preserve": [
+        "long horizontal ink contour lines",
+        "soft gray atmospheric wash",
+        "blank water reserves between banks",
+        "feathered mist edges around landforms",
+        "subtle tonal shifts separating near water from distant shore"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Winter_Solitary 08 BPM.jpg",
+  "created_at": "2026-08-06T23:03:40.943842+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

@@ -1,0 +1,164 @@
+{
+  "source": "../../../../../../Input_Images/Summer_Coolness 14 NPM.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-08-05T05:46:55.110813+00:00",
+  "motifs": [
+    {
+      "name": "towering_right_mountain",
+      "description": "Isolate the large vertical blue-green mountain mass on the upper right, including its stacked rounded peaks, dark shrub-dot ridgelines, sparse pine stands, pale mineral washes, and ink contour striations.",
+      "bbox": [
+        0.47,
+        0.06,
+        0.5,
+        0.45
+      ],
+      "role": "dominant mountain",
+      "must_preserve": [
+        "blue-green layered washes",
+        "rounded cliff contours",
+        "dark dotted vegetation along ridges",
+        "vertical ink texture strokes",
+        "small pine clusters embedded on slopes",
+        "soft mist gaps at lower edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_towering_right_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_saddle_mountain",
+      "description": "Isolate the left middle mountain ridge forming the valley wall, with its sloping rounded crest, blue-green wash, dark foliage dots, and pale path-like gullies descending toward the central ravine.",
+      "bbox": [
+        0.03,
+        0.2,
+        0.43,
+        0.35
+      ],
+      "role": "secondary mountain",
+      "must_preserve": [
+        "arched ridge silhouette",
+        "thin ink contour lines",
+        "blue-green mineral wash",
+        "peppered shrub dots",
+        "dark tree band along lower edge",
+        "pale ravine cut through the slope"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_saddle_mountain.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "central_waterfall_ravine",
+      "description": "Isolate the central white waterfall and ravine descending between the mountains, with adjacent cliff faces, layered rock ledges, dark foliage borders, and mist-softened lower water.",
+      "bbox": [
+        0.29,
+        0.33,
+        0.31,
+        0.25
+      ],
+      "role": "waterfall and misty ravine",
+      "must_preserve": [
+        "thin vertical waterfall streaks",
+        "white negative-space water channel",
+        "brown-gray rock ledges crossing the ravine",
+        "dark stippled foliage on both sides",
+        "misty fading lower edge",
+        "fine dry-brush cliff texture"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_central_waterfall_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_porous_rock_pine",
+      "description": "Isolate the large pale foreground rock formation at lower left-center together with the gnarled pine growing across it, including holes in the rock, layered ink texture, exposed roots, and dense pine needles.",
+      "bbox": [
+        0.04,
+        0.51,
+        0.48,
+        0.2
+      ],
+      "role": "foreground rock and pine",
+      "must_preserve": [
+        "irregular porous rock openings",
+        "angular rock outline",
+        "gray ink wash shadows",
+        "gnarled pine trunk and roots",
+        "radiating pine needle clusters",
+        "dark stippled shrubs at the base"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/05_foreground_porous_rock_pine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "garden_pavilion_group",
+      "description": "Isolate the lower right garden architecture: the roofed pavilion, adjacent small house, low walls and terrace, nearby scholar figure, shrubs, and framing trees.",
+      "bbox": [
+        0.5,
+        0.6,
+        0.45,
+        0.17
+      ],
+      "role": "pavilion group with figure",
+      "must_preserve": [
+        "polygonal pavilion roof with finial",
+        "thin architectural linework",
+        "cream walls and red-brown trim accents",
+        "tiny seated scholar figure",
+        "low garden wall and platform",
+        "blue-green shrubs and branching trees around buildings"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_garden_pavilion_group.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lotus_water_surface",
+      "description": "Isolate the pale open water area in the lower left and center, including scattered round lotus leaves or floating pads, small stones, soft wash transitions, and shoreline hints without the nearby buildings.",
+      "bbox": [
+        0.0,
+        0.65,
+        0.55,
+        0.27
+      ],
+      "role": "water and lotus surface",
+      "must_preserve": [
+        "pale blank water wash",
+        "scattered circular lotus-pad marks",
+        "small pebble clusters",
+        "subtle gray-green water accents",
+        "soft irregular shoreline edges",
+        "light spacing between floating forms"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lotus_water_surface.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_rocky_tree_bank",
+      "description": "Isolate the lower right sloping rocky bank with blue-green rocks, leaning trees, bamboo-like foliage, dense shrubs, and the descending hillside that frames the water.",
+      "bbox": [
+        0.39,
+        0.73,
+        0.58,
+        0.25
+      ],
+      "role": "foreground wooded bank",
+      "must_preserve": [
+        "blue-green rounded rock masses",
+        "dark stippled moss and shrub dots",
+        "leaning pale tree trunks",
+        "fine branching linework",
+        "leaf clusters with blue-green accents",
+        "layered slope contours and small stones"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_lower_rocky_tree_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}

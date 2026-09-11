@@ -1,0 +1,156 @@
+{
+  "source_summary": "Horizontal Chinese landscape with ink-and-color hills, waterside architecture, lotus pond, wooded shores, willows, and layered distant mountains. Calligraphy, seals, borders, and paper texture are excluded from all motifs.",
+  "motifs": [
+    {
+      "name": "misty_layered_mountain_ridge",
+      "description": "Isolate the continuous pale green and blue-gray background mountain range across the middle distance, including the rounded central hill, soft distant peaks, low ridgelines, and white mist gaps between slopes.",
+      "bbox": [
+        0.245,
+        0.318,
+        0.56,
+        0.285
+      ],
+      "role": "distant mountain and mist backdrop",
+      "must_preserve": [
+        "soft blue-gray distant peak washes",
+        "rounded green central hill contour lines",
+        "dry-brush texture on slopes",
+        "broken mist edges separating hill layers",
+        "small dark shrub dots along ridge crests"
+      ]
+    },
+    {
+      "name": "central_tree_grove",
+      "description": "Isolate the tall central grove rising behind the buildings: the large dark leafy tree, adjacent slimmer trunks, conifer-like verticals, and clustered shrubs at their base.",
+      "bbox": [
+        0.342,
+        0.385,
+        0.155,
+        0.365
+      ],
+      "role": "middle-ground tree mass",
+      "must_preserve": [
+        "dark clustered leaf dabs",
+        "pale exposed branching trunks",
+        "vertical ink strokes of thin trees",
+        "dense shrub dots at the base",
+        "contrast between heavy foliage and light wash background"
+      ]
+    },
+    {
+      "name": "waterside_pavilion_group",
+      "description": "Isolate the group of thatched waterside buildings on stilts, including the long rectangular pavilion, attached lower pavilion, railings, posts, roof eaves, and reflections/posts descending into the water.",
+      "bbox": [
+        0.225,
+        0.62,
+        0.225,
+        0.315
+      ],
+      "role": "pavilion group and village architecture",
+      "must_preserve": [
+        "precise ink roof geometry",
+        "brown thatch strokes along roof ridges",
+        "thin vertical support posts",
+        "open window and railing linework",
+        "dark reflected post marks in the water",
+        "small red and green accents near the water edge"
+      ]
+    },
+    {
+      "name": "lotus_pond_surface",
+      "description": "Isolate the broad lotus-covered water surface in the lower center, selecting the scattered lily pads, pink blossoms, and pale water washes while excluding pavilions, banks, and willows.",
+      "bbox": [
+        0.3,
+        0.708,
+        0.53,
+        0.285
+      ],
+      "role": "foreground water and lotus surface",
+      "must_preserve": [
+        "many separate oval lotus-pad ink shapes",
+        "pink-red flower accents",
+        "irregular spacing of pads across open water",
+        "subtle pale wash of the pond",
+        "tiny stems and dark pad outlines"
+      ]
+    },
+    {
+      "name": "right_willow_bank",
+      "description": "Isolate the right foreground willow bank with two arcing willow trees, drooping leaf strands, dark trunks, low grassy mound, and the small waterfowl visible near the lotus edge.",
+      "bbox": [
+        0.605,
+        0.65,
+        0.305,
+        0.33
+      ],
+      "role": "foreground willow shore",
+      "must_preserve": [
+        "long sweeping willow frond linework",
+        "split dark trunks and branch structure",
+        "soft green mound wash",
+        "dense low shrub texture at the base",
+        "small pale waterfowl forms",
+        "nearby lotus accents that touch the bank"
+      ]
+    },
+    {
+      "name": "distant_wooded_peninsula",
+      "description": "Isolate the middle-distance wooded peninsula and shoreline running from the center toward the right, with rows of thin trunks, dark tree crowns, low sandbars, and pale water/mist behind it.",
+      "bbox": [
+        0.5,
+        0.555,
+        0.285,
+        0.225
+      ],
+      "role": "middle-ground shore and wooded peninsula",
+      "must_preserve": [
+        "repeating vertical tree-trunk strokes",
+        "dark stippled foliage crowns",
+        "thin horizontal shoreline contours",
+        "pale exposed water channels",
+        "soft green-brown bank washes"
+      ]
+    },
+    {
+      "name": "right_wooded_cliff",
+      "description": "Isolate the steep wooded cliff at the right edge below the inscriptions, including the sloped rock face, clustered trees, dark rocky outcrops, and small stones at the waterline.",
+      "bbox": [
+        0.812,
+        0.34,
+        0.12,
+        0.39
+      ],
+      "role": "side cliff and rocky shore",
+      "must_preserve": [
+        "steep pale rock wash",
+        "dark contour strokes on the cliff edge",
+        "dense rounded foliage dabs",
+        "small exposed brown branches",
+        "black rocks and pebbles at the shore",
+        "clear separation from nearby calligraphy and seal"
+      ]
+    },
+    {
+      "name": "left_foreground_rocky_trees",
+      "description": "Isolate the lower-left foreground bank to the right of the red seal area: leaning broadleaf tree, layered shrubs, dark rocks, and grassy mound adjoining the pavilion approach.",
+      "bbox": [
+        0.16,
+        0.64,
+        0.165,
+        0.35
+      ],
+      "role": "foreground rocky bank and trees",
+      "must_preserve": [
+        "curving tan-brown tree trunk",
+        "rounded stippled leaf clusters",
+        "dark ink rock masses",
+        "green wash on foreground mound",
+        "fine branch forks",
+        "dense brush texture without any seal marks"
+      ]
+    }
+  ],
+  "source": "../../../../../../Input_Images/Summer 21 NPM.jpg",
+  "created_at": "2026-08-26T22:01:19.132959+00:00",
+  "planning_prompt": "Analyze this Chinese landscape painting as a source for a motif bank.\n\nCreate exactly 8 reusable motifs. Return JSON only.\n\nFor each motif:\n- Use a short snake_case name.\n- Describe what should be isolated.\n- Provide a normalized bbox as [x, y, width, height], where 0,0 is the top-left of the full image.\n- Include all visible brushwork for that motif, but do not include unrelated neighboring motifs.\n- Prefer motifs that can be recombined into a new coherent Chinese painting: mountains, hillsides, village clusters, pavilion groups, water/lotus surfaces, bridges, scholar figures, boats, clouds, rocks, shrubs, pines, willows, bamboo.\n- Capture details that must be preserved: linework, wash texture, roof geometry, tree needles, rock texture, mist edges, and color accents.\n\nDo not invent objects that are not visible in the source image.\nDo not include calligraphy, seals, labels, borders, or paper texture as motifs unless explicitly requested."
+}

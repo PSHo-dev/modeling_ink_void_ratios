@@ -1,0 +1,157 @@
+{
+  "source": "../../../../../../Input_Images/Summer 11 Nanjing.jpg",
+  "plan_path": "motif_plan.json",
+  "motif_sheet": "motif_sheet.png",
+  "image_provider": "chatgpt_web",
+  "image_model": "ChatGPT Image web",
+  "created_at": "2026-07-16T23:35:47.364956+00:00",
+  "motifs": [
+    {
+      "name": "central_striated_mountain_massif",
+      "description": "Isolate the dominant central mountain mass rising from the middle of the painting, including its rounded summit, dark wooded crest, sweeping vertical striations, terraced mid-slope paths, and pale misty gullies. Exclude the calligraphy area and separate lower village clusters where possible.",
+      "bbox": [
+        0.28,
+        0.15,
+        0.62,
+        0.42
+      ],
+      "role": "main mountain",
+      "must_preserve": [
+        "arched vertical hemp-fiber texture strokes on the slopes",
+        "dark ink foliage dots along the ridge crest",
+        "soft gray wash transitions on the mountain faces",
+        "terraced horizontal path lines across the lower slope",
+        "misty pale channels separating darker ridges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/01_central_striated_mountain_massif.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "left_misty_valley_peaks",
+      "description": "Isolate the left midground valley with distant triangular peaks, receding hills, a narrow pale ravine or stream path, and small vertical tree strokes on the slopes.",
+      "bbox": [
+        0.0,
+        0.34,
+        0.31,
+        0.25
+      ],
+      "role": "distant mountain valley",
+      "must_preserve": [
+        "faint triangular distant peak silhouettes",
+        "thin pale winding ravine line",
+        "small clustered pine and shrub strokes",
+        "layered light-to-dark wash on receding hills",
+        "delicate contour lines on the left rocky slopes"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/02_left_misty_valley_peaks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "right_upper_cliff_ravine",
+      "description": "Isolate the upper-right cliff and ravine section, including the dark rocky shoulder at the far right, descending striated cliff face, narrow valley notch, scattered trees, and darker rock pockets at the base.",
+      "bbox": [
+        0.73,
+        0.26,
+        0.27,
+        0.28
+      ],
+      "role": "side mountain ravine",
+      "must_preserve": [
+        "curving vertical cliff texture strokes",
+        "dark ink rock clusters along the right edge",
+        "small sparse tree marks in the ravine",
+        "soft gray wash suggesting mist between cliffs",
+        "jagged base rocks at the valley floor"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/03_right_upper_cliff_ravine.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "mid_left_hidden_pavilion_cluster",
+      "description": "Isolate the small pavilion or house cluster tucked among trees on the mid-left hillside, with its slanted roofs, surrounding shrubs, nearby rocks, and adjacent water or path edge.",
+      "bbox": [
+        0.06,
+        0.56,
+        0.23,
+        0.13
+      ],
+      "role": "village pavilion group",
+      "must_preserve": [
+        "angular roof geometry with dark ridge lines",
+        "thin wall outlines beneath the roofs",
+        "surrounding leaf and bamboo-like strokes",
+        "nearby pale water/path boundary",
+        "rock outlines and dark ink accents around the settlement"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/04_mid_left_hidden_pavilion_cluster.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_center_hillside_hamlet",
+      "description": "Isolate the lower-center hamlet set into the hillside, including small rectangular buildings, sloped roofs, adjoining terraces, sparse trees, and the descending path through the village.",
+      "bbox": [
+        0.42,
+        0.62,
+        0.3,
+        0.16
+      ],
+      "role": "village cluster",
+      "must_preserve": [
+        "tiny roof ridges and eaves",
+        "rectangular wall outlines",
+        "stepped hillside terraces",
+        "thin bare tree trunks around the houses",
+        "dark ink accents defining the path and settlement edges"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/06_lower_center_hillside_hamlet.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "lower_right_pine_grove_rocks",
+      "description": "Isolate the large lower-right pine grove with tall trunks, dense needle clusters, twisting branches, and rounded foreground rocks at the base.",
+      "bbox": [
+        0.62,
+        0.59,
+        0.36,
+        0.36
+      ],
+      "role": "foreground pine grove",
+      "must_preserve": [
+        "radiating pine needle clusters",
+        "long vertical trunks with varied ink weight",
+        "twisting branch linework",
+        "rounded boulder forms at the base",
+        "dense dark stippling and wash shadows under the trees"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/07_lower_right_pine_grove_rocks.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    },
+    {
+      "name": "foreground_water_bridge_bank",
+      "description": "Isolate the foreground water bank with the low bridge or crossing, pale open water, small rocks, reeds, shrubs, and the gently curving shoreline at the bottom of the composition.",
+      "bbox": [
+        0.0,
+        0.82,
+        0.68,
+        0.14
+      ],
+      "role": "foreground water and bridge",
+      "must_preserve": [
+        "thin horizontal water lines",
+        "low bridge or plank crossing with dark supports",
+        "curving shoreline contour",
+        "small foreground rock clusters",
+        "reed and shrub strokes along the bank"
+      ],
+      "crop_path": null,
+      "asset_path": "motifs/08_foreground_water_bridge_bank.png",
+      "prompt": "Imported from a ChatGPT Image motif-bank sheet and converted to transparent PNG."
+    }
+  ]
+}
